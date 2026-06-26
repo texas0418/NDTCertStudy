@@ -55,6 +55,24 @@ export const blockLabels: Record<string, string> = {
   flaw_detection: "Flaw Detection & Sizing",
   codes_api1104: "Codes (API 1104)",
   general_practice_safety: "General Practice & Safety",
+  // MT Level II
+  mt_principles: "Principles of Magnetism",
+  mt_methods: "Magnetization Methods",
+  mt_current: "Current & Penetration",
+  mt_equipment: "Equipment",
+  mt_particles: "Particles & Media",
+  mt_field: "Field Strength & Indicators",
+  mt_indications: "Indications & Interpretation",
+  mt_process: "Process, Lighting & Codes",
+  // PT Level II
+  pt_principles: "Principles & Physical Concepts",
+  pt_materials: "Materials & Classification",
+  pt_process: "Process Sequence & Steps",
+  pt_removal: "Removal & Emulsification",
+  pt_developers: "Developers",
+  pt_equipment: "Equipment, Lighting & Control",
+  pt_indications: "Indications & Interpretation",
+  pt_safety: "Safety, Codes & Applications",
 };
 
 // Untouched topics read neutral grey; color only appears once attempted.

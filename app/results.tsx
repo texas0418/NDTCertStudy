@@ -90,7 +90,7 @@ export default function Results() {
         )}
 
         <Pressable
-          onPress={() => router.replace("/module/utii-conventional")}
+          onPress={() => router.replace(`/module/${rec.module ?? "utii-conventional"}`)}
           style={{ marginTop: 12, backgroundColor: theme.amber, borderRadius: 10, paddingVertical: 14, alignItems: "center" }}
         >
           <Text style={{ fontFamily: mono, fontSize: 13, fontWeight: "700", letterSpacing: 0.5, color: "#1A1206" }}>

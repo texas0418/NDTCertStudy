@@ -1,27 +1,76 @@
-import bankJson from "../assets/bank.json";
+import utJson from "../assets/bank.json";
+import mtJson from "../assets/bank_mpi.json";
+import ptJson from "../assets/bank_pt.json";
 import { Bank, Block, Question, Unit, Variant } from "./types";
 
-export const bank = bankJson as unknown as Bank;
-
-export function getBlocks(): Block[] {
-  return bank.blocks;
+export interface ModuleDef {
+  id: string;
+  title: string;
+  subtitle: string;
+  method: string; // short tag, e.g. "UT" / "MT"
+  bank: Bank;
 }
 
-export function getBlock(blockName: string): Block | undefined {
-  return bank.blocks.find((b) => b.block === blockName);
+// The owned-module registry. The shelf, module screen, and sessions are all
+// scoped through these. Question ids are globally unique across modules, so
+// progress/bookmarks/exams (keyed by id) work without per-module namespacing.
+export const MODULES: ModuleDef[] = [
+  {
+    id: "utii-conventional",
+    title: "UT Level II",
+    subtitle: "Conventional",
+    method: "UT",
+    bank: utJson as unknown as Bank,
+  },
+  {
+    id: "mtii",
+    title: "MT Level II",
+    subtitle: "Magnetic Particle",
+    method: "MT",
+    bank: mtJson as unknown as Bank,
+  },
+  {
+    id: "ptii",
+    title: "PT Level II",
+    subtitle: "Liquid Penetrant",
+    method: "PT",
+    bank: ptJson as unknown as Bank,
+  },
+];
+
+const DEFAULT_MODULE = MODULES[0];
+
+export function getModule(id?: string): ModuleDef {
+  return MODULES.find((m) => m.id === id) ?? DEFAULT_MODULE;
 }
 
-export function getAllQuestions(): Question[] {
-  return bank.blocks.flatMap((b) => b.questions);
+export function getBlocks(moduleId?: string): Block[] {
+  return getModule(moduleId).bank.blocks;
 }
 
-export function getQuestionsForBlock(blockName: string): Question[] {
-  if (blockName === "all") return getAllQuestions();
-  return getBlock(blockName)?.questions ?? [];
+export function getAllQuestions(moduleId?: string): Question[] {
+  return getBlocks(moduleId).flatMap((b) => b.questions);
+}
+
+export function getQuestionsForBlock(moduleId: string, blockName: string): Question[] {
+  if (blockName === "all") return getAllQuestions(moduleId);
+  return getBlocks(moduleId).find((b) => b.block === blockName)?.questions ?? [];
+}
+
+// Every question across every module (ids are unique). Used by global,
+// id-keyed views: saved questions, exam review, and settings totals.
+export function getEveryQuestion(): Question[] {
+  return MODULES.flatMap((m) => m.bank.blocks.flatMap((b) => b.questions));
 }
 
 export function getQuestionById(id: string): Question | undefined {
-  return getAllQuestions().find((q) => q.id === id);
+  return getEveryQuestion().find((q) => q.id === id);
+}
+
+// Which module owns a given block key (for back-navigation from results).
+export function moduleForBlockKey(blockKey: string): ModuleDef | undefined {
+  if (!blockKey || blockKey === "all") return undefined;
+  return MODULES.find((m) => m.bank.blocks.some((b) => b.block === blockKey));
 }
 
 // Returns the active variant for the chosen unit system.
@@ -29,9 +78,4 @@ export function activeVariant(q: Question, unit: Unit): Variant {
   if (q.requiresUnits && q.variants) return q.variants[unit];
   // content is always present when requiresUnits is false
   return q.content as Variant;
-}
-
-// Map a block name to the count of its questions.
-export function blockCount(blockName: string): number {
-  return getBlock(blockName)?.count ?? 0;
 }

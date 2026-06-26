@@ -1,40 +1,46 @@
-import { useRouter } from "expo-router";
+import { useLocalSearchParams, useRouter } from "expo-router";
 import React from "react";
 import { Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { TopicTile } from "../../components/TopicTile";
 import { UnitToggle } from "../../components/UnitToggle";
-import { bank, getBlocks } from "../../lib/bank";
+import { getBlocks, getModule } from "../../lib/bank";
 import { blockReadiness, useStore } from "../../lib/store";
 import { mono, readinessColor, theme } from "../../lib/theme";
 
 export default function ModuleScreen() {
   const router = useRouter();
+  const { id } = useLocalSearchParams<{ id: string }>();
+  const mod = getModule(id);
   const progress = useStore((s) => s.progress);
   const bookmarks = useStore((s) => s.bookmarks);
   const exams = useStore((s) => s.exams);
-  const blocks = getBlocks();
+  const blocks = getBlocks(mod.id);
 
   const allIds = blocks.flatMap((b) => b.questions.map((q) => q.id));
   const overall = blockReadiness(progress, allIds);
   const attempted = allIds.some((id) => (progress[id]?.seen ?? 0) > 0);
+
+  // Whether the module has any unit-dependent (imperial/metric) questions.
+  const hasUnits = blocks.some((b) => b.questions.some((q) => q.requiresUnits));
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.bg }} edges={["bottom"]}>
       <ScrollView contentContainerStyle={{ padding: 16 }}>
         <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: 18 }}>
           <View>
-            <Text style={{ fontSize: 21, fontWeight: "700", color: theme.ink }}>UT Level II</Text>
+            <Text style={{ fontSize: 21, fontWeight: "700", color: theme.ink }}>{mod.title}</Text>
             <Text style={{ fontFamily: mono, fontSize: 11, color: theme.muted, marginTop: 2 }}>
-              CONVENTIONAL {"\u00b7"} <Text style={{ color: readinessColor(overall, attempted) }}>{overall}% READY</Text>
+              {mod.subtitle.toUpperCase()} {"\u00b7"}{" "}
+              <Text style={{ color: readinessColor(overall, attempted) }}>{overall}% READY</Text>
             </Text>
           </View>
-          <UnitToggle />
+          {hasUnits && <UnitToggle />}
         </View>
 
         <View style={{ flexDirection: "row", gap: 10, marginBottom: 12 }}>
           <Pressable
-            onPress={() => router.push({ pathname: "/session", params: { block: "all", mode: "practice" } })}
+            onPress={() => router.push({ pathname: "/session", params: { module: mod.id, block: "all", mode: "practice" } })}
             style={{ flex: 1, backgroundColor: theme.amber, borderRadius: 10, paddingVertical: 14, alignItems: "center" }}
           >
             <Text style={{ fontFamily: mono, fontSize: 13, fontWeight: "700", letterSpacing: 0.5, color: "#1A1206" }}>
@@ -42,7 +48,7 @@ export default function ModuleScreen() {
             </Text>
           </Pressable>
           <Pressable
-            onPress={() => router.push({ pathname: "/session", params: { block: "all", mode: "exam" } })}
+            onPress={() => router.push({ pathname: "/session", params: { module: mod.id, block: "all", mode: "exam" } })}
             style={{
               flex: 1,
               backgroundColor: "transparent",
@@ -119,7 +125,7 @@ export default function ModuleScreen() {
                   count={b.count}
                   attempted={att}
                   onPress={() =>
-                    router.push({ pathname: "/session", params: { block: b.block, mode: "practice" } })
+                    router.push({ pathname: "/session", params: { module: mod.id, block: b.block, mode: "practice" } })
                   }
                 />
               </View>
@@ -147,7 +153,7 @@ export default function ModuleScreen() {
         </Pressable>
 
         <Text style={{ fontFamily: mono, fontSize: 9, color: theme.muted, marginTop: 20, letterSpacing: 0.3 }}>
-          {bank.total_questions} QUESTIONS {"\u00b7"} SME REVIEWED
+          {mod.bank.total_questions} QUESTIONS {"\u00b7"} SME REVIEWED
         </Text>
       </ScrollView>
     </SafeAreaView>

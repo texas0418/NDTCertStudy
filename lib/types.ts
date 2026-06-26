@@ -98,6 +98,7 @@ export interface ExamMiss {
 export interface ExamRecord {
   id: string;
   dateISO: string;
+  module?: string; // owning module id; absent on legacy (pre-MT) records
   blockKey: string; // "all" or a block name
   score: number;
   total: number;

@@ -32,7 +32,7 @@ function fmtClock(secs: number): string {
 
 export default function Session() {
   const router = useRouter();
-  const { block, mode } = useLocalSearchParams<{ block: string; mode: string }>();
+  const { module, block, mode } = useLocalSearchParams<{ module?: string; block: string; mode: string }>();
   const isExam = mode === "exam";
 
   const unit = useStore((s) => s.unit);
@@ -45,7 +45,7 @@ export default function Session() {
   const addExam = useStore((s) => s.addExam);
 
   const questions: Question[] = useMemo(() => {
-    const pool = getQuestionsForBlock(block ?? "all");
+    const pool = getQuestionsForBlock(module ?? "", block ?? "all");
     if (isExam) {
       const shuffled = shuffle(pool);
       return shuffled.slice(0, Math.min(EXAM_CAP, shuffled.length));
@@ -54,7 +54,7 @@ export default function Session() {
     const byId = new Map(pool.map((q) => [q.id, q]));
     return order.map((id) => byId.get(id)!).filter(Boolean);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [block, mode]);
+  }, [module, block, mode]);
 
   const [idx, setIdx] = useState(0);
   const [answered, setAnswered] = useState(false);
@@ -135,6 +135,7 @@ export default function Session() {
     const rec: ExamRecord = {
       id: `exam-${Date.now()}`,
       dateISO: new Date().toISOString(),
+      module: module ?? "utii-conventional",
       blockKey: block ?? "all",
       score,
       total: questions.length,

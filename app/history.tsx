@@ -2,6 +2,7 @@ import { useRouter } from "expo-router";
 import React from "react";
 import { Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { getModule } from "../lib/bank";
 import { useStore } from "../lib/store";
 import { blockLabels, mono, readinessColor, theme } from "../lib/theme";
 
@@ -40,6 +41,7 @@ export default function History() {
           {exams.map((e) => {
             const pct = e.total ? Math.round((e.score / e.total) * 100) : 0;
             const color = readinessColor(pct, true);
+            const method = getModule(e.module).method;
             const blockName = e.blockKey === "all" ? "All topics" : blockLabels[e.blockKey] ?? e.blockKey;
             const missedCount = e.missed?.length ?? 0;
             return (
@@ -58,7 +60,9 @@ export default function History() {
                 }}
               >
                 <View style={{ flex: 1 }}>
-                  <Text style={{ fontSize: 14, color: theme.ink, fontWeight: "600" }}>{blockName}</Text>
+                  <Text style={{ fontSize: 14, color: theme.ink, fontWeight: "600" }}>
+                    <Text style={{ color: theme.amberText }}>{method}</Text>  {blockName}
+                  </Text>
                   <Text style={{ fontFamily: mono, fontSize: 10, color: theme.muted, marginTop: 3, letterSpacing: 0.3 }}>
                     {fmtDate(e.dateISO)} {"\u00b7"} {e.score}/{e.total}
                     {missedCount > 0 ? `  \u00b7  ${missedCount} MISSED` : ""}

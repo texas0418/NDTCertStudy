@@ -2,7 +2,7 @@ import { useRouter } from "expo-router";
 import React from "react";
 import { Alert, Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { bank, getAllQuestions } from "../lib/bank";
+import { getEveryQuestion } from "../lib/bank";
 import { blockReadiness, useStore } from "../lib/store";
 import { mono, theme } from "../lib/theme";
 
@@ -14,7 +14,7 @@ export default function Settings() {
   const resetStudy = useStore((s) => s.resetStudy);
   const resetProgress = useStore((s) => s.resetProgress);
 
-  const allIds = getAllQuestions().map((q) => q.id);
+  const allIds = getEveryQuestion().map((q) => q.id);
   const seenCount = allIds.filter((id) => (progress[id]?.seen ?? 0) > 0).length;
   const overall = blockReadiness(progress, allIds);
 
@@ -115,7 +115,7 @@ export default function Settings() {
         </Text>
 
         <Text style={{ fontFamily: mono, fontSize: 9, color: theme.muted, marginTop: 8, letterSpacing: 0.3 }}>
-          {bank.bank.toUpperCase()} {"\u00b7"} {bank.total_questions} QUESTIONS
+          NDT CERT STUDY {"\u00b7"} {allIds.length} QUESTIONS
         </Text>
       </ScrollView>
     </SafeAreaView>
