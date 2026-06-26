@@ -73,6 +73,24 @@ export const blockLabels: Record<string, string> = {
   pt_equipment: "Equipment, Lighting & Control",
   pt_indications: "Indications & Interpretation",
   pt_safety: "Safety, Codes & Applications",
+  // RT Level II
+  rt_physics: "Radiation Physics & Sources",
+  rt_attenuation: "Interaction & Attenuation",
+  rt_equipment: "Radiographic Equipment",
+  rt_exposure: "Exposure & Image Formation",
+  rt_film: "Film Processing & Quality",
+  rt_technique: "IQIs & Technique",
+  rt_interpretation: "Discontinuities & Interpretation",
+  rt_safety: "Radiation Safety & Codes",
+  // PT Level I
+  pt1_fundamentals: "Fundamentals & Principles",
+  pt1_materials: "Materials & Classification",
+  pt1_prep: "Surface Preparation & Pre-Cleaning",
+  pt1_application: "Application & Dwell",
+  pt1_removal: "Excess Removal & Emulsification",
+  pt1_developers: "Developers & Development",
+  pt1_inspection: "Inspection, Lighting & Indications",
+  pt1_safety: "Equipment, Process Control & Safety",
 };
 
 // Untouched topics read neutral grey; color only appears once attempted.
