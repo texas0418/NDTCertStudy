@@ -3,6 +3,7 @@ import mtJson from "../assets/bank_mpi.json";
 import ptJson from "../assets/bank_pt.json";
 import rtJson from "../assets/bank_rt.json";
 import pt1Json from "../assets/bank_pt1.json";
+import mt1Json from "../assets/bank_mt1.json";
 import { Bank, Block, Question, Unit, Variant } from "./types";
 
 export interface ModuleDef {
@@ -18,11 +19,11 @@ export interface ModuleDef {
 // progress/bookmarks/exams (keyed by id) work without per-module namespacing.
 export const MODULES: ModuleDef[] = [
   {
-    id: "utii-conventional",
-    title: "UT Level II",
-    subtitle: "Conventional",
-    method: "UT",
-    bank: utJson as unknown as Bank,
+    id: "mti",
+    title: "MT Level I",
+    subtitle: "Magnetic Particle",
+    method: "MT",
+    bank: mt1Json as unknown as Bank,
   },
   {
     id: "mtii",
@@ -30,6 +31,13 @@ export const MODULES: ModuleDef[] = [
     subtitle: "Magnetic Particle",
     method: "MT",
     bank: mtJson as unknown as Bank,
+  },
+  {
+    id: "pti",
+    title: "PT Level I",
+    subtitle: "Liquid Penetrant",
+    method: "PT",
+    bank: pt1Json as unknown as Bank,
   },
   {
     id: "ptii",
@@ -46,11 +54,11 @@ export const MODULES: ModuleDef[] = [
     bank: rtJson as unknown as Bank,
   },
   {
-    id: "pti",
-    title: "PT Level I",
-    subtitle: "Liquid Penetrant",
-    method: "PT",
-    bank: pt1Json as unknown as Bank,
+    id: "utii-conventional",
+    title: "UT Level II",
+    subtitle: "Conventional",
+    method: "UT",
+    bank: utJson as unknown as Bank,
   },
 ];
 

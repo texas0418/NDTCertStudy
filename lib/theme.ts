@@ -91,6 +91,15 @@ export const blockLabels: Record<string, string> = {
   pt1_developers: "Developers & Development",
   pt1_inspection: "Inspection, Lighting & Indications",
   pt1_safety: "Equipment, Process Control & Safety",
+  // MT Level I
+  mt1_fundamentals: "Fundamentals & Principles of Magnetism",
+  mt1_methods: "Magnetization Methods & Directions",
+  mt1_current: "Magnetizing Current & Field",
+  mt1_equipment: "Equipment",
+  mt1_particles: "Particles & Media",
+  mt1_process: "Process & Application Sequence",
+  mt1_inspection: "Inspection, Lighting & Indications",
+  mt1_safety: "Demagnetization, Equipment Checks & Safety",
 };
 
 // Untouched topics read neutral grey; color only appears once attempted.
