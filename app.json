@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "NDT Cert Study",
+    "slug": "ndt-cert-study",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "ndtcertstudy",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ndtcertstudy.app"
+    },
+    "android": {
+      "package": "com.ndtcertstudy.app"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
