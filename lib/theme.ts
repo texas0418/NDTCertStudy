@@ -109,6 +109,15 @@ export const blockLabels: Record<string, string> = {
   ut1_straightbeam: "Straight-Beam & Thickness",
   ut1_anglebeam: "Angle-Beam & Scanning",
   ut1_records: "Recording, Process Control & Safety",
+  // RT Level I
+  rt1_fundamentals: "Fundamentals & Radiation Physics",
+  rt1_sources: "Radiation Sources & Equipment",
+  rt1_film: "Film & Image Media",
+  rt1_exposure: "Exposure & Image Formation",
+  rt1_technique: "Geometry, Technique & IQIs",
+  rt1_processing: "Film Processing & Image Quality",
+  rt1_safety: "Radiation Safety & Protection",
+  rt1_records: "Recording, Process Control & Responsibilities",
 };
 
 // Untouched topics read neutral grey; color only appears once attempted.

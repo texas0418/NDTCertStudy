@@ -5,6 +5,7 @@ import rtJson from "../assets/bank_rt.json";
 import pt1Json from "../assets/bank_pt1.json";
 import mt1Json from "../assets/bank_mt1.json";
 import ut1Json from "../assets/bank_ut1.json";
+import rt1Json from "../assets/bank_rt1.json";
 import { Bank, Block, Question, Unit, Variant } from "./types";
 
 export interface ModuleDef {
@@ -46,6 +47,13 @@ export const MODULES: ModuleDef[] = [
     subtitle: "Liquid Penetrant",
     method: "PT",
     bank: ptJson as unknown as Bank,
+  },
+  {
+    id: "rti",
+    title: "RT Level I",
+    subtitle: "Radiographic",
+    method: "RT",
+    bank: rt1Json as unknown as Bank,
   },
   {
     id: "rtii",
