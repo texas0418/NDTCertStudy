@@ -100,6 +100,15 @@ export const blockLabels: Record<string, string> = {
   mt1_process: "Process & Application Sequence",
   mt1_inspection: "Inspection, Lighting & Indications",
   mt1_safety: "Demagnetization, Equipment Checks & Safety",
+  // UT Level I
+  ut1_fundamentals: "Fundamentals & Sound Waves",
+  ut1_wave: "Wave Behavior & Material Effects",
+  ut1_equipment: "Equipment & Transducers",
+  ut1_display: "Display, Controls & Couplant",
+  ut1_calibration: "Calibration & Reference Standards",
+  ut1_straightbeam: "Straight-Beam & Thickness",
+  ut1_anglebeam: "Angle-Beam & Scanning",
+  ut1_records: "Recording, Process Control & Safety",
 };
 
 // Untouched topics read neutral grey; color only appears once attempted.

@@ -4,6 +4,7 @@ import ptJson from "../assets/bank_pt.json";
 import rtJson from "../assets/bank_rt.json";
 import pt1Json from "../assets/bank_pt1.json";
 import mt1Json from "../assets/bank_mt1.json";
+import ut1Json from "../assets/bank_ut1.json";
 import { Bank, Block, Question, Unit, Variant } from "./types";
 
 export interface ModuleDef {
@@ -52,6 +53,13 @@ export const MODULES: ModuleDef[] = [
     subtitle: "Radiographic",
     method: "RT",
     bank: rtJson as unknown as Bank,
+  },
+  {
+    id: "uti",
+    title: "UT Level I",
+    subtitle: "Conventional",
+    method: "UT",
+    bank: ut1Json as unknown as Bank,
   },
   {
     id: "utii-conventional",
