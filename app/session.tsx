@@ -1,6 +1,6 @@
 import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { Pressable, ScrollView, Text, View } from "react-native";
+import { Alert, Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { FeedbackBlock } from "../components/FeedbackBlock";
 import { OptionButton } from "../components/OptionButton";
@@ -11,6 +11,7 @@ import { activeVariant, getFreeQuestions, getQuestionsForBlock } from "../lib/ba
 import { shuffledVariant } from "../lib/optionOrder";
 import { useStore, weakFirstOrder } from "../lib/store";
 import { blockLabels, mono, useTheme } from "../lib/theme";
+import { reportQuestion, REPORT_EMAIL } from "../lib/report";
 import { ExamRecord, Question } from "../lib/types";
 
 const EXAM_CAP = 50;
@@ -72,6 +73,7 @@ export default function Session() {
   const [selected, setSelected] = useState<number | null>(null);
   const [examAnswers, setExamAnswers] = useState<Record<string, number>>({});
   const [elapsed, setElapsed] = useState(0);
+  const [sending, setSending] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
@@ -107,6 +109,26 @@ export default function Session() {
 
   function chooseExam(optionIndex: number) {
     setExamAnswers((prev) => ({ ...prev, [q.id]: optionIndex }));
+  }
+
+  async function sendReport() {
+    if (sending) return;
+    setSending(true);
+    const pick = isExam ? examAnswers[q.id] ?? null : selected;
+    const res = await reportQuestion({
+      questionId: q.id,
+      moduleId: module ?? "",
+      blockKey: block ?? "all",
+      variant,
+      selectedIndex: pick,
+    });
+    setSending(false);
+    if (res === "unavailable") {
+      Alert.alert(
+        "No mail app set up",
+        `Email ${REPORT_EMAIL} directly and include the question ID ${q.id} with what looks wrong.`,
+      );
+    }
   }
 
   function next() {
@@ -231,9 +253,16 @@ export default function Session() {
         {!isExam && answered && <FeedbackBlock variant={variant} selectedIndex={selected ?? -1} />}
 
         {flagged && (
-          <Text style={{ fontFamily: mono, fontSize: 10, color: theme.redText, marginTop: 14, letterSpacing: 0.5 }}>
-            REPORTED FOR REVIEW
-          </Text>
+          <View style={{ marginTop: 14, gap: 9 }}>
+            <Text style={{ fontFamily: mono, fontSize: 10, color: theme.redText, letterSpacing: 0.5 }}>
+              FLAGGED FOR REVIEW
+            </Text>
+            <Pressable onPress={sendReport} disabled={sending} hitSlop={6}>
+              <Text style={{ fontFamily: mono, fontSize: 11, color: theme.amberText, letterSpacing: 0.5 }}>
+                {sending ? "OPENING MAIL\u2026" : "EMAIL THIS TO THE DEVELOPER \u25b8"}
+              </Text>
+            </Pressable>
+          </View>
         )}
       </ScrollView>
 
