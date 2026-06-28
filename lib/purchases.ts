@@ -18,7 +18,7 @@ import { useStore } from "./store";
 declare const require: any;
 
 // From your RevenueCat project: Apple App Store public API key (starts "appl_").
-export const REVENUECAT_IOS_API_KEY = "appl_REPLACE_WITH_YOUR_KEY";
+export const REVENUECAT_IOS_API_KEY = "appl_HLSuRTMQPpkapznteeUQhVrHWUZ";
 
 // Shown only in mock mode. Real builds display the App Store localized price.
 export const MOCK_PRICE = "$4.99";
