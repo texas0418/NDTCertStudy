@@ -7,9 +7,10 @@ import { QuestionDiagram } from "../components/QuestionDiagram";
 import { activeVariant, getQuestionById } from "../lib/bank";
 import { shuffledVariant } from "../lib/optionOrder";
 import { useStore } from "../lib/store";
-import { mono, theme } from "../lib/theme";
+import { mono, useTheme } from "../lib/theme";
 
 export default function Bookmarks() {
+  const theme = useTheme();
   const bookmarks = useStore((s) => s.bookmarks);
   const unit = useStore((s) => s.unit);
   const toggleBookmark = useStore((s) => s.toggleBookmark);

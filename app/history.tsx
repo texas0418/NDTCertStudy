@@ -4,7 +4,7 @@ import { Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { getModule } from "../lib/bank";
 import { useStore } from "../lib/store";
-import { blockLabels, mono, readinessColor, theme } from "../lib/theme";
+import { blockLabels, mono, useReadinessColor, useTheme } from "../lib/theme";
 
 function fmtDate(iso: string): string {
   try {
@@ -18,6 +18,8 @@ function fmtDate(iso: string): string {
 }
 
 export default function History() {
+  const theme = useTheme();
+  const readinessColor = useReadinessColor();
   const router = useRouter();
   const exams = useStore((s) => s.exams);
 

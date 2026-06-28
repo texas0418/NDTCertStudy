@@ -36,7 +36,7 @@ export function AngleBeamDiagram({ angle, thickness }: { angle: number; thicknes
   const greenT = theme.greenText;
   const muted = theme.muted;
   const ink = theme.ink;
-  const dim = "#79828D";
+  const dim = theme.muted;
 
   const leg1Mid = { x: (xStart + bounceX) / 2, y: (ySurf + backY) / 2 };
   const leg2Mid = { x: (bounceX + returnX) / 2, y: (ySurf + backY) / 2 };
@@ -53,9 +53,9 @@ export function AngleBeamDiagram({ angle, thickness }: { angle: number; thicknes
         <Polygon points={`8,8 372,8 372,242 8,242`} fill={theme.bgPanel} stroke={theme.border} strokeWidth={1} />
 
         {/* material */}
-        <Polygon points={`40,${ySurf} 352,${ySurf} 352,${backY} 40,${backY}`} fill="#232A33" />
-        <Line x1={40} y1={ySurf} x2={352} y2={ySurf} stroke="#3A4350" strokeWidth={1.5} />
-        <Line x1={40} y1={backY} x2={352} y2={backY} stroke="#3A4350" strokeWidth={1.5} />
+        <Polygon points={`40,${ySurf} 352,${ySurf} 352,${backY} 40,${backY}`} fill={theme.bgPanel} />
+        <Line x1={40} y1={ySurf} x2={352} y2={ySurf} stroke={theme.borderHi} strokeWidth={1.5} />
+        <Line x1={40} y1={backY} x2={352} y2={backY} stroke={theme.borderHi} strokeWidth={1.5} />
 
         {/* leaders */}
         <Line x1={xStart} y1={104} x2={xStart} y2={ySurf} stroke={dim} strokeWidth={0.5} strokeDasharray="3,3" />
@@ -77,8 +77,8 @@ export function AngleBeamDiagram({ angle, thickness }: { angle: number; thicknes
         {/* probe wedge */}
         <Polygon
           points={`${xStart - 25},${ySurf} ${xStart + 29},${ySurf} ${xStart + 17},${ySurf - 21} ${xStart - 37},${ySurf - 21}`}
-          fill="#2E3640"
-          stroke="#3A4350"
+          fill={theme.bgInput}
+          stroke={theme.borderHi}
           strokeWidth={1}
         />
         <SvgText x={xStart - 11} y={ySurf - 7} fill={theme.inkSoft} fontFamily={mono} fontSize={10} textAnchor="middle">probe</SvgText>

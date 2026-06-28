@@ -1,12 +1,14 @@
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
-import { theme } from "../lib/theme";
+import { useIsDark, useTheme } from "../lib/theme";
 
 export default function RootLayout() {
+  const theme = useTheme();
+  const isDark = useIsDark();
   return (
     <SafeAreaProvider>
-      <StatusBar style="light" />
+      <StatusBar style={isDark ? "light" : "dark"} />
       <Stack
         screenOptions={{
           headerStyle: { backgroundColor: theme.bg },
@@ -19,6 +21,7 @@ export default function RootLayout() {
         <Stack.Screen name="index" options={{ title: "NDT Cert Study" }} />
         <Stack.Screen name="module/[id]" options={{ title: "" }} />
         <Stack.Screen name="session" options={{ title: "", headerBackTitle: "Exit" }} />
+        <Stack.Screen name="free-complete" options={{ title: "", headerBackTitle: "Back" }} />
         <Stack.Screen name="results" options={{ title: "Results" }} />
         <Stack.Screen name="review" options={{ title: "", headerBackTitle: "Results" }} />
         <Stack.Screen name="bookmarks" options={{ title: "Saved" }} />

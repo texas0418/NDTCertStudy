@@ -1,22 +1,26 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-import { AnswerResult, ExamRecord, QuestionProgress, Unit } from "./types";
+import { AnswerResult, ExamRecord, QuestionProgress, ThemeMode, Unit } from "./types";
 
 const MAX_BOX = 5;
 
 interface AppState {
   unit: Unit;
+  themeMode: ThemeMode;
   progress: Record<string, QuestionProgress>;
   bookmarks: string[];
   reported: string[];
   exams: ExamRecord[];
+  targetDates: Record<string, string>; // moduleId -> "YYYY-MM-DD"
 
   setUnit: (u: Unit) => void;
+  setThemeMode: (m: ThemeMode) => void;
   recordAnswer: (id: string, result: AnswerResult) => void;
   toggleBookmark: (id: string) => void;
   toggleReport: (id: string) => void;
   addExam: (rec: ExamRecord) => void;
+  setTargetDate: (moduleId: string, iso: string | null) => void;
   resetStudy: () => void;
   resetProgress: () => void;
 }
@@ -29,12 +33,16 @@ export const useStore = create<AppState>()(
   persist(
     (set, get) => ({
       unit: "imperial",
+      themeMode: "system",
       progress: {},
       bookmarks: [],
       reported: [],
       exams: [],
+      targetDates: {},
 
       setUnit: (u) => set({ unit: u }),
+
+      setThemeMode: (m) => set({ themeMode: m }),
 
       recordAnswer: (id, result) =>
         set((state) => {
@@ -68,11 +76,19 @@ export const useStore = create<AppState>()(
 
       addExam: (rec) => set((state) => ({ exams: [rec, ...state.exams] })),
 
+      setTargetDate: (moduleId, iso) =>
+        set((state) => {
+          const next = { ...state.targetDates };
+          if (iso) next[moduleId] = iso;
+          else delete next[moduleId];
+          return { targetDates: next };
+        }),
+
       // Clears study progress, exam history, and reports but keeps saved questions.
       resetStudy: () => set({ progress: {}, reported: [], exams: [] }),
 
       resetProgress: () =>
-        set({ progress: {}, bookmarks: [], reported: [], exams: [] }),
+        set({ progress: {}, bookmarks: [], reported: [], exams: [], targetDates: {} }),
     }),
     {
       name: "ut2-prep-store-v1",

@@ -1,11 +1,12 @@
 import React from "react";
 import { Text, View } from "react-native";
-import { mono, theme } from "../lib/theme";
+import { mono, useTheme } from "../lib/theme";
 import { Variant } from "../lib/types";
 
 const LETTERS = ["A", "B", "C", "D"];
 
 export function FeedbackBlock({ variant, selectedIndex }: { variant: Variant; selectedIndex: number }) {
+  const theme = useTheme();
   const correctLetter = LETTERS[variant.answer];
   const gotItRight = selectedIndex === variant.answer;
   return (

@@ -4,9 +4,11 @@ import { Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { ProgressBar } from "../components/ProgressBar";
 import { useStore } from "../lib/store";
-import { blockLabels, mono, readinessColor, theme } from "../lib/theme";
+import { blockLabels, mono, useReadinessColor, useTheme } from "../lib/theme";
 
 export default function Results() {
+  const theme = useTheme();
+  const readinessColor = useReadinessColor();
   const router = useRouter();
   const { exam } = useLocalSearchParams<{ exam?: string }>();
   const exams = useStore((s) => s.exams);
@@ -93,7 +95,7 @@ export default function Results() {
           onPress={() => router.replace(`/module/${rec.module ?? "utii-conventional"}`)}
           style={{ marginTop: 12, backgroundColor: theme.amber, borderRadius: 10, paddingVertical: 14, alignItems: "center" }}
         >
-          <Text style={{ fontFamily: mono, fontSize: 13, fontWeight: "700", letterSpacing: 0.5, color: "#1A1206" }}>
+          <Text style={{ fontFamily: mono, fontSize: 13, fontWeight: "700", letterSpacing: 0.5, color: theme.onAccent }}>
             BACK TO TOPICS
           </Text>
         </Pressable>

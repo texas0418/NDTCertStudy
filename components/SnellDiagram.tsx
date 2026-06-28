@@ -11,13 +11,13 @@ const VB_W = 380, VB_H = 200;
 export function SnellDiagram() {
   const W = Dimensions.get("window").width - 32;
   const H = (W * VB_H) / VB_W;
-  const dim = "#79828D", amber = theme.amber, amberT = theme.amberText, green = theme.green, ink = theme.ink;
+  const dim = theme.muted, amber = theme.amber, amberT = theme.amberText, green = theme.green, ink = theme.ink;
   return (
     <View style={{ marginBottom: 16 }}>
       <Svg width={W} height={H} viewBox={`0 0 ${VB_W} ${VB_H}`}>
         <Polygon points="8,8 372,8 372,192 8,192" fill={theme.bgPanel} stroke={theme.border} strokeWidth={1} />
-        <Rect x={40} y={110} width={305} height={72} fill="#232A33" />
-        <Line x1={40} y1={110} x2={345} y2={110} stroke="#3A4350" strokeWidth={1.5} />
+        <Rect x={40} y={110} width={305} height={72} fill={theme.bgPanel} />
+        <Line x1={40} y1={110} x2={345} y2={110} stroke={theme.borderHi} strokeWidth={1.5} />
         <Line x1={150} y1={44} x2={150} y2={178} stroke={green} strokeWidth={1} strokeDasharray="4,3" />
         <Line x1={103} y1={43} x2={150} y2={110} stroke={amber} strokeWidth={2} />
         <Line x1={150} y1={110} x2={197} y2={43} stroke={dim} strokeWidth={1.5} strokeDasharray="5,3" />

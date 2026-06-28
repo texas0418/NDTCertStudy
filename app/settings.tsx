@@ -4,15 +4,19 @@ import { Alert, Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { getEveryQuestion } from "../lib/bank";
 import { blockReadiness, useStore } from "../lib/store";
-import { mono, theme } from "../lib/theme";
+import { mono, useTheme } from "../lib/theme";
+import { ThemeMode } from "../lib/types";
 
 export default function Settings() {
+  const theme = useTheme();
   const router = useRouter();
   const progress = useStore((s) => s.progress);
   const bookmarks = useStore((s) => s.bookmarks);
   const exams = useStore((s) => s.exams);
   const resetStudy = useStore((s) => s.resetStudy);
   const resetProgress = useStore((s) => s.resetProgress);
+  const themeMode = useStore((s) => s.themeMode);
+  const setThemeMode = useStore((s) => s.setThemeMode);
 
   const allIds = getEveryQuestion().map((q) => q.id);
   const seenCount = allIds.filter((id) => (progress[id]?.seen ?? 0) > 0).length;
@@ -52,6 +56,50 @@ export default function Settings() {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.bg }} edges={["bottom"]}>
       <ScrollView contentContainerStyle={{ padding: 16 }}>
+        <Text style={{ fontFamily: mono, fontSize: 10, letterSpacing: 1, color: theme.muted, marginBottom: 10 }}>
+          APPEARANCE
+        </Text>
+        <View
+          style={{
+            flexDirection: "row",
+            backgroundColor: theme.bgInput,
+            borderRadius: 9,
+            borderWidth: 1,
+            borderColor: theme.border,
+            padding: 3,
+            marginBottom: 28,
+          }}
+        >
+          {(["light", "dark", "system"] as ThemeMode[]).map((m) => {
+            const active = themeMode === m;
+            return (
+              <Pressable
+                key={m}
+                onPress={() => setThemeMode(m)}
+                style={{
+                  flex: 1,
+                  paddingVertical: 9,
+                  borderRadius: 6,
+                  alignItems: "center",
+                  backgroundColor: active ? theme.amber : "transparent",
+                }}
+              >
+                <Text
+                  style={{
+                    fontFamily: mono,
+                    fontSize: 11,
+                    letterSpacing: 0.5,
+                    fontWeight: active ? "700" : "500",
+                    color: active ? theme.onAccent : theme.muted,
+                  }}
+                >
+                  {m === "light" ? "LIGHT" : m === "dark" ? "DARK" : "SYSTEM"}
+                </Text>
+              </Pressable>
+            );
+          })}
+        </View>
+
         <Text style={{ fontFamily: mono, fontSize: 10, letterSpacing: 1, color: theme.muted, marginBottom: 10 }}>
           YOUR DATA
         </Text>

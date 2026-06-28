@@ -13,9 +13,9 @@ export function AScanDiagram() {
   const W = Dimensions.get("window").width - 32;
   const H = (W * VB_H) / VB_W;
 
-  const dim = "#79828D";
-  const grid = "#2B323B";
-  const axis = "#3A4350";
+  const dim = theme.muted;
+  const grid = theme.border;
+  const axis = theme.borderHi;
   const trace = theme.green;
   const amber = theme.amber;
   const amberT = theme.amberText;
@@ -34,7 +34,7 @@ export function AScanDiagram() {
     <View style={{ marginBottom: 16 }}>
       <Svg width={W} height={H} viewBox={`0 0 ${VB_W} ${VB_H}`}>
         <Polygon points="8,8 372,8 372,222 8,222" fill={theme.bgPanel} stroke={theme.border} strokeWidth={1} />
-        <Rect x={50} y={40} width={306} height={140} fill="#161A20" stroke={grid} strokeWidth={1} />
+        <Rect x={50} y={40} width={306} height={140} fill={theme.bg} stroke={grid} strokeWidth={1} />
 
         {pctY.map((t) => (
           <Line key={t.p} x1={50} y1={t.y} x2={356} y2={t.y} stroke={grid} strokeWidth={0.5} strokeDasharray="3,3" />

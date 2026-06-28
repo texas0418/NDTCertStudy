@@ -1,7 +1,7 @@
 import React from "react";
 import { Pressable, Text, View } from "react-native";
 import { ProgressBar } from "./ProgressBar";
-import { blockLabels, mono, readinessColor, theme } from "../lib/theme";
+import { blockLabels, mono, useReadinessColor, useTheme } from "../lib/theme";
 
 interface Props {
   blockName: string;
@@ -12,6 +12,8 @@ interface Props {
 }
 
 export function TopicTile({ blockName, readiness, count, attempted, onPress }: Props) {
+  const theme = useTheme();
+  const readinessColor = useReadinessColor();
   const color = readinessColor(readiness, attempted);
   return (
     <Pressable

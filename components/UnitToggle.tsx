@@ -1,10 +1,11 @@
 import React from "react";
 import { Pressable, Text, View } from "react-native";
 import { useStore } from "../lib/store";
-import { mono, theme } from "../lib/theme";
+import { mono, useTheme } from "../lib/theme";
 import { Unit } from "../lib/types";
 
 export function UnitToggle() {
+  const theme = useTheme();
   const unit = useStore((s) => s.unit);
   const setUnit = useStore((s) => s.setUnit);
   const options: Unit[] = ["imperial", "metric"];
@@ -38,7 +39,7 @@ export function UnitToggle() {
                 fontSize: 11,
                 letterSpacing: 0.5,
                 fontWeight: active ? "700" : "500",
-                color: active ? "#1A1206" : theme.muted,
+                color: active ? theme.onAccent : theme.muted,
               }}
             >
               {opt === "imperial" ? "IMPERIAL" : "METRIC"}

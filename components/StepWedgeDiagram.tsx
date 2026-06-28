@@ -11,19 +11,19 @@ const VB_W = 380, VB_H = 200;
 export function StepWedgeDiagram() {
   const W = Dimensions.get("window").width - 32;
   const H = (W * VB_H) / VB_W;
-  const dim = "#79828D", amber = theme.amber, ink = theme.ink;
+  const dim = theme.muted, amber = theme.amber, ink = theme.ink;
   return (
     <View style={{ marginBottom: 16 }}>
       <Svg width={W} height={H} viewBox={`0 0 ${VB_W} ${VB_H}`}>
         <Polygon points="8,8 372,8 372,192 8,192" fill={theme.bgPanel} stroke={theme.border} strokeWidth={1} />
         <Path
           d="M65,160 L65,138 L109,138 L109,122 L153,122 L153,106 L197,106 L197,90 L241,90 L241,74 L285,74 L285,160 Z"
-          fill="#232A33"
-          stroke="#3A4350"
+          fill={theme.bgPanel}
+          stroke={theme.borderHi}
           strokeWidth={1.2}
         />
-        <Rect x={160} y={92} width={30} height={14} fill="#2E3640" stroke="#3A4350" strokeWidth={1} />
-        <SvgText x={175} y={86} fill="#B7BFC9" fontFamily={mono} fontSize={9} textAnchor="middle">probe</SvgText>
+        <Rect x={160} y={92} width={30} height={14} fill={theme.bgInput} stroke={theme.borderHi} strokeWidth={1} />
+        <SvgText x={175} y={86} fill={theme.inkSoft} fontFamily={mono} fontSize={9} textAnchor="middle">probe</SvgText>
         <Line x1={175} y1={106} x2={175} y2={160} stroke={amber} strokeWidth={2} />
         <Circle cx={175} cy={160} r={2.5} fill={amber} />
         <SvgText x={182} y={150} fill={dim} fontFamily={mono} fontSize={9}>back wall</SvgText>

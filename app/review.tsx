@@ -9,9 +9,10 @@ import { ProgressBar } from "../components/ProgressBar";
 import { activeVariant, getQuestionById } from "../lib/bank";
 import { shuffledVariant } from "../lib/optionOrder";
 import { useStore } from "../lib/store";
-import { mono, theme } from "../lib/theme";
+import { mono, useTheme } from "../lib/theme";
 
 export default function Review() {
+  const theme = useTheme();
   const router = useRouter();
   const { exam } = useLocalSearchParams<{ exam?: string }>();
   const unit = useStore((s) => s.unit);
@@ -125,7 +126,7 @@ export default function Review() {
           onPress={next}
           style={{ backgroundColor: theme.amber, borderRadius: 10, paddingVertical: 13, paddingHorizontal: 30 }}
         >
-          <Text style={{ fontFamily: mono, fontSize: 13, fontWeight: "700", letterSpacing: 0.5, color: "#1A1206" }}>
+          <Text style={{ fontFamily: mono, fontSize: 13, fontWeight: "700", letterSpacing: 0.5, color: theme.onAccent }}>
             {isLast ? "DONE" : "NEXT \u2192"}
           </Text>
         </Pressable>

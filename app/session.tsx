@@ -7,10 +7,10 @@ import { OptionButton } from "../components/OptionButton";
 import { QuestionDiagram } from "../components/QuestionDiagram";
 import { ProgressBar } from "../components/ProgressBar";
 import { UnitToggle } from "../components/UnitToggle";
-import { activeVariant, getQuestionsForBlock } from "../lib/bank";
+import { activeVariant, getFreeQuestions, getQuestionsForBlock } from "../lib/bank";
 import { shuffledVariant } from "../lib/optionOrder";
 import { useStore, weakFirstOrder } from "../lib/store";
-import { blockLabels, mono, theme } from "../lib/theme";
+import { blockLabels, mono, useTheme } from "../lib/theme";
 import { ExamRecord, Question } from "../lib/types";
 
 const EXAM_CAP = 50;
@@ -31,9 +31,16 @@ function fmtClock(secs: number): string {
 }
 
 export default function Session() {
+  const theme = useTheme();
   const router = useRouter();
-  const { module, block, mode } = useLocalSearchParams<{ module?: string; block: string; mode: string }>();
-  const isExam = mode === "exam";
+  const { module, block, mode, free } = useLocalSearchParams<{
+    module?: string;
+    block: string;
+    mode: string;
+    free?: string;
+  }>();
+  const isFree = free === "1";
+  const isExam = mode === "exam" && !isFree;
 
   const unit = useStore((s) => s.unit);
   const progress = useStore((s) => s.progress);
@@ -45,6 +52,10 @@ export default function Session() {
   const addExam = useStore((s) => s.addExam);
 
   const questions: Question[] = useMemo(() => {
+    if (isFree) {
+      // Fixed first-N sampler for this module, in bank order (same 10 every time).
+      return getFreeQuestions(module ?? "");
+    }
     const pool = getQuestionsForBlock(module ?? "", block ?? "all");
     if (isExam) {
       const shuffled = shuffle(pool);
@@ -54,7 +65,7 @@ export default function Session() {
     const byId = new Map(pool.map((q) => [q.id, q]));
     return order.map((id) => byId.get(id)!).filter(Boolean);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [module, block, mode]);
+  }, [module, block, mode, free]);
 
   const [idx, setIdx] = useState(0);
   const [answered, setAnswered] = useState(false);
@@ -90,7 +101,8 @@ export default function Session() {
     if (answered) return;
     setSelected(optionIndex);
     setAnswered(true);
-    recordAnswer(q.id, optionIndex === variant.answer ? "correct" : "incorrect");
+    // Free sampler is a test-drive only - nothing is recorded.
+    if (!isFree) recordAnswer(q.id, optionIndex === variant.answer ? "correct" : "incorrect");
   }
 
   function chooseExam(optionIndex: number) {
@@ -100,6 +112,7 @@ export default function Session() {
   function next() {
     if (isLast) {
       if (isExam) finishExam();
+      else if (isFree) router.replace({ pathname: "/free-complete", params: { module: module ?? "" } });
       else router.back();
       return;
     }
@@ -135,7 +148,7 @@ export default function Session() {
     const rec: ExamRecord = {
       id: `exam-${Date.now()}`,
       dateISO: new Date().toISOString(),
-      module: module ?? "utii-conventional",
+      module: module ?? "",
       blockKey: block ?? "all",
       score,
       total: questions.length,
@@ -159,20 +172,22 @@ export default function Session() {
               {(label ?? "").toString().toUpperCase()}
             </Text>
             <Text style={{ fontFamily: mono, fontSize: 11, color: theme.muted, marginTop: 2 }}>
-              {`Q${idx + 1}/${questions.length} \u00b7 ${isExam ? "EXAM" : "PRACTICE"}`}
+              {`Q${idx + 1}/${questions.length} \u00b7 ${isFree ? "FREE SAMPLE" : isExam ? "EXAM" : "PRACTICE"}`}
               {isExam ? `  \u00b7  ${fmtClock(elapsed)}` : ""}
             </Text>
           </View>
-          <View style={{ flexDirection: "row", gap: 16, alignItems: "center" }}>
-            <Pressable onPress={() => toggleBookmark(q.id)} hitSlop={8}>
-              <Text style={{ fontSize: 19, color: saved ? theme.amber : theme.muted }}>
-                {saved ? "\u2605" : "\u2606"}
-              </Text>
-            </Pressable>
-            <Pressable onPress={() => toggleReport(q.id)} hitSlop={8}>
-              <Text style={{ fontSize: 17, color: flagged ? theme.red : theme.muted }}>{"\u2691"}</Text>
-            </Pressable>
-          </View>
+          {!isFree && (
+            <View style={{ flexDirection: "row", gap: 16, alignItems: "center" }}>
+              <Pressable onPress={() => toggleBookmark(q.id)} hitSlop={8}>
+                <Text style={{ fontSize: 19, color: saved ? theme.amber : theme.muted }}>
+                  {saved ? "\u2605" : "\u2606"}
+                </Text>
+              </Pressable>
+              <Pressable onPress={() => toggleReport(q.id)} hitSlop={8}>
+                <Text style={{ fontSize: 17, color: flagged ? theme.red : theme.muted }}>{"\u2691"}</Text>
+              </Pressable>
+            </View>
+          )}
         </View>
         <ProgressBar value={(idx + (answered || examPick != null ? 1 : 0)) / questions.length} />
       </View>
@@ -247,7 +262,7 @@ export default function Session() {
           <Text
             style={{
               fontFamily: mono,
-              color: !isExam && !answered ? theme.muted : "#1A1206",
+              color: !isExam && !answered ? theme.muted : theme.onAccent,
               fontSize: 13,
               fontWeight: "700",
               letterSpacing: 0.5,

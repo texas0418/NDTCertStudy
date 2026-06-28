@@ -1,5 +1,6 @@
 export type Difficulty = "easy" | "medium" | "hard";
 export type Unit = "imperial" | "metric";
+export type ThemeMode = "light" | "dark" | "system";
 
 export interface Variant {
   stem: string;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Pressable, Text, View } from "react-native";
-import { mono, theme } from "../lib/theme";
+import { mono, useTheme } from "../lib/theme";
 
 const LETTERS = ["A", "B", "C", "D"];
 
@@ -14,6 +14,7 @@ interface Props {
 }
 
 export function OptionButton({ index, label, answered, isCorrect, isSelected, onPress }: Props) {
+  const theme = useTheme();
   let borderColor = theme.border;
   let bg = theme.bgPanel;
   let badgeBg = theme.bgPanelHi;
@@ -25,13 +26,13 @@ export function OptionButton({ index, label, answered, isCorrect, isSelected, on
       borderColor = theme.green;
       bg = theme.greenBg;
       badgeBg = theme.green;
-      badgeText = "#06120D";
+      badgeText = theme.onAccent;
       textColor = theme.ink;
     } else if (isSelected) {
       borderColor = theme.red;
       bg = theme.redBg;
       badgeBg = theme.red;
-      badgeText = "#160605";
+      badgeText = theme.onAccent;
       textColor = theme.inkSoft;
     }
   }

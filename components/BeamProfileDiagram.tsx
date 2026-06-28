@@ -13,7 +13,7 @@ export function BeamProfileDiagram() {
   const W = Dimensions.get("window").width - 32;
   const H = (W * VB_H) / VB_W;
 
-  const dim = "#79828D";
+  const dim = theme.muted;
   const amber = theme.amber;
   const amberT = theme.amberText;
   const ink = theme.ink;
@@ -35,7 +35,7 @@ export function BeamProfileDiagram() {
         <Line x1={175} y1={105} x2={345} y2={142} stroke={amber} strokeWidth={1.5} />
         <Circle cx={175} cy={105} r={3} fill={amber} />
 
-        <Rect x={46} y={75} width={8} height={60} fill="#2E3640" stroke="#3A4350" strokeWidth={1} />
+        <Rect x={46} y={75} width={8} height={60} fill={theme.bgInput} stroke={theme.borderHi} strokeWidth={1} />
         <SvgText x={50} y={70} fill={ink} fontFamily={mono} fontSize={10} textAnchor="middle">probe</SvgText>
 
         <Line x1={38} y1={75} x2={38} y2={135} stroke={dim} strokeWidth={0.75} />
