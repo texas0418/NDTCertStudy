@@ -1,0 +1,952 @@
+{
+ "RT": [
+  {
+   "block": "cert_iso9712_rt",
+   "count": 8,
+   "questions": [
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum training for a Radiographic Testing Level 1 candidate is:",
+      "options": [
+       "5 days",
+       "8 days",
+       "3 days",
+       "10 days"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "8 days is the UT Level 1 figure.",
+       "3 days is the MT or PT Level 1 figure.",
+       "10 days is the Level 2 increment, not Level 1."
+      ],
+      "explanation": "Table 2 sets RT Level 1 training at 5 days; Level 2 adds 10 more."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-rt-cert-001",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For direct access to RT Level 2 under ISO 9712, the recommended training totals:",
+      "options": [
+       "10 days",
+       "15 days",
+       "5 days",
+       "18 days"
+      ],
+      "answer": 1,
+      "distractors": [
+       "10 days is only the Level 2 increment.",
+       "",
+       "5 days is Level 1 alone.",
+       "18 days is the UT direct-access total."
+      ],
+      "explanation": "Direct access sums the levels: 5 days for Level 1 plus 10 for Level 2 gives 15 (Table 2)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-rt-cert-002",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "ISO 9712 counts RT training days so that radiation-safety training is:",
+      "options": [
+       "Included in the RT training days",
+       "Counted toward the industrial experience days instead",
+       "Not included in the RT training days",
+       "Replaced by the practical exam"
+      ],
+      "answer": 2,
+      "distractors": [
+       "Table 2 excludes it from the counted RT days.",
+       "It is training, and is simply not in the counted RT day total.",
+       "",
+       "The practical exam is a separate requirement."
+      ],
+      "explanation": "Table 2 notes that RT training days do not include radiation-safety training, which is handled separately."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-rt-cert-003",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum industrial experience for RT Level 1 is:",
+      "options": [
+       "15 days",
+       "90 days",
+       "60 days",
+       "45 days"
+      ],
+      "answer": 3,
+      "distractors": [
+       "15 days is the surface-method Level 1 figure.",
+       "No level uses 90 days for RT.",
+       "60 days is the surface-method direct Level 2 figure.",
+       ""
+      ],
+      "explanation": "RT sits in the longer-experience group, so Level 1 is 45 days (Table 3)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-rt-cert-004",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "An RT candidate already certified at Level 1 needs additional experience for Level 2 of:",
+      "options": [
+       "135 days",
+       "180 days",
+       "45 days",
+       "270 days"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "180 days is the direct-access route without prior Level 1.",
+       "45 days is the Level 1 figure.",
+       "270 days is a Level 3 figure."
+      ],
+      "explanation": "Table 3 gives 135 days from Level 1 for the RT group; direct access is 180 days."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-rt-cert-005",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "In the ISO 9712 RT Level 2 practical, a set of at least ten radiographs is treated as:",
+      "options": [
+       "The entire practical element",
+       "One specimen",
+       "Optional supporting material",
+       "Two separate specimens"
+      ],
+      "answer": 1,
+      "distractors": [
+       "Radiographing specimens is also required.",
+       "",
+       "It is a required, counted part of the practical.",
+       "The set counts as a single specimen."
+      ],
+      "explanation": "RT Level 2 candidates radiograph specimens and also interpret a set of at least ten radiographs, counted as one specimen."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-rt-cert-006",
+     "requiresUnits": false,
+     "subtopic": "practical",
+     "tier": "iso-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "A change in the 2021 edition of ISO 9712 separates radiographic techniques into:",
+      "options": [
+       "Manual and automated processing only",
+       "Source-side and detector-side roles",
+       "Film and digital, with separate image interpretation",
+       "Single-wall and double-wall radiographic projection only"
+      ],
+      "answer": 2,
+      "distractors": [
+       "The split is by film versus digital, not by automation.",
+       "Those are not the technique categories.",
+       "",
+       "Wall technique is a different distinction from film versus digital."
+      ],
+      "explanation": "The 2021 edition splits film (RT-F) and digital (RT-D) techniques and treats image interpretation as its own technique."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-rt-cert-007",
+     "requiresUnits": false,
+     "subtopic": "techniques",
+     "tier": "iso-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For ISO 9712 experience minimums, RT is grouped with:",
+      "options": [
+       "MT, PT, ST, and VT",
+       "UT alone",
+       "The surface methods generally",
+       "AT, ET, LT, TT, and UT"
+      ],
+      "answer": 3,
+      "distractors": [
+       "Those are the shorter-experience surface group.",
+       "RT shares the group with several volumetric methods.",
+       "RT is a volumetric method in the longer group.",
+       ""
+      ],
+      "explanation": "RT is in the longer-experience group with AT, ET, LT, TT, and UT."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-rt-cert-008",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-rt",
+     "topic": "certification"
+    }
+   ]
+  }
+ ],
+ "MT": [
+  {
+   "block": "cert_iso9712_mt",
+   "count": 7,
+   "questions": [
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum training for a Magnetic Testing Level 1 candidate is:",
+      "options": [
+       "3 days",
+       "8 days",
+       "5 days",
+       "2 days"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "8 days is the UT Level 1 figure.",
+       "5 days is the direct-to-Level-2 total.",
+       "2 days is the Level 2 increment."
+      ],
+      "explanation": "Table 2 sets MT Level 1 training at 3 days; Level 2 adds 2 more."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-mt-cert-001",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For ISO 9712 MT certification, the training added for Level 2 beyond Level 1 is:",
+      "options": [
+       "3 days",
+       "2 days",
+       "5 days",
+       "4 days"
+      ],
+      "answer": 1,
+      "distractors": [
+       "3 days is the Level 1 figure.",
+       "",
+       "5 days is the Level 1 plus Level 2 sum.",
+       "4 days is the Level 3 increment."
+      ],
+      "explanation": "Table 2 adds 2 days for MT Level 2, fewer than the 3 for Level 1, reflecting the 2021 emphasis on Level 1 training."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-mt-cert-002",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Direct access to MT Level 2 under ISO 9712 needs total training of:",
+      "options": [
+       "2 days",
+       "3 days",
+       "5 days",
+       "10 days"
+      ],
+      "answer": 2,
+      "distractors": [
+       "2 days is only the Level 2 increment.",
+       "3 days is Level 1 alone.",
+       "",
+       "10 days overstates the MT requirement."
+      ],
+      "explanation": "Direct access sums Levels 1 and 2: 3 days plus 2 gives 5 (Table 2)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-mt-cert-003",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum industrial experience for MT Level 1 is:",
+      "options": [
+       "45 days",
+       "30 days",
+       "60 days",
+       "15 days"
+      ],
+      "answer": 3,
+      "distractors": [
+       "45 days is the Level 2 figure from Level 1.",
+       "No MT level uses 30 days.",
+       "60 days is the direct-access Level 2 figure.",
+       ""
+      ],
+      "explanation": "MT is in the surface-method group, so Level 1 experience is 15 days (Table 3)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-mt-cert-004",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "An MT candidate already certified at Level 1 needs additional experience for Level 2 of:",
+      "options": [
+       "45 days",
+       "60 days",
+       "15 days",
+       "135 days"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "60 days is the direct-access route without prior Level 1.",
+       "15 days is the Level 1 figure.",
+       "135 days is the volumetric-group figure."
+      ],
+      "explanation": "Table 3 gives 45 days from Level 1 for the MT group; direct access is 60 days."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-mt-cert-005",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For ISO 9712 experience minimums, MT is grouped with:",
+      "options": [
+       "AT, ET, LT, RT, TT, and UT",
+       "PT, ST, and VT",
+       "RT and UT only",
+       "The volumetric methods generally"
+      ],
+      "answer": 1,
+      "distractors": [
+       "Those make up the longer-experience volumetric group.",
+       "",
+       "MT shares the shorter group with several surface methods.",
+       "MT is a surface method in the shorter group."
+      ],
+      "explanation": "MT sits in the shorter-experience surface group with PT, ST, and VT, below the volumetric methods."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-mt-cert-006",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, MT Level 3 experience for a candidate holding Level 2 is:",
+      "options": [
+       "180 days",
+       "45 days",
+       "240 days",
+       "450 days"
+      ],
+      "answer": 2,
+      "distractors": [
+       "180 days applies with relevant higher education.",
+       "45 days is a Level 2 figure.",
+       "",
+       "450 days is the volumetric-group Level 3 figure."
+      ],
+      "explanation": "For the MT surface group, Level 3 experience from Level 2 is 240 days, or 180 with relevant higher education (Table 3)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-mt-cert-007",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-mt",
+     "topic": "certification"
+    }
+   ]
+  }
+ ],
+ "PT": [
+  {
+   "block": "cert_iso9712_pt",
+   "count": 7,
+   "questions": [
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum training for a Penetrant Testing Level 1 candidate is:",
+      "options": [
+       "3 days",
+       "8 days",
+       "5 days",
+       "2 days"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "8 days is the UT Level 1 figure.",
+       "5 days is the direct-to-Level-2 total.",
+       "2 days is the Level 2 increment."
+      ],
+      "explanation": "Table 2 sets PT Level 1 training at 3 days, the same as the other surface methods; Level 2 adds 2 more."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-pt-cert-001",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Direct access to PT Level 2 under ISO 9712 needs total training of:",
+      "options": [
+       "2 days",
+       "5 days",
+       "3 days",
+       "10 days"
+      ],
+      "answer": 1,
+      "distractors": [
+       "2 days is only the Level 2 increment.",
+       "",
+       "3 days is Level 1 alone.",
+       "10 days overstates the PT requirement."
+      ],
+      "explanation": "Direct access sums Levels 1 and 2: 3 days plus 2 gives 5 (Table 2)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-pt-cert-002",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum industrial experience for PT Level 1 is:",
+      "options": [
+       "45 days",
+       "30 days",
+       "15 days",
+       "60 days"
+      ],
+      "answer": 2,
+      "distractors": [
+       "45 days is the Level 2 figure from Level 1.",
+       "No PT level uses 30 days.",
+       "",
+       "60 days is the direct-access Level 2 figure."
+      ],
+      "explanation": "PT is in the surface-method group, so Level 1 experience is 15 days (Table 3)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-pt-cert-003",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "A PT candidate already certified at Level 1 needs additional experience for Level 2 of:",
+      "options": [
+       "60 days",
+       "15 days",
+       "135 days",
+       "45 days"
+      ],
+      "answer": 3,
+      "distractors": [
+       "60 days is the direct-access route without prior Level 1.",
+       "15 days is the Level 1 figure.",
+       "135 days is the volumetric-group figure.",
+       ""
+      ],
+      "explanation": "Table 3 gives 45 days from Level 1 for the PT group; direct access is 60 days."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-pt-cert-004",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For ISO 9712 experience minimums, PT is grouped with:",
+      "options": [
+       "MT, ST, and VT",
+       "AT, ET, LT, RT, TT, and UT",
+       "RT and UT only",
+       "The volumetric methods generally"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Those make up the longer-experience volumetric group.",
+       "PT shares the shorter group with several surface methods.",
+       "PT is a surface method in the shorter group."
+      ],
+      "explanation": "PT sits in the shorter-experience surface group with MT, ST, and VT, below the volumetric methods."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-pt-cert-005",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the training added for PT Level 3 beyond Level 2 is:",
+      "options": [
+       "4 days",
+       "3 days",
+       "2 days",
+       "5 days"
+      ],
+      "answer": 1,
+      "distractors": [
+       "4 days is the MT Level 3 increment, not PT.",
+       "",
+       "2 days is the Level 2 increment.",
+       "5 days is the direct-to-Level-2 total."
+      ],
+      "explanation": "Table 2 adds 3 days for PT Level 3, where the otherwise similar MT path adds 4."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-pt-cert-006",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, PT Level 3 experience for a candidate holding Level 2 is:",
+      "options": [
+       "180 days",
+       "45 days",
+       "240 days",
+       "450 days"
+      ],
+      "answer": 2,
+      "distractors": [
+       "180 days applies with relevant higher education.",
+       "45 days is a Level 2 figure.",
+       "",
+       "450 days is the volumetric-group Level 3 figure."
+      ],
+      "explanation": "For the PT surface group, Level 3 experience from Level 2 is 240 days, or 180 with relevant higher education (Table 3)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-pt-cert-007",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-pt",
+     "topic": "certification"
+    }
+   ]
+  }
+ ],
+ "UT": [
+  {
+   "block": "cert_iso9712_ut",
+   "count": 7,
+   "questions": [
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum training for an Ultrasonic Testing Level 1 candidate is:",
+      "options": [
+       "8 days",
+       "5 days",
+       "3 days",
+       "10 days"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "5 days is the RT Level 1 figure.",
+       "3 days is a surface-method Level 1 figure.",
+       "10 days is the Level 2 increment."
+      ],
+      "explanation": "Table 2 sets UT Level 1 training at 8 days, the highest Level 1 requirement of any method."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-ut-cert-001",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Direct access to UT Level 2 under ISO 9712 needs total training of:",
+      "options": [
+       "10 days",
+       "18 days",
+       "8 days",
+       "15 days"
+      ],
+      "answer": 1,
+      "distractors": [
+       "10 days is only the Level 2 increment.",
+       "",
+       "8 days is Level 1 alone.",
+       "15 days is the RT direct-access total."
+      ],
+      "explanation": "Direct access sums Levels 1 and 2: 8 days plus 10 gives 18, the most of any method (Table 2)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-ut-cert-002",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum industrial experience for UT Level 1 is:",
+      "options": [
+       "15 days",
+       "135 days",
+       "45 days",
+       "90 days"
+      ],
+      "answer": 2,
+      "distractors": [
+       "15 days is the surface-method Level 1 figure.",
+       "135 days is the Level 2 figure.",
+       "",
+       "No UT level uses 90 days."
+      ],
+      "explanation": "UT is in the longer-experience volumetric group, so Level 1 experience is 45 days (Table 3)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-ut-cert-003",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "A UT candidate already certified at Level 1 needs additional experience for Level 2 of:",
+      "options": [
+       "180 days",
+       "45 days",
+       "270 days",
+       "135 days"
+      ],
+      "answer": 3,
+      "distractors": [
+       "180 days is the direct-access route without prior Level 1.",
+       "45 days is the Level 1 figure.",
+       "270 days is a Level 3 figure.",
+       ""
+      ],
+      "explanation": "Table 3 gives 135 days from Level 1 for the UT group; direct access without prior Level 1 is 180 days."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-ut-cert-004",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For ISO 9712 experience minimums, UT is grouped with:",
+      "options": [
+       "AT, ET, LT, RT, and TT",
+       "MT, PT, ST, and VT",
+       "RT only",
+       "The surface methods generally"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Those make up the shorter-experience surface group.",
+       "UT shares the longer group with several volumetric methods.",
+       "UT is a volumetric method in the longer group."
+      ],
+      "explanation": "UT sits in the longer-experience volumetric group with AT, ET, LT, RT, and TT."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-ut-cert-005",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, UT Level 3 experience for a candidate holding Level 2 is:",
+      "options": [
+       "270 days",
+       "450 days",
+       "135 days",
+       "240 days"
+      ],
+      "answer": 1,
+      "distractors": [
+       "270 days applies with relevant higher education.",
+       "",
+       "135 days is a Level 2 figure.",
+       "240 days is the surface-group Level 3 figure."
+      ],
+      "explanation": "For the UT volumetric group, Level 3 experience from Level 2 is 450 days, or 270 with relevant higher education (Table 3)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-ut-cert-006",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For ISO 9712 UT certification, the training added for Level 2 beyond Level 1 is:",
+      "options": [
+       "8 days",
+       "5 days",
+       "10 days",
+       "18 days"
+      ],
+      "answer": 2,
+      "distractors": [
+       "8 days is the Level 1 figure.",
+       "5 days is the Level 3 increment.",
+       "",
+       "18 days is the direct-to-Level-2 total."
+      ],
+      "explanation": "Table 2 adds 10 days for UT Level 2, the largest single-level increment among the methods."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-ut-cert-007",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-ut",
+     "topic": "certification"
+    }
+   ]
+  }
+ ],
+ "PAUT": [
+  {
+   "block": "cert_iso9712_paut",
+   "count": 6,
+   "questions": [
+    {
+     "content": {
+      "stem": "Under ISO 9712, phased array ultrasonics is handled as:",
+      "options": [
+       "The UT-PA technique, an extension of UT certification",
+       "A standalone NDT method with its own dedicated training table",
+       "A subset of radiographic testing",
+       "A surface method like MT or PT"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Phased array is a technique under UT, not a separate method.",
+       "Phased array is ultrasonic, not radiographic.",
+       "Phased array is a volumetric ultrasonic technique."
+      ],
+      "explanation": "ISO 9712 treats phased array as the UT-PA technique under ultrasonic testing, covered through Annex F, rather than as a separate method."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-paut-cert-001",
+     "requiresUnits": false,
+     "subtopic": "scope",
+     "tier": "iso-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "ISO 9712 UT-PA Level 2 certification requires the candidate to first hold:",
+      "options": [
+       "RT Level 2 certification",
+       "UT Level 2 certification",
+       "Any Level 1 certification",
+       "A standalone Level 3 endorsement"
+      ],
+      "answer": 1,
+      "distractors": [
+       "The prerequisite is ultrasonic, not radiographic.",
+       "",
+       "A general Level 1 does not qualify for UT-PA Level 2.",
+       "No Level 3 endorsement gates the technique; UT Level 2 does."
+      ],
+      "explanation": "The phased array technique builds on conventional ultrasonics, so UT-PA Level 2 requires UT Level 2 certification as a prerequisite."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-paut-cert-002",
+     "requiresUnits": false,
+     "subtopic": "scope",
+     "tier": "iso-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Beyond the base UT requirement, ISO 9712 certification bodies set UT-PA training that is:",
+      "options": [
+       "Already considered covered by the base UT training",
+       "Waived entirely for UT Level 2 holders",
+       "Additional, specific to the phased array technique",
+       "The same as TOFD in every case"
+      ],
+      "answer": 2,
+      "distractors": [
+       "UT-PA adds its own technique training beyond the base.",
+       "Holding UT Level 2 is the prerequisite, not a waiver of PA training.",
+       "",
+       "Phased array and TOFD carry their own technique hours."
+      ],
+      "explanation": "UT-PA carries additional technique-specific training set by the certification body; CGSB, for example, requires 70 hours beyond UT Level 2."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-paut-cert-003",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Beyond UT Level 2, ISO 9712 UT-PA experience is:",
+      "options": [
+       "Considered already satisfied entirely by the UT Level 2 hours",
+       "Not required in any form",
+       "Limited to interpretation tasks only",
+       "Additional experience specific to the phased array technique"
+      ],
+      "answer": 3,
+      "distractors": [
+       "UT-PA adds its own technique experience beyond UT Level 2.",
+       "Additional technique experience does apply.",
+       "It covers performing the technique, not interpretation alone.",
+       ""
+      ],
+      "explanation": "UT-PA requires additional technique-specific experience over UT Level 2; CGSB sets this at 45 days, around 315 hours."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-paut-cert-004",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "iso-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "An ISO 9712 phased array qualification limited to interpreting results carries training that is:",
+      "options": [
+       "Reduced from the full technique requirement",
+       "Increased beyond the full technique requirement",
+       "Identical to UT Level 2 training",
+       "Not permitted under the standard"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Interpretation-only scope reduces, rather than increases, the hours.",
+       "The interpretation scope is set against the phased array technique hours.",
+       "Interpretation-limited qualifications are allowed."
+      ],
+      "explanation": "Interpretation-only phased array qualifications carry reduced training, commonly half of the full technique hours."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-paut-cert-005",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "iso-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For an ISO 9712 phased array candidate, the conventional UT certification follows:",
+      "options": [
+       "A separate phased-array-only certification table",
+       "The standard UT training and experience tables",
+       "No formal training requirement",
+       "The shorter surface-method tables"
+      ],
+      "answer": 1,
+      "distractors": [
+       "Phased array has no separate base table; it extends UT.",
+       "",
+       "The underlying UT certification is fully required.",
+       "UT is a volumetric method, not a surface one."
+      ],
+      "explanation": "Phased array sits on top of conventional ultrasonics, so the underlying UT certification still follows the UT entries in Tables 2 and 3."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "iso-paut-cert-006",
+     "requiresUnits": false,
+     "subtopic": "scope",
+     "tier": "iso-paut",
+     "topic": "certification"
+    }
+   ]
+  }
+ ]
+}

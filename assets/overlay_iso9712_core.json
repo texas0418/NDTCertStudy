@@ -1,0 +1,892 @@
+[
+ {
+  "block": "cert_iso9712_core",
+  "count": 34,
+  "questions": [
+   {
+    "content": {
+     "stem": "ISO 9712 sets out requirements for the:",
+     "options": [
+      "Qualification and certification of NDT personnel",
+      "Acceptance criteria for welded pipeline joints",
+      "Design of the examination procedures and their syllabi",
+      "Design of the examination procedures themselves"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "That is a product standard such as API 1104, not ISO 9712.",
+      "Equipment calibration sits in method standards, not here.",
+      "Procedures are written under the scheme, not defined by it."
+     ],
+     "explanation": "ISO 9712 is the standard for qualifying and certifying the competence of NDT personnel."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-001",
+    "requiresUnits": false,
+    "subtopic": "scope",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, certification of a person is granted by:",
+     "options": [
+      "The candidate's own employer, in house",
+      "A certification body independent of the employer",
+      "The training provider that ran the course",
+      "The candidate alone, by their own self-declared competence"
+     ],
+     "answer": 1,
+     "distractors": [
+      "That is the employer-based model of SNT-TC-1A, not ISO 9712.",
+      "",
+      "Training and certification are kept separate for impartiality.",
+      "Competence is assessed by the body, not self-declared."
+     ],
+     "explanation": "ISO 9712 is a central, third-party scheme: an independent certification body certifies the person."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-002",
+    "requiresUnits": false,
+    "subtopic": "third_party",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "ISO 9712 defines NDT personnel in:",
+     "options": [
+      "A single qualified grade for all personnel",
+      "Two grades, trainee and qualified",
+      "Three levels of qualification",
+      "Four levels rising to chief examiner"
+     ],
+     "answer": 2,
+     "distractors": [
+      "The standard separates duties across distinct levels.",
+      "There are more than two defined levels.",
+      "",
+      "The level count does not run that high."
+     ],
+     "explanation": "ISO 9712 sets three levels (1, 2, and 3), each with defined duties."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-003",
+    "requiresUnits": false,
+    "subtopic": "levels",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A Level 1 individual is qualified to:",
+     "options": [
+      "Choose the method and technique for the job",
+      "Interpret results against codes and accept or reject welds on their own authority",
+      "Establish and validate the NDT procedures",
+      "Carry out NDT to written instructions under Level 2 or 3 oversight"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Selecting method and technique is a higher-level duty.",
+      "Independent evaluation to acceptance is above Level 1.",
+      "Writing and validating procedures is a Level 3 duty.",
+      ""
+     ],
+     "explanation": "Level 1 performs set operations to written instructions and records results, supervised by Level 2 or 3."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-004",
+    "requiresUnits": false,
+    "subtopic": "level1",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A Level 2 individual is qualified to:",
+     "options": [
+      "Set up, perform, and evaluate results against codes and standards",
+      "Carry out tests only to written instructions",
+      "Hold full technical responsibility for the testing facility and its procedures",
+      "Establish brand-new procedures for the employer"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Working only to instructions describes Level 1.",
+      "Full technical responsibility rests with Level 3.",
+      "Establishing procedures is a Level 3 function."
+     ],
+     "explanation": "Level 2 sets up and calibrates, performs and evaluates to standards, writes instructions, and reports."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-005",
+    "requiresUnits": false,
+    "subtopic": "level2",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A Level 3 individual is qualified to:",
+     "options": [
+      "Only carry out tests to written instructions",
+      "Take full technical responsibility and establish procedures",
+      "Only evaluate results to an existing standard written by someone else",
+      "Issue the employer's authorization to operate"
+     ],
+     "answer": 1,
+     "distractors": [
+      "That is a Level 1 scope, well below Level 3.",
+      "",
+      "Evaluating to standards alone describes Level 2.",
+      "Authorization to operate is the employer's act, not a level duty."
+     ],
+     "explanation": "Level 3 carries full technical responsibility, can establish and validate procedures, and may run exams."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-006",
+    "requiresUnits": false,
+    "subtopic": "level3",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An ISO 9712 certificate by itself:",
+     "options": [
+      "Authorizes the holder to operate independently the moment it is issued",
+      "Is issued by the holder's own employer",
+      "Confirms competence; the employer must still authorize operation",
+      "Removes the need for employer procedures"
+     ],
+     "answer": 2,
+     "distractors": [
+      "The certificate attests competence; operation needs employer authorization.",
+      "Under ISO 9712 the certification body issues it, not the employer.",
+      "",
+      "The holder still works to the employer's procedures."
+     ],
+     "explanation": "The certificate attests competence; a separate written authorization to operate is issued by the employer."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-007",
+    "requiresUnits": false,
+    "subtopic": "certificate",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The written authorization to operate is issued by:",
+     "options": [
+      "The certification body, with the certificate",
+      "The authorized qualification body that runs the examination on the day",
+      "Any Level 3 the holder happens to work under",
+      "The employer, on the basis of the certificate and the job conditions"
+     ],
+     "answer": 3,
+     "distractors": [
+      "The body certifies competence; the employer authorizes operation.",
+      "Exam bodies do not authorize a person to operate.",
+      "A supervising Level 3 does not grant the authorization.",
+      ""
+     ],
+     "explanation": "ISO 9712 separates certification from authorization: the employer authorizes operation in writing."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-008",
+    "requiresUnits": false,
+    "subtopic": "authorization",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Before sitting the qualification examination, a candidate must satisfy:",
+     "options": [
+      "Training, industrial experience, and vision requirements",
+      "A written reference from a Level 3 only",
+      "Continuous employment at the testing site for at least one full year",
+      "Membership of a professional NDT society"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "A reference does not replace training and experience.",
+      "Generic site tenure is not the eligibility basis.",
+      "Society membership is not an eligibility condition."
+     ],
+     "explanation": "Eligibility requires documented training, minimum industrial experience, and satisfactory vision."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-009",
+    "requiresUnits": false,
+    "subtopic": "eligibility",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The near-vision requirement is demonstrated by:",
+     "options": [
+      "Passing a distance-vision chart read at the far point of the room",
+      "Reading a defined small typeface at a set minimum distance",
+      "A self-declaration of good eyesight",
+      "A single check valid for the holder's career"
+     ],
+     "answer": 1,
+     "distractors": [
+      "ISO 9712's acuity check is near vision, not distance.",
+      "",
+      "Vision must be tested and recorded, not declared.",
+      "Vision is re-checked periodically, not once for life."
+     ],
+     "explanation": "Near-vision acuity is shown by reading a small typeface (Jaeger 1 or Times Roman N4.5, about 1.6 mm letters) at not less than 30 cm, one or both eyes, corrected or uncorrected."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-010",
+    "requiresUnits": false,
+    "subtopic": "vision_near",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Beyond acuity, the candidate must show that they can:",
+     "options": [
+      "Read at distance without any corrective lenses",
+      "Identify colors only when the individual happens to work in penetrant testing",
+      "Distinguish and differentiate the colors or grey shades the method needs",
+      "Match a fixed industrial color reference card"
+     ],
+     "answer": 2,
+     "distractors": [
+      "Corrective lenses are permitted; the test is near acuity and color.",
+      "Color or contrast capability is a general requirement.",
+      "",
+      "The check is differentiation as the method requires, not card matching."
+     ],
+     "explanation": "Candidates must distinguish and differentiate the contrast between the colours or shades of grey used in the method, as specified by the employer."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-011",
+    "requiresUnits": false,
+    "subtopic": "vision_color",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Vision is checked:",
+     "options": [
+      "Only at the time of first certification",
+      "Only at the point of recertification",
+      "Only when the holder reports a problem",
+      "Periodically, at least once a year"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Vision is rechecked through the certification period.",
+      "Checks are more frequent than the recertification cycle.",
+      "Checks are scheduled, not complaint-driven.",
+      ""
+     ],
+     "explanation": "Near-vision acuity is verified at least every 12 months; colour or grey-scale perception is checked at least every five years. The employer ensures the check is done and keeps the record."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-012",
+    "requiresUnits": false,
+    "subtopic": "vision_freq",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Formal training is required as:",
+     "options": [
+      "A minimum amount of training time for the method and level",
+      "A short familiarization talk before the exam",
+      "Optional self-study left entirely to the candidate's own discretion",
+      "Any general engineering qualification held"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "A brief talk does not meet the training requirement.",
+      "Training is a mandatory, documented minimum.",
+      "Generic qualifications do not substitute for method training."
+     ],
+     "explanation": "Candidates complete a minimum of documented training, which the 2021 edition expresses in days (Table 2; one day is at least seven hours)."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-013",
+    "requiresUnits": false,
+    "subtopic": "training",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Industrial experience is required as:",
+     "options": [
+      "A few days of shadowing a certified inspector",
+      "A documented minimum period of work in the method",
+      "Experience that is waived entirely for any Level 1 candidate",
+      "Classroom hours counted as field experience"
+     ],
+     "answer": 1,
+     "distractors": [
+      "A short shadowing spell does not meet the requirement.",
+      "",
+      "Level 1 still requires documented experience.",
+      "Training hours are separate from industrial experience."
+     ],
+     "explanation": "Candidates need a documented minimum of industrial NDT experience for the method and level."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-014",
+    "requiresUnits": false,
+    "subtopic": "experience",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Industrial experience may be:",
+     "options": [
+      "Counted only when it is completed before any training has begun",
+      "Replaced by extra training hours instead",
+      "Gained before or after the examination under set conditions",
+      "Logged by the candidate without verification"
+     ],
+     "answer": 2,
+     "distractors": [
+      "Experience is not restricted to the pre-training period.",
+      "Training does not substitute for required experience.",
+      "",
+      "Experience must be documented and verifiable."
+     ],
+     "explanation": "Experience can be acquired before or after the exam, with verification. If completed after the exam, the exam result stays valid for two years (or until the total required experience is met)."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-015",
+    "requiresUnits": false,
+    "subtopic": "experience_timing",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The qualification examination consists of:",
+     "options": [
+      "A single written paper covering everything",
+      "An interview with a reference check",
+      "On-the-job assessment carried out by the employer alone",
+      "General, specific, and practical examinations"
+     ],
+     "answer": 3,
+     "distractors": [
+      "The exam is split into distinct parts, not one paper.",
+      "Assessment is by examination, not interview.",
+      "The employer does not run the qualification exam.",
+      ""
+     ],
+     "explanation": "Qualification is by a general exam, a specific exam, and a practical exam."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-016",
+    "requiresUnits": false,
+    "subtopic": "exam_structure",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The general examination covers:",
+     "options": [
+      "The basic principles of the method",
+      "The employer's site procedures in detail",
+      "The practical handling of specimens",
+      "The product sector's acceptance criteria"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Site procedures are not the general exam's subject.",
+      "Hands-on work is the practical exam, not the general one.",
+      "Acceptance criteria belong to the specific exam."
+     ],
+     "explanation": "The general exam tests basic principles of the method, as a minimum of 40 multiple-choice questions (the certification body may adjust the count per method)."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-017",
+    "requiresUnits": false,
+    "subtopic": "general_exam",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The specific examination covers:",
+     "options": [
+      "Only the basic underlying physics of the method itself",
+      "Equipment, procedures, and the codes for the sector",
+      "A practical test on real specimens",
+      "The candidate's employment history"
+     ],
+     "answer": 1,
+     "distractors": [
+      "Basic physics is the general exam's subject.",
+      "",
+      "Specimen work is the practical exam.",
+      "Employment history is not examined."
+     ],
+     "explanation": "The specific exam tests method application, procedures, and the codes and acceptance for the sector, as a minimum of 20 questions (at least 30 if two or more sectors)."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-018",
+    "requiresUnits": false,
+    "subtopic": "specific_exam",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The practical examination requires the candidate to:",
+     "options": [
+      "Sit a second written multiple-choice paper instead of any practical",
+      "Sit a second written multiple-choice paper",
+      "Apply the method to specimens and report the findings",
+      "Observe a certified inspector at work"
+     ],
+     "answer": 2,
+     "distractors": [
+      "The practical is hands-on, not an oral description.",
+      "The practical is performance-based, not written.",
+      "",
+      "The candidate performs the test, not observes it."
+     ],
+     "explanation": "In the practical, the candidate sets up, detects, evaluates, and reports on test specimens; the number and type of specimens follow Annex B, at least two for a single sector."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-019",
+    "requiresUnits": false,
+    "subtopic": "practical_exam",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "To pass, the candidate must:",
+     "options": [
+      "Reach the required pass mark on the overall average only",
+      "Pass only the practical part of the exam",
+      "Pass any one part to carry the others",
+      "Reach the minimum mark in each examination part"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Each part is passed on its own, not by averaging.",
+      "All parts must be passed, not just the practical.",
+      "Passing one part does not carry the rest.",
+      ""
+     ],
+     "explanation": "Each part (general, specific, practical) must independently reach 70%, graded separately, with 70% also required on each practical specimen (Annex D governs practical grading)."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-020",
+    "requiresUnits": false,
+    "subtopic": "grading",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An ISO 9712 certificate is valid:",
+     "options": [
+      "For a fixed period, after which it must be renewed",
+      "Indefinitely once it has been granted",
+      "Only while the holder stays with one employer",
+      "Only for as long as the training record is kept current"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Certificates expire and require renewal.",
+      "Validity is not tied to a single employer.",
+      "Validity runs on its own period, not the training record."
+     ],
+     "explanation": "Certification is valid for five years, after which it must be renewed."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-021",
+    "requiresUnits": false,
+    "subtopic": "validity",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Renewal at the end of the validity period requires:",
+     "options": [
+      "A complete re-sit of every written and practical examination part",
+      "Evidence of continued activity and a current vision check",
+      "Only the current employer's signature",
+      "Nothing, since it renews automatically"
+     ],
+     "answer": 1,
+     "distractors": [
+      "A full re-sit is not the renewal route at first expiry.",
+      "",
+      "An employer signature alone does not renew it.",
+      "Renewal is an active step, not automatic."
+     ],
+     "explanation": "Renewal needs a vision check no more than 12 months old and evidence of continued work without significant interruption (the 2021 edition added renewal requirements)."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-022",
+    "requiresUnits": false,
+    "subtopic": "renewal",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Recertification, after the second period, is typically by:",
+     "options": [
+      "A signed statement from the employer alone",
+      "Re-sitting only the general examination",
+      "A practical examination or a structured credit record",
+      "Automatic extension granted if the certificate has never lapsed"
+     ],
+     "answer": 2,
+     "distractors": [
+      "An employer statement alone does not recertify.",
+      "The general exam alone is not the recertification route.",
+      "",
+      "Recertification is an active assessment, not automatic."
+     ],
+     "explanation": "At recertification the holder passes a practical exam or qualifies through a structured credit system; the 2021 edition revised the structured-credit route for Level 3, while Levels 1 and 2 normally recertify by practical exam."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-023",
+    "requiresUnits": false,
+    "subtopic": "recertification",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Renewal or recertification can be carried out:",
+     "options": [
+      "At any time, with no time limit at all",
+      "Only on the exact calendar day the certificate expires",
+      "Only once the certificate has fully lapsed",
+      "Within a defined window around the expiry date"
+     ],
+     "answer": 3,
+     "distractors": [
+      "There is a bounded window, not an open one.",
+      "A window applies, not a single day.",
+      "Action is allowed before expiry, not only after.",
+      ""
+     ],
+     "explanation": "Renewal is initiated before expiry and accepted up to 12 months after it; recertification applied for more than 12 months after expiry requires a complete requalification."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-024",
+    "requiresUnits": false,
+    "subtopic": "recert_window",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A significant interruption in the method:",
+     "options": [
+      "Can require requalification before the certificate continues",
+      "Has no bearing on the certificate or its period of validity at all",
+      "Is offset by holding any other method",
+      "Is resolved by a short refresher email"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "A significant break does affect continued certification.",
+      "Holding another method does not cover the break.",
+      "An informal refresher does not resolve it."
+     ],
+     "explanation": "A significant interruption is a continuous period over one year, or two or more periods together over two years; legal holidays, sickness, and courses under 30 days are excluded. It can trigger requalification."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-025",
+    "requiresUnits": false,
+    "subtopic": "interruption",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The scheme is operated by a certification body that is:",
+     "options": [
+      "Run by the candidate's training school",
+      "Accredited against the recognized conformity-assessment standard",
+      "Internal to each employer that uses it",
+      "Self-appointed and operating without any external oversight whatsoever"
+     ],
+     "answer": 1,
+     "distractors": [
+      "Training providers do not operate the certification.",
+      "",
+      "The body is independent of employers.",
+      "The body works under recognized accreditation."
+     ],
+     "explanation": "The certification body operates under accreditation to ISO/IEC 17024, which clause 5.2.1 of ISO 9712 requires."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-026",
+    "requiresUnits": false,
+    "subtopic": "body",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Examinations are conducted at:",
+     "options": [
+      "Any workshop the candidate selects",
+      "The candidate's employer, without oversight",
+      "Authorized qualification bodies working under the certification body",
+      "The training provider that delivered the course, as part of that course"
+     ],
+     "answer": 2,
+     "distractors": [
+      "Exam venues are authorized, not freely chosen.",
+      "Employer-run exams without oversight are not the model.",
+      "",
+      "Exams are kept separate from training delivery."
+     ],
+     "explanation": "Authorized qualification bodies, independent of the employer and authorized by the certification body, prepare and administer exams; the 2021 edition also separates the examination centre as a distinct role."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-027",
+    "requiresUnits": false,
+    "subtopic": "aqb",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Examination is arranged so that it is:",
+     "options": [
+      "Left wide open for the candidate to retake freely at will",
+      "Set by the employer to match the work",
+      "Open for the candidate to retake at will",
+      "Independent of the candidate's training and employment"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Self-supervised marking would undermine impartiality.",
+      "Employer-set exams would not be impartial.",
+      "Retakes are governed, not unlimited at will.",
+      ""
+     ],
+     "explanation": "The scheme keeps examination independent of the candidate's training and employer to ensure impartiality."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-028",
+    "requiresUnits": false,
+    "subtopic": "impartiality",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Certification is granted in a defined:",
+     "options": [
+      "Method and product or industrial sector",
+      "Method only, with no product or industrial sector attached",
+      "Sector only, with no method named",
+      "Employer site where the holder works"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Certification is tied to a sector as well as a method.",
+      "A method is named alongside the sector.",
+      "Certification is not scoped to a single site."
+     ],
+     "explanation": "Certification states the method and a sector, meaning a section of industry or technology, whether a product (welded products, castings) or an industry (aerospace, in-service testing); see Annex A."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-029",
+    "requiresUnits": false,
+    "subtopic": "sector",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "ISO 9712 applies across:",
+     "options": [
+      "Only the two volumetric methods, namely RT and UT alone",
+      "A range of NDT methods, each certified separately",
+      "Only the surface methods, MT and PT",
+      "A single combined NDT qualification"
+     ],
+     "answer": 1,
+     "distractors": [
+      "The standard is not limited to volumetric methods.",
+      "",
+      "Surface methods are not the only ones covered.",
+      "Methods are certified individually, not as one."
+     ],
+     "explanation": "ISO 9712 covers ten methods (Table 1: AT, ET, LT, MT, PT, RT, ST, TT, UT, VT), each certified separately."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-030",
+    "requiresUnits": false,
+    "subtopic": "methods",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A certified person who breaches the code of ethics may have their certification:",
+     "options": [
+      "Downgraded one level as a penalty",
+      "Transferred to the employer for them to manage directly",
+      "Suspended or revoked by the certification body",
+      "Transferred to the employer to manage"
+     ],
+     "answer": 2,
+     "distractors": [
+      "The sanction is suspension or revocation, not a downgrade.",
+      "Action is not deferred to renewal.",
+      "",
+      "The certification body, not the employer, acts on it."
+     ],
+     "explanation": "Breaches of the code of ethics can lead the body to suspend or revoke certification."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-031",
+    "requiresUnits": false,
+    "subtopic": "ethics",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Records of certified persons are kept by:",
+     "options": [
+      "Each employer for its own staff only",
+      "The training provider that delivered the course",
+      "The individual certificate holder alone",
+      "The certification body operating the scheme"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Employers may keep records, but the scheme record is the body's.",
+      "Training records are separate from the certification register.",
+      "The holder keeps a certificate, not the central register.",
+      ""
+     ],
+     "explanation": "The certification body maintains the register of certified persons."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-032",
+    "requiresUnits": false,
+    "subtopic": "records",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Compared with an employer-based scheme, ISO 9712 is:",
+     "options": [
+      "Central, third-party certification rather than employer certification",
+      "Employer-based certification carried out under the employer's own written practice",
+      "A self-certification by the individual",
+      "A product acceptance standard for welds"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "That describes SNT-TC-1A, the employer-based model.",
+      "ISO 9712 is not self-certification.",
+      "ISO 9712 certifies people, not products."
+     ],
+     "explanation": "ISO 9712 centralizes certification in an independent body, unlike employer-based written-practice schemes."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-033",
+    "requiresUnits": false,
+    "subtopic": "vs_employer",
+    "tier": "iso-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Within a method, certification can also be:",
+     "options": [
+      "Limited to one employer's equipment model",
+      "Specific to a technique, such as phased array or TOFD",
+      "Granted automatically for all techniques at once by default",
+      "Independent of the method entirely"
+     ],
+     "answer": 1,
+     "distractors": [
+      "Certification is not tied to an equipment model.",
+      "",
+      "Techniques are not all granted automatically.",
+      "A technique sits within its method, not apart from it."
+     ],
+     "explanation": "Certification can be scoped to a technique within a method, such as TOFD or phased array; Annex F covers technique training."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "iso-core-034",
+    "requiresUnits": false,
+    "subtopic": "technique",
+    "tier": "iso-core",
+    "topic": "certification"
+   }
+  ]
+ }
+]

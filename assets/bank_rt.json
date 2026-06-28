@@ -8481,7 +8481,7 @@
        "Acceptance follows the standard, not discretion.",
        ""
       ],
-      "explanation": "Cracks are defects, with one narrow allowance for a shallow crater or star crack under a small length limit."
+      "explanation": "A crack is a defect under API 1104 9.3.10; the only allowance is a crater or star crack no longer than 5/32 in. (4 mm)."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8507,7 +8507,7 @@
        "Location along the weld is not the measured parameter.",
        "Film grain does not size the indication."
       ],
-      "explanation": "IP is assessed on individual length and total length within a specified reference weld length."
+      "explanation": "IP is a defect (9.3.1) when an individual indication exceeds 1 in. (25 mm), the aggregate in any 12 in. (300 mm) exceeds 1 in., or the aggregate exceeds 8 % of a weld shorter than 12 in."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8533,7 +8533,7 @@
        "",
        "That describes a slag inclusion, not IPD."
       ],
-      "explanation": "IPD arises when offset (high-low) between the two ends prevents the root from fusing fully; it has its own length-based limits."
+      "explanation": "IPD has its own length limits (9.3.2): a defect when an individual indication exceeds 2 in. (50 mm) or the aggregate in any 12 in. (300 mm) exceeds 2 in."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8559,7 +8559,7 @@
        "Orientation is not the sizing basis.",
        ""
       ],
-      "explanation": "IF is assessed on individual and aggregate length within the reference weld length."
+      "explanation": "IF is a defect (9.3.4) when an individual indication exceeds 1 in. (25 mm), the aggregate in any 12 in. (300 mm) exceeds 1 in., or the aggregate exceeds 8 % of a weld under 12 in."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8585,7 +8585,7 @@
        "Full-section loss is not how IFD is defined.",
        ""
       ],
-      "explanation": "IFD (cold lap) is a lack of fusion between weld passes or between weld and base metal away from the root, with its own length limits."
+      "explanation": "IFD (cold lap) has its own limits (9.3.5): a defect when an individual indication exceeds 2 in. (50 mm), the aggregate in any 12 in. exceeds 2 in., or the aggregate exceeds 8 % of the weld."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8663,7 +8663,7 @@
        "",
        "Density alone does not size slag."
       ],
-      "explanation": "Linear slag is assessed on individual length and total length within the reference weld length, with a width limit as well."
+      "explanation": "An elongated slag inclusion is a defect when its length exceeds 2 in. (50 mm), its width exceeds 1/16 in. (1.6 mm), or the aggregate in any 12 in. (300 mm) exceeds 2 in."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8689,7 +8689,7 @@
        "Exposure time is a technique setting, not acceptance.",
        ""
       ],
-      "explanation": "Isolated slag carries width and length limits, with an aggregate provision over the reference weld length."
+      "explanation": "Isolated slag is a defect when its width exceeds 1/8 in. (3 mm), when more than four such indications of that width fall in any 12 in. (300 mm), or when their aggregate length there exceeds 1/2 in. (13 mm)."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8715,7 +8715,7 @@
        "Marking location is irrelevant to acceptance.",
        "Border density is not the parameter."
       ],
-      "explanation": "Individual porosity is limited by maximum pore size and by distribution, compared against the porosity charts in the standard."
+      "explanation": "Individual porosity is a defect (9.3.9) when a pore exceeds 1/8 in. (3 mm) in diameter or 25 % of the thinner wall, whichever is less; scattered porosity is judged against the standard's distribution charts."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8793,7 +8793,7 @@
        "",
        "It is not a density rule."
       ],
-      "explanation": "The accumulation rule caps the combined length of several imperfections falling within a specified continuous weld length."
+      "explanation": "The accumulation rule caps the combined length of imperfections within any continuous 12 in. (300 mm) of weld, with a further cap at 8 % of the weld length."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8949,7 +8949,7 @@
        "Cost is unrelated to validity.",
        "A certification number does not validate density."
       ],
-      "explanation": "The radiograph's density through the weld must sit inside an allowed range for the image to be evaluable."
+      "explanation": "Through the area of interest the transmitted H&D density must be at least 1.8 and no more than 4.0 for the radiograph to be evaluable (11.1)."
      },
      "diagram": null,
      "difficulty": "medium",

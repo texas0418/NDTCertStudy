@@ -7207,7 +7207,7 @@
        "Marking position is irrelevant.",
        "Couplant amount is a setup detail."
       ],
-      "explanation": "Indication length is the primary size parameter for acceptance under the workmanship route."
+      "explanation": "Indication length is the primary size parameter under the workmanship route; a linear surface indication is capped at an aggregate 1 in. (25 mm) in any 12 in. (300 mm), a linear buried indication at 2 in. (50 mm) (9.6.2)."
      },
      "diagram": null,
      "difficulty": "medium",

@@ -8991,7 +8991,7 @@
        "Just plain ignored if buried here, somehow really quite oddly"
       ],
       "answer": 0,
-      "explanation": "Because cracks are planar and propagate, the code generally rejects them, allowing only narrowly defined exceptions.",
+      "explanation": "Cracks are planar and propagate, so the code rejects them (9.3.10); the only exception is a crater or star crack no longer than 5/32 in. (4 mm).",
       "distractors": [
        "",
        "Cracks are generally rejectable, not freely accepted.",
@@ -9043,7 +9043,7 @@
        "Accumulation applies only to the base metal here, somehow really quite oddly"
       ],
       "answer": 0,
-      "explanation": "The code limits the total of imperfections over a defined weld length, so many small ones can collectively exceed acceptance.",
+      "explanation": "The code caps the combined length of imperfections within any continuous 12 in. (300 mm) of weld and against an 8 % of weld-length limit, so many small ones can together exceed acceptance.",
       "distractors": [
        "",
        "The code considers accumulated imperfections, not just single ones.",

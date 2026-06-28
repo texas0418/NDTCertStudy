@@ -7259,7 +7259,7 @@
        "Position along the weld is not the limit.",
        "Channel count is a setup detail."
       ],
-      "explanation": "Under the workmanship route, indication length governs, applied per zone, similar in spirit to the radiographic length limits."
+      "explanation": "Under the workmanship route, indication length governs (9.6.2), applied per zone: linear surface indications are capped at 1 in. (25 mm) and linear buried at 2 in. (50 mm) aggregate in any 12 in. (300 mm)."
      },
      "diagram": null,
      "difficulty": "hard",

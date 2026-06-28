@@ -8,11 +8,15 @@ import ut1Json from "../assets/bank_ut1.json";
 import rt1Json from "../assets/bank_rt1.json";
 import paut1Json from "../assets/bank_paut1.json";
 import paut2Json from "../assets/bank_paut2.json";
+import isoOverlay from "../assets/overlay_iso9712.json";
+import asntOverlay from "../assets/overlay_snttc1a.json";
+import isoCore from "../assets/overlay_iso9712_core.json";
+import asntCore from "../assets/overlay_snttc1a_core.json";
 import { Bank, Block, Question, Unit, Variant } from "./types";
 
 // ---- certification schemes ------------------------------------------------
 
-export type SchemeId = "api" | "asnt" | "pcn" | "cswip";
+export type SchemeId = "api" | "asnt" | "pcn" | "cswip" | "cgsb";
 
 export interface SchemeDef {
   id: SchemeId;
@@ -26,9 +30,10 @@ export const SCHEMES: SchemeDef[] = [
   { id: "asnt", name: "ASNT", body: "American Society for NDT", standard: "SNT-TC-1A / ASME" },
   { id: "pcn", name: "PCN", body: "BINDT", standard: "ISO 9712 / ISO-EN" },
   { id: "cswip", name: "CSWIP", body: "TWI", standard: "ISO 9712 / ISO-EN" },
+  { id: "cgsb", name: "CGSB", body: "Canadian General Standards Board", standard: "CAN/CGSB-48.9712 / ISO 9712" },
 ];
 
-const ALL_SCHEMES: SchemeId[] = ["api", "asnt", "pcn", "cswip"];
+const ALL_SCHEMES: SchemeId[] = ["api", "asnt", "pcn", "cswip", "cgsb"];
 
 // ---- base method x level banks (raw content, scheme-agnostic) -------------
 
@@ -87,6 +92,67 @@ function filterBankForScheme(bank: Bank, scheme: SchemeId): Bank {
   return { ...bank, total_questions: total, block_order: blocks.map((b) => b.block), blocks };
 }
 
+// ---- scheme-level shared overlays (personnel-certification standards) ------
+//
+// ISO 9712 (PCN, CSWIP) and SNT-TC-1A (ASNT) certify people, not welds, and
+// their rules are method-agnostic: the same level structure, exam format, and
+// experience requirements apply to every method, with only a few method-keyed
+// tables (training hours, practical specimens). So that content is authored
+// once here and injected into every module of the chosen schemes, instead of
+// being copied into each base bank. Shared questions keep stable ids, so the
+// cert rules are learned once and progress counts wherever the block appears,
+// the same way the method fundamentals are shared across schemes. Method-keyed
+// add-ons carry their own ids and are tracked per method.
+
+export interface SchemeOverlay {
+  schemes: SchemeId[]; // schemes that receive this overlay
+  shared: Block[]; // method-agnostic blocks (stable ids, shared everywhere)
+  byMethod?: Record<string, Block[]>; // method ("UT", "MT", ...) -> extra blocks
+}
+
+// RT method overlays are live: the ISO 9712 family (PCN, CSWIP, CGSB) and the
+// employer-based SNT-TC-1A (ASNT) each inject their RT certification block into
+// the RT Level I and Level II modules. Other methods and the method-agnostic
+// shared cores are added the same way as they are authored.
+// Both families now carry a method-agnostic shared core (levels, exam format,
+// grading, vision, certification and recertification) injected into every module
+// of their schemes, plus the per-method blocks keyed by method.
+export const OVERLAYS: SchemeOverlay[] = [
+  {
+    schemes: ["pcn", "cswip", "cgsb"],
+    shared: isoCore as unknown as Block[],
+    byMethod: isoOverlay as unknown as Record<string, Block[]>,
+  },
+  {
+    schemes: ["asnt"],
+    shared: asntCore as unknown as Block[],
+    byMethod: asntOverlay as unknown as Record<string, Block[]>,
+  },
+];
+
+function overlayBlocksFor(scheme: SchemeId, method: string): Block[] {
+  const out: Block[] = [];
+  for (const ov of OVERLAYS) {
+    if (!ov.schemes.includes(scheme)) continue;
+    out.push(...ov.shared);
+    const mb = ov.byMethod?.[method];
+    if (mb) out.push(...mb);
+  }
+  return out;
+}
+
+function applyOverlays(bank: Bank, scheme: SchemeId, method: string): Bank {
+  const extra = overlayBlocksFor(scheme, method);
+  if (extra.length === 0) return bank;
+  const blocks = [...bank.blocks, ...extra];
+  return {
+    ...bank,
+    blocks,
+    block_order: blocks.map((b) => b.block),
+    total_questions: blocks.reduce((n, b) => n + b.questions.length, 0),
+  };
+}
+
 // ---- modules: scheme x method x level -------------------------------------
 
 export interface ModuleDef {
@@ -103,7 +169,7 @@ export const MODULES: ModuleDef[] = (() => {
   const out: ModuleDef[] = [];
   for (const s of SCHEMES) {
     for (const base of BASE) {
-      const bank = filterBankForScheme(base.bank, s.id);
+      const bank = applyOverlays(filterBankForScheme(base.bank, s.id), s.id, base.method);
       if (bank.blocks.length === 0) continue;
       out.push({
         id: `${s.id}-${base.key}`,
@@ -146,9 +212,23 @@ export function getQuestionsForBlock(moduleId: string, blockName: string): Quest
   return getBlocks(moduleId).find((b) => b.block === blockName)?.questions ?? [];
 }
 
-// Every unique question (from the base banks; scheme modules reuse these ids).
+// Every unique question by id: base banks plus any registered overlays.
+// Scheme modules reuse these ids (shared content shares progress by id).
 export function getEveryQuestion(): Question[] {
-  return BASE.flatMap((b) => b.bank.blocks.flatMap((bl) => bl.questions));
+  const seen = new Set<string>();
+  const out: Question[] = [];
+  const push = (q: Question) => {
+    if (!seen.has(q.id)) {
+      seen.add(q.id);
+      out.push(q);
+    }
+  };
+  for (const b of BASE) for (const bl of b.bank.blocks) for (const q of bl.questions) push(q);
+  for (const ov of OVERLAYS) {
+    for (const bl of ov.shared) for (const q of bl.questions) push(q);
+    for (const mb of Object.values(ov.byMethod ?? {})) for (const bl of mb) for (const q of bl.questions) push(q);
+  }
+  return out;
 }
 
 export function getQuestionById(id: string): Question | undefined {

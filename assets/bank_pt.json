@@ -8507,7 +8507,7 @@
        "Linearity is by ratio.",
        "Shorter than wide is rounded."
       ],
-      "explanation": "A linear indication has length exceeding a defined multiple of its width."
+      "explanation": "API 1104 calls an indication rounded when its length is three times its width or less (3.1.51); beyond that ratio it is linear (3.1.30)."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -8533,7 +8533,7 @@
        "A crack is relevant.",
        ""
       ],
-      "explanation": "Cracks are rejectable regardless of length."
+      "explanation": "Cracks are rejectable under PT acceptance (9.5); the only narrow allowance is a crater or star crack up to 5/32 in. (4 mm)."
      },
      "diagram": null,
      "difficulty": "medium",

@@ -73,6 +73,18 @@ export const blockLabels: Record<string, string> = {
   flaw_detection: "Flaw Detection & Sizing",
   codes_api1104: "Codes (API 1104)",
   general_practice_safety: "General Practice & Safety",
+  cert_iso9712_core: "Certification: General (ISO 9712)",
+  cert_snttc1a_core: "Certification: General (SNT-TC-1A)",
+  cert_iso9712_rt: "Certification: RT (ISO 9712)",
+  cert_snttc1a_rt: "Certification: RT (SNT-TC-1A)",
+  cert_iso9712_mt: "Certification: MT (ISO 9712)",
+  cert_snttc1a_mt: "Certification: MT (SNT-TC-1A)",
+  cert_iso9712_pt: "Certification: PT (ISO 9712)",
+  cert_snttc1a_pt: "Certification: PT (SNT-TC-1A)",
+  cert_iso9712_ut: "Certification: UT (ISO 9712)",
+  cert_snttc1a_ut: "Certification: UT (SNT-TC-1A)",
+  cert_iso9712_paut: "Certification: PAUT (ISO 9712)",
+  cert_snttc1a_paut: "Certification: PAUT (SNT-TC-1A)",
   // MT Level II
   mt_principles: "Principles of Magnetism",
   mt_methods: "Magnetization Methods",
@@ -183,6 +195,7 @@ export const schemeAccent: Record<string, string> = {
   asnt: "#3A6B92", // blue
   pcn: "#6A4E96", // violet
   cswip: "#2E7D74", // teal
+  cgsb: "#A8472E", // clay
 };
 
 // Untouched topics read neutral grey; color only appears once attempted.

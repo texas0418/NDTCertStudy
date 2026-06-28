@@ -7155,7 +7155,7 @@
        "Pipe color is irrelevant.",
        ""
       ],
-      "explanation": "Density through the area of interest must fall inside the allowed range to be evaluable."
+      "explanation": "Through the area of interest the transmitted H&D density must fall between 1.8 and 4.0 (11.1)."
      },
      "diagram": null,
      "difficulty": "medium",
@@ -7285,7 +7285,7 @@
        "Location does not make it acceptable.",
        "Wall thickness does not exempt it."
       ],
-      "explanation": "Cracks are defects, with at most one narrow specified allowance."
+      "explanation": "Cracks are defects under API 1104; the only allowance is a crater or star crack up to 5/32 in. (4 mm) long (9.3.10)."
      },
      "diagram": null,
      "difficulty": "medium",

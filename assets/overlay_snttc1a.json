@@ -1,0 +1,978 @@
+{
+ "RT": [
+  {
+   "block": "cert_snttc1a_rt",
+   "count": 8,
+   "questions": [
+    {
+     "content": {
+      "stem": "SNT-TC-1A recommends radiographic Level 1 training of:",
+      "options": [
+       "40 hours",
+       "80 hours",
+       "24 hours",
+       "16 hours"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "80 hours is the UT phased-array technique figure.",
+       "24 hours fits some limited techniques, not RT Level 1.",
+       "16 hours is a magnetic-flux-leakage figure."
+      ],
+      "explanation": "Table 6.3.1A recommends 40 hours for RT Level 1; Level 2 adds another 40."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-rt-cert-001",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, recommended training for RT Level 2 is:",
+      "options": [
+       "80 hours",
+       "40 hours",
+       "20 hours",
+       "120 hours"
+      ],
+      "answer": 1,
+      "distractors": [
+       "80 hours applies to PAUT, FMC, and TOFD.",
+       "",
+       "No RT level uses 20 hours.",
+       "120 hours overstates the recommendation."
+      ],
+      "explanation": "RT Level 2 training is 40 hours; direct access to Level 2 uses the sum of the Level 1 and Level 2 hours."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-rt-cert-002",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A lists RT Level 1 method experience of 210 hours and total NDT experience of:",
+      "options": [
+       "130 hours",
+       "800 hours",
+       "400 hours",
+       "1200 hours"
+      ],
+      "answer": 2,
+      "distractors": [
+       "130 hours is a surface-method total.",
+       "800 hours fits some other methods, not RT Level 1.",
+       "",
+       "1200 hours is the RT Level 2 total."
+      ],
+      "explanation": "Table 6.3.1A lists RT Level 1 at 210 hours in method and 400 hours total NDT experience."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-rt-cert-003",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "asnt-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For RT Level 2, SNT-TC-1A recommends method experience of:",
+      "options": [
+       "210 hours",
+       "320 hours",
+       "1200 hours",
+       "630 hours"
+      ],
+      "answer": 3,
+      "distractors": [
+       "210 hours is the Level 1 method figure.",
+       "320 hours is the PAUT method figure.",
+       "1200 hours is the total NDT figure, not method hours.",
+       ""
+      ],
+      "explanation": "RT Level 2 is 630 hours in the method, with 1200 hours total NDT experience."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-rt-cert-004",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "asnt-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Before RT training under SNT-TC-1A, a trainee is expected to receive:",
+      "options": [
+       "Radiation-safety training set by the jurisdiction",
+       "A Level 3 endorsement beforehand",
+       "A separate standalone practical examination beforehand",
+       "A documented vision waiver"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "No Level 3 endorsement is a training prerequisite.",
+       "The practical is part of certification, not a pre-training step.",
+       "Vision is checked, never waived."
+      ],
+      "explanation": "Independent of RT, CR, CT, DR, or NR training, a trainee should receive radiation-safety training as the jurisdiction requires."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-rt-cert-005",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A's minimum exam questions for radiographic testing are:",
+      "options": [
+       "30 general and 20 specific",
+       "40 general and 20 specific",
+       "40 general and 40 specific",
+       "20 general and 10 specific"
+      ],
+      "answer": 1,
+      "distractors": [
+       "30 general applies to some other methods, not RT.",
+       "",
+       "Specific is 20, not 40, for RT.",
+       "Those counts are too low for RT."
+      ],
+      "explanation": "Table 8.3.3 sets 40 general and 20 specific questions for radiography at both levels."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-rt-cert-006",
+     "requiresUnits": false,
+     "subtopic": "examination",
+     "tier": "asnt-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, CR, CT, and DR carry training hours that are:",
+      "options": [
+       "Half of the film radiography hours",
+       "Double the film radiography hours",
+       "The same as film radiography",
+       "Set only by the equipment maker"
+      ],
+      "answer": 2,
+      "distractors": [
+       "They match film radiography, not half.",
+       "They match film radiography, not double.",
+       "",
+       "Table 6.3.1A sets the recommended hours."
+      ],
+      "explanation": "CR, CT, and DR carry the same recommended hours as the radiography technique in Table 6.3.1A."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-rt-cert-007",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-rt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "The RT training and experience hours in SNT-TC-1A are:",
+      "options": [
+       "Mandatory minimums fixed by ASNT",
+       "Values fixed externally by an accredited certification body",
+       "Automatically waived for degree holders",
+       "Recommendations the employer sets in its written practice"
+      ],
+      "answer": 3,
+      "distractors": [
+       "SNT-TC-1A is a recommended practice, not a fixed mandate.",
+       "No external body sets them; the employer's written practice does.",
+       "Education can reduce hours, but not automatically waive them.",
+       ""
+      ],
+      "explanation": "SNT-TC-1A is a recommended practice; the employer's written practice is binding and may adjust the hours."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-rt-cert-008",
+     "requiresUnits": false,
+     "subtopic": "scope",
+     "tier": "asnt-rt",
+     "topic": "certification"
+    }
+   ]
+  }
+ ],
+ "MT": [
+  {
+   "block": "cert_snttc1a_mt",
+   "count": 7,
+   "questions": [
+    {
+     "content": {
+      "stem": "SNT-TC-1A recommends magnetic particle Level 1 training of:",
+      "options": [
+       "12 hours",
+       "8 hours",
+       "40 hours",
+       "4 hours"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "8 hours is the Level 2 figure.",
+       "40 hours is the RT or UT figure.",
+       "4 hours is the PT Level 1 figure."
+      ],
+      "explanation": "Table 6.3.1A recommends 12 hours for MT Level 1 and 8 for Level 2."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-mt-cert-001",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, recommended training for MT Level 2 is:",
+      "options": [
+       "12 hours",
+       "8 hours",
+       "16 hours",
+       "40 hours"
+      ],
+      "answer": 1,
+      "distractors": [
+       "12 hours is the Level 1 figure.",
+       "",
+       "16 hours is the MFL Level 1 figure.",
+       "40 hours applies to the volumetric methods."
+      ],
+      "explanation": "MT Level 2 training is 8 hours; direct access to Level 2 uses the sum of the Level 1 and Level 2 hours."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-mt-cert-002",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A lists MT Level 1 method experience of 70 hours and total NDT experience of:",
+      "options": [
+       "400 hours",
+       "210 hours",
+       "130 hours",
+       "70 hours"
+      ],
+      "answer": 2,
+      "distractors": [
+       "400 hours is the Level 2 total.",
+       "210 hours is the Level 2 method figure.",
+       "",
+       "70 hours is the method figure, not the total."
+      ],
+      "explanation": "Table 6.3.1A lists MT Level 1 at 70 hours in method and 130 hours total NDT experience."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-mt-cert-003",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "asnt-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For MT Level 2, SNT-TC-1A recommends method experience of:",
+      "options": [
+       "70 hours",
+       "630 hours",
+       "400 hours",
+       "210 hours"
+      ],
+      "answer": 3,
+      "distractors": [
+       "70 hours is the Level 1 method figure.",
+       "630 hours is the RT Level 2 figure.",
+       "400 hours is the total NDT figure, not method hours.",
+       ""
+      ],
+      "explanation": "MT Level 2 is 210 hours in the method, with 400 hours total NDT experience."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-mt-cert-004",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "asnt-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A's minimum exam questions for magnetic particle testing are:",
+      "options": [
+       "40 general and 20 specific",
+       "20 general and 15 specific",
+       "40 general and 40 specific",
+       "30 general and 20 specific"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Those counts apply to some leak-testing techniques.",
+       "Specific is 20, not 40, for MT.",
+       "General is 40, not 30, for MT."
+      ],
+      "explanation": "Table 8.3.3 sets 40 general and 20 specific questions for MT at both levels."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-mt-cert-005",
+     "requiresUnits": false,
+     "subtopic": "examination",
+     "tier": "asnt-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, MT training hours may be counted toward:",
+      "options": [
+       "Radiographic interpretation training",
+       "Magnetic flux leakage training",
+       "Ultrasonic technique training",
+       "The annual vision examination"
+      ],
+      "answer": 1,
+      "distractors": [
+       "MT hours do not transfer to radiography.",
+       "",
+       "MT hours do not transfer to ultrasonics.",
+       "Vision is a separate requirement."
+      ],
+      "explanation": "A note to Table 6.3.1A allows MT training hours to count toward magnetic flux leakage (MFL) training as the written practice defines."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-mt-cert-006",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-mt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "The MT training and experience hours in SNT-TC-1A are:",
+      "options": [
+       "Fixed minimums established directly by ASNT",
+       "Values set externally by a certification body",
+       "Recommendations the employer makes binding in a written practice",
+       "Requirements waived automatically for any relevant degree holder"
+      ],
+      "answer": 2,
+      "distractors": [
+       "SNT-TC-1A is a recommended practice, not a fixed mandate.",
+       "No external body sets them; the employer does.",
+       "",
+       "Education can reduce hours, never waive them automatically."
+      ],
+      "explanation": "SNT-TC-1A is a recommended practice; the employer's written practice sets the binding requirement and may adjust the hours."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-mt-cert-007",
+     "requiresUnits": false,
+     "subtopic": "scope",
+     "tier": "asnt-mt",
+     "topic": "certification"
+    }
+   ]
+  }
+ ],
+ "PT": [
+  {
+   "block": "cert_snttc1a_pt",
+   "count": 7,
+   "questions": [
+    {
+     "content": {
+      "stem": "SNT-TC-1A recommends liquid penetrant Level 1 training of:",
+      "options": [
+       "4 hours",
+       "8 hours",
+       "12 hours",
+       "40 hours"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "8 hours is the Level 2 figure.",
+       "12 hours is the MT Level 1 figure.",
+       "40 hours applies to the volumetric methods."
+      ],
+      "explanation": "Table 6.3.1A recommends 4 hours for PT Level 1, the shortest of the common methods; Level 2 adds 8."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-pt-cert-001",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, recommended training for PT Level 2 is:",
+      "options": [
+       "4 hours",
+       "8 hours",
+       "16 hours",
+       "40 hours"
+      ],
+      "answer": 1,
+      "distractors": [
+       "4 hours is the Level 1 figure.",
+       "",
+       "16 hours is the MFL Level 1 figure.",
+       "40 hours applies to the volumetric methods."
+      ],
+      "explanation": "PT Level 2 training is 8 hours; direct access to Level 2 uses the sum of the Level 1 and Level 2 hours."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-pt-cert-002",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A lists PT Level 1 method experience of 70 hours and total NDT experience of:",
+      "options": [
+       "270 hours",
+       "140 hours",
+       "130 hours",
+       "70 hours"
+      ],
+      "answer": 2,
+      "distractors": [
+       "270 hours is the Level 2 total.",
+       "140 hours is the Level 2 method figure.",
+       "",
+       "70 hours is the method figure, not the total."
+      ],
+      "explanation": "Table 6.3.1A lists PT Level 1 at 70 hours in method and 130 hours total NDT experience."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-pt-cert-003",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "asnt-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For PT Level 2, SNT-TC-1A recommends method experience of:",
+      "options": [
+       "70 hours",
+       "210 hours",
+       "270 hours",
+       "140 hours"
+      ],
+      "answer": 3,
+      "distractors": [
+       "70 hours is the Level 1 method figure.",
+       "210 hours is the MT Level 2 figure.",
+       "270 hours is the total NDT figure, not method hours.",
+       ""
+      ],
+      "explanation": "PT Level 2 is 140 hours in the method, with 270 hours total NDT experience, below the MT figures."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-pt-cert-004",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "asnt-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A's minimum exam questions for liquid penetrant testing are:",
+      "options": [
+       "40 general and 20 specific",
+       "20 general and 15 specific",
+       "40 general and 40 specific",
+       "30 general and 20 specific"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Those counts apply to some leak-testing techniques.",
+       "Specific is 20, not 40, for PT.",
+       "General is 40, not 30, for PT."
+      ],
+      "explanation": "Table 8.3.3 sets 40 general and 20 specific questions for PT at both levels."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-pt-cert-005",
+     "requiresUnits": false,
+     "subtopic": "examination",
+     "tier": "asnt-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, a candidate going straight to PT Level 2 completes training equal to:",
+      "options": [
+       "Only the Level 2 hours by themselves",
+       "The sum of the Level 1 and Level 2 hours",
+       "Only the Level 1 hours by themselves",
+       "Half of the combined Level 1 and Level 2 hours"
+      ],
+      "answer": 1,
+      "distractors": [
+       "Direct access still covers the Level 1 hours too.",
+       "",
+       "Level 2 hours are also required.",
+       "No halving applies; the full sum is used."
+      ],
+      "explanation": "A person may qualify directly to Level 2 with no time at Level 1 by completing the sum of the Level 1 and Level 2 recommendations."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-pt-cert-006",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-pt",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Among the common methods in SNT-TC-1A, the 4-hour Level 1 training for PT is:",
+      "options": [
+       "The longest recommended Level 1 training of any method",
+       "Equal to the RT Level 1 training",
+       "The shortest recommended Level 1 training",
+       "Higher than the MT Level 1 training"
+      ],
+      "answer": 2,
+      "distractors": [
+       "RT and UT are far longer at 40 hours each.",
+       "RT Level 1 is 40 hours, well above PT's 4.",
+       "",
+       "MT Level 1 is 12 hours, above PT's 4."
+      ],
+      "explanation": "At 4 hours, PT carries the shortest Level 1 training recommendation of the common methods; MT is 12 and RT and UT are 40."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-pt-cert-007",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-pt",
+     "topic": "certification"
+    }
+   ]
+  }
+ ],
+ "UT": [
+  {
+   "block": "cert_snttc1a_ut",
+   "count": 7,
+   "questions": [
+    {
+     "content": {
+      "stem": "SNT-TC-1A recommends ultrasonic Level 1 training of:",
+      "options": [
+       "40 hours",
+       "80 hours",
+       "24 hours",
+       "12 hours"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "80 hours is the phased-array, FMC, or TOFD technique figure.",
+       "24 hours fits some limited techniques, not UT Level 1.",
+       "12 hours is the MT Level 1 figure."
+      ],
+      "explanation": "Table 6.3.1A recommends 40 hours for UT Level 1 and another 40 for Level 2."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-ut-cert-001",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, recommended training for UT Level 2 is:",
+      "options": [
+       "80 hours",
+       "40 hours",
+       "20 hours",
+       "120 hours"
+      ],
+      "answer": 1,
+      "distractors": [
+       "80 hours applies to phased array, FMC, and TOFD.",
+       "",
+       "No UT level uses 20 hours.",
+       "120 hours overstates the recommendation."
+      ],
+      "explanation": "UT Level 2 training is 40 hours; phased array, FMC, and TOFD add more on top of UT Level II."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-ut-cert-002",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A lists UT Level 1 method experience of 210 hours and total NDT experience of:",
+      "options": [
+       "130 hours",
+       "1200 hours",
+       "400 hours",
+       "630 hours"
+      ],
+      "answer": 2,
+      "distractors": [
+       "130 hours is a surface-method total.",
+       "1200 hours is the Level 2 total.",
+       "",
+       "630 hours is the Level 2 method figure."
+      ],
+      "explanation": "Table 6.3.1A lists UT Level 1 at 210 hours in method and 400 hours total NDT experience."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-ut-cert-003",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "asnt-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For UT Level 2, SNT-TC-1A recommends method experience of:",
+      "options": [
+       "210 hours",
+       "320 hours",
+       "1200 hours",
+       "630 hours"
+      ],
+      "answer": 3,
+      "distractors": [
+       "210 hours is the Level 1 method figure.",
+       "320 hours is the phased-array method figure.",
+       "1200 hours is the total NDT figure, not method hours.",
+       ""
+      ],
+      "explanation": "UT Level 2 is 630 hours in the method, with 1200 hours total NDT experience."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-ut-cert-004",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "asnt-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A's minimum exam questions for ultrasonic testing are:",
+      "options": [
+       "40 general and 20 specific",
+       "40 general and 30 specific",
+       "40 general and 40 specific",
+       "30 general and 20 specific"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "30 specific applies to phased array, not conventional UT.",
+       "Specific is 20, not 40, for UT.",
+       "General is 40, not 30, for UT."
+      ],
+      "explanation": "Table 8.3.3 sets 40 general and 20 specific questions for UT at both levels; phased array raises specific to 30."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-ut-cert-005",
+     "requiresUnits": false,
+     "subtopic": "examination",
+     "tier": "asnt-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, phased array, FMC, and TOFD techniques require:",
+      "options": [
+       "Only a UT Level I background beforehand",
+       "UT Level II certification as a prerequisite",
+       "No ultrasonic prerequisite at all",
+       "A separate Level III endorsement obtained first"
+      ],
+      "answer": 1,
+      "distractors": [
+       "A Level I background is not enough for these techniques.",
+       "",
+       "An ultrasonic prerequisite does apply.",
+       "No Level III endorsement is the gate; UT Level II is."
+      ],
+      "explanation": "Full matrix capture, time-of-flight diffraction, and phased array all require UT Level II certification as a prerequisite."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-ut-cert-006",
+     "requiresUnits": false,
+     "subtopic": "scope",
+     "tier": "asnt-ut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, the recommended UT training hours compared with radiography are:",
+      "options": [
+       "Lower than the radiography hours",
+       "Higher than the radiography hours",
+       "The same, 40 hours at each level",
+       "Set only by the equipment manufacturer"
+      ],
+      "answer": 2,
+      "distractors": [
+       "UT matches radiography rather than sitting below it.",
+       "UT matches radiography rather than sitting above it.",
+       "",
+       "Table 6.3.1A sets the recommended hours."
+      ],
+      "explanation": "UT and RT each recommend 40 hours at Level 1 and 40 at Level 2 in Table 6.3.1A."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-ut-cert-007",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-ut",
+     "topic": "certification"
+    }
+   ]
+  }
+ ],
+ "PAUT": [
+  {
+   "block": "cert_snttc1a_paut",
+   "count": 7,
+   "questions": [
+    {
+     "content": {
+      "stem": "SNT-TC-1A recommends phased array ultrasonic Level II training of:",
+      "options": [
+       "80 hours",
+       "40 hours",
+       "320 hours",
+       "16 hours"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "40 hours is the conventional UT or the TOFD figure.",
+       "320 hours is the experience figure, not training.",
+       "16 hours is far below the phased array recommendation."
+      ],
+      "explanation": "Table 6.3.1A recommends 80 hours of training for phased array at Level II, double the 40 for conventional UT."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-paut-cert-001",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Under SNT-TC-1A, recommended method experience for phased array is:",
+      "options": [
+       "630 hours",
+       "320 hours",
+       "80 hours",
+       "210 hours"
+      ],
+      "answer": 1,
+      "distractors": [
+       "630 hours is the conventional UT Level II figure.",
+       "",
+       "80 hours is the training figure, not experience.",
+       "210 hours is the UT Level I method figure."
+      ],
+      "explanation": "Phased array carries 320 hours of recommended method experience in Table 6.3.1A."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-paut-cert-002",
+     "requiresUnits": false,
+     "subtopic": "experience",
+     "tier": "asnt-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A makes phased array certification conditional on first holding:",
+      "options": [
+       "UT Level I certification",
+       "An RT Level II certification",
+       "UT Level II certification",
+       "A Level III basic examination"
+      ],
+      "answer": 2,
+      "distractors": [
+       "A Level I background is not enough for phased array.",
+       "The prerequisite is ultrasonic, not radiographic.",
+       "",
+       "No Level III basic exam gates the technique; UT Level II does."
+      ],
+      "explanation": "Phased array, like FMC and TOFD, requires UT Level II certification as a prerequisite (Note 10.0 to Table 6.3.1A)."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-paut-cert-003",
+     "requiresUnits": false,
+     "subtopic": "scope",
+     "tier": "asnt-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "SNT-TC-1A's minimum exam questions for phased array ultrasonic testing are:",
+      "options": [
+       "40 general and 20 specific",
+       "40 general and 40 specific",
+       "20 general and 30 specific",
+       "40 general and 30 specific"
+      ],
+      "answer": 3,
+      "distractors": [
+       "20 specific is the conventional UT figure, not phased array.",
+       "Specific is 30, not 40, for phased array.",
+       "General is 40, not 20, for phased array.",
+       ""
+      ],
+      "explanation": "Table 8.3.3 sets 40 general and 30 specific questions for phased array, more specific questions than the 20 for conventional UT."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-paut-cert-004",
+     "requiresUnits": false,
+     "subtopic": "examination",
+     "tier": "asnt-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "In SNT-TC-1A, phased array appears in the tables as:",
+      "options": [
+       "A Level II technique with no Level I entry",
+       "A full Level I and Level II standalone method",
+       "A Level III-only qualification",
+       "A surface examination technique"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Phased array is a technique, listed only at Level II.",
+       "It is a Level II technique, not Level III only.",
+       "Phased array is a volumetric ultrasonic technique."
+      ],
+      "explanation": "Phased array is listed only at Level II as a technique under ultrasonics, with no separate Level I certification."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-paut-cert-005",
+     "requiresUnits": false,
+     "subtopic": "scope",
+     "tier": "asnt-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "Compared with phased array, SNT-TC-1A recommends TOFD training that is:",
+      "options": [
+       "Higher, 80 hours against 40",
+       "Lower, 40 hours against 80",
+       "The same, 80 hours each",
+       "Set at 320 hours of training"
+      ],
+      "answer": 1,
+      "distractors": [
+       "TOFD is the lighter of the two on training.",
+       "",
+       "TOFD is 40, phased array is 80.",
+       "320 hours is an experience figure, not training."
+      ],
+      "explanation": "TOFD recommends 40 hours of training against 80 for phased array, though both carry 320 hours of experience."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-paut-cert-006",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-paut",
+     "topic": "certification"
+    },
+    {
+     "content": {
+      "stem": "For automated phased array applications, SNT-TC-1A expects additional training that is:",
+      "options": [
+       "Considered unnecessary beyond the base recommended training hours",
+       "Limited to the annual vision test",
+       "Specific to the acquisition and analysis software and system",
+       "Provided only by ASNT centrally"
+      ],
+      "answer": 2,
+      "distractors": [
+       "Automated applications expect added software and system training.",
+       "Vision is separate from technique training.",
+       "",
+       "The employer's written practice describes it."
+      ],
+      "explanation": "A note to Table 6.3.1A expects added training on the specific software and system for automated or semiautomated phased array, set in the written practice."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "asnt-paut-cert-007",
+     "requiresUnits": false,
+     "subtopic": "training",
+     "tier": "asnt-paut",
+     "topic": "certification"
+    }
+   ]
+  }
+ ]
+}

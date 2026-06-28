@@ -1,0 +1,840 @@
+[
+ {
+  "block": "cert_snttc1a_core",
+  "count": 32,
+  "questions": [
+   {
+    "content": {
+     "stem": "SNT-TC-1A is best described as:",
+     "options": [
+      "A recommended practice for employer-based qualification and certification",
+      "A central third-party certification scheme",
+      "A legally binding national regulation enforced across all of industry by statute",
+      "A weld acceptance standard like API 1104"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "SNT-TC-1A is employer-based, not central third-party.",
+      "It is a recommended practice, not a regulation.",
+      "Acceptance standards are separate documents."
+     ],
+     "explanation": "SNT-TC-1A gives guidelines an employer uses to qualify and certify its own NDT personnel."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-001",
+    "requiresUnits": false,
+    "subtopic": "scope",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "In an employer's written practice, the verb “should” from SNT-TC-1A becomes:",
+     "options": [
+      "“may,” entirely at the employer's option",
+      "“shall”",
+      "“should,” carried over unchanged",
+      "“must,” but only for Level III roles"
+     ],
+     "answer": 1,
+     "distractors": [
+      "The written practice uses shall to make recommendations binding.",
+      "",
+      "Should becomes shall in the employer's written practice.",
+      "Shall applies across the written practice, not only to Level III."
+     ],
+     "explanation": "SNT-TC-1A uses should for its recommendations; the employer's written practice uses shall to make them binding."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-002",
+    "requiresUnits": false,
+    "subtopic": "written_practice",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under SNT-TC-1A, NDT personnel are certified by:",
+     "options": [
+      "An independent certification body",
+      "ASNT acting directly",
+      "The employer",
+      "A government inspection agency"
+     ],
+     "answer": 2,
+     "distractors": [
+      "Certification is the employer's responsibility, not a third party's.",
+      "ASNT publishes the practice; the employer certifies.",
+      "",
+      "No government body certifies under this practice."
+     ],
+     "explanation": "Certification of NDT personnel to all levels is the responsibility of the employer."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-003",
+    "requiresUnits": false,
+    "subtopic": "certification",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "SNT-TC-1A defines certification as:",
+     "options": [
+      "A passing grade on one written exam",
+      "A government-issued occupational license",
+      "Membership in a professional society",
+      "Written testimony of qualification"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Certification is the written testimony, not a single grade.",
+      "It is employer testimony, not a license.",
+      "Membership is unrelated to certification here.",
+      ""
+     ],
+     "explanation": "SNT-TC-1A defines certification as written testimony of qualification."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-004",
+    "requiresUnits": false,
+    "subtopic": "definitions",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The certifying agency under SNT-TC-1A is:",
+     "options": [
+      "The employer of the personnel being certified",
+      "ASNT as the publishing society",
+      "An accredited outside testing laboratory engaged for the work",
+      "The national standards body"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "The certifying agency is the employer, not ASNT.",
+      "An outside agency may supply Level III services, not act as the agency.",
+      "No national body is the certifying agency here."
+     ],
+     "explanation": "The certifying agency is defined as the employer of the personnel being certified."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-005",
+    "requiresUnits": false,
+    "subtopic": "definitions",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The certifying authority under SNT-TC-1A is:",
+     "options": [
+      "The candidate's own direct line supervisor, automatically and by default",
+      "The person designated in the written practice to sign certifications",
+      "Any Level II working in the method",
+      "The training instructor of record"
+     ],
+     "answer": 1,
+     "distractors": [
+      "The authority is whoever the written practice designates.",
+      "",
+      "Signing authority is designated, not automatic for a Level II.",
+      "The instructor is not, by that role, the certifying authority."
+     ],
+     "explanation": "The certifying authority is the person designated in the written practice to sign certifications for the employer."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-006",
+    "requiresUnits": false,
+    "subtopic": "definitions",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An employer's written practice is reviewed and approved by:",
+     "options": [
+      "An external auditor each year",
+      "ASNT's standards council",
+      "The employer's NDT Level III",
+      "The most senior Level II on staff"
+     ],
+     "answer": 2,
+     "distractors": [
+      "The employer's own Level III reviews and approves it.",
+      "ASNT does not approve a given employer's practice.",
+      "",
+      "Approval rests with a Level III, not a Level II."
+     ],
+     "explanation": "The written practice is established by the employer and reviewed and approved by the employer's NDT Level III."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-007",
+    "requiresUnits": false,
+    "subtopic": "written_practice",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The written practice governs the control and administration of:",
+     "options": [
+      "Weld acceptance and rejection criteria",
+      "Equipment purchasing, calibration intervals, and routine maintenance",
+      "Site safety and physical access control",
+      "Training, examination, and certification of NDT personnel"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Those live in acceptance standards, not the written practice.",
+      "The practice governs personnel, not procurement.",
+      "Site safety is outside the written practice's scope.",
+      ""
+     ],
+     "explanation": "The employer establishes a written practice for the control and administration of NDT personnel training, examination, and certification."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-008",
+    "requiresUnits": false,
+    "subtopic": "written_practice",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An NDT Level I is qualified to:",
+     "options": [
+      "Perform specific tests and record results under a Level II or III",
+      "Interpret and evaluate results against the governing codes and standards alone",
+      "Develop and approve the test procedures",
+      "Designate the methods and techniques used"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Independent evaluation sits at Level II, not Level I.",
+      "Procedure approval is a Level III function.",
+      "Designating methods is a Level III function."
+     ],
+     "explanation": "A Level I performs specific tests and records results, working under the instruction of a Level II or III."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-009",
+    "requiresUnits": false,
+    "subtopic": "levels",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An NDT Level II is qualified to:",
+     "options": [
+      "Establish the company's testing procedures",
+      "Set up and calibrate equipment and interpret and evaluate results",
+      "Approve the employer's written practice",
+      "Work only under the continuous and direct supervision of a Level III at all times"
+     ],
+     "answer": 1,
+     "distractors": [
+      "Establishing procedures is a Level III function.",
+      "",
+      "Approving the practice is a Level III function.",
+      "A Level II works without that level of supervision."
+     ],
+     "explanation": "A Level II sets up and calibrates equipment and interprets and evaluates results against codes and standards."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-010",
+    "requiresUnits": false,
+    "subtopic": "levels",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An NDT Level III is qualified to:",
+     "options": [
+      "Only perform tests under direct supervision",
+      "Only record results for later review",
+      "Develop, qualify, and approve procedures and interpret codes",
+      "Sign certifications yet never develop, qualify, or write procedures"
+     ],
+     "answer": 2,
+     "distractors": [
+      "That describes a Level I, not a Level III.",
+      "Recording without evaluation is below Level III.",
+      "",
+      "A Level III does develop and approve procedures."
+     ],
+     "explanation": "A Level III develops, qualifies, and approves procedures, interprets codes and standards, and can train and examine personnel."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-011",
+    "requiresUnits": false,
+    "subtopic": "levels",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A trainee under SNT-TC-1A:",
+     "options": [
+      "Already hold some limited provisional Level I certificate of their own",
+      "Be allowed to certify other trainees",
+      "Sign reports after a week of training",
+      "Work with a certified individual and not independently interpret"
+     ],
+     "answer": 3,
+     "distractors": [
+      "A trainee is not yet certified at any level.",
+      "A trainee certifies no one.",
+      "A trainee does not independently report results.",
+      ""
+     ],
+     "explanation": "A trainee works with a certified individual and should not independently conduct, interpret, evaluate, or report results."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-012",
+    "requiresUnits": false,
+    "subtopic": "levels",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Written qualification examinations under SNT-TC-1A are:",
+     "options": [
+      "Closed-book, except for data supplied with the exam",
+      "Fully open-book in every case",
+      "Open only to Level III candidates",
+      "Replaced entirely by a structured oral interview instead"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Written exams are closed-book apart from supplied data.",
+      "The closed-book rule applies to all levels.",
+      "Written exams are not replaced by an interview."
+     ],
+     "explanation": "Written examinations are closed-book, except that necessary data such as tables may be provided with the exam."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-013",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The composite grade for Level I or II is:",
+     "options": [
+      "The lowest of the three exam scores",
+      "The simple average of the general, specific, and practical exams",
+      "The practical examination score alone",
+      "A weighted average that strongly favors the specific examination result"
+     ],
+     "answer": 1,
+     "distractors": [
+      "It is the simple average, not the minimum.",
+      "",
+      "All three parts feed the composite.",
+      "The average is simple, not weighted."
+     ],
+     "explanation": "For Level I and II, the composite grade is the simple average of the general, specific, and practical results."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-014",
+    "requiresUnits": false,
+    "subtopic": "grading",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "To pass, a candidate needs a composite of at least 80% and:",
+     "options": [
+      "No exam part below 80% at all",
+      "A perfect score on the practical",
+      "No individual written exam below 70%",
+      "At least 90% achieved on the specific examination"
+     ],
+     "answer": 2,
+     "distractors": [
+      "The written floor is 70%, with an 80% composite.",
+      "No perfect score is required.",
+      "",
+      "No 90% threshold applies to the specific exam."
+     ],
+     "explanation": "Passing requires a composite of at least 80%, with no individual written exam below 70% and a practical of at least 80%."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-015",
+    "requiresUnits": false,
+    "subtopic": "grading",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The practical examination must reach a grade of at least:",
+     "options": [
+      "70%",
+      "60%",
+      "90%",
+      "80%"
+     ],
+     "answer": 3,
+     "distractors": [
+      "The written floor is 70%; the practical floor is 80%.",
+      "60% is below any passing threshold here.",
+      "90% is higher than the required practical minimum.",
+      ""
+     ],
+     "explanation": "The practical examination should have a passing grade of at least 80%."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-016",
+    "requiresUnits": false,
+    "subtopic": "grading",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A candidate who fails must wait before reexamination at least:",
+     "options": [
+      "30 days, or take suitable additional training",
+      "7 days only, with no additional training option at all",
+      "6 months, in all cases",
+      "1 full year before any retry"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "The wait is at least 30 days, not 7.",
+      "The minimum wait is 30 days, not six months.",
+      "A year overstates the minimum wait."
+     ],
+     "explanation": "Those failing should wait at least 30 days, or take suitable additional training as the Level III determines, before reexamination."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-017",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An examination may not be administered by:",
+     "options": [
+      "A qualified Level III examiner",
+      "Oneself or a subordinate",
+      "An approved outside agency",
+      "A trained Level III designee"
+     ],
+     "answer": 1,
+     "distractors": [
+      "A Level III may administer exams; a subordinate may not.",
+      "",
+      "An outside agency may provide exam services.",
+      "A designated, trained representative may administer exams."
+     ],
+     "explanation": "In no case shall an examination be administered by oneself or by a subordinate."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-018",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Recommended exam question content is drawn from:",
+     "options": [
+      "The API 1104 acceptance section",
+      "The ASME boiler and pressure vessel code",
+      "The ANSI/ASNT CP-105 topical outlines",
+      "The employer's equipment purchase records"
+     ],
+     "answer": 2,
+     "distractors": [
+      "Acceptance criteria are not the source of exam topics.",
+      "ASME is not the topical-outline source here.",
+      "",
+      "Purchase records are unrelated to exam content."
+     ],
+     "explanation": "Recommended training outlines and references for examination content are in ANSI/ASNT CP-105."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-019",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Near-vision acuity must allow reading Jaeger No. 2 at:",
+     "options": [
+      "Not less than 36 in, checked once every five years",
+      "Any distance, checked once at hire",
+      "Exactly 8 in, checked every month",
+      "Not less than 12 in (30.5 cm), checked annually"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Near vision is at 12 in and checked annually.",
+      "A set distance and annual check apply.",
+      "The distance is not less than 12 in, checked yearly.",
+      ""
+     ],
+     "explanation": "Near-vision acuity should allow reading Jaeger No. 2 at not less than 12 in (30.5 cm), administered annually."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-020",
+    "requiresUnits": false,
+    "subtopic": "vision",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Color-contrast differentiation is verified:",
+     "options": [
+      "At initial certification and every five years",
+      "Only once, at initial certification",
+      "Every single month alongside the near-vision test",
+      "Only for Level III personnel"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Color vision is rechecked at five-year intervals.",
+      "Color vision follows a five-year cycle, not monthly.",
+      "Color vision applies regardless of level."
+     ],
+     "explanation": "Color-contrast differentiation is demonstrated at initial certification and at five-year intervals thereafter."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-021",
+    "requiresUnits": false,
+    "subtopic": "vision",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Pharmacological agents such as eye drops to improve acuity are:",
+     "options": [
+      "Allowed at the candidate's discretion",
+      "Not permitted for the vision test",
+      "Required before every test",
+      "Allowed only for Level III candidates"
+     ],
+     "answer": 1,
+     "distractors": [
+      "Acuity-improving drops are not allowed for the test.",
+      "",
+      "They are prohibited, not required.",
+      "They are not permitted for any candidate."
+     ],
+     "explanation": "Eye drops or agents that temporarily improve visual acuity shall not be used for the examination."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-022",
+    "requiresUnits": false,
+    "subtopic": "vision",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Certification begins on the date that:",
+     "options": [
+      "The candidate finishes and passes the final written examination",
+      "The training course is completed",
+      "The Certifying Authority signs the certification record",
+      "The application is first submitted"
+     ],
+     "answer": 2,
+     "distractors": [
+      "Certification dates from the signing, not the last exam.",
+      "Course completion does not start certification.",
+      "",
+      "Submission does not start certification."
+     ],
+     "explanation": "The date of certification is the date the Certifying Authority signs the certification record."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-023",
+    "requiresUnits": false,
+    "subtopic": "certification",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The recommended maximum recertification interval is:",
+     "options": [
+      "Three years",
+      "Ten years",
+      "Two years",
+      "Five years"
+     ],
+     "answer": 3,
+     "distractors": [
+      "The recommended maximum interval is five years.",
+      "Ten years exceeds the recommended interval.",
+      "Two years is shorter than the recommended interval.",
+      ""
+     ],
+     "explanation": "The recommended maximum recertification interval is five years for all levels."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-024",
+    "requiresUnits": false,
+    "subtopic": "recertification",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "After termination, a new employer may certify a person to the former level on examination within:",
+     "options": [
+      "Six months",
+      "One month",
+      "Two years",
+      "Five years"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "The window is six months, not one.",
+      "Two years is longer than the six-month window.",
+      "Five years far exceeds the window."
+     ],
+     "explanation": "A terminated certificate holder may be certified to the former level by a new employer on examination within six months."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-025",
+    "requiresUnits": false,
+    "subtopic": "recertification",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Reinstatement without a new examination is allowed within six months if:",
+     "options": [
+      "The person simply asks the new employer in writing to be reinstated",
+      "The records were kept and the certificate had not expired",
+      "A Level II vouches for them verbally",
+      "The new employer waives the records"
+     ],
+     "answer": 1,
+     "distractors": [
+      "Reinstatement needs kept records and an unexpired certificate.",
+      "",
+      "A verbal vouch does not satisfy the conditions.",
+      "The records condition cannot be waived for reinstatement."
+     ],
+     "explanation": "Reinstatement without a new exam is allowed within six months if records were maintained and the certificate had not expired."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-026",
+    "requiresUnits": false,
+    "subtopic": "recertification",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Personnel certification records are kept by:",
+     "options": [
+      "ASNT, on a central registry",
+      "The certified individual alone",
+      "The employer, for the period set in the written practice",
+      "The responsible Level III, kept in their own personal working file"
+     ],
+     "answer": 2,
+     "distractors": [
+      "Records are held by the employer, not centrally by ASNT.",
+      "The employer maintains the records.",
+      "",
+      "Records are the employer's, kept on file."
+     ],
+     "explanation": "Personnel certification records are maintained by the employer for the duration specified in the written practice."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-027",
+    "requiresUnits": false,
+    "subtopic": "records",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The ASNT Level III Basic examination's questions on understanding the SNT-TC-1A document number:",
+     "options": [
+      "Forty-five",
+      "Five",
+      "Zero",
+      "Fifteen"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Fifteen questions cover the SNT-TC-1A document on the Basic exam.",
+      "The Basic exam allots fifteen, not five, on the document.",
+      "The Basic exam does include document questions.",
+      ""
+     ],
+     "explanation": "The Level III Basic examination includes fifteen questions on understanding the SNT-TC-1A document."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-028",
+    "requiresUnits": false,
+    "subtopic": "level3",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The Level III method examination's questions on fundamentals and principles number:",
+     "options": [
+      "Thirty",
+      "Fifteen",
+      "Twenty",
+      "Forty"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Fifteen is the application-and-procedures count, not fundamentals.",
+      "Twenty is the codes-interpretation count, not fundamentals.",
+      "Forty overstates the fundamentals count."
+     ],
+     "explanation": "The Level III method examination includes thirty questions on fundamentals and principles for each method."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-029",
+    "requiresUnits": false,
+    "subtopic": "level3",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A valid ASNT NDT Level III or ASNT 9712 certificate may:",
+     "options": [
+      "Replace the employer's certification outright",
+      "Fulfill exam criteria if the Level III finds it meets the written practice",
+      "Be disregarded by the employer",
+      "Automatically certify the holder at any company without any employer review at all"
+     ],
+     "answer": 1,
+     "distractors": [
+      "It can fulfill exam criteria, not replace certification.",
+      "",
+      "A valid certificate may be accepted, not ignored.",
+      "Acceptance is at the engaging employer's Level III discretion."
+     ],
+     "explanation": "A valid ASNT NDT Level III or ASNT 9712 certificate may fulfill exam criteria if the Level III finds the exams meet the written practice."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-030",
+    "requiresUnits": false,
+    "subtopic": "level3",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An outside agency under SNT-TC-1A provides:",
+     "options": [
+      "Government inspection of the employer",
+      "Certification that is entirely independent of any employer involvement",
+      "NDT Level III services reviewed by the engaging employer",
+      "Free training offered to all candidates"
+     ],
+     "answer": 2,
+     "distractors": [
+      "An outside agency supplies Level III services, not inspection.",
+      "Its qualifications are reviewed by the engaging employer.",
+      "",
+      "An outside agency is not a free training provider."
+     ],
+     "explanation": "An outside agency provides NDT Level III services whose qualifications the engaging employer has reviewed."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-031",
+    "requiresUnits": false,
+    "subtopic": "definitions",
+    "tier": "asnt-core",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A recommended practice, in SNT-TC-1A's own terms, is:",
+     "options": [
+      "A mandatory rule enforced directly by ASNT upon every single employer",
+      "A contract between purchaser and supplier",
+      "A method acceptance standard for welds",
+      "Guidelines to assist the employer in setting up its program"
+     ],
+     "answer": 3,
+     "distractors": [
+      "It is guidance, not an ASNT-enforced mandate.",
+      "It is a recommended practice, not a contract.",
+      "Acceptance standards are separate documents.",
+      ""
+     ],
+     "explanation": "A recommended practice is a set of guidelines to assist the employer in developing procedures for its specific requirements."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "asnt-core-032",
+    "requiresUnits": false,
+    "subtopic": "scope",
+    "tier": "asnt-core",
+    "topic": "certification"
+   }
+  ]
+ }
+]
