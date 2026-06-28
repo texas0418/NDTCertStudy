@@ -5,6 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { CalendarPicker } from "../../components/CalendarPicker";
 import { TopicTile } from "../../components/TopicTile";
 import { UnitToggle } from "../../components/UnitToggle";
+import { Paywall } from "../../components/Paywall";
 import { getBlocks, getModule, getScheme } from "../../lib/bank";
 import { buildExamPlan, formatDate } from "../../lib/plan";
 import { blockReadiness, useStore } from "../../lib/store";
@@ -22,6 +23,7 @@ export default function ModuleScreen() {
   const exams = useStore((s) => s.exams);
   const targetDates = useStore((s) => s.targetDates);
   const setTargetDate = useStore((s) => s.setTargetDate);
+  const unlocked = useStore((s) => s.unlocked).includes(mod.id);
   const [picking, setPicking] = useState(false);
   const blocks = getBlocks(mod.id);
 
@@ -50,6 +52,22 @@ export default function ModuleScreen() {
 
   // Whether the module has any unit-dependent (imperial/metric) questions.
   const hasUnits = blocks.some((b) => b.questions.some((q) => q.requiresUnits));
+
+  if (!unlocked) {
+    return (
+      <SafeAreaView style={{ flex: 1, backgroundColor: theme.bg }} edges={["bottom"]}>
+        <ScrollView contentContainerStyle={{ padding: 16 }}>
+          <View style={{ marginBottom: 18 }}>
+            <Text style={{ fontSize: 21, fontWeight: "700", color: theme.ink }}>{mod.title}</Text>
+            <Text style={{ fontFamily: mono, fontSize: 11, color: theme.muted, marginTop: 2 }}>
+              {scheme.name} {"\u00b7"} {mod.subtitle.toUpperCase()}
+            </Text>
+          </View>
+          <Paywall moduleId={mod.id} title={mod.title} freeKey={mod.baseKey} />
+        </ScrollView>
+      </SafeAreaView>
+    );
+  }
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.bg }} edges={["bottom"]}>

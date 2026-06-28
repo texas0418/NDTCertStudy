@@ -75,6 +75,8 @@ export const blockLabels: Record<string, string> = {
   general_practice_safety: "General Practice & Safety",
   cert_iso9712_core: "Certification: General (ISO 9712)",
   cert_snttc1a_core: "Certification: General (SNT-TC-1A)",
+  cert_pcn_scheme: "PCN Scheme (BINDT)",
+  cert_cswip_scheme: "CSWIP Scheme (TWI)",
   cert_iso9712_rt: "Certification: RT (ISO 9712)",
   cert_snttc1a_rt: "Certification: RT (SNT-TC-1A)",
   cert_iso9712_mt: "Certification: MT (ISO 9712)",

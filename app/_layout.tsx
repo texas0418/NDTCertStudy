@@ -1,11 +1,16 @@
 import { Stack } from "expo-router";
+import { useEffect } from "react";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { useIsDark, useTheme } from "../lib/theme";
+import * as purchases from "../lib/purchases";
 
 export default function RootLayout() {
   const theme = useTheme();
   const isDark = useIsDark();
+  useEffect(() => {
+    purchases.configure();
+  }, []);
   return (
     <SafeAreaProvider>
       <StatusBar style={isDark ? "light" : "dark"} />

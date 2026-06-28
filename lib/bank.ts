@@ -12,6 +12,8 @@ import isoOverlay from "../assets/overlay_iso9712.json";
 import asntOverlay from "../assets/overlay_snttc1a.json";
 import isoCore from "../assets/overlay_iso9712_core.json";
 import asntCore from "../assets/overlay_snttc1a_core.json";
+import pcnScheme from "../assets/overlay_pcn.json";
+import cswipScheme from "../assets/overlay_cswip.json";
 import { Bank, Block, Question, Unit, Variant } from "./types";
 
 // ---- certification schemes ------------------------------------------------
@@ -127,6 +129,16 @@ export const OVERLAYS: SchemeOverlay[] = [
     schemes: ["asnt"],
     shared: asntCore as unknown as Block[],
     byMethod: asntOverlay as unknown as Record<string, Block[]>,
+  },
+  // Body-specific deltas: PCN (BINDT) and CSWIP (TWI) layer their own scheme
+  // rules on top of the shared ISO 9712 family content, into every module.
+  {
+    schemes: ["pcn"],
+    shared: pcnScheme as unknown as Block[],
+  },
+  {
+    schemes: ["cswip"],
+    shared: cswipScheme as unknown as Block[],
   },
 ];
 
@@ -252,9 +264,9 @@ export const FREE_PREVIEW_COUNT = 10;
 // What unlocking the full version adds, beyond the free sample. Single source
 // of truth for the shelf Free card and the end-of-sample screen.
 export const PAID_FEATURES: string[] = [
-  "The complete bank for every module, 270 to 355 questions each",
+  "Every question in the module you unlock",
   "Timed mock exams, scored with a topic breakdown",
-  "Progress and readiness tracking across all topics",
+  "Progress and readiness tracking across its topics",
   "Saved questions and exam history",
 ];
 

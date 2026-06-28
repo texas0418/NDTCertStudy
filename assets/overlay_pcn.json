@@ -1,0 +1,320 @@
+[
+ {
+  "block": "cert_pcn_scheme",
+  "count": 12,
+  "questions": [
+   {
+    "content": {
+     "stem": "The PCN scheme is managed and administered by:",
+     "options": [
+      "The British Institute of NDT (BINDT)",
+      "TWI Certification Ltd",
+      "The American Society for NDT",
+      "UKAS, the national accreditation service"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "TWI Certification Ltd runs CSWIP, not PCN.",
+      "ASNT runs SNT-TC-1A, not PCN.",
+      "UKAS accredits BINDT; it does not run the scheme."
+     ],
+     "explanation": "The PCN scheme is managed and administered by the British Institute of Non-Destructive Testing (BINDT)."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-001",
+    "requiresUnits": false,
+    "subtopic": "body",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The PCN general requirements for NDT personnel are set out in the document:",
+     "options": [
+      "SNT-TC-1A, the recommended practice",
+      "PCN/GEN",
+      "CSWIP-ISO-NDT-11/93-R",
+      "ANSI/ASNT CP-105"
+     ],
+     "answer": 1,
+     "distractors": [
+      "SNT-TC-1A is the ASNT document, not PCN's.",
+      "",
+      "That is the CSWIP scheme document, not PCN's.",
+      "CP-105 is an ASNT topical-outline document."
+     ],
+     "explanation": "The general requirements for PCN certification are set out in PCN/GEN."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-002",
+    "requiresUnits": false,
+    "subtopic": "document",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "PCN certification is accredited by UKAS against:",
+     "options": [
+      "ISO 9001 for quality systems",
+      "ISO/IEC 17025 for laboratories",
+      "ISO/IEC 17024",
+      "API Q1 for manufacturing"
+     ],
+     "answer": 2,
+     "distractors": [
+      "ISO 9001 covers quality management, not personnel certification.",
+      "17025 covers testing laboratories, not personnel.",
+      "",
+      "API Q1 is a manufacturing quality spec."
+     ],
+     "explanation": "BINDT operates PCN under UKAS accreditation to ISO/IEC 17024 for personnel certification."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-003",
+    "requiresUnits": false,
+    "subtopic": "accreditation",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "PCN qualification examinations are conducted at:",
+     "options": [
+      "The candidate's own employer premises",
+      "Any BINDT member's local office",
+      "Approved ASNT chapters only",
+      "Authorised Qualifying Bodies"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Exams are held at independent Authorised Qualifying Bodies.",
+      "Only approved AQBs run the examinations.",
+      "ASNT chapters are unrelated to PCN exams.",
+      ""
+     ],
+     "explanation": "PCN examinations are conducted at Authorised Qualifying Bodies (AQBs) approved and monitored by BINDT."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-004",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under PCN, a Level 1 specific theory paper contains:",
+     "options": [
+      "25 questions",
+      "30 questions",
+      "40 questions",
+      "20 questions"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "30 is the Level 2 specific paper count.",
+      "40 exceeds the PCN specific paper count.",
+      "20 is below the PCN specific paper count."
+     ],
+     "explanation": "PCN Level 1 specific theory papers have 25 questions; Level 2 specific papers have 30."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-005",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under PCN, a Level 2 specific theory paper contains:",
+     "options": [
+      "25 questions",
+      "30 questions",
+      "40 questions",
+      "20 questions"
+     ],
+     "answer": 1,
+     "distractors": [
+      "25 is the Level 1 specific paper count.",
+      "",
+      "40 exceeds the PCN specific paper count.",
+      "20 is below the PCN specific paper count."
+     ],
+     "explanation": "PCN Level 2 specific theory papers have 30 questions, against 25 at Level 1."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-006",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Each part of a PCN examination must be passed with a mark of at least:",
+     "options": [
+      "60% across the paper",
+      "80% across the paper",
+      "70%",
+      "50% across the paper"
+     ],
+     "answer": 2,
+     "distractors": [
+      "The PCN pass mark for each part is 70%.",
+      "80% is higher than the PCN requirement.",
+      "",
+      "50% is below the PCN pass mark."
+     ],
+     "explanation": "In line with ISO 9712, each part of a PCN examination must be passed at 70%."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-007",
+    "requiresUnits": false,
+    "subtopic": "grading",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A PCN certificate is valid for:",
+     "options": [
+      "3 years",
+      "10 years",
+      "2 years",
+      "5 years"
+     ],
+     "answer": 3,
+     "distractors": [
+      "PCN certificates run for five years.",
+      "Ten years spans two certification cycles, not one.",
+      "Two years is shorter than the PCN validity.",
+      ""
+     ],
+     "explanation": "A PCN certificate is valid for five years, in line with ISO 9712."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-008",
+    "requiresUnits": false,
+    "subtopic": "validity",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Within the five-year validity, revalidating a PCN certificate without an examination is called:",
+     "options": [
+      "Renewal",
+      "Recertification by full examination",
+      "Reinstatement after expiry",
+      "A supplementary examination"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Recertification involves examination or structured credit, not a no-exam step.",
+      "Reinstatement applies after a certificate has lapsed.",
+      "A supplementary adds scope; it is not the no-exam revalidation."
+     ],
+     "explanation": "Renewal revalidates a PCN certificate without examination within the five-year period; recertification at expiry is by examination or structured credit."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-009",
+    "requiresUnits": false,
+    "subtopic": "recertification",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "PCN recertification can be achieved by examination or by:",
+     "options": [
+      "Employer attestation on its own letterhead",
+      "The structured credit system",
+      "Paying the renewal fee only",
+      "BINDT membership"
+     ],
+     "answer": 1,
+     "distractors": [
+      "An employer letter alone does not recertify a PCN holder.",
+      "",
+      "A fee alone does not satisfy recertification.",
+      "Membership of BINDT does not recertify."
+     ],
+     "explanation": "PCN recertification is by examination or, for eligible levels, through the structured credit system of documented activity."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-010",
+    "requiresUnits": false,
+    "subtopic": "recertification",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A PCN recertification application must reach BINDT no sooner than six months and no later than:",
+     "options": [
+      "Any time within the final year before expiry",
+      "1 week before the expiry date",
+      "6 weeks before expiry",
+      "On the exact day of expiry"
+     ],
+     "answer": 2,
+     "distractors": [
+      "The window closes six weeks before expiry, not a year.",
+      "One week is inside the closed window.",
+      "",
+      "Applications are not accepted on the expiry day itself."
+     ],
+     "explanation": "PCN recertification applications must arrive no sooner than six months and no later than six weeks before the certificate expires."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-011",
+    "requiresUnits": false,
+    "subtopic": "recertification",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "PCN certification does not by itself authorise the holder to operate; authorisation is given by:",
+     "options": [
+      "BINDT, printed on the certificate itself",
+      "The Authorised Qualifying Body",
+      "UKAS, as the accreditation body",
+      "The employer, in writing"
+     ],
+     "answer": 3,
+     "distractors": [
+      "BINDT certifies competence; the employer authorises operation.",
+      "The AQB examines; it does not authorise operation.",
+      "UKAS accredits the scheme; it does not authorise individuals.",
+      ""
+     ],
+     "explanation": "PCN certification attests competence; authorisation to operate is given in writing by the employer, as ISO 9712 requires."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcn-scheme-012",
+    "requiresUnits": false,
+    "subtopic": "authorisation",
+    "tier": "pcn-scheme",
+    "topic": "certification"
+   }
+  ]
+ }
+]

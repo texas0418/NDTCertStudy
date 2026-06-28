@@ -13,6 +13,7 @@ interface AppState {
   reported: string[];
   exams: ExamRecord[];
   targetDates: Record<string, string>; // moduleId -> "YYYY-MM-DD"
+  unlocked: string[]; // module ids the user has purchased
 
   setUnit: (u: Unit) => void;
   setThemeMode: (m: ThemeMode) => void;
@@ -21,6 +22,9 @@ interface AppState {
   toggleReport: (id: string) => void;
   addExam: (rec: ExamRecord) => void;
   setTargetDate: (moduleId: string, iso: string | null) => void;
+  unlockModule: (moduleId: string) => void;
+  setUnlocked: (ids: string[]) => void;
+  lockAll: () => void;
   resetStudy: () => void;
   resetProgress: () => void;
 }
@@ -39,6 +43,7 @@ export const useStore = create<AppState>()(
       reported: [],
       exams: [],
       targetDates: {},
+      unlocked: [],
 
       setUnit: (u) => set({ unit: u }),
 
@@ -83,6 +88,17 @@ export const useStore = create<AppState>()(
           else delete next[moduleId];
           return { targetDates: next };
         }),
+
+      unlockModule: (moduleId) =>
+        set((state) =>
+          state.unlocked.includes(moduleId)
+            ? state
+            : { unlocked: [...state.unlocked, moduleId] }
+        ),
+
+      setUnlocked: (ids) => set({ unlocked: Array.from(new Set(ids)) }),
+
+      lockAll: () => set({ unlocked: [] }),
 
       // Clears study progress, exam history, and reports but keeps saved questions.
       resetStudy: () => set({ progress: {}, reported: [], exams: [] }),

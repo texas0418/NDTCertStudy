@@ -1,0 +1,320 @@
+[
+ {
+  "block": "cert_cswip_scheme",
+  "count": 12,
+  "questions": [
+   {
+    "content": {
+     "stem": "CSWIP is administered by:",
+     "options": [
+      "TWI Certification Ltd",
+      "BINDT",
+      "The American Society for NDT",
+      "UKAS, the accreditation service"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "BINDT runs PCN, not CSWIP.",
+      "ASNT runs SNT-TC-1A, not CSWIP.",
+      "UKAS accredits TWI CL; it does not run CSWIP."
+     ],
+     "explanation": "CSWIP is administered by TWI Certification Ltd."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-001",
+    "requiresUnits": false,
+    "subtopic": "body",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The CSWIP NDT personnel scheme follows the requirements of:",
+     "options": [
+      "SNT-TC-1A, the recommended practice",
+      "ISO 9712",
+      "API 1104 acceptance criteria",
+      "ISO 9001 quality management"
+     ],
+     "answer": 1,
+     "distractors": [
+      "SNT-TC-1A is the ASNT employer-based document.",
+      "",
+      "API 1104 is a welding acceptance standard, not a personnel scheme.",
+      "ISO 9001 is a quality-system standard."
+     ],
+     "explanation": "The CSWIP NDT personnel scheme (CSWIP-ISO-NDT-11/93-R) follows the requirements of ISO 9712."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-002",
+    "requiresUnits": false,
+    "subtopic": "document",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "CSWIP is accredited by UKAS to:",
+     "options": [
+      "ISO 9001 for quality systems",
+      "ISO/IEC 17025 for laboratories",
+      "ISO/IEC 17024",
+      "API Q1 for manufacturing"
+     ],
+     "answer": 2,
+     "distractors": [
+      "ISO 9001 covers quality management, not personnel certification.",
+      "17025 covers testing laboratories, not personnel.",
+      "",
+      "API Q1 is a manufacturing quality spec."
+     ],
+     "explanation": "TWI Certification Ltd is accredited by UKAS to ISO/IEC 17024 for the CSWIP scheme."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-003",
+    "requiresUnits": false,
+    "subtopic": "accreditation",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "CSWIP certification is managed by the:",
+     "options": [
+      "The UKAS national accreditation council",
+      "An ASNT governing board",
+      "A BINDT technical committee",
+      "Certification Management Board"
+     ],
+     "answer": 3,
+     "distractors": [
+      "UKAS accredits the scheme; it does not manage it.",
+      "ASNT has no role in managing CSWIP.",
+      "BINDT committees govern PCN, not CSWIP.",
+      ""
+     ],
+     "explanation": "CSWIP is managed by the Certification Management Board, which acts as the Governing Board for Certification."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-004",
+    "requiresUnits": false,
+    "subtopic": "body",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "In the CSWIP general theory examination, radiographic testing has:",
+     "options": [
+      "40 questions",
+      "30 questions",
+      "25 questions",
+      "20 questions"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "30 is the PT and MT general paper count, not RT.",
+      "25 is below the CSWIP general paper counts.",
+      "20 is below the CSWIP general paper counts."
+     ],
+     "explanation": "In the CSWIP general theory examination, radiographic testing has 40 questions, against 30 for PT and MT."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-005",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "In CSWIP, the general theory papers for PT and MT each have:",
+     "options": [
+      "40 questions",
+      "30 questions",
+      "25 questions",
+      "20 questions"
+     ],
+     "answer": 1,
+     "distractors": [
+      "40 is the radiographic general paper count, not PT or MT.",
+      "",
+      "25 is below the CSWIP general paper counts.",
+      "20 is below the CSWIP general paper counts."
+     ],
+     "explanation": "In CSWIP, the general theory papers for PT and MT each have 30 questions; RT has 40."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-006",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "CSWIP near-vision requires reading Jaeger 1 or Times N4.5 at not less than:",
+     "options": [
+      "12 inches, checked every five years",
+      "50 cm, checked once at hire",
+      "30 cm, checked at least annually",
+      "1 metre, checked monthly"
+     ],
+     "answer": 2,
+     "distractors": [
+      "CSWIP near vision is at 30 cm and checked yearly.",
+      "The distance is not less than 30 cm, checked annually.",
+      "",
+      "Near vision is at 30 cm, not a metre."
+     ],
+     "explanation": "CSWIP near vision requires reading Jaeger 1 or Times N4.5 at not less than 30 cm in at least one eye, checked within the year."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-007",
+    "requiresUnits": false,
+    "subtopic": "vision",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "CSWIP colour perception is assessed using:",
+     "options": [
+      "A standard Jaeger near-vision card",
+      "The Snellen distance chart",
+      "An Ortho-Rater instrument",
+      "The Ishihara 24-plate test"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Jaeger cards measure near acuity, not colour.",
+      "Snellen measures distance acuity, not colour.",
+      "That is a vision screener, not the colour test CSWIP names.",
+      ""
+     ],
+     "explanation": "CSWIP assesses colour perception with the Ishihara 24-plate test; RT and TOFD holders also take a shades-of-grey test."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-008",
+    "requiresUnits": false,
+    "subtopic": "vision",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A CSWIP NDT certificate is valid for:",
+     "options": [
+      "5 years",
+      "3 years",
+      "10 years",
+      "2 years"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "CSWIP certificates run for five years.",
+      "Ten years spans two cycles, with recertification at the five-year point.",
+      "Two years is shorter than the CSWIP validity."
+     ],
+     "explanation": "A CSWIP NDT certificate is valid for five years, in line with ISO 9712."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-009",
+    "requiresUnits": false,
+    "subtopic": "validity",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "For CSWIP Level 3 structured-credit recertification, the points required out of 100 are:",
+     "options": [
+      "The full 100 points without exception",
+      "Between 50 and 70",
+      "At least 90 of the 100",
+      "Any 10 of the 100"
+     ],
+     "answer": 1,
+     "distractors": [
+      "The requirement is a band of 50 to 70 of the 100 points.",
+      "",
+      "90 is above the CSWIP structured-credit band.",
+      "10 is far below the required band."
+     ],
+     "explanation": "For CSWIP Level 3 structured-credit recertification, a minimum of 50 and a maximum of 70 of the 100 points is required."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-010",
+    "requiresUnits": false,
+    "subtopic": "recertification",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A CSWIP supplementary examination may not be attempted within:",
+     "options": [
+      "6 months of the certificate expiry",
+      "1 year of the certificate expiry",
+      "30 days of the certificate expiry",
+      "1 week of the certificate issue"
+     ],
+     "answer": 2,
+     "distractors": [
+      "The supplementary cut-off is 30 days, not six months.",
+      "The cut-off is 30 days before expiry.",
+      "",
+      "The rule concerns expiry, not issue."
+     ],
+     "explanation": "A CSWIP supplementary examination may not be attempted within 30 days of expiry, and success in it does not extend the certificate's life."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-011",
+    "requiresUnits": false,
+    "subtopic": "recertification",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "CSWIP grants Level 3 Basic examination exemptions to holders of:",
+     "options": [
+      "Any employer-based qualification at all",
+      "A current PCN Level 2 certificate",
+      "A welding inspector certificate",
+      "Valid centrally-issued ASNT Level III"
+     ],
+     "answer": 3,
+     "distractors": [
+      "Only valid central ASNT Level III earns the stated exemptions.",
+      "A Level 2 does not earn the Level 3 Basic exemptions.",
+      "A welding inspector qualification is not the basis for exemption.",
+      ""
+     ],
+     "explanation": "CSWIP grants Level 3 Basic exemptions to holders of valid centrally-issued ASNT Level III certification."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-scheme-012",
+    "requiresUnits": false,
+    "subtopic": "examination",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   }
+  ]
+ }
+]

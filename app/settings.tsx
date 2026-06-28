@@ -4,8 +4,11 @@ import { Alert, Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { getEveryQuestion } from "../lib/bank";
 import { blockReadiness, useStore } from "../lib/store";
+import { restorePurchases } from "../lib/purchases";
 import { mono, useTheme } from "../lib/theme";
 import { ThemeMode } from "../lib/types";
+
+declare const __DEV__: boolean;
 
 export default function Settings() {
   const theme = useTheme();
@@ -15,6 +18,7 @@ export default function Settings() {
   const exams = useStore((s) => s.exams);
   const resetStudy = useStore((s) => s.resetStudy);
   const resetProgress = useStore((s) => s.resetProgress);
+  const lockAll = useStore((s) => s.lockAll);
   const themeMode = useStore((s) => s.themeMode);
   const setThemeMode = useStore((s) => s.setThemeMode);
 
@@ -42,6 +46,18 @@ export default function Settings() {
         { text: "Reset all", style: "destructive", onPress: () => resetProgress() },
       ]
     );
+  }
+
+  async function onRestore() {
+    try {
+      const n = await restorePurchases();
+      Alert.alert(
+        "Restore complete",
+        n > 0 ? "Your purchases have been restored." : "No previous purchases were found."
+      );
+    } catch (e: any) {
+      Alert.alert("Restore failed", e?.message ?? "Please try again.");
+    }
   }
 
   function Row({ k, v }: { k: string; v: string }) {
@@ -119,6 +135,33 @@ export default function Settings() {
           <Row k="SAVED QUESTIONS" v={String(bookmarks.length)} />
           <Row k="EXAMS TAKEN" v={String(exams.length)} />
         </View>
+
+        <Text style={{ fontFamily: mono, fontSize: 10, letterSpacing: 1, color: theme.muted, marginBottom: 10 }}>
+          PURCHASES
+        </Text>
+        <Pressable
+          onPress={onRestore}
+          style={{
+            borderWidth: 1.5,
+            borderColor: theme.amber,
+            borderRadius: 10,
+            paddingVertical: 14,
+            alignItems: "center",
+            marginBottom: 12,
+          }}
+        >
+          <Text style={{ fontFamily: mono, fontSize: 12, fontWeight: "700", letterSpacing: 0.5, color: theme.amber }}>
+            RESTORE PURCHASES
+          </Text>
+        </Pressable>
+        <Text style={{ fontSize: 11, color: theme.muted, lineHeight: 16, marginBottom: 24 }}>
+          Restores modules you have already unlocked on this Apple ID.
+        </Text>
+        {__DEV__ && (
+          <Pressable onPress={() => lockAll()} style={{ paddingVertical: 8, marginBottom: 20 }}>
+            <Text style={{ fontFamily: mono, fontSize: 11, color: theme.muted }}>dev: reset unlocks</Text>
+          </Pressable>
+        )}
 
         <Text style={{ fontFamily: mono, fontSize: 10, letterSpacing: 1, color: theme.muted, marginBottom: 10 }}>
           RESET
