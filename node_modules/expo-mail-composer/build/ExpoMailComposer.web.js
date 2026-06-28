@@ -1,4 +1,4 @@
-import { MailComposerStatus } from './MailComposer.types';
+import { MailComposerStatus, } from './MailComposer.types';
 function removeNullishValues(obj) {
     for (const propName in obj) {
         if (obj[propName] == null) {
@@ -15,6 +15,9 @@ function checkValue(value) {
     return arr.join(',');
 }
 export default {
+    getClients() {
+        return [];
+    },
     async composeAsync(options) {
         if (typeof window === 'undefined') {
             return { status: MailComposerStatus.CANCELLED };
@@ -27,7 +30,8 @@ export default {
             body: options.body,
         });
         Object.entries(email).forEach(([key, value]) => {
-            mailtoUrl.searchParams.append(key, value);
+            // TODO(@kitten): This was implicitly cast before. Is this what we want?
+            mailtoUrl.searchParams.append(key, '' + value);
         });
         window.open(mailtoUrl.toString());
         return { status: MailComposerStatus.UNDETERMINED };

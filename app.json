@@ -6,7 +6,6 @@
     "orientation": "portrait",
     "scheme": "ndtcertstudy",
     "userInterfaceStyle": "light",
-    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.ndtcertstudy.app",
@@ -18,7 +17,8 @@
       "package": "com.ndtcertstudy.app"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-mail-composer"
     ],
     "experiments": {
       "typedRoutes": false
