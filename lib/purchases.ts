@@ -46,9 +46,19 @@ export const nativePurchasesAvailable = !!Purchases;
 
 let configured = false;
 
+// All non-consumable product ids the customer owns. Reads both
+// allPurchasedProductIdentifiers and nonSubscriptionTransactions so the
+// ownership check survives field changes across SDK versions.
+function ownedProductIds(info: any): string[] {
+  const a: string[] = info?.allPurchasedProductIdentifiers ?? [];
+  const b: string[] = (info?.nonSubscriptionTransactions ?? [])
+    .map((t: any) => t?.productIdentifier)
+    .filter(Boolean);
+  return Array.from(new Set([...a, ...b]));
+}
+
 function syncFromCustomerInfo(info: any): void {
-  const ids: string[] = info?.allPurchasedProductIdentifiers ?? [];
-  useStore.getState().setUnlocked(ids.map(moduleIdForProduct));
+  useStore.getState().setUnlocked(ownedProductIds(info).map(moduleIdForProduct));
 }
 
 export async function configure(): Promise<void> {
@@ -87,7 +97,7 @@ export async function purchaseModule(moduleId: string): Promise<boolean> {
   if (!products || !products[0]) throw new Error("Product not found: " + pid);
   const { customerInfo } = await Purchases.purchaseStoreProduct(products[0]);
   syncFromCustomerInfo(customerInfo);
-  return (customerInfo?.allPurchasedProductIdentifiers ?? []).includes(pid);
+  return ownedProductIds(customerInfo).includes(pid);
 }
 
 // Returns the number of restored purchases.
@@ -95,5 +105,5 @@ export async function restorePurchases(): Promise<number> {
   if (!Purchases) return useStore.getState().unlocked.length;
   const info = await Purchases.restorePurchases();
   syncFromCustomerInfo(info);
-  return (info?.allPurchasedProductIdentifiers ?? []).length;
+  return ownedProductIds(info).length;
 }

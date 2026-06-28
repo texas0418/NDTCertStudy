@@ -9,14 +9,28 @@
     "newArchEnabled": false,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ndtcertstudy.app"
+      "bundleIdentifier": "com.ndtcertstudy.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.ndtcertstudy.app"
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "experiments": {
       "typedRoutes": false
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "57274e59-ba9d-4ea7-a6ea-92584c1f5b87"
+      }
+    },
+    "owner": "boyscout1970"
   }
 }
