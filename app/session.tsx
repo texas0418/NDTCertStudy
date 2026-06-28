@@ -54,8 +54,8 @@ export default function Session() {
 
   const questions: Question[] = useMemo(() => {
     if (isFree) {
-      // Fixed first-N sampler for this module, in bank order (same 10 every time).
-      return getFreeQuestions(module ?? "");
+      // Same N-question sample for this module, shuffled fresh each time it opens.
+      return shuffle(getFreeQuestions(module ?? ""));
     }
     const pool = getQuestionsForBlock(module ?? "", block ?? "all");
     if (isExam) {

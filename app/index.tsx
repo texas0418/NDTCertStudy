@@ -22,8 +22,8 @@ export default function Shelf() {
   const router = useRouter();
   const progress = useStore((s) => s.progress);
   const targetDates = useStore((s) => s.targetDates);
-  // Single-open accordion. Free card starts open so the sampler shows first.
-  const [openId, setOpenId] = useState<string | null>(FREE_ID);
+  // Single-open accordion. Everything starts collapsed.
+  const [openId, setOpenId] = useState<string | null>(null);
   const freeSets = getFreeSets();
 
   return (
@@ -179,7 +179,8 @@ export default function Shelf() {
                   <Text style={{ fontFamily: mono, fontSize: 12, fontWeight: "700", color: theme.onAccent }}>{scheme.name}</Text>
                 </View>
                 <View style={{ flex: 1 }}>
-                  <Text style={{ fontSize: 18, fontWeight: "700", color: theme.ink }}>{scheme.body}</Text>
+                  <Text style={{ fontSize: 18, fontWeight: "700", color: theme.ink }}>{scheme.name}</Text>
+                  <Text style={{ fontSize: 12, color: theme.inkSoft, marginTop: 1 }}>{scheme.body}</Text>
                   <Text style={{ fontFamily: mono, fontSize: 10, letterSpacing: 0.4, color: theme.muted, marginTop: 2 }}>
                     {scheme.standard.toUpperCase()} {"\u00b7"} {mods.length} MODULES
                   </Text>
