@@ -22,6 +22,7 @@ export default function Shelf() {
   const router = useRouter();
   const progress = useStore((s) => s.progress);
   const targetDates = useStore((s) => s.targetDates);
+  const unlocked = useStore((s) => s.unlocked);
   // Single-open accordion. Everything starts collapsed.
   const [openId, setOpenId] = useState<string | null>(null);
   const freeSets = getFreeSets();
@@ -198,6 +199,7 @@ export default function Shelf() {
                     const attempted = ids.some((id) => (progress[id]?.seen ?? 0) > 0);
                     const color = readinessColorFn(overall, attempted, theme);
                     const mc = methodColors[m.method] ?? { tint: theme.bgPanel, accent: theme.amber };
+                    const isLocked = !unlocked.includes(m.id);
                     const tDate = targetDates[m.id];
                     const dleft = tDate ? daysUntil(tDate) : null;
                     return (
@@ -213,6 +215,7 @@ export default function Shelf() {
                           borderRadius: 10,
                           paddingVertical: 11,
                           paddingHorizontal: 12,
+                          opacity: isLocked ? 0.55 : 1,
                         }}
                       >
                         <View
@@ -236,7 +239,7 @@ export default function Shelf() {
                             {m.bank.total_questions} Q
                           </Text>
                         </View>
-                        {dleft !== null && (
+                        {dleft !== null && !isLocked && (
                           <View
                             style={{
                               backgroundColor: theme.amberBg,
@@ -251,10 +254,19 @@ export default function Shelf() {
                             </Text>
                           </View>
                         )}
-                        <Text style={{ fontFamily: mono, fontSize: 15, fontWeight: "700", color }}>
-                          {overall}
-                          <Text style={{ fontSize: 9, color: attempted ? color : theme.muted }}>%</Text>
-                        </Text>
+                        {isLocked ? (
+                          <View style={{ flexDirection: "row", alignItems: "center" }}>
+                            <Text style={{ fontSize: 13, color: theme.muted, marginRight: 4 }}>{"\u{1F512}"}</Text>
+                            <Text style={{ fontFamily: mono, fontSize: 9, fontWeight: "700", letterSpacing: 0.4, color: theme.muted }}>
+                              LOCKED
+                            </Text>
+                          </View>
+                        ) : (
+                          <Text style={{ fontFamily: mono, fontSize: 15, fontWeight: "700", color }}>
+                            {overall}
+                            <Text style={{ fontSize: 9, color: attempted ? color : theme.muted }}>%</Text>
+                          </Text>
+                        )}
                       </Pressable>
                     );
                   })}
