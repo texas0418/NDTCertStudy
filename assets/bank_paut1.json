@@ -31,17 +31,17 @@
       "stem": "Phased array ultrasonic testing uses a probe made of:",
       "options": [
        "Many small elements fired with controlled timing",
-       "A plain single fixed element here",
-       "A plain magnetic coil here",
-       "A plain radioactive source here"
+       "A single fixed element fired by itself each shot",
+       "A row of fixed wedges, each cut to one set angle",
+       "One wide crystal split by a slot down the middle"
       ],
       "answer": 0,
       "explanation": "A phased array probe contains many small piezoelectric elements. Firing them with controlled time delays forms, steers, and focuses the beam electronically.",
       "distractors": [
        "",
        "A single fixed element is a conventional UT probe, not a phased array.",
-       "A magnetic coil belongs to magnetic particle testing.",
-       "A radioactive source belongs to radiography, not ultrasonics."
+       "Fixed single-angle wedges are conventional; the array steers electronically.",
+       "A slotted single crystal is not a true multi-element array."
       ]
      }
     },
@@ -54,20 +54,20 @@
      "requiresUnits": false,
      "diagram": null,
      "content": {
-      "stem": "Phased array testing is based on the same physics as:",
+      "stem": "Phased array sends energy into the part as a:",
       "options": [
-       "Conventional ultrasonic testing",
-       "Plain magnetic particle testing",
-       "Just plain radiography here",
-       "The liquid penetrant testing here"
+       "Pulsed ultrasonic wave",
+       "A steady continuous wave",
+       "A direct current signal",
+       "A static pressure push"
       ],
       "answer": 0,
-      "explanation": "Phased array is still ultrasound, so velocity, reflection at impedance changes, attenuation, wave modes, and pulse-echo timing all apply as in conventional UT.",
+      "explanation": "Like conventional pulse-echo UT, phased array sends short pulsed ultrasonic waves.",
       "distractors": [
        "",
-       "Magnetic particle uses magnetic fields, not ultrasound.",
-       "Radiography uses penetrating radiation, not ultrasound.",
-       "Penetrant testing uses capillary action, not ultrasound."
+       "Pulse-echo uses short pulses, not a steady continuous wave.",
+       "The elements send ultrasonic pulses, not a direct current signal.",
+       "It sends a vibrating sound wave, not a static pressure push."
       ]
      }
     },
@@ -83,9 +83,9 @@
       "stem": "The beam is steered and focused by:",
       "options": [
        "Applying small time delays to the firing of each element",
-       "Physically tilting the whole probe only here",
-       "Changing the couplant here",
-       "Heating the elements here"
+       "Physically tilting the entire probe by hand to every angle",
+       "Pumping more couplant in under the moving probe face plate",
+       "Heating the elements up so that the beam bends across"
       ],
       "answer": 0,
       "explanation": "Controlled delays between element firings make the individual wavefronts combine into one wavefront at a chosen angle and focal depth, without moving the probe.",
@@ -109,9 +109,9 @@
       "stem": "The single steered wavefront forms because the individual element wavefronts:",
       "options": [
        "Combine by constructive interference",
-       "Cancel completely here",
-       "Travel at different velocities here",
-       "Change the frequency here"
+       "Cancel out fully and leave no beam",
+       "Race past the set material velocity",
+       "Shift the firing frequency right up"
       ],
       "answer": 0,
       "explanation": "Timed firing makes the small wavefronts reinforce along the desired direction, producing one effective beam at the chosen angle and focus.",
@@ -135,9 +135,9 @@
       "stem": "In phased array, the word phased refers to the:",
       "options": [
        "Timing (phase) relationship of the element excitations",
-       "Color phase of the display here",
-       "The plain phase of the whole moon here",
-       "Material phase change here"
+       "Color phase shown across the entire display image view",
+       "Phases of the moon running across the course of a month",
+       "Metallurgical phase change within the base metal grain"
       ],
       "answer": 0,
       "explanation": "Phased describes the controlled timing relationship among the element pulses, which is what forms and directs the beam.",
@@ -161,9 +161,9 @@
       "stem": "Compared with a single-element probe, a phased array probe can:",
       "options": [
        "Produce many beam angles and focal depths from one position",
-       "Produce only one fixed angle here",
-       "Work without any couplant here",
-       "Detect only the surface flaws here"
+       "Produce just one single fixed beam angle from each position",
+       "Work fully dry with no couplant at all on the part surface",
+       "Find only surface flaws lying right at the top part face"
       ],
       "answer": 0,
       "explanation": "By changing the firing delays, the array sweeps angles and focuses at different depths from a single probe position, which a single-element probe cannot do.",
@@ -187,9 +187,9 @@
       "stem": "A practical advantage of phased array over single-element scanning is:",
       "options": [
        "Faster coverage and electronic beam control",
-       "No need for calibration here",
-       "No need for a whole procedure here",
-       "Immunity to attenuation here"
+       "No need to calibrate before the scan starts",
+       "No written procedure for the inspection job",
+       "No attenuation of sound through the metal"
       ],
       "answer": 0,
       "explanation": "Electronic steering and focusing cover more volume from fewer positions and produce images, speeding inspection. Calibration and procedures still apply.",
@@ -213,17 +213,17 @@
       "stem": "Phased array can build a cross-sectional image by combining:",
       "options": [
        "Many A-scans taken at different angles or positions",
-       "A plain single A-scan only here",
-       "Magnetic readings here",
-       "Film exposures here"
+       "One single A-scan taken from a single fixed spot only",
+       "A long run of plain thickness readings on a single line",
+       "One single wide unfocused pulse fired straight down once"
       ],
       "answer": 0,
       "explanation": "The instrument assembles the many beams into images such as the sectorial (S) scan, giving a cross-sectional view that a single A-scan cannot.",
       "distractors": [
        "",
        "A single A-scan alone does not form the cross-sectional image.",
-       "Phased array does not use magnetic readings.",
-       "Phased array does not use film."
+       "A line of single thickness readings is not a steered multi-angle image.",
+       "One wide unfocused pulse does not build a cross-sectional image."
       ]
      }
     },
@@ -239,9 +239,9 @@
       "stem": "A group of elements fired together to form one beam is called the:",
       "options": [
        "Active aperture",
-       "The couplant layer",
-       "The backwall",
-       "The index point"
+       "Couplant film",
+       "The backwall echo",
+       "Beam index point"
       ],
       "answer": 0,
       "explanation": "The active aperture is the set of elements used for a given beam. Its size affects beam characteristics such as focusing and near-field length.",
@@ -265,9 +265,9 @@
       "stem": "Most phased array weld inspection uses the pulse-echo principle, meaning the array:",
       "options": [
        "Transmits and receives the sound",
-       "Just plain only transmits here",
-       "Just plain only receives here",
-       "Uses the two separate methods here"
+       "Only receives the returning sound",
+       "Only transmits the outgoing sound",
+       "Uses two separate probes for it"
       ],
       "answer": 0,
       "explanation": "In pulse-echo, the same array transmits the sound and receives the returning echoes, timing them to locate reflectors, as in conventional UT.",
@@ -291,9 +291,9 @@
       "stem": "When a phased array beam passes through a wedge into steel, its refraction follows:",
       "options": [
        "Snell's law",
-       "Ohm's law",
-       "The inverse square law",
-       "Faraday's law"
+       "The Ohm law",
+       "Square law",
+       "Faraday law"
       ],
       "answer": 0,
       "explanation": "Refraction at the wedge-to-part interface obeys Snell's law, just as in conventional angle-beam UT, so the refracted angle depends on the velocities.",
@@ -317,9 +317,9 @@
       "stem": "Electronic focusing of the beam at a depth improves:",
       "options": [
        "Resolution and sensitivity at that depth",
-       "The material's whole sound velocity here",
-       "The whole pulse repetition frequency here",
-       "The number of the array elements here"
+       "The material velocity used in the part",
+       "The set pulse repetition frequency value",
+       "The number of elements set in the array"
       ],
       "answer": 0,
       "explanation": "Focusing concentrates energy at the focal depth, improving the response and resolution of reflectors there compared with an unfocused beam.",
@@ -343,9 +343,9 @@
       "stem": "Because angles are produced electronically, phased array can reduce the:",
       "options": [
        "Number of separate probes needed for multiple angles",
-       "Need to couple the probe here",
-       "Material velocity here",
-       "Part thickness here"
+       "Need to couple the probe down onto the part surface",
+       "Sound velocity the part metal carries the beam at",
+       "Wall thickness of the part the beam scans through"
       ],
       "answer": 0,
       "explanation": "One array can cover the range of angles that would otherwise require several single-element angle probes, simplifying setups.",
@@ -371,7 +371,7 @@
        "Shear wave",
        "Radio wave",
        "Light wave",
-       "Sound-free wave"
+       "Quiet wave"
       ],
       "answer": 0,
       "explanation": "As in conventional angle-beam UT, the wedge mode-converts the beam so a shear wave propagates in the part at the refracted angle.",
@@ -395,15 +395,15 @@
       "stem": "Phased array detects a reflector because sound is:",
       "options": [
        "Reflected at an acoustic impedance change",
-       "Magnetized by the flaw here",
-       "Absorbed fully by sound material here",
-       "Converted to light here"
+       "Slowed to a stop within the solid base metal",
+       "Wholly absorbed by the sound base metal",
+       "Turned to light at the far backwall face"
       ],
       "answer": 0,
       "explanation": "A flaw presents an impedance change that reflects sound back to the array, which the instrument times and displays, as in conventional UT.",
       "distractors": [
        "",
-       "Sound is not magnetized; magnetism is a different method.",
+       "A reflector returns sound at an impedance change; sound does not stop in solid metal.",
        "Sound is not completely absorbed by sound material; it returns from the backwall.",
        "Sound is not converted to light in this process."
       ]
@@ -421,8 +421,8 @@
       "stem": "Accurate depth and position readings in phased array still depend on the:",
       "options": [
        "Material's sound velocity",
-       "Display color palette",
-       "Pulse repetition frequency",
+       "The display color palette",
+       "The pulse repeat rate set",
        "Number of focal laws used"
       ],
       "answer": 0,
@@ -447,16 +447,16 @@
       "stem": "A sectorial (S) scan from one probe position shows reflectors over a:",
       "options": [
        "Range of angles swept electronically",
-       "Just plain single fixed angle only here",
-       "Magnetic map here",
-       "Just plain photographic image here"
+       "One fixed angle set by hand tilting",
+       "One fixed-angle A-scan trace only",
+       "Plain optical photo of the part face"
       ],
       "answer": 0,
       "explanation": "An S-scan sweeps a range of angles from one position, giving a fan-shaped cross-section, a hallmark capability of phased array.",
       "distractors": [
        "",
        "A single fixed angle is the conventional approach, not an S-scan.",
-       "Phased array does not produce a magnetic map.",
+       "An S-scan sweeps a range of angles, not one fixed-angle A-scan.",
        "Phased array forms ultrasonic images, not photographs."
       ]
      }
@@ -473,9 +473,9 @@
       "stem": "In phased array, the controlled delays are applied:",
       "options": [
        "On both transmit and receive",
-       "On transmit only, never receive",
-       "On receive only, never transmit",
-       "Only to the couplant"
+       "On the receive side by itself",
+       "On the transmit side by itself",
+       "On the couplant film itself"
       ],
       "answer": 0,
       "explanation": "Delay laws shape the beam on transmission and are also applied on reception, so the array focuses and steers in both directions.",
@@ -496,20 +496,20 @@
      "requiresUnits": false,
      "diagram": null,
      "content": {
-      "stem": "Unlike radiography, phased array ultrasonic testing:",
+      "stem": "The energy a phased array probe emits into the part is:",
       "options": [
-       "Uses no ionizing radiation",
-       "Requires a radiation license",
-       "Exposes film",
-       "Requires a film badge dosimeter"
+       "High-frequency sound",
+       "A low audible hum",
+       "A steady light beam",
+       "A direct heat flow"
       ],
       "answer": 0,
-      "explanation": "Phased array uses sound, not ionizing radiation, so it has no radiation hazard, film, or darkroom, though general industrial safety still applies.",
+      "explanation": "Phased array emits high-frequency ultrasonic sound, above the audible range.",
       "distractors": [
        "",
-       "No radiation license is needed because there is no ionizing radiation.",
-       "Phased array does not expose film.",
-       "Dosimeters are for radiation workers; phased array emits sound, not radiation."
+       "The frequency is ultrasonic, well above an audible hum.",
+       "It sends mechanical sound waves, not a beam of light.",
+       "It sends vibrating sound energy, not a flow of heat."
       ]
      }
     },
@@ -525,9 +525,9 @@
       "stem": "A typical phased array probe contains:",
       "options": [
        "Many elements, often 16, 32, or 64",
-       "Just plain exactly one element here",
-       "No elements here",
-       "Thousands of moving parts here"
+       "One single fixed element fired by itself",
+       "No elements, just one solid face",
+       "Thousands of tiny moving pieces"
       ],
       "answer": 0,
       "explanation": "Common arrays use element counts such as 16, 32, or 64, grouped into apertures for each beam. Confirm the specific probe against its data sheet.",
@@ -551,9 +551,9 @@
       "stem": "As in conventional UT, a higher probe frequency generally gives:",
       "options": [
        "Better resolution but less penetration",
-       "Worse resolution and more penetration here",
-       "Just plain no change in either here",
-       "Audible output here"
+       "Better penetration but less resolution",
+       "No change to resolution or penetration",
+       "A beam down in the plain audible range"
       ],
       "answer": 0,
       "explanation": "Higher frequency shortens the wavelength, improving resolution but attenuating faster, so penetration drops, the same trade-off as conventional UT.",
@@ -577,9 +577,9 @@
       "stem": "A key inspection benefit of phased array is the ability to:",
       "options": [
        "Record encoded data for later review",
-       "Erase all records automatically here",
-       "Just plain avoid any documentation here",
-       "Just plain replace the procedure here"
+       "Wipe the data clean after each scan",
+       "Skip all documentation for the job",
+       "Do away with the written procedure"
       ],
       "answer": 0,
       "explanation": "Position-encoded scanning stores the data so images can be reviewed, reported, and archived, supporting traceability.",
@@ -603,9 +603,9 @@
       "stem": "The near-field length of a phased array aperture depends mainly on the:",
       "options": [
        "Aperture size, frequency, and velocity",
-       "Just the plain couplant type used here",
-       "Scanning speed here",
-       "Just the display palette range here"
+       "Couplant under the moving probe face",
+       "Scanning speed set along the weld line",
+       "Display palette chosen for the screen"
       ],
       "answer": 0,
       "explanation": "As with any transducer, near-field length grows with aperture size and frequency and varies with velocity, affecting where focusing is effective.",
@@ -629,9 +629,9 @@
       "stem": "Steering the beam to very large angles tends to:",
       "options": [
        "Reduce sensitivity and beam quality",
-       "Improve sensitivity without limit here",
-       "Increase the whole frequency here",
-       "Just plain cool the probe now here"
+       "Raise sensitivity and beam quality",
+       "Change the probe's firing frequency",
+       "Cool the entire probe down each shot"
       ],
       "answer": 0,
       "explanation": "Element directivity and spacing limit how far the beam can be steered before sensitivity falls and artifacts grow, so steering ranges are kept within limits.",
@@ -655,9 +655,9 @@
       "stem": "At Level I, a phased array technician primarily:",
       "options": [
        "Sets up and runs scans and records data under direction",
-       "Writes the whole inspection procedure here",
-       "Approves the acceptance criteria here",
-       "Performs the final flaw sizing and evaluation here"
+       "Writes the inspection procedure used for the entire site",
+       "Approves the accept and reject criteria for each job",
+       "Does the final flaw sizing and evaluation on the job"
       ],
       "answer": 0,
       "explanation": "A Level I operates the equipment, calibrates, scans, and records under direction; procedure writing, criteria, sizing, and evaluation are higher-level tasks.",
@@ -681,17 +681,17 @@
       "stem": "Producing many angles from a fixed aperture is a sectorial scan; stepping a fixed angle along the array is a:",
       "options": [
        "Linear (E) scan",
-       "The magnetic scan",
-       "The film scan",
-       "A penetrant scan"
+       "A sectorial scan",
+       "A compound scan",
+       "A single A-scan"
       ],
       "answer": 0,
       "explanation": "An electronic linear (E) scan keeps the angle constant and moves the active aperture along the array, while an S-scan sweeps angles from one aperture.",
       "distractors": [
        "",
-       "There is no magnetic scan in phased array.",
-       "Phased array does not use film.",
-       "Phased array does not use penetrant."
+       "A sectorial scan sweeps angles from a fixed aperture, not a stepped fixed angle.",
+       "A compound scan mixes motions; stepping one angle along the array is linear.",
+       "A single A-scan is one beam, not a stepped linear scan."
       ]
      }
     },
@@ -707,9 +707,9 @@
       "stem": "Unwanted beams that can appear due to element spacing are called:",
       "options": [
        "Grating lobes",
-       "Backwall echoes",
+       "Backwall echo",
        "Surface waves",
-       "Couplant echoes"
+       "Couplant echo"
       ],
       "answer": 0,
       "explanation": "When element pitch is large relative to the wavelength, grating lobes form and can cause spurious indications, so probe design and setup control them.",
@@ -733,8 +733,8 @@
       "stem": "The set of time delays that defines one beam is called a:",
       "options": [
        "Focal law",
-       "Couplant law",
-       "Gain law",
+       "Wedge law",
+       "Gain rule",
        "Cable law"
       ],
       "answer": 0,
@@ -759,17 +759,17 @@
       "stem": "Besides the A-scan, phased array commonly displays:",
       "options": [
        "S-scan and other image views",
-       "Just only a single number here",
-       "A magnetic particle pattern",
-       "Just a plain radiograph here"
+       "Just one number on the screen",
+       "Just a single A-scan trace",
+       "Only a numeric thickness value"
       ],
       "answer": 0,
       "explanation": "Phased array shows the A-scan plus image views such as the S-scan, helping visualize reflectors. Interpretation of these is a higher-level task.",
       "distractors": [
        "",
        "Phased array shows more than a single number.",
-       "It does not show a magnetic particle pattern.",
-       "It does not produce a radiograph."
+       "Phased array shows image views, not just a single A-scan trace.",
+       "It shows S-scans and images, not only a numeric thickness value."
       ]
      }
     },
@@ -785,16 +785,16 @@
       "stem": "Phased array still requires couplant because sound:",
       "options": [
        "Does not travel well across an air gap",
-       "Travels better through air than metal here",
-       "Is magnetic here",
-       "Just plain is a form of light here"
+       "Moves far worse through metal than air",
+       "Soaks straight into the dry steel face",
+       "Is a light wave needing a clear lens"
       ],
       "answer": 0,
       "explanation": "An air gap reflects nearly all the sound, so couplant is used to transmit sound from the wedge or probe into the part, as in conventional UT.",
       "distractors": [
        "",
        "Sound travels far better through metal than through air.",
-       "Sound is not magnetic.",
+       "Sound needs a couplant path; it does not soak into dry steel.",
        "Sound is a mechanical wave, not light."
       ]
      }
@@ -811,17 +811,17 @@
       "stem": "A phased array instrument fires and reads many elements using:",
       "options": [
        "Multiple pulser and receiver channels",
-       "Just a single fixed channel only here",
-       "Just a plain radioactive timer here",
-       "A plain magnetic coil here"
+       "A single fixed pulser-receiver channel",
+       "One shared timing clock for all elements",
+       "A hand switch toggled for each element"
       ],
       "answer": 0,
       "explanation": "The instrument has many pulser and receiver channels (or multiplexing) to drive and read the elements with the required timing.",
       "distractors": [
        "",
        "A single fixed channel could not independently time many elements.",
-       "Timing is electronic, not from a radioactive source.",
-       "A magnetic coil is not used to fire array elements."
+       "Independent timing per element needs many channels, not one shared clock.",
+       "Elements are driven electronically by channels, not a hand switch."
       ]
      }
     },
@@ -837,9 +837,9 @@
       "stem": "Before scanning, the angles, coverage, and probe positions are defined in a:",
       "options": [
        "Scan plan",
-       "Inspection report",
-       "Equipment manual",
-       "Calibration certificate"
+       "Job report",
+       "Kit manual",
+       "Cal sheet"
       ],
       "answer": 0,
       "explanation": "A scan plan specifies the focal laws, coverage, and probe placement so the inspection meets the procedure. A Level I follows it.",
@@ -863,9 +863,9 @@
       "stem": "To cover a weld fully with angle beams, the technician often scans:",
       "options": [
        "From both sides of the weld as the plan requires",
-       "From one point only here",
-       "Without any movement here",
-       "Only on the weld cap here"
+       "From one fixed point set out on the plate face",
+       "Without moving the probe along the entire weld",
+       "Across only the weld cap and nowhere else besides"
       ],
       "answer": 0,
       "explanation": "Scanning from both sides and along the weld, per the scan plan, helps cover the volume and detect flaws of different orientations.",
@@ -889,9 +889,9 @@
       "stem": "Focusing and beam control in phased array can improve the ability to:",
       "options": [
        "Separate closely spaced reflectors",
-       "Change the material velocity here",
-       "Just plain eliminate the couplant here",
-       "Just plain remove attenuation here"
+       "Change the metal's sound velocity",
+       "Do away with the need for couplant",
+       "Strip out the metal attenuation"
       ],
       "answer": 0,
       "explanation": "Better beam control improves resolution, helping distinguish reflectors that are close together. It does not change material properties.",
@@ -916,8 +916,8 @@
       "options": [
        "Encoder",
        "Eraser",
-       "Illuminator",
-       "Isotope"
+       "Lighter",
+       "A ruler"
       ],
       "answer": 0,
       "explanation": "A position encoder records where each scan line was taken so the data maps to the part, enabling encoded imaging and coverage checks.",
@@ -925,7 +925,7 @@
        "",
        "An eraser is not a position device.",
        "An illuminator is for viewing radiographs, not encoding position.",
-       "An isotope is a radiation source, not a position device."
+       "A hand ruler does not log scan position automatically; an encoder does."
       ]
      }
     },
@@ -941,17 +941,17 @@
       "stem": "Besides delays, focal laws can vary the relative element amplitudes, a technique called:",
       "options": [
        "Apodization",
-       "Magnetization",
-       "Fixation",
-       "Collimation"
+       "Beam steering",
+       "Gain control",
+       "Depth focusing"
       ],
       "answer": 0,
       "explanation": "Apodization adjusts element excitation amplitudes across the aperture to shape the beam and reduce side lobes. It is part of the focal-law definition.",
       "distractors": [
        "",
-       "Magnetization belongs to magnetic particle testing.",
-       "Fixation is a film-processing term, not a phased array term.",
-       "Collimation is a radiography term, not phased array."
+       "Beam steering sets the angle by delays, not the element amplitudes.",
+       "Gain control scales the whole signal, not amplitudes across the aperture.",
+       "Depth focusing uses delays for focus, not amplitude weighting."
       ]
      }
     },
@@ -967,17 +967,17 @@
       "stem": "Stepping the active aperture along the array effectively creates a:",
       "options": [
        "Moving virtual probe along the array length",
-       "A plain second physical probe here",
-       "Magnetic yoke here",
-       "A plain radiation beam here"
+       "A second real probe fixed beside the array",
+       "A second fixed-angle wedge bonded beside it",
+       "A single static element firing by itself"
       ],
       "answer": 0,
       "explanation": "Selecting different element groups in turn moves the effective beam along the array, like a virtual probe scanning without physical motion.",
       "distractors": [
        "",
        "No second physical probe is created; it is the same array.",
-       "A magnetic yoke belongs to magnetic particle testing.",
-       "No radiation beam is involved."
+       "The same array is reused electronically; no second wedge is added.",
+       "Stepping the aperture moves a virtual probe; it is not one static element."
       ]
      }
     },
@@ -993,9 +993,9 @@
       "stem": "Phased array is widely used on welds because it can:",
       "options": [
        "Cover the weld volume with multiple angles and imaging",
-       "Only inspect the surface here",
-       "Replace the whole need for any access here",
-       "See through the whole thickness instantly here"
+       "Cover only the weld surface right at the top cap face",
+       "Work without coupling the probe onto the part at all",
+       "See through any thickness with no attenuation loss"
       ],
       "answer": 0,
       "explanation": "Multiple angles and imaging from compact probe positions make phased array effective for volumetric weld inspection, within its physical limits.",
@@ -1019,9 +1019,9 @@
       "stem": "Analyzing the recorded images and sizing flaws to acceptance criteria is generally the job of a:",
       "options": [
        "Level II or III",
-       "Level I only",
-       "Probe manufacturer",
-       "Software vendor"
+       "A Level I hand",
+       "The probe maker",
+       "Software seller"
       ],
       "answer": 0,
       "explanation": "A Level I acquires and records valid data; analyzing images, sizing flaws, and evaluating to the code are Level II or higher responsibilities.",
@@ -1045,15 +1045,15 @@
       "stem": "Which statement about phased array fundamentals is correct?",
       "options": [
        "A multi-element array is timed to steer and focus the beam electronically, using the same ultrasonic physics as conventional UT",
-       "Phased array uses radiation instead of sound",
-       "Phased array needs no couplant",
-       "A phased array probe has a single element"
+       "A phased array fires one fixed beam straight down from a single element and cannot be steered to any other angle at all",
+       "Phased array runs fully dry with no couplant at all, since its many elements drive the sound straight across the open air gap",
+       "A phased array probe carries just one single fixed element, steered to each angle only by tilting the entire probe over by hand"
       ],
       "answer": 0,
       "explanation": "Phased array times many elements to steer and focus the ultrasonic beam, producing multiple angles and images while obeying the same physics as conventional UT.",
       "distractors": [
        "",
-       "Phased array uses ultrasound, not radiation.",
+       "A phased array uses many elements timed to steer the beam to many angles.",
        "Couplant is still required to transmit the sound.",
        "A phased array probe has many elements, not one."
       ]
@@ -1077,9 +1077,9 @@
       "stem": "The center-to-center spacing between array elements is called the:",
       "options": [
        "Pitch",
-       "The gain",
-       "A gate",
-       "A skip"
+       "Gain",
+       "Gate",
+       "Skip"
       ],
       "answer": 0,
       "explanation": "Pitch is the element spacing. It strongly affects steering range and grating lobes, so it is a key probe parameter.",
@@ -1103,9 +1103,9 @@
       "stem": "A smaller element pitch (relative to wavelength) generally:",
       "options": [
        "Reduces grating lobes and allows wider steering",
-       "Increases the grating lobes here",
-       "Eliminates the need for the focal laws here",
-       "Lowers the frequency here"
+       "Raises the grating lobes and narrows the steering",
+       "Does away with the need for any focal laws at all",
+       "Drops the probe operating frequency by itself"
       ],
       "answer": 0,
       "explanation": "Finer pitch keeps element spacing small compared with the wavelength, suppressing grating lobes and allowing the beam to be steered over a wider range.",
@@ -1129,17 +1129,17 @@
       "stem": "The most common phased array probe for weld inspection is a:",
       "options": [
        "Linear array (a single row of elements)",
-       "Just a plain single-element probe here",
-       "A plain magnetic yoke here",
-       "Film cassette here"
+       "Just a single-element conventional probe",
+       "An annular concentric-ring array probe",
+       "A plain single fixed-angle wedge probe"
       ],
       "answer": 0,
       "explanation": "A 1D linear array, a row of elements, is the common choice for weld scanning, steering and focusing in the plane across the weld.",
       "distractors": [
        "",
        "A single-element probe is conventional UT, not phased array.",
-       "A magnetic yoke belongs to magnetic particle testing.",
-       "A film cassette belongs to radiography."
+       "Annular arrays focus on axis; linear arrays are standard for welds.",
+       "A fixed-angle conventional wedge probe is not a phased array."
       ]
      }
     },
@@ -1155,9 +1155,9 @@
       "stem": "The active aperture of a linear array is the:",
       "options": [
        "Group of elements fired together for a beam",
-       "Elevation height of the whole elements here",
-       "Couplant film thickness here",
-       "Cable connector here"
+       "The elevation height across the elements",
+       "The couplant film thickness under the probe",
+       "The cable connector on the probe lead end"
       ],
       "answer": 0,
       "explanation": "The active aperture is the set of elements used for one focal law. Its size affects focusing and beam spread.",
@@ -1181,9 +1181,9 @@
       "stem": "The element dimension perpendicular to the steering direction is the:",
       "options": [
        "Passive aperture (elevation)",
-       "The plain active aperture here",
-       "Just the plain pitch here",
-       "Just the focal depth here"
+       "The active aperture itself",
+       "The element pitch spacing only",
+       "The chosen focal depth value"
       ],
       "answer": 0,
       "explanation": "The passive aperture (elevation) is fixed by the element height and sets beam spread in the non-steered plane.",
@@ -1207,17 +1207,17 @@
       "stem": "An annular array (concentric rings) is used mainly to:",
       "options": [
        "Focus a straight beam at different depths on axis",
-       "Steer to the large angles here",
-       "Magnetize the part here",
-       "Replace the couplant here"
+       "Steer the beam out to very large off-axis angles",
+       "Sweep a wide fan of angles straight across a weld",
+       "Run a stepped linear scan along the array length"
       ],
       "answer": 0,
       "explanation": "Annular arrays focus along the central axis at selectable depths but do not steer in angle, useful for straight-beam depth focusing.",
       "distractors": [
        "",
        "Annular arrays focus on axis; they do not steer to large angles.",
-       "They do not magnetize the part.",
-       "They do not replace the couplant."
+       "Angle sweeping is a sectorial linear-array scan, not an annular array.",
+       "Stepping along the array is a linear scan, done with a linear array."
       ]
      }
     },
@@ -1233,17 +1233,17 @@
       "stem": "A matrix (2D) array differs from a linear array because it can:",
       "options": [
        "Steer and focus in two planes",
-       "Only steer in one whole plane here",
-       "Work without the elements here",
-       "Detect the surface flaws here"
+       "Only steer in one single plane",
+       "Focus along one single axis only",
+       "Reach only the near-surface layer"
       ],
       "answer": 0,
       "explanation": "A 2D matrix array has elements in rows and columns, allowing beam control in two planes, at the cost of more channels and complexity.",
       "distractors": [
        "",
        "Two-plane control is exactly what distinguishes it from a 1D linear array.",
-       "It still requires elements to function.",
-       "It is volumetric, not limited to surface flaws."
+       "A matrix array focuses in two planes, not one axis.",
+       "It is volumetric, not limited to the near surface."
       ]
      }
     },
@@ -1259,9 +1259,9 @@
       "stem": "An angle wedge on a phased array probe is used to:",
       "options": [
        "Refract the beam to the desired angles in the part",
-       "Cool the elements here",
-       "Store the whole data here",
-       "Magnetize the weld here"
+       "Cool the array elements down during the long scan",
+       "Store the scan data taken from each fired beam",
+       "Damp the array elements down to shorten each pulse"
       ],
       "answer": 0,
       "explanation": "The wedge sets a refraction path so the steered beams enter the part at the required angles, and it provides standoff. Its velocity and angle are entered in the setup.",
@@ -1269,7 +1269,7 @@
        "",
        "The wedge does not cool the elements.",
        "Data storage is an instrument function, not the wedge.",
-       "The wedge does not magnetize the weld."
+       "Damping is done by the backing material, not the angle wedge."
       ]
      }
     },
@@ -1285,9 +1285,9 @@
       "stem": "Key wedge parameters entered into the setup include the wedge velocity and the:",
       "options": [
        "Wedge angle and probe-to-wedge delay",
-       "The couplant viscosity here",
-       "Just plain material grain size here",
-       "Just plain display refresh rate here"
+       "The couplant viscosity used under it",
+       "The base material grain size value",
+       "The display screen refresh rate set"
       ],
       "answer": 0,
       "explanation": "The instrument needs the wedge velocity, wedge angle, and element-to-wedge delay to compute correct refracted angles and beam paths.",
@@ -1311,9 +1311,9 @@
       "stem": "A dual-array transmit-receive longitudinal (TRL) probe is often chosen for:",
       "options": [
        "Coarse-grained or clad materials with high noise",
-       "Thin clean plate only here",
-       "Replacing the encoder here",
-       "Eliminating calibration here"
+       "Thin clean plate and nothing harder than that",
+       "Standing in for the position encoder on the rig",
+       "Doing away with the need to calibrate at all"
       ],
       "answer": 0,
       "explanation": "TRL probes use separate transmit and receive arrays and a longitudinal mode to improve signal-to-noise in attenuative or coarse-grained materials such as austenitic welds and cladding.",
@@ -1337,17 +1337,17 @@
       "stem": "A phased array instrument drives the elements using its:",
       "options": [
        "Pulser and receiver channels",
-       "Single conventional channel here",
-       "Plain radiation source here",
-       "Plain magnetizing coil here"
+       "One single conventional channel",
+       "One shared timing oscillator",
+       "A bank of hand toggle switches"
       ],
       "answer": 0,
       "explanation": "The instrument provides many pulser and receiver channels (or multiplexes them) to fire and read the elements with the programmed delays.",
       "distractors": [
        "",
        "A single conventional channel cannot independently time many elements.",
-       "No radiation source is involved.",
-       "No magnetizing coil is involved."
+       "Independent element timing needs many channels, not one oscillator.",
+       "Elements are driven by electronic channels, not hand switches."
       ]
      }
     },
@@ -1363,9 +1363,9 @@
       "stem": "Probe frequency is selected mainly to balance:",
       "options": [
        "Resolution against penetration for the material and thickness",
-       "Scan speed against the file size here",
-       "Wedge angle against couplant type here",
-       "Gate width against the gain here"
+       "Scan speed against the stored file size for the entire job",
+       "Wedge angle against the couplant type chosen for the job",
+       "Gate width against the receiver gain set on the instrument"
       ],
       "answer": 0,
       "explanation": "Higher frequency improves resolution but penetrates less; the choice suits the material, thickness, and flaws of interest, per the procedure.",
@@ -1389,16 +1389,16 @@
       "stem": "A position encoder is connected so the instrument can:",
       "options": [
        "Tie each scan line to its position on the part",
-       "Focus the beam electronically here",
-       "Develop the film here",
-       "Set the reference sensitivity here"
+       "Focus each beam electronically by itself",
+       "Generate the focal-law delay set all by itself",
+       "Set the reference sensitivity level by itself"
       ],
       "answer": 0,
       "explanation": "The encoder reports probe position so data maps to the part, enabling encoded images and coverage verification.",
       "distractors": [
        "",
        "Focusing is done by the focal laws, not the encoder.",
-       "Phased array does not develop film.",
+       "Focal laws are computed in software, not by the encoder.",
        "Reference sensitivity is set during calibration, not by the encoder."
       ]
      }
@@ -1415,9 +1415,9 @@
       "stem": "A scanner or manipulator is used to:",
       "options": [
        "Hold the probe and carry the encoder along the scan",
-       "Set the acceptance criteria here",
-       "Replace the whole instrument here",
-       "Generate the focal laws here"
+       "Set the accept and reject criteria for the entire job",
+       "Stand in for the entire acquisition instrument itself",
+       "Build the entire focal-law set by itself each time"
       ],
       "answer": 0,
       "explanation": "A scanner holds the probe at a fixed offset and moves it along the weld with the encoder, giving repeatable, position-tracked data.",
@@ -1441,9 +1441,9 @@
       "stem": "A probe with several dead (non-functioning) elements can:",
       "options": [
        "Degrade the beam and should be checked and addressed",
-       "Improve the whole beam here",
-       "Sharpen the focus here",
-       "Be ignored safely here"
+       "Improve the beam shape sharply across the entire scan",
+       "Sharpen the focus right down at every test depth",
+       "Be safely ignored for the entire rest of the scan job"
       ],
       "answer": 0,
       "explanation": "Dead elements distort the aperture and beam, lowering sensitivity and image quality, so element integrity is checked and failed probes are repaired or replaced.",
@@ -1467,15 +1467,15 @@
       "stem": "The probe and wedge contact faces should be:",
       "options": [
        "Kept clean and protected from wear and damage",
-       "Coated in the magnetic ink here",
-       "Scratched to improve coupling here",
-       "Just plain left dirty to save the time here"
+       "Roughened with coarse grit paper before each use",
+       "Scratched up on purpose to help coupling",
+       "Left dirty between the jobs to save a little time"
       ],
       "answer": 0,
       "explanation": "A worn or fouled contact face degrades coupling and the beam, so faces are kept clean, inspected, and protected.",
       "distractors": [
        "",
-       "Magnetic ink belongs to magnetic particle testing, not phased array faces.",
+       "Roughening the contact face harms coupling and the beam.",
        "Scratching the face harms coupling.",
        "A dirty face degrades coupling."
       ]
@@ -1493,16 +1493,16 @@
       "stem": "Phased array cables and connectors should be handled carefully because:",
       "options": [
        "Damaged conductors can disable elements or add noise",
-       "They set the whole material velocity here",
-       "They develop the whole image chemically here",
-       "They generate the whole focal laws here"
+       "They set the material velocity used right in the part",
+       "They store the entire focal-law set used for the scan",
+       "They build the focal-law set on their own each time"
       ],
       "answer": 0,
       "explanation": "The multi-conductor cable carries each element's signal, so damage can drop elements or add noise, degrading data. Cables are protected and inspected.",
       "distractors": [
        "",
        "Cables do not set material velocity.",
-       "Cables do not chemically develop images.",
+       "Cables carry signals; the instrument stores the focal laws.",
        "Cables carry signals; the software generates the focal laws."
       ]
      }
@@ -1519,9 +1519,9 @@
       "stem": "A larger active aperture generally allows:",
       "options": [
        "A longer near field and focusing deeper into the part",
-       "Focusing only at the surface here",
-       "Removal of the whole wedge here",
-       "A plain lower material velocity here"
+       "Focusing only at the near-surface layer of the part",
+       "Doing away with the angle wedge altogether on the probe",
+       "A lower material sound velocity right through the part"
       ],
       "answer": 0,
       "explanation": "A larger aperture extends the near field, allowing effective focusing at greater depth. Aperture is chosen for the depth of interest.",
@@ -1545,9 +1545,9 @@
       "stem": "In a water-coupled (immersion) phased array setup, the water provides the:",
       "options": [
        "Couplant path between the probe and the part",
-       "Electrical power here",
-       "Focal laws here",
-       "Acceptance criteria here"
+       "The electrical drive power to the probe array",
+       "The focal-law delay set used for each beam",
+       "The accept and reject criteria for the job"
       ],
       "answer": 0,
       "explanation": "Immersion uses a water path to transmit sound into the part, with the water-path time accounted for, similar to conventional immersion UT.",
@@ -1571,15 +1571,15 @@
       "stem": "A matching layer on the array face helps:",
       "options": [
        "Transmit sound efficiently between the elements and the wedge or part",
-       "Magnetize the whole elements here",
-       "Store the data here",
-       "Steer the beam to large angles here"
+       "Hold the firing delay timing steady across the entire element row set",
+       "Store all the scan data taken from each fired beam over the entire job",
+       "Steer the beam right out to the larger angles set in the focal law"
       ],
       "answer": 0,
       "explanation": "The matching layer improves acoustic energy transfer from the piezo elements into the wedge or part, similar in purpose to a conventional probe wear face.",
       "distractors": [
        "",
-       "The matching layer does not magnetize the elements.",
+       "Delays are set electronically per element, not by the matching layer.",
        "It does not store data.",
        "Steering is done by the focal-law delays, not by the matching layer."
       ]
@@ -1597,9 +1597,9 @@
       "stem": "Selecting a phased array probe and wedge is based mainly on the:",
       "options": [
        "Material, thickness, geometry, and angles required",
-       "Color of the cable here",
-       "Operator's preference for the brand here",
-       "Ambient lighting here"
+       "The printed color of the probe cable lead jacket",
+       "The operator's own favourite probe brand name on hand",
+       "The ambient light level around the inspection bay"
       ],
       "answer": 0,
       "explanation": "The probe frequency, element count, pitch, and wedge are chosen to achieve the required angles and coverage for the material and thickness, per the procedure.",
@@ -1623,9 +1623,9 @@
       "stem": "Narrow individual elements help the array:",
       "options": [
        "Steer over a wider angular range",
-       "Steer only straight ahead here",
-       "Just plain eliminate the wedge here",
-       "Plain remove attenuation here"
+       "Steer dead straight ahead only",
+       "Do away with the angle wedge fully",
+       "Cancel the material attenuation"
       ],
       "answer": 0,
       "explanation": "Narrower elements have wider individual directivity, supporting steering over a larger angular range before sensitivity falls.",
@@ -1649,9 +1649,9 @@
       "stem": "The total number of elements and the pitch together set the:",
       "options": [
        "Overall probe (array) length",
-       "Just the material velocity here",
-       "The couplant viscosity here",
-       "The acceptance criteria here"
+       "The set material sound velocity",
+       "The couplant viscosity used",
+       "The accept and reject criteria"
       ],
       "answer": 0,
       "explanation": "Array length equals element count times pitch (approximately), which constrains the apertures and coverage available.",
@@ -1675,16 +1675,16 @@
       "stem": "On the instrument, a gate is used to:",
       "options": [
        "Select a time or depth window for monitoring signals",
-       "Magnetize a whole region here",
-       "Develop the whole data here",
-       "Power the whole probe here"
+       "Set the firing delay timing for one entire steered beam",
+       "Store all the scan data from each beam that is fired",
+       "Drive the firing power out to the entire probe array"
       ],
       "answer": 0,
       "explanation": "Gates define time or depth windows where the instrument measures amplitude and position, used during calibration and acquisition.",
       "distractors": [
        "",
-       "A gate does not magnetize anything.",
-       "A gate does not develop data.",
+       "Beam timing comes from the focal law, not a gate.",
+       "A gate selects a window; it does not store the data.",
        "A gate does not power the probe."
       ]
      }
@@ -1701,9 +1701,9 @@
       "stem": "An instrument's focal-law capacity limits the:",
       "options": [
        "Number of beams (angles or positions) it can produce",
-       "Material velocity here",
-       "Couplant choice here",
-       "Weld length here"
+       "The material velocity used right through the test part",
+       "The couplant gel chosen for the entire scanning job",
+       "The full length of the weld that is being scanned"
       ],
       "answer": 0,
       "explanation": "The instrument can store and fire a finite number of focal laws, which bounds how many angles or aperture positions a setup can use.",
@@ -1727,9 +1727,9 @@
       "stem": "Phased array instruments store encoded data so that:",
       "options": [
        "Scans can be reviewed and reported later",
-       "Just plain no records are needed here",
-       "The probe never wears here",
-       "The calibration is skipped here"
+       "No written records are needed for the job",
+       "The probe face never wears out at all over time",
+       "The calibration step can be skipped entirely"
       ],
       "answer": 0,
       "explanation": "Stored data files allow later review, analysis, and reporting, supporting traceability. Calibration and probe care are still required.",
@@ -1753,9 +1753,9 @@
       "stem": "Dropping or knocking a phased array probe can:",
       "options": [
        "Crack elements or the wear face and degrade performance",
-       "Improve the sensitivity here",
-       "Self-test the elements here",
-       "Calibrate the whole probe here"
+       "Improve the sensitivity right across the entire scan job",
+       "Run a full self-test on all the array elements at once",
+       "Calibrate the entire probe and wedge by itself each time"
       ],
       "answer": 0,
       "explanation": "Impact can damage elements or the face, causing dead elements or coupling loss, so probes are handled and stored carefully.",
@@ -1779,9 +1779,9 @@
       "stem": "A worn wedge changes the:",
       "options": [
        "Refracted angles and beam exit point, requiring re-verification",
-       "The material velocity of the part here",
-       "Acceptance criteria here",
-       "Encoder resolution here"
+       "Material sound velocity of the part being scanned right through",
+       "Accept and reject criteria laid down for the entire inspection job",
+       "Encoder step resolution measured along the entire scan line"
       ],
       "answer": 0,
       "explanation": "Wedge wear shifts the standoff and angles, so wedges are checked and the setup re-verified, since the beam exit and angles depend on wedge geometry.",
@@ -1805,9 +1805,9 @@
       "stem": "During encoded scanning, a steady couplant supply (such as a water feed) helps:",
       "options": [
        "Maintain consistent coupling along the scan",
-       "Set the focal laws here",
-       "Power the instrument here",
-       "Define the acceptance criteria here"
+       "Set the focal-law delay timing for each beam",
+       "Power the entire acquisition instrument up",
+       "Define the accept and reject criteria used"
       ],
       "answer": 0,
       "explanation": "Consistent couplant prevents coupling loss and data dropout as the probe moves, improving data quality.",
@@ -1831,9 +1831,9 @@
       "stem": "Before scanning, element integrity can be verified with the instrument's:",
       "options": [
        "Element (dead-element) check function",
-       "Just the plain backwall echo alarm here",
-       "Just the gate threshold setting here",
-       "The acceptance criteria table here"
+       "The backwall echo loss alarm setting",
+       "The signal gate threshold level setting",
+       "The acceptance criteria lookup table"
       ],
       "answer": 0,
       "explanation": "Many instruments have an element check that shows weak or dead elements, so a faulty probe is caught before acquiring data.",
@@ -1857,9 +1857,9 @@
       "stem": "Compared with a linear array, a matrix array generally requires:",
       "options": [
        "More channels and a more complex setup",
-       "No whole instrument here",
-       "No focal laws here",
-       "Just plain a radiation license here"
+       "No acquisition instrument present at all",
+       "No focal-law delay set at all",
+       "Far fewer elements than a plain linear one"
       ],
       "answer": 0,
       "explanation": "Two-plane control needs more elements and channels and a more involved setup, which is why linear arrays are used where one-plane control suffices.",
@@ -1867,7 +1867,7 @@
        "",
        "An instrument is still required.",
        "Focal laws are still required.",
-       "No radiation license is needed; phased array uses sound."
+       "A matrix array has more elements and channels, not fewer."
       ]
      }
     },
@@ -1883,9 +1883,9 @@
       "stem": "With probes and equipment, the Level I technician is expected to:",
       "options": [
        "Set up, inspect, and operate the equipment per the procedure under direction",
-       "Design the whole array probe here",
-       "Set the regulatory requirements here",
-       "Approve the inspection technique here"
+       "Design the entire multi-element array probe from scratch by itself",
+       "Set the regulatory and code requirements for the entire inspection site",
+       "Write and approve the inspection technique for the entire site to use"
       ],
       "answer": 0,
       "explanation": "A Level I assembles, checks, and operates the equipment per the procedure; probe design, regulation, and technique approval are higher-level functions.",
@@ -1909,9 +1909,9 @@
       "stem": "A bent or dirty probe connector can cause:",
       "options": [
        "Intermittent or dead elements in the data",
-       "Just plain higher material velocity here",
-       "A new focal law here",
-       "Better penetration here"
+       "A higher material velocity right in the part",
+       "A brand-new focal law to appear by itself",
+       "Better penetration deep into the test part"
       ],
       "answer": 0,
       "explanation": "Poor connector contact interrupts element signals, mimicking dead elements, so connectors are kept clean and undamaged.",
@@ -1935,9 +1935,9 @@
       "stem": "Which statement about phased array probes and equipment is correct?",
       "options": [
        "A multi-element array on a wedge, driven by a multi-channel instrument with an encoder, is set up and operated per the procedure",
-       "A phased array probe has one element",
-       "Wedges are unnecessary for angle beams",
-       "Focal laws are unnecessary"
+       "A phased array probe holds just one single fixed element and is steered to each angle only by tilting it over by hand on the part",
+       "An angle wedge is never needed for any angle-beam work, since the bare array alone makes every refracted angle by itself",
+       "Focal laws are never needed to form a beam, since the elements just fire all at once together with no delay timing at all"
       ],
       "answer": 0,
       "explanation": "Phased array uses a multi-element array, usually on a wedge, driven by a multi-channel instrument and tracked by an encoder, all set up and operated to the procedure.",
@@ -1967,9 +1967,9 @@
       "stem": "A focal law is best described as the:",
       "options": [
        "Set of element time delays (and amplitudes) that defines one beam",
-       "The plain acceptance criterion for a flaw here",
-       "A plain reference sensitivity setting here",
-       "A plain gate position here"
+       "The accept and reject criterion the code lays down for a given flaw",
+       "A reference sensitivity gain level set once on the instrument unit",
+       "A gate position window placed at one spot on the display sweep"
       ],
       "answer": 0,
       "explanation": "Each focal law is a table of per-element delays, and often amplitudes, that produces a specific angle and focus. One law makes one beam.",
@@ -1993,9 +1993,9 @@
       "stem": "To steer the beam to an angle, the elements are fired with a:",
       "options": [
        "Progressive delay ramp across the array",
-       "Just plain single simultaneous pulse here",
-       "Just plain random set of delays here",
-       "No delays at all here"
+       "One single pulse fired across all at once",
+       "A random scatter of element delay times",
+       "No element delay timing applied at all"
       ],
       "answer": 0,
       "explanation": "A steadily increasing delay from one side of the aperture to the other tilts the combined wavefront, steering the beam to the chosen angle.",
@@ -2019,9 +2019,9 @@
       "stem": "To focus the beam at a depth, the firing pattern is:",
       "options": [
        "Curved, so the wavefronts converge at the focal point",
-       "Flat for all the elements here",
-       "Reversed randomly here",
-       "Set by the couplant here"
+       "Flat, with the same equal timing on each element",
+       "Reversed in a random element order on each shot",
+       "Set entirely by the couplant film held below the probe"
       ],
       "answer": 0,
       "explanation": "A curved (parabolic) delay pattern fires outer and inner elements at different times so the wavefront converges at the focal depth.",
@@ -2045,9 +2045,9 @@
       "stem": "A focal law can:",
       "options": [
        "Steer and focus the beam at the same time",
-       "Just plain only steer, never focus here",
-       "Just plain only focus, never steer here",
-       "Do neither here"
+       "Only ever steer the beam, and never once focus",
+       "Only ever focus the beam, and never once steer",
+       "Do neither one of the two at any point"
       ],
       "answer": 0,
       "explanation": "Combining a steering ramp with a focusing curve in the delays sets both the angle and the focal depth of a single beam.",
@@ -2071,9 +2071,9 @@
       "stem": "For a sectorial (S) scan, the focal-law set is defined by an angle start, angle stop, and:",
       "options": [
        "Angle step (increment)",
-       "The couplant type here",
+       "The couplant type used",
        "The encoder resolution",
-       "Plain display brightness"
+       "Plain screen brightness"
       ],
       "answer": 0,
       "explanation": "The S-scan sweeps from the start angle to the stop angle in steps; the step size sets the angular resolution and the number of laws.",
@@ -2097,9 +2097,9 @@
       "stem": "For an electronic linear (E) scan, the focal laws keep the angle fixed and vary the:",
       "options": [
        "First element, stepping the aperture along the array",
-       "Material velocity here",
-       "The couplant temperature here",
-       "Gate width here"
+       "The set material sound velocity right through the part",
+       "The couplant temperature under the moving probe",
+       "The gate measurement window width on the display"
       ],
       "answer": 0,
       "explanation": "An E-scan holds the angle and focus and moves the active aperture element by element along the array, scanning without physical motion.",
@@ -2123,9 +2123,9 @@
       "stem": "The number of elements used in each focal law is the:",
       "options": [
        "Active aperture for that beam",
-       "Just the plain pitch here",
-       "Just the plain gate width here",
-       "The plain skip distance here"
+       "The fixed element pitch value",
+       "The display gate width window",
+       "The angle-beam skip distance"
       ],
       "answer": 0,
       "explanation": "Each law specifies how many elements form the aperture; larger apertures focus deeper and narrow the beam, within limits.",
@@ -2149,9 +2149,9 @@
       "stem": "Electronic focusing is only effective:",
       "options": [
        "Within the near field of the aperture",
-       "Beyond the near field, at any depth here",
-       "Just plain only at the surface here",
-       "Only in the air here"
+       "Out beyond the near field, at any depth",
+       "Only at the very part surface itself",
+       "Only out in the open air above the part"
       ],
       "answer": 0,
       "explanation": "Focusing can place the focal point only within the near-field length of the aperture; beyond that the beam diverges and cannot be focused.",
@@ -2175,9 +2175,9 @@
       "stem": "Focal laws are normally generated by:",
       "options": [
        "Software from the probe, wedge, and material inputs",
-       "Hand-soldering each delay here",
-       "Couplant supplier here",
-       "Encoder wheel here"
+       "Hand-soldering a separate delay line for each element",
+       "The couplant supplier listed on the gel data sheet",
+       "The encoder wheel rolling along the part surface"
       ],
       "answer": 0,
       "explanation": "The instrument or software computes the delays from the probe geometry, wedge, material velocity, and the desired angles and focus.",
@@ -2201,9 +2201,9 @@
       "stem": "If the wedge velocity or angle is entered incorrectly, the focal laws will:",
       "options": [
        "Produce incorrect refracted angles and beam positions",
-       "Be unaffected here",
-       "Improve the accuracy here",
-       "Increase the frequency here"
+       "Stay completely unaffected by the wrong wedge input",
+       "Improve the angle accuracy across the entire sweep",
+       "Raise the probe operating frequency by itself"
       ],
       "answer": 0,
       "explanation": "The computed delays depend on the wedge and material inputs, so wrong values give wrong angles and mislocated reflectors, which is why inputs are verified.",
@@ -2227,9 +2227,9 @@
       "stem": "Grating lobes are most associated with:",
       "options": [
        "Element pitch that is large relative to the wavelength",
-       "A plain very small pitch here",
-       "A plain clean couplant here",
-       "A plain short cable here"
+       "An element pitch far smaller than the sound wavelength",
+       "A clean couplant film held under the moving probe face",
+       "A short probe cable running back to the instrument unit"
       ],
       "answer": 0,
       "explanation": "When pitch is large compared with the wavelength, extra (grating) lobes appear off the main beam and can cause spurious indications.",
@@ -2253,9 +2253,9 @@
       "stem": "As the steering angle increases toward the array limits, sensitivity generally:",
       "options": [
        "Decreases",
-       "Increases without limit",
-       "Stays exactly constant",
-       "Becomes infinite"
+       "Climbs up",
+       "Holds set",
+       "Goes huge"
       ],
       "answer": 0,
       "explanation": "Element directivity falls off with angle, so steered beams at extreme angles lose sensitivity, which is why steering ranges are bounded in the setup.",
@@ -2279,9 +2279,9 @@
       "stem": "Using a smaller angle step in an S-scan gives:",
       "options": [
        "Finer angular sampling but more focal laws",
-       "Coarser sampling here",
-       "Fewer total beams here",
-       "Lower frequency here"
+       "Coarser angular sampling over the sweep",
+       "Fewer total beams formed over the sweep",
+       "A lower probe operating frequency set"
       ],
       "answer": 0,
       "explanation": "A smaller step samples more angles, improving angular detail at the cost of more focal laws and data, balanced against acquisition speed.",
@@ -2305,9 +2305,9 @@
       "stem": "Apodization in a focal law adjusts element:",
       "options": [
        "Amplitudes across the aperture to shape the beam",
-       "Velocities here",
-       "Frequencies here",
-       "Physical positions here"
+       "Velocities across the entire fired aperture group",
+       "Frequencies across the entire fired aperture group",
+       "Physical positions of the fixed elements in the row"
       ],
       "answer": 0,
       "explanation": "Apodization weights the excitation amplitudes across the aperture to reduce side lobes and shape the beam, complementing the delay pattern.",
@@ -2331,9 +2331,9 @@
       "stem": "The focal depth in a focal law sets:",
       "options": [
        "Where the beam is concentrated for best response",
-       "Couplant thickness here",
-       "The plain probe frequency here",
-       "The acceptance criteria here"
+       "The couplant film thickness under the probe face",
+       "The probe operating frequency set for the job",
+       "The accept and reject criteria taken from the code"
       ],
       "answer": 0,
       "explanation": "Focal depth places the focal point where the best resolution and sensitivity are wanted, within the near-field limit.",
@@ -2357,9 +2357,9 @@
       "stem": "If no focusing is applied, the beam is:",
       "options": [
        "Unfocused and diverges with depth",
-       "Just plain focused at all depths here",
-       "Steered to every angle at once",
-       "Turned off here"
+       "Focused sharply at every test depth",
+       "Steered out to all angles at once",
+       "Switched fully off and silent"
       ],
       "answer": 0,
       "explanation": "With equal delays (no focusing curve), the beam is unfocused and spreads with depth, giving lower resolution than a focused beam.",
@@ -2383,9 +2383,9 @@
       "stem": "The number of focal laws in a setup equals the number of:",
       "options": [
        "Beams (angles or aperture positions)",
-       "Just the plain couplant types here",
-       "Cables here",
-       "Operators here"
+       "The couplant types kept in the kit",
+       "Cables fitted on the probe lead",
+       "Operators working on the crew"
       ],
       "answer": 0,
       "explanation": "Each beam needs its own focal law, so an S-scan with many angles or an E-scan with many positions uses many laws.",
@@ -2409,9 +2409,9 @@
       "stem": "Focusing options such as true depth, half path, and projection differ in:",
       "options": [
        "How the focal distance is defined relative to the beam path",
-       "Couplant used here",
-       "Element count here",
-       "Display palette here"
+       "Which couplant gel is used under the moving probe face plate",
+       "How many elements are fired in the active aperture group",
+       "Which display color palette is chosen on the screen"
       ],
       "answer": 0,
       "explanation": "These focusing modes set the focal point relative to depth, sound path, or a projected plane, chosen to suit the inspection. The principle is the same focusing law.",
@@ -2435,9 +2435,9 @@
       "stem": "A larger active aperture generally produces a:",
       "options": [
        "Narrower beam with less spread",
-       "Wider, more divergent beam here",
-       "Beam that needs no delays now",
-       "Lower material velocity here"
+       "A wider, far more divergent beam",
+       "A beam that needs no delays now",
+       "A lower set material velocity"
       ],
       "answer": 0,
       "explanation": "A larger aperture narrows the beam and extends the near field, improving focusing and resolution, within steering limits.",
@@ -2461,9 +2461,9 @@
       "stem": "Accurate beam forming depends on the instrument's:",
       "options": [
        "Precise control of the element timing (delays)",
-       "Couplant reservoir size here",
-       "Number of stored setups here",
-       "Display brightness here"
+       "The overall size of the couplant reservoir tank",
+       "The count of saved setups stored on the unit",
+       "The brightness level set on the display screen"
       ],
       "answer": 0,
       "explanation": "The delays must be applied precisely for the wavefronts to combine correctly; timing errors distort the beam and mislocate reflectors.",
@@ -2487,9 +2487,9 @@
       "stem": "After generating focal laws, the actual refracted angles should be:",
       "options": [
        "Verified on a reference block",
-       "Assumed correct without checking",
-       "Ignored",
-       "Set by the couplant"
+       "Assumed right with no real check",
+       "Left fully ignored each time",
+       "Set by the couplant gel alone"
       ],
       "answer": 0,
       "explanation": "The produced angles are verified on a calibration block so the real beam matches the intended setup before scanning.",
@@ -2513,9 +2513,9 @@
       "stem": "The angular sweep range of an S-scan is limited by the:",
       "options": [
        "Probe and wedge design (steering capability)",
-       "Couplant type here",
-       "The encoder step here",
-       "The file format here"
+       "The couplant type held under the moving probe",
+       "The encoder step size set along the scan line",
+       "The stored data file format chosen for the job"
       ],
       "answer": 0,
       "explanation": "How far the beam can be steered with adequate sensitivity depends on the element pitch, frequency, and wedge, so the usable sweep is bounded.",
@@ -2539,9 +2539,9 @@
       "stem": "The material velocity entered in the setup affects the focal laws because it changes the:",
       "options": [
        "Refraction and the computed beam paths",
-       "Display palette here",
-       "Couplant viscosity here",
-       "Scan speed here"
+       "The display color palette on the screen",
+       "The couplant viscosity under the probe",
+       "The probe scanning speed along the weld"
       ],
       "answer": 0,
       "explanation": "Velocity governs refraction and time-to-depth, so an incorrect velocity gives wrong angles and depths, which is why it is set correctly.",
@@ -2565,9 +2565,9 @@
       "stem": "Side lobes and grating lobes matter because they can:",
       "options": [
        "Produce spurious indications off the main beam",
-       "Improve the main beam here",
-       "Increase penetration here",
-       "Replace the focal laws here"
+       "Sharpen and improve the main beam shape itself",
+       "Add useful penetration far deeper into the part",
+       "Take the place of the focal-law set entirely"
       ],
       "answer": 0,
       "explanation": "Energy outside the main beam can reflect off geometry or flaws and appear as false signals, so probe design and apodization limit them.",
@@ -2591,9 +2591,9 @@
       "stem": "Using many focal laws (large sweeps, fine steps) tends to:",
       "options": [
        "Slow the acquisition rate",
-       "Speed up acquisition without limit",
-       "Remove the encoder",
-       "Eliminate calibration"
+       "Speed it up with no limit",
+       "Drop the position encoder",
+       "End all need to calibrate"
       ],
       "answer": 0,
       "explanation": "More beams per position mean more firing and processing, lowering the achievable scan speed, which is balanced against coverage and resolution.",
@@ -2617,9 +2617,9 @@
       "stem": "The generated focal laws are stored as part of the:",
       "options": [
        "Setup or configuration file",
-       "Plain acceptance criteria here",
-       "Couplant data sheet here",
-       "Plain encoder cable here"
+       "The acceptance criteria set",
+       "The couplant gel data sheet",
+       "The position encoder lead"
       ],
       "answer": 0,
       "explanation": "The setup file holds the focal laws, gains, and gates so the configuration can be reused and verified. A Level I loads and verifies it.",
@@ -2643,9 +2643,9 @@
       "stem": "Compensating gain so equal reflectors read the same at all depths and angles is done by:",
       "options": [
        "Time-corrected and angle-corrected gain, applied to the laws",
-       "Changing the whole couplant here",
-       "Lengthening the cable here",
-       "Renaming the whole probe here"
+       "Swapping the couplant gel out for a thicker grade mid-scan",
+       "Adding extra length onto the probe cable run to the unit",
+       "Renaming the probe entry in the saved setup file each time"
       ],
       "answer": 0,
       "explanation": "TCG and ACG add depth- and angle-dependent gain so a reference reflector gives a consistent amplitude across the focal laws, set during calibration.",
@@ -2669,9 +2669,9 @@
       "stem": "Across an S-scan sweep, the beam exit point on the wedge:",
       "options": [
        "Can shift with angle, which the setup accounts for",
-       "Never changes here",
-       "Sets the acceptance criteria here",
-       "Powers the instrument here"
+       "Never shifts at any point across the angular sweep",
+       "Sets the accept and reject criteria for the job",
+       "Drives power to the entire acquisition instrument"
       ],
       "answer": 0,
       "explanation": "Different angles can exit at slightly different points and times; the wedge and delay parameters account for this so positions are computed correctly.",
@@ -2695,9 +2695,9 @@
       "stem": "Focusing improves resolution mainly by:",
       "options": [
        "Narrowing the beam at the focal depth",
-       "Widening the beam everywhere here",
-       "Raising the material velocity here",
-       "Removing the wedge here"
+       "Widening the beam at every test depth",
+       "Raising the set material velocity used",
+       "Taking the angle wedge off the probe"
       ],
       "answer": 0,
       "explanation": "A narrower focused beam separates close reflectors better at the focal depth, improving lateral resolution there.",
@@ -2721,9 +2721,9 @@
       "stem": "Regarding focal laws, a Level I technician usually:",
       "options": [
        "Generates or loads laws from the procedure and verifies them under direction",
-       "Derives the new acceptance criteria here",
-       "Designs the probe array here",
-       "Writes the governing code here"
+       "Derives the new accept and reject criteria for the entire inspection job alone",
+       "Designs the entire multi-element array probe from scratch by itself",
+       "Writes the governing inspection code for the entire site to follow"
       ],
       "answer": 0,
       "explanation": "A Level I builds or loads the focal laws specified by the procedure and verifies the resulting angles and sensitivity; criteria, probe design, and codes are higher-level.",
@@ -2774,15 +2774,15 @@
       "options": [
        "Less well resolved there",
        "Resolved better everywhere",
-       "Magnetized",
-       "Removed from the data"
+       "Lost in the near dead zone",
+       "Wiped out of the data set"
       ],
       "answer": 0,
       "explanation": "A beam focused at one depth diverges away from it, so resolution falls off at other depths, which the setup and depth-of-field choice manage.",
       "distractors": [
        "",
        "Focusing at one depth does not improve resolution everywhere.",
-       "Focusing does not magnetize reflectors.",
+       "Out-of-focus reflectors are still shown, not lost to the dead zone.",
        "Out-of-focus reflectors still appear in the data."
       ]
      }
@@ -2799,9 +2799,9 @@
       "stem": "Before acquiring data, the focal-law setup should be:",
       "options": [
        "Calibrated and verified on a reference block",
-       "Used without any check here",
-       "Assumed perfect here",
-       "Deleted here"
+       "Used straight off with no check made at all",
+       "Taken as perfect with no checking done at all",
+       "Deleted right off before the scan starts"
       ],
       "answer": 0,
       "explanation": "Verifying angles, sensitivity, and depth on a reference block confirms the laws perform as intended before real scanning begins.",
@@ -2825,9 +2825,9 @@
       "stem": "Which statement about focal laws is correct?",
       "options": [
        "Per-element delays steer and focus each beam, generated from probe, wedge, and material inputs and verified before scanning",
-       "A focal law sets the acceptance criteria",
-       "Focusing works at any depth beyond the near field",
-       "Grating lobes come from very small pitch"
+       "A focal law by itself lays down the accept and reject criteria for the joint, with no reference block check needed before scanning",
+       "Electronic focusing works just as well at any depth far beyond the near field, with no real limit on the focal range at all",
+       "Grating lobes come up only from an element pitch that is very small next to the sound wavelength, never from a large pitch at all"
       ],
       "answer": 0,
       "explanation": "Focal laws are the per-element delay and amplitude tables that steer and focus each beam; they come from the setup inputs, are limited by the near field, and are verified before use.",
@@ -2857,17 +2857,17 @@
       "stem": "The basic waveform underlying every phased array beam is the:",
       "options": [
        "A-scan (amplitude versus time)",
-       "The plain C-scan only here",
-       "Just the plain radiograph here",
-       "Magnetic trace here"
+       "A plan-view C-scan image only",
+       "An S-scan angular fan view only",
+       "A side-view depth cross-section"
       ],
       "answer": 0,
       "explanation": "Each beam still produces an A-scan of amplitude versus time. The image views are built from many A-scans.",
       "distractors": [
        "",
        "A C-scan is a plan-view image built from A-scans, not the basic waveform.",
-       "A radiograph belongs to radiography, not phased array.",
-       "A magnetic trace belongs to magnetic methods."
+       "An S-scan is a built image, not the basic waveform.",
+       "A side view is built from A-scans, not the basic waveform itself."
       ]
      }
     },
@@ -2883,9 +2883,9 @@
       "stem": "A sectorial (S) scan displays:",
       "options": [
        "A fan of angles from one probe position as a cross-section",
-       "A plain single A-scan only here",
-       "A plan view of the whole part here",
-       "A photographic image here"
+       "Just one single A-scan trace shown by itself with nothing else",
+       "A plan top-view mapping out the entire scanned area at once",
+       "A stepped fixed-angle image run along the array length"
       ],
       "answer": 0,
       "explanation": "The S-scan shows reflectors across a swept range of angles from one position, giving a cross-sectional fan image, a signature phased array view.",
@@ -2893,7 +2893,7 @@
        "",
        "An S-scan shows many angles, not a single A-scan.",
        "A plan view over an area is a C-scan, not an S-scan.",
-       "Phased array forms ultrasonic images, not photographs."
+       "Stepping a fixed angle along the array is an E-scan, not an S-scan."
       ]
      }
     },
@@ -2909,17 +2909,17 @@
       "stem": "An electronic linear (E) scan image is produced by:",
       "options": [
        "Stepping a fixed-angle aperture along the array",
-       "Sweeping many angles from one aperture here",
-       "Exposing the film here",
-       "Magnetizing the weld here"
+       "Sweeping many angles out from one fixed aperture",
+       "Holding one fixed angle on a single fixed spot",
+       "Tilting the probe over by hand for each scan line"
       ],
       "answer": 0,
       "explanation": "An E-scan keeps the angle constant and moves the aperture along the array, imaging a strip without physical probe motion.",
       "distractors": [
        "",
        "Sweeping angles from one aperture is the S-scan, not the E-scan.",
-       "Phased array does not expose film.",
-       "Phased array does not magnetize the weld."
+       "Holding one angle on one spot is not a scan along the array.",
+       "An E-scan steps electronically, not by hand-tilting the probe."
       ]
      }
     },
@@ -2935,9 +2935,9 @@
       "stem": "A cross-sectional view that plots depth against position along the scan is most useful for showing:",
       "options": [
        "How a reflector's depth changes along the scan",
-       "The plan-view extent over the whole area here",
-       "A plain single beam's waveform here",
-       "The visible surface color here"
+       "The plan-view extent across the entire scan area",
+       "A single beam's raw A-scan waveform by itself",
+       "The amplitude held within one fixed gate window"
       ],
       "answer": 0,
       "explanation": "A depth-versus-position cross-section (a side view) shows how a reflector's depth varies along the scan direction. Plan-view extent comes from a top view, and a single waveform is the A-scan.",
@@ -2945,7 +2945,7 @@
        "",
        "The plan-view extent over an area is shown by a top (plan) view, not a depth cross-section.",
        "A single beam's waveform is the A-scan, not a cross-sectional view.",
-       "Visible surface color is not what an ultrasonic cross-section shows."
+       "A single gated amplitude is not a depth-versus-position cross-section."
       ]
      }
     },
@@ -2961,9 +2961,9 @@
       "stem": "A C-scan presents a:",
       "options": [
        "Plan (top) view mapping amplitude or depth over an area",
-       "A plain single A-scan here",
-       "Fan of angles from one position here",
-       "Radiographic film image here"
+       "A single raw A-scan waveform shown by itself only",
+       "A fan of swept angles taken from one single fixed position",
+       "A side-view depth slice taken straight along the scan line"
       ],
       "answer": 0,
       "explanation": "A C-scan maps a gated value such as amplitude or depth across the scanned area as a top view, helping show the extent of reflectors.",
@@ -2971,7 +2971,7 @@
        "",
        "A single A-scan is the basic waveform, not a C-scan.",
        "A fan of angles from one position is the S-scan.",
-       "A film image belongs to radiography."
+       "A depth slice along the scan is a side view, not a C-scan."
       ]
      }
     },
@@ -2988,7 +2988,7 @@
       "options": [
        "Signal amplitude",
        "The couplant type",
-       "The scan speed",
+       "The set scan speed",
        "The element count"
       ],
       "answer": 0,
@@ -3013,9 +3013,9 @@
       "stem": "An encoded scan differs from a free-running (live) scan because it:",
       "options": [
        "Links each image line to a recorded position",
-       "Cannot be saved here",
-       "Uses no focal laws here",
-       "Needs no couplant here"
+       "Cannot be saved off to a file at all afterward",
+       "Uses no focal-law delay set at all during it",
+       "Needs no couplant on the scanning surface"
       ],
       "answer": 0,
       "explanation": "Encoded scanning records position so the data maps to the part and can be reviewed; free-running shows live images without position records.",
@@ -3039,9 +3039,9 @@
       "stem": "Selecting a point in an S-scan image typically shows the:",
       "options": [
        "A-scan for the corresponding beam",
-       "Just plain acceptance criteria here",
-       "Just plain the scan plan here",
-       "The calibration certificate here"
+       "The accept and reject criteria table",
+       "The entire scan plan layout instead",
+       "The full calibration certificate"
       ],
       "answer": 0,
       "explanation": "The image is built from A-scans, so selecting a beam or point recalls its A-scan for closer examination, supporting analysis at the appropriate level.",
@@ -3065,9 +3065,9 @@
       "stem": "Top, side, and end views in phased array correspond to different:",
       "options": [
        "Projection planes of the volumetric data",
-       "Couplant types here",
-       "Probe frequencies here",
-       "Gain settings here"
+       "Different couplant types in current use",
+       "Different probe frequency settings in use",
+       "Different receiver gain settings in use"
       ],
       "answer": 0,
       "explanation": "The same volumetric data can be projected as top, side, and end views to see reflectors from different directions.",
@@ -3092,8 +3092,8 @@
       "options": [
        "Sound path or depth",
        "Couplant viscosity",
-       "The whole gain here",
-       "The scan-axis position"
+       "The set gain level",
+       "The scan position"
       ],
       "answer": 0,
       "explanation": "In the basic uncorrected sectorial display, reflectors are plotted by swept angle and sound path (or depth). A corrected (true-view) S-scan instead plots reflectors in spatial coordinates, horizontal distance and depth, with the angle implicit.",
@@ -3117,9 +3117,9 @@
       "stem": "The image views are built from data measured within the:",
       "options": [
        "Gates set on the signals",
-       "The couplant reservoir here",
-       "The plain wedge body here",
-       "The plain probe case here"
+       "A couplant reservoir tank",
+       "The solid wedge body",
+       "The outer probe case"
       ],
       "answer": 0,
       "explanation": "Gates select the time or depth ranges whose amplitude and position feed the C-scan and other views, so gate setup affects the imaging.",
@@ -3143,9 +3143,9 @@
       "stem": "An end view of the scanned volume presents the reflectors as if:",
       "options": [
        "Looking along the weld axis, from the end",
-       "Looking straight down from above here",
-       "Looking from the side along the scan here",
-       "Shown as a single A-scan waveform here"
+       "Looking straight down from above the joint",
+       "Looking from the side along the entire scan",
+       "Shown as one single raw A-scan waveform"
       ],
       "answer": 0,
       "explanation": "An end view projects the data as if looking along the weld axis, from the end, complementing the side and top views.",
@@ -3169,9 +3169,9 @@
       "stem": "Image views help the inspection by:",
       "options": [
        "Showing reflector position and extent at a glance",
-       "Just plain setting the acceptance criteria here",
-       "Replacing the calibration here",
-       "Removing the whole need for the coverage here"
+       "Setting the accept and reject criteria for the work",
+       "Standing in for the entire calibration step each time",
+       "Doing away with the need for full scan coverage"
       ],
       "answer": 0,
       "explanation": "Images make it easier to see where reflectors are and how they extend, aiding review. Criteria, calibration, and coverage are still required.",
@@ -3195,9 +3195,9 @@
       "stem": "A free-running display is useful for:",
       "options": [
        "Setup and quick checks before encoded recording",
-       "Permanent records here",
-       "Replacing the scan plan here",
-       "Eliminating the focal laws here"
+       "Keeping the permanent records for the entire job",
+       "Standing in for the written scan plan itself",
+       "Doing away with the entire focal-law set"
       ],
       "answer": 0,
       "explanation": "Live imaging helps position the probe and verify coupling and response; encoded recording is used for the documented inspection.",
@@ -3221,9 +3221,9 @@
       "stem": "A reflector shown in the color mapped to high amplitude indicates a:",
       "options": [
        "Strong returning signal at that point",
-       "Just plain weak returning signal here",
-       "Couplant change here",
-       "Cable fault here"
+       "A weak returning signal at that point",
+       "A couplant change right under the probe",
+       "A cable fault on the probe lead run"
       ],
       "answer": 0,
       "explanation": "The palette maps stronger echoes to the high-amplitude colors, so that color marks a strong return. Whether it is relevant is judged at a higher level.",
@@ -3247,9 +3247,9 @@
       "stem": "On-screen cursors and readouts let the technician:",
       "options": [
        "Read positions and amplitudes from the data",
-       "Set the regulatory limits here",
-       "Re-steer the beam here",
-       "Develop the film here"
+       "Set the regulatory limits for the entire job",
+       "Re-steer the beam out to brand-new angles",
+       "Generate a fresh focal-law set on their own"
       ],
       "answer": 0,
       "explanation": "Measurement cursors report depth, position, and amplitude from the recorded data, supporting later analysis. Final evaluation is a higher-level task.",
@@ -3257,7 +3257,7 @@
        "",
        "Regulatory limits are set by the code, not the cursor tools.",
        "Cursors read the data; they do not re-steer the beam.",
-       "Cursors do not develop film."
+       "Cursors read the data; the software generates focal laws."
       ]
      }
     },
@@ -3273,9 +3273,9 @@
       "stem": "Viewing the A-scan, S-scan, and C-scan together helps:",
       "options": [
        "Locate and characterize reflectors more completely",
-       "Set the couplant viscosity here",
-       "Replace the whole encoder here",
-       "Power the whole probe here"
+       "Set the couplant viscosity used for the entire scan",
+       "Stand in for the entire position encoder on the rig",
+       "Power the entire probe array up by itself each time"
       ],
       "answer": 0,
       "explanation": "Multiple linked views give a fuller picture of a reflector's position and extent, aiding review at the appropriate level.",
@@ -3299,9 +3299,9 @@
       "stem": "A volume-corrected (true-depth) view positions reflectors by:",
       "options": [
        "Their actual depth and position in the part",
-       "Just their plain signal amplitude only here",
-       "The order they were detected here",
-       "The gain setting used here"
+       "Their plain signal amplitude value alone only",
+       "The plain order in which they were detected",
+       "The receiver gain setting that is in use"
       ],
       "answer": 0,
       "explanation": "Volume correction maps the angled beam data to real part coordinates so reflectors appear at their true depth and location.",
@@ -3325,9 +3325,9 @@
       "stem": "One advantage of the S-scan for welds is that a single position can:",
       "options": [
        "Insonify the weld with a range of angles at once",
-       "Cover only one fixed angle here",
-       "Avoid the need to scan along the whole weld here",
-       "Remove the whole wedge here"
+       "Cover only one single fixed angle at a time on it",
+       "Skip moving the probe along the entire weld",
+       "Do away with the angle wedge on the probe entirely"
       ],
       "answer": 0,
       "explanation": "The angular sweep covers different parts of the weld bevel from one position, though the probe is still moved along the weld for full coverage.",
@@ -3351,9 +3351,9 @@
       "stem": "At Level I, recognizing the scan views and identifying signals is expected, while deciding acceptance is:",
       "options": [
        "A Level II or III responsibility",
-       "Just plain also a Level I task here",
-       "Plain done by the probe here",
-       "Just plain set by the couplant"
+       "Also a routine part of Level I work",
+       "Done by the probe array itself",
+       "Set by the couplant gel alone"
       ],
       "answer": 0,
       "explanation": "A Level I reads and records the displays and identifies signals; interpreting and accepting or rejecting against the code is a higher-level responsibility.",
@@ -3377,9 +3377,9 @@
       "stem": "A C-scan is especially helpful for showing a reflector's:",
       "options": [
        "Length and extent over the scanned area",
-       "Just plain exact metallurgical cause here",
-       "Through-wall height precisely here too",
-       "Just plain chemical composition here"
+       "Its exact metallurgical cause directly",
+       "Its precise through-wall height directly",
+       "Its exact chemical composition make-up"
       ],
       "answer": 0,
       "explanation": "The plan-view C-scan reveals how far a reflector extends along and across the scan, useful for review. Cause and acceptance are higher-level judgments.",
@@ -3405,7 +3405,7 @@
        "Side view and the end view",
        "End view and the side view",
        "Top view and the plan view",
-       "A-scan and the S-scan"
+       "The A-scan and the S-scan"
       ],
       "answer": 0,
       "explanation": "A depth cross-section along the scan direction is the side view; a depth cross-section across the index direction is the end view. These are descriptive view names, independent of any letter convention.",
@@ -3429,9 +3429,9 @@
       "stem": "Poor coupling during a scan typically shows in the views as:",
       "options": [
        "Data dropout or low-amplitude regions",
-       "Sharper images here",
-       "Higher material velocity here",
-       "A new focal law here"
+       "Sharper, cleaner images right on screen",
+       "A higher set material velocity reading",
+       "A brand-new focal law made by itself"
       ],
       "answer": 0,
       "explanation": "Loss of coupling reduces signal, appearing as gaps or weak areas in the imaging, which the technician watches for and corrects.",
@@ -3455,17 +3455,17 @@
       "stem": "Combining data from multiple angles or groups into one view is called:",
       "options": [
        "Merging (or compounding) the data",
-       "Just plain magnetizing the data here",
-       "Just plain fixing the data here",
-       "Plain collimating the data here"
+       "Gating a single window in the data",
+       "Steering a single beam in the data",
+       "Focusing one beam down in the data"
       ],
       "answer": 0,
       "explanation": "Merged or compounded views combine beams to give a clearer composite image, used to aid review.",
       "distractors": [
        "",
-       "Magnetizing is a magnetic-method term, not a phased array view.",
-       "Fixing is a film-processing term.",
-       "Collimating is a radiography term."
+       "Gating selects one window; it does not combine multiple angles.",
+       "Steering one beam is not combining several into one view.",
+       "Focusing a single beam is not merging several angles."
       ]
      }
     },
@@ -3481,9 +3481,9 @@
       "stem": "In encoded line scanning, the scan axis is the direction the probe:",
       "options": [
        "Moves along (tracked by the encoder)",
-       "Is lifted away from the part here",
-       "Is stepped across between passes here",
-       "Is dipped in couplant here"
+       "Is lifted right up away from the part",
+       "Is stepped over between the scan passes",
+       "Is dipped down into the couplant pot"
       ],
       "answer": 0,
       "explanation": "The scan axis is the encoded travel direction; the index axis is the step offset between lines. Together they map coverage.",
@@ -3507,9 +3507,9 @@
       "stem": "The color palette and display range are set so that:",
       "options": [
        "Relevant signals are clearly visible for review",
-       "Just plain the couplant looks colorful here",
-       "The whole cable is hidden here",
-       "The probe runs cooler here"
+       "The couplant gel looks bright and colorful",
+       "The probe cable is fully hidden away off screen",
+       "The probe array runs a little cooler on the job"
       ],
       "answer": 0,
       "explanation": "Appropriate palette and gain ranges make signals readable in the images, aiding review without saturating or hiding detail.",
@@ -3533,9 +3533,9 @@
       "stem": "Sweeping angles in an S-scan is useful on a weld because flaws can lie:",
       "options": [
        "At different orientations along the bevel",
-       "Just plain only at one fixed angle here",
-       "Only on the surface here",
-       "Just plain only outside the part here"
+       "Only ever at one single fixed bevel angle",
+       "Only at the outer part surface itself",
+       "Only out well beyond the edge of the part"
       ],
       "answer": 0,
       "explanation": "Different angles intersect differently oriented flaws and bevel faces, improving the chance of detection across the weld.",
@@ -3559,9 +3559,9 @@
       "stem": "Image positions are only trustworthy if the setup is:",
       "options": [
        "Correctly calibrated (velocity, wedge, angles)",
-       "Run at maximum gain here",
-       "Free of any encoder here",
-       "Using the whole newest probe available here"
+       "Just run flat out at the maximum gain setting",
+       "Run with no position encoder fitted on the rig",
+       "Fitted with the newest probe array on hand"
       ],
       "answer": 0,
       "explanation": "Reflector positions in the views depend on correct velocity, wedge, and angle calibration; without it, the images mislocate reflectors.",
@@ -3585,9 +3585,9 @@
       "stem": "A clean-looking image still requires:",
       "options": [
        "That the planned coverage was actually achieved",
-       "Nothing further here",
-       "Maximum couplant only here",
-       "The largest probe only here"
+       "Nothing more at all to be done beyond the image",
+       "Only the most couplant possible on the surface",
+       "Only the largest probe array fitted on the rig"
       ],
       "answer": 0,
       "explanation": "Good-looking data over part of the weld does not prove full coverage, so coverage is verified against the scan plan regardless of image quality.",
@@ -3611,9 +3611,9 @@
       "stem": "With displays, the Level I technician:",
       "options": [
        "Recognizes the views and records the data under direction",
-       "Makes the final acceptance call here",
-       "Sets the whole acceptance criteria here",
-       "Writes the whole procedure here"
+       "Makes the final acceptance call on the welded joint alone",
+       "Sets the entire accept and reject criteria for the job alone",
+       "Writes the entire inspection procedure for the site to use"
       ],
       "answer": 0,
       "explanation": "A Level I reads and records the views and identifies signals; final acceptance, criteria, and procedures are higher-level responsibilities.",
@@ -3637,9 +3637,9 @@
       "stem": "Indications from grating lobes, mode conversion, or geometry in the images must be:",
       "options": [
        "Recognized as possible artifacts, not assumed to be flaws",
-       "Always counted as flaws here",
-       "Ignored entirely here",
-       "Erased from the data here"
+       "Always counted straight off as real flaws to reject",
+       "Ignored completely and left out of the report each time",
+       "Erased clean out of the recorded data set straight away"
       ],
       "answer": 0,
       "explanation": "Not every indication is a flaw; the technician recognizes possible artifacts so they are not mistaken for defects, with evaluation done at a higher level.",
@@ -3663,9 +3663,9 @@
       "stem": "For documentation, the encoded image views are:",
       "options": [
        "Saved as data files tied to the part",
-       "Just plain discarded after viewing here",
-       "Just plain kept only in memory here",
-       "Just plain never identified here"
+       "Discarded soon after a quick look",
+       "Kept only in volatile memory store",
+       "Left fully unidentified and unlabelled"
       ],
       "answer": 0,
       "explanation": "The saved files, with identification and position, form the inspection record for review and traceability.",
@@ -3690,7 +3690,7 @@
       "options": [
        "C-scan (top view)",
        "The single A-scan",
-       "The probe label",
+       "The probe sticker",
        "The couplant chart"
       ],
       "answer": 0,
@@ -3715,9 +3715,9 @@
       "stem": "Which statement about phased array scan types is correct?",
       "options": [
        "A-scans build the S-scan and the cross-section, plan, and end views; encoded scanning ties them to position; reading them is Level I, evaluating them is Level II",
-       "A C-scan is the basic waveform",
-       "An S-scan uses a single fixed angle",
-       "Encoded scanning needs no position record"
+       "The C-scan top view is the single basic waveform behind every beam, and the A-scan is just a plan-view map built from many separate C-scans over an area",
+       "An S-scan is taken at one single fixed angle held throughout, and stepping a fixed-angle aperture along the array is what sweeps a full fan of angles instead",
+       "Encoded scanning keeps no record of probe position at all, and a plain free-running live view is what ties every image line back to a tracked position on the part"
       ],
       "answer": 0,
       "explanation": "Phased array assembles A-scans into the S-scan and the cross-section, plan, and end views, ties them to position when encoded, and the technician reads and records them while evaluation is a higher-level task.",
@@ -3747,9 +3747,9 @@
       "stem": "Velocity calibration sets the instrument so that:",
       "options": [
        "Depth and sound-path readings match the known material velocity",
-       "The probe runs cooler here",
-       "The couplant lasts longer here",
-       "The cable is shorter here"
+       "The probe array runs a good deal cooler all through the long scan",
+       "The couplant gel on the surface lasts a fair bit longer than usual",
+       "The probe cable back to the instrument ends up a fair bit shorter"
       ],
       "answer": 0,
       "explanation": "Calibrating velocity on a known block makes the depth and position readings correct for the material, as in conventional UT.",
@@ -3773,9 +3773,9 @@
       "stem": "Wedge delay calibration accounts for the time the sound spends:",
       "options": [
        "In the wedge before entering the part",
-       "In the cable here",
-       "Just plain in the backwall echo here",
-       "Just plain in the display software here"
+       "In the probe cable lead on the way in",
+       "Bouncing off the backwall echo surface",
+       "Inside the display software code itself"
       ],
       "answer": 0,
       "explanation": "The wedge delay (zero offset) removes the in-wedge travel time so depths are measured from the part surface, not from the elements.",
@@ -3799,9 +3799,9 @@
       "stem": "Time-corrected gain (TCG) is built so that:",
       "options": [
        "Equal reflectors read the same amplitude at different depths",
-       "Deeper reflectors always read lower here",
-       "The couplant changes color here",
-       "The probe frequency rises here"
+       "Deeper reflectors always read lower than the shallow ones do",
+       "The couplant gel slowly shifts its color across the surface",
+       "The probe operating frequency climbs higher as the scan runs"
       ],
       "answer": 0,
       "explanation": "TCG adds depth-dependent gain so an equal reference reflector gives the same amplitude regardless of depth, compensating attenuation and beam spread.",
@@ -3825,9 +3825,9 @@
       "stem": "TCG is commonly built using:",
       "options": [
        "A reference reflector such as side-drilled holes at several depths",
-       "A single surface scratch here",
-       "The couplant reservoir here",
-       "The display palette colors here"
+       "A single shallow surface scratch at just one spot on the block",
+       "The couplant reservoir tank sitting up on top of the scanning rig",
+       "The range of display palette colors shown across the entire screen"
       ],
       "answer": 0,
       "explanation": "Side-drilled holes at known depths give equal reflectors at increasing sound paths, from which the depth-gain curve is built.",
@@ -3851,9 +3851,9 @@
       "stem": "Angle-corrected gain (ACG) compensates for amplitude differences:",
       "options": [
        "Across the angles of an S-scan",
-       "Between two different parts here",
-       "Caused by the file format here",
-       "Caused by the operator here"
+       "Between two separate test parts",
+       "From the saved data file format",
+       "From the operator's own hand"
       ],
       "answer": 0,
       "explanation": "Sensitivity varies with steering angle, so ACG equalizes the response across the sweep using a reference reflector, giving consistent amplitudes.",
@@ -3877,9 +3877,9 @@
       "stem": "Setting the reference sensitivity means adjusting gain so a reference reflector reaches a:",
       "options": [
        "Defined screen height (for example a set percent of full screen)",
-       "Zero amplitude here",
-       "Random height here",
-       "The maximum the instrument allows here"
+       "Flat zero amplitude sitting right down on the baseline floor",
+       "Whatever random screen height it happens to land at on the day",
+       "The very maximum screen height the instrument will ever allow"
       ],
       "answer": 0,
       "explanation": "The reference reflector is brought to a defined amplitude to establish the sensitivity from which scanning gain is referenced.",
@@ -3903,9 +3903,9 @@
       "stem": "Before calibrating, the technician should confirm that the probe has:",
       "options": [
        "No dead or weak elements affecting the aperture",
-       "The highest available gain preset here",
-       "A colorful couplant here",
-       "A warm wear face here"
+       "The highest available gain preset dialed in",
+       "A bright and colorful couplant gel spread on it",
+       "A nicely warmed-up wear face on the front of it"
       ],
       "answer": 0,
       "explanation": "Dead elements distort the beam and calibration, so element integrity is checked first and a faulty probe is replaced.",
@@ -3929,9 +3929,9 @@
       "stem": "The actual refracted angles can be verified using:",
       "options": [
        "A known radius on a calibration block",
-       "Just the plain couplant data sheet here",
-       "Just the plain display palette here",
-       "The pulse repetition frequency here"
+       "The couplant gel data sheet on the rig",
+       "The display palette set on the screen",
+       "The pulse repetition frequency value set"
       ],
       "answer": 0,
       "explanation": "Reflecting off a machined radius lets the technician confirm the beam exits and refracts at the intended angles before scanning.",
@@ -3955,9 +3955,9 @@
       "stem": "Encoder calibration ensures that:",
       "options": [
        "Recorded distance matches actual probe travel",
-       "The probe never wears here",
-       "The couplant is fresh here",
-       "The display is colorful here"
+       "The probe array never once wears out over time",
+       "The couplant gel always stays perfectly fresh",
+       "The display comes out bright and full of color"
       ],
       "answer": 0,
       "explanation": "Moving the encoder a known distance and setting the counts makes the recorded scan position accurate, so images map correctly to the part.",
@@ -3981,9 +3981,9 @@
       "stem": "Calibration uses blocks with:",
       "options": [
        "Known reflectors such as SDHs, FBHs, notches, or radii",
-       "Random unknown features here",
-       "No features at all here",
-       "Only the paint here"
+       "Random unknown surface features dotted about all over it",
+       "No machined features cut into the block at all anywhere",
+       "Only a plain coat of surface paint brushed over it all"
       ],
       "answer": 0,
       "explanation": "Reference blocks contain known reflectors and dimensions so the setup can be calibrated and verified against the procedure.",
@@ -4007,9 +4007,9 @@
       "stem": "Calibration should be done under conditions that match scanning, including:",
       "options": [
        "Surface condition and temperature",
-       "Just plain the ambient lighting here",
-       "Just plain the scan file naming",
-       "Just plain the display palette"
+       "The ambient room lighting level set",
+       "The saved scan data file naming",
+       "The chosen display color palette"
       ],
       "answer": 0,
       "explanation": "Because velocity and coupling vary with temperature and surface, calibrating under representative conditions keeps the setup valid during scanning.",
@@ -4033,16 +4033,16 @@
       "stem": "During calibration, gates are set to:",
       "options": [
        "Capture the reference reflector signals for measurement",
-       "Magnetize the block here",
-       "Develop the whole image here",
-       "Power the encoder here"
+       "Hold the firing delay timing for the steered beam set",
+       "Build the entire cross-section image view by themselves",
+       "Drive the power out to the position encoder on the rig"
       ],
       "answer": 0,
       "explanation": "Gates bracket the reference echoes so their amplitude and position are measured for the velocity, delay, TCG, and sensitivity steps.",
       "distractors": [
        "",
-       "Gates do not magnetize the block.",
-       "Gates do not develop an image.",
+       "Gates select a signal window; they do not set the beam timing.",
+       "Gates select a measurement window; the views are built from A-scans.",
        "Gates do not power the encoder."
       ]
      }
@@ -4059,9 +4059,9 @@
       "stem": "After building TCG or ACG, the response should be checked:",
       "options": [
        "Across the full angular sweep or depth range",
-       "At one angle only here",
-       "Only on the cable here",
-       "Only on the couplant here"
+       "At just one single fixed steered angle only",
+       "Only along the length of the probe cable lead",
+       "Only within the couplant gel layer below it"
       ],
       "answer": 0,
       "explanation": "Verifying that an equal reflector reads consistently across the angles and depths confirms the corrections work over the whole setup.",
@@ -4085,9 +4085,9 @@
       "stem": "When using a stored setup file, the technician should:",
       "options": [
        "Load it and verify it on the calibration block before scanning",
-       "Trust it without any check here",
-       "Delete it here",
-       "Rename the whole probe here"
+       "Trust it straight off with no real check made on it at all first",
+       "Delete it right off the unit before the scan even gets started",
+       "Rename the entire probe entry in the saved setup file instead"
       ],
       "answer": 0,
       "explanation": "A loaded setup is verified against the reference block so the angles, sensitivity, and depth are confirmed correct before acquiring data.",
@@ -4111,9 +4111,9 @@
       "stem": "Calibration is rechecked periodically during a job because:",
       "options": [
        "Temperature, wear, or drift can change the response",
-       "It never changes here",
-       "The file size grows here",
-       "The palette colors shift here"
+       "The setup response never once changes over the entire job",
+       "The stored data file size keeps growing over time",
+       "The display palette colors slowly shift about on screen"
       ],
       "answer": 0,
       "explanation": "Conditions and equipment can drift, so periodic checks (and at the end of a scan set) confirm the setup is still valid, with re-scans if it has shifted.",
@@ -4137,9 +4137,9 @@
       "stem": "If a periodic check shows the setup has drifted out of tolerance, the technician should:",
       "options": [
        "Recalibrate and re-scan the affected data",
-       "Accept the data anyway here",
-       "Hide the drift here",
-       "Delete the reference block here"
+       "Accept the drifted data just as it stands",
+       "Quietly hide the drift out of the report",
+       "Throw the reference block out for good now"
       ],
       "answer": 0,
       "explanation": "Out-of-tolerance drift can invalidate data taken since the last good check, so the setup is corrected and the affected area re-scanned.",
@@ -4163,9 +4163,9 @@
       "stem": "A common reference reflector for phased array sensitivity and TCG is the:",
       "options": [
        "Side-drilled hole",
-       "The painted dot here",
+       "A painted ink dot",
        "Couplant droplet",
-       "The cable loop"
+       "The coiled cable"
       ],
       "answer": 0,
       "explanation": "Side-drilled holes give consistent, repeatable reflections at known depths, widely used for TCG and sensitivity. Confirm the required reflector against the procedure.",
@@ -4189,9 +4189,9 @@
       "stem": "A machined radius on a calibration block is useful for setting the:",
       "options": [
        "Wedge delay and verifying angles",
-       "Just the couplant viscosity here",
-       "Just the display brightness here",
-       "Scan speed here"
+       "Just the couplant viscosity in use",
+       "Just the display screen brightness",
+       "Just the plain probe scan speed"
       ],
       "answer": 0,
       "explanation": "The radius returns a strong echo from a known geometry, helping set the wedge delay (zero) and confirm the refracted angles.",
@@ -4215,9 +4215,9 @@
       "stem": "The calibration should be:",
       "options": [
        "Recorded with the block, reflectors, and settings used",
-       "Kept only in memory here",
-       "Discarded here",
-       "Chosen at random here"
+       "Kept only in the unit's volatile memory and nowhere else",
+       "Thrown straight out right after the work is done with it",
+       "Picked out at random rather than from the set procedure"
       ],
       "answer": 0,
       "explanation": "Documenting the calibration (block, reflectors, velocity, delay, gains, gates) supports repeatability and traceability.",
@@ -4241,9 +4241,9 @@
       "stem": "Scanning gain is set relative to the:",
       "options": [
        "Calibrated reference level, per the procedure",
-       "Loudest possible signal here",
-       "The first echo seen here",
-       "The display palette here"
+       "The very loudest signal that happens to turn up",
+       "The first stray echo that happens to be seen",
+       "The chosen display color palette on the screen"
       ],
       "answer": 0,
       "explanation": "Scanning sensitivity is referenced to the calibrated reflector level (often with an added scan gain per the procedure), keeping it consistent and traceable.",
@@ -4267,9 +4267,9 @@
       "stem": "The calibration block material should be:",
       "options": [
        "Acoustically similar to the part being inspected",
-       "Any unrelated metal here",
-       "Always the lead here",
-       "Always plastic here"
+       "Any unrelated metal grabbed straight off the bench",
+       "Always a soft lead block, whatever the test part",
+       "Always a plastic block, whatever the test part is"
       ],
       "answer": 0,
       "explanation": "A block with similar velocity and attenuation makes the calibration represent the part; an unrelated material would not.",
@@ -4293,9 +4293,9 @@
       "stem": "Verifying that each focal law performs as intended is part of:",
       "options": [
        "Setup verification before scanning",
-       "Final acceptance evaluation here",
-       "Just plain probe manufacturing here",
-       "Just plain code writing now here"
+       "Final acceptance evaluation of it",
+       "The probe array manufacturing work",
+       "Writing the governing site code now"
       ],
       "answer": 0,
       "explanation": "Confirming angles, depth, and sensitivity for the focal laws is a setup-verification step done before acquiring data, within the Level I scope under direction.",
@@ -4319,9 +4319,9 @@
       "stem": "Instead of TCG, some procedures use a distance-amplitude correction (DAC) curve to:",
       "options": [
        "Reference amplitude versus sound path",
-       "Steer the beam here",
-       "Power the probe here",
-       "Define the encoder counts here"
+       "Steer the beam round to each new angle",
+       "Drive power into the entire probe array",
+       "Set the encoder counts along the scan"
       ],
       "answer": 0,
       "explanation": "A DAC curve plots the reference reflector amplitude against distance, against which signals are compared, an alternative to flattening with TCG. Follow the procedure.",
@@ -4345,9 +4345,9 @@
       "stem": "Coupling during calibration should represent scanning because poor coupling would:",
       "options": [
        "Give a false reference level",
-       "Just plain improve accuracy here",
-       "Tighten the whole focus here",
-       "Speed up acquisition here"
+       "Sharply improve the accuracy",
+       "Tighten up the beam focus",
+       "Speed up the data acquisition"
       ],
       "answer": 0,
       "explanation": "If the reference is set with poor coupling, the sensitivity will be wrong during scanning, so consistent coupling is maintained.",
@@ -4371,9 +4371,9 @@
       "stem": "Velocity and wedge delay are calibrated so that a known reflector appears at its:",
       "options": [
        "Correct depth and position",
-       "Maximum amplitude only here",
-       "Plain random location here",
-       "Zero on every axis here"
+       "Peak maximum amplitude only",
+       "Some plain random location",
+       "Plain zero on every axis"
       ],
       "answer": 0,
       "explanation": "Correct velocity and delay place known reflectors at their true depth and position, confirming the geometry of the setup.",
@@ -4397,9 +4397,9 @@
       "stem": "Encoder setup also confirms the scan records in the:",
       "options": [
        "Correct direction and distance",
-       "Wrong direction to save time here",
-       "Just the highest gain here",
-       "The brightest palette here"
+       "The wrong way round to save time",
+       "Just the highest gain level set",
+       "Just the brightest color palette"
       ],
       "answer": 0,
       "explanation": "Checking direction and distance ensures images are not reversed or mis-scaled, so reflectors map to the right place on the part.",
@@ -4423,16 +4423,16 @@
       "stem": "Reference reflectors are used because they:",
       "options": [
        "Give known, repeatable responses to set the setup",
-       "Are the actual flaws sought here",
-       "Magnetize the whole block here",
-       "Absorb all the whole sound here"
+       "Are the actual service flaws that are being sought",
+       "Speed the sound up sharply as it passes by each one",
+       "Soak up the entire beam so that none of it returns"
       ],
       "answer": 0,
       "explanation": "Known reflectors provide consistent echoes to calibrate velocity, delay, gain, and sensitivity, unlike unknown real flaws.",
       "distractors": [
        "",
        "Reference reflectors are deliberate known shapes, not the actual flaws.",
-       "They reflect sound; they do not magnetize the block.",
+       "They reflect sound at a known shape; they do not speed it up.",
        "They reflect sound rather than absorbing it all."
       ]
      }
@@ -4449,9 +4449,9 @@
       "stem": "Many procedures require a calibration check:",
       "options": [
        "At the start and again at the end of a scan set",
-       "Only once a year here",
-       "Never here",
-       "Only if the probe is new here"
+       "Just one single time across each full year only",
+       "Never once at any single point at all over it",
+       "Only when a brand-new probe array gets fitted"
       ],
       "answer": 0,
       "explanation": "Checking at the start and end (and at intervals) confirms the setup held throughout, so data taken between valid checks can be accepted. Confirm intervals against the procedure.",
@@ -4475,9 +4475,9 @@
       "stem": "The reference and scan gains should be set so the instrument:",
       "options": [
        "Has usable range without saturating signals of interest",
-       "Always runs at maximum gain here",
-       "Runs at the zero gain here",
-       "Ignores the reference here"
+       "Is always run flat out at the very maximum gain setting",
+       "Is run right down at a dead zero gain level throughout",
+       "Pays the calibrated reference level no real mind at all"
       ],
       "answer": 0,
       "explanation": "Appropriate gain keeps relevant signals on scale and measurable rather than saturated or buried, referenced to the calibration.",
@@ -4501,9 +4501,9 @@
       "stem": "In calibration and verification, the Level I technician:",
       "options": [
        "Performs and records the calibration per the procedure under direction",
-       "Sets the acceptance criteria here",
-       "Designs the reference block here",
-       "Approves the whole procedure here"
+       "Sets the entire accept and reject criteria for the welded joint alone",
+       "Designs the reference calibration block and its reflectors for the job",
+       "Writes and approves the entire inspection procedure for the site to use"
       ],
       "answer": 0,
       "explanation": "A Level I calibrates and verifies the setup and records it per the procedure; criteria, block design, and procedure approval are higher-level functions.",
@@ -4527,9 +4527,9 @@
       "stem": "Verifying the setup on a reference block before scanning is important because:",
       "options": [
        "Wrong inputs or wear could mislocate or miss reflectors",
-       "It wastes time with no benefit here",
-       "The probe self-corrects always here",
-       "Couplant fixes all errors here"
+       "It just wastes good scanning time for no real gain at all",
+       "The probe quietly self-corrects every setup error by itself",
+       "Fresh couplant gel fixes every setup error there is"
       ],
       "answer": 0,
       "explanation": "Setup errors and equipment wear can mislocate reflectors or lose sensitivity, so verification catches them before real data is taken.",
@@ -4553,9 +4553,9 @@
       "stem": "If dead elements are found, the technician should:",
       "options": [
        "Address the probe before relying on the calibration",
-       "Calibrate and scan anyway here",
-       "Increase the gain to hide it here",
-       "Ignore it here"
+       "Calibrate and scan straight on with it regardless",
+       "Wind the gain right up to cover over the dead gap",
+       "Just ignore it entirely and carry on with the work"
       ],
       "answer": 0,
       "explanation": "Dead elements distort the beam and invalidate the calibration, so the probe is repaired or replaced before proceeding.",
@@ -4579,9 +4579,9 @@
       "stem": "A large temperature change between calibration and scanning can:",
       "options": [
        "Shift velocity and wedge delay, requiring recalibration",
-       "Have no possible effect here",
-       "Change the whole acceptance criteria here",
-       "Add elements to the whole probe here"
+       "Have no real effect on the entire setup at any point",
+       "Change the accept and reject criteria for the entire job",
+       "Add fresh elements onto the probe array by itself"
       ],
       "answer": 0,
       "explanation": "Temperature alters material and wedge velocities and coupling, shifting readings, so the setup is rechecked or recalibrated when conditions change.",
@@ -4605,9 +4605,9 @@
       "stem": "Which statement about calibration and verification is correct?",
       "options": [
        "Set velocity and wedge delay, build TCG/ACG and reference sensitivity, calibrate the encoder, and verify on a reference block before and during scanning",
-       "Calibration is optional for phased array",
-       "Maximum gain replaces calibration",
-       "Dead elements do not affect calibration"
+       "Calibration is entirely optional for phased array work, since the instrument sets its own velocity, wedge delay, and sensitivity by itself every time",
+       "Running flat out at maximum gain fully replaces the need to calibrate, so velocity, wedge delay, and reference sensitivity never have to be set at all",
+       "Dead elements in the probe have no real effect on the calibration or the beam at all, so a probe with several dead elements can be calibrated and used just as it is"
       ],
       "answer": 0,
       "explanation": "Phased array calibration sets the geometry and sensitivity, corrects gain across depth and angle, calibrates position, and is verified on reference reflectors before and during the work.",
@@ -4637,9 +4637,9 @@
       "stem": "A common phased array weld technique is an encoded line scan, where the probe is:",
       "options": [
        "Moved along the weld at a fixed offset while position is recorded",
-       "Held still for the whole weld here",
-       "Lifted off between the readings here",
-       "Pressed harder at each weld end here"
+       "Held dead still over the entire weld for the full scanning time",
+       "Lifted clean off the surface between each of the readings taken",
+       "Pressed down a good deal harder at each end of the weld run"
       ],
       "answer": 0,
       "explanation": "The probe runs parallel to the weld at a set offset while the encoder records position, capturing a continuous data record of the weld length.",
@@ -4663,9 +4663,9 @@
       "stem": "The probe offset from the weld centerline is set so that the:",
       "options": [
        "Beams cover the weld volume per the scan plan",
-       "Probe sits on the weld cap here",
-       "The cable stays short here",
-       "The couplant looks even here"
+       "Probe sits right up on top of the weld cap",
+       "The probe cable stays nice and short on the run",
+       "The couplant looks nice and even on the surface"
       ],
       "answer": 0,
       "explanation": "The standoff (index offset) places the angled beams to cover the weld from root to cap as the scan plan requires.",
@@ -4689,9 +4689,9 @@
       "stem": "A raster scan differs from a single-line scan because it:",
       "options": [
        "Covers multiple index lines across the area",
-       "Uses no encoder here",
-       "Needs no couplant here",
-       "Skips calibration here"
+       "Uses no position encoder at all on the rig",
+       "Needs no couplant on the surface at all",
+       "Skips the entire calibration step each time"
       ],
       "answer": 0,
       "explanation": "A raster steps the probe across several index positions to cover a wider area, while a single-line scan runs one offset along the weld.",
@@ -4715,9 +4715,9 @@
       "stem": "Scanning too fast can cause:",
       "options": [
        "Missed scan lines or data gaps",
-       "Just plain better resolution here",
-       "Higher material velocity here",
-       "Plain a new focal law here"
+       "Far sharper image resolution",
+       "A higher material velocity",
+       "A brand-new focal law set"
       ],
       "answer": 0,
       "explanation": "If the probe outruns the data rate (set by PRF and number of laws), lines are skipped, so scan speed is kept within the limit for full data.",
@@ -4741,9 +4741,9 @@
       "stem": "A steady couplant supply during scanning helps prevent:",
       "options": [
        "Coupling loss and data dropout",
-       "Just correct calibration here",
-       "Just plain encoder tracking here",
-       "The focal-law generation here"
+       "A correct calibration setup",
+       "The encoder tracking it well",
+       "The focal-law set being formed"
       ],
       "answer": 0,
       "explanation": "Consistent couplant keeps the beam entering the part as the probe moves, avoiding gaps in the data.",
@@ -4767,9 +4767,9 @@
       "stem": "Welds are often scanned from both sides because:",
       "options": [
        "Different flaw orientations are better detected from each side",
-       "One side is always",
-       "It uses less couplant here",
-       "It shortens the cable here"
+       "One single side is always plenty enough by itself for any weld",
+       "It gets through a fair bit less couplant gel over the entire job",
+       "It keeps the probe cable run back to the unit a good deal shorter"
       ],
       "answer": 0,
       "explanation": "Scanning both sides improves the chance of intersecting flaws of various orientations and covering the full weld volume, per the scan plan.",
@@ -4793,9 +4793,9 @@
       "stem": "An S-scan helps cover a weld because its angles can reach:",
       "options": [
        "From the root to the cap region of the weld",
-       "Only the weld surface here",
-       "Only outside the part here",
-       "Only the whole cable here"
+       "Only the outer surface of the weld itself",
+       "Only the zone sitting outside the part",
+       "Only along the length of the probe cable run"
       ],
       "answer": 0,
       "explanation": "The swept angles, combined with the probe offset and skip, let the beams cover the weld from root to cap as planned.",
@@ -4819,9 +4819,9 @@
       "stem": "Using first-leg and second-leg (skip) paths lets the beam:",
       "options": [
        "Reach different depths of the weld via reflection off the far surface",
-       "Avoid the whole weld entirely here",
-       "Skip calibration here",
-       "Replace the whole encoder here"
+       "Steer clean around the entire weld body and miss it each time",
+       "Get away without doing any calibration at all before the scan begins",
+       "Stand in for the position encoder on the entire scanning rig"
       ],
       "answer": 0,
       "explanation": "As in conventional angle-beam UT, the half-skip and full-skip legs reach different parts of the weld, extending coverage from a given offset.",
@@ -4845,9 +4845,9 @@
       "stem": "Maintaining a consistent probe offset during scanning is important because it:",
       "options": [
        "Keeps the planned coverage and position accuracy",
-       "Cools the whole probe here",
-       "Changes the whole material velocity here",
-       "Develops the whole data here"
+       "Cools the entire probe array right down on the job",
+       "Changes the material velocity used in the part",
+       "Builds the entire image data set up by itself"
       ],
       "answer": 0,
       "explanation": "A guide or scanner holds the offset so the beams stay on the planned coverage and reflector positions are computed correctly.",
@@ -4871,9 +4871,9 @@
       "stem": "Probe skew (misalignment to the weld axis) can:",
       "options": [
        "Distort coverage and reflector positions",
-       "Improve the coverage here",
-       "Just plain increase the frequency here",
-       "Replace the whole scan plan here"
+       "Sharpen up the coverage across the weld",
+       "Raise the probe operating frequency set",
+       "Stand in for the entire written scan plan"
       ],
       "answer": 0,
       "explanation": "If the probe is not aligned to the scan axis, the beams and recorded positions are off, so alignment is controlled with guides or a scanner.",
@@ -4897,9 +4897,9 @@
       "stem": "The scan resolution (data spacing along the scan) is set by the:",
       "options": [
        "Encoder step and acquisition rate",
-       "Just the plain couplant type here",
-       "Just the plain display palette here",
-       "Just the plain gain setting here"
+       "The plain couplant gel type used",
+       "The chosen display color palette",
+       "The set receiver gain level value"
       ],
       "answer": 0,
       "explanation": "How finely data is sampled along the scan depends on the encoder resolution and the acquisition rate, balanced against scan speed.",
@@ -4923,9 +4923,9 @@
       "stem": "Before scanning, the surface is prepared so that:",
       "options": [
        "The probe couples consistently and moves smoothly",
-       "The couplant changes color here",
-       "The whole cable is shorter here",
-       "The whole frequency rises here"
+       "The couplant gel changes its color on the surface",
+       "The probe cable run comes out a fair bit shorter",
+       "The probe operating frequency climbs up as it goes"
       ],
       "answer": 0,
       "explanation": "Removing spatter, scale, and roughness lets the probe maintain coupling and a steady offset, improving data quality.",
@@ -4949,9 +4949,9 @@
       "stem": "During or after scanning, the technician checks that the data shows:",
       "options": [
        "The planned coverage with no missed areas",
-       "Just plain only the prettiest image here",
-       "The fewest files here",
-       "The lowest gain here"
+       "Only the prettiest-looking image on screen",
+       "The fewest possible saved data files",
+       "The very lowest receiver gain setting"
       ],
       "answer": 0,
       "explanation": "Coverage is verified against the scan plan, looking for gaps or dropout, with re-scans where coverage was not achieved.",
@@ -4975,9 +4975,9 @@
       "stem": "If coupling is lost over part of a scan, the technician should:",
       "options": [
        "Re-scan the affected area",
-       "Accept the gap",
-       "Lower the gain to hide it",
-       "Delete the file"
+       "Just accept the gap as is",
+       "Drop the gain to mask it",
+       "Delete the entire data file"
       ],
       "answer": 0,
       "explanation": "A coupling gap leaves the area unexamined, so it is re-scanned to obtain valid data over the full length.",
@@ -5001,9 +5001,9 @@
       "stem": "On small-diameter pipe, the probe and wedge must:",
       "options": [
        "Fit the curvature for proper contact and angles",
-       "Be the largest available here",
-       "Ignore the whole curvature here",
-       "Be run dry here"
+       "Be the very largest pair available on the rig",
+       "Pay the pipe curvature no real mind at all on it",
+       "Be run fully dry with no couplant at all on them"
       ],
       "answer": 0,
       "explanation": "A curved surface needs a matching (contoured) wedge so the probe couples and the angles stay correct around the pipe.",
@@ -5027,9 +5027,9 @@
       "stem": "The angles, offsets, and coverage used during scanning come from the:",
       "options": [
        "Scan plan and procedure",
-       "The operator's preference",
-       "The couplant label here",
-       "The cable diagram here"
+       "The operator's own whim",
+       "The couplant tin label",
+       "The probe cable diagram"
       ],
       "answer": 0,
       "explanation": "A Level I follows the scan plan and procedure, which define the focal laws, offsets, and coverage for the inspection.",
@@ -5053,9 +5053,9 @@
       "stem": "In a raster scan, adjacent index lines should:",
       "options": [
        "Overlap enough to leave no gaps",
-       "Leave wide gaps to save time here",
-       "Just plain never touch here",
-       "Just plain be random now here"
+       "Leave wide gaps just to save time",
+       "Never quite touch one another",
+       "Be spaced right out at random"
       ],
       "answer": 0,
       "explanation": "Overlapping index passes ensure the area is fully covered with no unexamined strips between lines.",
@@ -5079,9 +5079,9 @@
       "stem": "The maximum scan speed for full data depends partly on the:",
       "options": [
        "Pulse repetition frequency and number of focal laws",
-       "Couplant type here",
-       "Display palette here",
-       "Report length here"
+       "The couplant gel type chosen for the scan job",
+       "The display color palette set on the entire screen",
+       "The overall length of the final written job report"
       ],
       "answer": 0,
       "explanation": "More focal laws per position and a limited PRF reduce how fast the probe can move before lines are missed, so speed is matched to the setup.",
@@ -5105,9 +5105,9 @@
       "stem": "Consistent probe contact and pressure during scanning help:",
       "options": [
        "Maintain coupling and steady signals",
-       "Change the acceptance criteria here",
-       "Steer the beam here",
-       "Generate the focal laws here"
+       "Change the accept and reject criteria",
+       "Steer the beam round to new angles",
+       "Generate the entire focal-law set"
       ],
       "answer": 0,
       "explanation": "Even contact keeps the sound entering the part consistently, avoiding amplitude swings and dropout as the probe moves.",
@@ -5131,9 +5131,9 @@
       "stem": "Scanning should extend far enough past the weld ends to:",
       "options": [
        "Cover the full required length including the ends",
-       "Stop short to save time here",
-       "Cover only the whole middle here",
-       "Avoid the whole heat-affected zone here"
+       "Stop well short of the weld ends just to save time",
+       "Cover only the middle stretch of the weld run",
+       "Steer well clear of the entire heat-affected zone"
       ],
       "answer": 0,
       "explanation": "Running the scan past the ends ensures the whole required length, including weld ends, is covered with the encoded data.",
@@ -5157,9 +5157,9 @@
       "stem": "Some setups use multiple probe groups so that:",
       "options": [
        "Different angles or zones are covered together",
-       "No calibration is needed here",
-       "The encoder is removed here",
-       "The couplant is skipped here"
+       "No calibration is needed at all for the job",
+       "The entire position encoder is dropped off fully",
+       "The couplant gel can be skipped entirely on it"
       ],
       "answer": 0,
       "explanation": "Multiple groups (or probes) can acquire complementary coverage in one pass, configured in the setup and still calibrated and coupled.",
@@ -5183,9 +5183,9 @@
       "stem": "A finer encoder step during scanning gives:",
       "options": [
        "More data points per length (finer sampling)",
-       "Coarser sampling here",
-       "Fewer focal laws here",
-       "A lower frequency here"
+       "Coarser sampling along the entire scan line",
+       "Fewer focal laws in the entire set being used",
+       "A lower probe operating frequency on the job"
       ],
       "answer": 0,
       "explanation": "Smaller steps sample the scan more finely, improving along-scan resolution at the cost of data volume and possibly slower scanning.",
@@ -5209,17 +5209,17 @@
       "stem": "If the scan plan requires it, the weld cap may be:",
       "options": [
        "Dressed so the probe can reach the needed offset",
-       "Left rough always here",
-       "Painted for contrast here",
-       "Magnetized first here"
+       "Left fully rough each time with no dressing at all",
+       "Built up higher with extra added weld metal first",
+       "Notched deeply across the cap at each end first"
       ],
       "answer": 0,
       "explanation": "Where access or coverage requires, the cap is dressed flush so the probe can sit at the planned offset, per the procedure.",
       "distractors": [
        "",
        "A rough cap can block the needed probe position.",
-       "Painting is not part of phased array surface prep.",
-       "Magnetizing belongs to a different method."
+       "Adding weld metal blocks access; the cap is dressed down, not up.",
+       "Notching the cap damages the weld; it is not access prep."
       ]
      }
     },
@@ -5235,9 +5235,9 @@
       "stem": "Encoded scanning is preferred for documented inspections because it:",
       "options": [
        "Produces a position-tied record that can be reviewed",
-       "Cannot be saved here",
-       "Removes the whole need for coverage here",
-       "Eliminates the calibration here"
+       "Cannot be saved off to a file at all afterward later",
+       "Does away with the need for any scan coverage at all",
+       "Gets rid of the entire calibration step on it"
       ],
       "answer": 0,
       "explanation": "Position-encoded data forms a reviewable, traceable record of what was covered, unlike a live-only display.",
@@ -5261,9 +5261,9 @@
       "stem": "If the encoder slips or loses tracking during a scan, the data may be:",
       "options": [
        "Mispositioned, so the scan is repeated",
-       "Perfectly fine here",
-       "Automatically corrected here",
-       "More accurate here"
+       "Perfectly fine just the way it stands",
+       "Put right by itself without any help",
+       "Far more accurate than it was before"
       ],
       "answer": 0,
       "explanation": "Encoder slip misplaces the data along the part, so the affected scan is repeated with the tracking restored.",
@@ -5287,9 +5287,9 @@
       "stem": "Removing loose scale or debris ahead of the probe during scanning helps:",
       "options": [
        "Keep coupling and a smooth, steady scan",
-       "Change the focal laws here",
-       "Raise the frequency here",
-       "Set the acceptance criteria here"
+       "Change the entire focal-law set in use",
+       "Raise the probe operating frequency set",
+       "Set the accept and reject criteria"
       ],
       "answer": 0,
       "explanation": "Debris under the probe causes lift-off and dropout, so the scan path is kept clean for consistent data.",
@@ -5313,9 +5313,9 @@
       "stem": "Coverage and probe positions should follow the scan plan rather than:",
       "options": [
        "Memory of a different joint",
-       "The written procedure here",
-       "The calibrated setup here",
-       "The whole encoder reading here"
+       "The written work procedure",
+       "The calibrated setup in use",
+       "The encoder position readout"
       ],
       "answer": 0,
       "explanation": "Each joint is scanned to its own plan; relying on a different job's memory can leave the required coverage unmet.",
@@ -5339,9 +5339,9 @@
       "stem": "If surface temperature changes a lot during a long scan, the technician should:",
       "options": [
        "Recheck the calibration and conditions",
-       "Ignore it here",
-       "Increase the gain blindly here",
-       "Just plain delete the whole data here"
+       "Just ignore it entirely and press on",
+       "Wind the gain up blindly to cope with it",
+       "Delete the entire gathered data set"
       ],
       "answer": 0,
       "explanation": "Temperature shifts can change velocity and coupling, so the setup is rechecked and the data confirmed valid, with re-scans if needed.",
@@ -5365,9 +5365,9 @@
       "stem": "When several passes are needed, overlapping them ensures:",
       "options": [
        "The whole required volume is examined",
-       "Only the easy areas are covered here",
-       "Just plain the probe wears evenly here",
-       "Just plain the cable stays cool here"
+       "Only the easy spots get covered well",
+       "The entire probe array wears down evenly",
+       "The probe cable run stays nice and cool"
       ],
       "answer": 0,
       "explanation": "Overlapping passes prevent unexamined gaps between them, giving complete coverage of the required volume.",
@@ -5391,9 +5391,9 @@
       "stem": "While scanning, the Level I technician:",
       "options": [
        "Executes the scan plan and acquires valid data under direction",
-       "Sets the acceptance criteria here",
-       "Designs the whole scan plan here",
-       "Approves the whole results to code here"
+       "Sets the entire accept and reject criteria for the welded joint",
+       "Designs the entire scan plan for the inspection job alone",
+       "Approves the entire results against the governing code alone"
       ],
       "answer": 0,
       "explanation": "A Level I runs the scan plan, maintains coupling and coverage, and acquires data; designing the plan, setting criteria, and code approval are higher-level tasks.",
@@ -5417,9 +5417,9 @@
       "stem": "Before leaving the job, the technician confirms there are:",
       "options": [
        "No missed lines or uncovered length in the data",
-       "Only a few small gaps here",
-       "As few files as possible here",
-       "The shortest scan time here"
+       "Just a few small coverage gaps left in it",
+       "As few saved data files as can be managed",
+       "The very shortest overall scan time of all"
       ],
       "answer": 0,
       "explanation": "The data is reviewed for completeness so any missed lines or uncovered areas are re-scanned before the inspection is considered done.",
@@ -5443,9 +5443,9 @@
       "stem": "Using the correct wedge for the surface keeps the:",
       "options": [
        "Refracted angles and coupling as intended",
-       "Scan speed at maximum here",
-       "The gain at zero here",
-       "The file size small here"
+       "The scan speed pinned up at its maximum",
+       "The receiver gain held right down at zero",
+       "The saved data file size kept small"
       ],
       "answer": 0,
       "explanation": "A wedge matched to the surface and material keeps the planned angles and good contact, so coverage and positions stay correct.",
@@ -5469,9 +5469,9 @@
       "stem": "Scan parameters such as offset, speed limits, and couplant should be:",
       "options": [
        "Followed per the plan and noted in the record",
-       "Chosen at random here",
-       "Hidden from review here",
-       "Left undocumented here"
+       "Picked out at random by whoever is on the day",
+       "Kept hidden away from any later review at all",
+       "Left fully out of the written record entirely"
       ],
       "answer": 0,
       "explanation": "Following and recording the scan conditions supports repeatability and lets reviewers confirm the inspection was done as planned.",
@@ -5495,9 +5495,9 @@
       "stem": "Which statement about scanning and coverage is correct?",
       "options": [
        "Run encoded scans at the planned offset and speed, keep coupling, cover the full volume from the required sides, and verify no gaps",
-       "Scan as fast as possible regardless of data",
-       "One side and one pass always suffice",
-       "Coverage gaps can be accepted to save time"
+       "Run the scan as fast as the probe will go, whatever happens to the data, since speed matters far more than catching every line",
+       "Scanning one single side in one single pass is always plenty for any weld, with no need for the other side or any overlapping passes",
+       "Coverage gaps are fine and can be left in the data to save time, since a clean-looking image proves the full volume was examined"
       ],
       "answer": 0,
       "explanation": "Phased array scanning follows the plan for offset, angles, and speed, maintains coupling, covers the volume from the required sides, and is verified for complete data.",
@@ -5527,9 +5527,9 @@
       "stem": "Acquired encoded data should be:",
       "options": [
        "Saved as identified files tied to the part and scan",
-       "Deleted after a whole quick look here",
-       "Kept only on the screen here",
-       "Left totally unnamed here"
+       "Deleted right off after one single quick look at it",
+       "Kept only up on the live screen view and nowhere else",
+       "Left fully unnamed and unlabelled in the file store"
       ],
       "answer": 0,
       "explanation": "The data files, with identification and position, are saved as the inspection record for review and traceability.",
@@ -5553,9 +5553,9 @@
       "stem": "Good acquisition data shows adequate sensitivity, full coverage, and:",
       "options": [
        "Acceptable signal-to-noise without dropout",
-       "The whole maximum possible noise here",
-       "Random gaps here",
-       "Saturated signals everywhere here"
+       "The most noise possible across the entire trace",
+       "Random gaps dotted along the entire scan line",
+       "Saturated signals right across the display"
       ],
       "answer": 0,
       "explanation": "Quality data has the reference sensitivity, complete coverage, low dropout, and adequate signal-to-noise so reflectors can be reviewed.",
@@ -5579,9 +5579,9 @@
       "stem": "Reviewing the data for missed lines or gaps is done to:",
       "options": [
        "Confirm coverage before leaving the job",
-       "Set the whole acceptance criteria here",
-       "Just recalculate the whole focal laws here",
-       "Just reset the whole encoder zero here"
+       "Set the accept and reject criteria used",
+       "Recompute the entire focal-law set anew",
+       "Reset the encoder zero point all over"
       ],
       "answer": 0,
       "explanation": "Checking for dropout and missed scan lines confirms the required coverage was achieved, with re-scans where it was not.",
@@ -5605,9 +5605,9 @@
       "stem": "Sudden low-amplitude or blank regions in the data often indicate:",
       "options": [
        "Coupling loss or lift-off during the scan",
-       "A plain perfect scan here",
-       "Higher material velocity here",
-       "A new acceptance limit here"
+       "A perfectly clean scan the entire way through",
+       "A higher material velocity reading shown",
+       "A brand-new acceptance limit set for it"
       ],
       "answer": 0,
       "explanation": "Dropout usually means the probe lost coupling or lifted off, so the cause is corrected and the area re-scanned.",
@@ -5631,9 +5631,9 @@
       "stem": "Signals of interest should generally not be:",
       "options": [
        "Saturated (clipped at full scale)",
-       "Just visible on the display here",
-       "Just plain within the gates here",
-       "Referenced to the calibration here"
+       "Plainly visible up on the display",
+       "Held neatly within the set gates",
+       "Referenced back to the calibration"
       ],
       "answer": 0,
       "explanation": "Saturated signals lose amplitude information, so gain is set to keep relevant signals on scale for valid measurement and review.",
@@ -5657,9 +5657,9 @@
       "stem": "A low signal-to-noise ratio in the data can:",
       "options": [
        "Make real reflectors hard to distinguish from noise",
-       "Improve the detectability here",
-       "Raise the whole frequency here",
-       "Shorten the whole cable here"
+       "Improve the detectability of every small flaw",
+       "Raise the probe operating frequency right up on it",
+       "Shorten the probe cable run back to the entire unit"
       ],
       "answer": 0,
       "explanation": "When noise approaches signal levels, reflectors are harder to see, so probe choice, gain, and setup aim for adequate signal-to-noise.",
@@ -5683,9 +5683,9 @@
       "stem": "Each data file should carry identification that ties it to the:",
       "options": [
        "Part, weld, and scan details",
-       "The display palette used here",
-       "Plain gain value only here",
-       "The scan speed only here"
+       "The set display palette in use",
+       "Just the gain value by itself",
+       "Just the scan speed by itself"
       ],
       "answer": 0,
       "explanation": "Identification (part, weld, location, date, technician, setup) makes the data traceable and reviewable.",
@@ -5709,9 +5709,9 @@
       "stem": "The calibration or setup used should be:",
       "options": [
        "Saved or referenced with the scan data",
-       "Just discarded after the scanning here",
-       "Kept secret here",
-       "Just plain randomized per file here"
+       "Thrown out right after all the scanning",
+       "Kept secret away from any later review",
+       "Randomized afresh for each single file"
       ],
       "answer": 0,
       "explanation": "Storing the setup and calibration with the data lets reviewers confirm the data was taken with a valid, known configuration.",
@@ -5735,16 +5735,16 @@
       "stem": "Gates during acquisition are used to:",
       "options": [
        "Measure and record signals in the regions of interest",
-       "Magnetize the whole part here",
-       "Develop the whole film here",
-       "Power the whole encoder now here"
+       "Steer the beam round to one single chosen angle",
+       "Build the entire cross-section image by themselves",
+       "Drive the power out to the position encoder on the rig"
       ],
       "answer": 0,
       "explanation": "Gates capture amplitude and position data in the time or depth zones of interest, feeding the imaging and measurements.",
       "distractors": [
        "",
-       "Gates do not magnetize the part.",
-       "Gates do not develop film.",
+       "Steering comes from the focal law; gates select a signal window.",
+       "The image views are built from A-scans; gates select windows.",
        "Gates do not power the encoder."
       ]
      }
@@ -5762,8 +5762,8 @@
       "options": [
        "Backed up to prevent loss",
        "Stored on one device only",
-       "Deleted to save space",
-       "Left only in volatile memory"
+       "Wiped to free up space",
+       "Held in volatile memory"
       ],
       "answer": 0,
       "explanation": "Backing up the data protects the inspection record against device failure or accidental loss.",
@@ -5787,9 +5787,9 @@
       "stem": "Reviewing data on-site for quality is done so that:",
       "options": [
        "Re-scans can be made while still set up",
-       "Final acceptance is decided by the Level I",
-       "The procedure can be ignored",
-       "The encoder can be removed"
+       "The Level I makes the final accept call",
+       "The entire set procedure can be skipped",
+       "The position encoder can be dropped off"
       ],
       "answer": 0,
       "explanation": "Checking quality before leaving lets the technician re-scan poor areas immediately. Final acceptance remains a higher-level task.",
@@ -5813,9 +5813,9 @@
       "stem": "The recorded amplitudes are meaningful only if the:",
       "options": [
        "Reference sensitivity was correctly set and maintained",
-       "Scan was run the fastest here",
-       "Palette was set to the rainbow here",
-       "File was the smallest here"
+       "The scan was run at the very fastest speed of all",
+       "The palette was flipped to the full rainbow set in use",
+       "The saved data file came out the very smallest of all"
       ],
       "answer": 0,
       "explanation": "Amplitudes are read relative to the calibrated reference, so a correct, maintained reference is essential for the data to mean anything.",
@@ -5839,9 +5839,9 @@
       "stem": "If the data positions do not match the part length, the likely cause is:",
       "options": [
        "An encoder calibration or tracking problem",
-       "A plain correct setup here",
-       "A plain higher frequency here",
-       "A plain fresh couplant here"
+       "A perfectly correct setup all round on it",
+       "A higher probe operating frequency in use",
+       "A fresh batch of couplant gel on the surface"
       ],
       "answer": 0,
       "explanation": "Position errors point to encoder calibration or slip, so the encoder is checked and the scan repeated with correct tracking.",
@@ -5865,9 +5865,9 @@
       "stem": "An indication that may be a grating lobe or geometry signal should be:",
       "options": [
        "Recognized as a possible artifact, with evaluation left to a higher level",
-       "Recorded as a confirmed flaw here",
-       "Erased from the data here",
-       "Ignored entirely here"
+       "Logged straight off as a confirmed rejectable flaw right there on the spot",
+       "Wiped clean out of the recorded data set straight away there and then",
+       "Passed over entirely and left clean out of the report and the data both"
       ],
       "answer": 0,
       "explanation": "The technician notes that not all indications are flaws and preserves the data; confirming and evaluating is a higher-level task.",
@@ -5891,9 +5891,9 @@
       "stem": "Electrical noise in the data can come from:",
       "options": [
        "Poor grounding, cables, or nearby equipment",
-       "Correct calibration here",
-       "Good coupling here",
-       "A plain clean surface here"
+       "A perfectly correct calibration setup on it",
+       "Good steady coupling right on the surface",
+       "A nice clean, smooth scanning surface on it"
       ],
       "answer": 0,
       "explanation": "Noise sources include grounding and cable issues and interference, which are reduced so signals stand out clearly.",
@@ -5917,9 +5917,9 @@
       "stem": "The scan and display resolution must be adequate to:",
       "options": [
        "Show the reflectors the inspection is meant to find",
-       "Fill the disk the fastest here",
-       "Use the most colors here",
-       "Run the probe hottest here"
+       "Fill up the storage disk the very fastest of all",
+       "Use up the most display colors of all on the screen",
+       "Run the entire probe array the very hottest of all"
       ],
       "answer": 0,
       "explanation": "Resolution is set so relevant reflectors are sampled and visible; too coarse a setting can miss small or closely spaced indications.",
@@ -5943,9 +5943,9 @@
       "stem": "When acquired data is poor quality, the technician should:",
       "options": [
        "Correct the cause and re-scan",
-       "Just plain submit it anyway here",
-       "Alter it to look better here",
-       "Just delete the evidence now"
+       "Just submit it as it is anyway",
+       "Touch it up so it looks better",
+       "Wipe the evidence clean off it"
       ],
       "answer": 0,
       "explanation": "Poor data is not valid, so the cause (coupling, speed, setup) is fixed and the area re-scanned rather than submitted or altered.",
@@ -5969,9 +5969,9 @@
       "stem": "Amplitude variations along a scan that follow coupling changes indicate the need to:",
       "options": [
        "Improve and steady the coupling",
-       "Raise the acceptance limit here",
-       "Just change the frequency here",
-       "Just plain shorten the cable here"
+       "Raise the entire acceptance limit",
+       "Change the probe frequency set",
+       "Shorten the entire probe cable run"
       ],
       "answer": 0,
       "explanation": "Coupling-related amplitude swings reduce reliability, so coupling is improved and the area re-scanned for consistent data.",
@@ -5995,9 +5995,9 @@
       "stem": "Acquiring and checking the data for quality is a Level I task, while interpreting and sizing reflectors is:",
       "options": [
        "A Level II or III task",
-       "Just also Level I here",
-       "Done by the encoder here",
-       "Set by couplant here"
+       "Also just a Level I task",
+       "Done by the encoder unit",
+       "Set by the couplant gel"
       ],
       "answer": 0,
       "explanation": "A Level I produces valid, complete data; analysis, sizing, and evaluation against criteria are higher-level responsibilities.",
@@ -6021,9 +6021,9 @@
       "stem": "The gain, reference level, and gate settings used are:",
       "options": [
        "Recorded with the data",
-       "Forgotten after scanning",
-       "Kept secret",
-       "Randomized"
+       "Lost track of afterward",
+       "Kept hidden from view",
+       "Just set at random"
       ],
       "answer": 0,
       "explanation": "Recording the acquisition settings lets the data be understood, reproduced, and reviewed.",
@@ -6047,9 +6047,9 @@
       "stem": "Before finishing, the technician confirms that the data shows the:",
       "options": [
        "Scan plan was actually executed as required",
-       "The fastest possible scan time here",
-       "Fewest files here",
-       "Brightest colors here"
+       "The fastest possible scan time was hit on it",
+       "The fewest possible data files were saved",
+       "The brightest screen colors were used on it"
       ],
       "answer": 0,
       "explanation": "Confirming the angles, coverage, and offsets in the data match the scan plan ensures the inspection was carried out as required.",
@@ -6073,9 +6073,9 @@
       "stem": "If reference or relevant signals are saturating, the technician should:",
       "options": [
        "Adjust gain so they are measurable and re-acquire",
-       "Leave them clipped here",
-       "Raise the gain further here",
-       "Totally ignore it here"
+       "Just leave them clipped at full scale as they are",
+       "Wind the gain up even further still over the top",
+       "Just ignore it fully and press straight on with it"
       ],
       "answer": 0,
       "explanation": "Clipped signals cannot be measured, so gain is set to bring them on scale and the affected data is re-acquired.",
@@ -6099,9 +6099,9 @@
       "stem": "A consistent file-naming and identification scheme helps:",
       "options": [
        "Trace each scan to the correct weld and location",
-       "Hide which whole weld was scanned here",
-       "Save the probe wear here",
-       "Lower the frequency here"
+       "Hide which weld it was that got actually scanned",
+       "Cut down on the entire probe array wear over time",
+       "Drop the probe operating frequency down on it"
       ],
       "answer": 0,
       "explanation": "Clear naming ties data to the right joint and location, supporting review and traceability.",
@@ -6125,9 +6125,9 @@
       "stem": "The acquired data must never be:",
       "options": [
        "Altered to change the apparent result",
-       "Saved with the identification here",
-       "Totally backed up here",
-       "Reviewed for quality here"
+       "Saved with its full identification",
+       "Backed up safely to a second store",
+       "Reviewed closely for overall quality"
       ],
       "answer": 0,
       "explanation": "Falsifying or altering data to change results is a serious violation; the data is preserved, identified, and reviewed honestly.",
@@ -6151,9 +6151,9 @@
       "stem": "If review shows an area was not covered, the technician should:",
       "options": [
        "Re-scan that area to complete coverage",
-       "Report the full coverage anyway here",
-       "Just plain average over the whole gap here",
-       "Delete the whole surrounding data here"
+       "Report full coverage anyway all the same",
+       "Average straight over the entire gap area",
+       "Delete the surrounding data all round it"
       ],
       "answer": 0,
       "explanation": "An uncovered area is examined by re-scanning, since reporting full coverage without it would be false.",
@@ -6177,9 +6177,9 @@
       "stem": "Significant conditions during acquisition, such as temperature, should be:",
       "options": [
        "Noted with the data when relevant",
-       "Always omitted here",
-       "Hidden from review here",
-       "Plain totally randomized here"
+       "Always left clean off entirely",
+       "Hidden away from any later review",
+       "Set down at random every time"
       ],
       "answer": 0,
       "explanation": "Recording relevant conditions helps reviewers judge the data and supports traceability.",
@@ -6203,9 +6203,9 @@
       "stem": "The best time to catch a coverage or quality problem is:",
       "options": [
        "On-site, while still set up to re-scan",
-       "After everyone has left here",
-       "Totally never here",
-       "Just plain only at the office here"
+       "After every hand has left the entire site",
+       "At no single point during the job",
+       "Only back at the home office later on"
       ],
       "answer": 0,
       "explanation": "Reviewing data quality on-site allows immediate re-scans, avoiding a return trip and an incomplete record.",
@@ -6229,9 +6229,9 @@
       "stem": "If an end-of-scan calibration check fails, the data since the last good check is:",
       "options": [
        "Suspect and the affected area is re-scanned",
-       "Automatically valid here",
-       "Totally improved here",
-       "Permanently deleted here"
+       "Taken as valid by itself automatically",
+       "Taken as far better off than it was before",
+       "Wiped for good clean off the storage unit"
       ],
       "answer": 0,
       "explanation": "A failed check casts doubt on data taken since the last valid check, so that area is recalibrated and re-scanned.",
@@ -6255,9 +6255,9 @@
       "stem": "In data acquisition, the Level I technician:",
       "options": [
        "Acquires, checks quality, and records data under direction",
-       "Performs the whole final evaluation here",
-       "Writes the acceptance criteria here",
-       "Certifies the procedure here"
+       "Carries out the entire final evaluation of the joint alone",
+       "Writes the entire accept and reject criteria for the job",
+       "Certifies the entire inspection procedure for site use"
       ],
       "answer": 0,
       "explanation": "A Level I acquires valid, complete, identified data and checks its quality; evaluation, criteria, and procedure approval are higher-level functions.",
@@ -6281,9 +6281,9 @@
       "stem": "Which statement about data acquisition and quality is correct?",
       "options": [
        "Acquire complete, identified, well-coupled data at the reference sensitivity, check it for coverage and quality, and re-scan poor areas",
-       "Saturated, noisy data is totally fine here",
-       "Data may be freely altered to pass here",
-       "Coverage gaps need no action at all here"
+       "Saturated, noisy data is perfectly fine just as it stands, since clipped signals and heavy grass have no bearing on whether a flaw is found",
+       "The recorded data may be freely altered afterward to make the part pass, as long as the final image still looks tidy on screen",
+       "Coverage gaps in the recorded data need no action at all and can be left as they are, since the rest of the scan went perfectly fine"
       ],
       "answer": 0,
       "explanation": "Quality phased array data is complete, identified, properly coupled and referenced, and free of saturation and dropout, with poor areas re-scanned and nothing altered.",
@@ -6313,9 +6313,9 @@
       "stem": "Compared with radiography, phased array ultrasonic testing presents:",
       "options": [
        "No ionizing-radiation hazard from the method itself",
-       "A greater radiation hazard here",
-       "A licensing requirement for the source here",
-       "A requirement for a whole shielded enclosure here"
+       "A serious ionizing-radiation exposure hazard to nearby workers",
+       "A need to license the radioactive source it carries",
+       "A need for a fully shielded enclosure round it all"
       ],
       "answer": 0,
       "explanation": "Phased array uses sound, so the method itself has no ionizing-radiation hazard, though general industrial hazards still apply.",
@@ -6339,9 +6339,9 @@
       "stem": "General safety hazards during phased array work include:",
       "options": [
        "Electrical, mechanical, access, and confined-space risks",
-       "Ionizing radiation from the probe here",
-       "Radioactive decay here",
-       "Gamma exposure here"
+       "Ionizing radiation given off straight by the probe array",
+       "Radioactive decay coming off the probe array element",
+       "Harmful ionizing radiation given off from the probe face"
       ],
       "answer": 0,
       "explanation": "Hazards come from electrical equipment, moving machinery, working at height or in confined spaces, and the work environment, not from the ultrasound.",
@@ -6365,9 +6365,9 @@
       "stem": "If radiography is being performed nearby, the phased array technician should:",
       "options": [
        "Observe radiation barriers and controls for that other work",
-       "Ignore it since the whole PAUT has no radiation here",
-       "Enter the controlled area freely here",
-       "Remove the radiography signs here"
+       "Ignore it entirely, since PAUT itself gives off no radiation",
+       "Walk freely into the roped-off controlled area anyway",
+       "Take down the posted radiation area warning signs nearby"
       ],
       "answer": 0,
       "explanation": "Radiation from a neighboring crew is a real hazard, so the technician respects their barriers, signs, and controls even though PAUT itself has none.",
@@ -6392,8 +6392,8 @@
       "options": [
        "Set up, calibrate, scan, and record under direction",
        "Interpret and evaluate to the acceptance criteria",
-       "Write and approve the procedures here",
-       "Approve the other technicians here"
+       "Write and approve the entire inspection procedures",
+       "Approve the other technicians working on the crew"
       ],
       "answer": 0,
       "explanation": "Level I performs the equipment setup, calibration, scanning, and recording under the direction of higher levels; interpretation and procedure approval are above that scope.",
@@ -6417,9 +6417,9 @@
       "stem": "When unsure whether an indication is a flaw or an artifact, the Level I should:",
       "options": [
        "Record it and refer the evaluation to a higher level",
-       "Decide the acceptance independently here",
-       "Erase it from the data here",
-       "Totally ignore it here"
+       "Decide the acceptance of it all on their own each time",
+       "Erase it clean out of the entire recorded data set",
+       "Pass over it entirely and move straight on with it"
       ],
       "answer": 0,
       "explanation": "Evaluation is a higher-level task, so the technician preserves and records the indication and refers the judgment up, rather than deciding or deleting.",
@@ -6443,9 +6443,9 @@
       "stem": "Altering or fabricating inspection data is:",
       "options": [
        "A serious ethical and safety violation",
-       "Acceptable to meet a deadline here",
-       "Just plain totally normal practice here",
-       "Required by the whole procedure here"
+       "Quite fine when a deadline is very tight",
+       "Simply normal everyday working practice",
+       "Called for by the governing procedure"
       ],
       "answer": 0,
       "explanation": "Falsifying data can let defective parts pass and endanger people, so it is never acceptable and is a serious violation.",
@@ -6469,9 +6469,9 @@
       "stem": "The technician should perform the inspection:",
       "options": [
        "According to the written procedure and scan plan",
-       "However seems the fastest here",
-       "From memory of a whole different job here",
-       "Without any documentation here"
+       "However happens to look the fastest on the day",
+       "From memory of a different past job entirely",
+       "With no documentation kept of any of it at all"
       ],
       "answer": 0,
       "explanation": "Following the qualified procedure and scan plan ensures the required coverage, sensitivity, and records are achieved.",
@@ -6495,17 +6495,17 @@
       "stem": "Because phased array is an advanced ultrasonic technique, the technician is expected to understand:",
       "options": [
        "Conventional ultrasonic principles it is built on",
-       "Only the radiographic film here",
-       "Only the magnetic theory here",
-       "Only the penetrant chemistry here"
+       "Only the live free-running view, nothing else",
+       "Only the colour palette set on the display",
+       "Only the file-naming scheme used on the job"
       ],
       "answer": 0,
       "explanation": "Phased array rests on conventional UT physics, so understanding velocity, refraction, attenuation, and angle-beam work supports correct setup and acquisition.",
       "distractors": [
        "",
-       "Radiographic film is a different method.",
-       "Magnetic theory is a different method.",
-       "Penetrant chemistry is a different method."
+       "A Level I needs the underlying UT principles, not just the live view.",
+       "Palette choice is cosmetic; the UT principles underlie the method.",
+       "File naming is housekeeping; the UT principles are what underlie it."
       ]
      }
     },
@@ -6521,9 +6521,9 @@
       "stem": "If the instrument or probe shows a fault during work, the technician should:",
       "options": [
        "Stop, report it, and not rely on suspect data",
-       "Keep scanning and hope it clears here",
-       "Totally hide the fault here",
-       "Increase the gain to mask it here"
+       "Keep scanning and hope it clears itself soon",
+       "Quietly hide the entire fault away from view",
+       "Wind the gain right up to mask the fault over"
       ],
       "answer": 0,
       "explanation": "A faulty probe or instrument can invalidate data, so the work stops, the fault is reported and fixed, and affected data is re-checked.",
@@ -6547,9 +6547,9 @@
       "stem": "Inspection records should let a reviewer:",
       "options": [
        "Trace the data to the part, setup, and technician",
-       "Guess which whole weld was scanned here",
-       "See nothing about the whole setup here",
-       "Find no identification here"
+       "Guess at which weld it was that ended up scanned",
+       "See nothing about the entire setup that was used",
+       "Find no real identification on any of it at all"
       ],
       "answer": 0,
       "explanation": "Complete records (part, location, setup, calibration, technician, date) provide traceability and support review.",
@@ -6573,9 +6573,9 @@
       "stem": "A technician should perform only the work for which they are:",
       "options": [
        "Qualified and certified",
-       "Plain curious about here",
-       "Just paid the most here",
-       "Scheduled the earliest"
+       "Merely curious about it",
+       "Paid the most to do it",
+       "Scheduled in earliest"
       ],
       "answer": 0,
       "explanation": "Working within one's qualification and certification protects quality and safety; tasks beyond it are referred to qualified personnel.",
@@ -6599,9 +6599,9 @@
       "stem": "When using mains-powered equipment in the field, the technician should:",
       "options": [
        "Check cables and use proper grounding and protection",
-       "Ignore the frayed cords here",
-       "Bypass the safety devices here",
-       "Work in the whole standing water freely here"
+       "Pay the frayed power cords no real mind at all on it",
+       "Bypass the safety cut-out devices fitted to the gear",
+       "Work away in standing water with the gear freely"
       ],
       "answer": 0,
       "explanation": "Electrical safety means inspecting cords, grounding equipment, and using protection, since field conditions can be wet or rugged.",
@@ -6625,9 +6625,9 @@
       "stem": "Before entering a confined space to scan, the technician must:",
       "options": [
        "Follow confined-space entry permits and controls",
-       "Enter immediately to save the time here",
-       "Skip the atmosphere testing here",
-       "Remove the rescue plan here"
+       "Go straight in right away to save a bit of time",
+       "Skip over the atmosphere testing entirely first",
+       "Set aside the standing rescue plan for the entry"
       ],
       "answer": 0,
       "explanation": "Confined spaces can hold hazardous atmospheres, so permits, testing, ventilation, and rescue provisions are followed before entry.",
@@ -6651,9 +6651,9 @@
       "stem": "Couplant and cleaning materials should be:",
       "options": [
        "Handled and disposed of per their safety data and site rules",
-       "Poured totally anywhere here",
-       "Assumed always harmless here",
-       "Mixed with the unknown chemicals here"
+       "Just poured out wherever happens to be handy on the day",
+       "Taken as always harmless without any check of the safety data",
+       "Mixed in with whatever other chemicals happen to be about"
       ],
       "answer": 0,
       "explanation": "Some couplants and cleaners require care, so their safety data sheets and site rules are followed for handling and disposal.",
@@ -6677,9 +6677,9 @@
       "stem": "Scanning welds at height requires:",
       "options": [
        "Fall protection and safe access per site rules",
-       "No special precautions here",
-       "Removing the guardrails here",
-       "Totally free climbing here"
+       "No special precautions needed on it at all",
+       "Taking the guardrails down to get at the work",
+       "Free climbing up to reach the weld at height"
       ],
       "answer": 0,
       "explanation": "Elevated work needs proper access, fall protection, and tool security to prevent falls and dropped objects.",
@@ -6703,9 +6703,9 @@
       "stem": "Maintaining data integrity means the records:",
       "options": [
        "Truthfully reflect what was scanned and found",
-       "Are edited to look the cleaner here",
-       "Omit inconvenient areas here",
-       "Are copied from a whole another job here"
+       "Edited about to look that bit cleaner on review",
+       "Made to leave inconvenient areas out of it",
+       "Copied straight across from some other past job"
       ],
       "answer": 0,
       "explanation": "Honest, complete data that reflects the actual inspection is essential for safe decisions by those who evaluate it.",
@@ -6729,9 +6729,9 @@
       "stem": "Interpreting the recorded images, sizing reflectors, and evaluating to the code is the role of a:",
       "options": [
        "Level II (or III)",
-       "Just Level I here",
-       "The probe vendor here",
-       "The electrician"
+       "Just the Level I",
+       "The probe vendor",
+       "A site electrician"
       ],
       "answer": 0,
       "explanation": "Higher levels interpret and evaluate the data the Level I acquires; this division keeps responsibilities clear.",
@@ -6755,9 +6755,9 @@
       "stem": "Keeping cables, couplant lines, and gear tidy at the work area:",
       "options": [
        "Reduces trip and damage hazards",
-       "Has no safety value",
-       "Slows nothing and helps nothing",
-       "Is discouraged"
+       "Carries no safety value to it",
+       "Helps nothing and slows nothing",
+       "Is actively discouraged on site"
       ],
       "answer": 0,
       "explanation": "Good housekeeping prevents trips, dropped equipment, and damage, supporting both safety and data quality.",
@@ -6781,9 +6781,9 @@
       "stem": "If full coverage could not be achieved due to access, the technician should:",
       "options": [
        "Record the limitation honestly",
-       "Report full coverage anyway here",
-       "Hide the limited area here",
-       "Guess what was totally there"
+       "Report full coverage all the same",
+       "Hide the limited area clean away",
+       "Just guess at what was there"
       ],
       "answer": 0,
       "explanation": "Coverage limitations are documented so reviewers know what was and was not examined, allowing proper decisions.",
@@ -6807,9 +6807,9 @@
       "stem": "Required personal protective equipment on site should be:",
       "options": [
        "Worn as the site and task require",
-       "Just skipped when inconvenient here",
-       "Worn only for the inspectors here",
-       "Plain optional at height here"
+       "Skipped when it gets inconvenient",
+       "Worn only by the inspectors on site",
+       "Optional once working up at height"
       ],
       "answer": 0,
       "explanation": "PPE such as eye, head, hand, and foot protection is worn per site rules and the task hazards.",
@@ -6833,9 +6833,9 @@
       "stem": "Working under direction means the Level I:",
       "options": [
        "Carries out the assigned setup and scanning and asks when unsure",
-       "Sets the whole inspection requirements here",
-       "Overrides the whole procedure at will here",
-       "Works with no oversight here"
+       "Sets the entire inspection requirements for the full job alone",
+       "Overrides the entire set procedure at will whenever they please",
+       "Works with no oversight at all from any higher level above them"
       ],
       "answer": 0,
       "explanation": "A Level I executes the assigned tasks per the procedure and seeks guidance from higher levels when needed.",
@@ -6859,9 +6859,9 @@
       "stem": "Calibration and setup details are recorded so that:",
       "options": [
        "The data can be shown to be valid and repeatable",
-       "They can be forgotten here",
-       "Nobody can check them here",
-       "They stay totally secret here"
+       "They can all be safely forgotten about afterward",
+       "Nobody is ever able to go back and check them",
+       "They stay fully secret away from any later review"
       ],
       "answer": 0,
       "explanation": "Keeping calibration records lets reviewers confirm the data was taken with a valid, traceable setup.",
@@ -6885,17 +6885,17 @@
       "stem": "Using a motorized scanner or working near rotating equipment, the technician watches for:",
       "options": [
        "Pinch points and entanglement hazards",
-       "Just plain totally radiation burns here",
-       "Totally film fog here",
-       "Developer spills here"
+       "Couplant gel drying out on the wear face",
+       "A weak backwall echo on the live screen",
+       "Grating lobes in the live S-scan image"
       ],
       "answer": 0,
       "explanation": "Mechanical hazards such as pinch points and entanglement are controlled around scanners and machinery.",
       "distractors": [
        "",
-       "Radiation burns relate to radiation work, not PAUT.",
-       "Film fog is a radiography concern.",
-       "Developer spills relate to film processing, not PAUT."
+       "Drying couplant is a coupling issue, not a rotating-equipment hazard.",
+       "A weak echo is a signal issue, not a rotating-equipment hazard.",
+       "Grating lobes are an imaging artifact, not a mechanical hazard."
       ]
      }
     },
@@ -6911,9 +6911,9 @@
       "stem": "If the assigned setup does not seem to match the part or procedure, the technician should:",
       "options": [
        "Raise the concern before acquiring data",
-       "Scan anyway and stay silent here",
-       "Alter the procedure secretly here",
-       "Falsify the parameters here"
+       "Scan on anyway and keep quiet over it",
+       "Alter the procedure quietly on the side",
+       "Falsify the scan parameters used for it"
       ],
       "answer": 0,
       "explanation": "Raising a mismatch lets it be corrected before invalid data is taken, which is part of responsible practice under direction.",
@@ -6937,9 +6937,9 @@
       "stem": "Couplant runoff and waste on site should be:",
       "options": [
        "Contained and disposed of per site and environmental rules",
-       "Washed into any whole drain here",
-       "Left on the whole ground here",
-       "Totally ignored here"
+       "Just washed off down any handy drain on the entire site",
+       "Just left lying about on the open ground wherever it falls",
+       "Paid no real mind at all and simply left where it lands"
       ],
       "answer": 0,
       "explanation": "Waste is managed per environmental and site requirements to avoid contamination, especially in sensitive locations.",
@@ -6963,9 +6963,9 @@
       "stem": "If asked to evaluate and accept welds from the data, a Level I should:",
       "options": [
        "Refer the evaluation to a qualified higher level",
-       "Accept them to be the helpful here",
-       "Reject them to be safe here",
-       "Totally guess the result here"
+       "Accept them all anyway just to be helpful",
+       "Reject them all anyway just to be safe",
+       "Just guess at the result and move on with it"
       ],
       "answer": 0,
       "explanation": "Acceptance evaluation is beyond Level I qualification, so it is referred to a Level II or III rather than guessed or improvised.",
@@ -6989,9 +6989,9 @@
       "stem": "Probes, wedges, and cables should be stored:",
       "options": [
        "Protected from impact, contamination, and damage",
-       "Loose in a toolbox with the heavy tools here",
-       "In the direct sun on hot steel here",
-       "Wherever is the fastest here"
+       "Loose in a toolbox among all the heavy hand tools",
+       "Out in the direct sun resting on hot steel plate",
+       "Wherever happens to be the fastest on the day"
       ],
       "answer": 0,
       "explanation": "Careful storage prevents damage that would degrade the beam or cause dead elements, keeping the equipment reliable.",
@@ -7015,9 +7015,9 @@
       "stem": "Acquired data and any limitations should be communicated to:",
       "options": [
        "The responsible higher-level or supervisor",
-       "Totally no one here",
-       "Only the operator's notebook here",
-       "The general public first here"
+       "Simply no one at all on the entire job",
+       "Only the operator's own private notebook",
+       "The general public ahead of anyone else"
       ],
       "answer": 0,
       "explanation": "Passing the data and noted limitations to the responsible person allows proper evaluation and follow-up.",
@@ -7041,9 +7041,9 @@
       "stem": "Because phased array setups and equipment vary, the technician should:",
       "options": [
        "Keep skills and product knowledge current",
-       "Assume all the instruments are identical here",
-       "Stop training after certification now",
-       "Avoid reading the equipment manuals here"
+       "Take all instruments as fully identical",
+       "Stop all training the moment they certify",
+       "Steer clear of all the equipment manuals"
       ],
       "answer": 0,
       "explanation": "Equipment and software differ, so staying current with training and manuals supports correct, safe operation.",
@@ -7067,9 +7067,9 @@
       "stem": "Which statement about safety and responsibilities is correct?",
       "options": [
        "PAUT has no radiation hazard but general safety still applies; the Level I sets up, scans, and records honestly under direction and refers evaluation to a higher level",
-       "A Level I evaluates and accepts the welds here",
-       "Data may be freely altered to meet the schedule here",
-       "General safety can be ignored because PAUT uses sound here"
+       "A Level I technician goes ahead and evaluates the data and accepts or rejects the welds straight to the code on their own, with no higher level involved",
+       "The recorded data may be freely altered whenever it helps make the schedule, since hitting the deadline matters more than what the scan actually found",
+       "General site safety can be set aside entirely because phased array uses only sound, so electrical, mechanical, access, and confined-space risks need no thought at all on the job"
       ],
       "answer": 0,
       "explanation": "Phased array has no ionizing-radiation hazard, but general industrial safety applies; the Level I acquires and records data honestly under direction and refers interpretation and acceptance to higher levels.",

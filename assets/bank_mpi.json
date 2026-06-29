@@ -163,7 +163,7 @@
        "Retain residual magnetism after the magnetizing force is removed",
        "Be magnetized very easily by only a small applied magnetizing force",
        "Strongly resist ever becoming magnetized by the field at all",
-       "Carry an electric current freely through its whole body"
+       "Carry an electric current freely through its body"
       ],
       "answer": 0,
       "explanation": "Retentivity is the amount of residual flux a material holds once the applied magnetizing force is removed. High-retentivity materials are suited to the residual technique.",
@@ -369,7 +369,7 @@
       "stem": "Longitudinal magnetization sets up a field that runs:",
       "options": [
        "Lengthwise through the part, creating poles at the ends",
-       "Around the full circumference of the whole part body itself",
+       "Around the full circumference of the part body",
        "In a tight spiral pattern along the part surface",
        "Only at the very exact center point of the part"
       ],
@@ -525,9 +525,9 @@
       "stem": "Compared with the field from a coil, the circular field from passing current through a part is generally:",
       "options": [
        "Contained largely within and around the part with no external poles",
-       "Always noticeably weaker right at the part surface where it really counts",
+       "Always noticeably weaker right at the part surface",
        "Only ever present during DC magnetization, never with AC",
-       "Completely unable to detect any surface cracks of any kind"
+       "Completely unable to detect surface cracks"
       ],
       "answer": 0,
       "explanation": "A circular field is self-contained around the current path and produces no free external poles, so parts magnetized circularly hold little external leakage except at discontinuities. A coil produces strong external poles at the ends.",
@@ -630,7 +630,7 @@
       "options": [
        "Weaker and more spread out at the surface",
        "Far stronger and much more sharply defined",
-       "Completely identical in every single respect",
+       "Completely identical in shape and behavior",
        "Completely reversed in its magnetic polarity"
       ],
       "answer": 0,
@@ -733,7 +733,7 @@
       "stem": "Magnetizing a part well beyond saturation is undesirable mainly because it:",
       "options": [
        "Produces excessive field with little gain and heavy background, and can be hard to demagnetize",
-       "Reverses the polarity of every single indication that forms on the whole part surface entirely",
+       "Reverses the polarity of each indication that forms on the part surface",
        "Converts the existing surface cracks into deeper subsurface ones below",
        "Completely eliminates all of the residual magnetism left in the part afterward"
       ],
@@ -915,7 +915,7 @@
       "stem": "A ring-shaped part magnetized circularly by a central conductor will:",
       "options": [
        "Hold a field with no external poles unless a discontinuity is present",
-       "Have strong north and south poles all around its whole outer rim surface",
+       "Have strong north and south poles around its outer rim",
        "Be completely impossible to inspect on its inner diameter surface",
        "Lose absolutely all of its magnetism instantly and at once"
       ],
@@ -1129,7 +1129,7 @@
       "stem": "Circular magnetization is best for detecting discontinuities that are:",
       "options": [
        "Parallel to the current path (longitudinal/axial)",
-       "Transverse to the direction of the whole current path",
+       "Transverse to the direction of the current path",
        "At exactly 45 degrees to the part surface only",
        "Present only well beneath the part surface"
       ],
@@ -1181,7 +1181,7 @@
       "stem": "Prods are used to produce a localized:",
       "options": [
        "Circular field between the two prod tips",
-       "Longitudinal field along the whole part",
+       "Longitudinal field along the part axis",
        "A field present only inside hollow parts",
        "A residual field left after current removal"
       ],
@@ -1285,7 +1285,7 @@
       "stem": "When a central conductor does not fill the bore, inspection of a large-diameter ring is done by:",
       "options": [
        "Positioning the conductor against the bore wall and rotating the part in steps",
-       "Centering the conductor right in the bore and inspecting the whole part only once",
+       "Centering the conductor in the bore and inspecting the part in one shot",
        "Simply doubling the magnetizing current and inspecting once",
        "Using only the residual magnetization technique on it"
       ],
@@ -1389,7 +1389,7 @@
       "stem": "Compared with the residual technique, the continuous technique generally provides:",
       "options": [
        "Greater sensitivity to fine and subsurface discontinuities",
-       "Much lower sensitivity to flaws in every single case",
+       "Much lower sensitivity to fine surface flaws",
        "Indications appearing only on the inside diameter bore surface",
        "No need at all for a proper field direction anywhere"
       ],
@@ -1415,9 +1415,9 @@
       "stem": "Multidirectional (multi-vector) magnetization detects discontinuities in multiple orientations by:",
       "options": [
        "Rapidly alternating two or more fields so their combined vector sweeps directions",
-       "Using just one single steady DC field in one fixed direction the entire whole time",
+       "Using one steady DC field in a single fixed direction",
        "Applying the particles only after every bit of the current is fully off",
-       "Magnetizing the whole part just one time along one single axis only"
+       "Magnetizing the part just once along a single axis"
       ],
       "answer": 0,
       "explanation": "Multidirectional units energize two or more circuits in rapid sequence so the resultant field direction cycles, revealing discontinuities of differing orientations in one operation. It requires verification of adequate field in each direction.",
@@ -1443,7 +1443,7 @@
        "A QQI (artificial flaw) shim showing indications in all required directions",
        "A single gaussmeter field reading taken at just one fixed point on the part",
        "A bath particle concentration check using a settling tube measurement",
-       "The overall measured weight of the whole part itself"
+       "The overall measured weight of the part"
       ],
       "answer": 0,
       "explanation": "QQI shims placed at critical locations must show clear indications in every required direction, confirming the combined fields are balanced and adequate. A single gauss reading cannot confirm all directions.",
@@ -1623,7 +1623,7 @@
       "stem": "Induced-current magnetization is particularly useful for:",
       "options": [
        "Ring-shaped parts, to find circumferential discontinuities without contact",
-       "Long solid shafts that really need their axial cracks found quickly and well",
+       "Long solid shafts whose axial cracks must be found reliably",
        "Flat plate parts that have only surface cracks on them",
        "Demagnetizing very large and heavy castings afterward"
       ],
@@ -1701,9 +1701,9 @@
       "stem": "When a part is too short (L/D less than 2) for coil magnetization, a common remedy is to:",
       "options": [
        "Add ferromagnetic pole pieces to effectively lengthen it",
-       "Increase the current until the whole part actually glows red hot",
+       "Increase the current until the part glows red hot",
        "Switch over to the residual technique automatically",
-       "Inspect it using liquid penetrant testing instead"
+       "Inspect it using a magnetic yoke instead"
       ],
       "answer": 0,
       "explanation": "Magnetically attaching pole pieces (or stacking like parts) raises the effective L/D so the longitudinal field can be established adequately.",
@@ -1779,7 +1779,7 @@
       "stem": "Prods and yokes are best described as providing:",
       "options": [
        "Local (small-area) magnetization",
-       "Whole-part magnetization in one shot",
+       "Full-length part magnetization in one shot",
        "Circular fields throughout the entire part",
        "Residual fields only"
       ],
@@ -1911,7 +1911,7 @@
        "A circular shot and a longitudinal shot",
        "Just a single circular field shot alone",
        "Just a single longitudinal shot alone",
-       "Full demagnetization only, on its own"
+       "Full demagnetization of the part only"
       ],
       "answer": 0,
       "explanation": "Axial cracks need a circular field and transverse cracks need a longitudinal field, so both shots are performed to cover all orientations.",
@@ -1936,7 +1936,7 @@
       "options": [
        "Flow the bath over the part, stop the flow, then apply the current shot",
        "Apply the current first, and then flow the bath after the current is off",
-       "Apply developer first, then bath, then finally the current",
+       "Apply particles first, then bath, then finally the current",
        "Magnetize, then demagnetize, and then apply the bath last"
       ],
       "answer": 0,
@@ -1962,7 +1962,7 @@
       "options": [
        "Applied as a gentle cloud while the current is on, with excess blown off under current",
        "Applied only after the magnetizing current has been completely switched off",
-       "Mixed into a water carrier bath and then flowed on over the whole part",
+       "Mixed into a water carrier bath and flowed over the part",
        "Applied well before the part is even magnetized at all, and then left fully undisturbed"
       ],
       "answer": 0,
@@ -1989,7 +1989,7 @@
        "Each shot's field is adequate for the discontinuities it is meant to find",
        "Both of the shots happen to use exactly identical current values throughout",
        "Only the stronger one of the two shots is ever recorded at all",
-       "The part is demagnetized between every single particle application"
+       "The part is demagnetized between each particle application"
       ],
       "answer": 0,
       "explanation": "Each direction must independently provide an adequate field (verified by indicators) for the orientation of discontinuity it targets; current values often differ between circular and longitudinal shots.",
@@ -2013,7 +2013,7 @@
       "stem": "For a steel pipe, the central conductor technique is preferred over a head shot mainly because it:",
       "options": [
        "Magnetizes ID and OD without contact and avoids arc burns",
-       "Requires no electrical current of any kind whatsoever at all",
+       "Requires no electrical current through the part",
        "Detects only the deep subsurface defects in it",
        "Works only on nonferromagnetic types of steel pipe"
       ],
@@ -2091,7 +2091,7 @@
       "stem": "Large irregular castings with many surfaces are most practically inspected using:",
       "options": [
        "Prods and/or yokes applied in overlapping local areas",
-       "A single coil shot done for the whole large heavy casting",
+       "A single coil shot for the large, heavy casting",
        "A central conductor technique used on it only",
        "The residual technique with no equipment at all"
       ],
@@ -2118,7 +2118,7 @@
       "options": [
        "A short duration (about 0.5 s or more) while particles are present, often as repeated shots",
        "Several full continuous minutes at a stretch while the particles sit there on it",
-       "Only a few brief microseconds at most while the particles are still present on the whole part",
+       "Only a few brief microseconds while the particles are present",
        "The entire work shift without any interruption at all while particles are present"
       ],
       "answer": 0,
@@ -2254,7 +2254,7 @@
       "options": [
        "Direct current, giving good subsurface penetration",
        "Pure AC current with a strong surface skin effect on it",
-       "No magnetic field forming in it at all anywhere",
+       "No magnetic field forming in the part",
        "The field of a held permanent bar magnet"
       ],
       "answer": 0,
@@ -2409,7 +2409,7 @@
       "stem": "AC is well suited to demagnetization because it:",
       "options": [
        "Naturally reverses direction each cycle, allowing decreasing reversals",
-       "Has no magnetic field reversals at all ever during use",
+       "Has no magnetic field reversals during use",
        "Penetrates the very deepest of all the current types ever used",
        "Cannot be reduced in amplitude steps at all during it"
       ],
@@ -2747,7 +2747,7 @@
       "stem": "A part magnetized with AC and then checked residually often shows weak or inconsistent indications because:",
       "options": [
        "AC may leave the part in a low or uncertain residual state when interrupted",
-       "AC always fully saturates the whole part right to the core, every single time",
+       "AC always saturates the part fully to its core",
        "AC simply penetrates far too deeply into the thick part body to work well",
        "AC cannot magnetize ordinary ferromagnetic steel parts at all"
       ],
@@ -2800,7 +2800,7 @@
       "options": [
        "Practical high magnetizing currents are more easily produced by rectified line power",
        "Steady battery DC penetrates far too little into the thick part to be of any real use",
-       "Steady battery DC keeps reversing its own polarity all on its own constantly",
+       "Steady battery DC keeps reversing its own polarity",
        "Steady battery DC simply cannot magnetize ordinary steel parts at all"
       ],
       "answer": 0,
@@ -2853,7 +2853,7 @@
        "A smooth, high-output DC with low ripple for deep penetration",
        "A strong heavy pulsation just like half-wave DC has",
        "Pure surface field concentration just like plain AC always gives",
-       "Fully automatic demagnetization of the whole part"
+       "Fully automatic demagnetization of the part"
       ],
       "answer": 0,
       "explanation": "Three-phase FWDC delivers smooth high-current DC with minimal ripple, giving strong, deep, uniform fields suited to subsurface inspection of large parts.",
@@ -2956,7 +2956,7 @@
       "options": [
        "Collapsing the magnetizing current to induce a stronger momentary field near the ends",
        "Slowly increasing the magnetizing current up over several long seconds each single time",
-       "Reversing the magnetic field polarity continuously the whole time through",
+       "Reversing the magnetic field polarity continuously",
        "Lowering the particle bath concentration right down low instead"
       ],
       "answer": 0,
@@ -3059,7 +3059,7 @@
       "stem": "Applying two or more brief shots in the continuous technique is done to:",
       "options": [
        "Ensure particles have reached leakage fields while the field is on",
-       "Demagnetize the whole part slowly and gradually each time",
+       "Demagnetize the part slowly and gradually",
        "Heat the part up in order to improve the contrast",
        "Reduce the field down below the usable detection threshold entirely"
       ],
@@ -3085,7 +3085,7 @@
       "stem": "A common bench demagnetizer is an AC coil through which the part is:",
       "options": [
        "Passed and slowly withdrawn to a distance while the coil is energized",
-       "Held stationary at full current indefinitely the entire whole time it runs",
+       "Held at full current steadily while it runs",
        "Quickly dipped down into the particle bath and back out",
        "Struck sharply several times over with a hammer"
       ],
@@ -3189,9 +3189,9 @@
       "stem": "Which is the best general guideline for choosing current type?",
       "options": [
        "AC for surface defects; DC/FWDC for subsurface; HWDC with dry powder for rough/subsurface work",
-       "Always just use plain AC for absolutely every single inspection job there is, no matter what",
-       "Always just use steady DC for absolutely every single inspection job there is, no matter what at all",
-       "The current type chosen never really matters at all for any of the inspection work done"
+       "Always use plain AC for every inspection job, whatever the part",
+       "Always use steady DC for every inspection job, whatever the part",
+       "The current type chosen never matters for the inspection"
       ],
       "answer": 0,
       "explanation": "Match the current to the task: AC for surface, FWDC/DC for subsurface, and HWDC with dry powder for rough surfaces and subsurface defects on castings and welds.",
@@ -3223,7 +3223,7 @@
        "Head shot (circular) and coil (longitudinal) in one machine",
        "Only handheld yoke magnetization by itself and nothing else",
        "Only the application of dry powder particles to it",
-       "Only final part demagnetization on its own"
+       "Only final demagnetization of the part"
       ],
       "answer": 0,
       "explanation": "A wet horizontal unit has head/tailstock contacts for circular shots and a built-in coil for longitudinal shots, plus bath application and demagnetization, making it a versatile bench machine.",
@@ -3351,7 +3351,7 @@
       "stem": "A central conductor is typically a:",
       "options": [
        "Solid or hollow copper bar passed through the bore of a hollow part",
-       "A solenoid coil wound tightly around the whole outside of the part body",
+       "A solenoid coil wrapped tightly around the entire outside of the part",
        "A solid permanent bar magnet block held against it",
        "A UV-A viewing lamp used overhead nearby for viewing"
       ],
@@ -3429,8 +3429,8 @@
       "stem": "A QQI (quantitative quality indicator) shim is used to:",
       "options": [
        "Verify that an adequate field exists at the part surface in the required direction(s)",
-       "Measure the overall ambient white light level across the whole inspection booth area now",
-       "Fully demagnetize the whole part once the inspection is all finished",
+       "Measure the ambient white light level across the inspection booth",
+       "Fully demagnetize the part once the inspection is finished",
        "Filter and clean out the particle bath suspension thoroughly"
       ],
       "answer": 0,
@@ -3456,7 +3456,7 @@
       "options": [
        "Against the part surface (flaw side down), bonded so flux must cross it",
        "Facing completely away from the part surface, the entirely wrong way round",
-       "Left floating loose in the particle bath the whole time",
+       "Left floating loose in the particle bath",
        "Tucked away inside the coil winding itself somewhere"
       ],
       "answer": 0,
@@ -3663,9 +3663,9 @@
       "stem": "A UV-A lamp should be allowed to warm up before use mainly because:",
       "options": [
        "Its output stabilizes at full intensity after warm-up",
-       "It helps to cool the whole particle bath down",
+       "It helps cool the particle bath down",
        "It needs more time to electrically charge up the particles",
-       "The warm-up time demagnetizes the whole part"
+       "The warm-up time demagnetizes the part"
       ],
       "answer": 0,
       "explanation": "Many UV-A lamps need a warm-up period to reach and stabilize full output; intensity is verified after warm-up to ensure the minimum irradiance is met.",
@@ -3716,7 +3716,7 @@
       "options": [
        "Settled volume of particles (bath concentration)",
        "The UV-A viewing light intensity level",
-       "The magnetizing current value being applied right now",
+       "The magnetizing current value being applied",
        "The yoke pole spacing gap distance"
       ],
       "answer": 0,
@@ -3742,7 +3742,7 @@
       "options": [
        "Subjecting the part to a reversing field that decreases as the part is withdrawn",
        "Applying one strong, steady DC field to it in just one single fixed direction only",
-       "Heating the whole part up well above red heat for a long while first",
+       "Heating the part well above red heat for a while first",
        "Spraying the particle bath onto it at a very high pressure"
       ],
       "answer": 0,
@@ -3819,8 +3819,8 @@
       "stem": "A key limitation of the pie-type field indicator is that it:",
       "options": [
        "Confirms field presence/direction but not that the field is adequate for subsurface defects",
-       "Gives an exact numeric field strength value in gauss every single time",
-       "Measures the residual magnetic field left in the whole part right after full demagnetization",
+       "Gives an exact field strength value in gauss",
+       "Measures the residual field left in the part after demagnetization",
        "Works only on fully nonmagnetic aluminum and brass parts"
       ],
       "answer": 0,
@@ -3872,7 +3872,7 @@
       "options": [
        "Cables to prods, clamps, or a wrapped cable coil in the field",
        "A single fixed bench-mounted coil only, and nothing else at all",
-       "A UV-A viewing lamp on its own only, and nothing more",
+       "A UV-A viewing lamp and nothing else",
        "A particle bath settling tube only, and nothing else"
       ],
       "answer": 0,
@@ -3975,9 +3975,9 @@
       "stem": "The filter on a UV-A inspection lamp is important because it:",
       "options": [
        "Blocks unwanted visible and shorter-wavelength light, passing UV-A",
-       "Increases the overall magnetizing current value as well, too",
+       "Increases the overall magnetizing current value applied",
        "Measures the particle bath concentration settling level",
-       "Demagnetizes the whole part completely afterward"
+       "Demagnetizes the part completely afterward"
       ],
       "answer": 0,
       "explanation": "The filter passes UV-A while blocking visible light and harmful shorter wavelengths; a cracked or missing filter can flood the field with white light and pose a safety hazard.",
@@ -4053,9 +4053,9 @@
       "stem": "On a wet horizontal unit, the head and tailstock are used to:",
       "options": [
        "Clamp the part and pass current through it for a circular field",
-       "Hold up and steady the UV-A viewing lamp up overhead the whole time",
-       "Mix and agitate the whole particle bath suspension",
-       "Read off the residual field strength value still left"
+       "Hold and steady the UV-A viewing lamp overhead",
+       "Mix and agitate the particle bath suspension",
+       "Read off the residual field strength value left in the part afterward"
       ],
       "answer": 0,
       "explanation": "The head and tailstock contacts clamp the part and pass the magnetizing current end to end for the circular (head) shot.",
@@ -4079,9 +4079,9 @@
       "stem": "Continuous agitation of a wet bath reservoir is needed to:",
       "options": [
        "Keep particles uniformly suspended for consistent concentration",
-       "Increase the overall magnetizing current value quite a lot",
-       "Raise the UV-A viewing light output level somewhat",
-       "Demagnetize the whole part completely afterward"
+       "Increase the overall magnetizing current value",
+       "Raise the UV-A viewing light output level across the part surface",
+       "Demagnetize the part completely afterward"
       ],
       "answer": 0,
       "explanation": "Agitation keeps the particles in suspension so the applied bath has a consistent, correct concentration; settling would starve the bath of particles.",
@@ -4105,7 +4105,7 @@
       "stem": "Prod tips are commonly made of which material to limit copper pickup and arc damage on steel parts?",
       "options": [
        "Steel or aluminum (rather than bare copper) in many specifications",
-       "Only ever pure bare copper is required, in every single specification",
+       "Only pure bare copper is allowed in any specification",
        "Plastic of some kind, since it conducts no current at all",
        "Ordinary glass, since it cannot scratch the part surface at all"
       ],
@@ -4131,8 +4131,8 @@
       "stem": "When verifying field with a tangential Hall probe, the probe should be held:",
       "options": [
        "Flat against the surface, sensing the field parallel to the surface",
-       "Held perpendicular, sensing the field straight down into the whole part",
-       "Held several full inches up above the part surface entirely",
+       "Held perpendicular, sensing the field down into the part",
+       "Held several inches up above the part surface",
        "Down inside the wet particle bath reservoir tank"
       ],
       "answer": 0,
@@ -4157,7 +4157,7 @@
       "stem": "Compared with a pie gauge, a QQI shim provides:",
       "options": [
        "A more reliable indication of adequate field at the actual part surface and direction",
-       "Only a single numeric gauss value reading taken at just one single spot on the whole part",
+       "Only a single gauss reading taken at one spot on the part",
        "A simple measure of the UV-A light irradiance at the part surface",
        "A particle bath pH and overall acidity reading instead of anything else"
       ],
@@ -4235,7 +4235,7 @@
       "stem": "Daily MT system performance is commonly verified using:",
       "options": [
        "A known reference (Ketos ring or a part with known discontinuities) plus lighting and bath checks",
-       "Only the magnetizing ammeter current reading shown, all by itself alone and nothing whatsoever else",
+       "Only the magnetizing ammeter current reading shown",
        "Only the overall measured weight of the part, all by itself and nothing more",
        "Only the UV-A lamp serial number written on its label, and nothing else"
       ],
@@ -4321,7 +4321,7 @@
        "UV-A light in a darkened area",
        "Bright white viewing light only",
        "Plain infrared heat light only",
-       "No light at all of any kind"
+       "No viewing light source at all"
       ],
       "answer": 0,
       "explanation": "Fluorescent particles emit visible light when excited by UV-A; inspection is done in low ambient light so the glowing indications stand out.",
@@ -4346,8 +4346,8 @@
       "options": [
        "Color contrast against the part surface under white light",
        "Bright fluorescence under the UV-A black light",
-       "Their own naturally high electrical conductivity",
-       "Their own magnetic charge actually glowing on its own"
+       "Their own naturally high electrical conductivity in the metal",
+       "Their own magnetic charge glowing by itself"
       ],
       "answer": 0,
       "explanation": "Visible particles (often gray, red, or black, sometimes with a contrast paint) are seen by color contrast under adequate white light.",
@@ -4371,9 +4371,9 @@
       "stem": "A thin contrast (background) paint is sometimes applied before visible MT to:",
       "options": [
        "Improve contrast between indications and a dark or shiny surface",
-       "Increase the part's overall magnetic field strength quite a lot more",
-       "Replace the need for any magnetic particles at all here",
-       "Demagnetize the whole part fully beforehand first"
+       "Increase the part's overall magnetic field strength",
+       "Replace the need for magnetic particles",
+       "Demagnetize the part fully beforehand"
       ],
       "answer": 0,
       "explanation": "A light contrast coating gives a uniform background so dark visible particles stand out, improving indication visibility on dark or shiny surfaces.",
@@ -4397,9 +4397,9 @@
       "stem": "Good particle mobility is important because it allows particles to:",
       "options": [
        "Migrate to and gather at weak leakage fields, forming indications",
-       "Increase the overall magnetizing current quite a whole lot more",
+       "Increase the magnetizing current substantially",
        "Chemically penetrate down through any nonmagnetic coatings",
-       "Demagnetize the whole part fully right after inspection"
+       "Demagnetize the part fully right after inspection"
       ],
       "answer": 0,
       "explanation": "Mobile particles can move across the surface to collect at leakage fields, including weak ones from fine or subsurface defects, which is why HWDC pulsation and proper bath are used.",
@@ -4425,7 +4425,7 @@
        "Elongated particles align and build strong indications while globular particles aid mobility",
        "Only the round globular particles can ever be magnetized at all, and never any of the others",
        "The elongated particles are completely nonmagnetic and do nothing useful at all",
-       "Particle shape serves no real functional purpose in the media at all really"
+       "Particle shape serves no real functional purpose"
       ],
       "answer": 0,
       "explanation": "Elongated particles link end-to-end along leakage fields to form strong, well-defined indications; rounded particles improve flow and mobility. The blend balances sensitivity and handling.",
@@ -4449,9 +4449,9 @@
       "stem": "Magnetic particles are given pigments or fluorescent coatings primarily to:",
       "options": [
        "Make the indications visible (by color or fluorescence)",
-       "Increase their own magnetic permeability quite a lot more",
+       "Increase their own magnetic permeability and retentivity",
        "Make them completely nonmagnetic",
-       "Raise the whole particle bath temperature"
+       "Raise the particle bath temperature"
       ],
       "answer": 0,
       "explanation": "The magnetic core provides the response to leakage fields; the coating provides the visibility, either color contrast or fluorescence under UV.",
@@ -4501,9 +4501,9 @@
       "stem": "Water-based magnetic particle baths require conditioning agents that provide:",
       "options": [
        "Wetting, corrosion inhibition, and antifoam properties",
-       "A higher electrical resistance only, and really nothing else",
+       "A higher electrical resistance and nothing else",
        "Bright fluorescence all by themselves",
-       "Full magnetization of the whole part itself"
+       "Full magnetization of the part body"
       ],
       "answer": 0,
       "explanation": "Because water does not wet steel well and can promote corrosion and foaming, conditioners add wetting agents, corrosion inhibitors, and antifoam so the bath performs and protects the part.",
@@ -4528,7 +4528,7 @@
       "options": [
        "A settling test (settled particle volume in a 100 mL tube after a set time)",
        "Simply reading the magnetizing current off the ammeter dial instead each time",
-       "Weighing the whole dry part on a scale before and after the test",
+       "Weighing the dry part on a scale before and after",
        "Measuring the UV-A light intensity right at the part surface instead"
       ],
       "answer": 0,
@@ -4605,7 +4605,7 @@
       "stem": "A bath that is too concentrated tends to:",
       "options": [
        "Produce heavy background that can mask relevant indications",
-       "Improve the indication contrast without any limit at all whatsoever",
+       "Improve the indication contrast without any real limit",
        "Increase the overall magnetizing field strength too",
        "Lower the part's residual field strength"
       ],
@@ -4633,7 +4633,7 @@
        "Form weak indications and risk missing fine discontinuities",
        "Create far too much excessive background fluorescence glow on it",
        "Increase the overall sensitivity without any limit",
-       "Demagnetize the whole part on its own"
+       "Demagnetize the part by itself"
       ],
       "answer": 0,
       "explanation": "Too few particles cannot build adequate indications, so weak or fine discontinuities may be missed; concentration must be kept in range.",
@@ -4710,8 +4710,8 @@
       "options": [
        "Stay suspended in the liquid and resolve very fine surface cracks",
        "Penetrate right down deep into the solid metal body itself",
-       "Increase the whole part's overall magnetization level",
-       "Reduce the overall fluorescence brightness quite a lot"
+       "Increase the part's overall magnetization level",
+       "Reduce the overall fluorescence brightness"
       ],
       "answer": 0,
       "explanation": "Fine particles remain suspended in the bath and can outline very small surface discontinuities, which is why wet methods have high surface sensitivity.",
@@ -4735,9 +4735,9 @@
       "stem": "Dry powder should be applied as a:",
       "options": [
        "Light, uniform cloud that gently drifts onto the magnetized surface",
-       "A great heavy dump poured directly onto the whole part all at once together",
+       "A heavy dump poured directly onto the part at once",
        "A thick, heavy wet slurry poured straight on",
-       "A high-pressure air blast aimed directly onto it"
+       "A high-pressure air blast aimed straight at the magnetized part surface"
       ],
       "answer": 0,
       "explanation": "A gentle, even cloud lets mobile particles reach leakage fields; dumping or blasting overwhelms the surface and destroys indications.",
@@ -4789,7 +4789,7 @@
        "Gently flooded/flowed over, not forcefully sprayed",
        "Blasted hard at it under very high pressure",
        "Left completely bone dry throughout entirely",
-       "Coated all over with a thick"
+       "Coated all over with a thick, heavy dry paste layer"
       ],
       "answer": 0,
       "explanation": "A gentle flow wets the surface and lets fine particles settle into leakage fields; forceful spray would wash indications away.",
@@ -4866,8 +4866,8 @@
       "options": [
        "The surface is clean enough for the bath to wet it uniformly (no breaks in the film)",
        "The UV-A viewing lamp has been warmed up fully before any use at all",
-       "The whole particle bath concentration is correct and well within the proper set range",
-       "The whole part has been properly demagnetized well beforehand already"
+       "The particle bath concentration is correct and within range",
+       "The part has been properly demagnetized beforehand"
       ],
       "answer": 0,
       "explanation": "If water sheets evenly without breaking into beads, the surface is clean and the bath will wet it uniformly; breaks indicate oil/contamination that must be cleaned off.",
@@ -5074,7 +5074,7 @@
       "options": [
        "Damage particle coatings/fluorescence and flash off liquid baths",
        "Increase the part's magnetic permeability permanently",
-       "Improve the fine surface-crack resolution quite a lot",
+       "Improve the fine surface-crack resolution",
        "Eliminate the need for two separate field directions entirely"
       ],
       "answer": 0,
@@ -5099,9 +5099,9 @@
       "stem": "The settling test specifies a fixed settling time so that:",
       "options": [
        "Results are repeatable and comparable to the acceptance range",
-       "The whole particle bath gets a chance to warm up fully right first",
+       "The particle bath gets a chance to warm up fully first",
        "The UV-A viewing lamp output gets to fully stabilize",
-       "The whole part demagnetizes itself all on its own"
+       "The part demagnetizes itself spontaneously"
       ],
       "answer": 0,
       "explanation": "A standardized settling time (for example, the specified minutes for the bath type) makes the settled-volume reading consistent and comparable against the acceptance limits.",
@@ -5153,7 +5153,7 @@
        "The bright glow against a dark background gives very high contrast for the eye",
        "The fluorescent particles are simply much larger in size than all the others",
        "The fluorescent particles can penetrate right down into the solid metal",
-       "The fluorescent particles require no special viewing lighting at all, ever"
+       "The fluorescent particles need no special viewing light"
       ],
       "answer": 0,
       "explanation": "The eye detects a small bright fluorescent indication against darkness far more readily than a small color-contrast indication, so fluorescent methods typically find finer discontinuities.",
@@ -5229,7 +5229,7 @@
       "stem": "Fluorescent wet particles are often preferred on a smooth, bright machined surface because:",
       "options": [
        "Visible particles would lack contrast, while fluorescent indications glow clearly",
-       "Bright",
+       "Visible red particles give better contrast on bright shiny machined surfaces",
        "The fluorescent particles are themselves completely nonmagnetic and inert",
        "Bright, shiny machined surfaces require only dry powder, and never wet"
       ],
@@ -5705,7 +5705,7 @@
        "A field of adequate strength and known direction is present at that spot",
        "The exact numeric field strength value in gauss units very precisely",
        "The particle bath is now badly contaminated",
-       "The whole part is fully demagnetized right now"
+       "The part is already fully demagnetized"
       ],
       "answer": 0,
       "explanation": "Indications forming across the pie-gauge segments confirm a usable field and its direction at that location, though not a numeric value.",
@@ -5729,8 +5729,8 @@
       "stem": "QQI shims are the preferred field-verification tool for:",
       "options": [
        "Confirming adequate field and direction at specific surface locations, including multidirectional setups",
-       "Measuring the overall ambient white light level all across the whole inspection booth area very accurately",
-       "Setting the correct prod tip spacing distance before each and every single inspection shot",
+       "Measuring the ambient white light level across the inspection booth",
+       "Setting the correct prod tip spacing before each inspection shot",
        "Checking the particle bath carrier flash point before any field use of it at all"
       ],
       "answer": 0,
@@ -5782,7 +5782,7 @@
       "options": [
        "Verify overall system sensitivity and particle performance at a specified current",
        "Measure the UV-A viewing light intensity level right at the part surface itself there",
-       "Fully demagnetize all the finished parts once the whole inspection is done",
+       "Fully demagnetize all finished parts once the inspection is done",
        "Set the correct particle bath concentration within the proper working range"
       ],
       "answer": 0,
@@ -5808,8 +5808,8 @@
       "options": [
        "Apply a QQI shim at that location and observe indication development",
        "Simply read the magnetizing current off the ammeter dial only, nothing more",
-       "Simply weigh the whole part on a scale and do nothing else at all",
-       "Check the UV-A lamp serial number printed on its own label instead"
+       "Simply weigh the part on a scale and nothing more",
+       "Check the UV-A lamp serial number on its label instead"
       ],
       "answer": 0,
       "explanation": "A QQI at the critical spot directly demonstrates that the field there is adequate and correctly oriented, which an ammeter reading alone cannot confirm on a complex geometry.",
@@ -5833,8 +5833,8 @@
       "stem": "If a part's L/D is computed as 1.5, the standard coil formulas:",
       "options": [
        "Do not apply directly; an effective L/D fix (pole pieces) is needed",
-       "Apply completely unchanged exactly just as they already are right now",
-       "Give exactly 45000 ampere-turns flat, every single time",
+       "Apply completely unchanged, just as they are",
+       "Give a flat 45000 ampere-turns regardless of fill factor",
        "Require the use of AC current only, and never any DC"
       ],
       "answer": 0,
@@ -5885,8 +5885,8 @@
       "stem": "Very wide prod spacing reduces detection because:",
       "options": [
        "The field strength between prods drops with distance",
-       "The current automatically increases on its own",
-       "The particle bath concentration rises on its own",
+       "The current automatically increases by itself",
+       "The particle bath concentration rises by itself",
        "The UV-A viewing light intensity simply falls right off"
       ],
       "answer": 0,
@@ -5939,7 +5939,7 @@
        "Verify the actual field with an indicator (QQI, pie gauge, or gaussmeter)",
        "Assume the calculation alone guarantees an adequate field everywhere on it",
        "Skip doing any field check at all entirely",
-       "Only weigh the whole part on a scale instead"
+       "Only weigh the part on a scale instead"
       ],
       "answer": 0,
       "explanation": "Calculations give a starting current, but part geometry affects the real field, so field indicators confirm adequacy and direction at the surface.",
@@ -5963,8 +5963,8 @@
       "stem": "When a part neither fills the coil nor is very small relative to it, the required ampere-turns are found using:",
       "options": [
        "An intermediate-fill-factor formula combining the high- and low-fill results",
-       "Only the low-fill-factor formula every single time, no matter what",
-       "Only the high-fill-factor formula every single time, no matter what else at all",
+       "Only the low-fill-factor formula in all cases",
+       "Only the high-fill-factor formula in all cases",
        "Only the prod spacing current formula instead of anything else"
       ],
       "answer": 0,
@@ -6016,7 +6016,7 @@
       "options": [
        "On the part surface in the area of interest during the shot",
        "Only down in the wet particle bath reservoir tank",
-       "Several full feet away from the whole part entirely",
+       "Several full feet away from the part",
        "Down inside the power supply unit itself somewhere"
       ],
       "answer": 0,
@@ -6145,7 +6145,7 @@
       "stem": "Magnetizing current values in procedures are typically held to:",
       "options": [
        "A specified tolerance band (for example, plus or minus 10 percent)",
-       "An exact single fixed value with absolutely zero tolerance at all ever",
+       "An exact single fixed value with zero tolerance",
        "Just any value at all the operator happens to prefer",
        "Just whatever the ammeter happens to read at the time"
       ],
@@ -6199,7 +6199,7 @@
        "Circular head shot: 300 to 800 A/in of diameter; prods (<3/4 in): 90 to 110 A/in of spacing",
        "Circular head shot: 90 to 110 A/in of the part diameter; prods: 300 to 800 A/in of prod spacing",
        "Both the circular head shot and the prods simply use a flat 10 A per inch each",
-       "Neither the circular shot nor the prods depends on any per-inch value at all really"
+       "Neither the circular shot nor the prods uses a per-inch value"
       ],
       "answer": 0,
       "explanation": "Circular head shots use 300 to 800 A per inch of diameter; prods use 90 to 110 A per inch of spacing for sections under 3/4 in (100 to 125 for thicker).",
@@ -6281,7 +6281,7 @@
       "stem": "A false indication in MT is typically caused by:",
       "options": [
        "Loosely held powder, lint, or surface debris, not a leakage field",
-       "A deep subsurface crack buried well below the whole part surface there",
+       "A deep subsurface crack lying well below the inspected part surface",
        "A tight surface fatigue crack running across it",
        "A rolled-in forging lap defect from the mill"
       ],
@@ -6359,9 +6359,9 @@
       "stem": "The correct sequence after observing an indication is to:",
       "options": [
        "Interpret (relevant, non-relevant, false), then evaluate relevant ones against acceptance criteria",
-       "Simply reject the whole part immediately, without ever once doing any of the further evaluation at all",
-       "Demagnetize the whole part fully first, well before doing any interpretation at all",
-       "Simply ignore all of the small indications entirely, no matter what they might be"
+       "Reject the part immediately, with no further evaluation",
+       "Demagnetize the part fully before any interpretation",
+       "Ignore all the small indications and pass the part"
       ],
       "answer": 0,
       "explanation": "Indications are first interpreted as relevant, non-relevant, or false; relevant indications are then evaluated against the acceptance criteria to accept or reject.",
@@ -6385,9 +6385,9 @@
       "stem": "'Magnetic writing' is a type of indication caused by:",
       "options": [
        "Local contact between a magnetized part and another steel object, producing soft non-relevant lines",
-       "A tight surface fatigue crack that runs right the way across the whole of the magnetized part surface",
-       "A deep subsurface inclusion buried well down below the magnetized part surface",
-       "An internal forging burst formed deep down inside the magnetized part body"
+       "A tight surface fatigue crack running across the magnetized part",
+       "A deep subsurface inclusion below the magnetized part surface",
+       "An internal forging burst deep inside the magnetized part body"
       ],
       "answer": 0,
       "explanation": "Magnetic writing appears when a magnetized part is touched by another ferromagnetic object, leaving soft, often wandering non-relevant indications that can usually be removed by demagnetizing and re-inspecting.",
@@ -6412,8 +6412,8 @@
       "options": [
        "Gently reapply media or blow lightly; a false indication will not reform",
        "Increase the magnetizing current to about 10 times the normal value used",
-       "Simply paint right over the whole indication area",
-       "Demagnetize the whole part and stop inspecting it"
+       "Simply paint over the indication area",
+       "Demagnetize the part and stop inspecting it"
       ],
       "answer": 0,
       "explanation": "Re-examining the area (re-bathing or gentle air) shows whether the indication reforms at a leakage field. A relevant indication reappears; loose-powder false indications do not.",
@@ -6465,7 +6465,7 @@
        "A relevant indication from a real discontinuity",
        "A non-relevant indication from the part geometry",
        "A false indication from loose surface lint",
-       "No real indication at all of any kind"
+       "No real indication on the surface"
       ],
       "answer": 0,
       "explanation": "Cold shuts and laps are real material discontinuities, so they form relevant indications that must be evaluated against acceptance criteria.",
@@ -6490,8 +6490,8 @@
       "options": [
        "Interference with machining, welding, or service, and attraction of chips",
        "A total and permanent loss of all of its ferromagnetism completely for good",
-       "Rapid corrosion of the whole part surface over a short time",
-       "Unwanted fluorescence of the whole part surface area"
+       "Rapid corrosion of the part surface over a short time",
+       "Unwanted fluorescence over the part surface"
       ],
       "answer": 0,
       "explanation": "Residual magnetism can attract debris, deflect instruments, interfere with subsequent welding or machining, and disturb electronics, so parts are demagnetized when residual field would be a problem.",
@@ -6515,9 +6515,9 @@
       "stem": "Demagnetization may be unnecessary when:",
       "options": [
        "The part will be heat treated above the Curie point or further magnetized later, or residual field is harmless in service",
-       "The whole part simply happens to be made of an ordinary ferromagnetic steel material, as most are",
-       "Any indication of any kind at all was found somewhere on the part during the whole inspection process",
-       "The part happened to be magnetized circularly rather than longitudinally during the whole of the inspection process here"
+       "The part happens to be ordinary ferromagnetic steel",
+       "Any indication at all was found somewhere on the part",
+       "The part was magnetized circularly rather than longitudinally"
       ],
       "answer": 0,
       "explanation": "If a later process removes the field (heat treat above Curie point) or the residual field will not affect machining, service, or instruments, demagnetization may not be required.",
@@ -6568,7 +6568,7 @@
       "options": [
        "Slowly withdrawing it to a distance while the coil is energized",
        "Holding it still at the coil center until it has fully cooled down",
-       "Shorting out the whole coil winding entirely",
+       "Shorting out the coil winding entirely",
        "Dipping it down in the particle bath repeatedly"
       ],
       "answer": 0,
@@ -6593,9 +6593,9 @@
       "stem": "Reversing DC demagnetization reduces residual field by:",
       "options": [
        "Reversing polarity while stepping the current down to zero",
-       "Applying a steady DC field at full output for the whole time",
-       "Using just one single DC current pulse only, once",
-       "Heating the whole part right up to red heat"
+       "Applying a steady DC field at full output throughout",
+       "Using a single DC current pulse applied once",
+       "Heating the part up to red heat"
       ],
       "answer": 0,
       "explanation": "Cycling DC through reversals of decreasing magnitude drives the residual flux toward zero and penetrates deeply, suiting thick parts that AC cannot fully reach.",
@@ -6619,7 +6619,7 @@
       "stem": "Adequate demagnetization is verified by:",
       "options": [
        "Measuring residual field with a field indicator/gaussmeter below the specified limit",
-       "Confirming that the whole part still openly shows off all of its old indications still",
+       "Confirming the part still shows all its old indications",
        "Checking the particle bath concentration settling tube level",
        "Measuring the UV-A viewing light intensity at the surface"
       ],
@@ -6697,9 +6697,9 @@
       "stem": "Once an indication is judged relevant, the inspector must:",
       "options": [
        "Evaluate it against the applicable acceptance criteria",
-       "Automatically just accept the whole part right away anyway",
-       "Automatically reject the whole part right away",
-       "Demagnetize and just ship the whole part out"
+       "Automatically accept the part without checking the criteria",
+       "Automatically reject the part right away",
+       "Demagnetize and ship the part out"
       ],
       "answer": 0,
       "explanation": "Relevant indications are measured and compared to the acceptance criteria (size, type, location) to decide acceptance or rejection.",
@@ -6775,9 +6775,9 @@
       "stem": "Excessive magnetizing current can hinder interpretation by:",
       "options": [
        "Creating heavy background and non-relevant indications at geometric features",
-       "Completely eliminating every single one of the indications on the whole part there",
-       "Making all the relevant indications sharper with no downside at all",
-       "Fully demagnetizing the whole part completely all on its own"
+       "Completely eliminating every true indication while leaving the part looking clean",
+       "Making all the relevant indications sharper and easier to read",
+       "Fully demagnetizing the part completely"
       ],
       "answer": 0,
       "explanation": "Too much current furs the surface with particles and exaggerates leakage at section changes, raising background and non-relevant indications that obscure relevant ones.",
@@ -6801,9 +6801,9 @@
       "stem": "A surface scratch differs from a crack indication in that a scratch typically:",
       "options": [
        "Holds particles weakly and does not produce a strong tight leakage line",
-       "Always holds far more particles than any real surface crack ever really does",
+       "Always gathers more particles than a genuine tight surface crack ever holds",
        "Is always located well down subsurface within it",
-       "Cannot be told apart from a real crack by any means at all here"
+       "Cannot be told apart from a real crack by any means"
       ],
       "answer": 0,
       "explanation": "A shallow scratch leaks little field and holds particles weakly, whereas a crack produces a tight, strongly held line; re-inspection and surface examination help distinguish them.",
@@ -6853,9 +6853,9 @@
       "stem": "A non-relevant indication can occur at the boundary between two materials of different permeability because:",
       "options": [
        "Flux leaks at the permeability change even without a discontinuity",
-       "The material boundary there is always already badly cracked",
+       "The boundary between the two different materials is always already cracked",
        "Loose powder just happens to collect right there only",
-       "The magnetic field there simply reverses its own direction there"
+       "The magnetic field reverses direction at the boundary"
       ],
       "answer": 0,
       "explanation": "An abrupt permeability change (for example, a weld-to-base-metal interface or a heat-affected zone) causes flux leakage and a non-relevant indication absent any discontinuity.",
@@ -6879,9 +6879,9 @@
       "stem": "Residual magnetism on a finished part can cause problems such as:",
       "options": [
        "Deflecting nearby instruments and attracting machining chips to cutting surfaces",
-       "Greatly increasing the whole part's overall mechanical strength",
-       "Noticeably improving the whole part's overall corrosion resistance",
-       "Raising the surface fluorescence brightness of the whole part quite a lot"
+       "Greatly increasing the part's mechanical strength",
+       "Noticeably improving the part's corrosion resistance",
+       "Raising the surface fluorescence brightness of the part"
       ],
       "answer": 0,
       "explanation": "Leftover field can disturb compasses and electronics, hold chips on tools and bearings, and interfere with subsequent welding, which is why demagnetization is performed when these matter.",
@@ -6905,9 +6905,9 @@
       "stem": "When a part needs both circular and longitudinal inspection and will be demagnetized, a practical order is to:",
       "options": [
        "Perform circular before longitudinal so the harder-to-detect circular residual is addressed by later demag",
-       "Always just skip over the whole demagnetization step entirely, no matter what kind of part it might happen to be",
-       "Fully demagnetize the whole part between every single particle application step",
-       "Perform only one single field direction the whole time through, just to simplify it"
+       "Always skip the demagnetization step, whatever the part",
+       "Fully demagnetize the part between each particle application",
+       "Perform only one field direction throughout to simplify it"
       ],
       "answer": 0,
       "explanation": "Because circular residual fields are harder to detect, sequencing and demagnetization are planned so residual fields are properly removed; demagnetization typically follows the full inspection, not between applications.",
@@ -7035,8 +7035,8 @@
       "stem": "Final acceptance or rejection of a relevant indication is governed by:",
       "options": [
        "The applicable code, specification, or procedure acceptance criteria",
-       "The inspector's own personal preference all alone",
-       "The overall physical size of the whole part alone only, and nothing else",
+       "The inspector's personal preference on the day",
+       "The overall physical size of the part alone",
        "The particle bath color alone"
       ],
       "answer": 0,
@@ -7087,9 +7087,9 @@
       "stem": "If magnetic writing or non-relevant indications confuse interpretation, a useful step is to:",
       "options": [
        "Demagnetize, clean, and re-inspect the area",
-       "Just reject the whole part immediately",
+       "Reject the part immediately",
        "Increase the magnetizing current up by tenfold",
-       "Stop and just ship the whole part out"
+       "Stop and ship the part out"
       ],
       "answer": 0,
       "explanation": "Demagnetizing and re-inspecting removes magnetic writing and clarifies whether indications are relevant, improving interpretation reliability.",
@@ -7167,7 +7167,7 @@
        "The part's end use and whether residual field will cause problems",
        "The particular color of the magnetic particles that are being used",
        "The inspector's own current personal mood that day",
-       "The current day of the whole working week"
+       "The current day of the working week"
       ],
       "answer": 0,
       "explanation": "Demagnetization is required when residual field would interfere with machining, welding, service, instruments, or chip control; if it will not, demag may be waived per the procedure.",
@@ -7219,7 +7219,7 @@
        "Knowledge of the part geometry and process, plus inspector training",
        "The particle bath temperature reading alone only",
        "The serial number printed on the side of the UV-A viewing lamp itself",
-       "The whole part's overall measured weight on a scale"
+       "The part's measured weight on a scale"
       ],
       "answer": 0,
       "explanation": "Recognizing geometry-driven non-relevant indications requires understanding the part design and manufacturing process, which trained, experienced inspectors apply.",
@@ -7243,9 +7243,9 @@
       "stem": "A typical acceptance limit for residual field after demagnetization is on the order of:",
       "options": [
        "A few gauss (for example, 3 gauss) measured at the surface",
-       "A full 100 gauss or so, measured at the surface",
+       "A full 100 gauss or higher, measured right at the part surface",
        "A full 1000 gauss or so, measured at the surface",
-       "No residual field limit is ever once specified at all anywhere"
+       "No residual field limit is ever specified"
       ],
       "answer": 0,
       "explanation": "Specifications often set a low residual limit such as about 3 gauss at the surface, verified with a field indicator, to ensure adequate demagnetization.",
@@ -7269,9 +7269,9 @@
       "stem": "Reliable interpretation of fluorescent indications requires:",
       "options": [
        "Adequate UV-A intensity and low ambient white light, with dark-adapted eyes",
-       "Plenty of bright white room light flooding the whole inspection booth work area",
-       "No UV-A viewing lamp being used at all during the whole inspection process",
-       "Only a high bath carrier flash point, and nothing else at all besides that"
+       "Plenty of bright white room light flooding the booth",
+       "No UV-A viewing lamp used during the inspection",
+       "Only a high bath carrier flash point and nothing else"
       ],
       "answer": 0,
       "explanation": "Fluorescent indications are interpreted under sufficient UV-A, low ambient white light, and after eye dark-adaptation so faint glows are visible.",
@@ -7321,9 +7321,9 @@
       "stem": "Which statement about demagnetization is correct?",
       "options": [
        "Some parts are very difficult to demagnetize fully due to high coercivity",
-       "Every single part demagnetizes fully and instantly with just about any method",
-       "Demagnetization adds extra material onto the whole part",
-       "Demagnetization is never once verified at all ever"
+       "Every part demagnetizes fully and instantly with any method",
+       "Demagnetization adds extra material onto the part",
+       "Demagnetization is never actually verified"
       ],
       "answer": 0,
       "explanation": "High-coercivity (magnetically hard) materials resist demagnetization and may need deep-penetrating reversing DC and verification to reach the residual limit.",
@@ -7373,9 +7373,9 @@
       "stem": "When in doubt whether an indication is relevant, the inspector should:",
       "options": [
        "Treat it as relevant and evaluate it until proven otherwise",
-       "Just ignore it completely and outright, no matter what",
+       "Ignore it completely and pass the part",
        "Just assume that it is quite clearly false anyway, regardless",
-       "Reject the whole part without any evaluation at all"
+       "Reject the part without any evaluation"
       ],
       "answer": 0,
       "explanation": "Conservative practice treats doubtful indications as relevant and evaluates them, re-inspecting as needed, rather than dismissing them.",
@@ -7431,9 +7431,9 @@
       "stem": "Pre-cleaning before MT is necessary to:",
       "options": [
        "Remove dirt, grease, scale, and coatings that could mask indications or hold particles",
-       "Greatly increase the whole part's overall magnetic retentivity quite well beforehand",
-       "Add an extra magnetic field into the whole part body well beforehand",
-       "Fully demagnetize the whole part completely well before the inspection starts"
+       "Greatly raise the part's magnetic retentivity and residual field strength well beforehand",
+       "Add an extra magnetic field into the part beforehand",
+       "Fully demagnetize the part well before inspection starts"
       ],
       "answer": 0,
       "explanation": "Contaminants and loose coatings cause false indications and can hide relevant ones, so surfaces are cleaned so particles respond only to leakage fields.",
@@ -7457,9 +7457,9 @@
       "stem": "A nonmagnetic coating left on a part during MT:",
       "options": [
        "Reduces sensitivity and may be limited to a maximum thickness by the procedure",
-       "Greatly improves the deep subsurface flaw detection quite a lot more",
-       "Has no real effect at all at any coating thickness whatsoever",
-       "Increases the flaw leakage field strength quite a lot"
+       "Greatly improves deep subsurface flaw detection",
+       "Has no real effect at any coating thickness",
+       "Increases the flaw leakage field strength"
       ],
       "answer": 0,
       "explanation": "A nonconductive, nonmagnetic coating holds particles away from the surface and weakens the available leakage field, so procedures limit acceptable coating thickness (often verified) to preserve sensitivity.",
@@ -7537,7 +7537,7 @@
        "100 foot-candles (about 1000 lux)",
        "About 2 foot-candles only",
        "About a full 20 lux only",
-       "About 10 full foot-candles only here"
+       "About 10 foot-candles at the part surface"
       ],
       "answer": 0,
       "explanation": "Visible MT requires adequate white light, commonly a minimum of 100 foot-candles (about 1000 lux) at the surface.",
@@ -7615,7 +7615,7 @@
        "Avoid looking directly into the lamp and use appropriate UV-filtering eyewear if specified",
        "Stare directly into the bright UV-A lamp just to check on its full output level by eye alone",
        "Remove the lamp filter entirely just to get some extra brightness out of it",
-       "Use UV-C germicidal lamps instead of the proper UV-A ones every single time"
+       "Use UV-C germicidal lamps instead of proper UV-A ones"
       ],
       "answer": 0,
       "explanation": "Inspectors avoid direct exposure to the UV source, keep the filter intact, and use specified protective eyewear; UV-C is hazardous and not used.",
@@ -7639,8 +7639,8 @@
       "stem": "Adequate ventilation is important in MT mainly when:",
       "options": [
        "Using oil-based baths or in confined spaces, to control vapors/mists",
-       "Using just a simple pie field indicator gauge held onto the whole part",
-       "Reading the magnetizing current off the ammeter dial only",
+       "Using a simple pie field indicator held against the part",
+       "Reading the magnetizing current value off the ammeter dial during each shot",
        "Measuring the UV-A viewing light intensity at the surface"
       ],
       "answer": 0,
@@ -7718,8 +7718,8 @@
       "options": [
        "Standard practice for magnetic particle testing",
        "A terminology-only standard document just for NDT",
-       "A liquid penetrant testing standard document",
-       "A radiographic testing standard document"
+       "A magnetic particle terminology standard",
+       "A demagnetization practice standard document"
       ],
       "answer": 0,
       "explanation": "ASTM E1444 is a widely used standard practice that specifies how to perform magnetic particle testing, including techniques, equipment checks, and acceptance-related controls.",
@@ -7743,8 +7743,8 @@
       "stem": "ASTM E709 is best described as a:",
       "options": [
        "Standard guide for magnetic particle testing",
-       "An acceptance specification for welds only here",
-       "An ultrasonic flaw testing code standard",
+       "An acceptance specification for welds only",
+       "A magnetic particle acceptance code standard",
        "A coating thickness measurement standard"
       ],
       "answer": 0,
@@ -7769,7 +7769,7 @@
       "stem": "ASTM E1316 provides:",
       "options": [
        "Standard terminology for nondestructive examination",
-       "The magnetizing current calculation formulas only here",
+       "The magnetizing current calculation formulas for each method",
        "The UV-A viewing lamp specifications only",
        "The particle bath concentration limits only"
       ],
@@ -7821,7 +7821,7 @@
       "stem": "The difference between a 'discontinuity' and a 'defect' is that a defect is:",
       "options": [
        "A discontinuity that is rejectable per the acceptance criteria",
-       "Always far smaller in size than any real discontinuity at all really",
+       "Always far smaller in size than any real discontinuity in the part",
        "A non-relevant part geometry indication only",
        "A specific inspection booth lighting term only"
       ],
@@ -7847,9 +7847,9 @@
       "stem": "Routine MT process control includes periodic checks of:",
       "options": [
        "Lighting (UV and white), bath concentration/condition, and system performance",
-       "Only the part's full purchase price, and absolutely nothing else besides",
-       "Only the ambient room air temperature, and nothing else at all besides",
-       "Only the inspector's own certification expiry date, and really nothing else besides"
+       "Only the part's full purchase price and nothing else",
+       "Only the ambient room air temperature and nothing else",
+       "Only the inspector's certification expiry date"
       ],
       "answer": 0,
       "explanation": "Process control verifies lighting levels, bath concentration and condition, equipment output, and overall sensitivity on a defined schedule so results stay reliable.",
@@ -7899,9 +7899,9 @@
       "stem": "Post-cleaning after MT is performed to:",
       "options": [
        "Remove particles and bath residues that could affect later processing or service",
-       "Add fresh residual magnetism back into the whole part on purpose",
+       "Add fresh residual magnetism back into the part",
        "Increase the part's surface coating thickness on purpose",
-       "Recharge all of the magnetic particles up for the next part"
+       "Recharge the magnetic particles for the next part"
       ],
       "answer": 0,
       "explanation": "Leftover particles and carrier can interfere with painting, assembly, or service, so post-cleaning removes them when required.",
@@ -7925,7 +7925,7 @@
       "stem": "Because circular residual fields lack external poles, demagnetization after circular magnetization should be:",
       "options": [
        "Verified carefully, since a low surface reading may not mean the field is gone",
-       "Skipped right over entirely, no matter what kind of a part it might happen to be",
+       "Skipped entirely, whatever kind of part it is",
        "Done only with a held permanent bar magnet, and nothing else at all",
        "Simply assumed to be fully complete after just one single AC coil pass"
       ],
@@ -7951,9 +7951,9 @@
       "stem": "Performing MT outside the particle manufacturer's temperature limits can:",
       "options": [
        "Degrade particle performance and bath stability, reducing reliability",
-       "Greatly improve the deep subsurface flaw detection",
-       "Eliminate all of the background fluorescence entirely",
-       "Increase the whole part's overall magnetic retentivity"
+       "Greatly improve the detection of deep subsurface flaws within the part body",
+       "Eliminate the background fluorescence entirely",
+       "Increase the part's magnetic retentivity"
       ],
       "answer": 0,
       "explanation": "Excess heat or cold can damage coatings, evaporate or thicken baths, and impair particle behavior, so the specified temperature range is observed.",
@@ -7977,9 +7977,9 @@
       "stem": "A qualified written MT procedure typically specifies:",
       "options": [
        "Equipment, current type and values, technique, media, lighting, and acceptance criteria",
-       "Only the one single part number itself, and absolutely nothing whatsoever else besides that",
-       "Only the inspector's own full printed name, and absolutely nothing else besides",
-       "Only the particle bath brand name, and absolutely nothing else besides that"
+       "Only the single part number and nothing else",
+       "Only the inspector's full printed name and nothing else",
+       "Only the particle bath brand name and nothing else"
       ],
       "answer": 0,
       "explanation": "A procedure defines all controlled variables (equipment, current, technique, media, lighting, processing, and acceptance) so inspections are repeatable and defensible.",
@@ -8005,7 +8005,7 @@
        "Calibrated periodically to keep their readings valid",
        "Used only when they are completely brand new and unused",
        "Replaced entirely by simple pie field gauges",
-       "Never checked or verified at all, ever"
+       "Never checked or verified at any point"
       ],
       "answer": 0,
       "explanation": "Calibration on a schedule keeps light-meter readings trustworthy for verifying UV and white-light requirements.",
@@ -8029,7 +8029,7 @@
       "stem": "Skin protection (gloves) is advisable in wet MT primarily to:",
       "options": [
        "Limit prolonged contact with carrier fluids and additives",
-       "Increase the overall magnetizing field strength",
+       "Increase the overall magnetizing field strength on the part",
        "Improve the overall indication fluorescence",
        "Demagnetize the inspector's own hands"
       ],
@@ -8056,7 +8056,7 @@
       "options": [
        "Adequate field, lighting, bath, and full coverage in required directions",
        "Only that the current ammeter just happened to show off some kind of a number",
-       "Only that the whole part happens to be fairly heavy in its weight",
+       "Only that the part happens to be fairly heavy",
        "Only the current time of the day that it happens to be"
       ],
       "answer": 0,
@@ -8107,9 +8107,9 @@
       "stem": "Demagnetization should be followed by:",
       "options": [
        "Verification that residual field is below the specified limit",
-       "Immediate full re-magnetization of the whole part all over again",
-       "Discarding the whole part outright",
-       "Raising the ambient room light level quite a lot"
+       "Immediate full re-magnetization of the part",
+       "Discarding the part outright",
+       "Raising the ambient room light level well above the normal limit"
       ],
       "answer": 0,
       "explanation": "After demagnetizing, the residual field is measured to confirm it meets the acceptance limit before the part proceeds.",
@@ -8133,9 +8133,9 @@
       "stem": "Acceptable pre-cleaning methods for MT include:",
       "options": [
        "Solvent cleaning, detergent washing, or removal of scale/coatings as appropriate",
-       "Adding even much more oil onto the whole part surface area well beforehand",
-       "Trying to magnetize all of the surface dirt right off of it",
-       "Just leaving all of the heavy mill scale fully in place on it"
+       "Adding much more oil onto the part surface beforehand",
+       "Trying to magnetize the surface dirt off the part",
+       "Leaving the heavy mill scale fully in place"
       ],
       "answer": 0,
       "explanation": "Surfaces are cleaned by suitable means so particles respond only to leakage fields; heavy scale, grease, and loose coatings are removed first.",
@@ -8211,9 +8211,9 @@
       "stem": "MT records should typically include:",
       "options": [
        "Procedure used, parameters, results/indications, and inspector identification",
-       "Only the calendar date of the inspection, and really nothing else at all besides",
-       "Only the outer color of the whole part, and nothing else besides that",
-       "Only the particle bath brand name, and nothing else at all besides that"
+       "Only the calendar date of the inspection",
+       "Only the outer color of the part",
+       "Only the particle bath brand name"
       ],
       "answer": 0,
       "explanation": "Complete records document the procedure, parameters, results, disposition, and personnel so the inspection is traceable and verifiable.",
@@ -8237,9 +8237,9 @@
       "stem": "Performing MT in a confined space requires special attention to:",
       "options": [
        "Ventilation, vapor control, and confined-space safety procedures",
-       "The particle bath color alone, and nothing else besides that at all",
+       "The particle bath color alone and nothing else",
        "The UV-A lamp serial number alone, and nothing else at all besides",
-       "The whole part's measured weight alone, and nothing else besides that"
+       "The part's measured weight alone and nothing else"
       ],
       "answer": 0,
       "explanation": "Confined spaces concentrate vapors and pose entry hazards, so ventilation and confined-space procedures are essential for safety.",
@@ -8263,9 +8263,9 @@
       "stem": "Which lighting summary is correct?",
       "options": [
        "Fluorescent: at least 1000 microwatts/cm-squared UV-A and low ambient white (about 2 fc max); visible: at least about 100 fc white",
-       "Fluorescent: just 100 fc of plain white light; visible: UV-A black light only, with no white light at all needed anywhere at all",
-       "Both the fluorescent and the visible methods: just a flat 2 fc of white light, nothing else at all",
-       "Lighting requirements simply do not exist at all for either of the two methods, anywhere"
+       "Fluorescent: 100 fc of plain white light; visible: UV-A black light only, no white light needed",
+       "Both fluorescent and visible methods: a flat 2 fc of white light and nothing more",
+       "Lighting requirements do not exist for either method"
       ],
       "answer": 0,
       "explanation": "Fluorescent MT needs adequate UV-A (commonly 1000 microwatts/cm-squared) with low ambient white light (about 2 foot-candles maximum); visible MT needs adequate white light (commonly about 100 foot-candles minimum).",
@@ -8289,7 +8289,7 @@
       "stem": "Which pairing of standard and purpose is correct?",
       "options": [
        "E1444: practice for MT; E709: guide for MT; E1316: NDT terminology",
-       "E1444: NDT terminology; E709: liquid penetrant; E1316: radiography testing",
+       "E1444: equipment; E709: acceptance levels; E1316: current types",
        "All three of them are just particle bath concentration specifications",
        "All three of them are just UV-A viewing lamp output standards"
       ],

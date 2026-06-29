@@ -57,9 +57,9 @@
       "stem": "A major advantage of PT over magnetic particle testing is that PT can be used on:",
       "options": [
        "Nonferromagnetic materials such as aluminum, stainless, and plastics",
-       "Only plain carbon steel parts and absolutely nothing else here at all",
-       "Only strongly ferromagnetic steel materials and nothing else here",
-       "Only soft, porous, absorbent castings and similar open materials"
+       "Only plain carbon steel parts and no other metals",
+       "Only strongly ferromagnetic steels, never aluminum or stainless",
+       "Only soft, porous, absorbent castings and other open, sponge-like materials"
       ],
       "answer": 0,
       "explanation": "PT does not depend on magnetism, so it works on virtually any nonporous material, including nonferromagnetic metals, glass, ceramics, and many plastics.",
@@ -109,9 +109,9 @@
       "stem": "Surface tension and wetting ability are important to a penetrant because they:",
       "options": [
        "Govern how well the penetrant enters and spreads into discontinuities",
-       "Determine the whole part's overall surface metal hardness value",
-       "Set the strength of the part's whole magnetizing field",
-       "Control the part's overall electrical current conductivity"
+       "Determine the part's overall surface metal hardness",
+       "Set the strength of the part's applied magnetizing field",
+       "Control the part's overall electrical conductivity and resistance to current"
       ],
       "answer": 0,
       "explanation": "Good wetting (a low contact angle) and appropriate surface tension let the penetrant spread over the surface and be drawn into fine openings, which is the basis of penetrant entry.",
@@ -161,7 +161,7 @@
       "stem": "PT cannot detect a subsurface void because the void:",
       "options": [
        "Has no opening at the surface for penetrant to enter",
-       "Is simply far too small for it ever to find at all here",
+       "Is far too small and tight for the penetrant to ever enter it",
        "Is completely nonmagnetic in its nature",
        "Is simply filled up with trapped air inside it"
       ],
@@ -188,7 +188,7 @@
       "options": [
        "Allow penetrant enough time to seep into discontinuities",
        "Dry the red penetrant out fully on the part surface",
-       "Remove all of the excess surface penetrant off it first",
+       "Remove all of the excess surface penetrant before developing",
        "Develop out the final indication far too early"
       ],
       "answer": 0,
@@ -213,8 +213,8 @@
       "stem": "After excess penetrant is removed, the developer's main job is to:",
       "options": [
        "Draw penetrant out of discontinuities and provide a contrasting background",
-       "Add even more red penetrant dye onto the whole part surface",
-       "Magnetize the whole entire part fully",
+       "Flood even more red penetrant dye onto the already-cleaned part surface again",
+       "Magnetize the entire part fully",
        "Clean out the open discontinuity fully"
       ],
       "answer": 0,
@@ -240,8 +240,8 @@
       "options": [
        "Pulls trapped penetrant out and spreads it wider than the actual opening",
        "Shrinks the final indication right down much smaller",
-       "Dissolves the trapped red penetrant dye away completely",
-       "Reverses the red penetrant dye's whole color completely"
+       "Chemically dissolves the trapped red penetrant dye and washes it fully away",
+       "Reverses the red penetrant dye's color completely"
       ],
       "answer": 0,
       "explanation": "By absorbing and spreading the bleed-back, the developer makes the indication appear wider than the discontinuity itself, magnifying small openings for the eye.",
@@ -266,8 +266,8 @@
       "options": [
        "Drainage and the practical dwell time, not the ultimate ability to enter a crack",
        "The final outer color of the indication itself",
-       "The whole part's overall magnetism and its field strength",
-       "The exact UV-A light wavelength that is needed for viewing it all here"
+       "The part's overall magnetism and its field strength",
+       "The exact UV-A light wavelength and lamp intensity required to view each indication"
       ],
       "answer": 0,
       "explanation": "Viscosity influences how fast penetrant drains and how it is handled, affecting practical dwell and removal, but a low-viscosity carrier is not what forces entry; capillary action does.",
@@ -291,9 +291,9 @@
       "stem": "Penetrant cannot enter a discontinuity that is:",
       "options": [
        "Filled with dirt, oil, paint, or prior coatings",
-       "Fully open right to the whole part surface here",
+       "Fully open right to the bare part surface",
        "Located on a fully nonferromagnetic aluminum part",
-       "Already fully wetted well by the red penetrant here"
+       "Already fully wetted by the red penetrant"
       ],
       "answer": 0,
       "explanation": "Contaminants block the opening, so precleaning is essential; a clogged discontinuity will not admit penetrant and will be missed.",
@@ -317,9 +317,9 @@
       "stem": "Within limits, performing PT at too low a temperature can:",
       "options": [
        "Reduce penetrant mobility and slow penetration",
-       "Improve the overall sensitivity without any limit here",
-       "Magnetize the whole entire part fully",
-       "Eliminate the whole need for any dry developer at all"
+       "Improve the overall sensitivity without any limit",
+       "Magnetize the entire part fully",
+       "Remove the need for any dry developer entirely"
       ],
       "answer": 0,
       "explanation": "Cold thickens penetrant and slows capillary action; standard practice specifies a temperature range, and work outside it requires a qualified procedure.",
@@ -370,7 +370,7 @@
       "options": [
        "Emits visible light when excited by UV-A",
        "Reflects bright white light right back strongly",
-       "Conducts an electric current quite well here",
+       "Conducts an electric current through the part",
        "Becomes fully magnetic itself"
       ],
       "answer": 0,
@@ -396,7 +396,7 @@
       "options": [
        "Color contrast against the developer under white light",
        "Its bright fluorescence seen under the UV-A black light",
-       "Strong magnetic attraction of the particles to it here",
+       "Strong magnetic attraction of the particles to it",
        "Its own faint heat emission given off"
       ],
       "answer": 0,
@@ -421,9 +421,9 @@
       "stem": "PT is generally NOT suitable for:",
       "options": [
        "Porous materials that absorb penetrant into the background",
-       "Solid, smooth, nonporous cast aluminum casting parts here so",
-       "Smooth, sound stainless steel welded weld joints here",
-       "Smooth, solid, nonporous titanium forging parts here"
+       "Solid, smooth, nonporous cast aluminum and bronze casting parts",
+       "Smooth, sound stainless steel welded joints",
+       "Smooth, solid, nonporous titanium forging parts"
       ],
       "answer": 0,
       "explanation": "Porous materials soak up penetrant everywhere, creating overwhelming background and masking indications, so PT is not reliable on them.",
@@ -447,9 +447,9 @@
       "stem": "Penetrant can enter a discontinuity on the underside of a horizontal part because capillary force:",
       "options": [
        "Can act independently of orientation",
-       "Only ever works straight downward here",
-       "Requires the whole part to be magnetized",
-       "Requires a full hard vacuum to work here"
+       "Only ever works straight downward by gravity",
+       "Requires the entire part to be magnetized first",
+       "Requires a full hard vacuum in order to work"
       ],
       "answer": 0,
       "explanation": "Capillary action depends on surface tension and wetting, not on gravity direction, so penetrant is drawn into openings regardless of part orientation.",
@@ -473,9 +473,9 @@
       "stem": "In PT, higher sensitivity refers to the ability to:",
       "options": [
        "Detect smaller and tighter discontinuities",
-       "Inspect much thicker and heavier parts here",
-       "Penetrate much deeper below the surface here",
-       "Magnetize much harder steel alloys here too"
+       "Inspect much thicker and heavier parts",
+       "Penetrate much deeper below the part surface",
+       "Magnetize much harder steel alloys"
       ],
       "answer": 0,
       "explanation": "Sensitivity describes how small a surface opening the system can reveal; higher-sensitivity systems detect finer, tighter discontinuities.",
@@ -500,8 +500,8 @@
       "options": [
        "Liquid penetrant testing",
        "Magnetic particle testing",
-       "Radiography",
-       "Ultrasonic testing"
+       "Eddy current testing",
+       "Leak (pressure) testing"
       ],
       "answer": 0,
       "explanation": "Oil and whiting (a chalk developer over an oil penetrant) is the precursor to modern liquid penetrant testing, using the same bleed-and-blot principle.",
@@ -525,9 +525,9 @@
       "stem": "Why is thorough precleaning critical to valid PT results?",
       "options": [
        "Contaminants block penetrant entry and cause false or masked indications",
-       "It magnetizes the whole part surface fully",
-       "It greatly increases the whole part's electrical conductivity",
-       "It hardens the whole part surface right up"
+       "It magnetizes the entire part surface fully",
+       "It greatly raises the part's electrical conductivity and surface magnetism",
+       "It hardens the entire part surface"
       ],
       "answer": 0,
       "explanation": "Clean, dry, open discontinuities are required; soils block entry and can produce false indications, so precleaning is fundamental to PT reliability.",
@@ -577,9 +577,9 @@
       "stem": "Applying PT to a porous powder-metal part typically results in:",
       "options": [
        "Excessive background that masks any true indications",
-       "Much sharper, cleaner final indications overall here",
-       "Deeper penetration into the deep subsurface defects",
-       "Soft non-relevant magnetic writing lines on it here"
+       "Much sharper, cleaner final indications overall",
+       "Deeper penetration down into the deep subsurface defects",
+       "Soft non-relevant magnetic writing lines on it"
       ],
       "answer": 0,
       "explanation": "Porosity absorbs penetrant throughout, so the whole surface bleeds and overwhelms any genuine indication, making evaluation impossible.",
@@ -603,9 +603,9 @@
       "stem": "Excess surface penetrant must be removed carefully because over-removal can:",
       "options": [
        "Pull penetrant back out of discontinuities and weaken or erase indications",
-       "Greatly increase the final indication's brightness",
+       "Greatly increase the final indication's brightness, contrast, and sharpness",
        "Add even more red penetrant right into the defect",
-       "Magnetize the whole part surface fully"
+       "Magnetize the entire part surface fully"
       ],
       "answer": 0,
       "explanation": "Aggressive or excessive removal draws penetrant out of the openings, reducing the bleed-back available to form indications, so removal is controlled.",
@@ -629,8 +629,8 @@
       "stem": "Compared with magnetic particle testing, liquid penetrant testing:",
       "options": [
        "Works on more material types but only finds surface-breaking defects",
-       "Works only on plain steel and finds deep subsurface defects too",
-       "Requires a strong applied magnetic field in order to work here",
+       "Works only on plain steel and reliably finds deep subsurface defects too",
+       "Requires a strong applied magnetic field in order to work",
        "Cannot ever find any open surface cracks at all"
       ],
       "answer": 0,
@@ -657,7 +657,7 @@
        "The visible bleed-out that must then be interpreted",
        "The actual physical discontinuity itself down in it",
        "The written code acceptance criterion limit itself",
-       "The penetrant dwell time setting itself right here"
+       "The penetrant dwell time setting itself"
       ],
       "answer": 0,
       "explanation": "An indication is the visible penetrant mark; the inspector interprets whether it represents a relevant discontinuity, a non-relevant feature, or a false indication.",
@@ -707,8 +707,8 @@
       "stem": "Good surface wetting by the penetrant is necessary so that the penetrant will:",
       "options": [
        "Spread uniformly and enter fine openings",
-       "Bead right up and just run straight off here",
-       "Evaporate away really quickly off it here",
+       "Bead right up and run straight off the surface",
+       "Evaporate away very quickly off the surface",
        "Become fully magnetic itself"
       ],
       "answer": 0,
@@ -733,9 +733,9 @@
       "stem": "During dwell, the penetrant should:",
       "options": [
        "Remain wet so it can continue entering discontinuities",
-       "Dry right up into a hard, dry film on it here",
-       "Be washed right off of it immediately here",
-       "Be covered over with the dry developer right here though"
+       "Dry up into a hard, brittle, dry film on the part surface",
+       "Be washed right off the part immediately",
+       "Be covered over with the dry developer at once"
       ],
       "answer": 0,
       "explanation": "The penetrant must stay liquid during dwell to keep seeping into openings; if it dries on the surface it can be hard to remove and indications suffer.",
@@ -760,8 +760,8 @@
       "options": [
        "Provides a high-contrast background for the colored bleed-out",
        "Emits its own bright UV-A black light",
-       "Adds extra magnetism right into the whole part surface here so",
-       "Removes the trapped red penetrant dye fully right here"
+       "Adds extra residual magnetism right into the entire part surface body",
+       "Removes the trapped red penetrant dye fully"
       ],
       "answer": 0,
       "explanation": "The white background makes the red bleed-out stand out under white light, improving the visibility of indications.",
@@ -785,9 +785,9 @@
       "stem": "Fluorescent PT is performed in a darkened area because:",
       "options": [
        "Low ambient light makes the glowing indications easier to see",
-       "The UV-A light needs full darkness in order to function here",
+       "The UV-A black light needs full darkness in order to function at all",
        "The red penetrant only ever works in the full dark",
-       "The dry developer dries much faster in the full dark here"
+       "The dry developer dries much faster in full darkness"
       ],
       "answer": 0,
       "explanation": "Faint fluorescent indications are best seen when ambient white light is low, so inspection is done in a darkened booth with dark-adapted eyes.",
@@ -811,9 +811,9 @@
       "stem": "A very tight crack is detectable by PT provided that:",
       "options": [
        "It is open to the surface and clean enough to admit penetrant",
-       "It is completely filled right in with solid weld metal here",
-       "It is located entirely well down below the subsurface here",
-       "The whole part is made of strongly ferromagnetic steel here so"
+       "It is completely filled in with solid weld metal",
+       "It is located entirely well below the subsurface",
+       "The entire part is made of strongly ferromagnetic carbon steel"
       ],
       "answer": 0,
       "explanation": "PT can reveal extremely tight cracks as long as they break the surface and are clean, since capillary action draws penetrant into even narrow openings.",
@@ -837,9 +837,9 @@
       "stem": "Which is a fundamental limitation of PT?",
       "options": [
        "It finds only discontinuities open to the surface",
-       "It simply cannot ever inspect any aluminum parts here",
-       "It requires a strong applied magnetic field to work here",
-       "It works only on welded joints and nothing else here"
+       "It simply cannot ever inspect any aluminum parts",
+       "It requires a strong applied magnetic field to work",
+       "It works only on welded joints and nothing else"
       ],
       "answer": 0,
       "explanation": "The core limitation is that PT detects only surface-breaking discontinuities; defects with no surface opening are invisible to the method.",
@@ -863,9 +863,9 @@
       "stem": "If a discontinuity still contains cleaning solvent when penetrant is applied, the likely result is:",
       "options": [
        "Reduced or no penetrant entry, risking a missed indication",
-       "Much brighter and stronger final indications overall here",
+       "Much brighter and stronger final indications across the surface",
        "Much faster developing of it all overall",
-       "Greatly increased magnetism in the whole part"
+       "Greatly increased magnetism in the entire part"
       ],
       "answer": 0,
       "explanation": "Trapped solvent or water blocks the opening and dilutes penetrant, so the discontinuity may not fill and the indication can be weak or absent; adequate drying after cleaning is essential.",
@@ -889,9 +889,9 @@
       "stem": "Mechanical operations like shot peening or grit blasting before PT can be a problem because they may:",
       "options": [
        "Smear or close surface openings, hiding discontinuities",
-       "Magnetize the whole entire part fully",
-       "Greatly increase the red penetrant's own fluorescence here",
-       "Lower the whole dry developer's contrast right down here"
+       "Magnetize the entire part fully",
+       "Greatly increase the red penetrant's own fluorescent brightness",
+       "Lower the dry developer's contrast right down"
       ],
       "answer": 0,
       "explanation": "Cold-working operations can peen metal over surface openings, sealing discontinuities so penetrant cannot enter; etching may be required to reopen them.",
@@ -915,9 +915,9 @@
       "stem": "Etching is sometimes specified before PT on machined or worked surfaces to:",
       "options": [
        "Remove smeared metal and reopen surface discontinuities",
-       "Add a thin white contrast paint coating onto it here",
-       "Magnetize the whole part surface fully",
-       "Dry off the whole entire part fully"
+       "Add a thin white contrast paint coating onto the surface first",
+       "Magnetize the entire part surface fully",
+       "Dry off the entire part fully"
       ],
       "answer": 0,
       "explanation": "A light etch removes the smeared metal layer that machining or blasting leaves, reopening discontinuities so penetrant can enter and form indications.",
@@ -941,9 +941,9 @@
       "stem": "Rounded indications from a casting surface typically correspond to:",
       "options": [
        "Gas porosity or pitting open to the surface",
-       "Deep buried subsurface inclusion flaws here",
-       "Tiny internal ferromagnetic domain regions",
-       "Soft non-relevant magnetic writing lines here"
+       "Deep buried subsurface inclusion flaws",
+       "Tiny internal ferromagnetic domain boundary regions",
+       "Soft non-relevant magnetic writing lines"
       ],
       "answer": 0,
       "explanation": "Surface-breaking gas porosity and pits trap penetrant and bleed back as rounded indications; PT only registers those open to the surface.",
@@ -968,7 +968,7 @@
       "options": [
        "Penetration (capillary entry), removal of excess, and developing (blotting out)",
        "Magnetizing the part, then applying the particles, then demagnetizing it again so",
-       "Applying the couplant, sending a pulse, then reading the return echo here",
+       "Removing excess first, then applying penetrant, then dwelling",
        "Film exposure, then the film processing, then viewing the developed film"
       ],
       "answer": 0,
@@ -993,9 +993,9 @@
       "stem": "PT differs from a pressure/leak test in that PT:",
       "options": [
        "Reveals surface openings by bleed-out, not by through-wall leakage",
-       "Requires the whole part to be fully pressurized up first here though",
+       "Requires the entire part to be sealed and fully pressurized with gas first",
        "Only ever finds full through-wall leak holes",
-       "Uses a strong applied magnetic field in order to work here"
+       "Uses a strong applied magnetic field in order to work"
       ],
       "answer": 0,
       "explanation": "PT shows discontinuities open to one surface by penetrant bleed-out, whereas leak testing looks for fluid or gas passing through the wall.",
@@ -1019,9 +1019,9 @@
       "stem": "A practical advantage of PT is that it is:",
       "options": [
        "Relatively simple and applicable to complex shapes and many materials",
-       "Able to find the deep buried subsurface defects too here though",
-       "Strictly limited to only flat, simple, smooth surfaces here",
-       "Only ever usable on strongly magnetic ferrous parts here"
+       "Able to find deep buried subsurface defects too",
+       "Strictly limited to only flat, simple, smooth, easily accessible surfaces",
+       "Only ever usable on strongly magnetic ferrous parts"
       ],
       "answer": 0,
       "explanation": "PT is comparatively simple, portable, and works on complex geometries and most nonporous materials, though only for surface-breaking defects.",
@@ -1045,9 +1045,9 @@
       "stem": "For penetrant to enter a discontinuity, the opening must be:",
       "options": [
        "Clean, dry, and open to the surface",
-       "Fully filled with dry developer here",
-       "Fully coated over with thick paint here",
-       "Fully magnetized up first"
+       "Fully filled with dry developer",
+       "Fully coated over with thick wet paint",
+       "Fully magnetized first"
       ],
       "answer": 0,
       "explanation": "A clean, dry, surface-connected opening admits penetrant by capillary action; any blockage or coating prevents entry.",
@@ -1104,7 +1104,7 @@
       "options": [
        "Visible (color contrast)",
        "Fully fluorescent dye type",
-       "Post-emulsifiable only here",
+       "Post-emulsifiable removal only",
        "Solvent-removable only"
       ],
       "answer": 0,
@@ -1131,7 +1131,7 @@
        "Two: Type 1 fluorescent and Type 2 visible",
        "Three, including a fully standardized dual type",
        "Five distinct, different penetrant types",
-       "Just one single penetrant type only here"
+       "Just one single penetrant type"
       ],
       "answer": 0,
       "explanation": "The classification recognizes two penetrant types, Type 1 (fluorescent) and Type 2 (visible). Dual-mode penetrants are sold commercially but are not a standardized type in these documents.",
@@ -1233,7 +1233,7 @@
       "stem": "Method D refers to:",
       "options": [
        "Post-emulsifiable, hydrophilic",
-       "Solvent-removable type, only here",
+       "Solvent-removable type only",
        "Fully water-washable type only",
        "Dry-powder form removal only"
       ],
@@ -1285,9 +1285,9 @@
       "stem": "Post-emulsifiable penetrants (Methods B and D) are valued because:",
       "options": [
        "The separate emulsification step gives better control and can improve sensitivity",
-       "They need no dry developer at all here, ever",
-       "They work fine on fully porous, open, absorbent parts here",
-       "They require no surface precleaning at all here, ever"
+       "They need no dry developer at any stage",
+       "They work fine even on fully porous, open, absorbent castings and powder-metal parts",
+       "They require no surface precleaning beforehand"
       ],
       "answer": 0,
       "explanation": "Because the penetrant is not water-washable until an emulsifier is applied, the operator controls when removal begins, reducing over-washing and improving sensitivity to fine defects.",
@@ -1311,9 +1311,9 @@
       "stem": "A lipophilic (Method B) emulsifier:",
       "options": [
        "Is oil-based and applied undiluted, diffusing into the penetrant over a timed dwell",
-       "Is fully water-based and is applied well diluted down with extra water here really now",
-       "Is just a simple dry, loose developer powder form here",
-       "Is just a quick solvent dampened cloth wipe down here"
+       "Is fully water-based and must be applied well diluted down with extra clean water first",
+       "Is just a simple dry, loose developer powder form",
+       "Is just a quick solvent-dampened cloth wipe-down"
       ],
       "answer": 0,
       "explanation": "Lipophilic emulsifiers are oil-miscible, applied undiluted, and diffuse into the surface penetrant; emulsification time must be controlled to avoid over-removal.",
@@ -1337,8 +1337,8 @@
       "stem": "A hydrophilic (Method D) remover:",
       "options": [
        "Is water-based and used diluted, often after a pre-rinse",
-       "Is fully oil-based and is used totally undiluted right here",
-       "Is just a dry",
+       "Is fully oil-based and used completely undiluted on the part",
+       "Is just a dry, loose developer powder",
        "Is just a bright fluorescent penetrant dye"
       ],
       "answer": 0,
@@ -1363,9 +1363,9 @@
       "stem": "Penetrant sensitivity levels (per AMS 2644) range from:",
       "options": [
        "Level 1/2 (ultra low) through Level 4 (ultra high)",
-       "From Level A all the way on through to Level Z here",
-       "From Level I on through to Level III only here",
-       "There are no real sensitivity levels at all here"
+       "From Level A all the way through to Level Z",
+       "From Level I through to Level III only",
+       "There are no real sensitivity levels defined in the standard"
       ],
       "answer": 0,
       "explanation": "Standard sensitivity levels are 1/2 (ultra low), 1 (low), 2 (medium), 3 (high), and 4 (ultra high), assigned during material qualification.",
@@ -1389,8 +1389,8 @@
       "stem": "In general, fluorescent penetrants compared with visible penetrants offer:",
       "options": [
        "Higher sensitivity to fine discontinuities",
-       "Much lower overall sensitivity to flaws here",
-       "Exactly identical overall sensitivity here",
+       "Much lower overall sensitivity to fine flaws",
+       "Exactly identical overall sensitivity to flaws",
        "No real ability to find any cracks at all"
       ],
       "answer": 0,
@@ -1415,9 +1415,9 @@
       "stem": "AMS 2644 is the document that:",
       "options": [
        "Qualifies and classifies penetrant inspection materials",
-       "Sets all of the written weld acceptance criteria here too",
-       "Defines all the ultrasonic calibration blocks here",
-       "Specifies all the radiographic film types here"
+       "Sets all of the written weld acceptance criteria",
+       "Defines all the developer coating thickness limits for each form",
+       "Specifies all the penetrant dwell time charts"
       ],
       "answer": 0,
       "explanation": "AMS 2644 establishes the qualification and classification (type, method, sensitivity) of penetrant materials and maintains the qualified products list.",
@@ -1441,9 +1441,9 @@
       "stem": "Penetrant materials should be used as a qualified 'family' meaning:",
       "options": [
        "Penetrant, emulsifier/remover, and developer from a compatible, qualified set",
-       "All taken from completely different manufacturers and brands here",
-       "Any random mixed-up combination at all here",
-       "One single material used in total here"
+       "All freely taken from completely different manufacturers and unrelated product brands",
+       "Any random mixed-up combination of products",
+       "One single material used throughout"
       ],
       "answer": 0,
       "explanation": "Materials are qualified together as a family; mixing incompatible products from different qualified sets can degrade performance, so a compatible family is used.",
@@ -1493,9 +1493,9 @@
       "stem": "On rough surfaces where water-washable penetrant tends to over-wash, a better choice is often:",
       "options": [
        "A post-emulsifiable method for better removal control",
-       "A much more aggressive, far harder water spray wash here",
-       "No dry developer used at all here",
-       "A much higher wash water temperature setting here"
+       "A much more aggressive, far harder high-pressure water spray wash",
+       "No dry developer used at any point",
+       "A much higher wash water temperature setting"
       ],
       "answer": 0,
       "explanation": "Post-emulsifiable methods let the operator control when removal begins, reducing the over-washing that rough surfaces promote with water-washable penetrant.",
@@ -1519,9 +1519,9 @@
       "stem": "A disadvantage of water-washable penetrant is that it:",
       "options": [
        "Can be over-washed, removing penetrant from shallow discontinuities",
-       "Cannot ever be removed with plain water at all here",
+       "Cannot ever be removed with plain water",
        "Requires a UV-A black light in order to remove it",
-       "Works only on strongly magnetic ferrous steel parts"
+       "Works only on strongly magnetic ferrous steel and heavy cast iron parts"
       ],
       "answer": 0,
       "explanation": "Because the emulsifier is built in, water washing can be too aggressive and strip penetrant from shallow or broad openings, lowering sensitivity if not controlled.",
@@ -1546,7 +1546,7 @@
       "options": [
        "Needs only white light, with no darkened booth or UV lamp",
        "Is always far more sensitive overall than any fluorescent type",
-       "Requires no dry developer at all here",
+       "Requires no dry developer at any stage",
        "Cannot ever produce any false indications at all"
       ],
       "answer": 0,
@@ -1572,8 +1572,8 @@
       "options": [
        "A UV-A source and a darkened viewing area",
        "Just bright white room light only, nothing else",
-       "No surface cleaning at all needed here",
-       "A strong applied magnetic field needed here"
+       "No surface cleaning needed beforehand",
+       "A strong applied magnetic field is needed"
       ],
       "answer": 0,
       "explanation": "Fluorescent inspection needs UV-A illumination and low ambient light so indications glow visibly; this is the main practical constraint versus visible penetrant.",
@@ -1597,9 +1597,9 @@
       "stem": "A penetrant specified as Type 1, Method D, Level 3 is:",
       "options": [
        "Fluorescent, hydrophilic post-emulsifiable, high sensitivity",
-       "Visible dye, water-washable, with low overall sensitivity here",
-       "Visible dye, solvent-removable, with ultra-low sensitivity here",
-       "Fluorescent, water-washable, with ultra-high sensitivity here"
+       "Visible dye, water-washable, with low overall sensitivity",
+       "Visible dye, solvent-removable, with the lowest ultra-low sensitivity",
+       "Fluorescent, water-washable, with ultra-high sensitivity"
       ],
       "answer": 0,
       "explanation": "Type 1 is fluorescent, Method D is hydrophilic post-emulsifiable, and Level 3 is high sensitivity.",
@@ -1623,9 +1623,9 @@
       "stem": "The emulsifier in a post-emulsifiable system:",
       "options": [
        "Makes the otherwise water-insoluble penetrant removable with water",
-       "Is the very same exact thing as the dry developer here",
+       "Is the very same exact material as the dry developer powder used later",
        "Adds in the bright fluorescent penetrant dye",
-       "Replaces the whole surface precleaning step"
+       "Replaces the entire surface precleaning step"
       ],
       "answer": 0,
       "explanation": "The emulsifier reacts with the surface penetrant so that it can then be rinsed away with water; without it, the post-emulsifiable penetrant resists water washing.",
@@ -1649,9 +1649,9 @@
       "stem": "Using a higher-sensitivity penetrant than necessary can:",
       "options": [
        "Increase background and non-relevant/irrelevant indications",
-       "Always improve the final results greatly here",
-       "Eliminate the whole need for any dry developer at all here",
-       "Reduce the whole penetrant dwell time right down to zero here"
+       "Always improve the final results greatly",
+       "Eliminate the entire need for any dry developer",
+       "Reduce the entire penetrant dwell time right down to zero minutes"
       ],
       "answer": 0,
       "explanation": "Excess sensitivity can raise background and reveal insignificant or non-relevant features, complicating interpretation, so the sensitivity is matched to the requirement.",
@@ -1675,9 +1675,9 @@
       "stem": "A typical visible solvent-removable aerosol kit contains:",
       "options": [
        "Cleaner/remover, penetrant, and developer",
-       "Only the red penetrant dye alone here",
-       "Penetrant and a UV-A viewing lamp only here",
-       "Developer and an emulsifier tank only here"
+       "Only the red penetrant dye alone",
+       "Penetrant and a UV-A fluorescent viewing lamp only",
+       "Developer and an emulsifier tank only"
       ],
       "answer": 0,
       "explanation": "A Method C visible kit includes a cleaner/remover, the penetrant, and a nonaqueous developer, all in aerosol cans for portable use.",
@@ -1701,9 +1701,9 @@
       "stem": "Water contamination of an oil-based penetrant can:",
       "options": [
        "Degrade sensitivity and cause performance to fall out of qualification",
-       "Greatly improve the dye's overall fluorescence here",
-       "Greatly increase the material's overall shelf life here",
-       "Have no real effect at all on it here at all"
+       "Greatly improve the dye's overall fluorescence",
+       "Greatly increase the material's overall shelf life and storage stability",
+       "Have no real effect on the material"
       ],
       "answer": 0,
       "explanation": "Water in the penetrant can reduce sensitivity and brightness and is checked during process control; out-of-tolerance contamination requires corrective action.",
@@ -1753,8 +1753,8 @@
       "stem": "Compared with lipophilic (Method B), hydrophilic (Method D) removal generally offers:",
       "options": [
        "More control and tolerance, often with better repeatability",
-       "No need to control the emulsification dwell time at all here",
-       "Full removal without using any water at all here",
+       "No need to control the emulsification dwell time during removal",
+       "Full removal without using any water",
        "Lower overall sensitivity, always"
       ],
       "answer": 0,
@@ -1831,9 +1831,9 @@
       "stem": "Method C (solvent-removable) is generally not used with large immersion (dip) processing because:",
       "options": [
        "Solvent removal is a controlled wipe, not a wash, and suits local areas",
-       "The solvent simply dissolves away all of the metals here",
+       "The solvent simply dissolves away the part metal",
        "It needs a UV-A black light in order to remove it all",
-       "It simply cannot remove any of the red penetrant at all"
+       "It simply cannot remove any of the trapped red penetrant dye from the part"
       ],
       "answer": 0,
       "explanation": "Solvent removal is done by careful wiping of localized areas, which does not scale to immersion lines the way water-based washing does.",
@@ -1857,9 +1857,9 @@
       "stem": "Selecting penetrant sensitivity should be based primarily on:",
       "options": [
        "The size and type of discontinuity that must be found and the acceptance requirement",
-       "The dye color that the inspector happens to prefer most here",
-       "The whole part's overall measured weight on a scale here",
-       "The ambient room air temperature alone here"
+       "The dye color and the particular brand the inspector personally happens to prefer most",
+       "The part's overall measured weight on a scale",
+       "The ambient room air temperature alone"
       ],
       "answer": 0,
       "explanation": "Sensitivity is chosen to reliably detect the smallest relevant discontinuity required by the specification, balanced against background and interpretability.",
@@ -1883,9 +1883,9 @@
       "stem": "Mixing developer from one family with penetrant from another can:",
       "options": [
        "Produce unqualified, unpredictable performance",
-       "Always increase the overall sensitivity here",
-       "Guarantee much better overall contrast here",
-       "Have no possible downside at all here"
+       "Always increase the overall penetrant sensitivity",
+       "Guarantee much better overall contrast",
+       "Have no real downside"
       ],
       "answer": 0,
       "explanation": "Cross-mixing materials outside a qualified family can give unpredictable, unqualified results, so compatible qualified families are used.",
@@ -1909,9 +1909,9 @@
       "stem": "When a part must be inspected above the standard temperature range, the correct approach is to:",
       "options": [
        "Use a qualified high-temperature procedure with materials proven at that temperature",
-       "Proceed normally with any old penetrant at all here",
-       "Skip the whole dry developer step entirely here",
-       "Lower the whole sensitivity right down to zero here"
+       "Proceed normally with any ordinary penetrant",
+       "Skip the entire dry developer step",
+       "Lower the penetrant sensitivity right down to zero and simply continue inspecting regardless"
       ],
       "answer": 0,
       "explanation": "High-temperature inspection requires materials and a procedure qualified at that temperature, typically demonstrated against a reference comparison.",
@@ -1935,9 +1935,9 @@
       "stem": "Within Method A, penetrants vary in 'washability,' which describes:",
       "options": [
        "How easily surface penetrant rinses off without over-removal",
-       "The red penetrant dye's outer color here",
-       "The dry developer's particular form here",
-       "Just the exact UV-A light wavelength that is needed here"
+       "The red penetrant dye's outer color",
+       "The dry developer's particular form",
+       "Just the exact UV-A light wavelength and lamp intensity needed"
       ],
       "answer": 0,
       "explanation": "Washability characterizes how readily the water-washable penetrant rinses from the surface; poor control leads to over-washing or residual background.",
@@ -1961,7 +1961,7 @@
       "stem": "AMS 2644 sensitivity levels (1/2 through 4) are assigned to:",
       "options": [
        "Fluorescent penetrants only",
-       "Visible color penetrants only here",
+       "Visible color penetrants only",
        "Both penetrant types fully equally",
        "The dry powder developers"
       ],
@@ -1987,8 +1987,8 @@
       "stem": "Water-washable (Method A) is often chosen for high-volume work because it:",
       "options": [
        "Removes quickly with water and suits production throughput",
-       "Needs a whole separate emulsifier step here too",
-       "Requires careful solvent wiping of each single part",
+       "Needs an entirely separate emulsifier step",
+       "Requires careful individual solvent wiping of each separate part",
        "Cannot ever be used on any smooth parts at all"
       ],
       "answer": 0,
@@ -2013,9 +2013,9 @@
       "stem": "Emulsification dwell time in post-emulsifiable methods is critical because too long a time:",
       "options": [
        "Lets the emulsifier reach penetrant in discontinuities, causing over-removal",
-       "Has no real effect on any of it at all here at all",
-       "Greatly increases the overall sensitivity without any real limit",
-       "Dries out the whole dry developer coating fully here"
+       "Has no real effect on the removal",
+       "Greatly increases the overall penetrant sensitivity without any real upper limit",
+       "Dries out the entire dry developer coating"
       ],
       "answer": 0,
       "explanation": "If emulsification continues too long, the emulsifier penetrates into the openings and allows trapped penetrant to be washed out, weakening indications.",
@@ -2039,8 +2039,8 @@
       "stem": "To find very tight fatigue cracks, an inspector would typically select:",
       "options": [
        "A high-sensitivity fluorescent post-emulsifiable system",
-       "An ultra-low-sensitivity visible color dye system here too",
-       "No penetrant used at all here at all",
+       "An ultra-low-sensitivity visible color contrast dye system",
+       "No penetrant used at any point",
        "A dry powder developer all alone"
       ],
       "answer": 0,
@@ -2065,8 +2065,8 @@
       "stem": "Penetrant materials qualified to AMS 2644 appear on:",
       "options": [
        "A qualified products list (QPL)",
-       "A written weld procedure sheet here",
-       "A developed radiograph film here",
+       "A written weld procedure sheet",
+       "A developed visual examination report",
        "A magnetization current chart only"
       ],
       "answer": 0,
@@ -2093,7 +2093,7 @@
        "A: water-washable; B: lipophilic PE; C: solvent-removable; D: hydrophilic PE",
        "A: solvent-removable; B: water-washable; C: hydrophilic PE; D: lipophilic PE",
        "All of the four methods simply use a solvent",
-       "All of the four methods simply use plain water only here"
+       "All of the four methods simply use plain water"
       ],
       "answer": 0,
       "explanation": "Method A is water-washable, B is post-emulsifiable lipophilic, C is solvent-removable, and D is post-emulsifiable hydrophilic.",
@@ -2143,9 +2143,9 @@
       "stem": "Fluorescent penetrant brightness is monitored during process control because a drop indicates:",
       "options": [
        "Degraded or contaminated penetrant that may miss indications",
-       "Greatly improved overall sensitivity here",
-       "A perfectly correct dry developer coating thickness here",
-       "Fully adequate bright white viewing light present here"
+       "Greatly improved overall sensitivity",
+       "A perfectly correct and fully even dry developer coating thickness",
+       "Fully adequate bright white viewing light present"
       ],
       "answer": 0,
       "explanation": "Loss of fluorescent brightness signals penetrant breakdown or contamination, which lowers sensitivity, so brightness is checked against a reference.",
@@ -2169,7 +2169,7 @@
       "stem": "Solvent removers and nonaqueous developers in aerosol kits require attention to:",
       "options": [
        "Flammability and ventilation",
-       "The magnetic field strength here",
+       "The applied magnetic field strength",
        "The particle bath concentration",
        "The number of coil turns"
       ],
@@ -2195,9 +2195,9 @@
       "stem": "On parts with threads or crevices that trap penetrant, water-washable systems are often preferred over post-emulsifiable because:",
       "options": [
        "They are easier to rinse from complex geometry without trapped emulsified residue",
-       "They simply cannot ever over-wash at all here",
-       "They need no dry developer at all here, ever",
-       "They detect the deep buried subsurface defects too here"
+       "They simply cannot ever be over-washed",
+       "They need no dry developer at any stage",
+       "They also reliably detect the deep buried subsurface volumetric defects within the part"
       ],
       "answer": 0,
       "explanation": "Complex geometry can trap emulsifier and penetrant; a water-washable system can be easier to rinse, though removal still must be controlled. (The trade-off is sensitivity versus cleanability.)",
@@ -2221,9 +2221,9 @@
       "stem": "Sensitivity level and removal method are:",
       "options": [
        "Separate classifications that together define the penetrant system",
-       "Exactly the very same single thing here at all",
-       "Fully mutually exclusive of one another here",
-       "Both of them set entirely by the dry developer here"
+       "Exactly the very same single thing",
+       "Fully mutually exclusive of one another",
+       "Both of them set entirely by the dry developer powder form that is chosen"
       ],
       "answer": 0,
       "explanation": "A penetrant is classified by type, method, and sensitivity level independently; together they define the system selected for a job.",
@@ -2253,9 +2253,9 @@
       "stem": "The correct general PT sequence is:",
       "options": [
        "Preclean, apply penetrant, dwell, remove excess, develop, inspect, postclean",
-       "Apply penetrant, then preclean, then develop, then finally inspect it here",
-       "Develop first, then apply the penetrant, then dwell, then inspect it here",
-       "Inspect first, then develop, then remove, then apply the penetrant last here"
+       "Apply penetrant, then preclean, then develop, then finally inspect it",
+       "Develop first, then apply the penetrant, then dwell, then inspect",
+       "Inspect first, then develop, then remove the excess, then apply the penetrant last"
       ],
       "answer": 0,
       "explanation": "PT follows precleaning, penetrant application and dwell, excess removal, developer application and development, inspection/interpretation, then postcleaning.",
@@ -2279,9 +2279,9 @@
       "stem": "Precleaning must remove:",
       "options": [
        "Oil, grease, scale, paint, and other soils from the surface and openings",
-       "Only the loose surface dust and nothing else at all here",
-       "The whole solid base metal itself right off it here",
-       "The whole dry developer coating right off of it here"
+       "Only the loose surface dust and grit, and nothing trapped down in the openings",
+       "The entire solid base metal itself",
+       "The entire dry developer coating"
       ],
       "answer": 0,
       "explanation": "Effective precleaning removes contaminants that block penetrant entry or cause false indications, leaving clean, dry, open discontinuities.",
@@ -2305,8 +2305,8 @@
       "stem": "After aqueous precleaning, the part must be dried before penetrant because:",
       "options": [
        "Water in the openings blocks penetrant entry",
-       "Drying it fully magnetizes the surface here",
-       "Wet part surfaces all brightly fluoresce here",
+       "Drying it fully magnetizes the surface",
+       "Wet part surfaces all brightly fluoresce",
        "Penetrant only ever works on fully wet surfaces"
       ],
       "answer": 0,
@@ -2331,9 +2331,9 @@
       "stem": "Penetrant may be applied by:",
       "options": [
        "Dipping, spraying, brushing, or flowing",
-       "Only ever by simple dip immersion here",
-       "Only ever by aerosol spray can use here",
-       "Only ever by electrostatic spraying here"
+       "Only ever by simple dip immersion",
+       "Only ever by aerosol spray can use",
+       "Only ever by electrostatic powder spraying"
       ],
       "answer": 0,
       "explanation": "Penetrant can be applied by immersion, spray, brush, or flow-on depending on part size and setup; the goal is full coverage of the area of interest.",
@@ -2357,9 +2357,9 @@
       "stem": "Penetrant dwell time is governed primarily by:",
       "options": [
        "Material, discontinuity type, and the specification",
-       "The dry developer's outer color here",
+       "The dry developer's outer color",
        "The UV-A lamp's total wattage rating",
-       "Just the inspector's own physical body height here"
+       "Just the inspector's own physical standing body height"
       ],
       "answer": 0,
       "explanation": "Dwell time depends on the material and the type/size of discontinuity sought, as set by the specification, commonly 5 to 60 minutes with a typical minimum around 10 minutes.",
@@ -2436,8 +2436,8 @@
       "options": [
        "Remove surface penetrant while leaving penetrant trapped in discontinuities",
        "Remove every bit of the penetrant, including all of it from the discontinuities",
-       "Add even more dry developer onto the whole part surface",
-       "Dry out all of the open discontinuities fully here"
+       "Add even more dry developer onto the entire part surface",
+       "Dry out all of the open discontinuities fully"
       ],
       "answer": 0,
       "explanation": "Removal clears the background surface penetrant so indications stand out, while preserving the penetrant held in the openings that forms the indications.",
@@ -2461,9 +2461,9 @@
       "stem": "Developer is applied:",
       "options": [
        "After excess penetrant has been removed",
-       "Well before any red penetrant at all here",
-       "During the whole penetrant dwell time",
-       "Well before any precleaning step here"
+       "Well before any red penetrant is applied",
+       "During the entire penetrant dwell time",
+       "Well before any precleaning step"
       ],
       "answer": 0,
       "explanation": "Developer goes on after the surface excess is removed, so it draws penetrant from the openings against a clean surface rather than smearing background penetrant.",
@@ -2487,9 +2487,9 @@
       "stem": "Development time is provided to:",
       "options": [
        "Allow penetrant to bleed out and form indications",
-       "Dry out the red penetrant fully in the openings here",
-       "Remove the whole dry developer coating off here",
-       "Preclean the whole entire part over again here"
+       "Dry out the red penetrant fully inside the openings",
+       "Remove the entire dry developer coating",
+       "Preclean the entire part over again"
       ],
       "answer": 0,
       "explanation": "Development time lets trapped penetrant bleed into the developer and spread enough to be seen; too little time can leave fine indications underdeveloped.",
@@ -2513,9 +2513,9 @@
       "stem": "Development time is commonly at least about:",
       "options": [
        "10 minutes (and often up to about twice the penetrant dwell)",
-       "About 5 short seconds only here",
-       "A full 3 long hours at the bare minimum here",
-       "Zero time at all, just view it all immediately right here"
+       "About 5 short seconds only",
+       "A full 3 long hours sitting at the absolute bare minimum each time",
+       "Zero time, just view it immediately"
       ],
       "answer": 0,
       "explanation": "A typical minimum development time is around 10 minutes, with the upper bound often related to the penetrant dwell; the specification governs exact values.",
@@ -2539,9 +2539,9 @@
       "stem": "Inspection (interpretation) should begin:",
       "options": [
        "After the specified development time, watching indications form and stabilize",
-       "Well before any dry developer has even been applied to it at all here",
-       "During the whole surface precleaning step itself right here",
-       "Only well after the whole postcleaning step here"
+       "Well before any dry developer coating has even been applied onto the part surface",
+       "During the surface precleaning step itself",
+       "Only well after the postcleaning step"
       ],
       "answer": 0,
       "explanation": "Viewing occurs during and after development; watching indications appear helps distinguish true bleed-out from non-relevant marks, within the development window.",
@@ -2566,8 +2566,8 @@
       "options": [
        "Remove penetrant and developer residues after inspection",
        "Add more dry developer onto the part",
-       "Reopen all of the open discontinuities fully",
-       "Magnetize the whole entire part fully"
+       "Reopen all of the closed-up surface discontinuities once again",
+       "Magnetize the entire part fully"
       ],
       "answer": 0,
       "explanation": "After acceptance, residues are removed so they do not interfere with later processing, service, or corrosion; postcleaning is part of a complete process.",
@@ -2591,9 +2591,9 @@
       "stem": "Allowing excess penetrant to drain back during dwell (drain dwell) helps:",
       "options": [
        "Use penetrant efficiently and reduce pooling without ending penetration",
-       "Fully dry out the whole entire part surface here",
-       "Pull all of the red penetrant right back out of the openings here",
-       "Apply the whole dry developer coating onto it all here"
+       "Fully dry out the entire part surface",
+       "Pull all of the trapped red penetrant right back out of the fine openings",
+       "Apply the entire dry developer coating onto it"
       ],
       "answer": 0,
       "explanation": "Drain dwell lets surface excess run off while penetration continues, conserving penetrant and reducing pooling, while the openings remain filled.",
@@ -2617,8 +2617,8 @@
       "stem": "For Type 1, Method A (fluorescent water-washable) with dry developer, the steps are:",
       "options": [
        "Clean, dry, penetrant + dwell, water wash, dry, dry developer, develop, inspect under UV",
-       "Penetrant first, then developer, then wash it, then finally inspect it all right here now",
-       "Wash it first, then penetrant, then dry it, then finally inspect it all right here now",
+       "Penetrant first, then developer, then water wash, then drying, then finally inspect it all",
+       "Wash first, then penetrant, then dry, then finally inspect it all",
        "Developer first, then penetrant, then dwell"
       ],
       "answer": 0,
@@ -2645,7 +2645,7 @@
        "After penetrant dwell and before water washing",
        "Before any penetrant application",
        "Well after the dry developer step",
-       "During the whole surface precleaning step here"
+       "During the initial surface precleaning and drying step"
       ],
       "answer": 0,
       "explanation": "The emulsifier is applied after the penetrant has dwelled, making the surface penetrant water-removable, and is followed by water washing.",
@@ -2670,7 +2670,7 @@
       "options": [
        "Dried, then the nonaqueous developer is applied",
        "Left fully wet, then the dry developer is applied",
-       "Coated over with the red penetrant once again here",
+       "Coated over with the red penetrant once again",
        "Fully magnetized up first"
       ],
       "answer": 0,
@@ -2695,9 +2695,9 @@
       "stem": "An aqueous (water-based) developer is typically applied:",
       "options": [
        "To the washed part before final drying, then the part is dried",
-       "Only ever onto a fully dried part surface here",
-       "Well before any red penetrant has been applied here",
-       "During the whole surface precleaning step itself"
+       "Only ever onto a fully dried part surface",
+       "Well before any red penetrant has even been applied to the surface",
+       "During the surface precleaning step itself"
       ],
       "answer": 0,
       "explanation": "Water-based developers are applied to the wet or damp washed surface and then the part is dried, leaving a developer film; sequence depends on whether the developer is soluble or suspendible.",
@@ -2721,9 +2721,9 @@
       "stem": "Drying the part at too high a temperature or too long can:",
       "options": [
        "Bake penetrant in the openings and reduce bleed-out",
-       "Greatly improve the overall sensitivity",
-       "Magnetize the whole entire part fully",
-       "Replace the whole dry developer step entirely here"
+       "Greatly improve the overall penetrant sensitivity and contrast",
+       "Magnetize the entire part fully",
+       "Replace the entire dry developer step"
       ],
       "answer": 0,
       "explanation": "Excessive drying heat can dry penetrant within the openings, reducing the bleed-out available, so drying is controlled in temperature and time.",
@@ -2747,9 +2747,9 @@
       "stem": "Part-surface drying temperature is limited (commonly not to exceed about 160 degrees F / 71 degrees C) to:",
       "options": [
        "Avoid drying penetrant in discontinuities and damaging materials",
-       "Greatly speed up the evaporation without any real limit",
-       "Greatly increase the dye's overall fluorescence here",
-       "Fully demagnetize the whole entire part right here"
+       "Greatly speed up the surface evaporation without any practical upper limit",
+       "Greatly increase the dye's overall fluorescence",
+       "Fully demagnetize the entire part"
       ],
       "answer": 0,
       "explanation": "A drying temperature limit protects the trapped penetrant from baking out and protects temperature-sensitive materials; exact limits are per specification.",
@@ -2773,9 +2773,9 @@
       "stem": "Penetrant application must ensure that:",
       "options": [
        "The entire area of interest is wetted and stays wet through the dwell",
-       "Only a small part of the whole surface is even covered here",
-       "The whole part surface just dries right out really quickly here",
-       "The dry developer gets all mixed right into it here"
+       "Only a small part of the surface is ever covered",
+       "The entire part surface simply dries right out far too quickly during dwell",
+       "The dry developer gets all mixed right into it"
       ],
       "answer": 0,
       "explanation": "Complete, maintained coverage of the inspection area during dwell is necessary so all openings have the chance to fill with penetrant.",
@@ -2799,9 +2799,9 @@
       "stem": "Electrostatic spray application of penetrant or developer can:",
       "options": [
        "Improve coverage and reduce overspray on complex parts",
-       "Fully eliminate the whole dwell time",
-       "Remove the whole need for any cleaning at all here",
-       "Detect the deep buried subsurface defects here"
+       "Fully eliminate the entire dwell time",
+       "Remove the entire need for any cleaning",
+       "Detect the deep buried subsurface volumetric defects too"
       ],
       "answer": 0,
       "explanation": "Charged-spray application wraps material onto the part for efficient, even coverage with less waste, but the standard process steps and dwell still apply.",
@@ -2827,7 +2827,7 @@
        "Thoroughly clean and reprocess from the penetrant step",
        "Apply on even more dry developer only",
        "Greatly increase the UV-A light intensity",
-       "Just completely ignore the whole thing and carry right on"
+       "Just completely ignore the error and carry on inspecting regardless"
       ],
       "answer": 0,
       "explanation": "A flawed run is corrected by removing all materials, cleaning, drying, and reprocessing from penetrant application, since partial fixes do not restore a valid result.",
@@ -2851,9 +2851,9 @@
       "stem": "Acceptable precleaning methods include:",
       "options": [
        "Solvent cleaning, detergent washing, vapor degreasing, or etching as appropriate",
-       "Painting over the whole part surface with thick fresh paint here",
-       "Oiling up the whole part surface with thick heavy oil here",
-       "Adding on even more dry developer onto the whole part surface"
+       "Painting over the entire part surface with thick fresh paint",
+       "Oiling up the entire part surface with thick heavy oil",
+       "Adding on even more thick dry developer powder coating onto the entire part surface"
       ],
       "answer": 0,
       "explanation": "Precleaning may use solvents, detergents, vapor degreasing, or etching to remove soils and reopen smeared openings, chosen to suit the contaminant and material.",
@@ -2877,7 +2877,7 @@
       "stem": "Penetrant should be applied when the part is within:",
       "options": [
        "The qualified temperature range for the materials",
-       "About any old temperature at all",
+       "Almost any working temperature without any restriction",
        "Only ever well below the freezing point",
        "Only ever well above a full 200 degrees F"
       ],
@@ -2903,9 +2903,9 @@
       "stem": "During dwell, parts may be oriented to:",
       "options": [
        "Promote drainage while keeping the area of interest wetted",
-       "Force the red penetrant right back out of the openings here",
-       "Dry the whole part surface right out fast",
-       "Fully avoid getting any real coverage at all here"
+       "Force the red penetrant right back out of the fine openings",
+       "Dry the entire part surface right out fast",
+       "Fully avoid getting any real coverage"
       ],
       "answer": 0,
       "explanation": "Orientation manages drainage of surface excess while maintaining penetrant coverage on the inspection area, balancing economy and full penetration.",
@@ -2929,9 +2929,9 @@
       "stem": "A nonaqueous developer should be applied as a:",
       "options": [
        "Thin, uniform coating that just whitens the surface",
-       "A thick",
+       "A thick, heavy puddle of developer",
        "A single thick concentrated puddle of it",
-       "A full wet flood coat applied without any drying here"
+       "A full wet flood coat applied without any drying first"
       ],
       "answer": 0,
       "explanation": "A thin even developer film provides contrast and blotting without burying fine indications; a heavy coat can mask small bleed-outs.",
@@ -2955,9 +2955,9 @@
       "stem": "Observing indications as they develop helps the inspector:",
       "options": [
        "Distinguish how fast and where penetrant bleeds, aiding interpretation",
-       "Fully skip the whole development time step entirely here",
-       "Fully avoid doing any surface cleaning at all here",
-       "Magnetize the whole entire part fully right here"
+       "Fully skip the entire development time and the waiting step before viewing",
+       "Fully avoid doing any surface cleaning",
+       "Magnetize the entire part fully"
       ],
       "answer": 0,
       "explanation": "The rate and pattern of bleed-out (fast strong bleed vs slow faint bleed) gives clues to discontinuity type and helps separate relevant from non-relevant marks.",
@@ -2981,7 +2981,7 @@
       "stem": "Excessively long penetrant dwell can be a problem because the penetrant may:",
       "options": [
        "Dry in the openings, reducing bleed-out",
-       "Penetrate the deep subsurface defects",
+       "Penetrate the deep subsurface volumetric defects",
        "Become fully magnetic itself",
        "Turn right into the dry developer"
       ],
@@ -3008,7 +3008,7 @@
       "options": [
        "Produce heavy background and invalid results",
        "Improve the overall contrast",
-       "Speed up the inspection safely",
+       "Speed up and shorten the entire inspection safely",
        "Have no real effect at all"
       ],
       "answer": 0,
@@ -3033,7 +3033,7 @@
       "stem": "A precleaning solvent that leaves a residue is unacceptable because the residue can:",
       "options": [
        "Block penetrant entry or cause false indications",
-       "Greatly increase the overall sensitivity too here",
+       "Greatly increase the overall penetrant sensitivity too",
        "Improve the surface wetting",
        "Act just like a dry developer"
       ],
@@ -3059,9 +3059,9 @@
       "stem": "Between penetrant removal and developer application, the part should be:",
       "options": [
        "Handled to avoid recontamination and processed without undue delay",
-       "Left sitting out for several whole days here",
-       "Fully re-oiled all over with thick heavy oil here",
-       "Fully sanded right down all over it here"
+       "Left sitting out for several days",
+       "Fully re-oiled all over again with a thick, heavy protective oil film",
+       "Fully sanded right down all over it"
       ],
       "answer": 0,
       "explanation": "Prompt, clean handling preserves the trapped penetrant and surface condition; long delays or contamination can degrade indication formation.",
@@ -3085,8 +3085,8 @@
       "stem": "In Method C, the excess penetrant removal step is performed by:",
       "options": [
        "Wiping with a clean cloth, then a solvent-dampened cloth",
-       "Flooding wet solvent all over the whole surface here",
-       "Immersing it right down deep in a full water tank here too",
+       "Flooding wet solvent all over the entire surface",
+       "Immersing it right down deep into a full open water rinse tank",
        "Blowing it off with high-pressure air only"
       ],
       "answer": 0,
@@ -3137,9 +3137,9 @@
       "stem": "In immersion processing, drain boards and return systems are used to:",
       "options": [
        "Recover excess penetrant economically during drain dwell",
-       "Apply the whole dry developer coating onto it",
-       "Fully dry out the whole entire part right here",
-       "Fully demagnetize the whole entire part"
+       "Apply the entire dry developer powder coating evenly onto it",
+       "Fully dry out the entire part",
+       "Fully demagnetize the entire part"
       ],
       "answer": 0,
       "explanation": "Drainage systems recover excess penetrant for reuse during drain dwell, improving economy while penetration continues.",
@@ -3163,9 +3163,9 @@
       "stem": "Before inspecting fluorescent indications, the inspector ensures:",
       "options": [
        "Adequate UV-A, low ambient white light, and dark-adapted eyes",
-       "Bright white room light only here",
-       "The whole dry developer coating is fully removed off here too",
-       "The whole entire part is fully magnetized up first here"
+       "Bright white room light only",
+       "The entire dry developer coating has already been fully removed first",
+       "The entire part is fully magnetized first"
       ],
       "answer": 0,
       "explanation": "Valid fluorescent inspection needs sufficient UV-A, low ambient white light, lamp warm-up, and eye adaptation before viewing.",
@@ -3189,9 +3189,9 @@
       "stem": "Controlling the water-wash step (pressure, temperature, time) is important because it:",
       "options": [
        "Balances removing background against over-removing from openings",
-       "Sets the whole penetrant dwell time setting here",
-       "Determines the exact UV-A light wavelength needed here",
-       "Magnetizes the whole part surface fully right here"
+       "Sets the entire penetrant dwell time",
+       "Determines the exact UV-A light wavelength and lamp intensity needed",
+       "Magnetizes the entire part surface fully"
       ],
       "answer": 0,
       "explanation": "Wash parameters are controlled so surface background is removed without washing penetrant out of discontinuities, which would weaken indications.",
@@ -3215,9 +3215,9 @@
       "stem": "Development time and penetrant dwell time are:",
       "options": [
        "Separate timed steps, each specified",
-       "Exactly the very same single step here",
-       "Both fully optional extra steps here",
-       "Both set just by the whole part's weight"
+       "Exactly the very same single step",
+       "Both fully optional extra steps",
+       "Both set just by the finished part's weight"
       ],
       "answer": 0,
       "explanation": "Penetrant dwell (for entry) and development time (for bleed-out) are distinct, separately specified periods in the process.",
@@ -3241,9 +3241,9 @@
       "stem": "A water-break test before a water-based step checks that the surface is:",
       "options": [
        "Clean enough to wet uniformly (water sheets without breaking)",
-       "Already fully magnetized up first here",
-       "Already fully bone dry all over here",
-       "Already fully coated over with the dry developer here"
+       "Already fully magnetized first",
+       "Already fully bone dry all over",
+       "Already fully coated over with a thick dry white developer powder"
       ],
       "answer": 0,
       "explanation": "If water sheets evenly without breaking into beads, the surface is free of oily contamination; breaks indicate residual soil to be removed.",
@@ -3267,9 +3267,9 @@
       "stem": "Which ordered list is correct?",
       "options": [
        "Preclean, penetrant/dwell, remove excess, develop, inspect, postclean",
-       "Penetrant first, then preclean, then inspect, then develop it all here now",
-       "Develop first, then inspect, then penetrant, then preclean it all here now",
-       "Remove excess first, then penetrant, then develop, then preclean here now"
+       "Penetrant first, then preclean, then inspect, then finally develop it all",
+       "Develop first, then inspect, then penetrant, then preclean it all",
+       "Remove excess first, then penetrant, then develop, then preclean"
       ],
       "answer": 0,
       "explanation": "The standard order is precleaning, penetrant application and dwell, excess removal, developing, inspection, and postcleaning.",
@@ -3295,7 +3295,7 @@
        "Even and light to avoid masking fine indications",
        "Heavy and fully pooled up thick",
        "Applied well before any penetrant",
-       "Fully skipped on all the small parts"
+       "Fully skipped on all of the smaller parts entirely"
       ],
       "answer": 0,
       "explanation": "An even, light developer coat preserves the visibility of small indications; pooling or heavy coats can hide them.",
@@ -3319,9 +3319,9 @@
       "stem": "Inspection must be completed within the development window because, given too much time:",
       "options": [
        "Indications may over-bleed and blur, hurting interpretation",
-       "Nothing at all really changes here",
-       "The whole entire part fully magnetizes up itself here",
-       "The dry developer turns right into the red penetrant here"
+       "Nothing of importance changes",
+       "The entire part fully magnetizes itself",
+       "The dry developer slowly turns right back into the red penetrant"
       ],
       "answer": 0,
       "explanation": "Excessive development time lets indications spread and blur, so viewing occurs within the specified window for reliable interpretation.",
@@ -3345,9 +3345,9 @@
       "stem": "Fixtures and baskets that contact penetrant should be cleaned because residual penetrant can:",
       "options": [
        "Transfer to parts and cause false indications",
-       "Greatly improve the overall sensitivity too here",
-       "Act just like a dry developer here",
-       "Magnetize the whole parts fully"
+       "Greatly improve the overall penetrant sensitivity too",
+       "Act just like a dry developer",
+       "Magnetize the parts fully"
       ],
       "answer": 0,
       "explanation": "Penetrant left on fixtures can smear onto parts, producing false indications, so handling equipment is kept clean.",
@@ -3371,9 +3371,9 @@
       "stem": "Tighter, finer discontinuities generally require:",
       "options": [
        "Longer penetrant dwell to fill the small openings",
-       "A much shorter penetrant dwell time setting",
+       "A much shorter overall penetrant dwell time setting",
        "No penetrant dwell time at all",
-       "A much higher UV-A lamp power setting here"
+       "A much higher UV-A lamp power setting"
       ],
       "answer": 0,
       "explanation": "Fine, tight openings fill more slowly, so longer dwell times are specified to ensure adequate penetration before removal.",
@@ -3397,9 +3397,9 @@
       "stem": "Skipping postcleaning can be a problem because residues may:",
       "options": [
        "Cause corrosion or interfere with later coating, bonding, or service",
-       "Greatly improve the whole part's fatigue life here",
-       "Greatly increase the sensitivity of all the future tests here",
-       "Magnetize the whole entire part fully right here"
+       "Greatly improve the entire part's fatigue life",
+       "Greatly increase the sensitivity of all the future tests on that part",
+       "Magnetize the entire part fully"
       ],
       "answer": 0,
       "explanation": "Leftover penetrant and developer can corrode the part or impair downstream processes and service, so postcleaning is performed when required.",
@@ -3429,9 +3429,9 @@
       "stem": "The biggest risk during excess penetrant removal is:",
       "options": [
        "Over-removal that strips penetrant from discontinuities",
-       "Adding far too much red penetrant onto it all",
-       "Magnetizing the whole entire part fully",
-       "Drying the whole part out far too slowly right here"
+       "Adding far too much extra red penetrant onto it all again",
+       "Magnetizing the entire part fully",
+       "Drying the entire part out far too slowly"
       ],
       "answer": 0,
       "explanation": "Over-removal pulls penetrant out of the openings, weakening or erasing indications, so removal is controlled to clear only the surface background.",
@@ -3481,9 +3481,9 @@
       "stem": "Water-wash temperature is controlled (commonly roughly 50 to 100 degrees F) because temperature affects:",
       "options": [
        "Removal effectiveness and penetrant behavior",
-       "The exact UV-A light wavelength used here",
-       "The whole part's overall magnetism level here",
-       "The dry developer's outer color shade here"
+       "The exact UV-A light wavelength used",
+       "The entire part's overall surface magnetism level",
+       "The dry developer's outer color shade"
       ],
       "answer": 0,
       "explanation": "Wash water that is too hot or cold changes removal behavior and can harm sensitivity, so a moderate controlled temperature range is used.",
@@ -3508,8 +3508,8 @@
       "options": [
        "Coarse spray at a controlled angle and distance",
        "A high-pressure jet aimed right into the openings",
-       "A long soak down in still, standing water here too",
-       "A hot"
+       "A long soak down in still, standing water",
+       "A hot, high-pressure water jet"
       ],
       "answer": 0,
       "explanation": "A coarse, controlled spray removes surface penetrant without forcing water into openings; aggressive jets or steam can over-remove.",
@@ -3533,9 +3533,9 @@
       "stem": "When washing fluorescent penetrant, removal is best monitored:",
       "options": [
        "Under UV-A so the inspector can see background being removed",
-       "In total",
-       "Under bright white room light only here",
-       "Without any viewing light at all here"
+       "In total darkness with no light",
+       "Under only bright white room light, without any UV-A black light",
+       "Without any viewing light at all"
       ],
       "answer": 0,
       "explanation": "Washing under UV-A lets the operator watch the fluorescent background disappear and stop before over-washing.",
@@ -3559,9 +3559,9 @@
       "stem": "For a lipophilic (Method B) emulsifier, the most critical control is:",
       "options": [
        "Emulsification (contact) time before washing",
-       "The dry developer's particular outer color shade here",
-       "The UV-A lamp's total wattage rating here",
-       "The whole part's overall measured weight"
+       "The dry developer's particular outer color shade",
+       "The UV-A lamp's total wattage rating",
+       "The entire part's overall measured weight"
       ],
       "answer": 0,
       "explanation": "Lipophilic emulsifier diffuses into the penetrant over time; too long lets it reach penetrant in openings and over-remove, so contact time is tightly controlled.",
@@ -3585,8 +3585,8 @@
       "stem": "Lipophilic emulsifier is typically applied by dipping and then:",
       "options": [
        "Allowed to act undisturbed for the timed period (no agitation)",
-       "Vigorously scrubbed hard all over the whole surface",
-       "Sprayed off hard at high pressure all over here",
+       "Vigorously scrubbed hard back and forth all over the entire surface",
+       "Sprayed off hard at high pressure all over",
        "Wiped down hard with a wet solvent cloth"
       ],
       "answer": 0,
@@ -3611,9 +3611,9 @@
       "stem": "Hydrophilic (Method D) removal usually begins with a:",
       "options": [
        "Pre-rinse to remove most surface penetrant before the remover bath",
-       "A quick solvent dampened cloth wipe down here",
-       "A dry, loose developer powder dusting all over here",
-       "A full UV-A black light exposure all over it here"
+       "A quick solvent-dampened cloth wipe-down",
+       "A dry, loose developer powder dusting applied all over the part first",
+       "A full UV-A black light exposure all over it"
       ],
       "answer": 0,
       "explanation": "A water pre-rinse knocks down the bulk of surface penetrant, reducing the load on the hydrophilic remover and improving control and consistency.",
@@ -3637,9 +3637,9 @@
       "stem": "Hydrophilic remover is used at a controlled concentration because too high a concentration can:",
       "options": [
        "Over-remove penetrant from discontinuities",
-       "Improve sensitivity without any real limit at all",
+       "Improve sensitivity without any real limit",
        "Greatly increase the dye's fluorescence",
-       "Magnetize the whole entire part fully right here"
+       "Magnetize the entire part fully"
       ],
       "answer": 0,
       "explanation": "An overly concentrated hydrophilic remover acts too aggressively and strips penetrant from openings; concentration and contact time are controlled to the specification.",
@@ -3663,9 +3663,9 @@
       "stem": "Hydrophilic remover may be applied by:",
       "options": [
        "Immersion (dip) or spray at controlled concentration",
-       "Only ever by simple dry brushing here",
-       "Only ever by simple solvent wiping here",
-       "Only ever by full UV-A light exposure here"
+       "Only ever by simple dry brushing",
+       "Only ever by simple solvent wiping",
+       "Only ever by a full UV-A black light exposure all over"
       ],
       "answer": 0,
       "explanation": "Hydrophilic remover is applied as a dip bath or as a spray, each at a controlled concentration appropriate to the method.",
@@ -3689,9 +3689,9 @@
       "stem": "The cardinal rule of solvent (Method C) removal is to:",
       "options": [
        "Wipe with a solvent-dampened cloth, never flush solvent onto the surface",
-       "Spray the wet solvent directly straight into all the openings here",
-       "Soak the whole entire part right down deep in wet solvent",
-       "Use just plain water only on it here at all"
+       "Spray and flush the wet solvent directly down into every one of the openings",
+       "Soak the entire part right down deep in wet solvent",
+       "Use only plain water on the surface"
       ],
       "answer": 0,
       "explanation": "Flushing or spraying solvent on the part washes penetrant out of the openings; correct practice is wiping with a clean cloth, then a lightly solvent-dampened cloth.",
@@ -3715,9 +3715,9 @@
       "stem": "Correct solvent removal uses:",
       "options": [
        "A dry wipe first, then a separate solvent-dampened wipe",
-       "One single heavy wet solvent flood all over here",
-       "Only a single dry cloth used here at all",
-       "Only plain running water used here at all"
+       "One single heavy wet solvent flood poured over the entire surface",
+       "Only a single dry cloth used",
+       "Only plain running water used"
       ],
       "answer": 0,
       "explanation": "Removing most excess with a dry cloth, then lightly wiping with solvent, minimizes the chance of leaching penetrant from the openings.",
@@ -3741,9 +3741,9 @@
       "stem": "Over-washing or over-emulsification typically results in:",
       "options": [
        "Weak, missing, or faded indications",
-       "Heavy red dye background only here",
+       "Heavy red dye background only",
        "Much brighter, stronger indications",
-       "Much faster developing overall here"
+       "Much faster developing overall"
       ],
       "answer": 0,
       "explanation": "Removing too much penetrant from openings leaves little to bleed back, so indications are weak or absent; the cure is better-controlled removal.",
@@ -3767,9 +3767,9 @@
       "stem": "Insufficient removal (under-washing) typically results in:",
       "options": [
        "Excessive background that masks indications",
-       "No real background at all here",
-       "Much sharper, cleaner indications here",
-       "A full loss of all the red penetrant dye here"
+       "Almost no background showing",
+       "Much sharper, cleaner indications",
+       "A full loss of all the trapped red penetrant dye"
       ],
       "answer": 0,
       "explanation": "Leaving surface penetrant produces heavy background that hides true indications; the surface must be cleaned of excess while preserving trapped penetrant.",
@@ -3793,9 +3793,9 @@
       "stem": "The fundamental tension in the removal step is between:",
       "options": [
        "Removing enough background and not removing penetrant from discontinuities",
-       "The process speed and the dye color here at all",
-       "The penetrant dwell time and the dry developer here",
-       "The UV-A light and the bright white light here at all"
+       "The process speed and the dye color",
+       "The penetrant dwell time setting and the dry developer powder form being used",
+       "The UV-A light and the bright white light"
       ],
       "answer": 0,
       "explanation": "Good removal clears background while preserving trapped penetrant; pushing too far either way degrades the result, which is why removal is controlled.",
@@ -3819,9 +3819,9 @@
       "stem": "Post-emulsifiable methods resist over-washing better than water-washable because:",
       "options": [
        "The penetrant is not water-removable until the emulsifier is applied",
-       "They simply use no water at all in them here at all",
-       "They need no dry developer at all here at all",
-       "They are always the visible color dye type only here"
+       "They simply use no water at all in them",
+       "They need no dry developer at any stage",
+       "They are always the visible color contrast red dye type, never fluorescent"
       ],
       "answer": 0,
       "explanation": "Until emulsified, the penetrant cannot be washed off by water, so the operator controls exactly when and how much removal occurs, protecting penetrant in openings.",
@@ -3845,9 +3845,9 @@
       "stem": "If emulsifier is left on too long, it can:",
       "options": [
        "Diffuse into discontinuities and allow trapped penetrant to wash out",
-       "Greatly improve the final indication retention here",
-       "Have no real effect at all on any of the openings here",
-       "Greatly increase the whole penetrant dwell time here"
+       "Greatly improve the final indication retention",
+       "Have no real effect on any of the openings",
+       "Greatly increase the entire required penetrant dwell time well beyond normal"
       ],
       "answer": 0,
       "explanation": "Excess emulsification time lets the emulsifier reach penetrant inside the openings, making it water-removable and lost during washing.",
@@ -3871,9 +3871,9 @@
       "stem": "Wash water that is too hot can:",
       "options": [
        "Promote over-removal and dry penetrant in openings",
-       "Have no real effect on it at all here",
-       "Greatly increase the overall sensitivity here",
-       "Greatly improve the overall contrast here too"
+       "Have no real effect on the result",
+       "Greatly increase the overall penetrant sensitivity instead",
+       "Greatly improve the overall contrast"
       ],
       "answer": 0,
       "explanation": "Hot wash water can be too aggressive and can dry penetrant in the openings, both reducing indications, so temperature is controlled.",
@@ -3897,9 +3897,9 @@
       "stem": "Penetrant carried out of the tank on parts and fixtures (drag-out) is a concern for:",
       "options": [
        "Material economy and contamination control",
-       "The applied magnetic field strength level here",
-       "The exact UV-A light wavelength used here",
-       "The dry developer's outer color shade here"
+       "The applied magnetic field strength on the part",
+       "The exact UV-A light wavelength used",
+       "The dry developer's outer color shade"
       ],
       "answer": 0,
       "explanation": "Drag-out wastes penetrant and can contaminate downstream baths, so it is managed by drainage and good handling.",
@@ -3923,9 +3923,9 @@
       "stem": "Removal of visible penetrant excess is judged by:",
       "options": [
        "Inspecting the surface under white light for residual background",
-       "Inspecting it only under the UV-A black light here",
-       "Weighing the whole entire part on a scale here",
-       "Measuring the whole part's magnetism level here"
+       "Inspecting it only under the UV-A fluorescent black light in a dark booth",
+       "Weighing the entire part on a scale",
+       "Measuring the entire part's magnetism level"
       ],
       "answer": 0,
       "explanation": "For visible penetrant, the operator checks under white light that the colored background is removed while the openings retain penetrant.",
@@ -3949,9 +3949,9 @@
       "stem": "Using a cloth that is soaked (dripping) with solvent for removal is wrong because it:",
       "options": [
        "Acts like flushing and leaches penetrant from openings",
-       "It dries the whole part out far too slowly here",
-       "It adds even more red penetrant right onto it",
-       "It fully magnetizes the whole wiping cloth here"
+       "It dries the entire part out far too slowly",
+       "It adds even more fresh red penetrant right back onto it",
+       "It fully magnetizes the entire wiping cloth"
       ],
       "answer": 0,
       "explanation": "A dripping solvent cloth behaves like flushing, dissolving penetrant out of the openings; the cloth should be only lightly dampened.",
@@ -3975,9 +3975,9 @@
       "stem": "The pre-rinse in hydrophilic removal serves to:",
       "options": [
        "Remove the bulk of surface penetrant before the controlled remover step",
-       "Apply the whole dry developer coating right onto it here",
-       "Fully dry out the whole entire part surface here at all",
-       "Add the emulsifier right down into all of the open openings"
+       "Apply the entire dry developer coating right onto it",
+       "Fully dry out the entire part surface",
+       "Add the fresh emulsifier right down into every one of the open discontinuities"
       ],
       "answer": 0,
       "explanation": "Pre-rinsing lowers the surface penetrant load so the hydrophilic remover can finish removal in a controlled, consistent way.",
@@ -4001,9 +4001,9 @@
       "stem": "In a hydrophilic dip remover, mild agitation is used to:",
       "options": [
        "Assist uniform, controlled removal of surface penetrant",
-       "Force the remover right down into the openings here",
-       "Heat up the whole remover bath right up hot here",
-       "Add even more bright fluorescence right into it"
+       "Force the remover right down into the openings",
+       "Heat up the entire remover bath right up hot",
+       "Add even more bright fluorescent dye right back into the bath"
       ],
       "answer": 0,
       "explanation": "Gentle agitation promotes even removal across the surface; excessive agitation or concentration risks over-removal.",
@@ -4027,9 +4027,9 @@
       "stem": "Holding the wash nozzle too close to the part can:",
       "options": [
        "Over-remove penetrant from openings",
-       "Improve the indication retention here",
+       "Improve the overall indication retention",
        "Have no real effect at all",
-       "Reduce the background too little here"
+       "Reduce the background too little"
       ],
       "answer": 0,
       "explanation": "A close, concentrated stream acts aggressively and can wash penetrant out of openings; distance and angle are controlled.",
@@ -4053,9 +4053,9 @@
       "stem": "Hydrophilic remover concentration is verified during process control by:",
       "options": [
        "Measuring concentration (for example, by refractometer) against the specified value",
-       "Reading off a magnetic field gaussmeter from it here",
-       "Weighing the whole entire part on a big scale here at all",
-       "Timing the whole dry developer dwell with a stopwatch here"
+       "Reading off a magnetic field gaussmeter from it",
+       "Weighing the entire part on a big scale",
+       "Timing the entire dry developer powder dwell period using a simple handheld stopwatch instead"
       ],
       "answer": 0,
       "explanation": "Remover concentration is checked (often with a refractometer) and adjusted to stay within the specified range for controlled removal.",
@@ -4079,7 +4079,7 @@
       "stem": "Solvent removal is well suited to field work because it:",
       "options": [
        "Needs no water supply or tanks",
-       "It cannot ever over-remove here",
+       "It cannot ever over-remove penetrant",
        "It detects the deep subsurface defects",
        "It requires a full dark room"
       ],
@@ -4131,9 +4131,9 @@
       "stem": "If over-emulsification has stripped penetrant from a discontinuity, the inspector should:",
       "options": [
        "Clean and reprocess the part from the penetrant step",
-       "Add on even more dry developer here",
-       "Just greatly increase the UV-A lamp power here",
-       "Accept the whole part fully as is here"
+       "Add on even more dry developer",
+       "Just greatly increase the UV-A viewing lamp output power",
+       "Accept the entire part fully as is"
       ],
       "answer": 0,
       "explanation": "Lost penetrant cannot be restored by later steps; the part must be cleaned and reprocessed from penetrant application to obtain valid indications.",
@@ -4157,9 +4157,9 @@
       "stem": "Wash water and spent remover are managed as:",
       "options": [
        "Process effluent requiring proper handling/disposal",
-       "Clean drinking water here",
-       "More dry developer powder here",
-       "Just more red penetrant kept aside for reuse here"
+       "Ordinary clean drinking water",
+       "More dry developer powder",
+       "Just more leftover red penetrant kept aside for later reuse"
       ],
       "answer": 0,
       "explanation": "Spent process fluids are handled and disposed of per environmental and safety requirements; they are not reused as fresh materials.",
@@ -4183,9 +4183,9 @@
       "stem": "Uneven removal across a part can cause:",
       "options": [
        "Inconsistent background and unreliable interpretation",
-       "A perfectly uniform brightness all over here",
-       "Far better overall contrast all over everywhere here too",
-       "No real effect at all on it here at all"
+       "A perfectly uniform brightness all over",
+       "Far better overall contrast all over everywhere instead",
+       "No real effect on the result"
       ],
       "answer": 0,
       "explanation": "Patchy removal leaves some areas with background and others over-removed, undermining consistent interpretation; removal is applied evenly.",
@@ -4209,9 +4209,9 @@
       "stem": "On a rough as-cast surface, water-washable penetrant is prone to:",
       "options": [
        "Trapping in surface texture, causing high background or over-washing attempts",
-       "Detecting the deep buried subsurface porosity too here",
-       "Fully eliminating the whole dry developer step entirely here",
-       "Fully magnetizing the whole entire casting part here"
+       "Detecting the deep buried subsurface gas porosity hidden within the casting too",
+       "Fully eliminating the entire dry developer step",
+       "Fully magnetizing the entire casting part"
       ],
       "answer": 0,
       "explanation": "Rough surfaces hold penetrant in the texture, so the operator faces background that tempts over-washing; post-emulsifiable or careful technique helps.",
@@ -4235,9 +4235,9 @@
       "stem": "Emulsifier and remover baths have controlled temperature because temperature affects:",
       "options": [
        "Removal rate and consistency",
-       "The exact UV-A wavelength here",
-       "The whole magnetic field here",
-       "The dry developer's color here"
+       "The exact UV-A light wavelength",
+       "The entire magnetic field",
+       "The dry developer's color"
       ],
       "answer": 0,
       "explanation": "Bath temperature changes how fast emulsification/removal proceeds, so it is controlled for repeatable results.",
@@ -4261,9 +4261,9 @@
       "stem": "Adequate rinsing after removal is verified by checking that:",
       "options": [
        "Surface background penetrant is gone while openings retain penetrant",
-       "The whole entire part is fully magnetized up here",
-       "Every last bit of the penetrant is fully gone here",
-       "The whole dry developer coating is fully applied on here"
+       "The entire part is fully magnetized up",
+       "Every last bit of the penetrant is fully gone",
+       "The entire dry developer powder coating has already been fully applied"
       ],
       "answer": 0,
       "explanation": "The rinse is judged complete when background is removed without stripping the openings; this balance defines proper removal.",
@@ -4287,9 +4287,9 @@
       "stem": "Solvent removers used in Method C should be:",
       "options": [
        "Compatible with the penetrant family and the part material",
-       "Any old household cleaner at all here",
-       "Water always, in every single case here",
-       "A strong acid always, in every single case here"
+       "Almost any ordinary off-the-shelf household cleaning product",
+       "Plain water in all cases",
+       "A strong acid in all cases"
       ],
       "answer": 0,
       "explanation": "Removers are part of a qualified family and must be compatible with the penetrant and not harm the part; arbitrary cleaners can degrade results or damage parts.",
@@ -4314,8 +4314,8 @@
       "options": [
        "Can flush penetrant out of the opening",
        "It improves the penetration",
-       "It adds even more red penetrant in here",
-       "It dries out the whole opening"
+       "It adds even more red penetrant back in",
+       "It dries out the entire opening"
       ],
       "answer": 0,
       "explanation": "Direct, forceful water into an opening washes out the trapped penetrant, so washing is done at an angle with controlled pressure.",
@@ -4339,9 +4339,9 @@
       "stem": "The removal step is often considered the most skill-dependent because it:",
       "options": [
        "Directly controls the balance between background and indication strength",
-       "It sets the whole red penetrant's chemistry here at all",
-       "It determines the exact UV-A light wavelength needed here",
-       "It fully magnetizes the whole entire part here at all"
+       "It sets the entire red penetrant's chemistry",
+       "It alone determines the exact UV-A light wavelength and lamp intensity needed",
+       "It fully magnetizes the entire part"
       ],
       "answer": 0,
       "explanation": "How the operator removes excess decides whether background is clean and whether indications survive, making it the most judgment-intensive step.",
@@ -4365,9 +4365,9 @@
       "stem": "Compared with water-washable penetrant, hydrophilic post-emulsifiable processing generally gives:",
       "options": [
        "Better control and higher achievable sensitivity",
-       "Far less overall control here",
-       "No real need for any water at all here",
-       "Far lower overall sensitivity, always, here"
+       "Far less overall control",
+       "No real need for any water",
+       "Far lower overall penetrant sensitivity in all cases"
       ],
       "answer": 0,
       "explanation": "Separating penetration from removal (via the remover step) gives more control and supports higher sensitivity than self-emulsifying water-washable penetrant.",
@@ -4392,8 +4392,8 @@
       "options": [
        "Controlled and recorded process parameters",
        "Left to the operator's own whim",
-       "Fully irrelevant here",
-       "Just set by the dry developer alone here"
+       "Fully irrelevant to control",
+       "Just set entirely by the dry developer alone"
       ],
       "answer": 0,
       "explanation": "These parameters are specified, controlled, and documented because they strongly affect removal and sensitivity.",
@@ -4417,9 +4417,9 @@
       "stem": "After washing fluorescent penetrant, a quick check under UV before developing can confirm:",
       "options": [
        "That background is adequately removed before proceeding",
-       "The exact deep crack depth down inside of it here",
-       "The whole entire part is fully magnetized up here",
-       "The dry developer's outer color shade here"
+       "The exact deep crack depth hidden down inside of the part",
+       "The entire part is fully magnetized up",
+       "The dry developer's outer color shade"
       ],
       "answer": 0,
       "explanation": "A UV check after washing confirms the surface background is clean enough to proceed to developing; remaining background may require careful additional washing.",
@@ -4443,9 +4443,9 @@
       "stem": "Which statement about removal is correct?",
       "options": [
        "Goal is to clear surface background while keeping penetrant in discontinuities",
-       "The goal is to remove every last bit of all the penetrant everywhere here",
-       "The goal is to add even more penetrant right down into all the openings",
-       "The whole removal step is fully optional here at all"
+       "The goal is to remove every last bit of all the penetrant everywhere",
+       "The goal is to add even more fresh penetrant right down into all the open openings",
+       "The entire removal step is fully optional"
       ],
       "answer": 0,
       "explanation": "Removal clears the surface background so indications stand out, while preserving the trapped penetrant that forms the indications.",
@@ -4579,9 +4579,9 @@
       "stem": "Forms d and e developers are:",
       "options": [
        "Nonaqueous (solvent-based), for fluorescent and for visible penetrant respectively",
-       "Both just plain dry, loose developer powders here",
-       "Both fully water-soluble developer types here",
-       "Both just plain emulsifier removers here"
+       "Both dry, loose developer powders",
+       "Both fully water-soluble developer types that dissolve completely in the rinse water",
+       "Both just emulsifier removers"
       ],
       "answer": 0,
       "explanation": "Nonaqueous developer Form d is formulated for fluorescent (Type 1) penetrant and Form e for visible (Type 2); both are applied as solvent-suspended sprays to a dry surface.",
@@ -4605,9 +4605,9 @@
       "stem": "Nonaqueous developer generally provides:",
       "options": [
        "The highest sensitivity of the developer forms for fine cracks",
-       "The very lowest overall sensitivity of them all here",
-       "No real contrast at all on it here",
-       "Full deep subsurface defect detection here"
+       "The very lowest overall sensitivity of all the available developer forms",
+       "No real contrast on the surface",
+       "Full deep subsurface defect detection"
       ],
       "answer": 0,
       "explanation": "Nonaqueous (solvent) developers form a fine, even film that gives strong blotting and contrast, typically the most sensitive developer form for fine surface cracks.",
@@ -4683,9 +4683,9 @@
       "stem": "A water-suspendible (Form c) developer bath requires agitation because:",
       "options": [
        "The powder is suspended, not dissolved, and would settle",
-       "It is highly flammable stuff here",
-       "It is fully magnetic itself here",
-       "It emits its own UV-A light here"
+       "It is a highly flammable solvent-based material that ignites easily",
+       "It is fully magnetic itself",
+       "It emits its own UV-A light"
       ],
       "answer": 0,
       "explanation": "Suspended particles settle without agitation, changing concentration and coverage, so the bath is kept agitated for uniform application.",
@@ -4709,7 +4709,7 @@
       "stem": "Nonaqueous developers require ventilation and fire precautions because they:",
       "options": [
        "Use flammable solvent carriers",
-       "They contain just plain water here",
+       "They simply contain water",
        "They are fully magnetic themselves",
        "They emit their own UV-A light"
       ],
@@ -4735,9 +4735,9 @@
       "stem": "Developers improve detectability partly by 'magnifying' an indication, meaning the developer:",
       "options": [
        "Spreads the bleed-out wider than the opening so it is easier to see",
-       "It physically enlarges the whole crack itself here",
-       "It adds even more red dye onto it here",
-       "It uses a small magnifying glass lens here"
+       "It physically enlarges and widens the entire crack opening itself in the metal",
+       "It adds even more red dye onto it",
+       "It uses a small magnifying glass lens"
       ],
       "answer": 0,
       "explanation": "The developer draws penetrant out and spreads it, so the visible mark is wider than the actual opening, helping the eye detect small discontinuities.",
@@ -4761,9 +4761,9 @@
       "stem": "For visible penetrant, the developer's white film primarily provides:",
       "options": [
        "A contrasting background for the colored indication",
-       "Its own bright UV-A light emission here",
-       "Full magnetic field shielding here",
-       "Full electrical current insulation here"
+       "Its own bright UV-A black light emission across the surface",
+       "Full magnetic field shielding",
+       "Full electrical current insulation"
       ],
       "answer": 0,
       "explanation": "The white developer contrasts with the red bleed-out under white light, making indications stand out.",
@@ -4787,9 +4787,9 @@
       "stem": "Too thick a developer coating can:",
       "options": [
        "Mask small indications under excess powder/film",
-       "Greatly improve the overall sensitivity here too",
-       "Greatly speed up the whole bleed-out",
-       "Greatly lower the whole red background"
+       "Greatly improve the overall penetrant sensitivity too",
+       "Greatly speed up the entire bleed-out",
+       "Greatly lower the entire red background"
       ],
       "answer": 0,
       "explanation": "An overly heavy developer layer buries faint bleed-out, so a thin uniform film is applied to preserve small-indication visibility.",
@@ -4839,9 +4839,9 @@
       "stem": "Development time exists so that:",
       "options": [
        "Trapped penetrant has time to bleed out and spread into a visible indication",
-       "The dry developer can fully dry the red penetrant in all the openings here now",
-       "The whole entire part can be fully cleaned off here",
-       "The red penetrant dye can be fully applied on here"
+       "The dry developer can fully dry the trapped red penetrant in all the openings",
+       "The entire part can be fully cleaned off",
+       "The red penetrant dye can be fully applied on"
       ],
       "answer": 0,
       "explanation": "After developer is applied, time is allowed for penetrant to bleed and form indications; fine indications may need the full development time to appear.",
@@ -4865,9 +4865,9 @@
       "stem": "Leaving developer on far longer than specified can cause:",
       "options": [
        "Indications to over-bleed and blur together",
-       "Indications to vanish away instantly here",
-       "The whole entire part to magnetize up here",
-       "The dry developer to become red penetrant here"
+       "Indications to vanish away instantly",
+       "The entire part to magnetize up",
+       "The dry developer to turn into red penetrant"
       ],
       "answer": 0,
       "explanation": "Excessive development time lets bleed-out spread and merge, blurring indications and complicating interpretation, so viewing occurs within the window.",
@@ -4943,9 +4943,9 @@
       "stem": "Dry powder developer is applied by:",
       "options": [
        "A gentle cloud, dust chamber, or electrostatic application",
-       "Pouring it all on really heavily here",
-       "Spraying plain water all over it here",
-       "Wiping it all down with wet solvent here"
+       "Pouring it all on very heavily",
+       "Spraying plain water all over it",
+       "Wiping it all down heavily by hand with a soaked wet solvent cloth"
       ],
       "answer": 0,
       "explanation": "Dry powder is applied as a light, even cloud (often in a dust chamber or by electrostatic spray) so it lightly coats the surface and bleed-out areas.",
@@ -4969,9 +4969,9 @@
       "stem": "The difference between water-soluble (Form b) and water-suspendible (Form c) developers is that:",
       "options": [
        "Soluble dissolves in water; suspendible is particles held in suspension",
-       "They are both exactly fully identical here",
-       "The soluble form is just a dry, loose powder here",
-       "The suspendible form is fully solvent-based here"
+       "They are both exactly fully identical",
+       "The soluble form is nothing more than an ordinary dry, loose powder dusting",
+       "The suspendible form is fully solvent-based"
       ],
       "answer": 0,
       "explanation": "Form b dissolves fully in water, while Form c is a powder suspended in water that must be agitated to stay uniform.",
@@ -4995,9 +4995,9 @@
       "stem": "After an aqueous developer is applied, the part is:",
       "options": [
        "Dried to leave a developer film",
-       "Left fully wet for inspection here",
-       "Fully re-penetrated all again here",
-       "Fully magnetized up first here"
+       "Left fully wet for the inspection",
+       "Fully re-penetrated all again",
+       "Fully magnetized up first"
       ],
       "answer": 0,
       "explanation": "Water-based developers are dried so a thin developer film remains to provide contrast and blotting before inspection.",
@@ -5021,9 +5021,9 @@
       "stem": "Some high-sensitivity fluorescent procedures allow a 'no developer' inspection. This works because:",
       "options": [
        "Strong bleed-out can be seen under UV without a developer film, where qualified",
-       "The dry developers are simply never ever useful at all here",
-       "It detects the deep buried subsurface defects too here",
-       "The red penetrant is fully unnecessary here"
+       "The dry developers are simply never useful",
+       "It reliably detects the deep buried subsurface volumetric defects within the part too",
+       "The red penetrant is fully unnecessary"
       ],
       "answer": 0,
       "explanation": "Where qualified, very bright fluorescent penetrant can be viewed without developer, though most applications use a developer to maximize sensitivity and contrast.",
@@ -5047,9 +5047,9 @@
       "stem": "Contaminated or caked developer should be:",
       "options": [
        "Replaced, since it gives uneven coverage and poor contrast",
-       "Fully used right up until it is empty here",
-       "Mixed in with the red penetrant here",
-       "Heated up and reused over again here"
+       "Fully used right up until the container runs completely empty each time",
+       "Mixed in with the red penetrant",
+       "Heated up and reused over again"
       ],
       "answer": 0,
       "explanation": "Developer that is contaminated, clumped, or out of condition gives unreliable coverage and is replaced to maintain consistent results.",
@@ -5073,9 +5073,9 @@
       "stem": "The blotting action of a developer refers to its ability to:",
       "options": [
        "Absorb and draw penetrant from the opening to the surface",
-       "Soak up plain water only off it here",
-       "Fully repel the red penetrant away here",
-       "Fully dissolve the whole part away here"
+       "Soak up plain water only off it",
+       "Fully repel the red penetrant away",
+       "Fully dissolve and wash the entire part base metal cleanly away"
       ],
       "answer": 0,
       "explanation": "Developer acts like a blotter, absorbing trapped penetrant and pulling it out where it spreads and becomes visible.",
@@ -5099,9 +5099,9 @@
       "stem": "Fine developer particle size helps by:",
       "options": [
        "Forming a smooth film that resolves small indications",
-       "Masking all the small indications here",
-       "Adding color to the fluorescent dye",
-       "Magnetizing the whole part surface"
+       "Masking all the small indications",
+       "Adding extra bright color to the fluorescent dye itself",
+       "Magnetizing the entire part surface"
       ],
       "answer": 0,
       "explanation": "Fine particles create an even film with good blotting and resolution of small bleed-outs, improving detectability.",
@@ -5125,9 +5125,9 @@
       "stem": "Aqueous developers are often chosen for:",
       "options": [
        "High-volume processing of many parts on a line",
-       "Quick portable field spot checks only here",
-       "Fully eliminating the whole drying step",
-       "Deep subsurface defect inspection here"
+       "Quick portable field spot checks only",
+       "Fully eliminating the entire part drying step altogether",
+       "Deep subsurface defect inspection"
       ],
       "answer": 0,
       "explanation": "Water-based developers suit immersion or flow-on processing of large quantities; field spot work more often uses nonaqueous aerosol developer.",
@@ -5151,9 +5151,9 @@
       "stem": "Watching how quickly penetrant bleeds into the developer helps distinguish:",
       "options": [
        "A strong, fast-bleeding crack from faint non-relevant marks",
-       "The exact UV-A light wavelength used here",
-       "The whole part's overall magnetism level here",
-       "The red penetrant's exact flash point here"
+       "The exact UV-A light wavelength used",
+       "The entire part's overall residual surface magnetism field level",
+       "The red penetrant's exact flash point"
       ],
       "answer": 0,
       "explanation": "The speed and strength of bleed-out into the developer gives interpretation clues about the discontinuity, separating relevant from non-relevant indications.",
@@ -5178,8 +5178,8 @@
       "options": [
        "Indications appear consistently across the whole area",
        "Only a small part of the surface develops",
-       "The whole entire part dries out much faster",
-       "The whole red penetrant is fully removed off"
+       "The entire part dries out much faster",
+       "The entire red penetrant film is fully removed off the part"
       ],
       "answer": 0,
       "explanation": "Even coverage ensures bleed-out is drawn out and contrasted uniformly, so no area is left with weak or no development.",
@@ -5203,9 +5203,9 @@
       "stem": "Nonaqueous developer aerosol should be sprayed:",
       "options": [
        "From an appropriate distance to deposit a thin, even film",
-       "Up real close to fully pool it all on here",
-       "Right onto a fully soaking wet surface here",
-       "Well before any red penetrant has even been applied"
+       "Up very close to fully pool it all on",
+       "Right onto a fully soaking wet surface",
+       "Well before any red penetrant has even been applied to it yet"
       ],
       "answer": 0,
       "explanation": "Spraying from the correct distance gives a light uniform coat; spraying too close pools the developer and can mask indications.",
@@ -5230,8 +5230,8 @@
       "options": [
        "Blot penetrant out, spread/magnify it, and provide contrast",
        "To magnetize, demagnetize",
-       "To apply the couplant, send a pulse, and read the echo here too",
-       "To expose, then process, and then view the whole film here"
+       "To clean the surface, apply penetrant, and then let it dwell",
+       "To preclean, dry, and then inspect the part"
       ],
       "answer": 0,
       "explanation": "Developers draw penetrant from openings, spread it to magnify small indications, and provide a contrasting background.",
@@ -5255,9 +5255,9 @@
       "stem": "Dry powder developer is favored with fluorescent penetrant partly because it:",
       "options": [
        "Does not add a heavy white film that would dilute the fluorescent glow",
-       "It emits its very own UV-A light here",
-       "It is fully solvent-based itself here",
-       "It fully removes the red penetrant off here"
+       "It emits its very own UV-A light",
+       "It is fully solvent-based itself",
+       "It fully removes all of the trapped red penetrant right off the part surface"
       ],
       "answer": 0,
       "explanation": "A light dry powder lets the fluorescent indication glow clearly, whereas a heavy white film could dilute the visible glow; nonaqueous Form d is also common for high sensitivity.",
@@ -5281,9 +5281,9 @@
       "stem": "Developer materials should be stored:",
       "options": [
        "Sealed and dry to prevent moisture absorption and caking",
-       "Left wide open to the humid damp air here",
-       "Mixed in with the red penetrant here",
-       "In direct hot sunlight while left wide open here"
+       "Left wide open to the humid damp air",
+       "Mixed in with the red penetrant",
+       "In direct hot sunlight while the container lid is left wide open"
       ],
       "answer": 0,
       "explanation": "Keeping developer sealed and dry prevents moisture uptake that causes caking and uneven application.",
@@ -5308,8 +5308,8 @@
       "options": [
        "Leave a heavy film that masks indications",
        "Improve sensitivity without any real limit",
-       "Emit its own bright UV-A light here",
-       "Magnetize the whole entire part"
+       "Emit its own bright UV-A light",
+       "Magnetize the entire part"
       ],
       "answer": 0,
       "explanation": "Over-concentration produces a thick film that buries small indications, so concentration is checked and maintained per the specification.",
@@ -5333,9 +5333,9 @@
       "stem": "Which developer-form mapping is correct?",
       "options": [
        "a: dry; b: water-soluble; c: water-suspendible; d/e: nonaqueous",
-       "A: nonaqueous; b: dry powder; c: solvent; d: plain water",
-       "All of the forms are just plain dry powder here",
-       "All of the forms are fully nonaqueous based here"
+       "A: nonaqueous solvent; b: dry powder; c: solvent based; d: plain tap water",
+       "All of the forms are just dry powder",
+       "All of the forms are fully nonaqueous based"
       ],
       "answer": 0,
       "explanation": "Form a is dry powder, b is water-soluble, c is water-suspendible, and d and e are nonaqueous (for fluorescent and visible respectively).",
@@ -5359,9 +5359,9 @@
       "stem": "A common error is applying developer:",
       "options": [
        "Before adequately removing surface penetrant, causing heavy background",
-       "Well after the whole postcleaning step is fully done here",
-       "Well before any precleaning of the whole part here",
-       "Right instead of the red penetrant itself here"
+       "Well after the entire final postcleaning step has already been fully done",
+       "Well before any precleaning of the entire part",
+       "Right instead of the red penetrant itself"
       ],
       "answer": 0,
       "explanation": "Developing over un-removed surface penetrant floods the surface with background; developer must follow proper excess removal.",
@@ -5385,9 +5385,9 @@
       "stem": "Nonaqueous developers dry quickly because:",
       "options": [
        "The volatile solvent carrier evaporates rapidly, leaving the film",
-       "They simply contain plain water in them here",
-       "They are fully heated up red hot here",
-       "They are fully magnetic themselves here"
+       "They simply contain water in them",
+       "They are fully heated up red hot",
+       "They are fully magnetic materials that attract the particles themselves"
       ],
       "answer": 0,
       "explanation": "The solvent carrier flashes off quickly, depositing a fine developer film and starting bleed-out promptly.",
@@ -5411,9 +5411,9 @@
       "stem": "For very tight cracks, the developer is especially important because it:",
       "options": [
        "Pulls out the small amount of penetrant and spreads it to a visible width",
-       "It physically widens the whole open crack itself here",
-       "It adds even more red penetrant right into it here",
-       "It fully cools the whole entire part right down here"
+       "It physically widens and opens up the entire crack itself within the part metal",
+       "It adds even more red penetrant right into it",
+       "It fully cools the entire part right down"
       ],
       "answer": 0,
       "explanation": "Tight cracks hold little penetrant; the developer's blotting and spreading make that small bleed-out visible, which is why nonaqueous developer is favored for fine cracks.",
@@ -5438,8 +5438,8 @@
       "options": [
        "Within the specified development time window",
        "Only after the dry developer is fully removed",
-       "Well before any dry developer is applied here",
-       "Several whole days later on"
+       "Well before any dry developer is applied",
+       "Several days later on"
       ],
       "answer": 0,
       "explanation": "Evaluation occurs during/after development within the specified window, before over-bleed blurs indications or the developer is cleaned off.",
@@ -5463,9 +5463,9 @@
       "stem": "A properly developed visible-penetrant surface appears:",
       "options": [
        "Uniformly white with indications standing out in color",
-       "All patchy and bare all over here",
-       "All brightly glowing under the UV-A black light",
-       "All fully wet and dripping all over here"
+       "All patchy and bare all over",
+       "All brightly glowing yellow-green under the UV-A black light",
+       "All fully wet and dripping all over"
       ],
       "answer": 0,
       "explanation": "A good visible-penetrant developer film is an even white background against which colored indications are clearly visible.",
@@ -5489,9 +5489,9 @@
       "stem": "Which statement about developers is correct?",
       "options": [
        "Nonaqueous developer generally gives the highest sensitivity for fine cracks",
-       "The dry developers add more penetrant onto the whole part here",
-       "The dry developers fully magnetize the whole entire part here",
-       "The dry developers are simply fully optional in every single case here"
+       "The dry developers actually add even more fresh penetrant onto the entire part surface",
+       "The dry developers fully magnetize the entire part",
+       "The dry developers are simply fully optional in all cases"
       ],
       "answer": 0,
       "explanation": "Among developer forms, nonaqueous typically offers the highest sensitivity for fine surface cracks due to its fine, even film and strong blotting.",
@@ -5625,9 +5625,9 @@
       "stem": "A UV-A lamp should be warmed up before use because:",
       "options": [
        "Its output stabilizes at full intensity after warm-up",
-       "Warming up actually cools the whole part down",
+       "Warming up actually cools the entire part down",
        "Warming up charges up the red penetrant dye",
-       "Warming up cleans off the whole part surface fully"
+       "Warming up cleans off the entire part surface fully first"
       ],
       "answer": 0,
       "explanation": "Many UV-A lamps need a warm-up to reach and hold full output, which is then verified to meet the minimum irradiance.",
@@ -5653,7 +5653,7 @@
        "Allow eyes to dark-adapt (about a minute or more)",
        "Stare straight into the bright UV-A lamp beam directly",
        "Turn the bright white room light all the way up",
-       "Skip the whole UV-A lamp warm-up step entirely"
+       "Skip the entire UV-A lamp warm-up step"
       ],
       "answer": 0,
       "explanation": "Dark adaptation lets the eye see faint fluorescent indications; staring into the lamp or raising white light defeats this.",
@@ -5677,9 +5677,9 @@
       "stem": "The filter on a UV-A lamp is important because it:",
       "options": [
        "Passes UV-A while blocking unwanted visible and shorter-wavelength light",
-       "Greatly increases the red penetrant dwell time",
+       "Greatly increases the red penetrant dwell time required before developing it",
        "Measures the penetrant bath concentration",
-       "Fully demagnetizes the whole part right down"
+       "Fully demagnetizes the entire part right down"
       ],
       "answer": 0,
       "explanation": "The filter transmits UV-A and blocks harmful shorter wavelengths and stray white light; a cracked filter is a safety hazard and is removed from service.",
@@ -5781,9 +5781,9 @@
       "stem": "A TAM (or PSM-5) panel is used to:",
       "options": [
        "Check overall penetrant system performance and washability",
-       "Measure the exact UV-A light wavelength precisely",
+       "Measure the exact UV-A light beam wavelength very precisely",
        "Set the dry developer concentration level exactly",
-       "Fully demagnetize the whole parts right down"
+       "Fully demagnetize the entire parts right down"
       ],
       "answer": 0,
       "explanation": "The TAM/PSM-5 panel has graduated chrome cracks plus a grit-blasted area, used to verify system sensitivity and removal (washability) performance.",
@@ -5807,9 +5807,9 @@
       "stem": "Cracked aluminum block or chrome-crack panels are used as:",
       "options": [
        "Reference standards to verify system sensitivity",
-       "Spray-on dry developer powder cans only here",
-       "Solvent-based penetrant remover cans only here now",
-       "Recirculating part drying ovens only here now"
+       "Spray-on dry developer powder cans only",
+       "Solvent-based penetrant remover aerosol spray cans only",
+       "Recirculating part drying ovens only"
       ],
       "answer": 0,
       "explanation": "Known-defect reference panels confirm that the penetrant system reveals cracks of expected size, validating sensitivity and process.",
@@ -5835,7 +5835,7 @@
        "Heating and quenching to form thermal cracks of graduated severity",
        "Carefully machining narrow slots straight into the panel surface",
        "Drilling small round holes right straight through the panel surface",
-       "Laying down raised welding beads all across the whole panel surface"
+       "Laying down raised welding beads across the entire panel surface"
       ],
       "answer": 0,
       "explanation": "The aluminum block is locally heated and water-quenched to create a repeatable field of thermal cracks for comparing penetrant systems.",
@@ -5859,7 +5859,7 @@
       "stem": "A recirculating drying oven in a PT line is used to:",
       "options": [
        "Dry parts within a controlled temperature limit",
-       "Apply the red penetrant dye all over the part",
+       "Apply the red penetrant dye all over the part surface",
        "Develop out the final visible indications",
        "Cool down the hot UV-A lamp right down"
       ],
@@ -5887,7 +5887,7 @@
        "Avoid drying penetrant in discontinuities",
        "Speed up the drying without any limit at all",
        "Greatly increase the dye fluorescence",
-       "Fully magnetize the whole metal part"
+       "Fully magnetize the entire metal part"
       ],
       "answer": 0,
       "explanation": "A temperature limit protects the trapped penetrant from baking out and protects the part; exact limits follow the specification.",
@@ -5911,9 +5911,9 @@
       "stem": "A daily PT system performance check typically uses:",
       "options": [
        "A known-defect reference panel plus lighting and material checks",
-       "Only the daily running part count total and nothing else here",
-       "Only the ambient room temperature reading, nothing else at all here",
-       "Only the UV-A lamp serial number written down and nothing else"
+       "Only the daily running part count total and nothing else",
+       "Only the ambient room temperature reading and nothing else",
+       "Only the UV-A lamp serial number written down in the daily log book"
       ],
       "answer": 0,
       "explanation": "Daily checks confirm the system reveals known defects and verify UV and white-light levels and material condition, not just a single parameter.",
@@ -5938,7 +5938,7 @@
       "options": [
        "A reference (known good) penetrant under the same conditions",
        "The dry developer powder's outer color alone",
-       "The whole part's total weight measured on a scale",
+       "The entire part's total measured weight on a calibrated bench scale",
        "The ambient room temperature reading alone"
       ],
       "answer": 0,
@@ -5964,7 +5964,7 @@
       "options": [
        "Degrade sensitivity and change removal behavior",
        "Greatly increase the UV-A lamp output",
-       "Fully magnetize the whole penetrant bath",
+       "Fully magnetize the entire penetrant bath tank itself",
        "Greatly improve the dye fluorescence"
       ],
       "answer": 0,
@@ -6015,7 +6015,7 @@
       "stem": "UV-A irradiance is verified at the:",
       "options": [
        "Working distance and surface where parts are actually inspected",
-       "Right at the UV-A lamp's front glass face only",
+       "Right up at the UV-A lamp's own front glass face only, very close",
        "Way up high at the dark booth ceiling only",
        "Down low at the floor wash drain only"
       ],
@@ -6042,8 +6042,8 @@
       "options": [
        "Exclude ambient white light so indications are visible",
        "Fully magnetize all the metal parts",
-       "Heat up the whole metal part fast",
-       "Apply the red penetrant dye all over it"
+       "Heat up the entire metal part fast",
+       "Apply the red penetrant dye all over the entire surface"
       ],
       "answer": 0,
       "explanation": "The darkened booth keeps ambient white light low so faint fluorescent indications can be seen under UV-A.",
@@ -6093,9 +6093,9 @@
       "stem": "Process control records for a PT line typically include:",
       "options": [
        "Lighting levels, material concentrations/condition, and system-check results",
-       "Only the single operator's full name written down, nothing else at all here",
-       "Only the part's total dollar sale price written, nothing whatsoever else here",
-       "Only the day's outdoor weather conditions and nothing whatsoever else here"
+       "Only the single operator's full name written down, nothing else",
+       "Only the finished part's total dollar sale price written down, and nothing further",
+       "Only the day's outdoor weather conditions and nothing else"
       ],
       "answer": 0,
       "explanation": "Records document lighting verification, material condition and concentration, temperatures, and reference-panel results for traceability.",
@@ -6121,7 +6121,7 @@
        "Process-control checks (brightness, water content, sensitivity panel) showing degradation",
        "A noticeably much louder bath pump motor sound",
        "A slightly heavier feeling part up on the scale",
-       "A slightly brighter looking inspection booth room"
+       "A slightly brighter and warmer-looking inspection booth interior seen under the white light"
       ],
       "answer": 0,
       "explanation": "Routine checks catch contamination through reduced brightness, abnormal water content, or poorer performance on the reference panel, prompting correction.",
@@ -6147,7 +6147,7 @@
        "Removal (washability) performance of the penetrant system",
        "The exact UV-A light beam wavelength only",
        "The dry developer powder's flammability only",
-       "The whole part's residual magnetism level only"
+       "The entire part's leftover residual surface magnetism level only"
       ],
       "answer": 0,
       "explanation": "The grit-blasted half checks how cleanly excess penetrant is removed (washability), while the chrome-crack half checks sensitivity.",
@@ -6171,7 +6171,7 @@
       "stem": "When working with UV-A lamps, the inspector should:",
       "options": [
        "Avoid direct exposure and use specified UV-filtering eyewear if required",
-       "Look straight into the UV-A beam directly just to check up on it",
+       "Look straight into the bright UV-A beam directly just to quickly check up on it",
        "Take the UV-A lamp's front glass filter right off entirely",
        "Use a harsh UV-C germicidal lamp instead of it all"
       ],
@@ -6197,8 +6197,8 @@
       "stem": "Even in fluorescent PT, a white-light source is kept available to:",
       "options": [
        "Examine and characterize indications more closely when needed",
-       "Fully replace the whole UV-A lamp unit entirely",
-       "Develop out all the final visible indications",
+       "Fully replace the entire UV-A lamp unit",
+       "Fully develop out every one of the final visible red dye indications",
        "Remove all the leftover red penetrant fully"
       ],
       "answer": 0,
@@ -6223,8 +6223,8 @@
       "stem": "A stationary PT line is typically arranged as a sequence of stations for:",
       "options": [
        "Penetrant, drain/dwell, removal, dry, developer, and inspection",
-       "Only the washing and removal step alone, nothing else at all here",
-       "Only the final inspection step alone, nothing else at all here",
+       "Only the washing and removal step alone, nothing else",
+       "Only the final inspection step alone, nothing else",
        "Just the penetrant and final inspection steps only, nothing else"
       ],
       "answer": 0,
@@ -6249,9 +6249,9 @@
       "stem": "Reference panels must be cleaned thoroughly between uses because residual penetrant can:",
       "options": [
        "Distort later sensitivity checks",
-       "Greatly improve the whole panel",
+       "Greatly improve the entire panel",
        "Add fresh new cracks into it",
-       "Fully magnetize the whole panel up"
+       "Fully magnetize the entire panel up"
       ],
       "answer": 0,
       "explanation": "Penetrant left in the panel's cracks skews subsequent checks, so panels are carefully cleaned and stored per procedure.",
@@ -6275,9 +6275,9 @@
       "stem": "Which lighting summary is correct?",
       "options": [
        "Fluorescent: at least 1000 microwatts/cm-squared UV-A with low ambient white (about 2 fc max); visible: at least about 100 fc white",
-       "Fluorescent: just 100 fc of bright white light only; visible: UV-A black light only, with no white light at all and nothing else here",
-       "Both methods: just 2 fc of dim white light only, with nothing else at all whatsoever besides that, here now",
-       "There are simply no lighting level requirements that exist at all, for either method, ever, anywhere"
+       "Fluorescent: just 100 fc of plain bright white light only; visible: a UV-A black light alone only, with no white light needed anywhere",
+       "Both methods: just 2 fc of dim white light only, with nothing else needed",
+       "There are simply no lighting level requirements that exist for either method"
       ],
       "answer": 0,
       "explanation": "Fluorescent PT requires adequate UV-A (commonly 1000 microwatts/cm-squared) with low ambient white light (about 2 fc max); visible PT requires adequate white light (commonly about 100 fc).",
@@ -6301,8 +6301,8 @@
       "stem": "Material and part temperature are monitored because they affect:",
       "options": [
        "Penetration, removal, and development behavior",
-       "The exact UV-A light beam wavelength only here",
-       "The whole part's leftover magnetism level only",
+       "The exact UV-A light beam wavelength only",
+       "The entire part's leftover magnetism level only",
        "The dry developer powder's outer color only"
       ],
       "answer": 0,
@@ -6329,7 +6329,7 @@
        "Control solvent and penetrant vapors for safety",
        "Cool down the hot UV-A lamp right down",
        "Fully magnetize all the metal parts",
-       "Greatly increase the dye fluorescence more"
+       "Greatly increase the overall dye fluorescence more"
       ],
       "answer": 0,
       "explanation": "Ventilation controls vapors from penetrants, solvents, and developers, protecting personnel; it is not for lamp cooling or magnetism.",
@@ -6354,7 +6354,7 @@
       "options": [
        "Calibrated periodically to keep readings valid",
        "Used without any calibration at all",
-       "Replaced entirely by the reference panels",
+       "Replaced entirely by the crack reference panels",
        "Used only one single time ever"
       ],
       "answer": 0,
@@ -6379,8 +6379,8 @@
       "stem": "Dry developer dust chambers are enclosed to:",
       "options": [
        "Contain powder and give even coverage while controlling dust exposure",
-       "Fully magnetize the whole dry developer powder",
-       "Heat up the whole metal part right up fast",
+       "Fully magnetize the entire dry developer powder supply inside the chamber",
+       "Heat up the entire metal part fast",
        "Apply the red penetrant dye all over it"
       ],
       "answer": 0,
@@ -6407,7 +6407,7 @@
        "Minimum UV-A irradiance at the inspection surface",
        "One specific UV-A bulb shape only",
        "One fixed total lamp weight only",
-       "One particular lamp brand name only"
+       "One particular single named lamp brand only, and no other"
       ],
       "answer": 0,
       "explanation": "Regardless of lamp technology, the UV-A irradiance at the surface must meet the specified minimum, verified by radiometer.",
@@ -6431,7 +6431,7 @@
       "stem": "Ambient white light in a fluorescent booth is measured to confirm it is:",
       "options": [
        "Low enough (about 2 fc or less) not to wash out indications",
-       "Bright and high enough to easily read a book by",
+       "Bright and high enough to comfortably read a small printed book by",
        "Exactly equal to the UV-A irradiance level",
        "Well above a full 100 fc bright white"
       ],
@@ -6457,7 +6457,7 @@
       "stem": "Penetrant and developer materials have a shelf life because:",
       "options": [
        "They degrade over time, affecting performance",
-       "They actually gain more sensitivity with age",
+       "They actually gain more sensitivity as they age",
        "They slowly turn fully magnetic over time",
        "They slowly turn right into raw solvent"
       ],
@@ -6510,8 +6510,8 @@
       "options": [
        "Verifies the whole process (materials, lighting, technique) together",
        "Only ever measures the UV-A light output level alone",
-       "Only ever measures the penetrant bath concentration alone",
-       "Only ever weighs the whole reference panel itself"
+       "Only ever measures the penetrant bath concentration value by itself alone",
+       "Only ever weighs the entire reference panel itself"
       ],
       "answer": 0,
       "explanation": "Running a known-defect panel through the full process confirms the combined system performs, beyond any single material or instrument reading.",
@@ -6593,9 +6593,9 @@
       "stem": "A relevant indication is one that:",
       "options": [
        "Results from an actual discontinuity and must be evaluated against acceptance criteria",
-       "Comes from the part's own geometry, such as press fits, splines, or thread roots only",
-       "Comes from surface contamination, like lint, dirt, or handling residue left on it here",
-       "Is always fully rejectable, in every single case here, no matter what it might be at all"
+       "Comes from the part's own geometry, such as press fits, splines, or thread root features only",
+       "Comes from surface contamination, like lint, dirt, or handling residue left on it",
+       "Is always fully rejectable, whatever its actual cause"
       ],
       "answer": 0,
       "explanation": "Relevant indications arise from genuine discontinuities and are evaluated against the acceptance criteria to decide accept or reject.",
@@ -6621,7 +6621,7 @@
        "Part geometry such as press fits, splines, or threads",
        "A real surface fatigue crack in the actual part itself",
        "Loose lint or some greasy bare fingerprints on it",
-       "Real surface gas porosity pitting in the metal here"
+       "Real surface gas porosity pitting in the metal"
       ],
       "answer": 0,
       "explanation": "Non-relevant indications come from design features or geometry that trap penetrant but are not discontinuities, such as press-fit junctions or thread roots.",
@@ -6646,8 +6646,8 @@
       "options": [
        "Process problems or contamination, not a discontinuity or part feature",
        "A real subsurface fatigue crack down inside the actual part body itself",
-       "A real surface-breaking fatigue crack open right at the part surface here",
-       "A normal press-fit joint boundary line in the part's own geometry here"
+       "A real surface-breaking fatigue crack open right at the part surface",
+       "A normal press-fit joint boundary line in the part's own geometry"
       ],
       "answer": 0,
       "explanation": "False indications come from things like residual penetrant on fixtures, contaminated developer, lint, or fingerprints, not from real discontinuities or geometry.",
@@ -6749,7 +6749,7 @@
       "stem": "Surface-breaking gas porosity typically appears as:",
       "options": [
        "Rounded indications, sometimes scattered or clustered",
-       "A single long, straight continuous line only here",
+       "A single long, straight continuous line only",
        "One straight continuous crack line running across it",
        "A perfectly uniform glow everywhere across the surface"
       ],
@@ -6801,9 +6801,9 @@
       "stem": "The width of a penetrant indication is generally:",
       "options": [
        "Wider than the actual opening because the developer spreads the bleed-out",
-       "Exactly equal to the actual opening width every single time",
+       "Exactly equal to the actual opening width",
        "Always much narrower than the actual opening width",
-       "Completely unrelated to the actual opening width at all"
+       "Completely unrelated in any way to the actual opening width in every situation"
       ],
       "answer": 0,
       "explanation": "Developer blotting spreads the bleed-out, so the visible indication is wider than the true opening; this magnification aids detection but means width is not the true defect width.",
@@ -6853,9 +6853,9 @@
       "stem": "Interpretation determines what caused an indication; evaluation determines:",
       "options": [
        "Whether it is acceptable per the criteria",
-       "The exact UV-A light beam wavelength here",
-       "The red penetrant dye's brand name only",
-       "The drying oven's set temperature value here"
+       "The exact UV-A light beam wavelength",
+       "The red penetrant dye's particular brand name only",
+       "The drying oven's set temperature value"
       ],
       "answer": 0,
       "explanation": "Interpretation classifies the indication (relevant, non-relevant, false); evaluation then judges relevant indications against acceptance criteria.",
@@ -6880,8 +6880,8 @@
       "options": [
        "A false indication from handling contamination",
        "A real surface fatigue crack in the metal part",
-       "Real surface gas porosity pitting in it here",
-       "A real rolled-in forging lap defect in it here"
+       "Real surface gas porosity pitting in it",
+       "A real rolled-in forging lap defect in it"
       ],
       "answer": 0,
       "explanation": "Fingerprint-shaped marks come from penetrant transferred by handling, a false indication; clean handling and reprocessing resolve it.",
@@ -6931,9 +6931,9 @@
       "stem": "When an inspector suspects a false or non-relevant indication, a good practice is to:",
       "options": [
        "Clean the area and reprocess, or examine to confirm the source",
-       "Immediately reject the whole part outright, no further checks",
+       "Immediately reject the entire part outright, no further checks",
        "Greatly increase the UV-A lamp power output only",
-       "Just ignore it completely and carry right on working anyway here"
+       "Just ignore it completely and carry on working anyway"
       ],
       "answer": 0,
       "explanation": "Suspect indications are confirmed by cleaning and reprocessing or by close examination, distinguishing real discontinuities from artifacts before judging the part.",
@@ -6958,8 +6958,8 @@
       "options": [
        "A relevant discontinuity holding substantial penetrant",
        "Some loose surface lint sitting on it",
-       "Just a greasy bare-hand fingerprint left on it here",
-       "Just clean, sound base metal with no flaw at all here"
+       "Just a greasy bare-hand fingerprint smear left on the surface",
+       "Just clean, sound base metal with no flaw"
       ],
       "answer": 0,
       "explanation": "A real opening holds a reservoir of penetrant that bleeds back strongly even after wiping; a true crack reappears, while surface artifacts usually do not.",
@@ -6984,8 +6984,8 @@
       "options": [
        "Knows the part geometry and expected feature locations",
        "Has no part drawing or any reference at all to use",
-       "Works under bright white room light the entire time",
-       "Skips the whole dry developer step entirely here"
+       "Works under only bright white room light the entire shift",
+       "Skips the entire dry developer step"
       ],
       "answer": 0,
       "explanation": "Understanding the part's design features lets the inspector recognize predictable geometry indications and separate them from relevant ones.",
@@ -7011,7 +7011,7 @@
        "Scattered surface porosity",
        "A single long straight crack",
        "A press-fit joint boundary",
-       "A handling smear mark here"
+       "A handling smear mark"
       ],
       "answer": 0,
       "explanation": "Grouped rounded indications usually mean clustered surface porosity; their rounded shape and grouping distinguish them from linear cracks.",
@@ -7035,9 +7035,9 @@
       "stem": "Several rounded indications in a straight line may be evaluated as:",
       "options": [
        "Aligned rounded indications, which some criteria treat like a linear indication",
-       "Always perfectly acceptable in every single case here, no matter what they are",
-       "Always a plain false indication from handling, every single time",
-       "Always non-relevant geometry by default, in every single case"
+       "Always perfectly acceptable by default, regardless of their actual cause or layout",
+       "Always a plain false indication from handling",
+       "Always non-relevant geometry by default"
       ],
       "answer": 0,
       "explanation": "Rounded indications aligned in a row can be significant; many acceptance criteria treat a line of aligned rounded indications similarly to a linear indication.",
@@ -7061,7 +7061,7 @@
       "stem": "If inspection is delayed too long, indications may:",
       "options": [
        "Over-bleed and blur, making sizing and classification harder",
-       "Completely disappear and then never ever return again",
+       "Completely disappear and then never reappear or return again afterward",
        "Suddenly become fully magnetic on the part",
        "Slowly turn into normal part geometry features"
       ],
@@ -7088,8 +7088,8 @@
       "options": [
        "Reprocessed and re-examined to confirm no real discontinuity is present",
        "Accepted right away without any rechecking of it at all",
-       "Quickly painted over and then completely hidden from view",
-       "Just left exactly as it is right now, with nothing more done at all here"
+       "Quickly painted right over and then completely hidden away from further view",
+       "Just left exactly as it is, with nothing more done"
       ],
       "answer": 0,
       "explanation": "Removing a false indication does not prove the area is sound, so it is reprocessed and re-examined to be sure no relevant indication is hidden there.",
@@ -7114,8 +7114,8 @@
       "options": [
        "Examining shape, edges, and behavior, and the part history",
        "The red indication's color alone",
-       "The UV-A lamp's total wattage alone here",
-       "The dry developer's brand name alone"
+       "The UV-A lamp's total wattage alone",
+       "The dry developer powder's printed brand name on the can alone"
       ],
       "answer": 0,
       "explanation": "Scratches tend to be shallow with characteristic shape, while cracks can be tighter and sharper; close examination and knowledge of the part help classify them.",
@@ -7141,7 +7141,7 @@
        "Linear indication, often smooth and following the grain flow",
        "A scattered cluster of small round dots",
        "A plain random handling smear mark left",
-       "A perfectly uniform glowing background field here"
+       "A perfectly uniform glowing white background field across it all"
       ],
       "answer": 0,
       "explanation": "Laps and seams are linear discontinuities that bleed as lines, often following the working direction of the material.",
@@ -7166,7 +7166,7 @@
       "options": [
        "Proper removal, adequate development, and correct lighting",
        "Only the red penetrant dye's brand name",
-       "Only the whole part's outer surface color",
+       "Only the entire part's outer painted surface color and shade",
        "Skipping all the process controls entirely"
       ],
       "answer": 0,
@@ -7191,7 +7191,7 @@
       "stem": "A faint, slowly forming indication may indicate:",
       "options": [
        "A very tight or shallow discontinuity holding little penetrant",
-       "Heavy, widespread surface gas porosity all over it",
+       "Heavy, widespread surface gas porosity scattered right across it",
        "A single wide-open gaping surface crack",
        "Pure clean background with no flaw at all"
       ],
@@ -7219,7 +7219,7 @@
        "Documented per the procedure (location, type, size as required)",
        "Quickly erased immediately right away",
        "Simply ignored entirely if they look small",
-       "Reported only out loud verbally and never once written down at all"
+       "Reported only out loud verbally to a colleague and never written down"
       ],
       "answer": 0,
       "explanation": "Relevant indications and their disposition are documented as required for traceability and acceptance decisions.",
@@ -7244,7 +7244,7 @@
       "options": [
        "Used with the understanding that width is magnified, per the sizing rules",
        "Taken as the exact true crack depth measurement",
-       "Taken as the exact true crack volume measurement",
+       "Taken directly as the exact true internal crack volume measurement reading value",
        "Completely meaningless and entirely useless data"
       ],
       "answer": 0,
@@ -7270,7 +7270,7 @@
       "options": [
        "Form only from surface-breaking openings, with no subsurface response",
        "Can readily show deep subsurface defects too",
-       "Depend heavily on the applied magnetic field direction",
+       "Depend heavily on the applied magnetic field strength and its direction",
        "Always require full demagnetization afterward"
       ],
       "answer": 0,
@@ -7295,7 +7295,7 @@
       "stem": "Unlike magnetic particle testing, penetrant indication formation does NOT depend on:",
       "options": [
        "The orientation of the discontinuity relative to a field",
-       "Good, thorough surface cleanliness beforehand",
+       "Good, thorough overall surface cleanliness well beforehand",
        "Adequate penetrant dwell time on it",
        "Proper full development afterward"
       ],
@@ -7321,9 +7321,9 @@
       "stem": "Heavy background can cause an inspector to:",
       "options": [
        "Miss true indications hidden in the background",
-       "See all the real indications far more clearly",
-       "Detect deep subsurface defects easily here",
-       "Speed up the whole evaluation quite safely here"
+       "See all of the real indications far more clearly",
+       "Detect deep subsurface defects easily",
+       "Speed up the entire evaluation quite safely"
       ],
       "answer": 0,
       "explanation": "Excess background reduces contrast and can hide real indications, which is why removal is controlled before developing.",
@@ -7347,9 +7347,9 @@
       "stem": "Penetrant bleeding from the junction of a press-fit assembly is usually:",
       "options": [
        "A non-relevant indication from the geometry of the joint",
-       "A real relevant surface fatigue crack opening in it here",
-       "A plain false indication from loose surface lint here",
-       "Deep subsurface gas porosity down inside the metal part here"
+       "A real relevant surface fatigue crack opening in it",
+       "A plain false indication from loose surface lint",
+       "Deep subsurface gas porosity hidden down inside the metal part"
       ],
       "answer": 0,
       "explanation": "The line where two press-fit parts meet traps penetrant and bleeds as a non-relevant geometry indication, not a discontinuity.",
@@ -7373,9 +7373,9 @@
       "stem": "Penetrant trapped in normal weld ripple or undercut geometry may appear as:",
       "options": [
        "Non-relevant indications that follow the weld contour",
-       "A scattered cluster of round gas porosity pits here",
-       "A real relevant surface fatigue crack opening here",
-       "A plain false handling smear mark left right on it here"
+       "A scattered cluster of round gas porosity surface pits and voids",
+       "A real relevant surface fatigue crack opening",
+       "A plain false handling smear mark left on it"
       ],
       "answer": 0,
       "explanation": "Surface contour features of a weld can trap penetrant and produce non-relevant indications following the bead shape, distinguished by their relation to geometry.",
@@ -7425,9 +7425,9 @@
       "stem": "Acceptance criteria for penetrant indications come from:",
       "options": [
        "The applicable code, specification, or contract",
-       "The inspector's own personal preference alone here",
-       "The red penetrant dye can's printed label here",
-       "The UV-A lamp's printed instruction manual here"
+       "The inspector's own personal preference on the day",
+       "The red penetrant dye can's printed label",
+       "The UV-A lamp's printed instruction manual"
       ],
       "answer": 0,
       "explanation": "Accept/reject limits are set by the governing code, specification, or contract documents, not by personal judgment alone.",
@@ -7452,8 +7452,8 @@
       "options": [
        "Evaluate it against the acceptance criteria",
        "Quickly erase it right away",
-       "Just assume it is fully acceptable here",
-       "Just assume it is fully rejectable here now"
+       "Just assume right away it is fully acceptable",
+       "Just assume it is fully rejectable"
       ],
       "answer": 0,
       "explanation": "Relevant indications are measured and compared to the acceptance criteria to determine accept or reject.",
@@ -7477,9 +7477,9 @@
       "stem": "Scattered specks across the whole surface, unrelated to features, often indicate:",
       "options": [
        "Contaminated developer or dirty process, a false-indication source",
-       "A whole real network of fine surface cracks all over",
+       "A real network of fine surface cracks all over",
        "A single small surface gas pore down in it",
-       "Perfectly acceptable normal part geometry features"
+       "Perfectly acceptable, normal expected part geometry surface features"
       ],
       "answer": 0,
       "explanation": "Uniform random specks unrelated to part features usually point to contaminated developer or a dirty process, producing false indications.",
@@ -7529,9 +7529,9 @@
       "stem": "If the inspector cannot confidently classify an indication, the proper action is to:",
       "options": [
        "Clean and reprocess to confirm, rather than guess",
-       "Immediately reject it right away here",
-       "Immediately accept it right away here",
-       "Increase the development time on it indefinitely"
+       "Immediately reject it right away",
+       "Immediately accept it right away",
+       "Increase the development time on it indefinitely longer"
       ],
       "answer": 0,
       "explanation": "Uncertain indications are resolved by reprocessing and re-examination, not by guessing accept or reject.",
@@ -7555,9 +7555,9 @@
       "stem": "Correctly separating relevant from non-relevant indications relies heavily on:",
       "options": [
        "Inspector training, part knowledge, and procedure",
-       "Just the UV-A lamp's particular brand alone here",
-       "Just the dry developer's outer powder color here",
-       "Just the whole inspection room's total size here now"
+       "Just the UV-A lamp's particular brand alone",
+       "Just the dry developer's outer powder color",
+       "Just the entire inspection room's total floor size"
       ],
       "answer": 0,
       "explanation": "Sound interpretation depends on the inspector's qualification, knowledge of the part, and following the procedure and criteria.",
@@ -7581,9 +7581,9 @@
       "stem": "Which statement is correct?",
       "options": [
        "Relevant indications are evaluated; non-relevant come from geometry; false come from process/contamination",
-       "Every single indication of any kind at all is always fully rejectable, in every case, no matter what here",
-       "Every single indication of any kind at all is always a plain false one, every time",
-       "Indications always directly show the exact internal defect depth, every single time"
+       "Every indication is always fully rejectable, whatever its cause",
+       "Every indication is always a plain false one",
+       "Indications always directly reveal the exact internal defect depth, length, and full hidden subsurface volume"
       ],
       "answer": 0,
       "explanation": "Relevant indications are evaluated against criteria, non-relevant indications come from part geometry, and false indications come from process or contamination.",
@@ -7607,7 +7607,7 @@
       "stem": "Re-examining a fluorescent indication after a short additional development time helps confirm:",
       "options": [
        "Whether it grows/reappears like a true bleed-out or stays static like an artifact",
-       "The exact internal crack depth measurement value precisely",
+       "The exact internal crack depth measurement value down inside, taken very precisely",
        "The red penetrant dye's exact flash point temperature",
        "The penetrant bath's exact concentration level reading"
       ],
@@ -7634,7 +7634,7 @@
       "options": [
        "Differ in bleed-out strength, the more open one usually bleeding stronger",
        "Always look exactly identical to each other",
-       "Both always directly show their full crack depth",
+       "Both always directly show their full internal crack depth and hidden volume",
        "Both always be plain non-relevant ones"
       ],
       "answer": 0,
@@ -7659,7 +7659,7 @@
       "stem": "Non-relevant indications should be:",
       "options": [
        "Recognized and accounted for, not simply ignored without thought",
-       "Always fully rejected outright, in every single case, no matter what",
+       "Always fully rejected outright, regardless of their actual underlying cause",
        "Always erased before ever viewing them",
        "Treated as plain false ones by default"
       ],
@@ -7685,8 +7685,8 @@
       "stem": "A long steadily growing line versus a small dot that bleeds quickly suggests, respectively:",
       "options": [
        "A crack-type discontinuity versus a single pore",
-       "Two separate small round surface pores here",
-       "Two separate real surface fatigue cracks here",
+       "Two separate small round surface pores",
+       "Two completely separate real surface fatigue cracks instead",
        "Two plain false handling indications"
       ],
       "answer": 0,
@@ -7770,8 +7770,8 @@
       "options": [
        "Standard practice/guide for liquid penetrant examination",
        "The general NDT terminology standard reference document only",
-       "The magnetic particle testing method standard only here",
-       "The radiographic film density standard document only here"
+       "The magnetic particle testing method standard only",
+       "The white-light photometer calibration standard only"
       ],
       "answer": 0,
       "explanation": "E165 provides the standard practice for liquid penetrant examination for general industry; E1417 is common for aerospace/critical work.",
@@ -7821,9 +7821,9 @@
       "stem": "AMS 2644 governs:",
       "options": [
        "Qualification and classification of penetrant inspection materials",
-       "The design of welded structural joint configurations only here",
-       "The manufacture of UV-A inspection lamp units only here",
-       "The final part acceptance and rejection limits only here"
+       "The design and layout of welded structural steel joint configurations only",
+       "The manufacture of UV-A inspection lamp units only",
+       "The final part acceptance and rejection limits only"
       ],
       "answer": 0,
       "explanation": "AMS 2644 qualifies and classifies penetrant materials by type, method, and sensitivity and maintains the qualified products list.",
@@ -7847,9 +7847,9 @@
       "stem": "Standard PT is commonly performed within a temperature range of about 40 to 125 degrees F; outside this range the procedure must be:",
       "options": [
        "Qualified by comparison at the intended temperature",
-       "Performed in the exact same identical manner here",
-       "Completely skipped over and entirely left out here",
-       "Done only ever with the visible red penetrant dye here"
+       "Performed in the exact same identical manner",
+       "Completely skipped over and entirely left out",
+       "Done only ever with the visible red penetrant dye instead"
       ],
       "answer": 0,
       "explanation": "Inspection outside the standard range requires qualifying the procedure (often a comparison test) at the intended temperature to confirm performance.",
@@ -7873,7 +7873,7 @@
       "stem": "To qualify a high-temperature penetrant procedure, a common approach is to:",
       "options": [
        "Compare indications on a reference part processed hot versus at standard temperature",
-       "Greatly increase the UV-A lamp power output the whole time",
+       "Simply greatly increase the UV-A lamp power output and run it the entire time, regardless",
        "Use a great deal more dry developer powder than usual",
        "Lower the system's overall sensitivity level right down"
       ],
@@ -7925,9 +7925,9 @@
       "stem": "Ventilation is required during PT primarily to:",
       "options": [
        "Limit inhalation of solvent and penetrant vapors",
-       "Cool the hot metal part right down here",
-       "Fully charge up the red penetrant dye",
-       "Greatly improve the dye fluorescence here"
+       "Cool the hot metal part right down",
+       "Fully charge up the red penetrant dye well beforehand",
+       "Greatly improve the dye fluorescence"
       ],
       "answer": 0,
       "explanation": "Adequate ventilation controls vapor exposure from penetrants, solvents, and developers, protecting personnel.",
@@ -7951,9 +7951,9 @@
       "stem": "Personal protection during PT commonly includes:",
       "options": [
        "Gloves and eye protection to limit chemical contact",
-       "A full magnetizing coil setup only here",
+       "A full magnetizing coil setup only",
        "A handheld gaussmeter device only",
-       "Hearing protection from the loud UV-A lamp noise here"
+       "Hearing protection from the loud UV-A lamp noise itself"
       ],
       "answer": 0,
       "explanation": "Gloves and eye protection limit skin and eye contact with penetrant materials and solvents; UV lamps also call for eye care, not hearing protection.",
@@ -7977,9 +7977,9 @@
       "stem": "When using UV-A lamps, a safety practice is to:",
       "options": [
        "Avoid looking directly at the source and keep the filter intact",
-       "Remove the whole front filter entirely for more brightness here",
-       "Use a harsh UV-C germicidal lamp instead for more output here",
-       "Stare right straight into it just to check the intensity by eye here"
+       "Remove the entire front filter for more brightness",
+       "Use a harsh UV-C germicidal lamp instead for more output",
+       "Stare right straight into it just to check the intensity by eye"
       ],
       "answer": 0,
       "explanation": "Direct UV exposure is avoided and the protective filter kept intact; UV-C is hazardous and not used, and intensity is checked with a meter, not by staring.",
@@ -8003,7 +8003,7 @@
       "stem": "For nickel-base alloys, austenitic stainless, and titanium, penetrant materials are often controlled for:",
       "options": [
        "Low sulfur and halogen (chlorine/fluorine) content",
-       "Very high overall water content in it",
+       "Very high overall water content in the penetrant bath",
        "A bright, vivid red dye color only",
        "A very high overall fluid viscosity"
       ],
@@ -8030,7 +8030,7 @@
       "options": [
        "Remove residues that could cause corrosion or interfere with service",
        "Add a protective red penetrant dye film over it",
-       "Fully magnetize the whole metal part right down",
+       "Fully magnetize the entire heavy metal part right down beforehand first",
        "Greatly increase the overall dye fluorescence"
       ],
       "answer": 0,
@@ -8056,8 +8056,8 @@
       "options": [
        "Requires a ferromagnetic material",
        "Works on absolutely any material",
-       "Finds only surface defects here",
-       "Needs no electric current at all here"
+       "Finds only surface defects",
+       "Needs no electric current to work"
       ],
       "answer": 0,
       "explanation": "MT requires a ferromagnetic material to support a magnetic field, whereas PT applies to virtually any nonporous material; both are surface/near-surface methods.",
@@ -8081,9 +8081,9 @@
       "stem": "Compared with MT, a limitation of PT is that it:",
       "options": [
        "Cannot detect subsurface discontinuities at all",
-       "Cannot ever find any surface cracks at all here",
-       "Always requires an applied magnetic field here",
-       "Only ever works on plain solid carbon steel here"
+       "Cannot ever find any surface cracks",
+       "Always requires an applied magnetic field",
+       "Only ever works on plain solid carbon steel parts"
       ],
       "answer": 0,
       "explanation": "PT detects only surface-breaking discontinuities, while MT can reveal some slightly subsurface defects in ferromagnetic parts.",
@@ -8107,9 +8107,9 @@
       "stem": "Typical PT applications include inspecting:",
       "options": [
        "Welds, castings, forgings, and machined parts for surface-breaking defects",
-       "Deep internal voids hidden inside a solid steel bar only here",
+       "Deep internal volumetric voids hidden well down inside a thick solid steel bar only",
        "Deep subsurface laminations down inside the plate only",
-       "The part's base material chemistry composition only here"
+       "The part's base material chemistry composition only"
       ],
       "answer": 0,
       "explanation": "PT is used across welds, castings, forgings, and machined components to find surface-breaking discontinuities on most nonporous materials.",
@@ -8134,7 +8134,7 @@
       "options": [
        "Open to the surface and clean",
        "Fully subsurface and hidden",
-       "Strongly ferromagnetic here",
+       "Strongly ferromagnetic in nature",
        "Highly electrically conductive"
       ],
       "answer": 0,
@@ -8159,9 +8159,9 @@
       "stem": "Spent penetrant materials and solvents are:",
       "options": [
        "Handled and disposed of per environmental and safety regulations",
-       "Poured straight down any old drain at all here",
-       "Simply reused over and over again indefinitely",
-       "Completely and totally ignored entirely here"
+       "Poured straight down any old drain",
+       "Simply reused over and over again indefinitely with no disposal needed",
+       "Completely ignored and left unmanaged"
       ],
       "answer": 0,
       "explanation": "Used materials are managed as regulated waste per applicable environmental and safety rules.",
@@ -8185,9 +8185,9 @@
       "stem": "Inspecting a cold part below the standard range requires:",
       "options": [
        "A qualified low-temperature procedure with suitable materials",
-       "No special action of any kind at all needed here",
-       "Only a great deal more dry developer powder here",
-       "Only a much brighter inspection light source here"
+       "No special action needed beforehand",
+       "Only a great deal more dry developer powder",
+       "Only a much brighter and stronger overall inspection light source"
       ],
       "answer": 0,
       "explanation": "Low-temperature inspection needs materials and a procedure qualified for that temperature, since cold slows penetration and alters removal.",
@@ -8212,8 +8212,8 @@
       "options": [
        "Materials, steps, times, lighting, and acceptance criteria",
        "Only the red penetrant dye's outer color",
-       "Only the inspector's own full printed name",
-       "Nothing specific at all whatsoever"
+       "Only the inspector's own full printed legal name and job title",
+       "Nothing specific of importance"
       ],
       "answer": 0,
       "explanation": "A qualified written procedure defines the materials, process parameters, lighting, and acceptance criteria to ensure consistent, valid results.",
@@ -8237,9 +8237,9 @@
       "stem": "Personnel performing and interpreting PT are typically:",
       "options": [
        "Qualified and certified to a recognized program (for example, per a written practice)",
-       "Completely uncertified and entirely untrained in any way at all",
-       "Certified only ever in radiographic film testing and nothing else at all",
-       "Certified only ever in arc welding work and nothing else at all here"
+       "Completely uncertified, entirely untrained, and holding no formal recognized qualification",
+       "Certified only in basic visual testing and nothing else",
+       "Certified only ever in arc welding work and nothing else"
       ],
       "answer": 0,
       "explanation": "PT personnel are qualified and certified under a recognized program such as an employer written practice based on SNT-TC-1A or NAS-410, appropriate to the work.",
@@ -8263,8 +8263,8 @@
       "stem": "Penetrant materials must be compatible with the part because some chemicals can:",
       "options": [
        "Attack or harm certain alloys (for example, via sulfur or halogens)",
-       "Fully magnetize the whole metal part",
-       "Greatly improve the part's overall fatigue strength",
+       "Fully magnetize the entire metal part",
+       "Greatly improve the part's overall mechanical fatigue strength permanently",
        "Add a thin protective coating layer over it"
       ],
       "answer": 0,
@@ -8289,8 +8289,8 @@
       "stem": "For parts in oxygen service, an added requirement is that materials and cleaning must:",
       "options": [
        "Leave no hydrocarbon residues that could be hazardous in oxygen",
-       "Use a great deal more red penetrant dye than usual here",
-       "Completely skip the whole postcleaning step entirely",
+       "Use a great deal more red penetrant dye than is usual on the part",
+       "Completely skip the entire postcleaning step",
        "Use a strong applied magnetic field on it"
       ],
       "answer": 0,
@@ -8315,9 +8315,9 @@
       "stem": "Selecting a PT type and method is driven by:",
       "options": [
        "Sensitivity needed, part condition, throughput, and field versus shop conditions",
-       "Only ever the individual inspector's own personal preference",
-       "Only ever the whole part's outer surface color alone",
-       "Only ever the current time of the day that it happens to be right now"
+       "Only ever the individual inspector's own personal preference and current mood on that day",
+       "Only ever the entire part's outer surface color alone",
+       "Only ever the current time of the day it happens to be"
       ],
       "answer": 0,
       "explanation": "The choice of type (1 or 2) and method (A/B/C/D) balances required sensitivity, surface condition, production volume, and whether work is in a shop or the field.",
@@ -8341,9 +8341,9 @@
       "stem": "PT records typically document:",
       "options": [
        "Procedure used, materials, parameters, results, and personnel",
-       "Only a single simple pass or fail stamp mark",
+       "Only a single simple pass or fail rubber stamp mark applied to it",
        "Only the calendar date alone, nothing else",
-       "Nothing whatsoever at all here"
+       "Nothing important documented"
       ],
       "answer": 0,
       "explanation": "Documentation captures the procedure, materials, process parameters, indications/disposition, and qualified personnel for traceability.",
@@ -8367,9 +8367,9 @@
       "stem": "Which mapping is correct?",
       "options": [
        "E1417: PT practice; E165: PT examination practice; E1316: terminology; AMS 2644: material classification",
-       "E1417: NDT terminology; E165: radiographic film; E1316: arc welding work; AMS 2644: UV-A inspection lamps",
-       "Every single one of these is simply a magnetic particle testing standard",
-       "None of these standards relate to penetrant testing at all, in any way whatsoever"
+       "E1417: NDT terminology; E165: developer thickness; E1316: arc welding work; AMS 2644: UV-A inspection lamps",
+       "Every one of these is simply a magnetic particle testing standard",
+       "None of these standards relate to penetrant testing in any way"
       ],
       "answer": 0,
       "explanation": "E1417 and E165 are penetrant practice standards, E1316 is NDT terminology, and AMS 2644 classifies penetrant materials.",
@@ -8393,9 +8393,9 @@
       "stem": "PT would be chosen over MT when the part is:",
       "options": [
        "Nonferromagnetic (for example, aluminum or austenitic stainless)",
-       "Made only ever of plain solid carbon steel here",
+       "Made only ever of plain solid carbon steel",
        "In need of deep subsurface defect detection",
-       "A thick, heavy forging needing full volumetric inspection here now"
+       "A thick, heavy forging needing full internal volumetric inspection"
       ],
       "answer": 0,
       "explanation": "PT is the surface method of choice for nonferromagnetic materials where MT cannot establish a useful magnetic field.",
@@ -8419,8 +8419,8 @@
       "stem": "Core PT safety considerations include:",
       "options": [
        "Vapor ventilation, flammability/flash point, skin/eye protection, and UV-A precautions",
-       "Strong magnetic field exposure to the whole body",
-       "Dangerous high-voltage electric shock from the coils",
+       "Strong magnetic field exposure to the body",
+       "Dangerous high-voltage electric shock and burn hazard from the heavy magnetizing coil set",
        "Heavy lead radiation shielding from the source"
       ],
       "answer": 0,

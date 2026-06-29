@@ -31,17 +31,17 @@
       "stem": "Ultrasonic testing uses:",
       "options": [
        "High-frequency sound waves to detect flaws and measure thickness",
-       "Penetrating X-rays to expose film and reveal the internal flaws",
-       "Magnetic fields to draw fine particles to surface-breaking flaws",
-       "Liquid dye drawn into the surface cracks that are open to it"
+       "Low-frequency sound waves sitting below the range of human hearing",
+       "Sound waves that pass only through the open air around the part",
+       "A steady continuous tone instead of the short pulses of sound used"
       ],
       "answer": 0,
       "explanation": "UT introduces high-frequency sound into a material and uses the returning echoes to find discontinuities and measure thickness.",
       "distractors": [
        "",
-       "X-rays are used in radiography, not UT.",
-       "Magnetic fields are used in magnetic particle testing.",
-       "Penetrant is used in PT, not UT."
+       "UT uses high-frequency sound above hearing, not below it.",
+       "UT sound travels through the part, not only through air.",
+       "Pulse-echo UT uses short pulses, not a continuous tone."
       ]
      }
     },
@@ -396,16 +396,16 @@
       "options": [
        "A separate transmitter and receiver on opposite sides",
        "One single transducer that both sends and receives",
-       "No transducer at all, just a coil and a bar magnet",
-       "A strong magnet to pull the sound through the part"
+       "Two probes set side by side on the very same face",
+       "The very same probe moved across to each side in turn"
       ],
       "answer": 0,
       "explanation": "Through-transmission places a transmitting transducer on one side and a receiver on the other; a flaw reduces the received signal. It does not locate depth as pulse-echo does.",
       "distractors": [
        "",
        "Using one transducer for both is pulse-echo, not through-transmission.",
-       "Transducers are required to send and receive sound.",
-       "A magnet is not used in ultrasonic testing."
+       "Through-transmission uses opposite faces, not the same face.",
+       "Two separate probes are used at once, not one moved about."
       ]
      }
     },
@@ -422,7 +422,7 @@
       "options": [
        "Acoustic impedance between the two materials",
        "The surface color between the two materials",
-       "Magnetic permeability between the two materials",
+       "The hardness difference between the two materials",
        "Electrical resistance between the two materials"
       ],
       "answer": 0,
@@ -430,7 +430,7 @@
       "distractors": [
        "",
        "Color does not govern acoustic reflection.",
-       "Magnetic permeability is unrelated to acoustic reflection.",
+       "Reflection depends on acoustic impedance, not hardness.",
        "Electrical resistance does not govern sound reflection."
       ]
      }
@@ -499,7 +499,7 @@
       "stem": "A couplant is used in contact UT to:",
       "options": [
        "Exclude air and transmit sound into the part",
-       "Magnetize the part before the scanning begins",
+       "Stick the probe firmly onto the part surface",
        "Cool the crystal down during a long scanning run",
        "Color the indications so that they stand out"
       ],
@@ -507,7 +507,7 @@
       "explanation": "Couplant fills the gap between transducer and part, excluding air so sound can pass into the material efficiently.",
       "distractors": [
        "",
-       "Couplant does not magnetize the part.",
+       "Couplant transmits sound; it does not bond the probe on.",
        "Couplant's main role is sound transmission, not cooling.",
        "Couplant does not color indications."
       ]
@@ -578,7 +578,7 @@
       "options": [
        "Scatter sound and increase attenuation",
        "Remove all attenuation and clear the noise",
-       "Speed up the instrument's whole sweep rate",
+       "Speed up the instrument's entire sweep rate",
        "Do away with the need for any couplant"
       ],
       "answer": 0,
@@ -604,7 +604,7 @@
       "options": [
        "Better resolution and sensitivity to small flaws",
        "More penetration through thick attenuative material",
-       "Lower attenuation right across the whole sound path",
+       "Lower attenuation right across the entire sound path",
        "A longer wavelength at the same sound velocity"
       ],
       "answer": 0,
@@ -656,7 +656,7 @@
       "options": [
        "Size, orientation, and the sound reaching it",
        "The surface color of the reflector face itself",
-       "The magnetic property of the reflector metal",
+       "The overall weight of the reflector metal itself",
        "The electrical charge held on the reflector"
       ],
       "answer": 0,
@@ -664,7 +664,7 @@
       "distractors": [
        "",
        "Reflector color does not affect echo amplitude.",
-       "Magnetic property does not govern the ultrasonic echo.",
+       "Echo depends on size and orientation, not weight.",
        "Electrical charge does not govern the echo amplitude."
       ]
      }
@@ -682,16 +682,16 @@
       "options": [
        "Oriented roughly perpendicular to the sound beam",
        "Lying roughly parallel to the path of the sound beam",
-       "Coated in a fresh layer of paint across its face",
-       "Strongly magnetized just before the scan begins"
+       "Pressed tightly shut with its faces held in contact",
+       "Located very deep beneath the surface of the part"
       ],
       "answer": 0,
       "explanation": "A flaw facing the beam reflects sound back to the transducer most strongly. A flaw nearly parallel to the beam may reflect little and be missed.",
       "distractors": [
        "",
        "A flaw parallel to the beam reflects little back to the transducer.",
-       "Paint does not determine echo strength from a flaw.",
-       "Magnetization does not affect the ultrasonic echo."
+       "A tight closed flaw reflects less; orientation drives echo strength.",
+       "Orientation to the beam matters most here, not depth."
       ]
      }
     },
@@ -708,16 +708,16 @@
       "options": [
        "Backwall echo on the display",
        "A color shift on the display",
-       "Magnetic pulse on the display",
-       "A dye bleedout indication"
+       "A flat dead line on the display",
+       "A complete loss of the signal"
       ],
       "answer": 0,
       "explanation": "Sound reflecting off the far surface returns a backwall echo, used to confirm sound passed through and to set up thickness and calibration.",
       "distractors": [
        "",
        "The backwall returns an echo, not a color change.",
-       "The backwall echo is acoustic, not magnetic.",
-       "Bleedout is a PT phenomenon, not UT."
+       "The back surface returns an echo, not a flat line.",
+       "The back surface reflects sound back, not loses it."
       ]
      }
     },
@@ -761,7 +761,7 @@
        "Longitudinal, shear, and surface",
        "Longitudinal waves and nothing else",
        "Radio, microwave, and the infrared",
-       "Alpha, beta, and gamma radiation"
+       "Bending, twisting, and tension waves"
       ],
       "answer": 0,
       "explanation": "Conventional UT uses longitudinal, shear, and surface waves. Straight-beam work is usually longitudinal; angle-beam work is usually shear.",
@@ -769,7 +769,7 @@
        "",
        "More than longitudinal waves are used; shear and surface modes are common.",
        "Radio and microwave are electromagnetic, not ultrasonic modes.",
-       "Alpha and beta are radiation particles, not ultrasonic modes."
+       "Those are mechanical load terms, not ultrasonic wave modes."
       ]
      }
     },
@@ -812,16 +812,16 @@
       "options": [
        "Detecting internal flaws and measuring thickness",
        "Measuring the weight and the color of the part",
-       "Magnetizing the part and drawing iron particles",
-       "Developing the exposed film after each shot"
+       "Measuring the surface hardness and the grain size",
+       "Recording the surface roughness over the entire part"
       ],
       "answer": 0,
       "explanation": "UT is widely used to find internal and surface-connected flaws and to measure remaining wall thickness, among other applications.",
       "distractors": [
        "",
        "UT does not measure weight or color.",
-       "Magnetizing relates to MT, not UT.",
-       "Film development relates to radiography."
+       "UT finds flaws and measures thickness; it does not test hardness.",
+       "UT measures thickness and finds flaws, not surface roughness."
       ]
      }
     },
@@ -968,7 +968,7 @@
       "options": [
        "Spreads and weakens more predictably with distance",
        "Fluctuates chaotically in both pressure and amplitude",
-       "Does not really exist at all as a true beam region",
+       "Does not exist as any true beam region",
        "Speeds the sound up as it travels further away"
       ],
       "answer": 0,
@@ -1045,16 +1045,16 @@
       "stem": "Which statement about UT fundamentals is correct?",
       "options": [
        "UT sends sound into a part and uses echoes to find flaws and measure thickness",
-       "UT works only on magnetic parts and cannot examine any other metals at all",
-       "UT sends X-rays through the part and reads the resulting pattern on a film sheet",
+       "UT can only ever be used on thin sheet metal and never on any thicker section",
+       "UT needs no couplant at all and works fine straight through an open air gap",
        "UT finds surface cracks only and can never measure the wall thickness"
       ],
       "answer": 0,
       "explanation": "UT introduces sound, receives echoes from reflectors and the backwall, and uses timing and amplitude to find flaws and measure thickness in many materials.",
       "distractors": [
        "",
-       "UT is not limited to magnetic parts.",
-       "UT uses sound, not X-rays.",
+       "UT works across a wide thickness range, not only thin sheet.",
+       "UT needs couplant; sound does not cross an air gap well.",
        "Thickness measurement is a primary UT use."
       ]
      }
@@ -1077,9 +1077,9 @@
       "stem": "When sound crosses at an angle into a material of different velocity, it:",
       "options": [
        "Refracts (bends)",
-       "Stops",
+       "Halts entirely",
        "Changes color",
-       "Loses all energy"
+       "Is all absorbed"
       ],
       "answer": 0,
       "explanation": "A velocity change at an angled interface bends the sound beam, just as light refracts. This is the basis of angle-beam inspection.",
@@ -1103,9 +1103,9 @@
       "stem": "Snell's law relates the angles of incidence and refraction to the:",
       "options": [
        "Sound velocities in the two materials",
-       "The densities of the two materials only",
-       "The instrument gain",
-       "The transducer diameter"
+       "The densities of the two materials alone",
+       "The receiver gain set on the instrument",
+       "Diameter of the transducer crystal used"
       ],
       "answer": 0,
       "explanation": "Snell's law states that the sine of the angle divided by the velocity is equal across the interface, so the refracted angle depends on the velocities.",
@@ -1129,9 +1129,9 @@
       "stem": "At normal (perpendicular) incidence, the beam:",
       "options": [
        "Passes straight in without refraction or mode conversion",
-       "It always fully refracts here",
-       "It always converts to shear here",
-       "It fully reflects entirely here"
+       "Bends sharply as it refracts on entry into the part",
+       "Splits into a shear wave through mode conversion at entry",
+       "Reflects fully back with none of it entering the part"
       ],
       "answer": 0,
       "explanation": "When the beam strikes a surface perpendicularly, it does not bend and does not mode-convert; it travels straight in as the same mode.",
@@ -1155,9 +1155,9 @@
       "stem": "Mode conversion at an angled interface means:",
       "options": [
        "Some energy changes between longitudinal and shear modes",
-       "The whole frequency just doubles here",
-       "The couplant just changes here",
-       "The whole part just magnetizes here"
+       "The frequency of the beam doubles right at the interface",
+       "The couplant film changes into a thicker gel layer",
+       "The sound speeds up sharply as it crosses the interface"
       ],
       "answer": 0,
       "explanation": "At an angle, part of the energy can convert from longitudinal to shear (or back), producing refracted waves of both modes at different angles.",
@@ -1165,7 +1165,7 @@
        "",
        "Mode conversion does not double the frequency.",
        "Mode conversion is a wave effect, not a couplant change.",
-       "Mode conversion does not magnetize the part."
+       "Mode conversion changes wave mode, not the sound speed alone."
       ]
      }
     },
@@ -1181,9 +1181,9 @@
       "stem": "Angle-beam inspection in steel typically uses a:",
       "options": [
        "Refracted shear wave",
-       "Surface wave only",
-       "Longitudinal wave only",
-       "Radio wave"
+       "A surface wave",
+       "A longitudinal wave",
+       "A radio wave"
       ],
       "answer": 0,
       "explanation": "By choosing the wedge incidence so only the refracted shear wave remains, angle-beam setups inspect welds and similar geometries with shear waves.",
@@ -1207,9 +1207,9 @@
       "stem": "At the first critical angle, the refracted longitudinal wave:",
       "options": [
        "Reaches 90 degrees, leaving only the refracted shear wave",
-       "Fully disappears entirely with nothing left here",
-       "Fully doubles in amplitude here",
-       "Becomes a surface wave here"
+       "Reaches 90 degrees and the shear wave disappears as well",
+       "Doubles in amplitude right as it enters the part metal",
+       "Turns into a surface wave running along the top face"
       ],
       "answer": 0,
       "explanation": "At the first critical angle the longitudinal wave refracts to 90 degrees and no longer enters the part, so only the shear wave remains for angle-beam work.",
@@ -1233,9 +1233,9 @@
       "stem": "At the second critical angle, the refracted shear wave reaches 90 degrees and a:",
       "options": [
        "Surface wave is produced",
-       "Longitudinal wave reappears",
-       "Backwall echo forms",
-       "Couplant film forms"
+       "A longitudinal wave forms",
+       "A backwall echo appears",
+       "A couplant film forms"
       ],
       "answer": 0,
       "explanation": "At the second critical angle the shear wave refracts to 90 degrees along the surface, producing a surface (Rayleigh) wave.",
@@ -1259,9 +1259,9 @@
       "stem": "Refracted-shear angle-beam inspection uses incidence angles:",
       "options": [
        "Between the first and second critical angles",
-       "Below the first whole critical angle here",
-       "Above the second whole critical angle here now",
-       "At exactly zero whole degrees here right now"
+       "Below the first critical angle for any mode",
+       "Above the second critical angle in every case",
+       "At exactly zero degrees, straight into the part"
       ],
       "answer": 0,
       "explanation": "Between the two critical angles only the shear wave exists in the part, which is the region used for shear angle-beam inspection.",
@@ -1285,9 +1285,9 @@
       "stem": "At an interface, how much sound reflects versus transmits depends on the:",
       "options": [
        "Acoustic impedance difference",
-       "The frequency difference only",
-       "The beam diameter",
-       "The pulse length"
+       "The test frequency alone",
+       "The beam diameter alone",
+       "The pulse length alone"
       ],
       "answer": 0,
       "explanation": "The greater the impedance mismatch, the more sound reflects and the less transmits. Similar impedances let most of the sound pass through.",
@@ -1311,9 +1311,9 @@
       "stem": "Longitudinal velocity in steel is commonly near:",
       "options": [
        "About 0.23 in/microsecond (roughly 5900 m/s)",
-       "About 0.02 in/microsecond here",
-       "About 2.3 in/microsecond here",
-       "Fully zero here"
+       "About 0.02 in/microsecond (roughly 510 m/s)",
+       "About 2.3 in/microsecond (roughly 58000 m/s)",
+       "Near 0 in/microsecond, since steel carries none"
       ],
       "answer": 0,
       "explanation": "Longitudinal velocity in steel is roughly 0.23 inch per microsecond (about 5900 m/s). Use the correct value for the actual material and confirm against reference data.",
@@ -1337,9 +1337,9 @@
       "stem": "Using the wrong material velocity during setup will cause:",
       "options": [
        "Incorrect distance and thickness readings",
-       "No real effect here",
-       "A plain color change here",
-       "A loss of magnetism here"
+       "No change at all to the distance readings",
+       "A shift in the color of the display trace",
+       "A faster sweep speed set across the display"
       ],
       "answer": 0,
       "explanation": "Distance and thickness are computed from velocity, so an incorrect velocity produces inaccurate readings even if the echoes look fine.",
@@ -1347,7 +1347,7 @@
        "",
        "Velocity errors do affect the readings.",
        "There is no color change involved.",
-       "Magnetism is unrelated to UT velocity."
+       "Wrong velocity skews readings; it does not change sweep speed."
       ]
      }
     },
@@ -1363,9 +1363,9 @@
       "stem": "A significant temperature change in the part generally:",
       "options": [
        "Changes the sound velocity slightly and can affect readings",
-       "Has no real effect ever here",
-       "Changes the whole part color here",
-       "Fully reverses the beam here"
+       "Has no effect at all on the velocity or on the readings taken",
+       "Shifts the color of the trace shown across the display screen",
+       "Reverses the direction that the sound beam travels in the part"
       ],
       "answer": 0,
       "explanation": "Velocity varies with temperature, so large temperature differences between calibration and inspection can shift readings; corrections or on-part calibration may be needed.",
@@ -1389,9 +1389,9 @@
       "stem": "For a given material, attenuation generally:",
       "options": [
        "Increases with higher frequency",
-       "Decreases with higher frequency",
-       "Is independent of frequency",
-       "Only depends on gain"
+       "Drops off with higher frequency",
+       "Is fixed regardless of frequency",
+       "Is set only by the receiver gain"
       ],
       "answer": 0,
       "explanation": "Higher frequencies attenuate more, especially in coarse-grained material, which is one reason lower frequencies are used for thick or attenuative parts.",
@@ -1415,16 +1415,16 @@
       "stem": "Scattering from grain structure can produce:",
       "options": [
        "Noise (grass) on the display that can mask small echoes",
-       "A much stronger backwall always here",
-       "A plain magnetic indication here",
-       "A plain color band here"
+       "A taller backwall echo standing well above the noise floor",
+       "A second backwall echo doubling up on the first one",
+       "A bright color band running right across the screen"
       ],
       "answer": 0,
       "explanation": "Scattered sound shows as noise or grass on the A-scan, which can hide small flaw echoes, especially at higher frequencies in coarse material.",
       "distractors": [
        "",
        "Scattering tends to weaken, not strengthen, the backwall.",
-       "Scattering is acoustic, not magnetic.",
+       "Grain scatter raises noise; it does not double the backwall echo.",
        "Scattering does not create a color band."
       ]
      }
@@ -1441,15 +1441,15 @@
       "stem": "Sound bending around the edge of a small reflector is called:",
       "options": [
        "Diffraction",
-       "Magnetization",
+       "Refraction",
        "Couplant flow",
-       "Gain"
+       "Gain rise"
       ],
       "answer": 0,
       "explanation": "Diffraction is the spreading of sound around edges and small reflectors, an effect used in some advanced sizing but recognized at Level I as a wave behavior.",
       "distractors": [
        "",
-       "Magnetization is unrelated to wave diffraction.",
+       "That bending around an edge is diffraction, not refraction.",
        "Couplant flow is not a wave behavior term.",
        "Gain is an instrument control, not a wave behavior."
       ]
@@ -1467,9 +1467,9 @@
       "stem": "Beam divergence describes how the beam:",
       "options": [
        "Spreads out with distance in the far field",
-       "Stays a perfect cylinder forever here now",
-       "Fully changes its color here",
-       "Fully reverses its direction here"
+       "Stays a perfect cylinder at every distance",
+       "Shifts in color as it travels further on",
+       "Turns right back on itself in the far field"
       ],
       "answer": 0,
       "explanation": "Beyond the near field the beam diverges, lowering intensity and affecting how reflectors at the edges of the beam respond.",
@@ -1493,9 +1493,9 @@
       "stem": "An angle-beam transducer uses a wedge to:",
       "options": [
        "Introduce sound at an angle so it refracts to the desired angle in the part",
-       "Fully filter out all the low frequencies here",
-       "Damp the whole element to shorten the pulse here",
-       "Focus the whole beam to a point here"
+       "Filter the beam down to one single chosen frequency before it enters",
+       "Damp the crystal so that the pulse is kept short on every shot",
+       "Focus the beam down to a tight point at a chosen depth in the part"
       ],
       "answer": 0,
       "explanation": "The wedge sets the incidence angle so refraction and mode conversion produce the intended refracted shear angle in the material.",
@@ -1519,9 +1519,9 @@
       "stem": "The refracted angle in the part for a given wedge depends on the:",
       "options": [
        "Velocities of the wedge and the part material",
-       "The whole gain and the reject settings here",
-       "The whole transducer diameter here right now",
-       "The whole pulse repetition rate here right now"
+       "The gain and reject set on the instrument",
+       "The diameter of the transducer crystal",
+       "The pulse repetition rate of the instrument"
       ],
       "answer": 0,
       "explanation": "Because refraction follows Snell's law, the refracted angle depends on the wedge and part velocities, so a wedge marked for steel gives a different angle in another material.",
@@ -1545,9 +1545,9 @@
       "stem": "Common refracted shear angles for weld inspection in steel are:",
       "options": [
        "45, 60, and 70 degrees",
-       "Just 5 and 10 degrees here",
-       "Just 0 degrees only here",
-       "Just 85 and 89 degrees"
+       "5, 10, and 15 degrees",
+       "0, 2, and 4 degrees",
+       "85, 87, and 89 degrees"
       ],
       "answer": 0,
       "explanation": "Angle-beam weld inspection commonly uses 45, 60, and 70 degree refracted shear angles, selected for the geometry and expected flaw orientation.",
@@ -1571,15 +1571,15 @@
       "stem": "Couplant improves transmission into the part by:",
       "options": [
        "Replacing the high-mismatch air gap with a better-matched liquid path",
-       "Adding plain magnetism here",
-       "Increasing the whole frequency here",
-       "Cooling the whole part here"
+       "Pulling the air out from under the probe by means of a light suction",
+       "Shifting the test frequency to a value that suits the part better",
+       "Cooling the crystal so that the beam carries further into the part"
       ],
       "answer": 0,
       "explanation": "By filling the air gap with a liquid or gel, the couplant reduces the severe impedance mismatch of air and lets far more sound enter the part.",
       "distractors": [
        "",
-       "Couplant does not add magnetism.",
+       "Couplant fills the gap with liquid; it does not suck air out.",
        "Couplant does not change the test frequency.",
        "Couplant's role is coupling sound, not cooling."
       ]
@@ -1597,9 +1597,9 @@
       "stem": "In the same material, longitudinal and shear waves have:",
       "options": [
        "Different velocities",
-       "Identical velocities",
-       "Zero velocity",
-       "Velocities set by gain"
+       "The same velocity",
+       "No velocity at all",
+       "Gain-set velocities"
       ],
       "answer": 0,
       "explanation": "Each mode has its own velocity in a material, with shear slower than longitudinal, which must be accounted for when setting up shear angle-beam work.",
@@ -1623,9 +1623,9 @@
       "stem": "For a highly attenuative casting, a reasonable choice is to:",
       "options": [
        "Use a lower frequency to improve penetration",
-       "Use the highest possible frequency here now",
-       "Fully remove the whole couplant here right now",
-       "Turn off the whole instrument here right now"
+       "Use the very highest frequency available on hand",
+       "Scan it fully dry with no couplant applied at all",
+       "Turn the instrument right off between each pass"
       ],
       "answer": 0,
       "explanation": "Lower frequencies scatter less and penetrate attenuative, coarse-grained material better, at some cost to resolution.",
@@ -1649,9 +1649,9 @@
       "stem": "An internal interface such as a lamination produces an echo because:",
       "options": [
        "It presents an impedance change that reflects sound",
-       "It fully absorbs the entire beam here",
-       "It increases the whole sound velocity locally here",
-       "It fully amplifies the whole returning signal here now"
+       "It soaks up the entire beam so that none of it returns",
+       "It raises the local sound velocity at that depth",
+       "It amplifies the signal passing through that very spot"
       ],
       "answer": 0,
       "explanation": "A lamination or similar internal boundary reflects sound due to the impedance change, returning an echo ahead of the backwall.",
@@ -1675,16 +1675,16 @@
       "stem": "A reflector at the edge of the beam may give a:",
       "options": [
        "Lower amplitude than the same reflector on the beam axis",
-       "A much higher amplitude always here",
-       "A plain magnetic signal here",
-       "A plain color change here"
+       "Higher amplitude than the same reflector on the beam axis",
+       "A wider spread echo rather than any change in its height",
+       "A color change rather than any shift in the echo height"
       ],
       "answer": 0,
       "explanation": "Sound intensity is lower toward the beam edges, so an off-axis reflector returns a weaker echo than it would on the beam centerline.",
       "distractors": [
        "",
        "Off-axis reflectors usually give lower, not higher, amplitude.",
-       "The signal is acoustic, not magnetic.",
+       "Off-axis reflectors drop in amplitude; the echo is not simply wider.",
        "There is no color change involved."
       ]
      }
@@ -1701,9 +1701,9 @@
       "stem": "A thickness gauge computes thickness from the echo time and the:",
       "options": [
        "Material's sound velocity setting",
-       "The whole gain setting here right now",
-       "The whole pulse repetition rate",
-       "The whole transducer frequency here"
+       "The receiver gain setting in use",
+       "The pulse repetition rate set",
+       "The chosen test frequency value"
       ],
       "answer": 0,
       "explanation": "Thickness equals half the round-trip time multiplied by the velocity, so the correct velocity must be set for the material.",
@@ -1727,9 +1727,9 @@
       "stem": "In immersion testing, the couplant is:",
       "options": [
        "A water path between the transducer and the part",
-       "A dry film here",
-       "Air here",
-       "A plain magnet here"
+       "A thin dry film smeared across the transducer face",
+       "An air gap kept between the probe and the part face",
+       "A light oil floated on top of the water bath surface"
       ],
       "answer": 0,
       "explanation": "Immersion testing uses a water column or bath to couple sound into the part, with the transducer not touching the surface.",
@@ -1737,7 +1737,7 @@
        "",
        "Immersion uses water, not a dry film.",
        "Air is the gap that coupling is meant to eliminate.",
-       "A magnet is not a couplant."
+       "Immersion couples through the water itself, not an oil layer."
       ]
      }
     },
@@ -1753,9 +1753,9 @@
       "stem": "In immersion testing, the water path has its own velocity, so the operator must account for the:",
       "options": [
        "Time the sound spends in the water before entering the part",
-       "The whole extra travel time being fully negligible and ignorable here",
-       "The whole water removing the need for calibration here",
-       "The whole water doubling the part thickness reading here"
+       "Nothing at all, since the water time can simply be left out",
+       "No calibration at all, since immersion removes the need for it",
+       "A doubling of the part reading brought on by the water path"
       ],
       "answer": 0,
       "explanation": "Because sound travels through the water first, the water-path time is separated from the part signal during setup, often using a water-path or interface echo.",
@@ -1779,9 +1779,9 @@
       "stem": "Surface waves are useful for detecting:",
       "options": [
        "Surface and near-surface flaws that follow the contour",
-       "Deep internal voids here",
-       "Flaws only in the liquids here",
-       "The magnetic domains here"
+       "Deep internal voids buried far below the part surface",
+       "Flaws lying within the liquid bath around the part",
+       "Tight laminations lying flat deep inside the thick plate"
       ],
       "answer": 0,
       "explanation": "Surface waves travel along the surface and can follow gentle contours, making them suitable for surface and near-surface flaws.",
@@ -1789,7 +1789,7 @@
        "",
        "Deep internal voids are better found with bulk waves.",
        "Surface waves travel on solids, not within liquids.",
-       "Magnetic domains are not detected by ultrasound."
+       "Surface waves suit surface flaws, not deep laminations."
       ]
      }
     },
@@ -1805,9 +1805,9 @@
       "stem": "Shear angle beams are favored for many weld inspections because they:",
       "options": [
        "Can reach the weld volume at an angle to detect typical weld flaws",
-       "Travel only ever on the whole surface here",
-       "Need no calibration at all here",
-       "Fully detect the color here"
+       "Skim only the outer surface and never reach into the weld body itself",
+       "Need no calibration at all before the weld is scanned from each side",
+       "Read off the color of the weld cap rather than any returning echo"
       ],
       "answer": 0,
       "explanation": "Angled shear waves can be directed into the weld and heat-affected zone to find cracks and fusion flaws that a straight beam might miss.",
@@ -1831,16 +1831,16 @@
       "stem": "Mode-converted signals during angle-beam work can:",
       "options": [
        "Produce extra indications the technician must recognize",
-       "Always be fully ignored safely here",
-       "Fully magnetize the part here",
-       "Improve the color contrast here"
+       "Be safely ignored at will, since they carry no real meaning",
+       "Push the test frequency up as the angled beam travels on",
+       "Shift the color contrast right across the display screen"
       ],
       "answer": 0,
       "explanation": "Mode conversion can create additional echoes that are not flaws, so the technician learns to recognize them rather than mistaking them for discontinuities.",
       "distractors": [
        "",
        "They cannot simply be ignored; they must be recognized and understood.",
-       "Mode conversion does not magnetize the part.",
+       "Mode conversion adds indications; it does not change frequency.",
        "It is unrelated to color contrast."
       ]
      }
@@ -1857,9 +1857,9 @@
       "stem": "The correct sound velocity for a material is obtained from:",
       "options": [
        "Reference data or by calibrating on a known sample",
-       "Reading it right off the whole transducer label here now",
-       "Assuming all metals fully share one velocity here",
-       "Measuring the whole part's weight and size here now"
+       "The frequency printed on the transducer's own label",
+       "A single fixed value that suits every metal alike",
+       "The weight and the size of the part being tested"
       ],
       "answer": 0,
       "explanation": "Velocities come from reference tables or from calibrating on a sample of known thickness and material, ensuring accurate readings.",
@@ -1883,9 +1883,9 @@
       "stem": "Which statement about wave behavior is correct?",
       "options": [
        "Angled incidence causes refraction and mode conversion governed by the materials' velocities",
-       "Sound simply never ever bends at all in any way here",
-       "The velocity is fully the same for all the modes and all materials here",
-       "The frequency has no real effect on the penetration here"
+       "Sound never bends at any interface at all, whatever the angle of incidence may be",
+       "Sound velocity is a single fixed value for every mode and every material alike",
+       "Test frequency has no real effect at all on either penetration or resolution"
       ],
       "answer": 0,
       "explanation": "At an angle, sound refracts and can mode-convert according to Snell's law and the velocities involved, and frequency affects penetration and resolution.",
@@ -1915,17 +1915,17 @@
       "stem": "A basic pulse-echo UT instrument includes a:",
       "options": [
        "Pulser, receiver, and display",
-       "Plain film and a developer here",
-       "A whole magnetizing coil here",
-       "A whole penetrant tank here now"
+       "A transducer, a couplant, and a cable",
+       "A wedge, a reference block, and a gate",
+       "A battery, a keypad, and a carry case"
       ],
       "answer": 0,
       "explanation": "The pulser drives the transducer, the receiver amplifies the returning echoes, and the display shows them, commonly as an A-scan.",
       "distractors": [
        "",
-       "Film and developer belong to radiography.",
-       "A magnetizing coil belongs to magnetic particle testing.",
-       "A penetrant tank belongs to liquid penetrant testing."
+       "Those are probe and coupling accessories, not instrument sections.",
+       "Those are calibration accessories and a feature, not core sections.",
+       "Those are physical fittings, not the functional sections."
       ]
      }
     },
@@ -1941,16 +1941,16 @@
       "stem": "The pulser in a UT instrument:",
       "options": [
        "Sends an electrical pulse that drives the transducer",
-       "Develops out the whole loaded film here",
-       "Fully magnetizes the part here",
-       "Fully measures the color here"
+       "Cools the probe element down once each scan pass is done",
+       "Sets the display brightness before the scanning starts",
+       "Measures the surface color across the test part"
       ],
       "answer": 0,
       "explanation": "The pulser delivers a short, high-voltage electrical pulse to the transducer, which converts it into a sound pulse.",
       "distractors": [
        "",
-       "Film development is unrelated to the pulser.",
-       "The pulser does not magnetize the part.",
+       "The pulser drives the transducer; it does not cool the probe.",
+       "The pulser excites the transducer; it does not set brightness.",
        "The pulser does not measure color."
       ]
      }
@@ -1967,9 +1967,9 @@
       "stem": "The receiver in a UT instrument:",
       "options": [
        "Amplifies and processes the returning echo signals",
-       "Generates the whole high-voltage transmit pulse here",
-       "Fully sets the material velocity here",
-       "Provides the couplant flow here"
+       "Fires the electrical pulse that drives the crystal",
+       "Sets the sound velocity used inside the test part",
+       "Spreads the couplant film across the test surface"
       ],
       "answer": 0,
       "explanation": "The receiver amplifies the small voltages the transducer produces from echoes and conditions them for display.",
@@ -1993,17 +1993,17 @@
       "stem": "A UT transducer converts:",
       "options": [
        "Electrical energy to sound and sound back to electrical energy",
-       "Sound into the light here",
-       "Heat into magnetism here",
-       "Plain X-rays into film exposure here"
+       "Electrical energy to light and light back to electrical energy",
+       "Heat energy straight into sound and sound back into heat again",
+       "Surface pressure straight into a reading shown on a dial gauge"
       ],
       "answer": 0,
       "explanation": "The transducer changes electrical pulses into sound and converts returning sound echoes back into electrical signals, working in both directions.",
       "distractors": [
        "",
        "The transducer works with sound and electricity, not light.",
-       "It does not convert heat into magnetism.",
-       "It does not deal with X-rays or film."
+       "A UT transducer converts electrical energy and sound, not heat.",
+       "It converts electrical energy and sound, not pressure to a dial."
       ]
      }
     },
@@ -2020,15 +2020,15 @@
       "options": [
        "Piezoelectric effect",
        "Photoelectric effect",
-       "Magnetic effect",
-       "Chemical reaction"
+       "Thermoelectric effect",
+       "A chemical reaction"
       ],
       "answer": 0,
       "explanation": "A piezoelectric element changes shape when voltage is applied (making sound) and generates voltage when sound deforms it (receiving echoes).",
       "distractors": [
        "",
        "The photoelectric effect involves light and electrons, not UT elements.",
-       "The transducer element is piezoelectric, not simply magnetic.",
+       "The element is piezoelectric, not thermoelectric.",
        "It is a physical effect, not a chemical reaction."
       ]
      }
@@ -2045,9 +2045,9 @@
       "stem": "Common piezoelectric element materials include:",
       "options": [
        "Ceramics such as lead zirconate titanate and composites",
-       "Aluminum foil here",
-       "Glass here",
-       "Rubber here"
+       "Thin aluminum foil pressed against the metal wear plate",
+       "Plain window glass cut down to the right thickness",
+       "Soft rubber moulded to fit inside the probe housing"
       ],
       "answer": 0,
       "explanation": "Modern elements are often ceramics such as PZT or piezocomposites; quartz and lithium niobate are also used. Foil, glass, and rubber are not piezoelectric elements.",
@@ -2072,8 +2072,8 @@
       "options": [
        "Thickness",
        "Diameter",
-       "Backing (damping) material",
-       "Wear-face coating"
+       "Backing mass",
+       "Wear face"
       ],
       "answer": 0,
       "explanation": "A thinner element resonates at a higher frequency. Element thickness is the primary factor setting the transducer's frequency.",
@@ -2097,9 +2097,9 @@
       "stem": "The backing (damping) material behind the element:",
       "options": [
        "Controls ringing and shortens the pulse for better resolution",
-       "Increases the ringing to lengthen the pulse here",
-       "Sets the transducer's whole fundamental frequency here",
-       "Couples the whole sound into the part here"
+       "Stretches the ringing out and lengthens the pulse on each shot",
+       "Sets the fundamental frequency that the element rings at",
+       "Couples the sound across the gap into the test part itself"
       ],
       "answer": 0,
       "explanation": "Damping shortens the pulse by absorbing element vibration, improving near-surface resolution at some cost to sensitivity.",
@@ -2123,9 +2123,9 @@
       "stem": "Heavier damping generally gives:",
       "options": [
        "A shorter pulse and better resolution but lower sensitivity",
-       "A longer pulse and far higher sensitivity here",
-       "No change at all here",
-       "A plain magnetic field here"
+       "A longer pulse and higher sensitivity but a poorer resolution",
+       "No change at all to either the pulse length or the sensitivity",
+       "A much wider beam spread set up around the probe on every shot"
       ],
       "answer": 0,
       "explanation": "More damping shortens the pulse, improving resolution and reducing the dead zone, while reducing peak sensitivity. The design balances the two.",
@@ -2133,7 +2133,7 @@
        "",
        "Heavier damping shortens, not lengthens, the pulse.",
        "Damping does change pulse length and sensitivity.",
-       "Damping does not create a magnetic field."
+       "Damping shortens the pulse; it does not widen the beam."
       ]
      }
     },
@@ -2149,9 +2149,9 @@
       "stem": "A contact transducer is used by:",
       "options": [
        "Placing it on the part with a thin couplant film",
-       "Submerging the whole part down in water here now",
-       "Holding it up in the air above the part here",
-       "Bonding it on fully permanently here right now too"
+       "Submerging the entire part down in a tank of water",
+       "Holding it up in the air a short way off the part",
+       "Bonding it permanently onto the test part surface"
       ],
       "answer": 0,
       "explanation": "Contact transducers are coupled directly to the part surface with a thin couplant layer for routine hand scanning.",
@@ -2175,17 +2175,17 @@
       "stem": "A dual-element (transmit-receive) transducer is well suited to:",
       "options": [
        "Thin material, near-surface, and corrosion thickness measurement",
-       "Only ever very thick forgings here",
-       "Magnetizing here",
-       "Film exposure here"
+       "Thick heavy forgings carrying deeply buried internal flaws only",
+       "Long-range guided-wave testing along the length of a long pipe",
+       "Steering the beam round to a chosen refracted angle inside the part"
       ],
       "answer": 0,
       "explanation": "Dual-element probes use separate transmit and receive elements, reducing the dead zone and improving near-surface and thin-wall or corrosion thickness measurement.",
       "distractors": [
        "",
        "Dual elements are favored for thin and near-surface work, not only thick forgings.",
-       "Magnetizing is not a transducer function.",
-       "Film exposure belongs to radiography."
+       "Dual-element probes suit thin near-surface work, not long-range pipe runs.",
+       "A dual-element straight probe does not steer the beam to an angle."
       ]
      }
     },
@@ -2201,9 +2201,9 @@
       "stem": "A dual-element transducer reduces the:",
       "options": [
        "Near-surface dead zone",
-       "Need for any calibration",
-       "Material's sound velocity",
-       "Beam spread to zero"
+       "The need to calibrate",
+       "The sound velocity",
+       "All beam spread"
       ],
       "answer": 0,
       "explanation": "By separating transmit and receive, the dual probe lessens the dead zone right under the surface, helping measure thin walls and detect near-surface flaws.",
@@ -2227,17 +2227,17 @@
       "stem": "An angle-beam transducer is a straight element mounted on a:",
       "options": [
        "Wedge that refracts the sound to an angle in the part",
-       "A plain magnet here",
-       "A plain film cassette here",
-       "A plain penetrant brush here"
+       "Delay line that holds the element up off the surface",
+       "Curved shoe contoured to match the part surface well",
+       "Protective membrane stretched across the element face"
       ],
       "answer": 0,
       "explanation": "An angle-beam assembly couples a transducer to an angled wedge so the refracted beam enters the part at the intended angle.",
       "distractors": [
        "",
-       "There is no magnet in an angle-beam probe.",
-       "A film cassette belongs to radiography.",
-       "A penetrant brush belongs to PT."
+       "An angle-beam probe uses an angled wedge, not a flat delay line.",
+       "A contoured shoe is for curved contact, not for angling the beam.",
+       "A wear membrane protects the face; it does not refract the beam."
       ]
      }
     },
@@ -2253,9 +2253,9 @@
       "stem": "Immersion transducers are designed to operate:",
       "options": [
        "With a water path between probe and part",
-       "Pressed directly onto the part here now",
-       "In a plain vacuum here",
-       "Without any coupling at all here right now"
+       "Pressed firmly down onto the part surface",
+       "Across a vacuum gap up to the part",
+       "With no coupling medium present at all"
       ],
       "answer": 0,
       "explanation": "Immersion probes work through a water column or bath rather than direct contact, often allowing focused beams and automated scanning.",
@@ -2279,16 +2279,16 @@
       "stem": "A focused immersion transducer is used to:",
       "options": [
        "Concentrate the beam for better sensitivity and resolution at a depth",
-       "Spread the whole beam out as wide as it goes here",
-       "Fully magnetize the part here",
-       "Fully heat the water here"
+       "Widen the beam right out so that it covers far more area per pass",
+       "Slow the sound right down as it travels along the water path to the part",
+       "Heat the water in the tank up to speed the sound along"
       ],
       "answer": 0,
       "explanation": "Focusing concentrates sound at a chosen depth, improving sensitivity and resolution there, commonly in immersion setups.",
       "distractors": [
        "",
        "Focusing narrows, not widens, the beam.",
-       "Focusing does not magnetize the part.",
+       "A focused probe shapes the beam; it does not slow the sound.",
        "Focusing is about the beam, not heating the water."
       ]
      }
@@ -2305,15 +2305,15 @@
       "stem": "A delay-line transducer places a short standoff in front of the element to:",
       "options": [
        "Move the initial pulse away for better near-surface resolution",
-       "Add plain magnetism here",
-       "Increase the whole part thickness here",
-       "Fully color the echo here"
+       "Slow the entire sweep speed right down across the display screen",
+       "Change the measured thickness of the actual part being tested",
+       "Color the returning echo so that it stands out on the screen"
       ],
       "answer": 0,
       "explanation": "The delay line introduces a known short path so the entry signal is separated from near-surface echoes, helping thin-material and near-surface work, and protecting the element on hot surfaces.",
       "distractors": [
        "",
-       "A delay line does not add magnetism.",
+       "A delay line shifts the initial pulse; it does not slow the sweep.",
        "It does not change the part thickness.",
        "It does not color the echo."
       ]
@@ -2331,9 +2331,9 @@
       "stem": "A contact transducer often has a wear face (wear plate) to:",
       "options": [
        "Protect the element from abrasion and damage",
-       "Set the whole refracted beam angle here now",
-       "Increase the whole transducer frequency here",
-       "Eliminate the whole need for couplant here now"
+       "Set the refracted angle of the beam in the part",
+       "Raise the operating frequency of the element",
+       "Replace the need for couplant on the surface"
       ],
       "answer": 0,
       "explanation": "The wear face protects the element during scanning on rough surfaces and can aid coupling. It is inspected and replaced as it wears.",
@@ -2357,9 +2357,9 @@
       "stem": "UT transducer cables and connectors should be:",
       "options": [
        "In good condition, since damage can disrupt the signal",
-       "Fully frayed for the flexibility here",
-       "Any length at all with no effect here",
-       "Used fully wet internally here"
+       "Allowed to fray, as worn cores still carry the signal",
+       "Loosely connected, since the contact makes no difference",
+       "Left damp inside, since the moisture helps the signal along"
       ],
       "answer": 0,
       "explanation": "Damaged cables and connectors can cause signal loss or noise, so they are kept in good condition and the correct type is used.",
@@ -2383,9 +2383,9 @@
       "stem": "Selecting a higher transducer frequency tends to favor:",
       "options": [
        "Resolution and small-flaw sensitivity on fine-grained, thinner parts",
-       "Maximum penetration in the thick castings here",
-       "A far lower cost only here",
-       "No real technical effect here"
+       "Penetration through thick coarse castings that strongly attenuate sound",
+       "The lowest equipment cost rather than any real technical gain at all",
+       "No real difference at all to the detection on any kind of part"
       ],
       "answer": 0,
       "explanation": "Higher frequency improves resolution and small-flaw detection but penetrates less, so it suits finer-grained, thinner sections; thick attenuative parts favor lower frequency.",
@@ -2409,9 +2409,9 @@
       "stem": "A larger-diameter transducer generally provides:",
       "options": [
        "A more collimated beam and greater coverage per pass",
-       "A wildly diverging whole beam here",
-       "No real effect on the beam here",
-       "A plain magnetic field here"
+       "A more rapidly diverging beam at each test depth",
+       "No real change at all to the shape of the sound beam",
+       "A much shorter pulse length set on each shot"
       ],
       "answer": 0,
       "explanation": "Larger elements give a more directional beam with less far-field spread and cover more area, though small elements can be handier on small or curved parts.",
@@ -2419,7 +2419,7 @@
        "",
        "Larger elements diverge less, not more.",
        "Element size does affect the beam.",
-       "Element size does not create a magnetic field."
+       "Element size affects beam spread, not pulse length."
       ]
      }
     },
@@ -2435,9 +2435,9 @@
       "stem": "A broadband (highly damped) transducer tends to have:",
       "options": [
        "A short pulse and good resolution",
-       "A long ringing whole pulse here now",
-       "No real frequency content here now",
-       "A plain magnetic output here now"
+       "Long ringing and narrow bandwidth",
+       "No real frequency content at all",
+       "More sensitivity but less resolution"
       ],
       "answer": 0,
       "explanation": "Broadband probes produce short pulses with good axial resolution; narrowband probes ring longer with higher sensitivity at a specific frequency.",
@@ -2445,7 +2445,7 @@
        "",
        "Long ringing is a narrowband characteristic.",
        "A transducer does have frequency content.",
-       "The output is electrical and acoustic, not magnetic."
+       "Broadband damping gives a short pulse with lower, not higher, sensitivity."
       ]
      }
     },
@@ -2461,9 +2461,9 @@
       "stem": "Choosing a transducer involves matching the:",
       "options": [
        "Frequency, size, and type to the part and the flaws sought",
-       "The whole element size to the whole screen size here",
-       "The whole gain to the transducer serial number here",
-       "The pulse repetition rate to the couplant here"
+       "The element size to the size of the instrument display",
+       "The gain setting to the instrument's printed serial number",
+       "The pulse repetition rate to the type of couplant being used"
       ],
       "answer": 0,
       "explanation": "Frequency, element size, and probe type (contact, dual, angle, immersion) are selected for the material, thickness, geometry, and expected flaws.",
@@ -2487,17 +2487,17 @@
       "stem": "Portable UT flaw detectors are typically:",
       "options": [
        "Battery-capable handheld instruments with an A-scan display",
-       "Large fixed whole darkroom units here",
-       "Film processors here",
-       "Magnetizing benches here"
+       "Bench-only mains units that never run on a battery at all",
+       "Large fixed consoles that need a full two people to carry them",
+       "Rack-mounted laboratory units that run only from the mains power"
       ],
       "answer": 0,
       "explanation": "Field UT detectors are portable, often battery-powered, with an A-scan display and the controls needed for calibration and inspection.",
       "distractors": [
        "",
-       "UT detectors are not darkroom units.",
-       "Film processors belong to radiography.",
-       "Magnetizing benches belong to magnetic particle testing."
+       "Portable detectors are handheld and battery-capable.",
+       "Portable detectors are light handheld units.",
+       "Portable detectors are handheld and battery-capable, not rack units."
       ]
      }
     },
@@ -2513,9 +2513,9 @@
       "stem": "To protect transducers, the technician should:",
       "options": [
        "Avoid dropping them and check the face for wear and cracks",
-       "Drag them hard on the rough steel without any care here now",
-       "Store them in the water fully permanently here",
-       "Strike them hard to test them here"
+       "Drag them hard across the rough surface to save scanning time",
+       "Store them permanently soaking down in a tank of water",
+       "Tap them firmly on the steel bench to seat the element"
       ],
       "answer": 0,
       "explanation": "Transducers are fragile; dropping or rough handling can crack the element or wear face, so they are handled carefully and inspected.",
@@ -2539,9 +2539,9 @@
       "stem": "Dual-element probes are often built with a slight roof angle so the transmit and receive beams:",
       "options": [
        "Cross at a focal depth for best response there",
-       "Fully cancel each other right out here right now",
-       "Travel fully parallel without ever meeting here",
-       "Reflect off the whole wear face only here now"
+       "Cancel each other out at the focal depth below",
+       "Run parallel and never meet within the part",
+       "Reflect off the wear face without entering at all"
       ],
       "answer": 0,
       "explanation": "The crossed beams of a dual probe give a pseudo-focus at a depth, optimizing response for thin walls or a target thickness range.",
@@ -2565,9 +2565,9 @@
       "stem": "For hot surfaces, special considerations include using:",
       "options": [
        "High-temperature probes or delay lines and limiting contact time",
-       "Standard probes with no real limits here",
-       "No couplant at all here",
-       "A plain magnet here"
+       "Any standard contact probe held on for as long as the scan takes",
+       "No couplant at all, since the heat itself carries the sound across",
+       "Ordinary room-temperature couplant simply applied a little thicker"
       ],
       "answer": 0,
       "explanation": "High-temperature probes, delay lines, suitable couplants, and limited dwell protect the transducer and keep readings valid on hot parts.",
@@ -2575,7 +2575,7 @@
        "",
        "Standard probes can be damaged by heat without precautions.",
        "A suitable high-temperature couplant is still needed.",
-       "A magnet is not used in UT coupling."
+       "Hot surfaces need high-temperature couplant, not ordinary couplant."
       ]
      }
     },
@@ -2591,16 +2591,16 @@
       "stem": "The receiver protects its input from the strong pulser voltage so that:",
       "options": [
        "The instrument can transmit and then receive small echoes",
-       "The whole part is fully magnetized here",
-       "The whole film is fully exposed here",
-       "The couplant fully dries here"
+       "The screen can refresh its entire display in between each shot",
+       "The battery can recharge itself fully in between each shot",
+       "The couplant film can dry off between each of the scan passes"
       ],
       "answer": 0,
       "explanation": "Protection lets the same circuitry handle the large transmit pulse and then amplify the tiny returning echoes without damage.",
       "distractors": [
        "",
-       "This circuitry does not magnetize the part.",
-       "It is unrelated to film exposure.",
+       "The protection circuit guards the receiver input; it is not for refresh.",
+       "The circuit protects the receiver; it does not recharge the battery.",
        "It is unrelated to couplant drying."
       ]
      }
@@ -2617,9 +2617,9 @@
       "stem": "Common UT transducer connectors include:",
       "options": [
        "BNC, Lemo, and microdot types",
-       "Only household plugs here now",
-       "Garden hose fittings here now",
-       "Optical glass fiber only here now"
+       "Standard household wall plugs",
+       "Plain garden hose fittings",
+       "Optical-fiber light connectors"
       ],
       "answer": 0,
       "explanation": "UT probes use connectors such as BNC, Lemo, and microdot. Using the correct mating connector and a good cable preserves signal quality.",
@@ -2643,17 +2643,17 @@
       "stem": "Typical UT instrument controls include:",
       "options": [
        "Gain, range, delay, and reject",
-       "Aperture and shutter speed here",
-       "The whole developer time here",
-       "The magnetizing amperage here now"
+       "Brightness and the contrast",
+       "Frequency and the velocity",
+       "Probe angle and the wedge type"
       ],
       "answer": 0,
       "explanation": "UT controls set gain (sensitivity), range and delay (sweep), and reject, among others. Aperture, developer time, and amperage belong to other methods.",
       "distractors": [
        "",
-       "Aperture and shutter speed relate to imaging, not UT controls.",
-       "Developer time belongs to film processing.",
-       "Magnetizing amperage belongs to magnetic particle testing."
+       "Those are display adjustments, not the core UT controls.",
+       "Frequency and velocity are setup values, not the control group.",
+       "Angle and wedge are probe choices, not instrument controls."
       ]
      }
     },
@@ -2669,9 +2669,9 @@
       "stem": "A transducer is usually marked with its:",
       "options": [
        "Nominal frequency and size",
-       "The exact velocity of every material",
-       "The acceptance criteria for the job",
-       "The required scanning gain"
+       "The material velocity value",
+       "The acceptance criteria",
+       "The scanning gain setting"
       ],
       "answer": 0,
       "explanation": "Probes are labeled with nominal frequency and element size (and type), which the technician records and matches to the procedure.",
@@ -2695,9 +2695,9 @@
       "stem": "The same piezoelectric element can transmit and receive because it:",
       "options": [
        "Converts voltage to motion and motion back to voltage",
-       "Only converts the voltage to motion, never the reverse",
-       "Stores the whole echo chemically until it is read here",
-       "Re-emits light that the whole receiver detects here now"
+       "Converts voltage to motion but never the other way round",
+       "Stores the returning echoes chemically until read",
+       "Turns voltage to light and the light back to voltage"
       ],
       "answer": 0,
       "explanation": "The piezoelectric effect is reversible, so one element both produces sound from voltage and produces voltage from received sound.",
@@ -2721,17 +2721,17 @@
       "stem": "For a small-diameter pipe, a useful accessory is a:",
       "options": [
        "Curved shoe or contoured wedge matching the surface",
-       "A flat shoe forced right onto the whole curve here now",
-       "A plain magnet here",
-       "A plain film holder here"
+       "A flat shoe pressed straight onto the tight pipe curve",
+       "A thick rubber pad laid over the tight pipe curve",
+       "A heavy clamp gripping right around the small pipe"
       ],
       "answer": 0,
       "explanation": "A contoured shoe or wedge matches the curved surface for proper coupling and beam entry; a flat shoe couples poorly on a tight curve.",
       "distractors": [
        "",
        "A flat shoe on a tight curve couples poorly.",
-       "A magnet is not used for UT coupling.",
-       "A film holder belongs to radiography."
+       "A contoured shoe matches the curve; a flat pad couples poorly.",
+       "Coupling on small pipe needs a contoured shoe, not a clamp."
       ]
      }
     },
@@ -2747,9 +2747,9 @@
       "stem": "Before inspection, the technician confirms the instrument and probe are:",
       "options": [
        "Functioning and set up per the procedure",
-       "Untested and just assumed to be good here",
-       "Fully disconnected here",
-       "Submerged in the whole couplant here"
+       "Assumed good without any actual check first",
+       "Left fully disconnected from the instrument",
+       "Submerged deep in a full tub of couplant"
       ],
       "answer": 0,
       "explanation": "A functional check and procedure-based setup confirm the instrument, cable, and probe work before calibration and inspection.",
@@ -2773,16 +2773,16 @@
       "stem": "A cracked transducer element may show as:",
       "options": [
        "Weak or erratic signals and poor calibration",
-       "A much brighter color here",
-       "Much stronger magnetism here",
-       "A much heavier part here"
+       "A shift in the color of the screen trace shown",
+       "A sudden jump in the measured part thickness",
+       "A change in the measured weight of the test part"
       ],
       "answer": 0,
       "explanation": "Element damage often causes low or unstable response and difficulty calibrating, signaling the probe should be checked or replaced.",
       "distractors": [
        "",
        "Element damage is not a color effect.",
-       "Magnetism is unrelated to a cracked UT element.",
+       "A cracked element gives weak erratic signals, not a thickness jump.",
        "Part weight is unrelated to a damaged element."
       ]
      }
@@ -2799,9 +2799,9 @@
       "stem": "With equipment, the Level I technician is generally expected to:",
       "options": [
        "Operate it and perform routine checks under direction",
-       "Fully design the whole transducers here",
-       "Approve the whole calibration intervals here",
-       "Fully write the whole procedure here"
+       "Design new transducers to suit the inspection job",
+       "Set the calibration intervals used for the entire site",
+       "Write the inspection procedures for the other hands"
       ],
       "answer": 0,
       "explanation": "A Level I operates the instrument and probes and performs routine checks, recording results; design and procedure approval are higher-level functions.",
@@ -2825,16 +2825,16 @@
       "stem": "Which statement about UT equipment is correct?",
       "options": [
        "A pulser-receiver drives a piezoelectric transducer chosen by frequency, size, and type for the job",
-       "All of the whole UT work just uses one single universal probe here",
-       "The whole transducers all just emit plain X-rays here",
-       "The whole cables do not affect the signal at all here"
+       "A single universal probe suits every inspection job, whatever the part or the flaw being sought",
+       "A UT transducer must always touch the part directly and can never work through any water immersion path",
+       "Worn and damaged cables make no difference at all to the quality of the returned signal"
       ],
       "answer": 0,
       "explanation": "The instrument pulses and receives through a piezoelectric transducer selected for the application, and good cables and care keep the signal reliable.",
       "distractors": [
        "",
        "Different probes suit different jobs; there is no single universal probe.",
-       "Transducers emit sound, not X-rays.",
+       "UT also works through a water path in immersion testing.",
        "Damaged cables can degrade the signal."
       ]
      }
@@ -2857,9 +2857,9 @@
       "stem": "On an A-scan display, the horizontal and vertical axes represent:",
       "options": [
        "Time or distance horizontally, amplitude vertically",
-       "Amplitude horizontally and color vertically here",
-       "The temperature and the weight here",
-       "The gain and the couplant here"
+       "Amplitude horizontally and surface color vertically",
+       "Part temperature horizontally and weight vertically",
+       "Gain horizontally and the couplant film vertically"
       ],
       "answer": 0,
       "explanation": "The A-scan shows travel time (proportional to distance) along the horizontal axis and echo amplitude along the vertical axis.",
@@ -2883,9 +2883,9 @@
       "stem": "The signal at the left of the A-scan from the sound entering the part is the:",
       "options": [
        "Initial pulse (main bang)",
-       "The whole backwall echo here",
-       "The whole flaw echo here now",
-       "The reject control here now"
+       "A far backwall echo signal",
+       "An interior flaw echo",
+       "The reject control"
       ],
       "answer": 0,
       "explanation": "The initial pulse marks the start of the sound entering the part; reflectors and the backwall appear to its right based on their depth.",
@@ -2909,9 +2909,9 @@
       "stem": "The backwall echo appears on the sweep at a horizontal position corresponding to:",
       "options": [
        "The full thickness of the part",
-       "The entry-surface (zero) position",
-       "Half the part thickness",
-       "The near-field length"
+       "The entry surface zero start point",
+       "Half of the part thickness",
+       "The near-field length only"
       ],
       "answer": 0,
       "explanation": "After calibration, the backwall echo sits at the screen position matching the part thickness, with flaw echoes appearing at shallower positions.",
@@ -2935,9 +2935,9 @@
       "stem": "A flaw echo between the initial pulse and the backwall indicates a reflector:",
       "options": [
        "At a depth between the surface and the back surface",
-       "Fully outside the whole part here",
-       "Down in the cable here",
-       "On the whole display glass here"
+       "Right at the entry surface of the part under test",
+       "From a stray signal running along the probe cable",
+       "From a mark sitting on the glass of the display screen"
       ],
       "answer": 0,
       "explanation": "Its horizontal position gives the reflector's depth; an echo before the backwall corresponds to a reflector within the thickness.",
@@ -2961,9 +2961,9 @@
       "stem": "Echo height is often expressed as a percentage of:",
       "options": [
        "Full screen height (FSH)",
-       "The backwall echo width",
-       "The sweep range in inches",
-       "The pulse repetition rate"
+       "The width of the echo trace",
+       "The full sweep range",
+       "The pulse repeat rate"
       ],
       "answer": 0,
       "explanation": "Amplitude is read as a percent of full screen height, used for reference levels and recording thresholds.",
@@ -2987,9 +2987,9 @@
       "stem": "The gain control adjusts:",
       "options": [
        "The amplification of the signal, in decibels",
-       "The whole part thickness here",
-       "The whole sound velocity here",
-       "The whole couplant type here"
+       "The measured thickness of the entire test part",
+       "The sound velocity set for the test part",
+       "The type of couplant used on the surface"
       ],
       "answer": 0,
       "explanation": "Gain raises or lowers signal amplitude, usually in decibels, to set sensitivity and bring echoes to reference height.",
@@ -3013,9 +3013,9 @@
       "stem": "An increase of about 6 dB corresponds to roughly:",
       "options": [
        "Doubling the signal amplitude",
-       "Halving the whole amplitude here",
-       "No real change at all here now",
-       "A whole ten times increase here"
+       "Halving the signal amplitude",
+       "No change at all to amplitude",
+       "A tenfold rise in the amplitude"
       ],
       "answer": 0,
       "explanation": "About 6 dB is roughly a factor of two in amplitude, and about 20 dB is roughly a factor of ten. These relationships help set reference levels.",
@@ -3039,9 +3039,9 @@
       "stem": "The range (sweep) control sets:",
       "options": [
        "The depth or sound-path span shown across the screen",
-       "The whole couplant flow here",
-       "The whole transducer frequency here",
-       "The whole part hardness here"
+       "The flow of couplant held under the moving probe head",
+       "The operating frequency of the transducer in use",
+       "The surface hardness of the part that is tested"
       ],
       "answer": 0,
       "explanation": "Range determines how much material depth or sound path the screen width represents, chosen to display the region of interest.",
@@ -3065,9 +3065,9 @@
       "stem": "The delay (zero offset) control:",
       "options": [
        "Shifts the displayed start so the correct zero point is shown",
-       "Greatly increases the whole gain here",
-       "Greatly changes the whole velocity here",
-       "Adds plain couplant here"
+       "Raises the amplification so the weaker echoes show up on screen",
+       "Changes the sound velocity used right through the test part",
+       "Adds more couplant film in under the moving probe face"
       ],
       "answer": 0,
       "explanation": "Delay positions the sweep so the entry surface reads as zero, correcting for wedge or delay-line and cable timing.",
@@ -3091,9 +3091,9 @@
       "stem": "The reject (suppression) control removes low-level signals but should be used cautiously because it can:",
       "options": [
        "Be nonlinear and hide small relevant echoes",
-       "Always fully improve the whole accuracy here",
-       "Greatly increase the penetration here now",
-       "Greatly change the whole velocity here now"
+       "Always improve the accuracy of every reading",
+       "Boost the penetration deep into the part",
+       "Shift the set material velocity value"
       ],
       "answer": 0,
       "explanation": "Reject can suppress noise but may be nonlinear and remove small real echoes, so many procedures limit or prohibit its use. The technician follows the procedure.",
@@ -3117,9 +3117,9 @@
       "stem": "The dead zone is the region:",
       "options": [
        "Just below the surface where echoes are masked by the initial pulse",
-       "Right at the whole backwall here",
-       "Fully outside the part here",
-       "Down in the whole cable here"
+       "Just ahead of the backwall where the echoes merge into the back echo",
+       "Just outside the part where the beam spreads out into the air",
+       "Within the probe cable where the stray signals pile up"
       ],
       "answer": 0,
       "explanation": "Right after the initial pulse, near-surface echoes can be hidden, creating a dead zone. Dual-element or delay-line probes reduce it.",
@@ -3143,17 +3143,17 @@
       "stem": "Common contact couplants include:",
       "options": [
        "Water, oil, glycerin, grease, and gels",
-       "Dry powder here",
-       "Air here",
-       "Sand here"
+       "Acetone or other quick-drying solvents",
+       "A thin layer of trapped air gap",
+       "A dry paper shim under the probe"
       ],
       "answer": 0,
       "explanation": "Liquids and gels such as water, oil, glycerin, grease, and commercial gels couple sound into the part. Dry powder, air, and sand do not couple effectively.",
       "distractors": [
        "",
-       "Dry powder does not couple sound for contact UT.",
+       "Volatile solvents flash off and do not couple sound.",
        "Air is the gap couplant is meant to remove.",
-       "Sand is not a couplant."
+       "A dry shim blocks coupling; couplants wet the surface."
       ]
      }
     },
@@ -3169,9 +3169,9 @@
       "stem": "Couplant is selected considering surface condition, temperature, position, and:",
       "options": [
        "Removability and compatibility with the part",
-       "The transducer's whole serial number here now",
-       "The instrument's whole battery level here",
-       "The whole sweep range setting here now"
+       "The transducer's own printed serial number label",
+       "The battery charge left in the instrument",
+       "The sweep range set across the display"
       ],
       "answer": 0,
       "explanation": "Couplant choice weighs viscosity for the surface and orientation, temperature rating, ease of removal, and not harming the part (for example corrosion or residue concerns).",
@@ -3195,9 +3195,9 @@
       "stem": "To keep readings valid, the couplant and its application should be:",
       "options": [
        "Consistent between calibration and inspection",
-       "Changed fully at random during the scanning here",
-       "Fully different for each single reading here now",
-       "Left fully off entirely here"
+       "Changed at random all through the inspection",
+       "Different for each single reading that is taken",
+       "Left off entirely while contact testing"
       ],
       "answer": 0,
       "explanation": "Large changes in couplant or coupling pressure can shift amplitude, so calibration and inspection use consistent coupling.",
@@ -3221,16 +3221,16 @@
       "stem": "Too little couplant typically causes:",
       "options": [
        "Weak or lost signals from poor coupling",
-       "Greatly excessive whole penetration here",
-       "A plain magnetic indication here now",
-       "A much higher whole sound velocity here now"
+       "Greater penetration deep into the part",
+       "A stronger, cleaner signal on the screen",
+       "A shift in the set material velocity"
       ],
       "answer": 0,
       "explanation": "Inadequate couplant lets air interfere, weakening or losing the signal. Adequate, consistent couplant maintains coupling.",
       "distractors": [
        "",
        "Poor coupling reduces, not increases, penetration of the signal.",
-       "Coupling problems are acoustic, not magnetic.",
+       "Too little couplant weakens the signal, not strengthens it.",
        "Couplant amount does not change material velocity."
       ]
      }
@@ -3247,16 +3247,16 @@
       "stem": "The scanning surface should be:",
       "options": [
        "Clean and smooth enough for good coupling and beam entry",
-       "Heavily scaled and very oily here",
-       "Painted on very thickly here",
-       "Fully irrelevant to the results here"
+       "Left heavy with scale and oil so the probe just slides along",
+       "Roughened with coarse deep grinding marks across it",
+       "Of any condition at all, since it has no real effect"
       ],
       "answer": 0,
       "explanation": "Loose scale, heavy paint, dirt, or roughness can block coupling and scatter the beam, so the surface is prepared as the procedure requires.",
       "distractors": [
        "",
        "Heavy scale and oil interfere with coupling.",
-       "Thick paint can interfere with coupling and beam entry.",
+       "A rough surface scatters the beam and harms coupling.",
        "Surface condition does affect results."
       ]
      }
@@ -3273,9 +3273,9 @@
       "stem": "After distance calibration, a reflector's depth is read from:",
       "options": [
        "Its horizontal position on the sweep",
-       "Its outer color here",
-       "The whole couplant that was used here",
-       "The whole gain reading in dB here now"
+       "Its color shown on the display screen",
+       "The amount of couplant being applied",
+       "The receiver gain currently set"
       ],
       "answer": 0,
       "explanation": "The horizontal position corresponds to sound path or depth once the sweep is calibrated, letting the technician locate the reflector.",
@@ -3299,9 +3299,9 @@
       "stem": "Echo amplitude is used as a reference but by itself is:",
       "options": [
        "Not a direct measure of flaw size",
-       "An exact measure of flaw size",
-       "Proportional only to part thickness",
-       "Independent of reflector orientation"
+       "An exact readout of the flaw size",
+       "Set by the part thickness alone",
+       "Free of any flaw orientation effect"
       ],
       "answer": 0,
       "explanation": "Amplitude depends on size, orientation, depth, and other factors, so it is compared against references rather than read as an exact size, with sizing being a higher-level task.",
@@ -3325,9 +3325,9 @@
       "stem": "Bringing a reference reflector echo to a set screen height establishes the:",
       "options": [
        "Reference sensitivity level for the inspection",
-       "The whole material sound velocity here now",
-       "The whole sweep distance range value here right now",
-       "The whole pulse repetition rate here right now"
+       "The sound velocity used through the test part",
+       "The horizontal sweep range set on the screen",
+       "The pulse repetition rate set on the instrument"
       ],
       "answer": 0,
       "explanation": "Adjusting gain so a reference reflector reaches a defined height sets the sensitivity from which scanning and recording levels are referenced.",
@@ -3351,17 +3351,17 @@
       "stem": "Besides the A-scan, other UT presentations include:",
       "options": [
        "B-scan and C-scan views",
-       "Only the film images here now",
-       "Only the audible tones here",
-       "Plain magnetic maps here"
+       "RF and video display modes",
+       "Time-of-flight readout only",
+       "Frequency spectrum plots"
       ],
       "answer": 0,
       "explanation": "B-scan shows a cross-sectional view and C-scan a plan view of an area; the A-scan remains the basic waveform display for conventional UT.",
       "distractors": [
        "",
-       "UT presentations are electronic, not film images.",
-       "UT is not limited to audible tones.",
-       "Magnetic maps are not UT presentations."
+       "RF and video are A-scan modes, not separate presentations.",
+       "A numeric readout is not an imaging presentation.",
+       "A spectrum plot is signal analysis, not a scan presentation."
       ]
      }
     },
@@ -3377,9 +3377,9 @@
       "stem": "Raising gain too high can:",
       "options": [
        "Lift noise and grass that obscure real echoes",
-       "Always fully clarify the whole signal here",
-       "Greatly lower the whole sound velocity here",
-       "Add plain couplant here"
+       "Sharpen and clarify each real echo on screen",
+       "Raise the sound velocity right through the part",
+       "Add fresh couplant in under the probe face"
       ],
       "answer": 0,
       "explanation": "Excess gain raises background noise along with signals, which can mask relevant echoes, so sensitivity is set to the procedure level.",
@@ -3403,9 +3403,9 @@
       "stem": "The initial pulse on the screen should not be mistaken for:",
       "options": [
        "A flaw indication",
-       "The whole gain setting",
-       "The whole couplant",
-       "The whole cable"
+       "A control setting",
+       "The couplant film",
+       "A stray cable signal"
       ],
       "answer": 0,
       "explanation": "The initial pulse is the entry signal, not a reflector in the part, so the technician distinguishes it from genuine flaw echoes.",
@@ -3429,9 +3429,9 @@
       "stem": "On a thin part, several evenly spaced echoes across the screen are usually:",
       "options": [
        "Multiple backwall reflections",
-       "Several different whole flaws here",
-       "Plain couplant echoes here now",
-       "Plain cable reflections here now"
+       "A row of separate small flaws",
+       "Repeated couplant echoes",
+       "Stray cable reflections"
       ],
       "answer": 0,
       "explanation": "Repeated backwall echoes appear at equal spacing as the sound bounces between surfaces; recognizing them avoids mistaking them for flaws.",
@@ -3455,9 +3455,9 @@
       "stem": "On a hot surface, the couplant must be:",
       "options": [
        "Rated for the temperature so it does not break down or boil off",
-       "Water always here",
-       "Fully omitted here",
-       "Fully frozen here"
+       "Plain tap water poured on, which flashes off the hot metal",
+       "Left off entirely, since the surface heat carries the sound by itself",
+       "Frozen solid first, then pressed down onto the hot surface"
       ],
       "answer": 0,
       "explanation": "High-temperature couplants are used on hot parts so coupling is maintained without flashing off, and contact time is limited to protect the probe.",
@@ -3481,9 +3481,9 @@
       "stem": "The displayed depth scale is correct only when the instrument is set to the:",
       "options": [
        "Correct material velocity and calibrated",
-       "The whole maximum gain here",
-       "The whole minimum pulse repetition rate here",
-       "The whole widest sweep range here now"
+       "The maximum gain across the entire sweep",
+       "The highest pulse repetition rate set",
+       "A wide sweep range set on the screen"
       ],
       "answer": 0,
       "explanation": "Depth and thickness readings depend on a correct velocity and a valid calibration; otherwise positions and thicknesses are wrong.",
@@ -3507,9 +3507,9 @@
       "stem": "Whether reject may be used is determined by:",
       "options": [
        "The written procedure or specification",
-       "Whatever fully speeds up the scanning",
-       "The whole transducer frequency here now",
-       "The whole battery level here right now"
+       "How fast the scan has to be run on site",
+       "The chosen transducer frequency",
+       "The battery charge in the unit"
       ],
       "answer": 0,
       "explanation": "Because reject can affect linearity, its use (if any) is governed by the procedure, and the technician follows that requirement.",
@@ -3533,9 +3533,9 @@
       "stem": "Reading the A-scan, the Level I technician:",
       "options": [
        "Recognizes and records echoes and their positions",
-       "Fully sets the whole acceptance criteria here",
-       "Fully approves the whole procedure here",
-       "Sizes the whole flaws right to the code here now"
+       "Sets the final accept and reject criteria for that job",
+       "Approves the inspection procedures used on site",
+       "Sizes each flaw to code from the echo heights"
       ],
       "answer": 0,
       "explanation": "A Level I identifies and records echoes, positions, and amplitudes; evaluating and sizing to acceptance criteria is a higher-level task.",
@@ -3559,16 +3559,16 @@
       "stem": "After inspection, couplant is generally:",
       "options": [
        "Removed as required to leave the part in acceptable condition",
-       "Left thick on the whole part always here",
-       "Fully replaced with the penetrant here",
-       "Fully baked on here"
+       "Left thick on the part metal to seal it against any corrosion",
+       "Left as a thin film so the probe keeps gliding easily next time",
+       "Baked onto the surface so that it stays put for next time"
       ],
       "answer": 0,
       "explanation": "Residual couplant is cleaned off as the procedure requires so it does not cause corrosion or interfere with later steps.",
       "distractors": [
        "",
        "Leaving thick couplant can cause corrosion or interfere later.",
-       "Couplant is not replaced with penetrant.",
+       "Couplant is cleaned off as required, not left on as a glide film.",
        "Couplant is removed, not baked on."
       ]
      }
@@ -3585,9 +3585,9 @@
       "stem": "So that screen readings are trustworthy, instruments are periodically checked for:",
       "options": [
        "Vertical (amplitude) and horizontal (distance) linearity",
-       "The whole instrument's clock setting here",
-       "The couplant viscosity rating here",
-       "The transducer cosmetic finish here"
+       "The clock and the date setting on the instrument display",
+       "The viscosity of the couplant gel that is applied",
+       "The cosmetic finish of the instrument's outer casing"
       ],
       "answer": 0,
       "explanation": "Linearity checks confirm the display responds proportionally in amplitude and accurately in distance, supporting valid readings. The Level I performs such checks under direction.",
@@ -3611,9 +3611,9 @@
       "stem": "When echoes are referenced to a set height, the technician records the:",
       "options": [
        "Gain or dB used and the reference level",
-       "Only ever the whole time of day here",
-       "The transducer's whole purchase date here",
-       "The whole ambient acoustic noise level"
+       "Just the time of day on the clock",
+       "The probe's original purchase order date",
+       "The ambient room noise in the area"
       ],
       "answer": 0,
       "explanation": "Recording the gain and reference level lets the inspection be repeated and compared, supporting traceability.",
@@ -3637,9 +3637,9 @@
       "stem": "To read the display reliably, the technician should view it:",
       "options": [
        "With adequate, glare-free lighting on the screen",
-       "In direct full glaring sunlight here right now",
-       "From right across the whole room here right now",
-       "With the whole screen turned fully off here right now"
+       "Under bright direct sunlight falling on the screen",
+       "From right across the room away from the unit",
+       "With the screen switched right off"
       ],
       "answer": 0,
       "explanation": "A clear, glare-free view of the screen helps the technician see small echoes and read positions accurately.",
@@ -3663,9 +3663,9 @@
       "stem": "Which statement about the display and couplant is correct?",
       "options": [
        "The A-scan shows distance horizontally and amplitude vertically, and consistent couplant keeps readings valid",
-       "The plain outer color is what shows the whole flaw depth here",
-       "The reject control always improves the results here",
-       "The whole couplant is fully optional in contact UT here"
+       "The A-scan reads the flaw depth from the trace color, and the couplant choice has no real effect on the readings",
+       "Reject can be turned right up quite safely, since it never hides any of the small relevant echoes",
+       "Contact UT needs no couplant, since sound crosses the dry air gap into the part by itself just fine"
       ],
       "answer": 0,
       "explanation": "The A-scan plots distance against amplitude, gain sets sensitivity, reject is used cautiously, and consistent couplant maintains valid readings.",
@@ -3695,16 +3695,16 @@
       "stem": "Calibration before UT is done to:",
       "options": [
        "Set distance and sensitivity so readings are accurate and repeatable",
-       "Fully magnetize the part here",
-       "Develop out the film here",
-       "Fully color the display here"
+       "Warm the part through so the sound travels into it more easily",
+       "Clean the entire scanning surface right down before any readings are taken",
+       "Color the display trace so that the echoes stand out more clearly"
       ],
       "answer": 0,
       "explanation": "Calibration establishes the distance (sweep) scale and the sensitivity reference so depths and amplitudes are accurate and the inspection is repeatable.",
       "distractors": [
        "",
-       "Calibration does not magnetize the part.",
-       "Film development is unrelated to UT calibration.",
+       "Calibration sets distance and sensitivity; it does not heat the part.",
+       "Surface cleaning is prep, not what calibration achieves.",
        "Calibration does not color the display."
       ]
      }
@@ -3721,9 +3721,9 @@
       "stem": "Two main aspects of UT calibration are:",
       "options": [
        "Distance (sweep) and sensitivity (amplitude reference)",
-       "The color and the weight here",
-       "The couplant and the cable here",
-       "The gain only here"
+       "The surface color and the weight of the part being tested",
+       "The couplant gel and the probe cable that are in use",
+       "The receiver gain by itself with nothing else set"
       ],
       "answer": 0,
       "explanation": "Distance calibration sets the horizontal scale; sensitivity calibration sets the reference amplitude. Both are needed for valid results.",
@@ -3747,9 +3747,9 @@
       "stem": "The IIW block is commonly used to:",
       "options": [
        "Calibrate distance and check angle-beam index and angle",
-       "Measure the whole part's hardness here",
-       "Store the whole transducer safely here",
-       "Set the whole pulse repetition rate here"
+       "Measure the surface hardness of the test part metal",
+       "Store the spare probes and the cables out on the job",
+       "Set the pulse repetition rate used on the instrument"
       ],
       "answer": 0,
       "explanation": "The IIW (International Institute of Welding) block supports distance calibration, beam index point location, refracted angle verification, and resolution checks.",
@@ -3773,9 +3773,9 @@
       "stem": "A step wedge or step block is used to:",
       "options": [
        "Calibrate or verify thickness readings at known thicknesses",
-       "Verify the whole refracted beam angle here",
-       "Measure the whole beam spread here",
-       "Set the whole reject level here"
+       "Verify the refracted angle of an angle-beam probe used in steel",
+       "Measure the beam spread of the probe out in the far field",
+       "Set the reject level needed to clear the baseline grass"
       ],
       "answer": 0,
       "explanation": "A step block provides known thicknesses to calibrate or verify a thickness gauge or sweep across a range.",
@@ -3799,17 +3799,17 @@
       "stem": "A flat-bottom hole (FBH) in a reference block serves as a:",
       "options": [
        "Known reflector for setting sensitivity",
-       "A plain whole magnetizing source here now",
-       "A plain whole couplant reservoir here now",
-       "A plain whole light source here"
+       "A standard depth marker stamped in the block",
+       "A couplant reservoir for the probe",
+       "A mounting point for the angle-beam wedge"
       ],
       "answer": 0,
       "explanation": "Flat-bottom holes are machined reference reflectors of known size and depth used to set and compare sensitivity.",
       "distractors": [
        "",
-       "An FBH is a reflector, not a magnetizing source.",
+       "An FBH is a reflector for sensitivity, not a depth marker.",
        "It is not a couplant reservoir.",
-       "It is not a light source."
+       "An FBH is a reflector, not a wedge mount."
       ]
      }
     },
@@ -3825,17 +3825,17 @@
       "stem": "A side-drilled hole (SDH) is often used as a reference reflector for:",
       "options": [
        "Angle-beam distance-amplitude and sensitivity setup",
-       "Measuring the couplant here",
-       "Magnetizing here",
-       "The film density here"
+       "Couplant performance checks over the entire test surface",
+       "Surface roughness checks over the part before a scan",
+       "Straight-beam wall thickness checks on flat plate stock"
       ],
       "answer": 0,
       "explanation": "Side-drilled holes give consistent reflectors at known depths, commonly used to build distance-amplitude references for angle-beam work.",
       "distractors": [
        "",
        "SDHs are reflectors, not couplant measures.",
-       "They are not magnetizing devices.",
-       "They are unrelated to film density."
+       "An SDH is a reference reflector, not a roughness gauge.",
+       "An SDH suits angle-beam setup, not flat-plate thickness."
       ]
      }
     },
@@ -3852,8 +3852,8 @@
       "options": [
        "Reflector size to echo amplitude",
        "Reflector depth to echo amplitude",
-       "Frequency to wavelength",
-       "Gain to sweep range"
+       "Frequency to the wavelength value",
+       "Gain to the sweep range value set"
       ],
       "answer": 0,
       "explanation": "Area-amplitude blocks show how echo amplitude changes with reflector size at a fixed depth, supporting sensitivity reference.",
@@ -3877,9 +3877,9 @@
       "stem": "Distance-amplitude blocks contain the same-size reflector at different depths to show how amplitude changes with:",
       "options": [
        "Distance (sound path)",
-       "The reflector size here",
-       "Transducer frequency here",
-       "The couplant viscosity here"
+       "The reflector size",
+       "The test frequency",
+       "The couplant viscosity"
       ],
       "answer": 0,
       "explanation": "These blocks reveal how echo amplitude from an equal reflector falls with depth, the basis for a distance-amplitude correction (DAC) curve.",
@@ -3903,9 +3903,9 @@
       "stem": "A distance-amplitude correction (DAC) curve compensates for the way echo amplitude:",
       "options": [
        "Decreases with sound path due to attenuation and beam spread",
-       "Increases steadily with the whole depth here",
-       "Changes with the whole gain setting only here",
-       "Stays fully constant at all the depths here"
+       "Increases with sound path as the beam drives deeper down",
+       "Tracks only the gain setting and nothing at all about depth",
+       "Stays fully constant at every depth right through the part"
       ],
       "answer": 0,
       "explanation": "DAC plots reference reflector amplitude versus distance so equal reflectors at different depths can be judged against a depth-adjusted level.",
@@ -3929,9 +3929,9 @@
       "stem": "Straight-beam distance calibration often uses:",
       "options": [
        "Backwall echoes from known thicknesses",
-       "The amplitude of the initial pulse here",
-       "The whole reject control here right now",
-       "Plain random surface echoes here"
+       "The initial pulse at the start of sweep",
+       "The reject control turned right up high",
+       "Random surface echoes off the part"
       ],
       "answer": 0,
       "explanation": "Repeated backwall echoes or steps of known thickness set the sweep so depth reads correctly across the range.",
@@ -3955,9 +3955,9 @@
       "stem": "The beam index point (exit point) of an angle-beam probe is found using:",
       "options": [
        "A radius on a calibration block such as the IIW",
-       "The whole backwall of any flat plate here now",
-       "The whole initial pulse width here right now",
-       "The whole reject setting here"
+       "The flat backwall echo off the test part",
+       "The width of the initial pulse shown on screen",
+       "The reject setting dialed into the unit"
       ],
       "answer": 0,
       "explanation": "Maximizing the echo from the block's machined radius locates where the beam exits the wedge, the beam index point, used for measuring distances.",
@@ -3981,9 +3981,9 @@
       "stem": "The actual refracted angle of an angle-beam probe is verified on a:",
       "options": [
        "Calibration block with marked angle references",
-       "A plain steel plate with no marks at all here",
-       "A plain couplant bottle here",
-       "A plain display screen here"
+       "A plain unmarked steel plate with no scale at all",
+       "A couplant bottle held up against the probe",
+       "The display screen reading by itself"
       ],
       "answer": 0,
       "explanation": "Blocks with angle markings let the technician confirm the true refracted angle, which can differ from the nominal wedge marking, especially as wedges wear.",
@@ -4007,9 +4007,9 @@
       "stem": "Calibration standards should have a sound velocity:",
       "options": [
        "Matching or representative of the material under test",
-       "Far different from the whole part here",
-       "Of any random whole material here",
-       "That does not matter at all here"
+       "Far different from the material that is being inspected",
+       "Any random value left over from the last test job",
+       "Of no real concern at all, since it never affects results"
       ],
       "answer": 0,
       "explanation": "Because depth and sensitivity depend on velocity, the reference material should match or represent the part, or a transfer correction is applied.",
@@ -4033,9 +4033,9 @@
       "stem": "Calibration is typically verified:",
       "options": [
        "At the start, at intervals, at the end, and when conditions change",
-       "Only ever once a single year here",
-       "Never ever at all here",
-       "Only ever after a rejection here"
+       "Just once a year, and then left alone for the rest of the time",
+       "Never, since a good setup holds steady for the entire job",
+       "Only right after some indication has been rejected"
       ],
       "answer": 0,
       "explanation": "Procedures require verifying calibration at the start and end of work, at set intervals, and after changes such as a probe, cable, or temperature change.",
@@ -4059,9 +4059,9 @@
       "stem": "If a calibration check at the end of a period is out of tolerance, the technician generally must:",
       "options": [
        "Recalibrate and reinspect the items checked since the last valid calibration",
-       "Fully ignore it all here",
-       "Ship everything anyway here",
-       "Lower the gain and continue here"
+       "Ignore the failed check, since the drift only turned up at the very end",
+       "Pass the parts on without rechecking any of the work that is done",
+       "Drop the gain a little to bring the reading back within tolerance"
       ],
       "answer": 0,
       "explanation": "An out-of-tolerance check means readings since the last good calibration are suspect, so the technician recalibrates and re-examines the affected items per procedure.",
@@ -4085,9 +4085,9 @@
       "stem": "A large temperature difference between the calibration block and the part can:",
       "options": [
        "Shift velocity and readings, requiring correction or on-part calibration",
-       "Have no real effect on the whole readings here",
-       "Permanently change the part thickness here",
-       "Greatly increase the pulse repetition rate here"
+       "Leave the velocity and the readings completely unchanged the entire time",
+       "Permanently change the measured thickness of the actual part tested",
+       "Shift the pulse repetition rate that the instrument fires at"
       ],
       "answer": 0,
       "explanation": "Velocity changes with temperature, so calibrating at one temperature and inspecting at a very different one can bias readings unless corrected.",
@@ -4111,9 +4111,9 @@
       "stem": "Transfer correction accounts for differences between the calibration block and the part in:",
       "options": [
        "Surface condition and attenuation",
-       "The whole part serial number here",
-       "The whole instrument battery level",
-       "The whole ambient light level here now"
+       "The part serial number alone",
+       "The battery level in the unit",
+       "The ambient light in the area"
       ],
       "answer": 0,
       "explanation": "When the part's surface and attenuation differ from the block, a transfer correction adjusts sensitivity so the reference is valid on the actual part.",
@@ -4137,9 +4137,9 @@
       "stem": "A two-point thickness calibration sets the:",
       "options": [
        "Zero and the velocity/span using two known thicknesses",
-       "Only ever the whole gain here",
-       "Only the reject and the filter here",
-       "The whole pulse repetition rate here"
+       "The receiver gain by itself using a single thickness",
+       "The reject and the filter settings on the instrument",
+       "The pulse repetition rate set across the unit"
       ],
       "answer": 0,
       "explanation": "Using two known thicknesses lets the gauge set the zero offset and the velocity or span so readings are accurate across the range.",
@@ -4163,17 +4163,17 @@
       "stem": "The DSC (distance and sensitivity calibration) block is used for:",
       "options": [
        "Angle-beam distance and sensitivity setup in a compact form",
-       "Measuring the couplant here",
-       "Magnetizing here",
-       "Film exposure here"
+       "Measuring the couplant film thickness held under the probe",
+       "Storing the spare probes and wedges away in a tidy way",
+       "Setting the display brightness level before any scan begins"
       ],
       "answer": 0,
       "explanation": "The DSC block supports angle-beam distance and sensitivity calibration and angle checks in a compact reference.",
       "distractors": [
        "",
        "It does not measure couplant.",
-       "It is not a magnetizing device.",
-       "It is unrelated to film exposure."
+       "The DSC block is a calibration reference, not a storage case.",
+       "The DSC block sets distance and sensitivity, not brightness."
       ]
      }
     },
@@ -4189,9 +4189,9 @@
       "stem": "Some calibration blocks let the technician check the instrument and probe:",
       "options": [
        "Resolution (ability to separate closely spaced reflectors)",
-       "The whole part hardness here",
-       "The couplant viscosity here",
-       "The battery capacity here"
+       "Hardness (the surface toughness of the test metal itself)",
+       "Viscosity (the thickness of the couplant gel being applied)",
+       "Battery (the charge left in the portable instrument unit)"
       ],
       "answer": 0,
       "explanation": "Resolution checks confirm closely spaced reflectors can be distinguished, an aspect of system performance verified with suitable blocks.",
@@ -4215,9 +4215,9 @@
       "stem": "After sensitivity calibration, the reference level and settings are:",
       "options": [
        "Recorded so the inspection can be repeated and verified",
-       "Adjusted freely during the scanning without any note here",
-       "Left at the whole instrument default here",
-       "Set by the whole part's appearance here"
+       "Changed about freely without writing any of it down",
+       "Left at the instrument defaults rather than the procedure",
+       "Read off the look of the part rather than any reflector"
       ],
       "answer": 0,
       "explanation": "Recording the reference reflector, level, gain, and settings supports repeatability and later verification.",
@@ -4241,9 +4241,9 @@
       "stem": "Many procedures require scanning at a gain above the reference level to:",
       "options": [
        "Help detect reflectors that are not perfectly oriented",
-       "Greatly reduce the sensitivity here",
-       "Greatly change the velocity here",
-       "Fully remove the couplant here"
+       "Cut the overall sensitivity so that the noise drops off",
+       "Change the material velocity used right through the part",
+       "Drive the couplant film out from under the probe face"
       ],
       "answer": 0,
       "explanation": "A scanning gain above reference improves the chance of catching weak or off-axis indications, which are then evaluated at the reference level.",
@@ -4267,9 +4267,9 @@
       "stem": "Calibration blocks should be:",
       "options": [
        "Maintained, identified, and free of damage that affects reflectors",
-       "Used even if corroded and badly dinged here",
-       "Any scrap metal at all here",
-       "Painted over the reflectors here"
+       "Allowed to corrode and dent, since worn blocks still serve fine",
+       "Any random offcut of scrap metal grabbed out of the bin nearby",
+       "Painted over the reflectors so as to keep them from rusting up"
       ],
       "answer": 0,
       "explanation": "Damaged or corroded blocks give unreliable references, so they are maintained, controlled, and verified before use.",
@@ -4293,9 +4293,9 @@
       "stem": "During calibration, the couplant and coupling should:",
       "options": [
        "Match what will be used during inspection",
-       "Differ greatly from the whole inspection here",
-       "Be fully omitted here",
-       "Be changed at each single step here now"
+       "Differ widely from the inspection couplant",
+       "Be left off entirely during the calibration",
+       "Change at each step of the entire setup"
       ],
       "answer": 0,
       "explanation": "Consistent couplant and coupling between calibration and inspection keep the sensitivity reference valid.",
@@ -4319,9 +4319,9 @@
       "stem": "Using backwall multiples from a known thickness helps calibrate the sweep because the echoes are:",
       "options": [
        "Evenly spaced at known sound-path intervals",
-       "Randomly spaced here",
-       "Color coded here",
-       "Magnetic here"
+       "Randomly spaced right across the entire sweep",
+       "Color coded by depth across the screen",
+       "Fading steadily away after the first echo"
       ],
       "answer": 0,
       "explanation": "Equal spacing of backwall multiples corresponds to known increments of sound path, letting the technician set the horizontal scale accurately.",
@@ -4329,7 +4329,7 @@
        "",
        "The multiples are evenly, not randomly, spaced.",
        "They are not color coded.",
-       "They are acoustic, not magnetic."
+       "Backwall multiples stay evenly spaced; they are real echoes."
       ]
      }
     },
@@ -4345,9 +4345,9 @@
       "stem": "If the transducer or cable is changed during a job, the technician should:",
       "options": [
        "Recalibrate before continuing",
-       "Continue on without any checking",
-       "Lower the whole gain only here",
-       "Ignore the whole change here"
+       "Carry straight on with no check",
+       "Just nudge the set gain a bit",
+       "Leave it be and finish the job"
       ],
       "answer": 0,
       "explanation": "A probe or cable change can shift distance and sensitivity, so calibration is redone before inspection continues.",
@@ -4371,9 +4371,9 @@
       "stem": "A DAC curve is built by recording reference echo amplitudes at:",
       "options": [
        "Several known distances and connecting them",
-       "One distance only here",
-       "Random gains here",
-       "The whole couplant level here"
+       "A single distance read off the sweep screen",
+       "A run of random gain settings used on the unit",
+       "Several couplant levels under the probe face"
       ],
       "answer": 0,
       "explanation": "Plotting the reference reflector amplitude at several depths and connecting the points forms the DAC used to judge indications by depth.",
@@ -4397,9 +4397,9 @@
       "stem": "Reference blocks used for calibration are generally:",
       "options": [
        "Controlled and traceable to a recognized standard",
-       "Uncontrolled shop scrap here",
-       "Whatever is nearby here",
-       "Disposable after a single use here"
+       "Uncontrolled scrap metal kept loose in the truck",
+       "Whatever metal happens to be lying around nearby",
+       "Thrown out and renewed after each single job"
       ],
       "answer": 0,
       "explanation": "Calibration standards are controlled and, where required, traceable, so the references they provide are reliable.",
@@ -4423,17 +4423,17 @@
       "stem": "Calibrating angle-beam distance lets the technician later determine a reflector's:",
       "options": [
        "Sound-path, surface, and depth location",
-       "Its outer color here",
-       "Its whole weight here",
-       "Its magnetism here"
+       "The exact type of flaw that it is",
+       "The exact size and shape of the reflector",
+       "The hardness of the surrounding metal"
       ],
       "answer": 0,
       "explanation": "With distance calibrated, the screen position gives sound path, from which surface distance and depth to a reflector are computed for angle-beam work.",
       "distractors": [
        "",
-       "Calibration locates reflectors, not their color.",
-       "It does not determine weight.",
-       "It does not determine magnetism."
+       "Calibration gives location, not the flaw type.",
+       "Distance calibration gives location, not exact size and shape.",
+       "Calibration gives location, not material hardness."
       ]
      }
     },
@@ -4449,9 +4449,9 @@
       "stem": "In calibration, the Level I technician typically:",
       "options": [
        "Performs the calibration to the procedure and records it",
-       "Fully writes the whole calibration method here",
-       "Fully sets the whole acceptance criteria here",
-       "Fully approves the whole reference blocks here"
+       "Writes the calibration method itself for the others to use",
+       "Sets the accept and reject criteria for the entire inspection",
+       "Approves the reference standards used across the entire site"
       ],
       "answer": 0,
       "explanation": "A Level I carries out and records the calibration per the procedure under direction; defining methods, criteria, and standards approval are higher-level functions.",
@@ -4475,9 +4475,9 @@
       "stem": "Reference reflectors (FBH, SDH, notch) are used because they:",
       "options": [
        "Provide known, repeatable echoes to set sensitivity",
-       "Are exactly the same as the actual flaws sought here",
-       "Fully absorb the whole beam to mark the depth here",
-       "Fully amplify the weak echoes here"
+       "Are the actual flaws the part carries in service",
+       "Soak up the entire beam so that no real echo returns",
+       "Amplify the returning echo as it heads back to the screen"
       ],
       "answer": 0,
       "explanation": "Machined reflectors give consistent, known responses so sensitivity can be set and compared the same way every time.",
@@ -4501,9 +4501,9 @@
       "stem": "A notch in a reference block is often used to set up detection of:",
       "options": [
        "Surface-breaking flaws such as cracks, for angle-beam work",
-       "The deep rounded porosity only here",
-       "The material grain size here",
-       "The whole part hardness here"
+       "Deep rounded porosity buried down within the body of the weld",
+       "The grain size of the base metal right across the part",
+       "The surface hardness of the metal right under the probe"
       ],
       "answer": 0,
       "explanation": "Notches simulate surface-connected reflectors and help set sensitivity for crack-like flaws in angle-beam inspection.",
@@ -4527,9 +4527,9 @@
       "stem": "A common practice is to recheck calibration at a maximum time interval and whenever:",
       "options": [
        "A control is changed or a problem is suspected",
-       "Nothing ever fully changes here",
-       "The work shift simply ends here",
-       "The whole part color changes here"
+       "Nothing has changed on the entire job",
+       "The shift ends at the close of each day",
+       "The color of the part shifts during the work"
       ],
       "answer": 0,
       "explanation": "Beyond the time interval, calibration is rechecked after setting changes or if results look suspect, ensuring continued validity.",
@@ -4553,9 +4553,9 @@
       "stem": "If sensitivity is set too low during calibration:",
       "options": [
        "Small relevant reflectors may be missed",
-       "The whole background is always heavy here",
-       "The whole sound velocity changes here now",
-       "The whole part magnetizes here right now"
+       "Heavy background grass floods the screen",
+       "The material velocity shifts down lower",
+       "The entire sweep range doubles by itself"
       ],
       "answer": 0,
       "explanation": "Under-set sensitivity can leave small reflectors below the reference, risking missed indications, so sensitivity is set per the procedure.",
@@ -4563,7 +4563,7 @@
        "",
        "Heavy background is more associated with excessive gain.",
        "Sensitivity setting does not change material velocity.",
-       "Sensitivity setting does not magnetize the part."
+       "Low sensitivity may miss reflectors; it does not change the range."
       ]
      }
     },
@@ -4579,9 +4579,9 @@
       "stem": "A calibration record typically includes the block, reflectors, settings, and:",
       "options": [
        "The technician and date/time",
-       "Only the whole instrument color",
-       "The whole part's resale value",
-       "The whole shop's address only"
+       "The instrument case color",
+       "The probe's resale value",
+       "Just a mailing address"
       ],
       "answer": 0,
       "explanation": "Recording who calibrated, when, with what block and settings supports traceability and later verification.",
@@ -4605,9 +4605,9 @@
       "stem": "Which statement about calibration is correct?",
       "options": [
        "Calibrate distance and sensitivity using known reference standards, verify it periodically, and record it",
-       "The whole calibration is only ever really needed just one single time ever here",
-       "Any old scrap metal is always a fully valid standard here",
-       "The whole gain alone is the entire whole calibration here"
+       "Calibrate the instrument one time only at the very start, then never check it again across the entire job",
+       "Set the calibration off any handy bit of scrap metal lying nearby instead of a controlled reference block",
+       "Calibration means nothing more than turning the gain up until the backwall echo looks just about right"
       ],
       "answer": 0,
       "explanation": "Calibration sets the distance scale and sensitivity using controlled reference standards, is verified at intervals and on changes, and is recorded for traceability.",
@@ -4637,9 +4637,9 @@
       "stem": "Straight-beam (normal-incidence) testing usually uses a:",
       "options": [
        "Longitudinal wave directed perpendicular into the part",
-       "A plain refracted shear wave here",
-       "A plain surface wave here",
-       "A plain radio wave here"
+       "Refracted shear wave angled in across the test part",
+       "Surface wave running along the top face of the part",
+       "Radio wave beamed straight down into the part"
       ],
       "answer": 0,
       "explanation": "Straight-beam work sends a longitudinal wave straight into the part, well suited to thickness and laminar (parallel-to-surface) reflectors.",
@@ -4663,9 +4663,9 @@
       "stem": "In straight-beam thickness measurement, the key echo is the:",
       "options": [
        "Backwall echo from the far surface",
-       "The whole initial pulse only here now",
-       "The plain whole couplant echo here now",
-       "The plain whole cable reflection here now"
+       "Initial pulse at the entry surface",
+       "Couplant echo off the gel film",
+       "Cable reflection down the lead"
       ],
       "answer": 0,
       "explanation": "The backwall echo time, with the material velocity, gives the thickness. Its position moves with thickness changes.",
@@ -4689,9 +4689,9 @@
       "stem": "Thickness is computed from:",
       "options": [
        "Half the round-trip time multiplied by the material velocity",
-       "The full round-trip time fully multiplied by the velocity here now",
-       "The echo amplitude fully multiplied by the gain here",
-       "The whole frequency fully divided by the velocity here"
+       "The full round-trip time multiplied by the material velocity",
+       "The echo amplitude multiplied by the set receiver gain value",
+       "The test frequency divided straight by the material velocity"
       ],
       "answer": 0,
       "explanation": "Sound travels to the back surface and back, so thickness equals half the round-trip time times velocity.",
@@ -4715,9 +4715,9 @@
       "stem": "Several equally spaced echoes on a thin part are typically:",
       "options": [
        "Multiple backwall reflections",
-       "Several whole separate flaws here",
-       "Plain couplant signals here now",
-       "Plain whole cable noise here now"
+       "Several separate small flaws",
+       "A run of couplant echoes",
+       "Stray cable noise on screen"
       ],
       "answer": 0,
       "explanation": "Sound bouncing between the two surfaces gives evenly spaced backwall multiples, which the technician recognizes rather than counting as flaws.",
@@ -4741,9 +4741,9 @@
       "stem": "A lamination in plate often shows as:",
       "options": [
        "A mid-wall echo with reduced or lost backwall",
-       "A much stronger whole backwall here",
-       "No change at all here",
-       "A plain color band here"
+       "A mid-wall echo with a taller backwall behind",
+       "No change at all to the usual single backwall echo",
+       "A bright color band across the display screen"
       ],
       "answer": 0,
       "explanation": "A lamination parallel to the surface reflects sound at mid-wall and can repeat, while the true backwall weakens or disappears.",
@@ -4767,9 +4767,9 @@
       "stem": "Straight-beam testing is best at finding reflectors that are:",
       "options": [
        "Parallel to the surface, such as laminations",
-       "Perpendicular to the surface, such as vertical cracks",
-       "Only on the surface",
-       "Only magnetic"
+       "Standing straight up perpendicular to the surface",
+       "Lying right at the outer surface of the part",
+       "Tilted steeply away from the incoming sound beam"
       ],
       "answer": 0,
       "explanation": "A straight beam reflects strongly off reflectors facing it (parallel to the surface). Reflectors perpendicular to the surface often need angle-beam work.",
@@ -4777,7 +4777,7 @@
        "",
        "Perpendicular cracks are better found with angle beams.",
        "Straight beam reaches internal reflectors, not only the surface.",
-       "UT detects acoustic reflectors, not magnetic ones."
+       "Straight beam favors reflectors parallel to the surface, not steeply tilted."
       ]
      }
     },
@@ -4793,9 +4793,9 @@
       "stem": "A tight crack perpendicular to the surface may be missed by a straight beam because it:",
       "options": [
        "Reflects little sound back to the transducer",
-       "Speeds the whole sound up as it passes here",
-       "Is too small for any frequency to detect",
-       "Lies fully below the whole backwall here right now"
+       "Speeds the sound up sharply as it passes by",
+       "Cannot be detected at any test frequency",
+       "Sits below the backwall, out past the thickness"
       ],
       "answer": 0,
       "explanation": "A crack edge-on to a straight beam returns little energy, so angle-beam inspection is used to direct sound across such flaws.",
@@ -4819,17 +4819,17 @@
       "stem": "For thin walls or corroded surfaces, a good choice is a:",
       "options": [
        "Dual-element transducer",
-       "Large single low-frequency probe only",
-       "Magnet",
-       "Film cassette"
+       "Large low-frequency probe",
+       "A long delay-line probe",
+       "A thick single-crystal probe"
       ],
       "answer": 0,
       "explanation": "Dual-element probes reduce the dead zone and handle rough, corroded, or thin walls well, common in corrosion thickness work.",
       "distractors": [
        "",
        "A large low-frequency single probe is not ideal for thin, corroded walls.",
-       "A magnet is not a UT transducer.",
-       "A film cassette belongs to radiography."
+       "A dual-element probe suits thin and corroded walls better.",
+       "A thick single element has poor near-surface resolution for thin walls."
       ]
      }
     },
@@ -4845,9 +4845,9 @@
       "stem": "Measuring very thin material with a single straight probe is limited by the:",
       "options": [
        "Dead zone near the surface",
-       "Backwall being far too strong",
-       "Couplant being far too thin",
-       "Cable being far too short"
+       "Too strong a backwall echo",
+       "The couplant film thickness",
+       "The probe cable length"
       ],
       "answer": 0,
       "explanation": "Near-surface echoes can fall in the dead zone of a single probe, so dual-element or delay-line probes are used for thin material.",
@@ -4871,16 +4871,16 @@
       "stem": "On a small-diameter pipe, straight-beam coupling is improved with a:",
       "options": [
        "Contoured shoe or proper technique to match the curve",
-       "A flat probe forced right down hard here",
-       "A plain magnet here",
-       "A plain dry contact here"
+       "Forcing a flat probe down hard onto the pipe curve",
+       "A much higher test frequency to wrap round the pipe curve",
+       "Plain dry contact with no couplant on the curve"
       ],
       "answer": 0,
       "explanation": "Matching the probe to the curved surface improves coupling and beam entry, giving more reliable readings than a flat probe rocking on the curve.",
       "distractors": [
        "",
        "Forcing a flat probe on a curve couples poorly.",
-       "A magnet is not used for coupling.",
+       "Coupling on curved pipe needs a contoured shoe, not higher frequency.",
        "Dry contact leaves a sound-blocking air gap."
       ]
      }
@@ -4897,9 +4897,9 @@
       "stem": "A digital thickness gauge displays:",
       "options": [
        "A numerical thickness value",
-       "The whole part's hardness here",
-       "The whole refracted beam angle",
-       "The whole couplant viscosity"
+       "A surface hardness reading",
+       "A refracted angle reading",
+       "A couplant viscosity value"
       ],
       "answer": 0,
       "explanation": "Dedicated thickness gauges show a numeric reading (some also show a waveform), calibrated to the material velocity.",
@@ -4923,9 +4923,9 @@
       "stem": "An incorrect velocity setting in a thickness gauge will:",
       "options": [
        "Give an incorrect thickness reading",
-       "Have no real effect at all here now",
-       "Fully change the whole couplant here",
-       "Fully magnetize the whole part here now"
+       "Leave the thickness reading dead right",
+       "Change the couplant used on the surface",
+       "Slow the display sweep right down"
       ],
       "answer": 0,
       "explanation": "Thickness scales with velocity, so a wrong velocity yields a wrong thickness even when coupling and echoes are good.",
@@ -4933,7 +4933,7 @@
        "",
        "Velocity errors do affect the reading.",
        "Velocity setting does not change the couplant.",
-       "Velocity setting does not magnetize the part."
+       "Wrong velocity skews the reading; it does not slow the sweep."
       ]
      }
     },
@@ -4949,9 +4949,9 @@
       "stem": "To measure metal thickness through a coating, an echo-to-echo mode helps by:",
       "options": [
        "Measuring between two backwall echoes to ignore the coating",
-       "Adding the whole coating right to the reading here",
-       "Removing the whole metal echo here",
-       "Coloring the whole display here"
+       "Measuring from the front surface so the coating is added in",
+       "Stripping the metal backwall echoes right out of the reading",
+       "Coloring the coating layer apart on the entire display screen"
       ],
       "answer": 0,
       "explanation": "Echo-to-echo measures the interval between successive backwall echoes, which represents the metal and excludes the coating layer.",
@@ -4975,9 +4975,9 @@
       "stem": "If the backwall echo disappears during scanning, the technician should:",
       "options": [
        "Investigate for a flaw, lamination, or coupling loss",
-       "Assume the whole part is fully perfect here",
-       "Stop the recording here",
-       "Greatly increase the whole velocity here"
+       "Take it that the part is perfectly sound right through",
+       "Carry on recording and take the loss as quite normal",
+       "Change the set velocity until the backwall comes back"
       ],
       "answer": 0,
       "explanation": "A lost backwall can mean a large reflector, lamination, heavy attenuation, or lost coupling, all of which the technician checks.",
@@ -5001,9 +5001,9 @@
       "stem": "When scanning an area for thickness or laminations, the technician should:",
       "options": [
        "Overlap passes to cover the whole area",
-       "Just skip the whole large gaps here now",
-       "Inspect just a single whole point here",
-       "Just avoid the whole edges here right now"
+       "Leave gaps between the scanning passes",
+       "Read one single point and then move on",
+       "Skip the edges of the entire scan area"
       ],
       "answer": 0,
       "explanation": "Overlapping passes ensure full coverage so thinning or laminations are not missed between scan lines.",
@@ -5027,9 +5027,9 @@
       "stem": "Scanning too fast can:",
       "options": [
        "Cause small indications to be missed",
-       "Greatly improve the whole coverage here",
-       "Greatly increase the velocity here",
-       "Fully magnetize the whole part here"
+       "Improve the coverage across the area",
+       "Change the material velocity setting",
+       "Raise the probe frequency as it runs"
       ],
       "answer": 0,
       "explanation": "Excessive scan speed can skip over small reflectors or thinning, so a controlled speed is used per the procedure.",
@@ -5037,7 +5037,7 @@
        "",
        "Fast scanning hurts, not helps, coverage.",
        "Scan speed does not change material velocity.",
-       "Scan speed does not magnetize the part."
+       "Fast scanning may skip indications; it does not change frequency."
       ]
      }
     },
@@ -5053,9 +5053,9 @@
       "stem": "During straight-beam scanning, a maintained backwall echo helps confirm:",
       "options": [
        "Adequate coupling and sound transmission",
-       "The exact whole flaw size here right now",
-       "The whole acceptance result here right now",
-       "The whole refracted angle here right now"
+       "The exact size of any flaw in the part",
+       "An accept or reject call on the entire part",
+       "The refracted angle the beam is set to"
       ],
       "answer": 0,
       "explanation": "A steady backwall indicates the sound is entering and returning, a quick check that coupling is adequate as the technician scans.",
@@ -5079,17 +5079,17 @@
       "stem": "Recording thickness readings across a grid to find thinning is called:",
       "options": [
        "Corrosion mapping or thickness surveying",
-       "Magnetizing here",
-       "Plain whole film interpretation here now",
-       "Plain whole penetrant dwell here right now"
+       "Flaw sizing using the angle-beam method",
+       "Building a distance-amplitude curve set",
+       "Setting the reference sensitivity level up"
       ],
       "answer": 0,
       "explanation": "Taking and recording readings on a grid maps remaining wall thickness to locate corrosion or erosion thinning.",
       "distractors": [
        "",
-       "Magnetizing is unrelated to thickness surveying.",
-       "Film interpretation belongs to radiography.",
-       "Penetrant dwell belongs to PT."
+       "A thickness grid is corrosion mapping, not angle-beam flaw sizing.",
+       "A thickness grid is corrosion mapping, not a DAC plot.",
+       "A thickness grid is corrosion mapping, not a sensitivity setup."
       ]
      }
     },
@@ -5105,9 +5105,9 @@
       "stem": "Very thin sections are challenging because the echoes:",
       "options": [
        "Crowd near the initial pulse and can overlap",
-       "Spread fully far apart here",
-       "Disappear right into the whole cable here now",
-       "Fully change color here"
+       "Spread far apart well clear of one another",
+       "Show up along the probe cable instead of the part",
+       "Shift in color across the screen instead of crowding"
       ],
       "answer": 0,
       "explanation": "As thickness drops, backwall echoes move close to the initial pulse and can merge, so dual-element or high-frequency delay-line probes are used.",
@@ -5131,9 +5131,9 @@
       "stem": "Before thickness gauging on a rough or scaled surface, the technician should:",
       "options": [
        "Prepare the surface enough for good coupling",
-       "Leave loose scale right in place here right now",
-       "Add plain thick paint here",
-       "Skip the whole cleaning always here now too"
+       "Leave the loose scale on so as to ease scanning",
+       "Read straight through the thick paint as it sits",
+       "Skip any preparation at all on the rough surface"
       ],
       "answer": 0,
       "explanation": "Loose scale and roughness scatter sound and disrupt coupling, so the surface is cleaned or conditioned enough for reliable readings.",
@@ -5157,9 +5157,9 @@
       "stem": "Laminations are well detected by straight beam because they are usually:",
       "options": [
        "Oriented parallel to the plate surface",
-       "Perpendicular to the whole surface here",
-       "On the whole edge only here right now",
-       "Magnetic here"
+       "Standing up perpendicular to the surface",
+       "Found only right at the edge of the plate",
+       "Filled with a soft non-metallic paste"
       ],
       "answer": 0,
       "explanation": "Rolling produces laminations parallel to the surface, which face a straight beam and reflect strongly.",
@@ -5167,7 +5167,7 @@
        "",
        "Perpendicular reflectors are harder for a straight beam.",
        "Laminations are within the plate, not only at the edge.",
-       "Detection is acoustic, not magnetic."
+       "Laminations are flat planar separations, not paste-filled."
       ]
      }
     },
@@ -5183,9 +5183,9 @@
       "stem": "For consistent straight-beam readings, the couplant film should be:",
       "options": [
        "Thin and consistent",
-       "Thick and variable here",
-       "Fully absent now",
-       "Replaced by the air"
+       "Thick and variable",
+       "Left off altogether",
+       "Just an air gap"
       ],
       "answer": 0,
       "explanation": "A thin, consistent couplant film gives stable coupling and repeatable readings; thick, varying films can shift results.",
@@ -5209,9 +5209,9 @@
       "stem": "A good practice for an important thickness reading is to:",
       "options": [
        "Take repeat readings and confirm coupling and calibration",
-       "Take one single reading and then move on here",
-       "Increase the whole gain until any number appears here",
-       "Ignore the whole backwall here"
+       "Take a single reading and write down that one number",
+       "Force a number out by running the receiver gain up high",
+       "Ignore the backwall echo and read off the gate value alone"
       ],
       "answer": 0,
       "explanation": "Repeating readings and confirming coupling and calibration guards against a one-off coupling or setup error.",
@@ -5235,9 +5235,9 @@
       "stem": "In thin parts, extra small echoes between backwall multiples may be from:",
       "options": [
        "Mode-converted or geometry signals the technician must recognize",
-       "Real cracks in every single case here",
-       "A fully drained battery here",
-       "Excessive couplant viscosity here"
+       "Sharp cracks in each case, every one a rejectable flaw to mark",
+       "A drained battery in the instrument throwing up odd extra spikes",
+       "The couplant viscosity throwing the extra echoes onto the screen"
       ],
       "answer": 0,
       "explanation": "Mode conversion and geometry can add small echoes; the technician recognizes them rather than assuming each is a flaw.",
@@ -5261,9 +5261,9 @@
       "stem": "Compared with a flaw detector, a basic thickness gauge is optimized to:",
       "options": [
        "Report wall thickness quickly",
-       "Build the whole DAC curves here",
-       "Do the angle-beam weld sizing",
-       "Fully expose the whole film here now"
+       "Build an entire DAC curve set",
+       "Size weld flaws by angle beam",
+       "Plot a full C-scan image map"
       ],
       "answer": 0,
       "explanation": "Thickness gauges are streamlined for fast, accurate wall readings; full flaw detectors offer the A-scan and controls for flaw work.",
@@ -5271,7 +5271,7 @@
        "",
        "DAC building is a flaw-detector task.",
        "Angle-beam weld sizing is a flaw-detector and higher-level task.",
-       "Film exposure belongs to radiography."
+       "A thickness gauge reads thickness; it does not plot C-scan maps."
       ]
      }
     },
@@ -5287,9 +5287,9 @@
       "stem": "Thickness readings should be recorded with:",
       "options": [
        "Their locations and the relevant settings",
-       "No identifying whole location here right now",
-       "Only the whole ambient temperature here",
-       "Only the whole instrument color here right now"
+       "Just the bare numbers with no location",
+       "Just the room temperature by itself",
+       "The color of the instrument's case"
       ],
       "answer": 0,
       "explanation": "Recording where each reading was taken and the setup supports mapping, comparison over time, and traceability.",
@@ -5313,9 +5313,9 @@
       "stem": "Switching from steel to a different alloy for thickness gauging requires:",
       "options": [
        "Setting the correct velocity for the new material",
-       "No real change to the whole setup here",
-       "A much higher whole pulse repetition rate here",
-       "A much larger whole transducer only here right now"
+       "No change at all, since the velocity stays the same",
+       "Resetting the pulse repetition rate set on the unit",
+       "Fitting a larger probe to suit the different alloy"
       ],
       "answer": 0,
       "explanation": "Each material has its own velocity, so the gauge is set to the correct value before measuring the new material.",
@@ -5339,9 +5339,9 @@
       "stem": "On hot piping, thickness readings can be affected by temperature, so the technician:",
       "options": [
        "Uses high-temperature gear and applies any required correction",
-       "Fully ignores the temperature here",
-       "Uses plain ice on the probe here",
-       "Fully turns off the gauge here"
+       "Takes the readings as they come and ignores the heat altogether",
+       "Ices the probe down first to hold it cool against the pipe",
+       "Turns the gauge right off whenever the pipe runs far too hot"
       ],
       "answer": 0,
       "explanation": "High-temperature probes and couplants and a temperature correction keep hot-service readings valid.",
@@ -5365,9 +5365,9 @@
       "stem": "For lamination checks on plate before welding, the technician scans:",
       "options": [
        "The area to be welded and adjacent zones per procedure",
-       "One single random spot here",
-       "Only ever the whole plate edge here",
-       "Nothing at all here"
+       "One single random spot somewhere out on the plate",
+       "Only the outer edge of the plate, nothing inside it",
+       "None of it at all, since the plate is taken as sound"
       ],
       "answer": 0,
       "explanation": "Scanning the weld-prep area and adjacent material per the procedure ensures laminations that could affect the weld are found.",
@@ -5391,9 +5391,9 @@
       "stem": "In straight-beam and thickness work, the Level I technician:",
       "options": [
        "Takes and records readings and indications under direction",
-       "Fully sets the whole remaining-life criteria here",
-       "Fully approves the whole inspection plan here",
-       "Fully dispositions the whole component here"
+       "Sets the remaining-life limits for the entire piping run",
+       "Approves the entire inspection plan before the work starts",
+       "Decides the disposition of the component right on the spot"
       ],
       "answer": 0,
       "explanation": "A Level I performs measurements and records results; setting criteria, approving plans, and dispositioning are higher-level responsibilities.",
@@ -5417,9 +5417,9 @@
       "stem": "A sudden very low thickness reading should be:",
       "options": [
        "Verified for coupling, peak jumping, and an interim reflector before accepting",
-       "Recorded without any check at all here",
-       "Assumed to be plain paint here",
-       "Fully ignored here"
+       "Written straight into the record as the true wall thickness with no check at all",
+       "Put down to a thick paint layer and then left at that without looking further",
+       "Taken as a quirk of the gauge and passed over without any further thought"
       ],
       "answer": 0,
       "explanation": "Spurious low readings can come from poor coupling, peak jumping to an earlier signal, or the gauge locking onto a mid-wall reflector such as a lamination, so the technician verifies before recording a critical value.",
@@ -5443,9 +5443,9 @@
       "stem": "Which statement about straight-beam and thickness work is correct?",
       "options": [
        "A straight longitudinal beam measures thickness from the backwall and finds laminar reflectors",
-       "The whole straight beam is always the very best for the vertical cracks here",
-       "The whole velocity setting does not matter at all here",
-       "The whole coupling does not affect the readings here"
+       "A straight beam is the best way of all to catch tight cracks that stand up across the wall",
+       "The velocity setting makes no difference at all to the thickness that the gauge reports",
+       "Coupling quality has no real bearing on the readings that a thickness gauge gives at all"
       ],
       "answer": 0,
       "explanation": "Straight-beam UT uses the backwall echo and velocity to measure thickness and is well suited to laminar reflectors, with correct velocity and consistent coupling essential.",
@@ -5475,9 +5475,9 @@
       "stem": "Angle-beam inspection in steel typically introduces a:",
       "options": [
        "Refracted shear wave at a known angle",
-       "A plain straight longitudinal wave here",
-       "Just a whole surface wave only here now",
-       "Just a plain whole radio wave here now"
+       "Straight longitudinal wave straight in",
+       "Surface wave along the top part face",
+       "Radio wave beamed into the part"
       ],
       "answer": 0,
       "explanation": "A wedge refracts and mode-converts the sound so a shear wave travels into the part at a known angle, used for welds and similar geometries.",
@@ -5501,9 +5501,9 @@
       "stem": "The beam index point is the location where the:",
       "options": [
        "Sound beam exits the wedge into the part",
-       "The whole cable connects right up here now",
-       "The whole couplant is poured here now",
-       "The whole backwall fully ends here now"
+       "The probe cable joins onto the connector",
+       "The couplant gel sits under the probe face",
+       "The beam strikes the far backwall surface"
       ],
       "answer": 0,
       "explanation": "The beam index point (exit point) is where the beam leaves the wedge; distances to reflectors are measured from it.",
@@ -5527,17 +5527,17 @@
       "stem": "The refracted angle is used along with sound path to determine a reflector's:",
       "options": [
        "Surface distance and depth",
-       "Just its outer color here",
-       "Just its whole weight here",
-       "Its magnetism here"
+       "Its full length and its width",
+       "The flaw type and severity",
+       "The metal grade and hardness"
       ],
       "answer": 0,
       "explanation": "Knowing the angle and the sound path lets the technician compute how far along the surface and how deep a reflector lies.",
       "distractors": [
        "",
-       "The angle is not used to find color.",
-       "It is not used to find weight.",
-       "It is not used to find magnetism."
+       "Angle-beam location gives distance and depth, not size.",
+       "It gives location, not flaw type or severity.",
+       "It gives location, not material grade."
       ]
      }
     },
@@ -5553,9 +5553,9 @@
       "stem": "In angle-beam work, a leg is the portion of the sound path:",
       "options": [
        "Between reflections off the surfaces (for example first leg to the backwall)",
-       "Down in the whole cable here",
-       "In the whole couplant here",
-       "Fully outside the whole part here"
+       "Running back along the probe cable from the connector right to the wedge face",
+       "Sitting within the couplant film held in between the wedge and the part",
+       "Travelling out in the air beyond the far edges of the part being scanned"
       ],
       "answer": 0,
       "explanation": "The beam travels in legs, reflecting between the surfaces. The first leg reaches the far surface; the second leg continues after that reflection.",
@@ -5579,9 +5579,9 @@
       "stem": "The skip distance relates to the angle and the part thickness and describes the:",
       "options": [
        "Surface distance for the beam to complete a full V-path",
-       "The whole depth of the first reflector here",
-       "The whole thickness of the wedge here",
-       "The whole width of the transducer element here"
+       "Depth below the surface at which a given reflector lies",
+       "Thickness of the wedge mounted beneath the element",
+       "Width of the element fitted within the probe case"
       ],
       "answer": 0,
       "explanation": "Skip distance is the surface distance over which the beam goes down and back up (a full V), used to plan transducer positions for full coverage.",
@@ -5605,9 +5605,9 @@
       "stem": "Inspecting a weld, the technician uses first-leg and second-leg positions to:",
       "options": [
        "Cover the weld volume from root to cap",
-       "Inspect only the whole weld cap surface",
-       "Measure the whole part thickness only",
-       "Set the whole reject level here now"
+       "Cover only the cap face at the weld top",
+       "Measure the plate thickness at the weld",
+       "Set the reject level used for the scan"
       ],
       "answer": 0,
       "explanation": "Moving the probe toward and away from the weld places the beam at different legs so the full cross-section, root through cap, is examined.",
@@ -5631,9 +5631,9 @@
       "stem": "To evaluate a reflector with an angle beam, the technician:",
       "options": [
        "Manipulates the probe to maximize the echo, then notes its position",
-       "Uses the first echo seen without ever moving here",
-       "Lowers the gain to fully hide it here",
-       "Fully removes the couplant here"
+       "Takes the very first glimpse of the echo and writes that down at once",
+       "Moves the probe to bury the indication down in the baseline noise",
+       "Wipes the couplant off so that the echo settles to a steady height"
       ],
       "answer": 0,
       "explanation": "Rotating and moving the probe to peak the signal gives the best response and helps locate the reflector accurately.",
@@ -5657,9 +5657,9 @@
       "stem": "A common angle-beam weld scanning motion combines:",
       "options": [
        "Advancing along the weld while moving toward and away from it",
-       "A single straight line only here",
-       "Holding the whole probe still here",
-       "Scanning only the whole cap here"
+       "Running one straight line along the full length of the weld",
+       "Holding the probe dead still over a single spot on the weld",
+       "Sweeping only across the cap face and never down to the root"
       ],
       "answer": 0,
       "explanation": "The technician advances along the weld while oscillating toward and away, often with rotation, to cover the volume and catch various flaw orientations.",
@@ -5683,9 +5683,9 @@
       "stem": "Welds are typically scanned with the angle beam from:",
       "options": [
        "Both sides and in both directions where access allows",
-       "One single side only here",
-       "Only the whole cap surface here",
-       "Only inside the whole pipe here"
+       "One side only, in a single set direction along the weld",
+       "The cap surface only, with no side-to-side scan at all",
+       "One single fixed spot, with no movement along the weld"
       ],
       "answer": 0,
       "explanation": "Scanning from both sides and directions improves the chance of crossing flaws of different orientations and covering the whole weld.",
@@ -5709,9 +5709,9 @@
       "stem": "Transfer correction in angle-beam work adjusts for differences between the calibration block and the part in:",
       "options": [
        "Surface roughness and attenuation",
-       "The whole weld length here right now",
-       "Only the ambient temperature here",
-       "The transducer serial number here now"
+       "The weld length and the total run",
+       "The ambient temperature alone",
+       "The transducer serial number"
       ],
       "answer": 0,
       "explanation": "When the part surface and attenuation differ from the block, a transfer correction keeps the sensitivity reference valid on the part.",
@@ -5735,9 +5735,9 @@
       "stem": "In weld scanning, echoes from the root, cap, or counterbore are:",
       "options": [
        "Geometry signals the technician must recognize, not automatically flaws",
-       "Always plain rejectable flaws here",
-       "Couplant echoes here",
-       "Cable noise here"
+       "Always real flaws to be marked and rejected without any further look",
+       "Echoes thrown off the couplant film held in under the moving probe face",
+       "Stray noise carried in along the probe cable from a loose connector end"
       ],
       "answer": 0,
       "explanation": "Weld geometry produces predictable echoes; the technician learns to recognize these so they are not confused with flaw indications.",
@@ -5761,9 +5761,9 @@
       "stem": "The points where the angle beam reflects off a surface are sometimes called:",
       "options": [
        "Nodes (skip points)",
-       "The couplant points here",
-       "The plain cable nodes",
-       "The plain color points"
+       "Wet couplant points",
+       "Probe cable nodes",
+       "Bright color points"
       ],
       "answer": 0,
       "explanation": "Node or skip points are where the beam meets a surface and reflects; knowing their locations helps plan coverage and interpret signals.",
@@ -5787,9 +5787,9 @@
       "stem": "Before angle-beam scanning, the technician:",
       "options": [
        "Verifies the index point, angle, distance, and sensitivity",
-       "Skips the whole calibration to save time here",
-       "Only ever checks the whole battery level here",
-       "Only ever records the whole part color here"
+       "Skips the calibration and gets straight on with the scanning",
+       "Checks only the battery charge left in the handheld unit",
+       "Notes down the surface color of the entire part being scanned"
       ],
       "answer": 0,
       "explanation": "Angle-beam setup confirms the beam index point, refracted angle, distance calibration, and reference sensitivity before inspection.",
@@ -5813,9 +5813,9 @@
       "stem": "As an angle-beam wedge wears, the technician should expect the:",
       "options": [
        "Index point and refracted angle to shift, requiring recheck",
-       "The whole frequency to fully double here",
-       "The couplant to change its color here",
-       "The whole cable to fully lengthen here"
+       "Operating frequency of the element to double up on each shot",
+       "Color of the couplant gel to change right under the probe face",
+       "Length of the probe cable to stretch right out over the job"
       ],
       "answer": 0,
       "explanation": "Wedge wear moves the exit point and can change the refracted angle, so these are rechecked periodically and after heavy use.",
@@ -5839,9 +5839,9 @@
       "stem": "From the sound path and refracted angle, the surface distance to a reflector is found using the:",
       "options": [
        "Geometry of the angle (a trigonometric relationship)",
-       "The whole echo amplitude alone here",
-       "The pulse repetition rate here",
-       "The whole couplant viscosity here"
+       "Height of the echo shown on the screen at the time",
+       "Pulse repetition rate set across the instrument unit",
+       "Viscosity of the couplant gel held under the probe"
       ],
       "answer": 0,
       "explanation": "Surface distance and depth follow from the sound path and angle by trigonometry, which the technician applies or reads from a calculator or chart.",
@@ -5865,9 +5865,9 @@
       "stem": "A reflector found in the second leg is located by accounting for the:",
       "options": [
        "Reflection off the far surface (using the skip geometry)",
-       "The whole initial pulse amplitude here",
-       "The whole transducer frequency here",
-       "The whole couplant viscosity here"
+       "Height of the initial pulse over at the left of the sweep",
+       "Test frequency that the transducer is set to run at",
+       "Viscosity of the couplant gel under the moving probe face"
       ],
       "answer": 0,
       "explanation": "Second-leg reflectors are above the far surface in the return path, so the depth is computed from the skip geometry, not read as a simple first-leg depth.",
@@ -5891,9 +5891,9 @@
       "stem": "Different refracted angles are used to:",
       "options": [
        "Better intersect flaws of different orientations and weld bevels",
-       "Increase the whole battery life here",
-       "Shorten the whole cable here",
-       "Lower the whole pulse repetition rate here"
+       "Stretch out the battery life of the handheld instrument on site",
+       "Take up the slack in the probe cable across a long job run",
+       "Change the pulse repetition rate that the unit fires at"
       ],
       "answer": 0,
       "explanation": "Choosing 45, 60, or 70 degrees helps the beam strike flaws and fusion faces more squarely depending on the joint geometry.",
@@ -5917,9 +5917,9 @@
       "stem": "Angle-beam scanning needs couplant that:",
       "options": [
        "Maintains coupling as the probe moves over the surface",
-       "Dries fully instantly here",
-       "Is fully unnecessary here",
-       "Is fully replaced by the air here"
+       "Dries off at once the very moment it touches the surface",
+       "Is left off entirely throughout the contact scanning",
+       "Is just the air gap kept between the probe and part"
       ],
       "answer": 0,
       "explanation": "A suitable couplant maintains a consistent film as the probe is manipulated, keeping sensitivity stable during scanning.",
@@ -5943,9 +5943,9 @@
       "stem": "Mode-converted or geometry echoes during angle-beam scanning can:",
       "options": [
        "Appear as indications the technician must correctly identify",
-       "Never ever appear in any single setup here",
-       "Appear only ever in the straight-beam testing here",
-       "Always be much stronger than the real flaws here"
+       "Never show up at all during any properly run angle-beam scan",
+       "Show up only in straight-beam work, never in angle-beam",
+       "Always stand taller than every real flaw echo on the screen"
       ],
       "answer": 0,
       "explanation": "Angle-beam work can show mode-converted and geometry signals; recognizing them prevents false calls and missed real flaws.",
@@ -5969,17 +5969,17 @@
       "stem": "When an angle-beam indication is found, the technician records its:",
       "options": [
        "Position, sound path, and amplitude relative to reference",
-       "Its outer color here",
-       "Its whole weight here",
-       "Its magnetism here"
+       "Length, width, and through-wall height to the nearest unit",
+       "Flaw type, severity, and the likely cause of the indication",
+       "Probe angle, gain setting, and the couplant brand used"
       ],
       "answer": 0,
       "explanation": "Recording where the indication is, its sound path or depth, and its amplitude versus reference supports later evaluation.",
       "distractors": [
        "",
-       "Color is not recorded for a UT indication.",
-       "Weight is not the recorded quantity.",
-       "Magnetism is not the recorded quantity."
+       "A Level I records position and amplitude, not reflector size.",
+       "Judging type and cause is above the Level I record.",
+       "Those are setup details, not the indication's recorded data."
       ]
      }
     },
@@ -5995,9 +5995,9 @@
       "stem": "Angle-beam scan passes should overlap to:",
       "options": [
        "Ensure the full weld volume is covered",
-       "Just save the whole couplant here now",
-       "Just reduce the whole coverage here now",
-       "Avoid the whole root here"
+       "Save on couplant gel across the long run",
+       "Cut right down the coverage over the weld",
+       "Steer well clear of the weld root region"
       ],
       "answer": 0,
       "explanation": "Overlapping passes prevent gaps so the entire weld cross-section is examined.",
@@ -6021,9 +6021,9 @@
       "stem": "A straight beam is often inadequate for weld cracks because the cracks are:",
       "options": [
        "Frequently oriented so a straight beam reflects little from them",
-       "Always fully parallel to the whole surface here",
-       "Always right on the whole surface here",
-       "Magnetic here"
+       "Always lying flat and parallel to the outer plate surface above",
+       "Always sitting right at the outer surface of the weld joint itself",
+       "Buried very deep down near the root of the thick welded joint"
       ],
       "answer": 0,
       "explanation": "Many weld flaws are oriented such that a straight beam misses them, so an angled shear beam is directed to strike them more squarely.",
@@ -6031,7 +6031,7 @@
        "",
        "Weld cracks are not always parallel to the surface.",
        "Weld flaws are not always at the surface.",
-       "Detection is acoustic, not magnetic."
+       "Straight beam misses cracks by orientation, not by their depth."
       ]
      }
     },
@@ -6047,9 +6047,9 @@
       "stem": "Angle-beam sensitivity is commonly set using:",
       "options": [
        "Side-drilled holes or notches in a reference block",
-       "The whole part's own backwall only here",
-       "The whole initial pulse height here",
-       "Random surface reflectors here"
+       "The part's own backwall echo and nothing else besides",
+       "The height of the initial pulse shown over at the left",
+       "Whatever surface reflector turns up first on the part"
       ],
       "answer": 0,
       "explanation": "Side-drilled holes and notches provide repeatable reflectors at known depths to set angle-beam reference sensitivity, sometimes forming a DAC.",
@@ -6073,9 +6073,9 @@
       "stem": "During a long angle-beam job, sensitivity and calibration are:",
       "options": [
        "Rechecked at intervals and after changes",
-       "Set once and then never rechecked here",
-       "Fully ignored here",
-       "Changed fully at random here"
+       "Set just one time at the very start",
+       "Left ignored across the entire long job",
+       "Changed about at random through the work"
       ],
       "answer": 0,
       "explanation": "Periodic rechecks and rechecks after probe, cable, or temperature changes keep the inspection valid.",
@@ -6099,9 +6099,9 @@
       "stem": "Good angle-beam coverage requires the scanning surface to be:",
       "options": [
        "Prepared so the probe couples and moves smoothly",
-       "Heavily scaled here",
-       "Coated very thickly with the whole paint here",
-       "Fully irrelevant here"
+       "Left heavy with scale to help the probe slide",
+       "Coated in thick paint to seal it before scanning",
+       "Of any condition at all, since it makes no difference"
       ],
       "answer": 0,
       "explanation": "A reasonably clean, smooth surface lets the probe couple and slide for consistent angle-beam scanning.",
@@ -6125,9 +6125,9 @@
       "stem": "After locating and recording an angle-beam indication, evaluation against acceptance criteria is:",
       "options": [
        "Generally a Level II or III responsibility",
-       "Fully performed by the Level I alone here",
-       "Fully skipped entirely here",
-       "Based only on the whole loudest echo here now"
+       "Squarely within the Level I scope of the work",
+       "Left out entirely once the entire scan is done",
+       "Based on the loudest echo seen on the screen"
       ],
       "answer": 0,
       "explanation": "A Level I detects, locates, and records; sizing and accepting or rejecting against the code is normally a higher-level task.",
@@ -6151,9 +6151,9 @@
       "stem": "On pipe welds, a contoured wedge is used so the angle beam:",
       "options": [
        "Couples and enters at the intended angle on the curved surface",
-       "Skips the whole weld here",
-       "Becomes a straight beam here",
-       "Needs no calibration here"
+       "Skips right past the weld and reads the clear pipe wall nearby",
+       "Turns into a straight beam running square down into the pipe wall",
+       "Removes any need to calibrate before the pipe weld is scanned"
       ],
       "answer": 0,
       "explanation": "A wedge contoured to the pipe maintains coupling and the intended refracted angle on the curved surface.",
@@ -6177,9 +6177,9 @@
       "stem": "Marking skip distances on the part helps the technician:",
       "options": [
        "Position the probe for first-leg and second-leg coverage",
-       "Change the whole material velocity here",
-       "Increase the whole transducer frequency here",
-       "Reduce the whole part thickness here"
+       "Change the material velocity set right through the part",
+       "Change the operating frequency of the transducer fitted",
+       "Change the measured thickness of the entire part being scanned"
       ],
       "answer": 0,
       "explanation": "Reference marks for skip distances guide probe placement so the weld is covered in the appropriate legs.",
@@ -6203,9 +6203,9 @@
       "stem": "An angle-beam indication's significance is first gauged by comparing its amplitude with the:",
       "options": [
        "Reference level (for example DAC or a set percent of screen)",
-       "The whole initial pulse height here",
-       "The whole scanning speed used here",
-       "The whole transducer serial number here"
+       "Initial pulse height over at the far left of the entire sweep line",
+       "Scanning speed that the probe is moved across the weld at",
+       "Transducer serial number printed on the side of the probe case"
       ],
       "answer": 0,
       "explanation": "Indications are compared with the reference sensitivity (such as a DAC curve or set screen height) to decide what is recorded and passed for evaluation.",
@@ -6229,9 +6229,9 @@
       "stem": "In angle-beam scanning, the Level I technician:",
       "options": [
        "Scans, locates, and records indications under direction",
-       "Fully sizes and dispositions the flaws right to code here",
-       "Fully approves the whole procedure here",
-       "Fully sets the whole acceptance criteria here"
+       "Sizes the flaws and sets disposition to the governing code",
+       "Approves the inspection procedures used right across the site",
+       "Sets the accept and reject criteria for the entire weld job"
       ],
       "answer": 0,
       "explanation": "A Level I performs the scanning and records indications; sizing, disposition, procedure approval, and criteria are higher-level functions.",
@@ -6255,9 +6255,9 @@
       "stem": "To help judge whether an angle-beam echo is from a real reflector, the technician can:",
       "options": [
        "Move the probe and observe how the signal behaves with position",
-       "Assume every single echo is a flaw here",
-       "Turn off the whole instrument here",
-       "Fully ignore the whole probe position here"
+       "Treat every echo on screen as a real flaw without any check",
+       "Switch the instrument right off and read off the last frozen trace",
+       "Hold the probe dead still and never shift it off that one spot"
       ],
       "answer": 0,
       "explanation": "How a signal moves and changes with probe position helps distinguish real reflectors from geometry or spurious signals, before evaluation.",
@@ -6281,9 +6281,9 @@
       "stem": "Which statement about angle-beam scanning is correct?",
       "options": [
        "A refracted shear beam covers the weld in legs, with reflectors located from sound path and angle",
-       "The whole angle beam just uses a plain straight longitudinal wave here",
-       "The whole geometry never ever causes any echoes here",
-       "The whole Level I just sizes the flaws right to code here"
+       "Angle-beam work fires a straight longitudinal wave square into the part and reads off the backwall",
+       "Weld root and cap geometry never throw any echo that might be taken for a real flaw at all",
+       "Sizing each weld flaw to the governing code is a routine part of the Level I scope of the work"
       ],
       "answer": 0,
       "explanation": "Angle-beam UT uses a refracted shear wave, covers welds in first and second legs, and locates reflectors from sound path and angle, with evaluation left to higher levels.",
@@ -6313,17 +6313,17 @@
       "stem": "When an indication is found, the Level I technician records its:",
       "options": [
        "Location, amplitude, and sound path or depth",
-       "Its outer color here",
-       "Its whole weight here",
-       "Its magnetism here"
+       "Length, width, and through-wall height in units",
+       "Flaw type, the cause, and a severity rating",
+       "Probe angle, the gain, and the couplant brand"
       ],
       "answer": 0,
       "explanation": "Recording where the indication is, how strong it is versus reference, and its depth or sound path supports later evaluation and traceability.",
       "distractors": [
        "",
-       "Color is not a UT indication parameter.",
-       "Weight is not recorded for a UT indication.",
-       "Magnetism is not recorded for a UT indication."
+       "A Level I records location and amplitude, not reflector size.",
+       "Judging type, cause, and severity is above the Level I record.",
+       "Those are setup details, not the indication's recorded data."
       ]
      }
     },
@@ -6339,9 +6339,9 @@
       "stem": "A UT record typically identifies the part, procedure, equipment, settings, technician, and:",
       "options": [
        "Date and calibration details",
-       "The weather conditions",
-       "The transducer's resale value",
-       "The shop's phone number only"
+       "The weather on the day",
+       "The resale value of the part",
+       "Just a phone number"
       ],
       "answer": 0,
       "explanation": "Capturing the date and calibration details ties the results to a known setup and supports traceability and repeatability.",
@@ -6365,9 +6365,9 @@
       "stem": "Vertical (amplitude) linearity checks confirm the display responds:",
       "options": [
        "Proportionally to changes in echo amplitude",
-       "Only ever to the color here",
-       "Only ever to the couplant here",
-       "Fully randomly here"
+       "With a color shift as echo amplitude changes",
+       "By tracking the couplant film below the probe",
+       "At random with no link to the echo amplitude"
       ],
       "answer": 0,
       "explanation": "Vertical linearity verifies that screen height changes in proportion to input amplitude, so amplitude-based evaluation is valid.",
@@ -6391,9 +6391,9 @@
       "stem": "Horizontal (distance) linearity checks confirm that:",
       "options": [
        "Screen positions correspond accurately to sound path or depth",
-       "The whole echo amplitude fully doubles with the gain here",
-       "The whole battery is fully charged here",
-       "The couplant is the right color here"
+       "Echo height responds in proportion to the size of the reflector",
+       "Battery charge holds steady right through the entire inspection",
+       "Couplant color stays even across the entire surface of the part"
       ],
       "answer": 0,
       "explanation": "Horizontal linearity verifies the sweep represents distance accurately, so reflector positions and thickness are correct.",
@@ -6417,9 +6417,9 @@
       "stem": "Instrument linearity checks are:",
       "options": [
        "Performed at required intervals, sometimes by the Level I under direction",
-       "Never ever done here",
-       "Only plain marketing here",
-       "Done by the whole part supplier here"
+       "Skipped over entirely, since a working instrument is taken as good enough",
+       "Run purely as a marketing claim with no real bearing on the performance",
+       "Carried out by the part supplier rather than by qualified inspection staff"
       ],
       "answer": 0,
       "explanation": "Linearity is checked on a schedule to keep the instrument valid; a Level I may perform routine checks and record them under direction.",
@@ -6443,9 +6443,9 @@
       "stem": "Calibration verification intervals during inspection exist to:",
       "options": [
        "Catch drift before it invalidates results",
-       "Slow down the whole work for no real reason",
-       "Fully replace the whole procedure here",
-       "Fully set the whole acceptance criteria"
+       "Add a set delay between the scanning runs",
+       "Stand in for the written procedure itself",
+       "Set the accept and reject criteria in use"
       ],
       "answer": 0,
       "explanation": "Periodic verification catches setup drift so readings stay valid, with reinspection of affected items if a check fails.",
@@ -6469,17 +6469,17 @@
       "stem": "Consistent couplant use is a process control because changes can:",
       "options": [
        "Shift signal amplitude and affect readings",
-       "Fully change the whole part color here now",
-       "Fully magnetize the whole part here now",
-       "Fully expose the whole film here right now too"
+       "Alter the measured wall thickness reading",
+       "Change the probe operating frequency set",
+       "Heat the entire part surface under the probe"
       ],
       "answer": 0,
       "explanation": "Because coupling affects amplitude, consistent couplant and technique between calibration and inspection keep results valid.",
       "distractors": [
        "",
-       "Couplant does not change the part color.",
-       "Couplant does not magnetize the part.",
-       "Couplant does not expose film."
+       "Couplant changes affect amplitude, not the true wall thickness.",
+       "Couplant changes affect amplitude, not the probe frequency.",
+       "Couplant changes affect amplitude, not the part temperature."
       ]
      }
     },
@@ -6495,17 +6495,17 @@
       "stem": "Surface temperature is controlled in UT because it can affect:",
       "options": [
        "Couplant performance and sound velocity",
-       "The whole part's magnetic properties here",
-       "The whole transducer serial number",
-       "The whole instrument's color here now"
+       "The brightness of the display screen view",
+       "The gain setting stored in the instrument",
+       "The model name printed on the gauge case"
       ],
       "answer": 0,
       "explanation": "Temperature changes velocity and can degrade standard couplants, so limits and high-temperature gear are used as required.",
       "distractors": [
        "",
-       "Temperature control here concerns coupling and velocity, not magnetism.",
-       "The serial number is unaffected by temperature.",
-       "The instrument color is irrelevant to temperature control."
+       "Temperature affects couplant and velocity, not screen brightness.",
+       "Temperature affects couplant and velocity, not the stored gain.",
+       "Temperature affects couplant and velocity, not the printed model name."
       ]
      }
     },
@@ -6521,9 +6521,9 @@
       "stem": "A safety characteristic of UT is that it:",
       "options": [
        "Produces no ionizing radiation",
-       "Emits strong gamma rays here",
-       "Requires a radiation area here",
-       "Needs the whole film badges here"
+       "Emits a weak ionizing radiation dose",
+       "Needs a posted radiation area",
+       "Requires film badge monitoring"
       ],
       "answer": 0,
       "explanation": "UT uses sound and emits no ionizing radiation, avoiding the radiation hazards and controls of radiography.",
@@ -6547,17 +6547,17 @@
       "stem": "In immersion UT, a key safety consideration is:",
       "options": [
        "Electrical safety around water and equipment",
-       "Plain whole radiation shielding here right now",
-       "Plain explosive gases always here right now",
-       "Whole magnetic fields here"
+       "Hearing protection from the loud water pump motor",
+       "Explosive gas buildup over the water bath",
+       "Eye strain from the bright tank display screen"
       ],
       "answer": 0,
       "explanation": "Combining water with electrical equipment requires proper grounding, GFCI protection, and care to prevent shock hazards.",
       "distractors": [
        "",
-       "Immersion UT does not involve ionizing radiation shielding.",
+       "The key immersion concern is electrical safety around water, not pump noise.",
        "Explosive gas is not an inherent immersion-UT hazard.",
-       "Strong magnetic fields are not the immersion-UT hazard."
+       "The key concern is electrical safety around water, not eye strain."
       ]
      }
     },
@@ -6573,17 +6573,17 @@
       "stem": "Automated scanning equipment introduces hazards such as:",
       "options": [
        "Moving parts and pinch points",
-       "Plain ionizing radiation here",
-       "Plain penetrant fumes here now",
-       "Plain magnetizing current here now"
+       "Bright flashing display images",
+       "Strong couplant gel odors given off",
+       "Static buildup on the screen"
       ],
       "answer": 0,
       "explanation": "Scanners and manipulators have moving parts, so guarding and awareness prevent pinch and entanglement injuries.",
       "distractors": [
        "",
-       "UT scanning does not involve ionizing radiation.",
-       "Penetrant fumes belong to PT.",
-       "Magnetizing current belongs to magnetic particle testing."
+       "Scanner hazards are mechanical, not screen flashes.",
+       "Couplant odor is minor; the hazard is moving parts.",
+       "Screen static is not the mechanical scanner hazard."
       ]
      }
     },
@@ -6599,17 +6599,17 @@
       "stem": "Spilled couplant on the floor is a:",
       "options": [
        "Slip hazard that should be cleaned up",
-       "A fully required condition here now",
-       "A plain whole magnetizing aid here now",
-       "A plain radiation source here"
+       "Setup step that the job plan calls for",
+       "Harmless residue that can be left alone",
+       "A handy marker for where to scan next"
       ],
       "answer": 0,
       "explanation": "Couplant spills are slippery; cleaning them up and managing waste maintain a safe, orderly work area.",
       "distractors": [
        "",
        "A spill is a hazard, not a requirement.",
-       "Couplant is not a magnetizing aid.",
-       "Couplant is not a radiation source."
+       "Spilled couplant is a slip hazard, not harmless residue.",
+       "Spilled couplant is a slip hazard, not a scan marker."
       ]
      }
     },
@@ -6625,9 +6625,9 @@
       "stem": "The Level I technician performs UT according to:",
       "options": [
        "The written procedure and instructions",
-       "Plain personal preference each time here",
-       "Just whatever is the fastest here now",
-       "Plain memory of a whole different job"
+       "Whatever personal preference suits",
+       "Whatever runs fastest on the job",
+       "Memory of some past different job"
       ],
       "answer": 0,
       "explanation": "Work follows the qualified written procedure so results are valid and repeatable, with questions referred to higher-level personnel.",
@@ -6651,9 +6651,9 @@
       "stem": "Inspection results should be reported:",
       "options": [
        "Accurately and completely to the responsible personnel",
-       "Only ever verbally with no record at all here",
-       "Fully altered so the whole part passes here",
-       "Summarized as a plain simple pass with no data here"
+       "By word of mouth only, with nothing put in writing",
+       "Adjusted to pass first before they are handed over",
+       "As a bare pass or fail with no supporting data at all"
       ],
       "answer": 0,
       "explanation": "Accurate, complete records are provided to the responsible parties; results are never altered, and data is retained per requirements.",
@@ -6677,9 +6677,9 @@
       "stem": "UT personnel typically must meet a vision requirement for:",
       "options": [
        "Near vision, to read the display and records",
-       "Color only, with no near vision at all here",
-       "No whole vision requirement at all here now",
-       "Distance vision only here"
+       "Color vision alone, with no near-vision check",
+       "No vision standard required for the work",
+       "Distance vision only, across the wide shop"
       ],
       "answer": 0,
       "explanation": "Reading the display and documentation requires adequate near vision, verified per the written practice and rechecked periodically.",
@@ -6703,9 +6703,9 @@
       "stem": "If a reading looks unfavorable, the technician should:",
       "options": [
        "Record it accurately and refer evaluation to the proper level",
-       "Change it to look fully acceptable here",
-       "Delete it here",
-       "Round it to pass here"
+       "Change the figure so the part comes out acceptable on the paper",
+       "Delete the unfavorable reading and move along to the next spot",
+       "Round the reading off until the part just scrapes through a pass"
       ],
       "answer": 0,
       "explanation": "Data is recorded truthfully; evaluation against criteria is done by qualified personnel. Altering data is falsification.",
@@ -6729,9 +6729,9 @@
       "stem": "Recording the gain, reference level, and probe used allows the inspection to be:",
       "options": [
        "Repeated and verified later",
-       "Charged to the customer twice",
-       "Completed without any probe",
-       "Run at any random sensitivity"
+       "Billed out to the client",
+       "Run with no probe fitted",
+       "Set at random every time"
       ],
       "answer": 0,
       "explanation": "Documenting the setup supports repeating and verifying the inspection and comparing results over time.",
@@ -6755,9 +6755,9 @@
       "stem": "When an indication needs sizing or acceptance decisions, the Level I:",
       "options": [
        "Refers it to a Level II or III",
-       "Decides the acceptance alone here",
-       "Fully ignores it all here now",
-       "Removes it from the whole record"
+       "Decides on acceptance itself",
+       "Ignores it and carries on",
+       "Wipes it off the record"
       ],
       "answer": 0,
       "explanation": "Sizing and acceptance are higher-level tasks, so the Level I records the indication and refers it for evaluation.",
@@ -6781,9 +6781,9 @@
       "stem": "Routine equipment and calibration checks should be:",
       "options": [
        "Recorded so the instrument's validity is documented",
-       "Done fully without any record at all here",
-       "Fully skipped just to save the time here",
-       "Fully estimated from plain memory here"
+       "Run but left off the record, as they are routine",
+       "Skipped over to save time on a busy inspection shift",
+       "Kept in memory rather than written down at all"
       ],
       "answer": 0,
       "explanation": "Recording checks documents that the instrument was valid during the work, supporting traceability.",
@@ -6807,9 +6807,9 @@
       "stem": "Appropriate UT safety practice includes:",
       "options": [
        "Following site PPE and electrical and mechanical safety rules",
-       "Fully ignoring all the site rules here",
-       "Removing all the machine guards here",
-       "Working in the restricted areas without any clearance here"
+       "Skipping the site safety rules whenever the schedule runs tight",
+       "Pulling the machine guards right off to reach the work faster",
+       "Stepping into restricted areas without any clearance first"
       ],
       "answer": 0,
       "explanation": "UT work follows general site safety, including PPE, electrical safety (especially immersion), and machine guarding around scanners.",
@@ -6833,9 +6833,9 @@
       "stem": "UT records are generally:",
       "options": [
        "Retained per the applicable requirements",
-       "Thrown right away immediately here now",
-       "Kept only ever if it is convenient here",
-       "Never ever created here"
+       "Thrown out the moment the scan ends",
+       "Kept on only when it suits the work crew",
+       "Never even written up in the first place"
       ],
       "answer": 0,
       "explanation": "Records are kept for the required retention period so results can be reviewed and verified later.",
@@ -6859,9 +6859,9 @@
       "stem": "Documenting settings and calibration supports repeatability, which means:",
       "options": [
        "Another technician can reproduce the inspection and results",
-       "The whole results can never ever be checked here",
-       "Each single inspection is fully unique and unverifiable here",
-       "The whole data is fully hidden here"
+       "The original results can never be checked back over again",
+       "No later inspection can confirm the figures taken",
+       "The records are held back from the responsible parties"
       ],
       "answer": 0,
       "explanation": "Repeatability lets the inspection be reproduced and verified, a core reason for thorough records.",
@@ -6885,9 +6885,9 @@
       "stem": "If the instrument fails a linearity or calibration check, the technician should:",
       "options": [
        "Stop, address the fault, and re-examine affected work",
-       "Continue on and hope here",
-       "Record nothing at all here",
-       "Increase the gain and proceed here"
+       "Carry on regardless and finish the entire scan as planned",
+       "Leave the failure off the record and just press ahead",
+       "Wind the gain right up until the check seems to pass"
       ],
       "answer": 0,
       "explanation": "A failed check means results may be invalid, so the cause is corrected and affected items are re-examined per procedure.",
@@ -6911,9 +6911,9 @@
       "stem": "Couplant should be chosen so it is:",
       "options": [
        "Compatible with the part and safe to handle",
-       "Fully corrosive right to the whole part here",
-       "Always fully flammable here",
-       "Fully toxic by design here"
+       "Strongly corrosive against the part surface",
+       "Highly flammable around the entire work area",
+       "Toxic to any technician who handles it"
       ],
       "answer": 0,
       "explanation": "Couplant is selected to avoid harming the part (for example chloride limits on stainless) and to be safe to handle per its safety data sheet.",
@@ -6937,17 +6937,17 @@
       "stem": "On austenitic stainless steel, couplant is often controlled for:",
       "options": [
        "Low halogen/chloride content to avoid harming the material",
-       "High chloride content on purpose here",
-       "Bright color here",
-       "Magnetism here"
+       "High chloride content to boost coupling on the surface",
+       "A very high viscosity so that it clings onto vertical walls",
+       "A built-in rust inhibitor aimed at protecting carbon steel"
       ],
       "answer": 0,
       "explanation": "Chlorides can harm stainless, so low-chloride couplants are specified for such materials per the procedure.",
       "distractors": [
        "",
        "High chloride can damage stainless, so it is avoided.",
-       "Couplant color is not the control here.",
-       "Magnetism is not the couplant control."
+       "The austenitic concern is low chloride content, not viscosity.",
+       "The concern is chloride on stainless, not rust inhibitors for carbon steel."
       ]
      }
     },
@@ -6963,9 +6963,9 @@
       "stem": "The scanning coverage and directions are:",
       "options": [
        "Defined by the procedure and followed by the technician",
-       "Chosen fully at random each time here",
-       "Skipped to save the time here",
-       "Decided by the part's color here"
+       "Picked at random by whichever technician is on the day",
+       "Cut short to save time whenever the schedule runs tight",
+       "Set by the surface color of the entire part being scanned"
       ],
       "answer": 0,
       "explanation": "The procedure defines coverage and scanning directions to ensure the required volume is examined, which the Level I follows.",
@@ -6989,9 +6989,9 @@
       "stem": "Professional and ethical practice in UT requires:",
       "options": [
        "Honest, accurate recording and reporting of results",
-       "Fully adjusting the results just to please others here",
-       "Fully omitting the whole unfavorable findings here",
-       "Just guessing whenever you are fully unsure here"
+       "Quietly adjusting the results to please the client",
+       "Leaving the awkward findings out of the final report",
+       "Guessing at the call rather than asking the higher level"
       ],
       "answer": 0,
       "explanation": "Integrity demands truthful records; when unsure, the technician refers to higher-level personnel rather than guessing or hiding data.",
@@ -7015,9 +7015,9 @@
       "stem": "Overall, the Level I in UT is qualified to:",
       "options": [
        "Set up, calibrate, scan, and record under direction",
-       "Independently interpret and accept right to code here",
-       "Fully approve the whole procedures here",
-       "Fully certify the personnel here"
+       "Independently accept or reject the part to code",
+       "Write and approve the inspection procedures in use",
+       "Certify and qualify the other inspection staff on site"
       ],
       "answer": 0,
       "explanation": "A Level I performs the inspection and records results under direction; interpretation to code, procedure approval, and certification are higher-level functions.",
@@ -7041,9 +7041,9 @@
       "stem": "If the technician is unsure whether a signal is relevant, the best action is to:",
       "options": [
        "Record it and consult higher-level personnel",
-       "Erase it here",
-       "Assume it is fully nothing here",
-       "Pass the whole part here"
+       "Erase it and carry straight on with the scan",
+       "Take it as nothing at all and move right along",
+       "Pass the part and close the entire job out"
       ],
       "answer": 0,
       "explanation": "Uncertain signals are recorded and referred for evaluation rather than dismissed, keeping the inspection sound.",
@@ -7067,9 +7067,9 @@
       "stem": "Which statement about recording, control, and safety is correct?",
       "options": [
        "Record results accurately, keep equipment verified, and follow electrical and mechanical safety",
-       "Fully alter all the data so the whole part passes here",
-       "Fully skip all the equipment checks here",
-       "The whole UT just always requires the radiation shielding here"
+       "Touch up the recorded data whenever it helps the part come out as a clean pass overall",
+       "Drop the routine equipment checks so as to keep the inspection moving at a good pace",
+       "Rely on memory for all the readings and skip writing anything down during the entire job"
       ],
       "answer": 0,
       "explanation": "Sound UT practice records results honestly, keeps the instrument verified through linearity and calibration checks, and follows safety, including electrical care in immersion and guarding around scanners.",
@@ -7077,7 +7077,7 @@
        "",
        "Altering data is falsification.",
        "Equipment checks keep results valid and are not skipped.",
-       "UT uses sound and needs no radiation shielding."
+       "Results must be recorded accurately, not kept from memory."
       ]
      }
     }

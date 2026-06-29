@@ -208,6 +208,10 @@ export default function Settings() {
         <Text style={{ fontFamily: mono, fontSize: 9, color: theme.muted, marginTop: 8, letterSpacing: 0.3 }}>
           NDT CERT STUDY {"\u00b7"} {allIds.length} QUESTIONS
         </Text>
+        <Text style={{ fontSize: 10, color: theme.muted, lineHeight: 15, marginTop: 10 }}>
+          An independent study aid. Not affiliated with, endorsed by, or sponsored by API, ASNT, ISO, CGSB, BINDT/PCN,
+          or TWI/CSWIP. All certification names and marks are the property of their respective owners.
+        </Text>
       </ScrollView>
     </SafeAreaView>
   );

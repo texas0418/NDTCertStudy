@@ -2496,7 +2496,7 @@
        "Resolution and detection of small reflectors",
        "Penetration into thick and attenuating parts",
        "Performance in coarse-grained cast material",
-       "Reduced attenuation across the whole sound path"
+       "Reduced attenuation across the entire sound path"
       ],
       "answer": 0,
       "explanation": "Higher frequency means shorter wavelength, improving resolution and the smallest detectable flaw size.",
@@ -2654,7 +2654,7 @@
        "Pressure variations and interference that make amplitude unreliable",
        "Steady predictable pressure that keeps amplitude fully reliable",
        "Strong beam divergence that spreads energy outward with range",
-       "The weakest and most diffuse region of the whole beam"
+       "The weakest and most diffuse region of the entire beam"
       ],
       "answer": 0,
       "explanation": "Within the near field, constructive and destructive interference cause pressure maxima and minima, so sizing is unreliable there.",
@@ -2821,7 +2821,7 @@
       "options": [
        "The refracted longitudinal wave reaches 90 degrees, leaving only shear in the part",
        "The refracted shear wave reaches 90 degrees and a surface wave forms along the part",
-       "All the sound is totally reflected and nothing at all enters the test part",
+       "All the sound is fully reflected and none enters the test part",
        "No wave refracts into the part for any incident angle at or below this"
       ],
       "answer": 0,
@@ -3482,7 +3482,7 @@
       "stem": "Setting the pulse repetition rate too high can cause:",
       "options": [
        "Wraparound or ghost echoes from one pulse arriving after the next is fired",
-       "Rapid drying of the couplant film between the probe and the surface",
+       "Rapid drying of the couplant film between the probe face and the test surface",
        "A steady rise in receiver gain that overloads the amplifier circuit",
        "A gradual upward shift in the crystal's fundamental frequency value"
       ],
@@ -3536,7 +3536,7 @@
       "stem": "A B-scan presents:",
       "options": [
        "A cross-sectional (side) view showing reflector depth versus probe position",
-       "A plan top-down map of reflector position across the whole scanned area",
+       "A plan top-down map of reflector position taken across the entire scanned area",
        "A single waveform plotting echo amplitude against elapsed travel time",
        "A digital numeric readout giving the remaining wall thickness value"
       ],
@@ -3562,7 +3562,7 @@
       "stem": "A C-scan presents:",
       "options": [
        "A plan (top-down) view showing reflector location and size in the scan plane",
-       "A side cross-section view showing reflector depth against probe travel",
+       "A side cross-section view showing reflector depth plotted against probe travel position",
        "A single amplitude waveform plotted against the elapsed travel time",
        "An unrectified trace showing the positive and negative signal lobes"
       ],
@@ -3640,7 +3640,7 @@
       "stem": "Full-wave rectification of the display:",
       "options": [
        "Folds both polarities to the same side, showing the full signal envelope as positive",
-       "Keeps only one polarity and discards the opposite half of the waveform completely",
+       "Keeps only one signal polarity and discards the opposite half of the waveform completely",
        "Leaves both the positive and negative lobes intact as a fully unrectified trace",
        "Strips genuine reflector echoes out of the displayed signal along with noise"
       ],
@@ -3718,7 +3718,7 @@
       "stem": "A key caution about using the reject control is that it:",
       "options": [
        "Can be non-linear and distort amplitude, so many codes limit its use during sizing",
-       "Erases the stored calibration the moment it is switched on during an inspection",
+       "Erases the entire stored calibration the moment it is switched on during an inspection",
        "Shifts the probe operating frequency away from the value set at calibration",
        "Has no visible effect at all on the displayed signal at any chosen setting"
       ],
@@ -3744,7 +3744,7 @@
       "stem": "A gate is used to:",
       "options": [
        "Monitor a selected portion of the sweep for alarm or measurement",
-       "Amplify the whole returning echo signal before it reaches the screen",
+       "Amplify the entire returning echo signal before it reaches the screen",
        "Apply a thin layer of coupling fluid across the test surface",
        "Steer the sound beam toward a chosen region of the weld"
       ],
@@ -3798,7 +3798,7 @@
       "stem": "The delay (zero offset) control is used to:",
       "options": [
        "Shift the display to compensate for wedge or delay-line travel time",
-       "Raise the amplification so that weaker echoes show on the screen",
+       "Raise the overall amplification so that weaker echoes show clearly on the screen",
        "Suppress the low-level baseline noise below a chosen threshold",
        "Fold the waveform onto a single side of the display baseline"
       ],
@@ -3850,9 +3850,9 @@
       "stem": "A dual-element (transmit-receive) probe uses:",
       "options": [
        "Separate transmitting and receiving crystals with an acoustic barrier between them",
-       "One single crystal that both transmits and receives throughout the inspection",
+       "One single shared crystal that both transmits and receives throughout the entire inspection",
        "Two probes on opposite faces of the part passing sound straight through it",
-       "A coil and magnet assembly carrying no piezoelectric crystal whatsoever"
+       "A coil and magnet assembly carrying no piezoelectric crystal"
       ],
       "answer": 0,
       "explanation": "Dual-element probes separate the transmit and receive crystals with an acoustic barrier, and that T/R separation is what reduces the dead zone and lets them resolve near-surface reflectors.",
@@ -3876,7 +3876,7 @@
       "stem": "Dual-element probes are especially useful for:",
       "options": [
        "Thin sections, near-surface flaws, and corrosion thickness measurement",
-       "Very deep flaws lying far below the surface of thick forgings",
+       "Very deep flaws lying far below the surface of thick heavy forgings and castings",
        "Measuring the sound velocity in unknown reference materials",
        "Scanning fully dry surfaces with no couplant applied at all"
       ],
@@ -3902,7 +3902,7 @@
       "stem": "A delay-line probe places a plastic column ahead of the crystal mainly to:",
       "options": [
        "Move the initial pulse out so near-surface resolution improves",
-       "Raise the crystal's operating frequency to give finer detail",
+       "Raise the crystal's operating frequency to give much finer detail",
        "Convert the straight beam into a shear wave at a set angle",
        "Remove the material attenuation so deep echoes stay strong"
       ],
@@ -4006,7 +4006,7 @@
       "stem": "The wear face (faceplate) on a contact transducer:",
       "options": [
        "Protects the crystal from abrasion against the test surface",
-       "Generates the actual sound pulse that enters the test part",
+       "Generates the actual sound pulse that enters into the test part",
        "Couples the sound across the gap by itself without any gel",
        "Sets the refracted angle of the sound beam in the part"
       ],
@@ -4058,7 +4058,7 @@
       "stem": "For inspecting coarse-grained material, an operator typically selects:",
       "options": [
        "A lower frequency probe to reduce scatter and improve penetration",
-       "A higher frequency probe to sharpen the small-flaw resolution",
+       "A higher frequency probe to sharpen the small-flaw resolution further",
        "An immersion setup so that no surface couplant is needed",
        "A wide paintbrush probe to cover more area in each pass"
       ],
@@ -4085,7 +4085,7 @@
       "options": [
        "Carries the electrical pulse and echo signals with shielding",
        "Feeds the coupling fluid down to the probe contact face",
-       "Amplifies the returning echo before it reaches the screen",
+       "Amplifies the returning echo signal before it reaches the screen",
        "Sets the wave mode that the probe launches into the part"
       ],
       "answer": 0,
@@ -4111,7 +4111,7 @@
       "options": [
        "A thicker medium such as gel or grease that stays in place",
        "Plain water, which spreads evenly across the surface",
-       "No couplant at all, scanning the dry bare metal surface",
+       "Absolutely no couplant, scanning over the dry bare metal surface",
        "A thin air gap kept between the probe and the part"
       ],
       "answer": 0,
@@ -4137,7 +4137,7 @@
       "options": [
        "A special high-temperature couplant rated for the surface temperature",
        "Ordinary tap water poured generously over the heated surface",
-       "No couplant at all, since the heat itself carries the sound across",
+       "Absolutely no couplant, since the surface heat itself carries the sound across",
        "Extra receiver gain used in place of any coupling medium"
       ],
       "answer": 0,
@@ -4162,7 +4162,7 @@
       "stem": "Excessive couplant between probe and part can:",
       "options": [
        "Introduce an extra couplant layer (standoff) that affects readings",
-       "Sharpen the near-surface resolution by filling in the dead zone",
+       "Sharpen the near-surface resolution by completely filling in the dead zone",
        "Focus the sound beam to a tighter spot deeper in the part",
        "Remove the dead zone entirely so near-surface flaws appear"
       ],
@@ -4191,7 +4191,7 @@
       "options": [
        "Main bang (initial pulse)",
        "The back-wall echo",
-       "Refracted entry signal",
+       "A refracted entry signal echo",
        "The monitoring gate"
       ],
       "answer": 0,
@@ -4270,7 +4270,7 @@
       "stem": "Reference amplitudes are commonly expressed as a percentage of:",
       "options": [
        "Full screen height (FSH)",
-       "The full sweep distance",
+       "The full sweep range distance",
        "The crystal diameter",
        "The total echo count"
       ],
@@ -4296,7 +4296,7 @@
       "stem": "Vertical linearity of a UT instrument refers to:",
       "options": [
        "Proportional response of displayed amplitude to the received signal amplitude",
-       "Correct and even spacing of equally separated echoes along the sweep line",
+       "Correct and even spacing of equally separated echoes plotted along the sweep line",
        "Steady drift-free readings held over time and over changing temperature",
        "Flatness of the wedge contact face against the surface of the part"
       ],
@@ -4323,7 +4323,7 @@
       "options": [
        "Correct, proportional spacing of equally separated echoes across the sweep",
        "Proportional response of the screen amplitude to the received signal level",
-       "A steady output voltage from the pulser across the whole inspection period",
+       "A steady output voltage from the pulser across the entire inspection period",
        "An even spread of the couplant film beneath the moving probe"
       ],
       "answer": 0,
@@ -4375,7 +4375,7 @@
       "options": [
        "Detect small reflectors and produce a usable signal from weak echoes",
        "Separate two reflectors that lie very close together on the sound path",
-       "Space equally separated echoes proportionally across the whole sweep",
+       "Space equally separated echoes proportionally across the entire sweep",
        "Suppress the low-level baseline grass below a chosen amplitude level"
       ],
       "answer": 0,
@@ -4452,7 +4452,7 @@
       "stem": "In through-transmission testing:",
       "options": [
        "A separate transmitter and receiver sit on opposite sides of the part",
-       "One single probe both sends and receives from one side of the part",
+       "One single probe both sends and receives from just one side of the part",
        "The sound reflects back from the near surface to a single probe",
        "Only the back-wall echo is timed in order to find the thickness"
       ],
@@ -4478,7 +4478,7 @@
       "stem": "A limitation of through-transmission testing is that it:",
       "options": [
        "Indicates a flaw's presence but not its depth or location",
-       "Cannot detect any internal flaw within the part at all",
+       "Cannot detect any internal flaw lying deep within the part body",
        "Needs access to just one single side of the test part",
        "Works only on welds, not on plate or pipe material"
       ],
@@ -4504,9 +4504,9 @@
       "stem": "A pitch-catch (two-probe) arrangement uses:",
       "options": [
        "One probe to transmit and a second to receive the reflected or transmitted beam",
-       "A single probe to both transmit and receive every returning echo on its own",
-       "A coil and magnet pair needing no piezoelectric transducer of any kind",
-       "A special dry coupling method that alone defines the whole technique"
+       "A single shared probe to both transmit and receive every returning echo by itself",
+       "A coil and magnet pair needing no piezoelectric transducer element",
+       "A special dry coupling method that alone defines the entire technique"
       ],
       "answer": 0,
       "explanation": "Pitch-catch separates the transmitting and receiving probes. The tandem setup is one specific pitch-catch geometry, with both probes on the same surface aimed at a vertical flaw.",
@@ -4530,7 +4530,7 @@
       "stem": "An electromagnetic acoustic transducer (EMAT) has the advantage that it:",
       "options": [
        "Generates ultrasound in conductive or ferromagnetic material without liquid couplant",
-       "Generates ultrasound in any material at all, conductive or not, needing no contact",
+       "Generates ultrasound in any material whatever, conductive or not, while needing no contact",
        "Produces a far stronger signal than any contact piezoelectric probe ever can",
        "Still relies on a thick liquid couplant to drive the sound into the part"
       ],
@@ -4556,7 +4556,7 @@
       "stem": "A focused immersion probe is chosen when the operator wants to:",
       "options": [
        "Concentrate energy at a specific depth for higher sensitivity and resolution there",
-       "Cover a very wide area in a single pass using one flat broad crystal face",
+       "Cover a very wide area in a single pass using one large flat broad crystal face element",
        "Press the probe directly onto the part with no water path in between",
        "Launch surface waves that skim along the outer face of the part"
       ],
@@ -4616,9 +4616,9 @@
       "stem": "The IIW (International Institute of Welding) block is used primarily for:",
       "options": [
        "Beam index, refracted angle, range, and resolution checks on angle-beam probes",
-       "Producing the ultrasonic pulse that the probe sends into the part on its own",
+       "Producing the ultrasonic pulse that the probe sends into the part by itself",
        "Storing inspection results internally for later transfer to a report file",
-       "Checking the magnetic field strength during a magnetic particle test"
+       "Setting the scanning speed that the probe is moved along the weld at each pass"
       ],
       "answer": 0,
       "explanation": "The IIW block supports beam index point, angle verification, range calibration, and resolution evaluation.",
@@ -4626,7 +4626,7 @@
        "",
        "The block is a physical reference, not a wave generator.",
        "The block is a reference standard, not a data store.",
-       "The IIW block is an ultrasonic tool."
+       "Scanning speed is a procedure setting; the IIW block checks beam parameters."
       ]
      }
     },
@@ -5290,7 +5290,7 @@
        "Above the reference level by a code-specified number of decibels",
        "Below the reference level by a fixed, set number of decibels",
        "Exactly at the reference level with no extra decibels added at all",
-       "At the instrument's maximum available gain for the whole scan"
+       "At the instrument's maximum available gain for the entire scan"
       ],
       "answer": 0,
       "explanation": "Scanning is done at reference plus a specified dB increment so small reflectors are not missed, then evaluation returns to reference.",
@@ -5342,7 +5342,7 @@
        "Separate reflectors that are close together in depth or distance",
        "Detect very small reflectors that return only a weak echo signal",
        "Drive sound through thick and strongly attenuating material",
-       "Hold a steady reading without any drift across the whole shift"
+       "Hold a steady reading without any drift across the entire shift"
       ],
       "answer": 0,
       "explanation": "Resolution checks confirm the setup can distinguish closely spaced reflectors on the block.",
@@ -5393,7 +5393,7 @@
       "options": [
        "The temperature, probe, cable, or couplant changes, or at defined time intervals",
        "Only at the very end of the inspection, after all of the scanning is complete",
-       "Never during a job, since a verified setup holds steady through the whole shift",
+       "Never during a job, since a verified setup holds steady through the entire shift",
        "Each time a flaw is detected, so the indication can be sized correctly"
       ],
       "answer": 0,
@@ -5956,7 +5956,7 @@
       "stem": "Welds are commonly inspected with angle-beam probes because:",
       "options": [
        "Weld flaws are often not parallel to the surface and the crown blocks straight-beam access",
-       "Angle-beam scanning simply covers the whole weld much faster than any straight beam can",
+       "Angle-beam scanning simply covers the entire weld much faster than any straight beam can",
        "Straight beams cannot pass through carbon steel weld metal at all in order to reach flaws",
        "Angle-beam probes work fully dry and need no couplant at all on the weld surface"
       ],
@@ -6060,7 +6060,7 @@
       "stem": "To cover the full weld volume, the operator typically:",
       "options": [
        "Moves the probe toward and away from the weld while traversing its length",
-       "Holds the probe fixed at a single spot beside the weld for the whole scan",
+       "Holds the probe fixed at a single spot beside the weld for the entire scan",
        "Scans only the upper half of the weld thickness from a single side",
        "Uses just one leg at one fixed standoff for the entire weld length"
       ],
@@ -6374,7 +6374,7 @@
        "Deliver a flowing water path for coupling without full immersion",
        "Replace the transducer entirely with a column of fast-moving water",
        "Generate the ultrasonic pulse directly inside the flowing water stream",
-       "Stand in for the calibration block during the whole angle-beam setup"
+       "Stand in for the calibration block during the entire angle-beam setup"
       ],
       "answer": 0,
       "explanation": "Squirter and bubbler systems form a continuous water column to couple the beam in line scanning.",
@@ -6400,7 +6400,7 @@
        "Maintains coupling while rolling along the surface for fast scanning",
        "Runs completely dry with no liquid sealed inside the rolling tyre at all",
        "Is locked to one single straight-beam mode that can never be changed",
-       "Needs no calibration of any kind before it is rolled across the part"
+       "Needs no calibration before it is rolled across the part"
       ],
       "answer": 0,
       "explanation": "The liquid-filled wheel keeps a consistent coupling path while rolling, suiting production-line scanning.",
@@ -6608,7 +6608,7 @@
        "Produce extra indications that may be mistaken for flaws",
        "Only ever sharpen up and clarify the true flaw indications",
        "Never occur in steel under any incidence at the interface",
-       "Wipe out the back-wall echo for the whole rest of the scan"
+       "Wipe out the back-wall echo for the entire rest of the scan"
       ],
       "answer": 0,
       "explanation": "Energy converting between modes can create spurious echoes that the operator must recognize and discount.",
@@ -7101,7 +7101,7 @@
       "options": [
        "Coupling variations change signal amplitude and can mask indications",
        "Probe pressure swings the refracted angle widely across the part",
-       "Steady pressure is what sets the sweep range across the whole screen",
+       "Steady pressure is what sets the sweep range across the entire screen",
        "Constant pressure degasses the couplant film held under the probe"
       ],
       "answer": 0,
@@ -7133,7 +7133,7 @@
       "options": [
        "A planar separation in the base metal lying parallel to the surface",
        "A sharp crack running straight across the thickness of the plate",
-       "A cluster of rounded gas pores trapped within the weld bead metal",
+       "A cluster of rounded gas pores trapped down within the weld bead metal",
        "A pocket of trapped slag sitting deep inside the weld volume"
       ],
       "answer": 0,
@@ -7236,7 +7236,7 @@
       "stem": "Incomplete (lack of) penetration occurs:",
       "options": [
        "At the weld root where the joint is not fully filled",
-       "At the weld cap where the crown is left overfilled",
+       "At the weld cap where the crown is left badly overfilled",
        "On the outer surface partway along the weld toe",
        "In the base metal a fair distance from the joint"
       ],
@@ -7288,7 +7288,7 @@
       "stem": "The key distinction between a planar and a volumetric flaw is that a planar flaw:",
       "options": [
        "Has a flat face whose echo depends strongly on orientation",
-       "Has many curved facets that reflect from every direction",
+       "Has many curved facets that reflect sound from every direction",
        "Is always larger in size than any volumetric flaw nearby",
        "Cannot be detected no matter how the probe is angled"
       ],
@@ -7315,7 +7315,7 @@
       "options": [
        "At the weld toe on the surface, reducing the base metal section",
        "Deep inside the weld bead, well below the visible surface",
-       "At the weld root, where the joint is left only partly filled",
+       "At the weld root, where the joint is left only partially filled in",
        "In the couplant film smeared along the test surface"
       ],
       "answer": 0,
@@ -7445,8 +7445,8 @@
       "options": [
        "Falls to half (6 dB below) its maximum amplitude",
        "Climbs to its full peak maximum amplitude",
-       "Drops the whole way down to zero amplitude",
-       "Rises a full 6 dB above its starting amplitude"
+       "Drops the entire way down to zero amplitude",
+       "Rises a full 6 dB above its original starting amplitude"
       ],
       "answer": 0,
       "explanation": "When the beam is half on the flaw, the echo is 6 dB down; those probe positions mark the flaw extent.",
@@ -7496,7 +7496,7 @@
       "stem": "The 20 dB drop method differs from the 6 dB method in that it:",
       "options": [
        "Uses the beam edges defined at 20 dB down to estimate size",
-       "Marks the beam edges right at full peak amplitude instead",
+       "Marks the beam edges right at the full peak amplitude instead",
        "Works only on scattered porosity and never on cracks",
        "Reads the size from one single fixed probe position"
       ],
@@ -7522,7 +7522,7 @@
       "stem": "The maximum amplitude technique sizes a flaw by:",
       "options": [
        "Tracking the peak echo as the probe moves across a multifaceted reflector",
-       "Taking a single echo reading with the probe held still over the flaw",
+       "Taking just a single echo reading with the probe held perfectly still over the flaw",
        "Counting the back-wall multiples that line up behind the flaw echo",
        "Reading the height shown in the gate at a single fixed probe spot"
       ],
@@ -7548,7 +7548,7 @@
       "stem": "Estimating reflector size by amplitude comparison relies on:",
       "options": [
        "Comparing the flaw echo to a reference reflector or DAC curve",
-       "Comparing the flaw echo against the width of the alarm gate",
+       "Comparing the flaw echo against the set width of the alarm gate",
        "Comparing how fast the probe was moving across the flaw",
        "Comparing the brightness of the signal trace on the display"
       ],
@@ -7574,7 +7574,7 @@
       "stem": "The DGS (AVG) method estimates flaw size by:",
       "options": [
        "Comparing the flaw echo to curves giving an equivalent flat-bottom-hole size at distance",
-       "Counting the number of separate echoes the flaw returns across the entire sweep line",
+       "Counting the total number of separate echoes the flaw returns across the entire sweep line",
        "Measuring how far the flaw sits within the near-surface dead zone of the probe",
        "Reading the refracted angle off the scale and converting that straight into a size"
       ],
@@ -7653,7 +7653,7 @@
       "options": [
        "Moving the probe along the flaw and marking where the response meets the drop criterion",
        "Holding the probe at a single fixed position and reading the length straight off the screen",
-       "Raising the probe frequency until the whole length of the flaw appears on the display",
+       "Raising the probe frequency until the entire length of the flaw appears on the display",
        "Measuring the width of the main bang spike over at the far left of the sweep line"
       ],
       "answer": 0,
@@ -7678,7 +7678,7 @@
       "stem": "Amplitude sizing of a flaw smaller than the beam tends to:",
       "options": [
        "Be unreliable, since the echo never reaches a full-beam response",
-       "Be highly reliable, since the small flaw fills the entire beam",
+       "Be highly reliable, since the small flaw still fills the entire beam",
        "Carry only a tiny error, well within the usual tolerance band",
        "Need no reference reflector at all to give a sound result"
       ],
@@ -7706,7 +7706,7 @@
       "stem": "Comparing a flaw echo to a side-drilled hole reference allows the operator to express size as:",
       "options": [
        "An amplitude relative to the reference, such as a percentage of DAC or dB above or below",
-       "An exact crack height in millimeters read straight off the screen position itself",
+       "An exact crack height in millimeters read directly straight off the screen position itself",
        "An exact volumetric size in cubic millimeters for the entire flaw body",
        "A plain pass or fail result, with no amplitude figure recorded at all"
       ],
@@ -7810,7 +7810,7 @@
       "stem": "The acceptance or rejection level for an indication is set by:",
       "options": [
        "The governing code or specification",
-       "The operator's personal preference",
+       "The operator's own personal preference",
        "The instrument maker's own choice",
        "The couplant supplier's own advice"
       ],
@@ -7888,7 +7888,7 @@
       "stem": "A false indication is one that:",
       "options": [
        "Does not correspond to a real reflector, such as electrical noise or interference",
-       "Comes from a sharp crack lying along the fusion face of the actual welded joint",
+       "Comes from a sharp crack lying right along the fusion face of the actual welded joint",
        "Comes from the part geometry, such as a counterbore or a change of section",
        "Comes from a real measured flaw that has been sized against the reference curve"
       ],
@@ -8046,7 +8046,7 @@
        "Changes how depth is calculated from the sound path",
        "Sets how fast the probe is moved across the weld",
        "Decides which couplant gel gets used on the part",
-       "Has no real effect at all on the depth calculation"
+       "Makes no real difference to the final depth calculation"
       ],
       "answer": 0,
       "explanation": "On the second leg, depth is found from 2T minus the raw reading, so identifying the leg is essential to locate the flaw correctly.",
@@ -8070,8 +8070,8 @@
       "stem": "Plotting a flaw on a weld cross-section helps the operator:",
       "options": [
        "Show where the flaw lies relative to the weld and judge its significance",
-       "Set the correct scanning gain to use before the weld is examined again",
-       "Calibrate the horizontal sweep range right across the whole screen",
+       "Set the correct scanning gain to use just before the weld is examined again",
+       "Calibrate the horizontal sweep range right across the entire screen",
        "Change the refracted angle that the beam takes inside the part"
       ],
       "answer": 0,
@@ -8096,7 +8096,7 @@
       "stem": "The orientation of a planar flaw can be inferred by:",
       "options": [
        "Comparing its response from different angles and scan directions",
-       "Taking one single reading with the probe held still on the flaw",
+       "Taking one single reading with the probe held perfectly still on the flaw",
        "Watching how the couplant spreads out under the moving probe",
        "Counting the back-wall multiples that sit behind the flaw echo"
       ],
@@ -8174,7 +8174,7 @@
       "stem": "A long, coherent, high-amplitude planar indication along the fusion line most likely indicates:",
       "options": [
        "Lack of fusion or a crack",
-       "A band of weld porosity",
+       "A scattered band of weld porosity",
        "Weld toe undercut",
        "A couplant air gap"
       ],
@@ -8200,8 +8200,8 @@
       "stem": "To detect a transverse crack (one running across the weld), the probe is oriented to send its beam along the weld axis because such cracks:",
       "options": [
        "Face along the weld axis, so a beam aimed across the weld reflects poorly off them",
-       "Lie flat and parallel to the surface, much like a lamination in the base metal",
-       "Cannot be detected by ultrasound from any scan direction whatsoever",
+       "Lie flat and parallel to the surface, much like a flat lamination in the base metal",
+       "Cannot be detected by ultrasound from any scan direction",
        "Show up only under a straight-beam compression wave aimed from above"
       ],
       "answer": 0,
@@ -8226,7 +8226,7 @@
       "stem": "When sizing with the 6 dB drop method, the reference maximum is taken as:",
       "options": [
        "The peak echo with the beam fully on the flaw",
-       "The echo right at the very edge of the flaw",
+       "The echo seen right at the very edge of the flaw",
        "The back-wall echo seen behind the flaw",
        "The first echo seen well before the peak"
       ],
@@ -8254,7 +8254,7 @@
        "An instrument artifact or electrical signal rather than a reflector in the part",
        "A real reflector inside the part that the operator can track and then locate",
        "A geometric indication from the weld root that moves with the probe position",
-       "A flat lamination in the base metal that responds as the probe is being moved"
+       "A flat lamination in the base metal that responds clearly as the probe is being moved"
       ],
       "answer": 0,
       "explanation": "A real reflector changes sound path as the probe moves; a signal that does not move is likely an artifact.",
@@ -8279,7 +8279,7 @@
       "options": [
        "Sound reflecting off the crack face and the adjoining surface back to the probe",
        "Sound being soaked up by the crack face so that little returns to the probe",
-       "The crack resonating at the probe frequency and then re-radiating that energy",
+       "The crack resonating at the probe frequency and then re-radiating all that energy back",
        "The couplant pooling in the crack mouth and bouncing the sound straight back"
       ],
       "answer": 0,
@@ -8331,7 +8331,7 @@
       "options": [
        "How the indication's response compares to the reference reflector at that depth",
        "Exactly what type of flaw is present, be it a crack, slag, or porosity",
-       "The precise orientation of the flaw face relative to the angled sound beam",
+       "The precise orientation of the flaw face relative to the angled incident sound beam",
        "The remaining wall thickness left beneath the indication at that point"
       ],
       "answer": 0,
@@ -8358,7 +8358,7 @@
        "A relevant indication from a real discontinuity, not geometry or an artifact",
        "An indication that has simply been written down somewhere on the report",
        "An indication that peaks once the gain is run up to its full maximum",
-       "An indication that happens to lie close to the probe on the part surface"
+       "An indication that happens to lie close to the probe on the part surface only"
       ],
       "answer": 0,
       "explanation": "Rejection follows confirming the indication is real and relevant and that it exceeds the code's acceptance criteria.",
@@ -8383,7 +8383,7 @@
       "options": [
        "Responds much more strongly at one angle suggests a specific orientation",
        "Responds equally at both angles is proof the flaw must be a crack",
-       "Gives no response at either angle is fair grounds to reject it outright",
+       "Gives no response at either angle is fair grounds enough to reject it outright",
        "Shifts the probe frequency each time the refracted angle is changed"
       ],
       "answer": 0,
@@ -8408,8 +8408,8 @@
       "stem": "The inspection record for an evaluated indication should include:",
       "options": [
        "Its location, amplitude, length, and characterization",
-       "Only the operator's name signed on the report sheet",
-       "Just its amplitude on its own, with nothing more",
+       "Only the operator's name signed at the foot of the report sheet",
+       "Just its amplitude by itself, with nothing more",
        "Only the date that the inspection was carried out"
       ],
       "answer": 0,
@@ -9408,7 +9408,7 @@
       "stem": "Reporting a marginal indication that is just above the recording level is:",
       "options": [
        "Required, since results must be recorded honestly regardless of inconvenience",
-       "Optional, and left to the technician to record or pass over as he sees fit",
+       "Optional, and entirely left to the technician to record or pass over as he sees fit",
        "Best left off the report so that the weld is not held up over a small flaw",
        "Left to the welding crew to record once the joint has been finished off"
       ],
@@ -9461,7 +9461,7 @@
       "options": [
        "Not permitted, because results would be outside the qualified method",
        "Allowed for any experienced hand who knows the equipment well",
-       "Acceptable whenever the schedule is tight and welds are stacking up",
+       "Acceptable whenever the schedule is tight and the welds are stacking up",
        "Encouraged as a quick way to get a clearer signal off the weld"
       ],
       "answer": 0,
@@ -9512,7 +9512,7 @@
       "stem": "Calibration of the UT setup in the field should be verified:",
       "options": [
        "At the start, at intervals, and at the end of the inspection period",
-       "At the very start only, before any of the welds have been scanned",
+       "At the very start only, well before any of the welds have been scanned",
        "Only when an indication turns up that then needs to be sized",
        "Back in the shop only, and never out in the field itself"
       ],
@@ -9591,7 +9591,7 @@
       "options": [
        "Interpreting displays and indications depends on adequate visual acuity",
        "They are a formality with no real bearing on the actual inspection work",
-       "They apply to radiography alone and never to any ultrasonic work",
+       "They cover only colour vision and never the near or distance acuity that matters",
        "They stand in for proper training and so need no course at all"
       ],
       "answer": 0,
@@ -9599,7 +9599,7 @@
       "distractors": [
        "",
        "Vision standards have a real basis.",
-       "They apply across NDT methods including UT.",
+       "Vision rules cover near and distance acuity, central to reading displays.",
        "Vision checks supplement, not replace, training."
       ]
      }
@@ -9617,7 +9617,7 @@
       "options": [
        "Complete, legible, and retained per the project and code requirements",
        "Thrown out once the welds on that joint have all passed inspection",
-       "Kept in the technician's own memory rather than written down at all",
+       "Simply kept in the technician's own memory rather than ever written down",
        "Left undocumented so long as the results were all acceptable"
       ],
       "answer": 0,
@@ -9668,7 +9668,7 @@
       "stem": "Before entering a bell hole or excavation to inspect a girth weld, the technician should:",
       "options": [
        "Confirm the excavation is safe and follow confined-space and shoring requirements",
-       "Climb straight in and begin the inspection without doing any safety check first",
+       "Just climb straight in and begin the inspection without doing any safety check first",
        "Take it that the hole is safe because other crew are already working down in it",
        "Get on with the weld scan and leave the permits and the checks for later"
       ],
@@ -9696,7 +9696,7 @@
        "Pinch points, moving bands, and hot surfaces",
        "Glare coming off the bright weld arc",
        "Nothing at all, since the area is safe",
-       "Ionizing radiation from the scanner head"
+       "Stray ultrasound leaking out from the scanner head"
       ],
       "answer": 0,
       "explanation": "Mechanized welding and scanner bands create pinch points, moving parts, and hot surfaces to guard against.",
@@ -9704,7 +9704,7 @@
        "",
        "Mechanical pinch and burn hazards are also present.",
        "Moving equipment and heat are real hazards.",
-       "AUT scanners are ultrasonic, not radiation sources."
+       "Stray ultrasound in air is harmless; the hazards here are mechanical."
       ]
      }
     },
@@ -9774,7 +9774,7 @@
        "Moving heavy equipment, traffic, and other crews working nearby",
        "Only the weld right in front of him and nothing else around",
        "Just the patch of ground directly beneath his own feet",
-       "Equipment alone, since no other crews are ever working nearby"
+       "Equipment alone, since no other crews are ever working anywhere nearby"
       ],
       "answer": 0,
       "explanation": "A construction right-of-way has spreads of moving equipment and multiple crews, demanding constant situational awareness.",
@@ -9824,7 +9824,7 @@
       "stem": "Required personal protective equipment on a pipeline spread typically includes:",
       "options": [
        "Hard hat, eye protection, high-visibility wear, and appropriate footwear",
-       "No protective gear at all, since inspection is light, hands-off work",
+       "Simply no protective gear needed, since the inspection is light, hands-off work",
        "A pair of work gloves on their own and nothing else required at all",
        "Just a hard hat by itself, with the rest left to personal choice"
       ],
@@ -9877,7 +9877,7 @@
       "options": [
        "Inspected for wear and replaced when worn to keep the setup valid",
        "Run until they fail outright, since wear has no effect before then",
-       "Swapped out without bothering to recalibrate the whole setup again",
+       "Swapped out without bothering to recalibrate the entire setup again",
        "Left unchecked all through the job, since wedges do not wear in use"
       ],
       "answer": 0,
@@ -9956,7 +9956,7 @@
        "Verifying equipment function, calibration, and the correct procedure",
        "Starting straight in on the welds with no pre-job checks done at all",
        "Grabbing whatever probe is closest to hand, procedure or not",
-       "Trusting that the last crew left the whole setup ready to go"
+       "Trusting that the last crew left the entire setup ready to go"
       ],
       "answer": 0,
       "explanation": "Confirming equipment, calibration, and the applicable procedure before scanning prevents invalid results.",
@@ -10006,7 +10006,7 @@
       "stem": "When a rejectable defect is confirmed, the technician should:",
       "options": [
        "Document it and communicate the result through the proper reporting channel",
-       "Fix it quietly and leave the finding off the report sheet altogether",
+       "Quietly fix it yourself and leave the finding off the report sheet altogether",
        "Mention it to the crew lead in passing and then leave it at that",
        "Decide on the repair himself and direct the crew on how to do it"
       ],
@@ -10033,7 +10033,7 @@
       "options": [
        "The repair crew locate and address the exact area",
        "Hide the indication from the follow-up team",
-       "Calibrate the instrument ahead of the next scan",
+       "Calibrate the instrument well ahead of the next scan",
        "Stand in for the written records of the find"
       ],
       "answer": 0,
@@ -10059,8 +10059,8 @@
       "options": [
        "Investigate further with probe movement and comparison to the weld geometry before deciding",
        "Reject the joint straight away without looking into the indication any further at all",
-       "Write the indication off as harmless geometry and move straight on without checking it",
-       "Leave the call to someone else, since evaluation is not really his own job to make"
+       "Write the indication off as harmless weld geometry and move straight on without ever checking it",
+       "Leave the call to someone else, since evaluation is not truly his own job to make"
       ],
       "answer": 0,
       "explanation": "Sound practice is to characterize the indication thoroughly before classifying it, rather than guessing.",

@@ -140,8 +140,9 @@ export function Paywall({
       </Pressable>
 
       <Text style={{ fontSize: 11, color: theme.muted, lineHeight: 16, marginTop: 12, textAlign: "center" }}>
-        One-time purchase. An independent study aid, not affiliated with or endorsed by API, ASNT, ISO, BINDT, or
-        TWI.
+        One-time purchase. An independent study aid, not affiliated with, endorsed by, or sponsored by API, ASNT,
+        ISO, CGSB, BINDT/PCN, or TWI/CSWIP. All certification names and marks are the property of their respective
+        owners.
       </Text>
       {!nativePurchasesAvailable && (
         <Text style={{ fontFamily: mono, fontSize: 10, color: theme.muted, marginTop: 8, textAlign: "center" }}>
