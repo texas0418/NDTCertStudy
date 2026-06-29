@@ -33,7 +33,7 @@
        "Electromagnetic radiation (photons)",
        "Fast-moving charged particles here",
        "Plain audible sound waves only here",
-       "Free neutron particles only here, oddly"
+       "Free neutron particles only here"
       ],
       "answer": 0,
       "explanation": "X-rays and gamma rays are high-energy electromagnetic radiation (photons) with no mass and no charge; they differ in origin, not in fundamental nature.",
@@ -57,9 +57,9 @@
       "stem": "The fundamental difference between X-rays and gamma rays is that:",
       "options": [
        "X-rays originate outside the nucleus; gamma rays originate within the nucleus",
-       "X-rays are particles while gamma rays are simple waves here, somehow quite oddly",
-       "Gamma rays have no energy at all here, somehow really quite oddly enough now",
-       "X-rays simply cannot expose any film here, somehow really quite oddly enough"
+       "X-rays are particles while gamma rays are simple waves here",
+       "Gamma rays have no energy at all here",
+       "X-rays simply cannot expose any film here"
       ],
       "answer": 0,
       "explanation": "X-rays are produced when fast electrons strike a target (outside the nucleus); gamma rays are emitted from the nucleus of a decaying radioactive atom.",
@@ -109,9 +109,9 @@
       "stem": "The continuous X-ray spectrum from a tube is produced by:",
       "options": [
        "Bremsstrahlung (electrons decelerating in the target)",
-       "Plain nuclear radioactive decay here, somehow oddly",
-       "Characteristic radiation only here, somehow quite oddly",
-       "Plain visible light emission only here, somehow oddly"
+       "Nuclear radioactive decay here",
+       "Characteristic radiation only here",
+       "Visible light emission only here"
       ],
       "answer": 0,
       "explanation": "Bremsstrahlung (braking radiation) gives a continuous spectrum as electrons decelerate near target nuclei; characteristic peaks are superimposed on it.",
@@ -135,9 +135,9 @@
       "stem": "Characteristic X-rays are produced when:",
       "options": [
        "An incident electron ejects an inner-shell electron and an outer electron fills the vacancy",
-       "Fast electrons in the tube simply decelerate in the target here, somehow really quite",
-       "The source nucleus just decays away here, somehow really quite oddly enough indeed here right",
-       "The loaded film just fluoresces brightly here, somehow really quite oddly enough indeed here"
+       "Fast electrons in the tube simply decelerate in the target here",
+       "The source nucleus just decays away here",
+       "The loaded film just fluoresces brightly here"
       ],
       "answer": 0,
       "explanation": "Characteristic radiation appears as discrete energy peaks when an inner-shell vacancy is filled by an outer electron, releasing a photon of energy specific to the target element.",
@@ -447,9 +447,9 @@
       "stem": "As a radioactive source decays, its activity:",
       "options": [
        "Decreases over time, so exposure times must be increased",
-       "Increases steadily over time here, somehow quite oddly",
-       "Stays fully constant forever here, somehow quite oddly",
-       "Becomes a negative value here, somehow really quite oddly"
+       "Increases steadily over time here",
+       "Stays fully constant forever here",
+       "Becomes a negative value here"
       ],
       "answer": 0,
       "explanation": "Activity falls as the source decays, so exposure (or source-to-film) settings are adjusted over the source's life to maintain density.",
@@ -473,9 +473,9 @@
       "stem": "Higher specific activity (curies per gram) of a source allows:",
       "options": [
        "A physically smaller source, improving radiographic definition",
-       "A much larger physical source size here, somehow really quite oddly",
-       "A much longer source half-life here, somehow really quite",
-       "Much lower beam penetration here, somehow really quite oddly enough"
+       "A much larger physical source size here",
+       "A much longer source half-life here",
+       "Much lower beam penetration here"
       ],
       "answer": 0,
       "explanation": "High specific activity packs more activity into a smaller physical size, reducing the effective focal-spot size and geometric unsharpness for sharper radiographs.",
@@ -499,9 +499,9 @@
       "stem": "The physical size of a gamma source is important because it acts like the:",
       "options": [
        "Focal spot, affecting geometric unsharpness",
-       "The loaded film's density here, somehow oddly",
-       "The beam's half-value layer here, somehow oddly",
-       "The developer's temperature here, oddly"
+       "The loaded film's density here",
+       "The beam's half-value layer here",
+       "The developer's temperature here"
       ],
       "answer": 0,
       "explanation": "The source's physical dimensions behave like an X-ray focal spot; a larger source increases penumbra (geometric unsharpness) and blurs detail.",
@@ -525,9 +525,9 @@
       "stem": "An advantage of X-ray machines over gamma sources is that:",
       "options": [
        "Energy is adjustable and the radiation stops when powered off",
-       "They need no electrical power at all here, somehow really quite",
-       "They are always far more portable here, somehow really quite",
-       "They never ever need any shielding here, somehow really quite oddly"
+       "They need no electrical power at all here",
+       "They are always far more portable here",
+       "They never ever need any shielding here"
       ],
       "answer": 0,
       "explanation": "X-ray output can be tuned by kV and switched off entirely, improving control and safety where power is available; gamma sources emit continuously.",
@@ -577,7 +577,7 @@
       "stem": "Because photons have no charge or mass, they:",
       "options": [
        "Are not deflected by electric or magnetic fields",
-       "Cannot ever penetrate any metal at all here, oddly",
+       "Cannot ever penetrate any metal at all here",
        "Travel far slower than plain sound waves here",
        "Carry a strong positive electric charge here now"
       ],
@@ -629,9 +629,9 @@
       "stem": "A smaller focal spot on an X-ray tube produces:",
       "options": [
        "Sharper images (less geometric unsharpness)",
-       "Far more scatter only here, somehow oddly",
-       "A higher kV automatically here, somehow oddly",
-       "A much longer half-life here, somehow oddly"
+       "Far more scatter only here",
+       "A higher kV automatically here",
+       "A much longer half-life here"
       ],
       "answer": 0,
       "explanation": "A smaller focal spot reduces penumbra and geometric unsharpness, improving definition, though it limits how much tube current the target can handle.",
@@ -733,9 +733,9 @@
       "stem": "For thin steel sections where good sensitivity is needed, a lower-energy source such as Selenium-75 is preferred because:",
       "options": [
        "Lower energy gives higher subject contrast on thin material",
-       "It penetrates thick heavy steel far better here, somehow oddly",
-       "It simply has the longest half-life here, somehow quite oddly",
-       "It emits no radiation at all here, somehow quite oddly now"
+       "It penetrates thick heavy steel far better here",
+       "It simply has the longest half-life here",
+       "It emits no radiation at all here"
       ],
       "answer": 0,
       "explanation": "Lower-energy photons produce more contrast on thin sections, improving flaw sensitivity where high energy would wash out contrast.",
@@ -811,9 +811,9 @@
       "stem": "X-rays and gamma rays are called ionizing radiation because they:",
       "options": [
        "Can remove electrons from atoms they interact with",
-       "They only ever heat up the material here, oddly",
-       "They cannot penetrate any matter at all here, oddly",
-       "They are fully visible to the naked eye here, oddly"
+       "They only ever heat up the material here",
+       "They cannot penetrate any matter at all here",
+       "They are fully visible to the naked eye here"
       ],
       "answer": 0,
       "explanation": "Their energy is high enough to ionize atoms (eject electrons), which underlies both image formation and biological hazard.",
@@ -863,9 +863,9 @@
       "stem": "Photon energy in radiography is commonly expressed in:",
       "options": [
        "keV or MeV (kilo- or mega-electron-volts)",
-       "Curies only here, somehow quite oddly now",
-       "Roentgens only here, somehow quite oddly",
-       "Becquerels only here, somehow quite oddly now"
+       "Curies only here",
+       "Roentgens only here",
+       "Becquerels only here"
       ],
       "answer": 0,
       "explanation": "Photon energy is given in electron-volts, typically keV or MeV; curies and becquerels measure activity and roentgen measures exposure.",
@@ -889,9 +889,9 @@
       "stem": "If an Iridium-192 source has decayed to half its original activity, a previously correct exposure will need:",
       "options": [
        "About twice the exposure time (other factors equal)",
-       "About half of the exposure time here, somehow oddly",
-       "No change at all to it here, somehow really quite oddly",
-       "A much higher kV here, somehow really quite oddly"
+       "About half of the exposure time here",
+       "No change at all to it here",
+       "A much higher kV here"
       ],
       "answer": 0,
       "explanation": "With half the activity, roughly double the time is needed to deliver the same exposure, assuming geometry and other factors are unchanged.",
@@ -967,9 +967,9 @@
       "stem": "Unlike an X-ray machine, a gamma source emits radiation:",
       "options": [
        "Continuously and at fixed energies that cannot be adjusted",
-       "Only ever when it is fully powered here, somehow oddly",
-       "At a fully adjustable energy level here, somehow oddly",
-       "Never at all here, somehow really quite oddly enough indeed now"
+       "Only ever when it is fully powered here",
+       "At a fully adjustable energy level here",
+       "Never at all here"
       ],
       "answer": 0,
       "explanation": "A gamma source decays continuously at energies fixed by the isotope; you cannot turn it off or tune its energy, only shield it.",
@@ -1019,7 +1019,7 @@
       "stem": "Different isotopes are kept available because:",
       "options": [
        "Energy must be matched to material type and thickness",
-       "All of the sources are fully identical here, somehow oddly",
+       "All of the sources are fully identical here",
        "Only one single thickness is ever radiographed here",
        "The radioactive half-life does not matter at all here"
       ],
@@ -1123,9 +1123,9 @@
       "stem": "Compared with a low-kV X-ray exposure of thin steel, an Iridium-192 exposure of the same part typically gives:",
       "options": [
        "Lower contrast because of its higher average energy",
-       "Much higher subject contrast here, somehow oddly",
-       "Fully identical final results here, somehow oddly",
-       "No real image at all here, somehow really quite oddly"
+       "Much higher subject contrast here",
+       "Fully identical final results here",
+       "No real image at all here"
       ],
       "answer": 0,
       "explanation": "Ir-192's higher average energy yields lower subject contrast on thin steel than an optimized low-kV X-ray exposure, which is why X-ray is often preferred for thin, critical work.",
@@ -1149,9 +1149,9 @@
       "stem": "When a radioactive source decays, it:",
       "options": [
        "Transforms toward a more stable nuclide while emitting radiation",
-       "It simply gains more activity here, somehow really quite oddly enough",
-       "It just becomes an X-ray tube here, somehow really quite oddly",
-       "It stops being radioactive instantly here, somehow quite oddly"
+       "It simply gains more activity here",
+       "It just becomes an X-ray tube here",
+       "It stops being radioactive instantly here"
       ],
       "answer": 0,
       "explanation": "Radioactive decay converts the unstable nucleus toward a more stable state, emitting gamma (and other) radiation in the process.",
@@ -1175,9 +1175,9 @@
       "stem": "A key safety distinction of gamma sources is that they:",
       "options": [
        "Cannot be turned off and must be shielded at all times",
-       "They emit only ever when energized here, somehow oddly",
-       "They are fully harmless when stored here, somehow oddly",
-       "They produce no penetrating radiation here, somehow oddly"
+       "They emit only ever when energized here",
+       "They are fully harmless when stored here",
+       "They produce no penetrating radiation here"
       ],
       "answer": 0,
       "explanation": "Because a gamma source emits continuously, it must remain shielded in its device and controlled at all times; it cannot be switched off like an X-ray machine.",
@@ -1207,9 +1207,9 @@
       "stem": "As radiation passes through a material, its intensity is:",
       "options": [
        "Attenuated (reduced) by absorption and scatter",
-       "Greatly increased here, somehow really quite oddly",
-       "Left fully unchanged here, somehow really quite oddly",
-       "Fully converted into sound here, somehow oddly"
+       "Greatly increased here",
+       "Left fully unchanged here",
+       "Fully converted into sound here"
       ],
       "answer": 0,
       "explanation": "The beam is attenuated as photons are absorbed or scattered out of it; thicker or denser material attenuates more, which is what forms the radiographic image.",
@@ -1259,9 +1259,9 @@
       "stem": "For a given material, higher-energy radiation has an HVL that is:",
       "options": [
        "Thicker (more material needed to halve it)",
-       "Much thinner here, somehow really quite oddly",
-       "Fully zero here, somehow really quite",
-       "A negative value here, somehow really quite oddly"
+       "Much thinner here",
+       "Fully zero here",
+       "A negative value here"
       ],
       "answer": 0,
       "explanation": "Higher-energy photons penetrate more, so more material is needed to halve them; the HVL increases with energy.",
@@ -1337,9 +1337,9 @@
       "stem": "The photoelectric effect is most significant at:",
       "options": [
        "Lower photon energies and in higher-atomic-number materials",
-       "Only at very high energies here, somehow really quite oddly enough",
-       "Only ever at zero energy here, somehow really quite oddly now",
-       "Only above the pair production threshold here, somehow"
+       "Only at very high energies here",
+       "Only ever at zero energy here",
+       "Only above the pair production threshold here"
       ],
       "answer": 0,
       "explanation": "Photoelectric absorption dominates at lower energies and rises sharply with atomic number, which is why it contributes strongly to contrast on dense materials at low kV.",
@@ -1363,9 +1363,9 @@
       "stem": "Compton scattering is the dominant interaction at:",
       "options": [
        "Intermediate energies typical of much industrial radiography",
-       "Only ever at the very lowest energies here, somehow oddly",
-       "Only ever above 1.02 MeV here, somehow really quite oddly enough",
-       "Only ever at zero energy here, somehow really quite oddly enough"
+       "Only ever at the very lowest energies here",
+       "Only ever above 1.02 MeV here",
+       "Only ever at zero energy here"
       ],
       "answer": 0,
       "explanation": "Compton scattering dominates across the intermediate energy range common in industrial RT; it produces scattered radiation that degrades image quality.",
@@ -1467,9 +1467,9 @@
       "stem": "If a lead letter 'B' placed behind the cassette appears as a lighter image on the radiograph, it indicates:",
       "options": [
        "Excessive backscatter, and the radiograph may be unacceptable",
-       "Fully correct beam exposure here, somehow really quite oddly enough",
-       "Good overall image contrast here, somehow really quite oddly enough",
-       "Proper IQI placement here, somehow really quite oddly enough"
+       "Fully correct beam exposure here",
+       "Good overall image contrast here",
+       "Proper IQI placement here"
       ],
       "answer": 0,
       "explanation": "A light (lower-density) 'B' image means significant backscatter reached the film, signaling that backscatter protection must be improved.",
@@ -1493,9 +1493,9 @@
       "stem": "The inverse square law states that radiation intensity:",
       "options": [
        "Decreases with the square of the distance from the source",
-       "Greatly increases with the distance here, somehow oddly",
-       "Is fully independent of the distance here, somehow oddly",
-       "Decreases linearly with the whole distance here, somehow oddly"
+       "Greatly increases with the distance here",
+       "Is fully independent of the distance here",
+       "Decreases linearly with the whole distance here"
       ],
       "answer": 0,
       "explanation": "Doubling the distance reduces intensity to one quarter; this governs both exposure (SFD) and safe standoff distances.",
@@ -1571,9 +1571,9 @@
       "stem": "A denser material of the same thickness will attenuate radiation:",
       "options": [
        "More than a less dense material",
-       "Much less here, somehow oddly",
-       "Just the same here, somehow oddly",
-       "Not at all here, somehow quite oddly"
+       "Much less here",
+       "The same here",
+       "Not at all here"
       ],
       "answer": 0,
       "explanation": "Greater density means more atoms in the path, so more absorption and scatter and greater attenuation.",
@@ -1597,9 +1597,9 @@
       "stem": "Radiographic image contrast arises from differences in the part's:",
       "options": [
        "Thickness and density along the beam path",
-       "Outer color only here, somehow really quite",
-       "Surface finish only here, somehow oddly",
-       "Temperature only here, somehow quite oddly"
+       "Outer color only here",
+       "Surface finish only here",
+       "Temperature only here"
       ],
       "answer": 0,
       "explanation": "Variations in thickness and density change local attenuation, producing the density differences on the film that reveal features and flaws.",
@@ -1623,9 +1623,9 @@
       "stem": "Build-up refers to:",
       "options": [
        "Additional scattered radiation adding to the primary beam in thick sections",
-       "Just a plain loaded film artifact here, somehow really quite oddly enough now",
-       "Just plain radioactive source decay here, somehow really quite oddly enough now",
-       "Just plain tube filament aging here, somehow really quite oddly enough now"
+       "A plain loaded film artifact here",
+       "Radioactive source decay here",
+       "Tube filament aging here"
       ],
       "answer": 0,
       "explanation": "Build-up is the extra scattered radiation generated within a thick absorber that adds to the transmitted primary beam, affecting attenuation calculations.",
@@ -1649,9 +1649,9 @@
       "stem": "A metal filter placed at the X-ray tube port is used to:",
       "options": [
        "Absorb lower-energy photons and harden the beam",
-       "Greatly increase the scatter here, somehow oddly",
-       "Greatly lower the tube kV here, somehow oddly",
-       "Develop the whole loaded film here, somehow oddly"
+       "Greatly increase the scatter here",
+       "Greatly lower the tube kV here",
+       "Develop the whole loaded film here"
       ],
       "answer": 0,
       "explanation": "A filter removes softer (low-energy) photons, hardening the beam and reducing scatter and broad exposure latitude effects, at the cost of some intensity.",
@@ -1675,9 +1675,9 @@
       "stem": "Collimating the beam helps image quality by:",
       "options": [
        "Restricting the beam to the area of interest and reducing scatter",
-       "Greatly increasing the field size here, somehow really quite",
-       "Raising the source activity right up here, somehow really quite oddly",
-       "Fully removing the whole IQI here, somehow really quite oddly enough"
+       "Greatly increasing the field size here",
+       "Raising the source activity right up here",
+       "Fully removing the whole IQI here"
       ],
       "answer": 0,
       "explanation": "A collimator confines the beam to the region being radiographed, lowering scatter from surrounding material and reducing unnecessary exposure.",
@@ -1701,9 +1701,9 @@
       "stem": "Lead masking around a part during exposure is used to:",
       "options": [
        "Reduce scatter from radiation passing around the part",
-       "Greatly increase the whole film fog here, somehow oddly",
-       "Raise the whole tube kV right up here, somehow oddly",
-       "Greatly speed up the development here, somehow oddly"
+       "Greatly increase the whole film fog here",
+       "Raise the whole tube kV right up here",
+       "Greatly speed up the development here"
       ],
       "answer": 0,
       "explanation": "Masking absorbs radiation that would otherwise pass around the part and scatter back to the film, improving contrast on the edges and thin sections.",
@@ -1727,9 +1727,9 @@
       "stem": "Major sources of scattered radiation in radiography include:",
       "options": [
        "The part, the floor, walls, and nearby objects",
-       "Only ever the loaded film here, somehow oddly",
-       "Only ever the IQI here, somehow really quite oddly",
-       "Only ever the densitometer here, somehow oddly"
+       "Only ever the loaded film here",
+       "Only ever the IQI here",
+       "Only ever the densitometer here"
       ],
       "answer": 0,
       "explanation": "Scatter comes from the object and surrounding surfaces; controlling it involves collimation, masking, filters, and backscatter protection.",
@@ -1779,9 +1779,9 @@
       "stem": "Knowing a material's HVL for a given source lets you:",
       "options": [
        "Calculate the shielding thickness needed to reach a target dose rate",
-       "Set the loaded film's whole density here, somehow really quite oddly enough",
-       "Determine the source's half-life here, somehow really quite oddly",
-       "Choose the right film developer here, somehow really quite oddly enough"
+       "Set the loaded film's whole density here",
+       "Determine the source's half-life here",
+       "Choose the right film developer here"
       ],
       "answer": 0,
       "explanation": "Successive HVLs each halve the dose rate, so HVL data is used to compute shielding thickness for a desired reduction.",
@@ -1805,9 +1805,9 @@
       "stem": "Lead is widely used for radiation shielding because it:",
       "options": [
        "Has high density and high atomic number, strongly attenuating photons",
-       "Is fully transparent to all radiation here, somehow really quite oddly",
-       "Emits its own radiation here, somehow really quite oddly enough indeed now",
-       "Is extremely light here, somehow really quite oddly enough indeed now"
+       "Is fully transparent to all radiation here",
+       "Emits its own radiation here",
+       "Is extremely light here"
       ],
       "answer": 0,
       "explanation": "Lead's high density and atomic number make it an efficient absorber of X-rays and gamma rays per unit thickness.",
@@ -1831,9 +1831,9 @@
       "stem": "Concrete is often used for facility shielding because it:",
       "options": [
        "Provides attenuation in bulk at lower cost for walls",
-       "Has no shielding value at all here, somehow oddly",
-       "Is far lighter than plain air here, somehow oddly",
-       "Emits its own gamma rays here, somehow really quite oddly"
+       "Has no shielding value at all here",
+       "Is far lighter than plain air here",
+       "Emits its own gamma rays here"
       ],
       "answer": 0,
       "explanation": "Concrete attenuates radiation and is economical for large structural barriers, though more thickness is needed than for lead.",
@@ -1935,9 +1935,9 @@
       "stem": "If the chosen energy is too low for the part thickness, the radiograph will likely be:",
       "options": [
        "Underexposed with inadequate penetration",
-       "Fully overexposed here, somehow oddly",
-       "Perfectly exposed here, somehow oddly",
-       "Fully free of scatter here, somehow oddly"
+       "Fully overexposed here",
+       "Perfectly exposed here",
+       "Fully free of scatter here"
       ],
       "answer": 0,
       "explanation": "Insufficient energy fails to penetrate the section, leaving the film underexposed and lacking a usable image of the interior.",
@@ -2039,9 +2039,9 @@
       "stem": "Compton scattering depends mainly on:",
       "options": [
        "Electron density, with little dependence on atomic number",
-       "The atomic number cubed here, somehow really quite oddly enough",
-       "The outer color here, somehow really quite oddly enough",
-       "The loaded film type here, somehow really quite oddly enough now"
+       "The atomic number cubed here",
+       "The outer color here",
+       "The loaded film type here"
       ],
       "answer": 0,
       "explanation": "Compton interaction scales with electron density (and so with material density) and is nearly independent of atomic number, dominating mid energies.",
@@ -2117,9 +2117,9 @@
       "stem": "Adding one HVL of absorber between source and film requires the exposure to be increased by about:",
       "options": [
        "A factor of two (other factors equal)",
-       "Just half here, somehow really quite oddly",
-       "No change here, somehow quite oddly now",
-       "A factor of ten here, somehow oddly"
+       "Half here",
+       "No change here",
+       "A factor of ten here"
       ],
       "answer": 0,
       "explanation": "One HVL halves the transmitted intensity, so roughly double the exposure restores the same film density, all else equal.",
@@ -2221,9 +2221,9 @@
       "stem": "Which statement about attenuation is correct?",
       "options": [
        "Attenuation increases with thickness and density and decreases with higher energy",
-       "Attenuation is fully independent of the photon energy here, somehow really quite oddly",
-       "Denser, heavier material always attenuates far less here, somehow really quite oddly",
-       "Thicker, heavier material always attenuates far less here, somehow really quite"
+       "Attenuation is fully independent of the photon energy here",
+       "Denser, heavier material always attenuates far less here",
+       "Thicker, heavier material always attenuates far less here"
       ],
       "answer": 0,
       "explanation": "More thickness and density attenuate more, while higher energy penetrates more (less attenuation per unit thickness).",
@@ -2253,9 +2253,9 @@
       "stem": "The main components of an X-ray machine include the:",
       "options": [
        "Tube head (with cathode and anode), high-voltage supply, and control unit",
-       "The gamma source projector and its drive pigtail cable here, somehow",
-       "Only the loaded film and the film developer here, somehow really quite oddly",
-       "Only a survey meter and a personal dosimeter here, somehow really quite oddly"
+       "The gamma source projector and its drive pigtail cable here",
+       "Only the loaded film and the film developer here",
+       "Only a survey meter and a personal dosimeter here"
       ],
       "answer": 0,
       "explanation": "An X-ray system has a tube (cathode/anode) in a head, a high-voltage generator, and a control unit setting kV, mA, and time.",
@@ -2279,9 +2279,9 @@
       "stem": "A constant-potential X-ray unit is characterized by:",
       "options": [
        "A nearly steady voltage across the tube for consistent output",
-       "A purely pulsed output only here, somehow really quite oddly",
-       "No high voltage at all here, somehow really quite oddly enough",
-       "Plain gamma emission here, somehow really quite oddly enough indeed"
+       "A purely pulsed output only here",
+       "No high voltage at all here",
+       "Gamma emission here"
       ],
       "answer": 0,
       "explanation": "Constant-potential units maintain a near-steady tube voltage, giving stable, efficient output useful for consistent industrial exposures.",
@@ -2305,9 +2305,9 @@
       "stem": "A gamma-ray exposure device (projector) functions to:",
       "options": [
        "Shield the source and allow it to be driven to the exposure position",
-       "Generate X-rays purely electrically here, somehow really quite",
-       "Develop out the loaded film here, somehow really quite oddly enough indeed",
-       "Measure the radiation dose here, somehow really quite oddly enough indeed"
+       "Generate X-rays purely electrically here",
+       "Develop out the loaded film here",
+       "Measure the radiation dose here"
       ],
       "answer": 0,
       "explanation": "The projector stores the source shielded and lets the operator crank it out through a guide tube to the exposure position and back.",
@@ -2357,9 +2357,9 @@
       "stem": "Radiographic film consists of an emulsion of:",
       "options": [
        "Silver halide crystals on a base, usually coated both sides",
-       "Plain lead foil only here, somehow really quite oddly enough",
-       "Just phosphor only here, somehow really quite oddly enough",
-       "Plain paper only here, somehow really quite oddly enough indeed"
+       "Lead foil only here",
+       "Phosphor only here",
+       "Paper only here"
       ],
       "answer": 0,
       "explanation": "Industrial film has light- and radiation-sensitive silver halide emulsion (typically double-coated) on a transparent base; exposure forms a latent image developed into metallic silver.",
@@ -2383,9 +2383,9 @@
       "stem": "Lead foil intensifying screens in direct contact with film:",
       "options": [
        "Intensify the image with photoelectrons and absorb some scatter",
-       "Fully replace the loaded film here, somehow really quite oddly enough",
-       "Only ever fog up the film here, somehow really quite oddly enough",
-       "Lower the whole exposure quality here, somehow really quite"
+       "Fully replace the loaded film here",
+       "Only ever fog up the film here",
+       "Lower the whole exposure quality here"
       ],
       "answer": 0,
       "explanation": "Lead screens emit photoelectrons that add to the film exposure (intensification) and absorb longer-wavelength scatter, improving quality, when in tight contact with the film.",
@@ -2409,9 +2409,9 @@
       "stem": "Fluorescent (salt) screens differ from lead screens in that they:",
       "options": [
        "Emit visible light to expose the film, giving speed but lower definition",
-       "Emit no light at all whatsoever here, somehow really quite oddly enough indeed",
-       "Are made fully out of lead here, somehow really quite oddly enough indeed",
-       "Improve definition over lead screens here, somehow really quite oddly"
+       "Emit no light at all whatsoever here",
+       "Are made fully out of lead here",
+       "Improve definition over lead screens here"
       ],
       "answer": 0,
       "explanation": "Fluorescent screens glow under radiation, greatly increasing speed (shorter exposure) but reducing definition compared with lead screens, so they are used where speed matters more than fine detail.",
@@ -2487,9 +2487,9 @@
       "stem": "A densitometer is used to:",
       "options": [
        "Measure the optical density of a processed radiograph",
-       "Measure the whole radiation dose here, somehow oddly",
-       "Crank the gamma source right out here, somehow oddly",
-       "Set the X-ray tube's kV level here, somehow quite oddly"
+       "Measure the whole radiation dose here",
+       "Crank the gamma source right out here",
+       "Set the X-ray tube's kV level here"
       ],
       "answer": 0,
       "explanation": "A densitometer reads the optical density (degree of film darkening) to verify the radiograph meets density requirements.",
@@ -2513,9 +2513,9 @@
       "stem": "A step wedge or density strip is used to:",
       "options": [
        "Calibrate or verify densitometer and viewing performance",
-       "Generate the whole radiation beam here, somehow really quite",
-       "House the gamma source here, somehow really quite oddly enough",
-       "Fully shield the personnel here, somehow really quite"
+       "Generate the whole radiation beam here",
+       "House the gamma source here",
+       "Fully shield the personnel here"
       ],
       "answer": 0,
       "explanation": "A calibrated step tablet provides known densities to verify densitometer calibration and film-viewing conditions.",
@@ -2539,9 +2539,9 @@
       "stem": "A radiographic film viewer (illuminator) must provide:",
       "options": [
        "Sufficient, adjustable light to view the required density range",
-       "Only ultraviolet light here, somehow really quite oddly enough indeed",
-       "Penetrating radiation here, somehow really quite oddly enough indeed",
-       "A static magnetic field here, somehow really quite oddly"
+       "Only ultraviolet light here",
+       "Penetrating radiation here",
+       "A static magnetic field here"
       ],
       "answer": 0,
       "explanation": "A high-intensity, adjustable illuminator is needed so dense radiographs can be viewed with adequate brightness across the density range.",
@@ -2565,9 +2565,9 @@
       "stem": "In computed radiography (CR), the image is captured on a:",
       "options": [
        "Reusable photostimulable phosphor imaging plate, then laser-scanned",
-       "A single sheet of plain silver halide film here, somehow really quite",
-       "A solid lead intensifying screen here, somehow really quite oddly enough",
-       "A glowing fluorescent salt screen here, somehow really quite oddly"
+       "A single sheet of plain silver halide film here",
+       "A solid lead intensifying screen here",
+       "A glowing fluorescent salt screen here"
       ],
       "answer": 0,
       "explanation": "CR uses a storage-phosphor imaging plate that holds a latent image; a laser scanner reads it out to a digital image, and the plate is erased and reused.",
@@ -2591,9 +2591,9 @@
       "stem": "Digital radiography (DR) using a flat-panel detector:",
       "options": [
        "Converts radiation to a digital image directly, without a separate scan step",
-       "Fully requires wet chemical processing here, somehow really quite oddly",
-       "Uses no detector at all whatsoever here, somehow really quite oddly enough indeed",
-       "Produces only plain film here, somehow really quite oddly enough indeed here right"
+       "Fully requires wet chemical processing here",
+       "Uses no detector at all whatsoever here",
+       "Produces only plain film here"
       ],
       "answer": 0,
       "explanation": "DR flat-panel detectors capture the image electronically and display it on a computer in near real time, without the CR scanning step or film processing.",
@@ -2617,9 +2617,9 @@
       "stem": "A general advantage of digital detectors (CR/DR) over film is:",
       "options": [
        "No wet chemical processing and easier image storage/transmission",
-       "Always a far lower cost here, somehow really quite oddly enough indeed",
-       "No need for radiation at all here, somehow really quite oddly enough",
-       "Full immunity to all artifacts here, somehow really quite oddly"
+       "Always a far lower cost here",
+       "No need for radiation at all here",
+       "Full immunity to all artifacts here"
       ],
       "answer": 0,
       "explanation": "Digital systems eliminate darkroom chemistry and make images easy to store, enhance, and transmit, though equipment cost and technique still matter.",
@@ -2643,9 +2643,9 @@
       "stem": "A source changer is equipment used to:",
       "options": [
        "Safely transfer a gamma source to or from a projector",
-       "Develop out the loaded film here, somehow really quite oddly",
-       "Measure the whole film's density here, somehow oddly",
-       "Set the whole exposure time here, somehow really quite"
+       "Develop out the loaded film here",
+       "Measure the whole film's density here",
+       "Set the whole exposure time here"
       ],
       "answer": 0,
       "explanation": "A shielded source changer allows a new source to be loaded into a projector and an old one removed under controlled, shielded conditions.",
@@ -2669,9 +2669,9 @@
       "stem": "In gamma radiography, the guide tube directs the source from the projector to the:",
       "options": [
        "Exposure (collimator) position at the part",
-       "The whole darkroom here, somehow really quite",
-       "The survey meter here, somehow quite",
-       "The densitometer here, somehow quite oddly now"
+       "The whole darkroom here",
+       "The survey meter here",
+       "The densitometer here"
       ],
       "answer": 0,
       "explanation": "The flexible guide tube routes the source from the shielded projector out to the exposure head at the part, then the source is retracted afterward.",
@@ -2695,9 +2695,9 @@
       "stem": "The remote crank/drive assembly on a gamma projector exists to:",
       "options": [
        "Move the source out and back from a safe distance",
-       "Greatly increase the source energy here, oddly",
-       "Develop out the whole loaded film here, somehow oddly",
-       "Measure the whole radiation dose here, somehow oddly"
+       "Greatly increase the source energy here",
+       "Develop out the whole loaded film here",
+       "Measure the whole radiation dose here"
       ],
       "answer": 0,
       "explanation": "The drive cable and crank let the operator position and retract the source from a distance, reducing exposure compared with handling the source directly.",
@@ -2722,7 +2722,7 @@
       "options": [
        "Larger grain and lower definition than slower film",
        "Finer grain and far higher definition here now",
-       "No grain at all here, somehow really quite oddly enough",
+       "No grain at all here",
        "No real relation to the definition here right now"
       ],
       "answer": 0,
@@ -2747,9 +2747,9 @@
       "stem": "Industrial film system classes (per standards such as ASTM E1815) are based primarily on:",
       "options": [
        "Granularity and contrast/speed characteristics",
-       "The whole cassette color here, somehow oddly",
-       "The radiation source type here, somehow oddly",
-       "The film developer brand here, somehow quite oddly"
+       "The whole cassette color here",
+       "The radiation source type here",
+       "The film developer brand here"
       ],
       "answer": 0,
       "explanation": "Film systems are classified by performance characteristics such as granularity and gradient (contrast and speed), guiding selection for required quality.",
@@ -2773,9 +2773,9 @@
       "stem": "Front and back lead screen thicknesses are selected based on:",
       "options": [
        "Radiation energy, to intensify and filter scatter appropriately",
-       "The loaded film's color here, somehow really quite oddly enough indeed",
-       "The whole room temperature here, somehow really quite oddly",
-       "The source's half-life here, somehow really quite oddly enough indeed"
+       "The loaded film's color here",
+       "The whole room temperature here",
+       "The source's half-life here"
       ],
       "answer": 0,
       "explanation": "Higher energies use thicker lead screens; the front screen filters scatter and the back screen absorbs backscatter, with thickness matched to energy.",
@@ -2799,9 +2799,9 @@
       "stem": "Fluorometallic screens combine:",
       "options": [
        "A lead foil with a fluorescent layer to balance speed and definition",
-       "Just two fluorescent salt layers only here, somehow really quite oddly",
-       "No lead and no phosphor at all here, somehow really quite oddly enough now",
-       "Just plain film and developer here, somehow really quite oddly"
+       "Two fluorescent salt layers only here",
+       "No lead and no phosphor at all here",
+       "Film and developer here"
       ],
       "answer": 0,
       "explanation": "Fluorometallic screens pair lead and phosphor to gain some speed while retaining more definition than pure fluorescent screens.",
@@ -2825,9 +2825,9 @@
       "stem": "A panoramic (rod-anode) X-ray tube is used to:",
       "options": [
        "Expose a full circumferential weld from inside the pipe in one shot",
-       "Develop out the loaded film here, somehow really quite oddly",
-       "Measure the whole film's density here, somehow really quite oddly enough",
-       "Fully shield the standing operator here, somehow really quite oddly enough"
+       "Develop out the loaded film here",
+       "Measure the whole film's density here",
+       "Fully shield the standing operator here"
       ],
       "answer": 0,
       "explanation": "A panoramic tube placed at the center of a pipe exposes the entire circumferential weld at once with the film wrapped outside, improving efficiency.",
@@ -2903,9 +2903,9 @@
       "stem": "Unexposed radiographic film must be stored:",
       "options": [
        "Away from radiation, heat, humidity, and chemical fumes",
-       "Right next to the live gamma source here, somehow oddly",
-       "Out in the direct full sunlight here, somehow oddly",
-       "Down in the developer tank here, somehow really quite oddly"
+       "Right next to the live gamma source here",
+       "Out in the direct full sunlight here",
+       "Down in the developer tank here"
       ],
       "answer": 0,
       "explanation": "Film is protected from stray radiation, heat, humidity, and fumes, all of which can fog or degrade it before use.",
@@ -3007,9 +3007,9 @@
       "stem": "Selecting between an X-ray machine and a gamma source depends on:",
       "options": [
        "Access, power availability, thickness, and quality required",
-       "Only ever the operator's own preference here, somehow oddly",
-       "Only the loaded film's color here, somehow really quite oddly",
-       "Only the room's wall paint here, somehow really quite oddly enough"
+       "Only ever the operator's own preference here",
+       "Only the loaded film's color here",
+       "Only the room's wall paint here"
       ],
       "answer": 0,
       "explanation": "The choice weighs site access and portability, available power, material thickness and energy needed, and the image quality required.",
@@ -3033,9 +3033,9 @@
       "stem": "A microfocus or minifocus X-ray tube is valued for:",
       "options": [
        "Very small focal spot enabling high definition and projection magnification",
-       "A very high output tube current here, somehow really quite oddly enough indeed now",
-       "Plain gamma emission only here, somehow really quite oddly enough indeed",
-       "No need for any shielding here, somehow really quite oddly enough indeed here now"
+       "A very high output tube current here",
+       "Gamma emission only here",
+       "No need for any shielding here"
       ],
       "answer": 0,
       "explanation": "A very small focal spot reduces geometric unsharpness and permits projection magnification techniques, at the cost of limited tube current.",
@@ -3085,9 +3085,9 @@
       "stem": "Lead identification letters and numbers placed on the part appear on the film to:",
       "options": [
        "Identify the part, weld, and location for traceability",
-       "Fully shield the standing operator here, somehow oddly",
-       "Develop out the whole image here, somehow really quite oddly",
-       "Measure the radiation dose here, somehow really quite oddly"
+       "Fully shield the standing operator here",
+       "Develop out the whole image here",
+       "Measure the radiation dose here"
       ],
       "answer": 0,
       "explanation": "Lead markers record part and location identification directly on the radiograph, providing traceable identification of what was imaged.",
@@ -3137,9 +3137,9 @@
       "stem": "Added filtration at the tube port is part of the:",
       "options": [
        "X-ray equipment configuration to shape beam quality",
-       "The whole film processing chain here, somehow oddly",
-       "The whole dosimetry system here, somehow quite oddly",
-       "The whole darkroom here, somehow really quite oddly enough"
+       "The whole film processing chain here",
+       "The whole dosimetry system here",
+       "The whole darkroom here"
       ],
       "answer": 0,
       "explanation": "Filters are mounted at the tube port to harden the beam and reduce scatter, a configurable part of the X-ray equipment.",
@@ -3163,9 +3163,9 @@
       "stem": "Digital radiographic images are archived as:",
       "options": [
        "Electronic image files with associated data",
-       "Plain wet film only here, somehow quite oddly",
-       "Solid lead plates only here, somehow oddly",
-       "Plain audio recordings here, somehow oddly"
+       "Wet film only here",
+       "Solid lead plates only here",
+       "Audio recordings here"
       ],
       "answer": 0,
       "explanation": "Digital images are stored as electronic files (often with technique and traceability data), simplifying retrieval and transmission.",
@@ -3189,9 +3189,9 @@
       "stem": "Intensifying screens must be kept clean because dirt or scratches:",
       "options": [
        "Appear as artifacts on every radiograph made with them",
-       "Greatly improve the whole contrast here, somehow oddly",
-       "Greatly increase the whole penetration here, somehow oddly",
-       "Fully shield the standing operator here, somehow oddly"
+       "Greatly improve the whole contrast here",
+       "Greatly increase the whole penetration here",
+       "Fully shield the standing operator here"
       ],
       "answer": 0,
       "explanation": "Because screens contact the film, any debris or damage reproduces as artifacts on the radiographs, so screens are inspected and cleaned.",
@@ -3215,9 +3215,9 @@
       "stem": "A tube rating chart specifies the safe combinations of:",
       "options": [
        "kV, mA, and time the tube can handle without overheating",
-       "The loaded film and its developer here, somehow oddly",
-       "The source's various half-lives here, somehow quite oddly",
-       "The IQI's various sizes here, somehow really quite oddly"
+       "The loaded film and its developer here",
+       "The source's various half-lives here",
+       "The IQI's various sizes here"
       ],
       "answer": 0,
       "explanation": "Tube rating charts define allowable kV/mA/time combinations to keep the target within thermal limits.",
@@ -3241,9 +3241,9 @@
       "stem": "Safety interlocks and warning lights on X-ray enclosures serve to:",
       "options": [
        "Prevent exposure when access doors are open and warn when radiation is on",
-       "Develop out the whole loaded film here, somehow really quite oddly",
-       "Greatly increase the tube mA here, somehow really quite oddly enough indeed now",
-       "Measure the film's density here, somehow really quite oddly enough indeed now"
+       "Develop out the whole loaded film here",
+       "Greatly increase the tube mA here",
+       "Measure the film's density here"
       ],
       "answer": 0,
       "explanation": "Interlocks shut off the beam if a door opens, and warning lights signal when radiation is being produced, protecting personnel.",
@@ -3267,9 +3267,9 @@
       "stem": "Which pairing is correct?",
       "options": [
        "Densitometer measures film density; survey meter measures radiation; projector houses a gamma source",
-       "The densitometer is actually what houses the whole gamma source itself here, somehow really quite oddly",
-       "The survey meter is actually what develops the whole loaded film here, somehow really quite oddly enough",
-       "The projector is actually what measures the whole film density here, somehow really quite oddly"
+       "The densitometer is actually what houses the whole gamma source itself here",
+       "The survey meter is actually what develops the whole loaded film here",
+       "The projector is actually what measures the whole film density here"
       ],
       "answer": 0,
       "explanation": "A densitometer reads film density, a survey meter measures radiation levels, and a gamma projector shields and deploys the source.",
@@ -3299,9 +3299,9 @@
       "stem": "The principal X-ray exposure factors are:",
       "options": [
        "Kilovoltage, milliamperage, time, and source-to-film distance",
-       "The film developer brand and the film color only here, somehow oddly",
-       "The source half-life and its total activity here, somehow oddly",
-       "The whole room temperature and humidity here, somehow oddly"
+       "The film developer brand and the film color only here",
+       "The source half-life and its total activity here",
+       "The whole room temperature and humidity here"
       ],
       "answer": 0,
       "explanation": "Exposure is governed by kV (energy), mA and time (quantity), and the source-to-film distance, which together set film density and quality.",
@@ -3403,9 +3403,9 @@
       "stem": "If the source-to-film distance is increased, film density (other factors fixed) will:",
       "options": [
        "Decrease, following the inverse square law",
-       "Greatly increase here, somehow really quite oddly",
-       "Stay just the same here, somehow quite oddly",
-       "Become a negative value here, oddly"
+       "Greatly increase here",
+       "Stay just the same here",
+       "Become a negative value here"
       ],
       "answer": 0,
       "explanation": "Greater SFD lowers the intensity at the film as 1 over distance squared, reducing density unless exposure is increased to compensate.",
@@ -3455,9 +3455,9 @@
       "stem": "Subject contrast is determined mainly by:",
       "options": [
        "Part thickness/density differences and the radiation energy",
-       "The loaded film type only here, somehow really quite oddly enough",
-       "The film developer brand here, somehow really quite oddly enough",
-       "The whole cassette color here, somehow really quite oddly"
+       "The loaded film type only here",
+       "The film developer brand here",
+       "The whole cassette color here"
       ],
       "answer": 0,
       "explanation": "Subject contrast comes from how much the part's thickness and density vary along the beam, combined with the radiation energy (lower energy gives more subject contrast).",
@@ -3559,9 +3559,9 @@
       "stem": "Geometric unsharpness (Ug) is calculated as:",
       "options": [
        "Ug = F t / d (source size times object-to-film distance over source-to-object distance)",
-       "Ug = d / (F t) only here, somehow really quite oddly enough indeed here right now today",
-       "Ug = F + t + d only here, somehow really quite oddly enough indeed here right now today",
-       "Ug = kV times mA only here, somehow really quite oddly enough indeed here right now today now"
+       "Ug = d / (F t) only here",
+       "Ug = F + t + d only here",
+       "Ug = kV times mA only here"
       ],
       "answer": 0,
       "explanation": "Geometric unsharpness equals the source (focal-spot) size F times the object-to-film distance t, divided by the source-to-object distance d.",
@@ -3585,9 +3585,9 @@
       "stem": "Geometric unsharpness is reduced by:",
       "options": [
        "A smaller source, greater source-to-object distance, and the part close to the film",
-       "A much larger radiation source size here, somehow really quite oddly enough indeed now",
-       "A much greater object-to-film distance here, somehow really quite oddly enough now",
-       "Moving the whole part far away from the film here, somehow really quite oddly enough"
+       "A much larger radiation source size here",
+       "A much greater object-to-film distance here",
+       "Moving the whole part far away from the film here"
       ],
       "answer": 0,
       "explanation": "Smaller F, larger d, and smaller t all reduce Ug, so a small source far from the part with the part near the film gives the sharpest image.",
@@ -3611,9 +3611,9 @@
       "stem": "For the same geometry, a larger focal spot or source size produces:",
       "options": [
        "More geometric unsharpness (blurrier image)",
-       "Far less unsharpness here, somehow oddly",
-       "Much higher contrast here, somehow oddly",
-       "No change in the sharpness here, somehow oddly"
+       "Far less unsharpness here",
+       "Much higher contrast here",
+       "No change in the sharpness here"
       ],
       "answer": 0,
       "explanation": "Since Ug is proportional to source size F, a larger source increases the penumbra and blurs detail.",
@@ -3663,8 +3663,8 @@
       "stem": "Increasing the source-to-object distance, with other geometry fixed:",
       "options": [
        "Reduces geometric unsharpness but lowers intensity",
-       "Greatly increases the whole unsharpness here, oddly",
-       "Greatly raises the whole intensity here, oddly",
+       "Greatly increases the whole unsharpness here",
+       "Greatly raises the whole intensity here",
        "Greatly changes the source half-life here now"
       ],
       "answer": 0,
@@ -3689,9 +3689,9 @@
       "stem": "A radiographic exposure chart relates:",
       "options": [
        "Material thickness, kV, and exposure for a given film density and SFD",
-       "The source's whole half-life to the loaded film's color here, somehow oddly",
-       "Just the whole dose to the distance only here, somehow really quite oddly",
-       "Just the developer to the fixer ratio here, somehow really quite"
+       "The source's whole half-life to the loaded film's color here",
+       "The whole dose to the distance only here",
+       "The developer to the fixer ratio here"
       ],
       "answer": 0,
       "explanation": "Exposure charts let the radiographer pick kV and exposure for a thickness to achieve the target density at a stated SFD and film/screen setup.",
@@ -3741,9 +3741,9 @@
       "stem": "The output of a gamma source is sometimes described by its RHM, which is the:",
       "options": [
        "Roentgens per hour at one meter for a given activity",
-       "Just the source half-life in hours here, somehow",
-       "Just the film density at one meter here, somehow oddly",
-       "Just the required tube mA at one meter here, somehow oddly"
+       "The source half-life in hours here",
+       "The film density at one meter here",
+       "The required tube mA at one meter here"
       ],
       "answer": 0,
       "explanation": "RHM (roentgens per hour at one meter) expresses a source's exposure-rate output per unit activity, useful for exposure and safety calculations.",
@@ -3767,9 +3767,9 @@
       "stem": "For direct-exposure (non-fluorescent-screen) industrial film, the reciprocity law means that:",
       "options": [
        "The same mA-time product gives the same density regardless of how it is split",
-       "The whole density depends only ever on the time here, somehow really quite oddly",
-       "The whole density depends only ever on the mA here, somehow really quite oddly",
-       "Reciprocity simply never holds at all here, somehow really quite oddly"
+       "The whole density depends only ever on the time here",
+       "The whole density depends only ever on the mA here",
+       "Reciprocity simply never holds at all here"
       ],
       "answer": 0,
       "explanation": "With direct or lead-screen film, density depends on the total exposure (intensity times time), so trading intensity for time keeps density constant; reciprocity failure is mainly a concern with fluorescent screens.",
@@ -3793,9 +3793,9 @@
       "stem": "Typical acceptable radiographic density over the area of interest is commonly in the range of about:",
       "options": [
        "1.8 to 4.0 (per the governing code)",
-       "About 0.1 to 0.3 only here, oddly now",
-       "About 5.0 to 7.0 only here, oddly",
-       "Just any density value here, oddly"
+       "About 0.1 to 0.3 only here",
+       "About 5.0 to 7.0 only here",
+       "Any density value here"
       ],
       "answer": 0,
       "explanation": "Many codes require density roughly between 1.8 and 4.0 in the area of interest. The minimum varies with the code and source: some codes set it at 1.8 for X-ray and 2.0 for gamma, with the exact minimum and maximum fixed by the governing specification.",
@@ -3871,9 +3871,9 @@
       "stem": "High-contrast (low-kV) techniques generally have:",
       "options": [
        "Narrow latitude, so a smaller thickness range is well exposed at once",
-       "A very wide whole latitude here, somehow really quite oddly enough indeed",
-       "No real effect on the latitude here, somehow really quite oddly enough now",
-       "Fully identical results to high-kV here, somehow really quite oddly"
+       "A very wide whole latitude here",
+       "No real effect on the latitude here",
+       "Fully identical results to high-kV here"
       ],
       "answer": 0,
       "explanation": "High contrast comes with narrow exposure latitude; higher kV gives lower contrast but wider latitude, covering more thickness range in one exposure.",
@@ -3897,9 +3897,9 @@
       "stem": "Adequate contrast and definition are verified on each radiograph by:",
       "options": [
        "The image quality indicator (IQI) sensitivity achieved",
-       "The whole cassette's color here, somehow really quite oddly",
-       "The source's whole serial number here, somehow quite",
-       "The whole room temperature here, somehow really quite oddly"
+       "The whole cassette's color here",
+       "The source's whole serial number here",
+       "The whole room temperature here"
       ],
       "answer": 0,
       "explanation": "The visibility of the required IQI feature confirms that the radiograph has sufficient contrast and definition (sensitivity).",
@@ -3949,9 +3949,9 @@
       "stem": "Density must be reasonably uniform over the area of interest so that:",
       "options": [
        "All required thicknesses are within the acceptable density range",
-       "The whole loaded film just looks darker here, somehow really quite",
-       "The scatter is greatly increased here, somehow really quite",
-       "The whole source decays much faster here, somehow really quite oddly"
+       "The whole loaded film just looks darker here",
+       "The scatter is greatly increased here",
+       "The whole source decays much faster here"
       ],
       "answer": 0,
       "explanation": "Uniform, in-range density ensures the entire region of interest is interpretable; large density variation can push parts of the image out of range.",
@@ -4001,9 +4001,9 @@
       "stem": "Projection magnification radiography (part moved away from the film) requires:",
       "options": [
        "A very small (micro) focal spot to keep unsharpness acceptable",
-       "A very large radiation source here, somehow really quite oddly enough",
-       "No radiation source at all here, somehow really quite oddly",
-       "Only fluorescent screens here, somehow really quite oddly enough now"
+       "A very large radiation source here",
+       "No radiation source at all here",
+       "Only fluorescent screens here"
       ],
       "answer": 0,
       "explanation": "Because increasing object-to-film distance raises Ug, magnification techniques rely on a microfocus source to keep geometric unsharpness low.",
@@ -4053,9 +4053,9 @@
       "stem": "An 'exposure factor' or 'radiographic equivalence factor' helps the radiographer:",
       "options": [
        "Adjust exposure between different materials or energies",
-       "Measure the whole dose rate here, somehow really quite",
-       "Read off the film density here, somehow really quite oddly now",
-       "Set the source half-life here, somehow really quite oddly"
+       "Measure the whole dose rate here",
+       "Read off the film density here",
+       "Set the source half-life here"
       ],
       "answer": 0,
       "explanation": "Equivalence factors convert exposures between materials (or relate energies), letting a chart for one material guide exposure for another.",
@@ -4079,9 +4079,9 @@
       "stem": "A minimum source-to-film distance is often specified to:",
       "options": [
        "Keep geometric unsharpness within acceptable limits",
-       "Greatly increase the whole scatter here, somehow oddly",
-       "Greatly shorten the whole exposure here, oddly now",
-       "Greatly raise the whole tube kV here, somehow oddly"
+       "Greatly increase the whole scatter here",
+       "Greatly shorten the whole exposure here",
+       "Greatly raise the whole tube kV here"
       ],
       "answer": 0,
       "explanation": "Specifying a minimum SFD (or source-to-object distance) limits Ug so the radiograph meets sharpness requirements.",
@@ -4105,9 +4105,9 @@
       "stem": "Quantum mottle (graininess from too few photons) is worsened by:",
       "options": [
        "Very fast systems and very short exposures with few photons",
-       "Plain slow, fine-grain film here, somehow really quite oddly",
-       "Longer exposures with adequate photons here, somehow oddly",
-       "Just a lower kV alone here, somehow really quite oddly enough now"
+       "Slow, fine-grain film here",
+       "Longer exposures with adequate photons here",
+       "A lower kV alone here"
       ],
       "answer": 0,
       "explanation": "When too few photons form the image (fast screens, very short exposures), statistical fluctuation shows as mottle; adequate photon numbers reduce it.",
@@ -4158,7 +4158,7 @@
       "options": [
        "Transmit different amounts of radiation to the film",
        "Reflect the visible light quite differently here now",
-       "Plainly emit sound waves here, somehow really",
+       "Plainly emit sound waves here",
        "Change the whole film color chemically by contact here"
       ],
       "answer": 0,
@@ -4183,7 +4183,7 @@
       "stem": "Choosing kV too low for a thickness will:",
       "options": [
        "Fail to penetrate, underexposing the image",
-       "Greatly over-penetrate here, somehow oddly",
+       "Greatly over-penetrate here",
        "Increase the definition without any limit",
        "Fully eliminate all of the scatter here now"
       ],
@@ -4209,9 +4209,9 @@
       "stem": "Higher radiographic contrast generally improves the detectability of:",
       "options": [
        "Small differences in thickness, such as fine discontinuities",
-       "Only ever the very large voids here, somehow really quite oddly",
-       "Nothing at all here, somehow really quite oddly enough indeed",
-       "Only the scatter here, somehow really quite oddly enough"
+       "Only ever the very large voids here",
+       "Nothing at all here",
+       "Only the scatter here"
       ],
       "answer": 0,
       "explanation": "Greater contrast makes small attenuation differences more visible, improving sensitivity to subtle discontinuities, within the limits of latitude.",
@@ -4261,9 +4261,9 @@
       "stem": "Producing a quality radiograph requires balancing:",
       "options": [
        "Density, contrast, definition, and acceptable distortion together",
-       "Only ever the whole film density here, somehow really quite oddly enough",
-       "Only ever the contrast here, somehow really quite oddly enough indeed",
-       "Only the whole exposure time here, somehow really quite oddly"
+       "Only ever the whole film density here",
+       "Only ever the contrast here",
+       "Only the whole exposure time here"
       ],
       "answer": 0,
       "explanation": "Quality is the combined result of adequate density, sufficient contrast and definition, and controlled distortion, all verified by the IQI.",
@@ -4313,9 +4313,9 @@
       "stem": "Which statement is correct?",
       "options": [
        "kV sets energy/penetration; mA-time sets quantity; SFD affects intensity by inverse square; Ug = F t / d",
-       "The tube mA is what sets the energy while the kV is what sets the quantity here, somehow really quite oddly",
-       "The whole source-to-film distance has no real effect on the density here, somehow really quite oddly enough",
-       "Ug is simply equal to kV divided by the mA here, somehow really quite oddly enough indeed here right now"
+       "The tube mA is what sets the energy while the kV is what sets the quantity here",
+       "The whole source-to-film distance has no real effect on the density here",
+       "Ug is simply equal to kV divided by the mA here"
       ],
       "answer": 0,
       "explanation": "kV controls energy and penetration, mA and time control quantity, SFD affects intensity by the inverse square law, and geometric unsharpness is F t / d.",
@@ -4345,9 +4345,9 @@
       "stem": "Exposure of radiographic film creates a:",
       "options": [
        "Latent image in the silver halide that processing makes visible",
-       "A permanent fully visible image instantly here, somehow really quite",
-       "A stored magnetic image here, somehow really quite oddly enough indeed",
-       "A plain sound recording here, somehow really quite oddly"
+       "A permanent fully visible image instantly here",
+       "A stored magnetic image here",
+       "A plain sound recording here"
       ],
       "answer": 0,
       "explanation": "Radiation alters silver halide crystals to form an invisible latent image; development converts exposed crystals to metallic silver, making the image visible.",
@@ -4397,9 +4397,9 @@
       "stem": "The developer solution:",
       "options": [
        "Reduces exposed silver halide to metallic silver, forming the image",
-       "Removes the unexposed silver halide here, somehow really quite",
-       "Stops the development here, somehow really quite oddly enough indeed",
-       "Dries the film here, somehow really quite oddly enough indeed here right"
+       "Removes the unexposed silver halide here",
+       "Stops the development here",
+       "Dries the film here"
       ],
       "answer": 0,
       "explanation": "The developer chemically reduces the exposed (latent-image) crystals to black metallic silver; unexposed crystals are left for the fixer to remove.",
@@ -4423,9 +4423,9 @@
       "stem": "The fixer (hypo):",
       "options": [
        "Removes undeveloped silver halide and makes the image permanent",
-       "Develops out the whole image here, somehow really quite oddly enough",
-       "Increases the density here, somehow really quite oddly enough indeed",
-       "Fully replaces the washing here, somehow really quite oddly"
+       "Develops out the whole image here",
+       "Increases the density here",
+       "Fully replaces the washing here"
       ],
       "answer": 0,
       "explanation": "The fixer dissolves the remaining unexposed halide so the image is stable and the clear areas stay clear; it does not develop the image.",
@@ -4449,9 +4449,9 @@
       "stem": "The stop bath (or rinse) between developer and fixer serves to:",
       "options": [
        "Halt development and reduce carryover into the fixer",
-       "Develop out the whole image here, somehow really quite",
-       "Dry the whole film here, somehow really quite oddly enough",
-       "Add far more scatter here, somehow really quite"
+       "Develop out the whole image here",
+       "Dry the whole film here",
+       "Add far more scatter here"
       ],
       "answer": 0,
       "explanation": "The stop bath neutralizes or rinses developer, stopping development cleanly and protecting the fixer from contamination.",
@@ -4475,9 +4475,9 @@
       "stem": "Inadequate final washing of film leads to:",
       "options": [
        "Residual chemicals that cause staining and poor long-term keeping",
-       "Much sharper final film images here, somehow really quite oddly enough",
-       "Much higher overall contrast here, somehow really quite oddly enough now",
-       "Much faster overall drying here, somehow really quite oddly"
+       "Much sharper final film images here",
+       "Much higher overall contrast here",
+       "Much faster overall drying here"
       ],
       "answer": 0,
       "explanation": "Leftover fixer and chemicals left by poor washing cause staining and deterioration over time, harming archival quality.",
@@ -4501,9 +4501,9 @@
       "stem": "Developer temperature and development time are controlled because higher temperature:",
       "options": [
        "Speeds development and can increase density and fog if not controlled",
-       "Has no real effect at all here, somehow really quite oddly enough indeed",
-       "Always improves the whole quality here, somehow really quite oddly",
-       "Fully stops the development here, somehow really quite oddly enough indeed"
+       "Has no real effect at all here",
+       "Always improves the whole quality here",
+       "Fully stops the development here"
       ],
       "answer": 0,
       "explanation": "Warmer developer works faster, raising density and potentially fog; time and temperature are matched (per the processing chart) for consistent results.",
@@ -4527,9 +4527,9 @@
       "stem": "Film fog (unwanted overall density) can be caused by:",
       "options": [
        "Stray radiation, heat, age, light leaks, or over-development",
-       "Fully correct beam exposure here, somehow really quite oddly enough",
-       "Proper safelight use here, somehow really quite oddly",
-       "Plain fresh film here, somehow really quite oddly enough indeed"
+       "Fully correct beam exposure here",
+       "Proper safelight use here",
+       "Fresh film here"
       ],
       "answer": 0,
       "explanation": "Fog is a base density increase from stray exposure, heat, outdated film, light leaks, or excessive development; it lowers contrast.",
@@ -4605,9 +4605,9 @@
       "stem": "Automatic film processors improve consistency by:",
       "options": [
        "Controlling time, temperature, replenishment, and transport",
-       "Fully eliminating the whole fixer here, somehow really quite oddly",
-       "Removing the whole need for washing here, somehow quite oddly",
-       "Using no chemicals at all here, somehow really quite oddly"
+       "Fully eliminating the whole fixer here",
+       "Removing the whole need for washing here",
+       "Using no chemicals at all here"
       ],
       "answer": 0,
       "explanation": "Automatic processors hold development time and temperature constant, replenish chemistry, and transport film through develop, fix, wash, and dry stages for repeatable results.",
@@ -4631,9 +4631,9 @@
       "stem": "Chemical replenishment in processing maintains:",
       "options": [
        "Consistent developer and fixer activity as solutions are used",
-       "The whole tube kV here, somehow really quite oddly enough indeed",
-       "The source activity here, somehow really quite oddly enough",
-       "The film grain size here, somehow really quite oddly enough indeed"
+       "The whole tube kV here",
+       "The source activity here",
+       "The film grain size here"
       ],
       "answer": 0,
       "explanation": "As chemicals are depleted, replenishment restores their strength so density and contrast stay consistent across many films.",
@@ -4657,9 +4657,9 @@
       "stem": "A darkroom safelight must be:",
       "options": [
        "A color and intensity that will not fog the film at the working distance",
-       "Plain bright white light here, somehow really quite oddly enough indeed here",
-       "Only ultraviolet here, somehow really quite oddly enough indeed here right now",
-       "Fully off-limits to filtration here, somehow really quite oddly enough"
+       "Bright white light here",
+       "Only ultraviolet here",
+       "Fully off-limits to filtration here"
       ],
       "answer": 0,
       "explanation": "Safelights use a filtered color and low intensity to which the film is relatively insensitive, allowing handling without fogging.",
@@ -4683,8 +4683,8 @@
       "stem": "Crescent-shaped marks on a radiograph are usually caused by:",
       "options": [
        "Kinking or bending the film during handling",
-       "Fully correct beam exposure here, oddly",
-       "Proper film washing here, somehow quite oddly",
+       "Fully correct beam exposure here",
+       "Proper film washing here",
        "Good tight film-screen contact here right now"
       ],
       "answer": 0,
@@ -4761,9 +4761,9 @@
       "stem": "Pressure or scratch marks on film appear when:",
       "options": [
        "Film is roughly handled or scratched before processing",
-       "The radioactive source decays here, somehow really quite",
-       "The whole tube kV is correct here, somehow really",
-       "The whole density is uniform here, somehow really quite"
+       "The radioactive source decays here",
+       "The whole tube kV is correct here",
+       "The whole density is uniform here"
       ],
       "answer": 0,
       "explanation": "Mechanical pressure or scratching of the emulsion creates artifacts; gentle handling and clean equipment prevent them.",
@@ -4787,9 +4787,9 @@
       "stem": "Distinguishing a film artifact from a real discontinuity often requires:",
       "options": [
        "Checking both films/sides and reprocessing or re-shooting if in doubt",
-       "Just fully ignoring it all here, somehow really quite oddly enough indeed",
-       "Always fully rejecting the whole part here, somehow really quite oddly",
-       "Just raising the whole tube kV here, somehow really quite oddly"
+       "Fully ignoring it all here",
+       "Always fully rejecting the whole part here",
+       "Raising the whole tube kV here"
       ],
       "answer": 0,
       "explanation": "Artifacts can be confirmed by examining the emulsion surfaces, comparing films, or retaking the radiograph; genuine indications persist as true density changes in the image.",
@@ -4813,9 +4813,9 @@
       "stem": "For archival storage, processed radiographs must be:",
       "options": [
        "Thoroughly washed and dried, then stored cool, dry, and protected",
-       "Just stored fully wet here, somehow really quite oddly enough indeed",
-       "Just left in the fixer here, somehow really quite oddly enough indeed",
-       "Fully exposed to light here, somehow really quite oddly enough"
+       "Stored fully wet here",
+       "Left in the fixer here",
+       "Fully exposed to light here"
       ],
       "answer": 0,
       "explanation": "Proper washing removes residual chemicals, and cool, dry, protected storage preserves the image for the required retention period.",
@@ -4839,9 +4839,9 @@
       "stem": "Radiographs should be interpreted:",
       "options": [
        "On a suitable illuminator in subdued ambient light with masking of bright areas",
-       "Out in bright direct sunlight here, somehow really quite oddly enough indeed here",
-       "Without any light at all here, somehow really quite oddly enough indeed here",
-       "On a densitometer screen only here, somehow really quite oddly enough indeed now"
+       "Out in bright direct sunlight here",
+       "Without any light at all here",
+       "On a densitometer screen only here"
       ],
       "answer": 0,
       "explanation": "Interpretation uses a high-intensity illuminator in a darkened room, masking bright surrounds and glare so subtle density changes are visible.",
@@ -4865,9 +4865,9 @@
       "stem": "Film density required by the code is verified using a:",
       "options": [
        "Densitometer (often referenced to a calibrated step strip)",
-       "A handheld radiation survey meter here, somehow really",
-       "A personal pocket dosimeter here, somehow really quite oddly",
-       "A handheld refractometer here, somehow really quite oddly enough"
+       "A handheld radiation survey meter here",
+       "A personal pocket dosimeter here",
+       "A handheld refractometer here"
       ],
       "answer": 0,
       "explanation": "A calibrated densitometer reads the optical density to confirm it meets the specified range.",
@@ -4917,9 +4917,9 @@
       "stem": "Films are dried after washing to:",
       "options": [
        "Make them ready for handling, viewing, and storage without damage",
-       "Develop out the whole image here, somehow really quite oddly",
-       "Add extra density here, somehow really quite oddly enough indeed here",
-       "Remove the whole latent image here, somehow really quite oddly enough"
+       "Develop out the whole image here",
+       "Add extra density here",
+       "Remove the whole latent image here"
       ],
       "answer": 0,
       "explanation": "Drying completes processing so films can be handled and stored; it neither develops nor changes the recorded image.",
@@ -4943,9 +4943,9 @@
       "stem": "Fog reduces radiographic quality mainly by:",
       "options": [
        "Lowering contrast (reducing the visibility of small density differences)",
-       "Greatly increasing the whole sharpness here, somehow really quite oddly enough",
-       "Greatly improving the whole sensitivity here, somehow really quite oddly enough",
-       "Greatly adding to the penetration here, somehow really quite oddly"
+       "Greatly increasing the whole sharpness here",
+       "Greatly improving the whole sensitivity here",
+       "Greatly adding to the penetration here"
       ],
       "answer": 0,
       "explanation": "A raised base density from fog compresses the usable density range, lowering contrast and the ability to see fine detail.",
@@ -4995,9 +4995,9 @@
       "stem": "Contrast sensitivity in digital radiography refers to:",
       "options": [
        "The smallest thickness/attenuation change the system can reveal",
-       "Only ever the whole pixel count here, somehow really quite",
-       "Only the whole cassette color here, somehow really quite oddly enough",
-       "Only the whole source half-life here, somehow really quite oddly"
+       "Only ever the whole pixel count here",
+       "Only the whole cassette color here",
+       "Only the whole source half-life here"
       ],
       "answer": 0,
       "explanation": "Contrast sensitivity expresses the smallest attenuation difference detectable, analogous to the role of contrast and IQI sensitivity in film radiography.",
@@ -5021,9 +5021,9 @@
       "stem": "A processing control strip is used to:",
       "options": [
        "Monitor processor performance (density steps) over time",
-       "Measure the whole radiation dose here, somehow really",
-       "Fully shield the loaded film here, somehow really quite oddly",
-       "Set the tube kV here, somehow really quite oddly enough indeed"
+       "Measure the whole radiation dose here",
+       "Fully shield the loaded film here",
+       "Set the tube kV here"
       ],
       "answer": 0,
       "explanation": "Control strips with known step densities are processed regularly to detect drift in processor chemistry, temperature, or timing.",
@@ -5047,9 +5047,9 @@
       "stem": "Loading two films of different speeds in one cassette (double loading) allows:",
       "options": [
        "Capturing a wider thickness range in a single exposure",
-       "Fully eliminating the whole IQI here, somehow really quite",
-       "Fully avoiding all the processing here, somehow really quite",
-       "Fully removing all the scatter here, somehow really"
+       "Fully eliminating the whole IQI here",
+       "Fully avoiding all the processing here",
+       "Fully removing all the scatter here"
       ],
       "answer": 0,
       "explanation": "A faster and a slower film together cover a broader density/thickness range from one exposure, useful for parts with thickness variation.",
@@ -5073,9 +5073,9 @@
       "stem": "Clean, dry hands and clean work surfaces in the darkroom prevent:",
       "options": [
        "Fingerprints, chemical spots, and contamination artifacts on film",
-       "Fully correct beam exposure here, somehow really quite oddly enough",
-       "Proper film development here, somehow really quite oddly enough",
-       "Plain source decay here, somehow really quite oddly enough indeed here"
+       "Fully correct beam exposure here",
+       "Proper film development here",
+       "Source decay here"
       ],
       "answer": 0,
       "explanation": "Contamination from hands or surfaces leaves marks on the emulsion; cleanliness prevents these artifacts.",
@@ -5151,9 +5151,9 @@
       "stem": "Spots or marks reproduced identically on many radiographs point to:",
       "options": [
        "A defect in a reused screen or processor, not the part",
-       "A real flaw in each and every part here, somehow oddly",
-       "Fully correct technique here, somehow really quite oddly",
-       "Plain random film noise here, somehow really quite oddly"
+       "A real flaw in each and every part here",
+       "Fully correct technique here",
+       "Random film noise here"
       ],
       "answer": 0,
       "explanation": "An artifact appearing in the same place on many films indicates a screen or processor defect rather than a genuine, part-specific discontinuity.",
@@ -5229,9 +5229,9 @@
       "stem": "Digital image post-processing (windowing, contrast adjustment) must be:",
       "options": [
        "Controlled per procedure so it does not mask or create indications",
-       "Done fully at random here, somehow really quite oddly enough indeed",
-       "Avoided entirely here, somehow really quite oddly enough indeed here",
-       "Used fully to hide the flaws here, somehow really quite oddly"
+       "Done fully at random here",
+       "Avoided entirely here",
+       "Used fully to hide the flaws here"
       ],
       "answer": 0,
       "explanation": "Digital enhancement is allowed within qualified limits; uncontrolled adjustment could obscure real flaws or create false ones, so it follows procedure.",
@@ -5255,9 +5255,9 @@
       "stem": "A time-temperature processing chart is used to:",
       "options": [
        "Select development time for the developer temperature",
-       "Set the whole tube kV here, somehow really quite oddly",
-       "Choose the source here, somehow really quite oddly",
-       "Measure the dose here, somehow really quite oddly enough"
+       "Set the whole tube kV here",
+       "Choose the source here",
+       "Measure the dose here"
       ],
       "answer": 0,
       "explanation": "Because warmer developer works faster, the chart pairs the correct development time with the measured temperature for consistent density.",
@@ -5281,9 +5281,9 @@
       "stem": "Most film-handling artifacts are prevented by:",
       "options": [
        "Careful, clean handling and proper darkroom conditions",
-       "A much higher tube kV here, somehow really quite oddly enough",
-       "A much longer SFD here, somehow really quite oddly enough now",
-       "Far more scatter here, somehow really quite oddly"
+       "A much higher tube kV here",
+       "A much longer SFD here",
+       "Far more scatter here"
       ],
       "answer": 0,
       "explanation": "Crescent, static, pressure, and contamination marks are avoided by gentle, clean handling and controlled humidity and lighting.",
@@ -5307,9 +5307,9 @@
       "stem": "Whether a finished radiograph is acceptable for interpretation is judged by:",
       "options": [
        "Density, IQI sensitivity, and freedom from masking artifacts",
-       "Only the film brand alone here, somehow really quite oddly enough",
-       "Only the exposure time alone here, somehow really quite",
-       "Only the source serial number here, somehow really quite oddly"
+       "Only the film brand alone here",
+       "Only the exposure time alone here",
+       "Only the source serial number here"
       ],
       "answer": 0,
       "explanation": "Acceptability requires in-range density, the required IQI sensitivity, and no artifacts that could mask or mimic discontinuities.",
@@ -5333,9 +5333,9 @@
       "stem": "A practical advantage of digital detectors is their wide dynamic range, which:",
       "options": [
        "Can capture a broad thickness range in one exposure with post-processing",
-       "Fully eliminates all the radiation here, somehow really quite oddly enough now",
-       "Removes the whole need for an IQI here, somehow really quite oddly enough now",
-       "Fully guarantees no artifacts here, somehow really quite oddly enough"
+       "Fully eliminates all the radiation here",
+       "Removes the whole need for an IQI here",
+       "Fully guarantees no artifacts here"
       ],
       "answer": 0,
       "explanation": "Wide dynamic range lets one digital exposure cover varied thickness, with windowing to view different ranges, though an IQI is still required.",
@@ -5359,9 +5359,9 @@
       "stem": "Which processing order and purpose pairing is correct?",
       "options": [
        "Developer forms image; stop halts development; fixer clears unexposed halide; wash removes chemicals; dry finishes",
-       "The fixer is what actually forms the image while the developer clears the halide here, somehow really quite oddly enough",
-       "The washing step is what actually develops the whole image here, somehow really quite oddly enough indeed here",
-       "The drying step is what actually forms the whole image here, somehow really quite oddly enough indeed here right now"
+       "The fixer is what actually forms the image while the developer clears the halide here",
+       "The washing step is what actually develops the whole image here",
+       "The drying step is what actually forms the whole image here"
       ],
       "answer": 0,
       "explanation": "Developer forms the image, the stop bath halts development, the fixer clears unexposed halide, washing removes residual chemicals, and drying finishes the film.",
@@ -5391,9 +5391,9 @@
       "stem": "The purpose of an image quality indicator (IQI / penetrameter) is to:",
       "options": [
        "Demonstrate the radiographic technique's quality (sensitivity)",
-       "Measure the whole part thickness here, somehow really quite oddly",
-       "Shield the film here, somehow really quite oddly enough",
-       "Develop out the image here, somehow really quite oddly enough indeed"
+       "Measure the whole part thickness here",
+       "Shield the film here",
+       "Develop out the image here"
       ],
       "answer": 0,
       "explanation": "An IQI provides a known reference whose visibility on the radiograph shows that the technique achieved the required sensitivity; it does not measure flaw size directly.",
@@ -5417,9 +5417,9 @@
       "stem": "A hole-type (plaque) IQI has holes commonly designated:",
       "options": [
        "1T, 2T, and 4T relative to the IQI thickness",
-       "Just A, B, and C here, somehow really quite oddly",
-       "Just X, Y, and Z here, somehow really quite oddly",
-       "Just red, green, and blue here, somehow"
+       "Just A, B, and C here",
+       "Just X, Y, and Z here",
+       "Red, green, and blue here"
       ],
       "answer": 0,
       "explanation": "Hole-type IQIs carry 1T, 2T, and 4T holes (multiples of the plaque thickness T), and the IQI thickness is a percentage of the part thickness.",
@@ -5469,9 +5469,9 @@
       "stem": "A '2-2T' radiographic quality level means:",
       "options": [
        "IQI thickness 2 percent of part thickness with the 2T hole visible",
-       "Just a 2 inch IQI with two holes here, somehow really quite oddly enough",
-       "Just 2 mA run at 2 minutes here, somehow really quite oddly",
-       "Just two wires set at 2 mm here, somehow really quite oddly enough now"
+       "A 2 inch IQI with two holes here",
+       "Just 2 mA run at 2 minutes here",
+       "Two wires set at 2 mm here"
       ],
       "answer": 0,
       "explanation": "In 2-2T, the plaque IQI is 2 percent of the specimen thickness and the 2T hole (diameter twice the plaque thickness) must be visible, a common required sensitivity level.",
@@ -5495,9 +5495,9 @@
       "stem": "Higher radiographic sensitivity (for example 1-1T versus 2-2T) means the technique can reveal:",
       "options": [
        "Smaller changes in thickness (finer detail)",
-       "Only the larger flaws here, somehow oddly",
-       "Only the thicker parts here, somehow quite oddly",
-       "Far less detail here, somehow really quite oddly"
+       "Only the larger flaws here",
+       "Only the thicker parts here",
+       "Far less detail here"
       ],
       "answer": 0,
       "explanation": "A more demanding IQI level (thinner plaque, smaller hole, or thinner wire visible) indicates the technique resolves smaller attenuation differences, i.e. higher sensitivity.",
@@ -5521,9 +5521,9 @@
       "stem": "IQIs are normally placed on the:",
       "options": [
        "Source side of the part, when accessible",
-       "The film side always here, somehow oddly",
-       "Inside the loaded cassette here, oddly",
-       "On the whole densitometer here, somehow oddly"
+       "The film side always here",
+       "Inside the loaded cassette here",
+       "On the whole densitometer here"
       ],
       "answer": 0,
       "explanation": "Source-side placement is standard because it represents the least favorable position; film-side placement is allowed only when source-side is inaccessible and must be marked.",
@@ -5548,7 +5548,7 @@
       "options": [
        "Carry a lead letter 'F' to show film-side placement",
        "Be fully rejected right away automatically here",
-       "Use no IQI at all here, somehow really quite oddly now",
+       "Use no IQI at all here",
        "Have the IQI fully removed right from the image here"
       ],
       "answer": 0,
@@ -5573,9 +5573,9 @@
       "stem": "The IQI material should be:",
       "options": [
        "Radiographically similar to the part material",
-       "Always made of solid lead here, somehow oddly",
-       "Always made of aluminum here, somehow oddly",
-       "Just any plastic at all here, somehow quite oddly"
+       "Always made of solid lead here",
+       "Always made of aluminum here",
+       "Any plastic at all here"
       ],
       "answer": 0,
       "explanation": "IQIs are made of a material radiographically similar to the part (same group) so the demonstrated sensitivity applies to that material.",
@@ -5599,9 +5599,9 @@
       "stem": "The 'essential hole' or 'essential wire' is the:",
       "options": [
        "Specific IQI feature required to be visible for the technique to qualify",
-       "Always just the largest hole only here, somehow really quite oddly enough now",
-       "Just the lead identification number here, somehow really quite oddly enough",
-       "Just the whole backscatter letter here, somehow really quite oddly"
+       "Always just the largest hole only here",
+       "The lead identification number here",
+       "The whole backscatter letter here"
       ],
       "answer": 0,
       "explanation": "The essential hole (plaque) or essential wire (wire IQI) is the designated feature that must be visible to meet the required sensitivity level.",
@@ -5625,9 +5625,9 @@
       "stem": "Equivalent penetrameter sensitivity (EPS) is used to:",
       "options": [
        "Compare or convert sensitivity between different IQI types or placements",
-       "Just measure the whole dose here, somehow really quite oddly enough indeed now",
-       "Just set the whole developer time here, somehow really quite oddly",
-       "Just shield the source here, somehow really quite oddly enough indeed here now"
+       "Measure the whole dose here",
+       "Set the whole developer time here",
+       "Shield the source here"
       ],
       "answer": 0,
       "explanation": "EPS expresses the sensitivity in a common way so requirements can be met by an equivalent IQI when the exact specified one is impractical.",
@@ -5651,9 +5651,9 @@
       "stem": "A shim of similar material is sometimes placed under a hole-type IQI on a weld to:",
       "options": [
        "Account for weld reinforcement thickness so the IQI represents the correct thickness",
-       "Greatly increase the whole scatter here, somehow really quite oddly enough indeed here",
-       "Fully shield the whole IQI here, somehow really quite oddly enough indeed here right now",
-       "Develop out the film here, somehow really quite oddly enough indeed here right now"
+       "Greatly increase the whole scatter here",
+       "Fully shield the whole IQI here",
+       "Develop out the film here"
       ],
       "answer": 0,
       "explanation": "On welds, a shim raises the effective thickness under the IQI to match the weld plus reinforcement, so the IQI represents the section being examined.",
@@ -5677,9 +5677,9 @@
       "stem": "A single-wall single-image (SWSI) technique exposes:",
       "options": [
        "One wall, with the IQI and image representing that wall",
-       "Both walls fully superimposed here, somehow really quite oddly",
-       "Both walls shown as an ellipse here, somehow really quite",
-       "No wall at all here, somehow really quite oddly enough"
+       "Both walls fully superimposed here",
+       "Both walls shown as an ellipse here",
+       "No wall at all here"
       ],
       "answer": 0,
       "explanation": "In SWSI the beam passes through and images a single wall, used when the source can be placed inside or with access to one wall at a time.",
@@ -5703,9 +5703,9 @@
       "stem": "A double-wall single-image (DWSI) technique is used when:",
       "options": [
        "The beam passes through both walls but only the far wall is interpreted",
-       "Only one single wall actually exists here, somehow really quite oddly enough",
-       "The whole source is always inside here, somehow really quite oddly enough now",
-       "No IQI is ever needed at all here, somehow really quite oddly enough"
+       "Only one single wall actually exists here",
+       "The whole source is always inside here",
+       "No IQI is ever needed at all here"
       ],
       "answer": 0,
       "explanation": "DWSI passes through both walls of a pipe but the film-side (far) wall is the one interpreted; it suits diameters too large for the elliptical technique with limited access.",
@@ -5729,9 +5729,9 @@
       "stem": "The double-wall double-image (elliptical) technique is typically used on:",
       "options": [
        "Small-diameter pipe, imaging both walls as an offset ellipse",
-       "Just plain thick plate here, somehow really quite oddly enough",
-       "Only the large vessels here, somehow really quite oddly enough",
-       "Just a solid bar here, somehow really quite oddly enough"
+       "Thick plate here",
+       "Only the large vessels here",
+       "A solid bar here"
       ],
       "answer": 0,
       "explanation": "For small-diameter pipe, offsetting the beam projects the near and far weld as an ellipse so both walls are interpreted in one image, usually requiring two exposures 90 degrees apart.",
@@ -5755,9 +5755,9 @@
       "stem": "A panoramic exposure with the source inside a pipe:",
       "options": [
        "Images the full circumferential weld in one exposure",
-       "Requires very many separate exposures here, oddly",
-       "Simply cannot image any welds here, somehow quite oddly",
-       "Needs no radiation source at all here, somehow oddly"
+       "Requires very many separate exposures here",
+       "Simply cannot image any welds here",
+       "Needs no radiation source at all here"
       ],
       "answer": 0,
       "explanation": "A source centered in the pipe with film wrapped outside exposes the entire circumferential weld at once, the most efficient technique when internal access exists.",
@@ -5781,9 +5781,9 @@
       "stem": "Lead location markers placed on the part:",
       "options": [
        "Provide traceable reference points to relocate any indication on the part",
-       "Just measure the whole dose here, somehow really quite oddly enough indeed",
-       "Just shield the whole IQI here, somehow really quite oddly enough indeed here",
-       "Develop the film here, somehow really quite oddly enough indeed here"
+       "Measure the whole dose here",
+       "Shield the whole IQI here",
+       "Develop the film here"
       ],
       "answer": 0,
       "explanation": "Location markers appear on the film and on the part so an indication's position can be reliably found on the actual part for evaluation or repair.",
@@ -5833,9 +5833,9 @@
       "stem": "The number of exposures needed around a circumferential weld depends on:",
       "options": [
        "Diameter, thickness, source-to-film geometry, and the required coverage/sensitivity",
-       "Only ever the whole loaded film color here, somehow really quite oddly enough indeed",
-       "Only ever the film developer brand here, somehow really quite oddly enough indeed here now",
-       "Only ever the operator's height here, somehow really quite oddly enough indeed"
+       "Only ever the whole loaded film color here",
+       "Only ever the film developer brand here",
+       "Only ever the operator's height here"
       ],
       "answer": 0,
       "explanation": "Geometry (diameter, wall thickness, SFD) and the required coverage and sensitivity determine how many exposures are needed to image the whole weld acceptably.",
@@ -5859,9 +5859,9 @@
       "stem": "Each radiograph must carry identification that:",
       "options": [
        "Uniquely traces it to the part, weld, and location",
-       "Is fully optional here, somehow really quite oddly enough",
-       "Only ever shows the date here, somehow really quite oddly",
-       "Is added on only after interpretation here, oddly"
+       "Is fully optional here",
+       "Only ever shows the date here",
+       "Is added on only after interpretation here"
       ],
       "answer": 0,
       "explanation": "Permanent identification (part, weld, location, and date as required) provides traceability and must be present on the radiograph.",
@@ -5885,9 +5885,9 @@
       "stem": "An IQI should be placed:",
       "options": [
        "In the area of interest representing the thickness being examined",
-       "On the whole thickest unrelated section here, somehow really",
-       "Fully outside the loaded film here, somehow really quite oddly enough",
-       "Right on the radiation source here, somehow really quite oddly enough"
+       "On the whole thickest unrelated section here",
+       "Fully outside the loaded film here",
+       "Right on the radiation source here"
       ],
       "answer": 0,
       "explanation": "The IQI represents the section under examination, so it is placed in or adjacent to the area of interest at a representative thickness.",
@@ -5911,9 +5911,9 @@
       "stem": "Wire IQI sets (A, B, C, D) differ by:",
       "options": [
        "The range of wire diameters they contain",
-       "Just their outer color here, somehow oddly",
+       "Their outer color here",
        "Their whole developer requirement here",
-       "Their whole half-life here, somehow quite oddly"
+       "Their whole half-life here"
       ],
       "answer": 0,
       "explanation": "Each wire IQI set covers a different range of wire diameters; the set is selected so the essential wire falls in a usable range for the part thickness.",
@@ -5937,9 +5937,9 @@
       "stem": "Demonstrating 2-2T sensitivity means the technique can show a thickness change of about:",
       "options": [
        "2 percent of the specimen thickness",
-       "Just 2 whole inches here, somehow oddly",
+       "Just 2 whole inches here",
        "2 percent of the source size here",
-       "Just 20 percent here, somehow quite oddly"
+       "Just 20 percent here"
       ],
       "answer": 0,
       "explanation": "Roughly, the 2 percent IQI level corresponds to detecting a thickness change near 2 percent of the part thickness, though IQI sensitivity is a technique indicator rather than a direct flaw-size guarantee.",
@@ -5963,9 +5963,9 @@
       "stem": "Source-side IQI placement is preferred because the source side is the:",
       "options": [
        "Less favorable position, giving a conservative sensitivity demonstration",
-       "Just a far more favorable position here, somehow really quite oddly enough now",
-       "Just the same as the film side here, somehow really quite oddly enough now",
-       "The only place the IQI fits here, somehow really quite oddly enough now"
+       "A far more favorable position here",
+       "The same as the film side here",
+       "The only place the IQI fits here"
       ],
       "answer": 0,
       "explanation": "Radiation quality and unsharpness are least favorable on the source side, so demonstrating sensitivity there conservatively covers the whole thickness.",
@@ -5989,9 +5989,9 @@
       "stem": "Choosing between single-wall and double-wall techniques depends mainly on:",
       "options": [
        "Pipe diameter and the access available to the source and film",
-       "Only the loaded film's color here, somehow really quite oddly enough",
-       "Only the developer temperature here, somehow really quite",
-       "Only the operator's preference alone here, somehow really quite"
+       "Only the loaded film's color here",
+       "Only the developer temperature here",
+       "Only the operator's preference alone here"
       ],
       "answer": 0,
       "explanation": "Geometry and access drive the choice: internal access allows single-wall/panoramic, while limited access on small pipe leads to double-wall techniques.",
@@ -6015,9 +6015,9 @@
       "stem": "Confirming that the required weld length and thickness were covered relies on:",
       "options": [
        "Location markers and overlap on the radiographs",
-       "The whole densitometer alone here, somehow oddly",
-       "The whole survey meter here, somehow really quite",
-       "The whole source serial number here, oddly"
+       "The whole densitometer alone here",
+       "The whole survey meter here",
+       "The whole source serial number here"
       ],
       "answer": 0,
       "explanation": "Location markers and overlapping films demonstrate complete coverage of the weld; density and IQI confirm quality within each film.",
@@ -6041,9 +6041,9 @@
       "stem": "An IQI demonstrates technique sensitivity but does NOT:",
       "options": [
        "Directly measure the size of an actual discontinuity",
-       "Indicate the whole image quality here, somehow oddly",
-       "Show the required sensitivity here, somehow quite oddly now",
-       "Confirm the whole contrast and definition here, oddly"
+       "Indicate the whole image quality here",
+       "Show the required sensitivity here",
+       "Confirm the whole contrast and definition here"
       ],
       "answer": 0,
       "explanation": "The IQI confirms the radiograph's quality level; actual discontinuities are sized by other means (scales, comparison) per the procedure, not read off the IQI.",
@@ -6067,9 +6067,9 @@
       "stem": "On a long radiograph with varying thickness, codes may require:",
       "options": [
        "More than one IQI to represent the range of thicknesses",
-       "No IQI at all here, somehow really quite oddly enough indeed",
-       "Only a film-side IQI here, somehow really quite oddly enough",
-       "An IQI on the densitometer here, somehow really quite"
+       "No IQI at all here",
+       "Only a film-side IQI here",
+       "An IQI on the densitometer here"
       ],
       "answer": 0,
       "explanation": "When thickness varies across the film, multiple IQIs may be required so sensitivity is demonstrated across the represented thickness range.",
@@ -6093,9 +6093,9 @@
       "stem": "Hole-type and wire-type IQIs:",
       "options": [
        "Are alternative IQI designs, selected per the governing code",
-       "Cannot both ever indicate the sensitivity here, somehow",
-       "Are exactly the same device here, somehow really quite oddly enough",
-       "Are plain radiation dosimeters here, somehow really quite oddly"
+       "Cannot both ever indicate the sensitivity here",
+       "Are exactly the same device here",
+       "Are plain radiation dosimeters here"
       ],
       "answer": 0,
       "explanation": "Both designs indicate technique sensitivity; the governing code or contract specifies which type and level applies.",
@@ -6119,9 +6119,9 @@
       "stem": "The elliptical (DWDI) technique on small pipe typically requires:",
       "options": [
        "Two exposures about 90 degrees apart to cover the full weld",
-       "Just one single exposure only here, somehow really quite oddly",
-       "No location markers at all here, somehow really quite oddly enough",
-       "A whole panoramic source here, somehow really quite oddly"
+       "One single exposure only here",
+       "No location markers at all here",
+       "A whole panoramic source here"
       ],
       "answer": 0,
       "explanation": "Because each elliptical exposure clearly images only part of the circumference, two shots roughly 90 degrees apart are used to cover the whole weld.",
@@ -6145,9 +6145,9 @@
       "stem": "Adequate source-to-object distance in pipe radiography helps ensure:",
       "options": [
        "Acceptable geometric unsharpness and weld coverage per the technique",
-       "Much higher overall film fog here, somehow really quite oddly enough now",
-       "A far shorter exposure always here, somehow really quite oddly enough now",
-       "No need for an IQI at all here, somehow really quite oddly enough"
+       "Much higher overall film fog here",
+       "A far shorter exposure always here",
+       "No need for an IQI at all here"
       ],
       "answer": 0,
       "explanation": "Sufficient distance controls geometric unsharpness and the projected coverage geometry; it generally lengthens exposure, and an IQI is still required.",
@@ -6171,9 +6171,9 @@
       "stem": "Location markers should be placed on the part such that:",
       "options": [
        "Their position on the film unambiguously locates indications on the part",
-       "They never ever appear on the film at all here, somehow really quite oddly",
-       "They fully cover the whole weld here, somehow really quite oddly enough now",
-       "They fully replace the whole IQI here, somehow really quite oddly enough"
+       "They never ever appear on the film at all here",
+       "They fully cover the whole weld here",
+       "They fully replace the whole IQI here"
       ],
       "answer": 0,
       "explanation": "Markers are positioned (and their source/film side noted where relevant) so any indication on the film can be traced to the exact spot on the part.",
@@ -6197,9 +6197,9 @@
       "stem": "If the required IQI level is not visible, the radiographer should:",
       "options": [
        "Adjust technique (energy, exposure, geometry, scatter control) and reshoot",
-       "Just fully accept the film here, somehow really quite oddly enough indeed here",
-       "Just erase the whole IQI here, somehow really quite oddly enough indeed here",
-       "Just increase the ambient light here, somehow really quite oddly enough"
+       "Fully accept the film here",
+       "Erase the whole IQI here",
+       "Increase the ambient light here"
       ],
       "answer": 0,
       "explanation": "Failure to show the essential IQI feature means the technique did not meet sensitivity; the radiographer corrects the technique and retakes the radiograph.",
@@ -6223,9 +6223,9 @@
       "stem": "Without a shim under the IQI on a weld with reinforcement, the IQI may:",
       "options": [
        "Represent less than the actual examined thickness, overstating sensitivity",
-       "Just represent far more whole thickness here, somehow really quite oddly enough",
-       "Have no real effect at all here, somehow really quite oddly enough indeed here",
-       "Just become a plain dosimeter here, somehow really quite oddly enough"
+       "Represent far more whole thickness here",
+       "Have no real effect at all here",
+       "Become a plain dosimeter here"
       ],
       "answer": 0,
       "explanation": "If the IQI sits on base metal thinner than the weld plus reinforcement, it represents less thickness and can overstate the achieved sensitivity, so a shim is used.",
@@ -6249,9 +6249,9 @@
       "stem": "The radiographic technique (energy, SFD, IQI, geometry) should be:",
       "options": [
        "Documented so the examination is repeatable and traceable",
-       "Kept only ever in the operator's memory here, somehow oddly",
-       "Changed on each single film fully at random here, oddly",
-       "Hidden away from the whole review here, somehow really quite"
+       "Kept only ever in the operator's memory here",
+       "Changed on each single film fully at random here",
+       "Hidden away from the whole review here"
       ],
       "answer": 0,
       "explanation": "Recording the technique parameters ensures repeatability, traceability, and review against the procedure and code.",
@@ -6275,9 +6275,9 @@
       "stem": "For a hole-type IQI, the plaque thickness is normally a small percentage of the:",
       "options": [
        "Specimen (part) thickness being radiographed",
-       "The whole source size here, somehow quite oddly",
-       "The whole film thickness here, somehow oddly",
-       "The developer volume here, somehow quite oddly"
+       "The whole source size here",
+       "The whole film thickness here",
+       "The developer volume here"
       ],
       "answer": 0,
       "explanation": "The plaque is a defined percentage (commonly about 2 percent) of the part thickness, so the IQI scales with the section examined.",
@@ -6327,9 +6327,9 @@
       "stem": "In the elliptical technique, offsetting the beam is done to:",
       "options": [
        "Separate the near and far weld images so both can be interpreted",
-       "Greatly increase the whole scatter here, somehow really quite oddly",
-       "Greatly shorten the exposure here, somehow really quite oddly",
-       "Fully remove the whole IQI here, somehow really quite oddly enough"
+       "Greatly increase the whole scatter here",
+       "Greatly shorten the exposure here",
+       "Fully remove the whole IQI here"
       ],
       "answer": 0,
       "explanation": "Beam offset projects the top and bottom of the weld as a separated ellipse so the two walls do not superimpose and each can be evaluated.",
@@ -6379,9 +6379,9 @@
       "stem": "Wire IQIs are oriented so the wires:",
       "options": [
        "Lie across the weld/area of interest as required by the code",
-       "Run right along the whole source cable here, somehow really quite",
-       "Are fully hidden behind the lead here, somehow really quite oddly",
-       "Point right at the survey meter here, somehow really quite"
+       "Run right along the whole source cable here",
+       "Are fully hidden behind the lead here",
+       "Point right at the survey meter here"
       ],
       "answer": 0,
       "explanation": "Wire IQIs are placed with the wires positioned (often across the weld) per the code so the essential wire's visibility validly demonstrates sensitivity.",
@@ -6405,9 +6405,9 @@
       "stem": "Which statement about IQIs is correct?",
       "options": [
        "They demonstrate technique sensitivity and are normally placed source-side in the area of interest",
-       "They directly measure the whole actual flaw depth all on their own here, somehow really quite oddly",
-       "They are always placed only ever on the film side of the part here, somehow really quite oddly enough",
-       "They are simply plain radiation dosimeters in every case here, somehow really quite oddly enough"
+       "They directly measure the whole actual flaw depth all on their own here",
+       "They are always placed only ever on the film side of the part here",
+       "They are simply plain radiation dosimeters in every case here"
       ],
       "answer": 0,
       "explanation": "IQIs show the technique met the required sensitivity and are normally placed on the source side within the area of interest; film-side placement is the marked exception.",
@@ -6489,9 +6489,9 @@
       "stem": "Gas porosity in a weld typically appears as:",
       "options": [
        "Rounded dark spots, individually or in clusters",
-       "Straight light lines here, somehow quite oddly",
-       "A uniform light band here, somehow quite oddly",
-       "No indication at all here, somehow really quite oddly"
+       "Straight light lines here",
+       "A uniform light band here",
+       "No indication at all here"
       ],
       "answer": 0,
       "explanation": "Gas pockets are voids, imaging as rounded dark indications that may be scattered, clustered, or aligned depending on how the gas was trapped.",
@@ -6515,9 +6515,9 @@
       "stem": "Slag inclusions in a weld usually appear as:",
       "options": [
        "Dark irregular shapes, sometimes elongated along the weld",
-       "Bright rounded dots here, somehow really quite oddly",
-       "A light line at the whole root here, somehow really quite oddly",
-       "Nothing at all here, somehow really quite oddly enough indeed"
+       "Bright rounded dots here",
+       "A light line at the whole root here",
+       "Nothing at all here"
       ],
       "answer": 0,
       "explanation": "Trapped slag is less dense than the weld metal, imaging as dark, irregular, often elongated indications, frequently between passes or at the sidewall.",
@@ -6541,9 +6541,9 @@
       "stem": "Lack of fusion (LOF) often appears on a radiograph as:",
       "options": [
        "A dark line, sometimes straight, at the weld interface or between passes",
-       "Just a single bright spot here, somehow really quite oddly enough indeed here",
-       "Just a rounded void only here, somehow really quite oddly enough indeed",
-       "Just a uniform density here, somehow really quite oddly enough indeed here now"
+       "A single bright spot here",
+       "A rounded void only here",
+       "A uniform density here"
       ],
       "answer": 0,
       "explanation": "LOF is an unbonded interface; when favorably oriented it images as a dark line at the fusion face or between passes, though it can be hard to detect if tightly closed.",
@@ -6593,7 +6593,7 @@
       "stem": "Cracks are most readily detected by radiography when they are:",
       "options": [
        "Favorably oriented (roughly parallel to the beam)",
-       "Perpendicular to the whole beam here, somehow oddly",
+       "Perpendicular to the whole beam here",
        "Always, regardless of the orientation here now",
        "Only ever when fully filled with slag here now"
       ],
@@ -6619,9 +6619,9 @@
       "stem": "Undercut at the weld toe appears on a radiograph as:",
       "options": [
        "A dark irregular line along the edge of the weld",
-       "A bright center line here, somehow really quite oddly",
-       "Rounded dense spots here, somehow really quite",
-       "A uniform light area here, somehow really quite oddly"
+       "A bright center line here",
+       "Rounded dense spots here",
+       "A uniform light area here"
       ],
       "answer": 0,
       "explanation": "Undercut is a groove melted into the base metal at the weld toe; the reduced thickness images as a darker irregular band along the weld edge.",
@@ -6645,9 +6645,9 @@
       "stem": "Burn-through (excess root melting) tends to appear as:",
       "options": [
        "A localized dark area at the root where metal was lost",
-       "Just a bright band here, somehow really quite oddly enough",
-       "A fine straight line only here, somehow really quite",
-       "No indication at all here, somehow really quite oddly enough"
+       "A bright band here",
+       "A fine straight line only here",
+       "No indication at all here"
       ],
       "answer": 0,
       "explanation": "Burn-through removes or sags root metal, imaging as a darker localized region at the root, often with surrounding contour changes.",
@@ -6671,9 +6671,9 @@
       "stem": "Excessive weld reinforcement appears on a radiograph as:",
       "options": [
        "A lighter band over the weld due to the added thickness",
-       "Just a dark void here, somehow really quite oddly enough",
-       "Just a fine crack here, somehow really quite oddly",
-       "Just porosity here, somehow really quite oddly enough indeed"
+       "A dark void here",
+       "A fine crack here",
+       "Porosity here"
       ],
       "answer": 0,
       "explanation": "Added reinforcement is extra material, so that band images lighter than the adjacent base metal; it is a contour condition, not a subsurface flaw.",
@@ -6697,9 +6697,9 @@
       "stem": "Root concavity (suck-back) typically images as:",
       "options": [
        "A darker band along the weld centerline at the root",
-       "Just a bright centerline here, somehow really",
-       "Rounded dense inclusions here, somehow really quite oddly",
-       "No density change here, somehow really quite oddly enough"
+       "A bright centerline here",
+       "Rounded dense inclusions here",
+       "No density change here"
       ],
       "answer": 0,
       "explanation": "Concavity at the root reduces thickness along the centerline, imaging as a darker band there; its smooth contour distinguishes it from a crack.",
@@ -6801,9 +6801,9 @@
       "stem": "In castings, gas porosity appears on a radiograph as:",
       "options": [
        "Rounded dark spots, sometimes with smooth edges",
-       "Just light dense spots here, somehow really quite",
-       "Straight light lines here, somehow really",
-       "No indication at all here, somehow really quite oddly"
+       "Light dense spots here",
+       "Straight light lines here",
+       "No indication at all here"
       ],
       "answer": 0,
       "explanation": "Gas trapped during solidification leaves rounded voids that image as dark spots, similar in character to weld porosity.",
@@ -6827,9 +6827,9 @@
       "stem": "Shrinkage in castings often appears as:",
       "options": [
        "Dark, branching or spongy/dendritic indications",
-       "Just bright rounded dots here, somehow really quite",
-       "A single straight light line here, somehow",
-       "Just uniform density here, somehow really quite oddly"
+       "Bright rounded dots here",
+       "A single straight light line here",
+       "Uniform density here"
       ],
       "answer": 0,
       "explanation": "Shrinkage forms where metal contracts on cooling, imaging as dark, irregular, sometimes branching or sponge-like indications, often at thick sections or junctions.",
@@ -6853,9 +6853,9 @@
       "stem": "A cold shut in a casting is:",
       "options": [
        "A dark line where two metal streams failed to fuse",
-       "Just a dense inclusion here, somehow really quite",
-       "Just excess thickness here, somehow really quite oddly",
-       "A surface scratch only here, somehow really quite oddly"
+       "A dense inclusion here",
+       "Excess thickness here",
+       "A surface scratch only here"
       ],
       "answer": 0,
       "explanation": "A cold shut occurs when metal flows meet without fusing; the unbonded boundary images as a dark line, often smooth and curved.",
@@ -6879,9 +6879,9 @@
       "stem": "Hot tears in castings typically appear as:",
       "options": [
        "Ragged dark lines, often branching, near restrained thick sections",
-       "Just smooth bright lines here, somehow really quite oddly enough indeed",
-       "Just rounded dense spots here, somehow really quite oddly enough",
-       "Just uniform light bands here, somehow really quite oddly enough now"
+       "Smooth bright lines here",
+       "Rounded dense spots here",
+       "Uniform light bands here"
       ],
       "answer": 0,
       "explanation": "Hot tears form from stresses while the casting is still hot, imaging as ragged, often branching dark cracks, commonly where contraction is restrained.",
@@ -6905,9 +6905,9 @@
       "stem": "Sand or oxide inclusions in a casting generally appear as:",
       "options": [
        "Dark irregular indications (less dense than the metal)",
-       "Just light dense spots here, somehow really quite oddly",
-       "Just straight light lines here, somehow really quite oddly",
-       "No indication at all here, somehow really quite oddly"
+       "Light dense spots here",
+       "Straight light lines here",
+       "No indication at all here"
       ],
       "answer": 0,
       "explanation": "Most nonmetallic inclusions are less dense than the casting metal, imaging as dark irregular spots; unusually dense inclusions (like chaplets) can image lighter.",
@@ -6931,9 +6931,9 @@
       "stem": "A misrun (incomplete fill) in a casting appears as:",
       "options": [
        "A dark region where metal failed to fill the mold",
-       "Just a dense bright area here, somehow really quite",
-       "Just a crack at the root here, somehow really",
-       "Just porosity only here, somehow really quite oddly"
+       "A dense bright area here",
+       "A crack at the root here",
+       "Porosity only here"
       ],
       "answer": 0,
       "explanation": "Where the mold did not fill, the missing or thin metal images as a darker area, often at extremities or thin sections of the casting.",
@@ -6957,9 +6957,9 @@
       "stem": "Classifying an indication as linear or rounded is important because:",
       "options": [
        "Acceptance criteria often treat linear and rounded indications differently",
-       "It greatly changes the whole film density here, somehow really quite oddly enough",
-       "It fully sets the whole tube kV here, somehow really quite oddly enough indeed",
-       "It directly measures the dose here, somehow really quite oddly enough"
+       "It greatly changes the whole film density here",
+       "It fully sets the whole tube kV here",
+       "It directly measures the dose here"
       ],
       "answer": 0,
       "explanation": "Codes commonly apply different limits to linear indications (like cracks, LOF) than to rounded ones (like porosity), so classification drives evaluation.",
@@ -6983,8 +6983,8 @@
       "stem": "In radiography, 'interpretation' refers to identifying indications, while 'evaluation' refers to:",
       "options": [
        "Judging them against the acceptance criteria",
-       "Developing out the whole film here, oddly",
-       "Setting the whole exposure here, somehow oddly",
+       "Developing out the whole film here",
+       "Setting the whole exposure here",
        "Calibrating the whole densitometer here now"
       ],
       "answer": 0,
@@ -7009,9 +7009,9 @@
       "stem": "A non-relevant indication is one that:",
       "options": [
        "Arises from part geometry or technique, not a true discontinuity",
-       "Must always be fully rejected here, somehow really quite oddly",
-       "Is always a real crack here, somehow really quite oddly enough indeed",
-       "Cannot be seen on the film here, somehow really quite oddly enough now"
+       "Must always be fully rejected here",
+       "Is always a real crack here",
+       "Cannot be seen on the film here"
       ],
       "answer": 0,
       "explanation": "Non-relevant indications come from geometry, contour, or technique rather than actual flaws; they are recognized and set aside so real discontinuities are evaluated.",
@@ -7035,9 +7035,9 @@
       "stem": "Before interpreting indications, the radiographer must first confirm the radiograph:",
       "options": [
        "Meets density, IQI sensitivity, and is free of masking artifacts",
-       "Is the darkest possible one here, somehow really quite oddly enough now",
-       "Shows the source serial number only here, somehow really quite",
-       "Was the very fastest exposure here, somehow really quite oddly enough"
+       "Is the darkest possible one here",
+       "Shows the source serial number only here",
+       "Was the very fastest exposure here"
       ],
       "answer": 0,
       "explanation": "A radiograph must be valid (proper density, required IQI sensitivity, no disqualifying artifacts) before any indication can be reliably interpreted.",
@@ -7061,9 +7061,9 @@
       "stem": "A surface scratch and a subsurface crack can sometimes be distinguished by:",
       "options": [
        "Surface examination of the part and the indication's behavior on multiple views",
-       "Only ever the whole loaded film color here, somehow really quite oddly enough indeed",
-       "Only ever the film developer brand here, somehow really quite oddly enough indeed",
-       "Only the source half-life here, somehow really quite oddly enough indeed here"
+       "Only ever the whole loaded film color here",
+       "Only ever the film developer brand here",
+       "Only the source half-life here"
       ],
       "answer": 0,
       "explanation": "Correlating the radiographic indication with surface inspection and additional views or methods helps separate a harmless surface mark from a genuine crack.",
@@ -7087,9 +7087,9 @@
       "stem": "A fundamental limitation of radiography for planar flaws is that:",
       "options": [
        "Tight cracks not aligned with the beam may not be detected",
-       "All of the cracks are always fully found here, somehow",
-       "Porosity is never ever detected here, somehow really quite oddly",
-       "The whole density does not matter here, somehow really quite"
+       "All of the cracks are always fully found here",
+       "Porosity is never ever detected here",
+       "The whole density does not matter here"
       ],
       "answer": 0,
       "explanation": "RT depends on a through-thickness path difference, so tightly closed planar flaws across the beam can be missed, a key reason RT and UT/surface methods complement each other.",
@@ -7113,9 +7113,9 @@
       "stem": "Excess root penetration (icicles or root sag) appears as:",
       "options": [
        "A lighter localized area at the root from added metal",
-       "Just a dark void here, somehow really quite oddly enough",
-       "Just a crack here, somehow really quite oddly enough indeed",
-       "Just undercut here, somehow really quite oddly"
+       "A dark void here",
+       "A crack here",
+       "Undercut here"
       ],
       "answer": 0,
       "explanation": "Extra metal protruding at the root adds thickness, imaging as a lighter localized area along the root, a contour condition rather than a void.",
@@ -7139,9 +7139,9 @@
       "stem": "Reading the relative depth of a volumetric flaw can be aided by:",
       "options": [
        "Comparing the indication's density to the surrounding density",
-       "Only ever its outer color here, somehow really quite oddly enough",
-       "Only ever the film brand here, somehow really quite oddly enough",
-       "Only the room temperature here, somehow really quite oddly"
+       "Only ever its outer color here",
+       "Only ever the film brand here",
+       "Only the room temperature here"
       ],
       "answer": 0,
       "explanation": "A darker indication generally means more material was missing along that path; relative density helps estimate the flaw's extent through the thickness, within technique limits.",
@@ -7165,9 +7165,9 @@
       "stem": "Acceptance criteria for the same indication type can differ between welds and castings because:",
       "options": [
        "Different codes and service requirements apply to each product form",
-       "The loaded film just responds differently here, somehow really",
-       "The radiation just behaves differently here, somehow really quite oddly",
-       "The whole densitometers all differ here, somehow really quite oddly enough"
+       "The loaded film just responds differently here",
+       "The radiation just behaves differently here",
+       "The whole densitometers all differ here"
       ],
       "answer": 0,
       "explanation": "Welds and castings are governed by different standards and service expectations, so the same flaw type may have different limits in each.",
@@ -7191,9 +7191,9 @@
       "stem": "Rounded indications arranged in a line along the weld are reported as:",
       "options": [
        "Aligned (linear) porosity, which some codes treat more strictly",
-       "Just a single whole crack here, somehow really quite oddly enough",
-       "Just excess reinforcement here, somehow really quite oddly",
-       "Fully non-relevant always here, somehow really quite oddly enough now"
+       "A single whole crack here",
+       "Excess reinforcement here",
+       "Fully non-relevant always here"
       ],
       "answer": 0,
       "explanation": "When rounded pores align, some codes treat the alignment more strictly than scattered porosity because it can indicate a planar weakness path.",
@@ -7217,9 +7217,9 @@
       "stem": "Reliable interpretation requires viewing the radiograph:",
       "options": [
        "On an adequate illuminator in controlled lighting by a qualified interpreter",
-       "Out in the bright sunlight very quickly here, somehow really quite oddly enough now",
-       "Without any density requirements at all here, somehow really quite oddly enough",
-       "Only ever on a small phone screen here, somehow really quite oddly enough"
+       "Out in the bright sunlight very quickly here",
+       "Without any density requirements at all here",
+       "Only ever on a small phone screen here"
       ],
       "answer": 0,
       "explanation": "Qualified interpretation uses a proper high-intensity illuminator in subdued light, with the radiograph meeting density and quality requirements.",
@@ -7243,9 +7243,9 @@
       "stem": "An indication appearing in the same location on multiple parts most likely is:",
       "options": [
        "A screen or processing artifact, not a real flaw",
-       "A real crack in every single part here, oddly",
-       "Plain porosity in every part here, somehow oddly",
-       "Always fully rejectable here, somehow really quite"
+       "A real crack in every single part here",
+       "Porosity in every part here",
+       "Always fully rejectable here"
       ],
       "answer": 0,
       "explanation": "A repeating, identically located mark points to a screen or processor defect rather than a genuine, part-specific discontinuity, and must be investigated before evaluation.",
@@ -7269,9 +7269,9 @@
       "stem": "When reporting radiographic results, the interpreter records:",
       "options": [
        "The indication type, location, size, and accept/reject per the criteria",
-       "Only ever the whole film count here, somehow really quite oddly enough indeed",
-       "Only ever the kV used here, somehow really quite oddly enough indeed",
-       "Only ever the whole operator name here, somehow really quite oddly enough now"
+       "Only ever the whole film count here",
+       "Only ever the kV used here",
+       "Only ever the whole operator name here"
       ],
       "answer": 0,
       "explanation": "A complete report identifies each relevant indication's type, location, and extent and states the disposition against the acceptance standard.",
@@ -7295,9 +7295,9 @@
       "stem": "Compared with rounded (volumetric) flaws, planar flaws like cracks are generally:",
       "options": [
        "More critical and judged more strictly by codes",
-       "Always fully acceptable here, somehow really quite",
-       "Never ever detectable here, somehow really quite oddly",
-       "Just the same as porosity here, somehow really"
+       "Always fully acceptable here",
+       "Never ever detectable here",
+       "The same as porosity here"
       ],
       "answer": 0,
       "explanation": "Planar flaws concentrate stress and are typically judged more strictly than rounded volumetric flaws, so correct classification matters for evaluation.",
@@ -7321,9 +7321,9 @@
       "stem": "Taking radiographs from more than one angle helps:",
       "options": [
        "Detect and characterize flaws that are unfavorably oriented in a single view",
-       "Greatly reduce the whole IQI requirement here, somehow really quite oddly enough",
-       "Fully eliminate all the processing here, somehow really quite oddly enough",
-       "Greatly increase the fog here, somehow really quite oddly enough indeed here right"
+       "Greatly reduce the whole IQI requirement here",
+       "Fully eliminate all the processing here",
+       "Greatly increase the fog here"
       ],
       "answer": 0,
       "explanation": "Multiple angles improve the chance of aligning a planar flaw with the beam and help characterize size and orientation, addressing RT's orientation sensitivity.",
@@ -7347,8 +7347,8 @@
       "stem": "A subtle discontinuity may be missed if the radiograph has:",
       "options": [
        "Insufficient contrast or excessive fog",
-       "Plain high contrast here, somehow",
-       "Fully proper density here, somehow oddly",
+       "High contrast here",
+       "Fully proper density here",
        "The whole required IQI sensitivity here now"
       ],
       "answer": 0,
@@ -7373,9 +7373,9 @@
       "stem": "The main visual cue separating slag from porosity on film is that slag is usually:",
       "options": [
        "Irregular and often elongated, while porosity is rounded",
-       "Just always fully rounded here, somehow really quite oddly",
-       "Always lighter than the whole metal here, somehow really quite",
-       "Fully invisible here, somehow really quite oddly enough"
+       "Always fully rounded here",
+       "Always lighter than the whole metal here",
+       "Fully invisible here"
       ],
       "answer": 0,
       "explanation": "Slag images as irregular, frequently elongated dark shapes, whereas porosity is rounded; both are darker than sound metal.",
@@ -7425,9 +7425,9 @@
       "stem": "Final accept/reject decisions on radiographs must be made by:",
       "options": [
        "Qualified, certified personnel per the applicable procedure and code",
-       "Just any random observer here, somehow really quite oddly enough indeed",
-       "Just the welder alone here, somehow really quite oddly enough",
-       "Just the whole film manufacturer here, somehow really quite oddly enough"
+       "Any random observer here",
+       "The welder alone here",
+       "The whole film manufacturer here"
       ],
       "answer": 0,
       "explanation": "Interpretation and evaluation are performed by personnel qualified and certified to the required level, following the governing procedure and acceptance code.",
@@ -7451,9 +7451,9 @@
       "stem": "Which statement is correct about radiographic interpretation?",
       "options": [
        "Voids image darker, dense inclusions image lighter, and a valid radiograph must precede evaluation",
-       "All of the voids actually image much lighter on the whole film here, somehow really quite oddly enough",
-       "All dense inclusions actually image darker on the film here, somehow really quite oddly enough indeed now",
-       "The whole radiograph validity does not matter at all here, somehow really quite oddly enough"
+       "All of the voids actually image much lighter on the whole film here",
+       "All dense inclusions actually image darker on the film here",
+       "The whole radiograph validity does not matter at all here"
       ],
       "answer": 0,
       "explanation": "Material loss images darker and dense inclusions lighter, and indications are only evaluated after confirming the radiograph meets quality requirements.",
@@ -7477,9 +7477,9 @@
       "stem": "On a radiograph, the key difference between a tungsten inclusion and a slag inclusion is that tungsten images:",
       "options": [
        "Lighter (denser than the weld), while slag images darker",
-       "Just darker than the whole slag here, somehow really",
-       "Identically to the whole slag here, somehow really quite oddly",
-       "Just as a crack here, somehow really quite oddly enough indeed"
+       "Darker than the whole slag here",
+       "Identically to the whole slag here",
+       "As a crack here"
       ],
       "answer": 0,
       "explanation": "Tungsten is denser than the weld metal and images lighter, whereas slag is less dense and images darker; the opposite density cues distinguish them.",
@@ -7503,9 +7503,9 @@
       "stem": "Discontinuity length on a radiograph is commonly measured using:",
       "options": [
        "A scale or comparator referenced to the image and known markers",
-       "Only ever the whole densitometer reading here, somehow really quite",
-       "Only ever the whole kV setting here, somehow really quite oddly enough",
-       "Only the source activity here, somehow really quite oddly"
+       "Only ever the whole densitometer reading here",
+       "Only ever the whole kV setting here",
+       "Only the source activity here"
       ],
       "answer": 0,
       "explanation": "Length is measured directly on the image with a scale or comparator, accounting for any projection, and tied to location markers per the procedure.",
@@ -7529,9 +7529,9 @@
       "stem": "Codes often distinguish scattered porosity from clustered porosity because:",
       "options": [
        "Concentration in a small area can be more detrimental to the weld",
-       "The whole outer color simply differs here, somehow really quite oddly",
-       "It changes the whole source energy here, somehow really quite oddly",
-       "It is fully non-relevant here, somehow really quite oddly enough"
+       "The whole outer color simply differs here",
+       "It changes the whole source energy here",
+       "It is fully non-relevant here"
       ],
       "answer": 0,
       "explanation": "A dense cluster of pores in a small region can weaken the weld more than the same pores spread out, so acceptance limits address concentration.",
@@ -7555,9 +7555,9 @@
       "stem": "Incomplete penetration and lack of fusion differ in that incomplete penetration is at the:",
       "options": [
        "Weld root, while lack of fusion is at the fusion faces between weld and base or passes",
-       "Just the whole weld cap only here, somehow really quite oddly enough indeed here right now",
-       "Just the outer surface only here, somehow really quite oddly enough indeed here right now",
-       "The exact same location here, somehow really quite oddly enough indeed here right now"
+       "The whole weld cap only here",
+       "The outer surface only here",
+       "The exact same location here"
       ],
       "answer": 0,
       "explanation": "Incomplete penetration is a root condition where the joint is not filled, while lack of fusion is unbonding at the fusion faces or between passes; both image as dark linear indications.",
@@ -7581,9 +7581,9 @@
       "stem": "Radiography is well suited to volumetric flaws but, compared with ultrasonic testing, is generally less reliable for:",
       "options": [
        "Detecting tight, planar flaws oriented across the beam",
-       "Just detecting plain porosity here, somehow really",
-       "Just detecting plain slag here, somehow really quite oddly",
-       "Just detecting density changes here, somehow really quite"
+       "Detecting plain porosity here",
+       "Detecting plain slag here",
+       "Detecting density changes here"
       ],
       "answer": 0,
       "explanation": "Tight planar flaws normal to the beam give little radiographic contrast and are better found by UT, while RT excels at volumetric flaws like porosity and slag.",
@@ -8029,9 +8029,9 @@
       "stem": "A film badge or TLD/OSL dosimeter is worn to:",
       "options": [
        "Record the wearer's accumulated dose over a period",
-       "Read the whole instantaneous dose rate here, oddly",
-       "Fully shield the whole wearer here, somehow oddly",
-       "Crank the source out here, somehow really quite oddly"
+       "Read the whole instantaneous dose rate here",
+       "Fully shield the whole wearer here",
+       "Crank the source out here"
       ],
       "answer": 0,
       "explanation": "These personnel dosimeters integrate dose over a wear period (often a month) for dose-of-record; they do not give a real-time rate.",
@@ -8055,9 +8055,9 @@
       "stem": "A self-reading pocket dosimeter allows the radiographer to:",
       "options": [
        "Check accumulated dose directly during the day",
-       "Measure the whole source activity here, oddly",
-       "Develop out the whole loaded film here, oddly",
-       "Set the whole exposure time here, somehow oddly"
+       "Measure the whole source activity here",
+       "Develop out the whole loaded film here",
+       "Set the whole exposure time here"
       ],
       "answer": 0,
       "explanation": "A pocket dosimeter (or electronic dosimeter) gives an immediate read of accumulated dose, useful for managing daily exposure alongside the badge of record.",
@@ -8081,9 +8081,9 @@
       "stem": "An alarming rate meter (audible dosimeter) on a radiographer is required mainly to:",
       "options": [
        "Warn immediately if the person enters an unexpectedly high field",
-       "Record the whole dose of record here, somehow really quite oddly enough",
-       "Measure the whole film density here, somehow really quite oddly",
-       "Fully replace the survey meter here, somehow really quite oddly enough"
+       "Record the whole dose of record here",
+       "Measure the whole film density here",
+       "Fully replace the survey meter here"
       ],
       "answer": 0,
       "explanation": "An alarming rate meter gives an immediate audible warning of high dose rate (for example an unshielded or stuck source), supplementing but not replacing surveys and dosimeters.",
@@ -8107,9 +8107,9 @@
       "stem": "After each gamma radiography exposure, the radiographer must:",
       "options": [
        "Survey to confirm the source has fully returned to its shielded position",
-       "Just fully skip the survey to save some time here, somehow really quite oddly",
-       "Just develop out the film first here, somehow really quite oddly enough",
-       "Greatly increase the source activity here, somehow really quite oddly"
+       "Fully skip the survey to save some time here",
+       "Develop out the film first here",
+       "Greatly increase the source activity here"
       ],
       "answer": 0,
       "explanation": "A survey after each exposure confirms the source is fully retracted and shielded before approaching; this is a core control against overexposure from a stuck source.",
@@ -8133,9 +8133,9 @@
       "stem": "If a gamma source fails to fully retract (a stuck source), the radiographer should:",
       "options": [
        "Maintain distance, keep others away, and follow the emergency procedure",
-       "Approach the source immediately to pull it out by hand here, somehow oddly",
-       "Just ignore it all and continue here, somehow really quite oddly enough",
-       "Greatly increase the whole exposure time here, somehow really quite oddly"
+       "Approach the source immediately to pull it out by hand here",
+       "Ignore it all and continue here",
+       "Greatly increase the whole exposure time here"
       ],
       "answer": 0,
       "explanation": "A stuck source is a radiation emergency; the radiographer maximizes distance, secures the area, alerts others and the RSO, and follows the written emergency procedure rather than approaching.",
@@ -8159,9 +8159,9 @@
       "stem": "Areas where radiography creates elevated dose rates must be:",
       "options": [
        "Posted and controlled with appropriate signs and barriers",
-       "Left fully unmarked here, somehow really quite oddly enough",
-       "Open to the whole public here, somehow really quite oddly enough",
-       "Marked only after the job here, somehow really quite"
+       "Left fully unmarked here",
+       "Open to the whole public here",
+       "Marked only after the job here"
       ],
       "answer": 0,
       "explanation": "Restricted and high-radiation areas are posted with caution signs and physically controlled with barriers and surveillance during exposures to keep people out.",
@@ -8185,9 +8185,9 @@
       "stem": "The Radiation Safety Officer (RSO) is responsible for:",
       "options": [
        "Overseeing the radiation safety program and regulatory compliance",
-       "Developing out all of the loaded film here, somehow really quite",
-       "Welding all of the whole parts here, somehow really quite oddly enough",
-       "Selling off the source here, somehow really quite oddly enough indeed"
+       "Developing out all of the loaded film here",
+       "Welding all of the whole parts here",
+       "Selling off the source here"
       ],
       "answer": 0,
       "explanation": "The RSO administers the safety program, training, surveys, dosimetry, and compliance with the license and regulations.",
@@ -8211,9 +8211,9 @@
       "stem": "Industrial radiography in the US is regulated by:",
       "options": [
        "The NRC or an Agreement State under equivalent regulations",
-       "No regulating agency at all here, somehow really quite oddly",
-       "Only the whole film manufacturer here, somehow really quite oddly",
-       "Only plain ASTM here, somehow really quite oddly enough"
+       "No regulating agency at all here",
+       "Only the whole film manufacturer here",
+       "Only plain ASTM here"
       ],
       "answer": 0,
       "explanation": "The NRC regulates byproduct material, with Agreement States enforcing equivalent rules; industrial radiography specifically falls under 10 CFR Part 34 (and state equivalents). (Verify current structure and citations.)",
@@ -8263,9 +8263,9 @@
       "stem": "Requiring both a calibrated survey meter and an alarming rate device reflects the principle of:",
       "options": [
        "Independent means to detect a source out of shield",
-       "Just far faster film processing here, somehow",
-       "Just a much higher tube kV here, somehow really quite",
-       "Just a lower cost only here, somehow really quite oddly"
+       "Far faster film processing here",
+       "A much higher tube kV here",
+       "A lower cost only here"
       ],
       "answer": 0,
       "explanation": "Using more than one independent indicator reduces the chance that an unshielded or stuck source goes undetected, a defense-in-depth safety practice.",
@@ -8315,9 +8315,9 @@
       "stem": "For a high-energy gamma source like Co-60, effective shielding generally requires:",
       "options": [
        "Greater thickness of dense material than for a lower-energy source",
-       "No shielding at all here, somehow really quite oddly enough indeed here",
-       "Only a thin lead foil here, somehow really quite oddly enough",
-       "Just plain plastic sheeting here, somehow really quite oddly enough"
+       "No shielding at all here",
+       "Only a thin lead foil here",
+       "Plastic sheeting here"
       ],
       "answer": 0,
       "explanation": "Higher-energy gammas have larger half-value layers, so more dense shielding (such as thick lead or steel/concrete) is needed than for lower-energy sources.",
@@ -8341,9 +8341,9 @@
       "stem": "The official dose of record for a radiographer is normally provided by:",
       "options": [
        "A processed personnel dosimeter (film badge, TLD, or OSL)",
-       "Just a pocket dosimeter reading only here, somehow really quite",
-       "Just the whole survey meter here, somehow really quite oddly",
-       "Just the exposure chart here, somehow really quite oddly"
+       "A pocket dosimeter reading only here",
+       "The whole survey meter here",
+       "The exposure chart here"
       ],
       "answer": 0,
       "explanation": "The dose of record comes from the evaluated personnel dosimeter (badge/TLD/OSL) read by a processor; pocket and electronic dosimeters support daily management but the badge is the record.",
@@ -8367,9 +8367,9 @@
       "stem": "Documents such as ASTM E94 and E1742 provide:",
       "options": [
        "Standard practices for performing and documenting radiographic examination",
-       "Just the whole federal dose limits here, somehow really quite oddly enough indeed",
-       "Just the source manufacturing licenses here, somehow really quite oddly",
-       "Just the whole film developer formulas here, somehow really quite oddly enough"
+       "The whole federal dose limits here",
+       "The source manufacturing licenses here",
+       "The whole film developer formulas here"
       ],
       "answer": 0,
       "explanation": "ASTM E94 (guide for radiographic examination) and E1742 (practice for radiographic examination) give consensus practice requirements; dose limits come from the regulations (10 CFR). (Verify current revisions.)",

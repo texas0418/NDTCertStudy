@@ -31,9 +31,9 @@
       "stem": "Ultrasonic testing uses:",
       "options": [
        "High-frequency sound waves to detect flaws and measure thickness",
-       "Plain X-rays here, somehow really quite oddly enough indeed here right",
-       "Plain magnetic fields here, somehow really quite oddly enough indeed",
-       "Plain liquid penetrant here, somehow really quite oddly enough"
+       "Plain X-rays here",
+       "Magnetic fields here",
+       "Liquid penetrant here"
       ],
       "answer": 0,
       "explanation": "UT introduces high-frequency sound into a material and uses the returning echoes to find discontinuities and measure thickness.",
@@ -57,9 +57,9 @@
       "stem": "Sound waves require:",
       "options": [
        "A medium (solid, liquid, or gas) to travel through",
-       "Just a plain vacuum here, somehow really quite oddly",
-       "Just plain light here, somehow really quite oddly",
-       "Just plain radiation here, somehow really quite oddly"
+       "A plain vacuum here",
+       "Light here",
+       "Radiation here"
       ],
       "answer": 0,
       "explanation": "Sound is a mechanical vibration that needs a medium to propagate; it cannot travel through a vacuum.",
@@ -83,9 +83,9 @@
       "stem": "Ultrasonic frequencies are those:",
       "options": [
        "Above the range of human hearing (above about 20 kHz)",
-       "Only ever below 20 Hz here, somehow really quite oddly",
-       "Within the normal speech range here, somehow really quite",
-       "Fully equal to the radio waves here, somehow really"
+       "Only ever below 20 Hz here",
+       "Within the normal speech range here",
+       "Fully equal to the radio waves here"
       ],
       "answer": 0,
       "explanation": "Ultrasound is sound above human hearing (above roughly 20 kHz). Industrial UT commonly uses frequencies from about 1 to 10 MHz.",
@@ -189,7 +189,7 @@
        "Parallel to the direction of wave travel",
        "Perpendicular to the whole wave travel here",
        "Along the whole part surface only here",
-       "Fully absent here, somehow really quite oddly"
+       "Fully absent here"
       ],
       "answer": 0,
       "explanation": "Longitudinal waves vibrate particles back and forth along the propagation direction. They travel in solids, liquids, and gases and are the fastest mode.",
@@ -215,7 +215,7 @@
        "Perpendicular to the direction of wave travel",
        "Fully parallel to the whole wave travel here",
        "In a tight circle at the whole surface here",
-       "Fully nonexistent here, somehow really quite oddly"
+       "Fully nonexistent here"
       ],
       "answer": 0,
       "explanation": "Shear waves vibrate particles across the propagation direction. They travel only in solids and move at roughly half the longitudinal velocity in the same material.",
@@ -240,8 +240,8 @@
       "options": [
        "Solids, but generally not liquids or gases",
        "All states of matter fully equally here",
-       "Only ever the gases here, somehow oddly",
-       "Only ever a vacuum here, somehow quite oddly"
+       "Only ever the gases here",
+       "Only ever a vacuum here"
       ],
       "answer": 0,
       "explanation": "Shear waves require a medium that supports shear stress, so they travel in solids but not in liquids or gases.",
@@ -291,9 +291,9 @@
       "stem": "A surface (Rayleigh) wave travels:",
       "options": [
        "Along the surface to a depth of roughly one wavelength",
-       "Straight through the whole center here, somehow oddly",
-       "Only ever in the liquids here, somehow really quite oddly",
-       "Faster than longitudinal waves here, somehow really quite"
+       "Straight through the whole center here",
+       "Only ever in the liquids here",
+       "Faster than longitudinal waves here"
       ],
       "answer": 0,
       "explanation": "Surface waves follow the surface, penetrating on the order of one wavelength deep as an approximation, and are useful for surface and near-surface flaws on a part.",
@@ -343,9 +343,9 @@
       "stem": "In the pulse-echo technique, one transducer:",
       "options": [
        "Sends a pulse and receives the returning echoes",
-       "Only ever sends here, somehow really quite",
-       "Only ever receives here, somehow really quite oddly",
-       "Just emits X-rays here, somehow really quite oddly"
+       "Only ever sends here",
+       "Only ever receives here",
+       "Emits X-rays here"
       ],
       "answer": 0,
       "explanation": "In pulse-echo, a single transducer transmits a sound pulse and then receives the echoes from reflectors and the back surface; the time of flight gives distance.",
@@ -369,9 +369,9 @@
       "stem": "Pulse-echo measures distance to a reflector using:",
       "options": [
        "The travel time of the echo and the material velocity",
-       "Only ever the whole amplitude of the echo here, oddly",
+       "Only ever the whole amplitude of the echo here",
        "Only the whole frequency of the transducer here now",
-       "Only the whole pulse repetition rate here, somehow oddly"
+       "Only the whole pulse repetition rate here"
       ],
       "answer": 0,
       "explanation": "Distance is found from the echo travel time and the known sound velocity in the material. Half the round-trip time corresponds to the one-way depth.",
@@ -395,9 +395,9 @@
       "stem": "Through-transmission testing uses:",
       "options": [
        "A separate transmitter and receiver on opposite sides",
-       "Just one transducer for both here, somehow really quite",
-       "No transducer at all here, somehow really quite oddly",
-       "Just a plain magnet here, somehow really quite oddly enough"
+       "One transducer for both here",
+       "No transducer at all here",
+       "A plain magnet here"
       ],
       "answer": 0,
       "explanation": "Through-transmission places a transmitting transducer on one side and a receiver on the other; a flaw reduces the received signal. It does not locate depth as pulse-echo does.",
@@ -421,9 +421,9 @@
       "stem": "Sound reflects at an interface when there is a difference in:",
       "options": [
        "Acoustic impedance between the two materials",
-       "Outer color here, somehow really quite oddly enough",
-       "The magnetic permeability here, somehow oddly",
-       "The electrical resistance here, somehow"
+       "Outer color here",
+       "The magnetic permeability here",
+       "The electrical resistance here"
       ],
       "answer": 0,
       "explanation": "Reflection occurs at boundaries where acoustic impedance changes. The larger the impedance mismatch, the more sound is reflected.",
@@ -473,9 +473,9 @@
       "stem": "An air gap between the transducer and the part reflects nearly all the sound because:",
       "options": [
        "Air has a very large impedance mismatch with solids",
-       "Air conducts the sound fully perfectly here, oddly",
-       "Air is fully magnetic here, somehow really quite oddly",
-       "Air is fully transparent here, somehow really quite oddly"
+       "Air conducts the sound fully perfectly here",
+       "Air is fully magnetic here",
+       "Air is fully transparent here"
       ],
       "answer": 0,
       "explanation": "The huge impedance difference between air and a solid reflects almost all the sound at the interface, which is why a couplant is needed to exclude air.",
@@ -525,7 +525,7 @@
       "stem": "Attenuation is the:",
       "options": [
        "Loss of sound energy as it travels through material",
-       "The gain added on by the whole instrument here, oddly",
+       "The gain added on by the whole instrument here",
        "The reflection of the sound at the backwall here",
        "The whole speed of the sound in the material here"
       ],
@@ -629,9 +629,9 @@
       "stem": "Lower frequencies are often chosen for:",
       "options": [
        "Greater penetration in thick or attenuative material",
-       "Much better small-flaw resolution here, somehow oddly",
-       "A much shorter sound wavelength here, somehow oddly",
-       "Much higher overall attenuation here, somehow quite oddly"
+       "Much better small-flaw resolution here",
+       "A much shorter sound wavelength here",
+       "Much higher overall attenuation here"
       ],
       "answer": 0,
       "explanation": "Lower frequency penetrates deeper and is less affected by scattering, useful for thick or coarse-grained parts, at the cost of resolution.",
@@ -655,9 +655,9 @@
       "stem": "Echo amplitude from a reflector depends partly on its:",
       "options": [
        "Size, orientation, and the sound reaching it",
-       "Outer color here, somehow really quite oddly enough",
-       "The magnetic property here, somehow oddly",
-       "The electrical charge here, somehow oddly"
+       "Outer color here",
+       "The magnetic property here",
+       "The electrical charge here"
       ],
       "answer": 0,
       "explanation": "A larger reflector well-oriented to the beam and reached by adequate sound returns a stronger echo. Orientation strongly affects amplitude.",
@@ -681,9 +681,9 @@
       "stem": "A planar flaw returns the strongest echo when it is:",
       "options": [
        "Oriented roughly perpendicular to the sound beam",
-       "Fully parallel to the whole beam here, oddly",
-       "Fully painted here, somehow really quite oddly enough",
-       "Fully magnetized here, somehow really quite oddly"
+       "Fully parallel to the whole beam here",
+       "Fully painted here",
+       "Fully magnetized here"
       ],
       "answer": 0,
       "explanation": "A flaw facing the beam reflects sound back to the transducer most strongly. A flaw nearly parallel to the beam may reflect little and be missed.",
@@ -733,9 +733,9 @@
       "stem": "A sudden loss of the backwall echo can indicate:",
       "options": [
        "A reflector or condition redirecting or absorbing the sound",
-       "Perfect sound material always here, somehow really quite oddly",
-       "A fully dead instrument only here, somehow really quite",
-       "A plain color change here, somehow really quite oddly enough"
+       "Perfect sound material always here",
+       "A fully dead instrument only here",
+       "A plain color change here"
       ],
       "answer": 0,
       "explanation": "Losing the backwall may mean a large flaw, a lamination, heavy attenuation, or poor coupling is interrupting the sound path, which the technician investigates.",
@@ -864,7 +864,7 @@
       "options": [
        "Shorter wavelengths (higher frequency)",
        "Much longer sound wavelengths here now",
-       "No sound at all here, somehow oddly",
+       "No sound at all here",
        "A much lower overall frequency here now"
       ],
       "answer": 0,
@@ -889,9 +889,9 @@
       "stem": "Sound velocity in aluminum versus steel is:",
       "options": [
        "Different, because velocity depends on the material",
-       "Always fully identical here, somehow really quite oddly",
-       "Fully zero in both here, somehow really quite oddly enough",
-       "Set by the instrument here, somehow really quite"
+       "Always fully identical here",
+       "Fully zero in both here",
+       "Set by the instrument here"
       ],
       "answer": 0,
       "explanation": "Each material has its own sound velocity, so calibration and thickness readings must use the correct velocity for the material being tested.",
@@ -915,9 +915,9 @@
       "stem": "A couplant works partly by providing an acoustic path with impedance:",
       "options": [
        "Higher than air, so it excludes the air gap and lets sound enter the part",
-       "Fully identical to the air here, somehow really quite oddly enough indeed here",
-       "Fully equal to a vacuum here, somehow really quite oddly enough indeed",
-       "That fully blocks all of the sound here, somehow really quite oddly enough"
+       "Fully identical to the air here",
+       "Fully equal to a vacuum here",
+       "That fully blocks all of the sound here"
       ],
       "answer": 0,
       "explanation": "A couplant works mainly by excluding the air gap. Air has a very large impedance mismatch with the transducer and the part, so an air gap reflects almost all the sound; replacing it with a liquid or gel, even one whose impedance is below that of the metal, lets far more sound enter the part.",
@@ -967,9 +967,9 @@
       "stem": "In the far field, the sound beam:",
       "options": [
        "Spreads and weakens more predictably with distance",
-       "Has fully chaotic interference here, somehow oddly",
-       "Does not exist at all here, somehow really quite oddly",
-       "Fully travels faster here, somehow really quite oddly"
+       "Has fully chaotic interference here",
+       "Does not exist at all here",
+       "Fully travels faster here"
       ],
       "answer": 0,
       "explanation": "Beyond the near field the beam diverges and its amplitude falls in a predictable way, which is why evaluation is generally done in the far field.",
@@ -994,8 +994,8 @@
       "options": [
        "Larger transducer diameter or higher frequency",
        "A smaller diameter and a lower frequency here",
-       "Much more couplant here, somehow really quite oddly",
-       "A much higher gain here, somehow really quite oddly"
+       "Much more couplant here",
+       "A much higher gain here"
       ],
       "answer": 0,
       "explanation": "A larger element or higher frequency produces a more collimated beam with less divergence. Gain and couplant amount do not change beam spread.",
@@ -1045,9 +1045,9 @@
       "stem": "Which statement about UT fundamentals is correct?",
       "options": [
        "UT sends sound into a part and uses echoes to find flaws and measure thickness",
-       "UT works only ever on the magnetic parts here, somehow really quite oddly enough now",
-       "UT just uses plain X-rays here, somehow really quite oddly enough indeed here right",
-       "UT simply cannot measure the thickness here, somehow really quite oddly"
+       "UT works only ever on the magnetic parts here",
+       "UT just uses plain X-rays here",
+       "UT simply cannot measure the thickness here"
       ],
       "answer": 0,
       "explanation": "UT introduces sound, receives echoes from reflectors and the backwall, and uses timing and amplitude to find flaws and measure thickness in many materials.",
@@ -1129,9 +1129,9 @@
       "stem": "At normal (perpendicular) incidence, the beam:",
       "options": [
        "Passes straight in without refraction or mode conversion",
-       "It always fully refracts here, somehow really quite oddly",
-       "It always converts to shear here, somehow really quite",
-       "It fully reflects entirely here, somehow really quite oddly"
+       "It always fully refracts here",
+       "It always converts to shear here",
+       "It fully reflects entirely here"
       ],
       "answer": 0,
       "explanation": "When the beam strikes a surface perpendicularly, it does not bend and does not mode-convert; it travels straight in as the same mode.",
@@ -1155,9 +1155,9 @@
       "stem": "Mode conversion at an angled interface means:",
       "options": [
        "Some energy changes between longitudinal and shear modes",
-       "The whole frequency just doubles here, somehow really quite",
-       "The couplant just changes here, somehow really quite",
-       "The whole part just magnetizes here, somehow really quite oddly"
+       "The whole frequency just doubles here",
+       "The couplant just changes here",
+       "The whole part just magnetizes here"
       ],
       "answer": 0,
       "explanation": "At an angle, part of the energy can convert from longitudinal to shear (or back), producing refracted waves of both modes at different angles.",
@@ -1207,9 +1207,9 @@
       "stem": "At the first critical angle, the refracted longitudinal wave:",
       "options": [
        "Reaches 90 degrees, leaving only the refracted shear wave",
-       "Fully disappears entirely with nothing left here, somehow oddly",
-       "Fully doubles in amplitude here, somehow really quite",
-       "Becomes a surface wave here, somehow really quite oddly enough"
+       "Fully disappears entirely with nothing left here",
+       "Fully doubles in amplitude here",
+       "Becomes a surface wave here"
       ],
       "answer": 0,
       "explanation": "At the first critical angle the longitudinal wave refracts to 90 degrees and no longer enters the part, so only the shear wave remains for angle-beam work.",
@@ -1311,9 +1311,9 @@
       "stem": "Longitudinal velocity in steel is commonly near:",
       "options": [
        "About 0.23 in/microsecond (roughly 5900 m/s)",
-       "About 0.02 in/microsecond here, somehow oddly",
-       "About 2.3 in/microsecond here, somehow oddly",
-       "Fully zero here, somehow really quite oddly enough"
+       "About 0.02 in/microsecond here",
+       "About 2.3 in/microsecond here",
+       "Fully zero here"
       ],
       "answer": 0,
       "explanation": "Longitudinal velocity in steel is roughly 0.23 inch per microsecond (about 5900 m/s). Use the correct value for the actual material and confirm against reference data.",
@@ -1337,9 +1337,9 @@
       "stem": "Using the wrong material velocity during setup will cause:",
       "options": [
        "Incorrect distance and thickness readings",
-       "No real effect here, somehow really quite oddly",
-       "A plain color change here, somehow really oddly",
-       "A loss of magnetism here, somehow oddly"
+       "No real effect here",
+       "A plain color change here",
+       "A loss of magnetism here"
       ],
       "answer": 0,
       "explanation": "Distance and thickness are computed from velocity, so an incorrect velocity produces inaccurate readings even if the echoes look fine.",
@@ -1363,9 +1363,9 @@
       "stem": "A significant temperature change in the part generally:",
       "options": [
        "Changes the sound velocity slightly and can affect readings",
-       "Has no real effect ever here, somehow really quite oddly",
-       "Changes the whole part color here, somehow really quite oddly",
-       "Fully reverses the beam here, somehow really quite oddly enough"
+       "Has no real effect ever here",
+       "Changes the whole part color here",
+       "Fully reverses the beam here"
       ],
       "answer": 0,
       "explanation": "Velocity varies with temperature, so large temperature differences between calibration and inspection can shift readings; corrections or on-part calibration may be needed.",
@@ -1415,9 +1415,9 @@
       "stem": "Scattering from grain structure can produce:",
       "options": [
        "Noise (grass) on the display that can mask small echoes",
-       "A much stronger backwall always here, somehow really",
-       "A plain magnetic indication here, somehow really quite oddly",
-       "A plain color band here, somehow really quite oddly enough now"
+       "A much stronger backwall always here",
+       "A plain magnetic indication here",
+       "A plain color band here"
       ],
       "answer": 0,
       "explanation": "Scattered sound shows as noise or grass on the A-scan, which can hide small flaw echoes, especially at higher frequencies in coarse material.",
@@ -1468,8 +1468,8 @@
       "options": [
        "Spreads out with distance in the far field",
        "Stays a perfect cylinder forever here now",
-       "Fully changes its color here, somehow oddly",
-       "Fully reverses its direction here, somehow oddly"
+       "Fully changes its color here",
+       "Fully reverses its direction here"
       ],
       "answer": 0,
       "explanation": "Beyond the near field the beam diverges, lowering intensity and affecting how reflectors at the edges of the beam respond.",
@@ -1493,9 +1493,9 @@
       "stem": "An angle-beam transducer uses a wedge to:",
       "options": [
        "Introduce sound at an angle so it refracts to the desired angle in the part",
-       "Fully filter out all the low frequencies here, somehow really quite oddly enough",
-       "Damp the whole element to shorten the pulse here, somehow really quite oddly",
-       "Focus the whole beam to a point here, somehow really quite oddly enough"
+       "Fully filter out all the low frequencies here",
+       "Damp the whole element to shorten the pulse here",
+       "Focus the whole beam to a point here"
       ],
       "answer": 0,
       "explanation": "The wedge sets the incidence angle so refraction and mode conversion produce the intended refracted shear angle in the material.",
@@ -1571,9 +1571,9 @@
       "stem": "Couplant improves transmission into the part by:",
       "options": [
        "Replacing the high-mismatch air gap with a better-matched liquid path",
-       "Adding plain magnetism here, somehow really quite oddly enough indeed here",
-       "Increasing the whole frequency here, somehow really quite oddly enough now",
-       "Cooling the whole part here, somehow really quite oddly enough"
+       "Adding plain magnetism here",
+       "Increasing the whole frequency here",
+       "Cooling the whole part here"
       ],
       "answer": 0,
       "explanation": "By filling the air gap with a liquid or gel, the couplant reduces the severe impedance mismatch of air and lets far more sound enter the part.",
@@ -1649,7 +1649,7 @@
       "stem": "An internal interface such as a lamination produces an echo because:",
       "options": [
        "It presents an impedance change that reflects sound",
-       "It fully absorbs the entire beam here, somehow oddly",
+       "It fully absorbs the entire beam here",
        "It increases the whole sound velocity locally here",
        "It fully amplifies the whole returning signal here now"
       ],
@@ -1675,9 +1675,9 @@
       "stem": "A reflector at the edge of the beam may give a:",
       "options": [
        "Lower amplitude than the same reflector on the beam axis",
-       "A much higher amplitude always here, somehow really quite oddly",
-       "A plain magnetic signal here, somehow really quite oddly enough",
-       "A plain color change here, somehow really quite oddly"
+       "A much higher amplitude always here",
+       "A plain magnetic signal here",
+       "A plain color change here"
       ],
       "answer": 0,
       "explanation": "Sound intensity is lower toward the beam edges, so an off-axis reflector returns a weaker echo than it would on the beam centerline.",
@@ -1727,9 +1727,9 @@
       "stem": "In immersion testing, the couplant is:",
       "options": [
        "A water path between the transducer and the part",
-       "Just a dry film here, somehow really quite oddly enough",
-       "Just plain air here, somehow really quite oddly",
-       "Just a plain magnet here, somehow really quite oddly"
+       "A dry film here",
+       "Air here",
+       "A plain magnet here"
       ],
       "answer": 0,
       "explanation": "Immersion testing uses a water column or bath to couple sound into the part, with the transducer not touching the surface.",
@@ -1754,7 +1754,7 @@
       "options": [
        "Time the sound spends in the water before entering the part",
        "The whole extra travel time being fully negligible and ignorable here",
-       "The whole water removing the need for calibration here, oddly",
+       "The whole water removing the need for calibration here",
        "The whole water doubling the part thickness reading here"
       ],
       "answer": 0,
@@ -1779,9 +1779,9 @@
       "stem": "Surface waves are useful for detecting:",
       "options": [
        "Surface and near-surface flaws that follow the contour",
-       "Just deep internal voids here, somehow really quite oddly",
-       "Flaws only in the liquids here, somehow really quite",
-       "The magnetic domains here, somehow really quite oddly enough"
+       "Deep internal voids here",
+       "Flaws only in the liquids here",
+       "The magnetic domains here"
       ],
       "answer": 0,
       "explanation": "Surface waves travel along the surface and can follow gentle contours, making them suitable for surface and near-surface flaws.",
@@ -1805,9 +1805,9 @@
       "stem": "Shear angle beams are favored for many weld inspections because they:",
       "options": [
        "Can reach the weld volume at an angle to detect typical weld flaws",
-       "Travel only ever on the whole surface here, somehow really quite",
-       "Need no calibration at all here, somehow really quite oddly enough now",
-       "Fully detect the color here, somehow really quite oddly enough indeed"
+       "Travel only ever on the whole surface here",
+       "Need no calibration at all here",
+       "Fully detect the color here"
       ],
       "answer": 0,
       "explanation": "Angled shear waves can be directed into the weld and heat-affected zone to find cracks and fusion flaws that a straight beam might miss.",
@@ -1831,9 +1831,9 @@
       "stem": "Mode-converted signals during angle-beam work can:",
       "options": [
        "Produce extra indications the technician must recognize",
-       "Always be fully ignored safely here, somehow really quite",
-       "Fully magnetize the part here, somehow really quite oddly",
-       "Improve the color contrast here, somehow really quite"
+       "Always be fully ignored safely here",
+       "Fully magnetize the part here",
+       "Improve the color contrast here"
       ],
       "answer": 0,
       "explanation": "Mode conversion can create additional echoes that are not flaws, so the technician learns to recognize them rather than mistaking them for discontinuities.",
@@ -1883,9 +1883,9 @@
       "stem": "Which statement about wave behavior is correct?",
       "options": [
        "Angled incidence causes refraction and mode conversion governed by the materials' velocities",
-       "Sound simply never ever bends at all in any way here, somehow really quite oddly enough indeed now",
-       "The velocity is fully the same for all the modes and all materials here, somehow really quite oddly",
-       "The frequency has no real effect on the penetration here, somehow really quite oddly enough"
+       "Sound simply never ever bends at all in any way here",
+       "The velocity is fully the same for all the modes and all materials here",
+       "The frequency has no real effect on the penetration here"
       ],
       "answer": 0,
       "explanation": "At an angle, sound refracts and can mode-convert according to Snell's law and the velocities involved, and frequency affects penetration and resolution.",
@@ -1941,9 +1941,9 @@
       "stem": "The pulser in a UT instrument:",
       "options": [
        "Sends an electrical pulse that drives the transducer",
-       "Develops out the whole loaded film here, somehow oddly",
-       "Fully magnetizes the part here, somehow really quite",
-       "Fully measures the color here, somehow really quite oddly"
+       "Develops out the whole loaded film here",
+       "Fully magnetizes the part here",
+       "Fully measures the color here"
       ],
       "answer": 0,
       "explanation": "The pulser delivers a short, high-voltage electrical pulse to the transducer, which converts it into a sound pulse.",
@@ -1968,8 +1968,8 @@
       "options": [
        "Amplifies and processes the returning echo signals",
        "Generates the whole high-voltage transmit pulse here",
-       "Fully sets the material velocity here, somehow",
-       "Provides the couplant flow here, somehow really quite"
+       "Fully sets the material velocity here",
+       "Provides the couplant flow here"
       ],
       "answer": 0,
       "explanation": "The receiver amplifies the small voltages the transducer produces from echoes and conditions them for display.",
@@ -1993,9 +1993,9 @@
       "stem": "A UT transducer converts:",
       "options": [
        "Electrical energy to sound and sound back to electrical energy",
-       "Plain sound into the light here, somehow really quite oddly enough",
-       "Plain heat into magnetism here, somehow really quite oddly enough",
-       "Plain X-rays into film exposure here, somehow really quite"
+       "Sound into the light here",
+       "Heat into magnetism here",
+       "Plain X-rays into film exposure here"
       ],
       "answer": 0,
       "explanation": "The transducer changes electrical pulses into sound and converts returning sound echoes back into electrical signals, working in both directions.",
@@ -2045,9 +2045,9 @@
       "stem": "Common piezoelectric element materials include:",
       "options": [
        "Ceramics such as lead zirconate titanate and composites",
-       "Plain aluminum foil here, somehow really quite oddly",
-       "Just plain glass here, somehow really quite oddly enough",
-       "Plain rubber here, somehow really quite oddly enough indeed"
+       "Aluminum foil here",
+       "Glass here",
+       "Rubber here"
       ],
       "answer": 0,
       "explanation": "Modern elements are often ceramics such as PZT or piezocomposites; quartz and lithium niobate are also used. Foil, glass, and rubber are not piezoelectric elements.",
@@ -2097,9 +2097,9 @@
       "stem": "The backing (damping) material behind the element:",
       "options": [
        "Controls ringing and shortens the pulse for better resolution",
-       "Increases the ringing to lengthen the pulse here, somehow oddly",
-       "Sets the transducer's whole fundamental frequency here, oddly",
-       "Couples the whole sound into the part here, somehow oddly"
+       "Increases the ringing to lengthen the pulse here",
+       "Sets the transducer's whole fundamental frequency here",
+       "Couples the whole sound into the part here"
       ],
       "answer": 0,
       "explanation": "Damping shortens the pulse by absorbing element vibration, improving near-surface resolution at some cost to sensitivity.",
@@ -2123,9 +2123,9 @@
       "stem": "Heavier damping generally gives:",
       "options": [
        "A shorter pulse and better resolution but lower sensitivity",
-       "A longer pulse and far higher sensitivity here, somehow",
-       "No change at all here, somehow really quite oddly enough indeed",
-       "A plain magnetic field here, somehow really quite oddly enough now"
+       "A longer pulse and far higher sensitivity here",
+       "No change at all here",
+       "A plain magnetic field here"
       ],
       "answer": 0,
       "explanation": "More damping shortens the pulse, improving resolution and reducing the dead zone, while reducing peak sensitivity. The design balances the two.",
@@ -2175,9 +2175,9 @@
       "stem": "A dual-element (transmit-receive) transducer is well suited to:",
       "options": [
        "Thin material, near-surface, and corrosion thickness measurement",
-       "Only ever very thick forgings here, somehow really quite oddly",
-       "Plain magnetizing here, somehow really quite oddly enough indeed here",
-       "Plain film exposure here, somehow really quite oddly enough indeed"
+       "Only ever very thick forgings here",
+       "Magnetizing here",
+       "Film exposure here"
       ],
       "answer": 0,
       "explanation": "Dual-element probes use separate transmit and receive elements, reducing the dead zone and improving near-surface and thin-wall or corrosion thickness measurement.",
@@ -2227,9 +2227,9 @@
       "stem": "An angle-beam transducer is a straight element mounted on a:",
       "options": [
        "Wedge that refracts the sound to an angle in the part",
-       "A plain magnet here, somehow really quite oddly enough",
-       "A plain film cassette here, somehow really quite",
-       "A plain penetrant brush here, somehow really quite oddly"
+       "A plain magnet here",
+       "A plain film cassette here",
+       "A plain penetrant brush here"
       ],
       "answer": 0,
       "explanation": "An angle-beam assembly couples a transducer to an angled wedge so the refracted beam enters the part at the intended angle.",
@@ -2254,7 +2254,7 @@
       "options": [
        "With a water path between probe and part",
        "Pressed directly onto the part here now",
-       "In a plain vacuum here, somehow oddly",
+       "In a plain vacuum here",
        "Without any coupling at all here right now"
       ],
       "answer": 0,
@@ -2279,9 +2279,9 @@
       "stem": "A focused immersion transducer is used to:",
       "options": [
        "Concentrate the beam for better sensitivity and resolution at a depth",
-       "Spread the whole beam out as wide as it goes here, somehow really quite",
-       "Fully magnetize the part here, somehow really quite oddly enough indeed",
-       "Fully heat the water here, somehow really quite oddly enough indeed"
+       "Spread the whole beam out as wide as it goes here",
+       "Fully magnetize the part here",
+       "Fully heat the water here"
       ],
       "answer": 0,
       "explanation": "Focusing concentrates sound at a chosen depth, improving sensitivity and resolution there, commonly in immersion setups.",
@@ -2305,9 +2305,9 @@
       "stem": "A delay-line transducer places a short standoff in front of the element to:",
       "options": [
        "Move the initial pulse away for better near-surface resolution",
-       "Add plain magnetism here, somehow really quite oddly enough indeed",
-       "Increase the whole part thickness here, somehow really quite oddly",
-       "Fully color the echo here, somehow really quite oddly enough"
+       "Add plain magnetism here",
+       "Increase the whole part thickness here",
+       "Fully color the echo here"
       ],
       "answer": 0,
       "explanation": "The delay line introduces a known short path so the entry signal is separated from near-surface echoes, helping thin-material and near-surface work, and protecting the element on hot surfaces.",
@@ -2357,9 +2357,9 @@
       "stem": "UT transducer cables and connectors should be:",
       "options": [
        "In good condition, since damage can disrupt the signal",
-       "Fully frayed for the flexibility here, somehow oddly",
-       "Any length at all with no effect here, somehow oddly",
-       "Used fully wet internally here, somehow really quite oddly"
+       "Fully frayed for the flexibility here",
+       "Any length at all with no effect here",
+       "Used fully wet internally here"
       ],
       "answer": 0,
       "explanation": "Damaged cables and connectors can cause signal loss or noise, so they are kept in good condition and the correct type is used.",
@@ -2383,9 +2383,9 @@
       "stem": "Selecting a higher transducer frequency tends to favor:",
       "options": [
        "Resolution and small-flaw sensitivity on fine-grained, thinner parts",
-       "Maximum penetration in the thick castings here, somehow really",
-       "A far lower cost only here, somehow really quite oddly enough indeed here",
-       "No real technical effect here, somehow really quite oddly enough indeed now"
+       "Maximum penetration in the thick castings here",
+       "A far lower cost only here",
+       "No real technical effect here"
       ],
       "answer": 0,
       "explanation": "Higher frequency improves resolution and small-flaw detection but penetrates less, so it suits finer-grained, thinner sections; thick attenuative parts favor lower frequency.",
@@ -2409,9 +2409,9 @@
       "stem": "A larger-diameter transducer generally provides:",
       "options": [
        "A more collimated beam and greater coverage per pass",
-       "A wildly diverging whole beam here, somehow really quite",
-       "No real effect on the beam here, somehow really",
-       "A plain magnetic field here, somehow really quite oddly"
+       "A wildly diverging whole beam here",
+       "No real effect on the beam here",
+       "A plain magnetic field here"
       ],
       "answer": 0,
       "explanation": "Larger elements give a more directional beam with less far-field spread and cover more area, though small elements can be handier on small or curved parts.",
@@ -2461,9 +2461,9 @@
       "stem": "Choosing a transducer involves matching the:",
       "options": [
        "Frequency, size, and type to the part and the flaws sought",
-       "The whole element size to the whole screen size here, oddly",
-       "The whole gain to the transducer serial number here, oddly",
-       "The pulse repetition rate to the couplant here, somehow oddly"
+       "The whole element size to the whole screen size here",
+       "The whole gain to the transducer serial number here",
+       "The pulse repetition rate to the couplant here"
       ],
       "answer": 0,
       "explanation": "Frequency, element size, and probe type (contact, dual, angle, immersion) are selected for the material, thickness, geometry, and expected flaws.",
@@ -2487,9 +2487,9 @@
       "stem": "Portable UT flaw detectors are typically:",
       "options": [
        "Battery-capable handheld instruments with an A-scan display",
-       "Large fixed whole darkroom units here, somehow really quite oddly",
-       "Plain film processors here, somehow really quite oddly enough",
-       "Plain magnetizing benches here, somehow really quite oddly"
+       "Large fixed whole darkroom units here",
+       "Film processors here",
+       "Magnetizing benches here"
       ],
       "answer": 0,
       "explanation": "Field UT detectors are portable, often battery-powered, with an A-scan display and the controls needed for calibration and inspection.",
@@ -2514,8 +2514,8 @@
       "options": [
        "Avoid dropping them and check the face for wear and cracks",
        "Drag them hard on the rough steel without any care here now",
-       "Store them in the water fully permanently here, somehow oddly",
-       "Strike them hard to test them here, somehow really quite"
+       "Store them in the water fully permanently here",
+       "Strike them hard to test them here"
       ],
       "answer": 0,
       "explanation": "Transducers are fragile; dropping or rough handling can crack the element or wear face, so they are handled carefully and inspected.",
@@ -2565,9 +2565,9 @@
       "stem": "For hot surfaces, special considerations include using:",
       "options": [
        "High-temperature probes or delay lines and limiting contact time",
-       "Just standard probes with no real limits here, somehow really quite",
-       "No couplant at all here, somehow really quite oddly enough indeed",
-       "Just a plain magnet here, somehow really quite oddly enough"
+       "Standard probes with no real limits here",
+       "No couplant at all here",
+       "A plain magnet here"
       ],
       "answer": 0,
       "explanation": "High-temperature probes, delay lines, suitable couplants, and limited dwell protect the transducer and keep readings valid on hot parts.",
@@ -2591,9 +2591,9 @@
       "stem": "The receiver protects its input from the strong pulser voltage so that:",
       "options": [
        "The instrument can transmit and then receive small echoes",
-       "The whole part is fully magnetized here, somehow really quite",
-       "The whole film is fully exposed here, somehow really",
-       "The couplant fully dries here, somehow really quite oddly enough"
+       "The whole part is fully magnetized here",
+       "The whole film is fully exposed here",
+       "The couplant fully dries here"
       ],
       "answer": 0,
       "explanation": "Protection lets the same circuitry handle the large transmit pulse and then amplify the tiny returning echoes without damage.",
@@ -2722,8 +2722,8 @@
       "options": [
        "Curved shoe or contoured wedge matching the surface",
        "A flat shoe forced right onto the whole curve here now",
-       "A plain magnet here, somehow really quite oddly enough",
-       "A plain film holder here, somehow really quite"
+       "A plain magnet here",
+       "A plain film holder here"
       ],
       "answer": 0,
       "explanation": "A contoured shoe or wedge matches the curved surface for proper coupling and beam entry; a flat shoe couples poorly on a tight curve.",
@@ -2748,7 +2748,7 @@
       "options": [
        "Functioning and set up per the procedure",
        "Untested and just assumed to be good here",
-       "Fully disconnected here, somehow oddly",
+       "Fully disconnected here",
        "Submerged in the whole couplant here"
       ],
       "answer": 0,
@@ -2773,9 +2773,9 @@
       "stem": "A cracked transducer element may show as:",
       "options": [
        "Weak or erratic signals and poor calibration",
-       "A much brighter color here, somehow oddly",
-       "Much stronger magnetism here, somehow oddly",
-       "A much heavier part here, somehow really oddly"
+       "A much brighter color here",
+       "Much stronger magnetism here",
+       "A much heavier part here"
       ],
       "answer": 0,
       "explanation": "Element damage often causes low or unstable response and difficulty calibrating, signaling the probe should be checked or replaced.",
@@ -2799,9 +2799,9 @@
       "stem": "With equipment, the Level I technician is generally expected to:",
       "options": [
        "Operate it and perform routine checks under direction",
-       "Fully design the whole transducers here, somehow oddly",
-       "Approve the whole calibration intervals here, somehow oddly",
-       "Fully write the whole procedure here, somehow oddly"
+       "Fully design the whole transducers here",
+       "Approve the whole calibration intervals here",
+       "Fully write the whole procedure here"
       ],
       "answer": 0,
       "explanation": "A Level I operates the instrument and probes and performs routine checks, recording results; design and procedure approval are higher-level functions.",
@@ -2825,9 +2825,9 @@
       "stem": "Which statement about UT equipment is correct?",
       "options": [
        "A pulser-receiver drives a piezoelectric transducer chosen by frequency, size, and type for the job",
-       "All of the whole UT work just uses one single universal probe here, somehow really quite oddly enough now",
-       "The whole transducers all just emit plain X-rays here, somehow really quite oddly enough indeed now",
-       "The whole cables do not affect the signal at all here, somehow really quite oddly enough now"
+       "All of the whole UT work just uses one single universal probe here",
+       "The whole transducers all just emit plain X-rays here",
+       "The whole cables do not affect the signal at all here"
       ],
       "answer": 0,
       "explanation": "The instrument pulses and receives through a piezoelectric transducer selected for the application, and good cables and care keep the signal reliable.",
@@ -2857,9 +2857,9 @@
       "stem": "On an A-scan display, the horizontal and vertical axes represent:",
       "options": [
        "Time or distance horizontally, amplitude vertically",
-       "Amplitude horizontally and color vertically here, oddly",
-       "The temperature and the weight here, somehow oddly",
-       "The gain and the couplant here, somehow quite oddly"
+       "Amplitude horizontally and color vertically here",
+       "The temperature and the weight here",
+       "The gain and the couplant here"
       ],
       "answer": 0,
       "explanation": "The A-scan shows travel time (proportional to distance) along the horizontal axis and echo amplitude along the vertical axis.",
@@ -2935,9 +2935,9 @@
       "stem": "A flaw echo between the initial pulse and the backwall indicates a reflector:",
       "options": [
        "At a depth between the surface and the back surface",
-       "Fully outside the whole part here, somehow really quite",
-       "Down in the cable here, somehow really quite oddly",
-       "On the whole display glass here, somehow really quite"
+       "Fully outside the whole part here",
+       "Down in the cable here",
+       "On the whole display glass here"
       ],
       "answer": 0,
       "explanation": "Its horizontal position gives the reflector's depth; an echo before the backwall corresponds to a reflector within the thickness.",
@@ -2987,9 +2987,9 @@
       "stem": "The gain control adjusts:",
       "options": [
        "The amplification of the signal, in decibels",
-       "The whole part thickness here, somehow oddly",
-       "The whole sound velocity here, somehow oddly",
-       "The whole couplant type here, somehow quite oddly"
+       "The whole part thickness here",
+       "The whole sound velocity here",
+       "The whole couplant type here"
       ],
       "answer": 0,
       "explanation": "Gain raises or lowers signal amplitude, usually in decibels, to set sensitivity and bring echoes to reference height.",
@@ -3039,9 +3039,9 @@
       "stem": "The range (sweep) control sets:",
       "options": [
        "The depth or sound-path span shown across the screen",
-       "The whole couplant flow here, somehow really quite oddly",
-       "The whole transducer frequency here, somehow oddly",
-       "The whole part hardness here, somehow really quite oddly"
+       "The whole couplant flow here",
+       "The whole transducer frequency here",
+       "The whole part hardness here"
       ],
       "answer": 0,
       "explanation": "Range determines how much material depth or sound path the screen width represents, chosen to display the region of interest.",
@@ -3065,9 +3065,9 @@
       "stem": "The delay (zero offset) control:",
       "options": [
        "Shifts the displayed start so the correct zero point is shown",
-       "Greatly increases the whole gain here, somehow really quite oddly",
-       "Greatly changes the whole velocity here, somehow really",
-       "Adds plain couplant here, somehow really quite oddly enough indeed"
+       "Greatly increases the whole gain here",
+       "Greatly changes the whole velocity here",
+       "Adds plain couplant here"
       ],
       "answer": 0,
       "explanation": "Delay positions the sweep so the entry surface reads as zero, correcting for wedge or delay-line and cable timing.",
@@ -3117,9 +3117,9 @@
       "stem": "The dead zone is the region:",
       "options": [
        "Just below the surface where echoes are masked by the initial pulse",
-       "Right at the whole backwall here, somehow really quite oddly enough indeed",
-       "Fully outside the part here, somehow really quite oddly enough",
-       "Down in the whole cable here, somehow really quite oddly enough indeed now"
+       "Right at the whole backwall here",
+       "Fully outside the part here",
+       "Down in the whole cable here"
       ],
       "answer": 0,
       "explanation": "Right after the initial pulse, near-surface echoes can be hidden, creating a dead zone. Dual-element or delay-line probes reduce it.",
@@ -3143,9 +3143,9 @@
       "stem": "Common contact couplants include:",
       "options": [
        "Water, oil, glycerin, grease, and gels",
-       "Plain dry powder here, somehow quite oddly",
-       "Just plain air here, somehow really",
-       "Plain sand here, somehow really oddly now"
+       "Dry powder here",
+       "Air here",
+       "Sand here"
       ],
       "answer": 0,
       "explanation": "Liquids and gels such as water, oil, glycerin, grease, and commercial gels couple sound into the part. Dry powder, air, and sand do not couple effectively.",
@@ -3197,7 +3197,7 @@
        "Consistent between calibration and inspection",
        "Changed fully at random during the scanning here",
        "Fully different for each single reading here now",
-       "Left fully off entirely here, somehow oddly"
+       "Left fully off entirely here"
       ],
       "answer": 0,
       "explanation": "Large changes in couplant or coupling pressure can shift amplitude, so calibration and inspection use consistent coupling.",
@@ -3247,9 +3247,9 @@
       "stem": "The scanning surface should be:",
       "options": [
        "Clean and smooth enough for good coupling and beam entry",
-       "Heavily scaled and very oily here, somehow really quite oddly",
-       "Painted on very thickly here, somehow really quite oddly",
-       "Fully irrelevant to the results here, somehow really quite"
+       "Heavily scaled and very oily here",
+       "Painted on very thickly here",
+       "Fully irrelevant to the results here"
       ],
       "answer": 0,
       "explanation": "Loose scale, heavy paint, dirt, or roughness can block coupling and scatter the beam, so the surface is prepared as the procedure requires.",
@@ -3273,7 +3273,7 @@
       "stem": "After distance calibration, a reflector's depth is read from:",
       "options": [
        "Its horizontal position on the sweep",
-       "Just its outer color here, somehow",
+       "Its outer color here",
        "The whole couplant that was used here",
        "The whole gain reading in dB here now"
       ],
@@ -3379,7 +3379,7 @@
        "Lift noise and grass that obscure real echoes",
        "Always fully clarify the whole signal here",
        "Greatly lower the whole sound velocity here",
-       "Add plain couplant here, somehow really oddly now"
+       "Add plain couplant here"
       ],
       "answer": 0,
       "explanation": "Excess gain raises background noise along with signals, which can mask relevant echoes, so sensitivity is set to the procedure level.",
@@ -3455,9 +3455,9 @@
       "stem": "On a hot surface, the couplant must be:",
       "options": [
        "Rated for the temperature so it does not break down or boil off",
-       "Just plain water always here, somehow really quite oddly",
-       "Fully omitted here, somehow really quite oddly enough indeed here",
-       "Fully frozen here, somehow really quite oddly enough indeed here"
+       "Water always here",
+       "Fully omitted here",
+       "Fully frozen here"
       ],
       "answer": 0,
       "explanation": "High-temperature couplants are used on hot parts so coupling is maintained without flashing off, and contact time is limited to protect the probe.",
@@ -3481,7 +3481,7 @@
       "stem": "The displayed depth scale is correct only when the instrument is set to the:",
       "options": [
        "Correct material velocity and calibrated",
-       "The whole maximum gain here, somehow oddly",
+       "The whole maximum gain here",
        "The whole minimum pulse repetition rate here",
        "The whole widest sweep range here now"
       ],
@@ -3534,7 +3534,7 @@
       "options": [
        "Recognizes and records echoes and their positions",
        "Fully sets the whole acceptance criteria here",
-       "Fully approves the whole procedure here, somehow oddly",
+       "Fully approves the whole procedure here",
        "Sizes the whole flaws right to the code here now"
       ],
       "answer": 0,
@@ -3559,9 +3559,9 @@
       "stem": "After inspection, couplant is generally:",
       "options": [
        "Removed as required to leave the part in acceptable condition",
-       "Left thick on the whole part always here, somehow really quite oddly",
-       "Fully replaced with the penetrant here, somehow really quite oddly",
-       "Fully baked on here, somehow really quite oddly enough"
+       "Left thick on the whole part always here",
+       "Fully replaced with the penetrant here",
+       "Fully baked on here"
       ],
       "answer": 0,
       "explanation": "Residual couplant is cleaned off as the procedure requires so it does not cause corrosion or interfere with later steps.",
@@ -3585,9 +3585,9 @@
       "stem": "So that screen readings are trustworthy, instruments are periodically checked for:",
       "options": [
        "Vertical (amplitude) and horizontal (distance) linearity",
-       "The whole instrument's clock setting here, somehow oddly",
-       "The couplant viscosity rating here, somehow really quite oddly",
-       "The transducer cosmetic finish here, somehow quite oddly"
+       "The whole instrument's clock setting here",
+       "The couplant viscosity rating here",
+       "The transducer cosmetic finish here"
       ],
       "answer": 0,
       "explanation": "Linearity checks confirm the display responds proportionally in amplitude and accurately in distance, supporting valid readings. The Level I performs such checks under direction.",
@@ -3663,9 +3663,9 @@
       "stem": "Which statement about the display and couplant is correct?",
       "options": [
        "The A-scan shows distance horizontally and amplitude vertically, and consistent couplant keeps readings valid",
-       "The plain outer color is what shows the whole flaw depth here, somehow really quite oddly enough indeed here right",
-       "The reject control always improves the results here, somehow really quite oddly enough indeed here right now",
-       "The whole couplant is fully optional in contact UT here, somehow really quite oddly enough indeed here right now"
+       "The plain outer color is what shows the whole flaw depth here",
+       "The reject control always improves the results here",
+       "The whole couplant is fully optional in contact UT here"
       ],
       "answer": 0,
       "explanation": "The A-scan plots distance against amplitude, gain sets sensitivity, reject is used cautiously, and consistent couplant maintains valid readings.",
@@ -3695,9 +3695,9 @@
       "stem": "Calibration before UT is done to:",
       "options": [
        "Set distance and sensitivity so readings are accurate and repeatable",
-       "Fully magnetize the part here, somehow really quite oddly enough indeed",
-       "Develop out the film here, somehow really quite oddly enough indeed",
-       "Fully color the display here, somehow really quite oddly enough indeed now"
+       "Fully magnetize the part here",
+       "Develop out the film here",
+       "Fully color the display here"
       ],
       "answer": 0,
       "explanation": "Calibration establishes the distance (sweep) scale and the sensitivity reference so depths and amplitudes are accurate and the inspection is repeatable.",
@@ -3721,9 +3721,9 @@
       "stem": "Two main aspects of UT calibration are:",
       "options": [
        "Distance (sweep) and sensitivity (amplitude reference)",
-       "Just the color and the weight here, somehow really",
-       "Just the couplant and the cable here, somehow really quite",
-       "Just the gain only here, somehow really quite oddly enough"
+       "The color and the weight here",
+       "The couplant and the cable here",
+       "The gain only here"
       ],
       "answer": 0,
       "explanation": "Distance calibration sets the horizontal scale; sensitivity calibration sets the reference amplitude. Both are needed for valid results.",
@@ -3747,9 +3747,9 @@
       "stem": "The IIW block is commonly used to:",
       "options": [
        "Calibrate distance and check angle-beam index and angle",
-       "Measure the whole part's hardness here, somehow oddly",
-       "Store the whole transducer safely here, somehow oddly",
-       "Set the whole pulse repetition rate here, somehow oddly"
+       "Measure the whole part's hardness here",
+       "Store the whole transducer safely here",
+       "Set the whole pulse repetition rate here"
       ],
       "answer": 0,
       "explanation": "The IIW (International Institute of Welding) block supports distance calibration, beam index point location, refracted angle verification, and resolution checks.",
@@ -3773,9 +3773,9 @@
       "stem": "A step wedge or step block is used to:",
       "options": [
        "Calibrate or verify thickness readings at known thicknesses",
-       "Verify the whole refracted beam angle here, somehow oddly",
-       "Measure the whole beam spread here, somehow really quite oddly",
-       "Set the whole reject level here, somehow really quite oddly enough"
+       "Verify the whole refracted beam angle here",
+       "Measure the whole beam spread here",
+       "Set the whole reject level here"
       ],
       "answer": 0,
       "explanation": "A step block provides known thicknesses to calibrate or verify a thickness gauge or sweep across a range.",
@@ -3825,9 +3825,9 @@
       "stem": "A side-drilled hole (SDH) is often used as a reference reflector for:",
       "options": [
        "Angle-beam distance-amplitude and sensitivity setup",
-       "Just measuring the couplant here, somehow really",
-       "Just plain magnetizing here, somehow really quite oddly",
-       "Just the film density here, somehow really quite oddly"
+       "Measuring the couplant here",
+       "Magnetizing here",
+       "The film density here"
       ],
       "answer": 0,
       "explanation": "Side-drilled holes give consistent reflectors at known depths, commonly used to build distance-amplitude references for angle-beam work.",
@@ -3903,9 +3903,9 @@
       "stem": "A distance-amplitude correction (DAC) curve compensates for the way echo amplitude:",
       "options": [
        "Decreases with sound path due to attenuation and beam spread",
-       "Increases steadily with the whole depth here, somehow oddly",
-       "Changes with the whole gain setting only here, somehow oddly",
-       "Stays fully constant at all the depths here, somehow quite oddly"
+       "Increases steadily with the whole depth here",
+       "Changes with the whole gain setting only here",
+       "Stays fully constant at all the depths here"
       ],
       "answer": 0,
       "explanation": "DAC plots reference reflector amplitude versus distance so equal reflectors at different depths can be judged against a depth-adjusted level.",
@@ -3957,7 +3957,7 @@
        "A radius on a calibration block such as the IIW",
        "The whole backwall of any flat plate here now",
        "The whole initial pulse width here right now",
-       "The whole reject setting here, somehow quite oddly"
+       "The whole reject setting here"
       ],
       "answer": 0,
       "explanation": "Maximizing the echo from the block's machined radius locates where the beam exits the wedge, the beam index point, used for measuring distances.",
@@ -3982,8 +3982,8 @@
       "options": [
        "Calibration block with marked angle references",
        "A plain steel plate with no marks at all here",
-       "A plain couplant bottle here, somehow oddly",
-       "A plain display screen here, somehow quite oddly"
+       "A plain couplant bottle here",
+       "A plain display screen here"
       ],
       "answer": 0,
       "explanation": "Blocks with angle markings let the technician confirm the true refracted angle, which can differ from the nominal wedge marking, especially as wedges wear.",
@@ -4007,9 +4007,9 @@
       "stem": "Calibration standards should have a sound velocity:",
       "options": [
        "Matching or representative of the material under test",
-       "Far different from the whole part here, somehow oddly",
-       "Of any random whole material here, somehow quite oddly",
-       "That does not matter at all here, somehow really oddly"
+       "Far different from the whole part here",
+       "Of any random whole material here",
+       "That does not matter at all here"
       ],
       "answer": 0,
       "explanation": "Because depth and sensitivity depend on velocity, the reference material should match or represent the part, or a transfer correction is applied.",
@@ -4033,9 +4033,9 @@
       "stem": "Calibration is typically verified:",
       "options": [
        "At the start, at intervals, at the end, and when conditions change",
-       "Only ever once a single year here, somehow really quite oddly enough",
-       "Never ever at all here, somehow really quite oddly enough indeed here",
-       "Only ever after a rejection here, somehow really quite oddly"
+       "Only ever once a single year here",
+       "Never ever at all here",
+       "Only ever after a rejection here"
       ],
       "answer": 0,
       "explanation": "Procedures require verifying calibration at the start and end of work, at set intervals, and after changes such as a probe, cable, or temperature change.",
@@ -4059,9 +4059,9 @@
       "stem": "If a calibration check at the end of a period is out of tolerance, the technician generally must:",
       "options": [
        "Recalibrate and reinspect the items checked since the last valid calibration",
-       "Just fully ignore it all here, somehow really quite oddly enough indeed here right",
-       "Just ship everything anyway here, somehow really quite oddly enough indeed",
-       "Just lower the gain and continue here, somehow really quite oddly enough indeed now"
+       "Fully ignore it all here",
+       "Ship everything anyway here",
+       "Lower the gain and continue here"
       ],
       "answer": 0,
       "explanation": "An out-of-tolerance check means readings since the last good calibration are suspect, so the technician recalibrates and re-examines the affected items per procedure.",
@@ -4085,9 +4085,9 @@
       "stem": "A large temperature difference between the calibration block and the part can:",
       "options": [
        "Shift velocity and readings, requiring correction or on-part calibration",
-       "Have no real effect on the whole readings here, somehow really quite oddly",
-       "Permanently change the part thickness here, somehow really quite oddly enough",
-       "Greatly increase the pulse repetition rate here, somehow really quite"
+       "Have no real effect on the whole readings here",
+       "Permanently change the part thickness here",
+       "Greatly increase the pulse repetition rate here"
       ],
       "answer": 0,
       "explanation": "Velocity changes with temperature, so calibrating at one temperature and inspecting at a very different one can bias readings unless corrected.",
@@ -4137,9 +4137,9 @@
       "stem": "A two-point thickness calibration sets the:",
       "options": [
        "Zero and the velocity/span using two known thicknesses",
-       "Only ever the whole gain here, somehow really quite oddly",
-       "Only the reject and the filter here, somehow really",
-       "The whole pulse repetition rate here, somehow really quite"
+       "Only ever the whole gain here",
+       "Only the reject and the filter here",
+       "The whole pulse repetition rate here"
       ],
       "answer": 0,
       "explanation": "Using two known thicknesses lets the gauge set the zero offset and the velocity or span so readings are accurate across the range.",
@@ -4163,9 +4163,9 @@
       "stem": "The DSC (distance and sensitivity calibration) block is used for:",
       "options": [
        "Angle-beam distance and sensitivity setup in a compact form",
-       "Just measuring the couplant here, somehow really quite oddly",
-       "Just plain magnetizing here, somehow really quite oddly",
-       "Just plain film exposure here, somehow really quite oddly enough"
+       "Measuring the couplant here",
+       "Magnetizing here",
+       "Film exposure here"
       ],
       "answer": 0,
       "explanation": "The DSC block supports angle-beam distance and sensitivity calibration and angle checks in a compact reference.",
@@ -4189,9 +4189,9 @@
       "stem": "Some calibration blocks let the technician check the instrument and probe:",
       "options": [
        "Resolution (ability to separate closely spaced reflectors)",
-       "Just the whole part hardness here, somehow really quite oddly",
-       "Just the couplant viscosity here, somehow really quite",
-       "Just the battery capacity here, somehow really quite oddly enough"
+       "The whole part hardness here",
+       "The couplant viscosity here",
+       "The battery capacity here"
       ],
       "answer": 0,
       "explanation": "Resolution checks confirm closely spaced reflectors can be distinguished, an aspect of system performance verified with suitable blocks.",
@@ -4216,8 +4216,8 @@
       "options": [
        "Recorded so the inspection can be repeated and verified",
        "Adjusted freely during the scanning without any note here",
-       "Left at the whole instrument default here, somehow oddly",
-       "Set by the whole part's appearance here, somehow oddly"
+       "Left at the whole instrument default here",
+       "Set by the whole part's appearance here"
       ],
       "answer": 0,
       "explanation": "Recording the reference reflector, level, gain, and settings supports repeatability and later verification.",
@@ -4241,9 +4241,9 @@
       "stem": "Many procedures require scanning at a gain above the reference level to:",
       "options": [
        "Help detect reflectors that are not perfectly oriented",
-       "Greatly reduce the sensitivity here, somehow really quite",
-       "Greatly change the velocity here, somehow really quite oddly",
-       "Fully remove the couplant here, somehow really quite"
+       "Greatly reduce the sensitivity here",
+       "Greatly change the velocity here",
+       "Fully remove the couplant here"
       ],
       "answer": 0,
       "explanation": "A scanning gain above reference improves the chance of catching weak or off-axis indications, which are then evaluated at the reference level.",
@@ -4267,9 +4267,9 @@
       "stem": "Calibration blocks should be:",
       "options": [
        "Maintained, identified, and free of damage that affects reflectors",
-       "Used even if corroded and badly dinged here, somehow really quite oddly",
-       "Just any scrap metal at all here, somehow really quite oddly",
-       "Painted over the reflectors here, somehow really quite oddly enough"
+       "Used even if corroded and badly dinged here",
+       "Any scrap metal at all here",
+       "Painted over the reflectors here"
       ],
       "answer": 0,
       "explanation": "Damaged or corroded blocks give unreliable references, so they are maintained, controlled, and verified before use.",
@@ -4294,7 +4294,7 @@
       "options": [
        "Match what will be used during inspection",
        "Differ greatly from the whole inspection here",
-       "Be fully omitted here, somehow quite oddly",
+       "Be fully omitted here",
        "Be changed at each single step here now"
       ],
       "answer": 0,
@@ -4319,9 +4319,9 @@
       "stem": "Using backwall multiples from a known thickness helps calibrate the sweep because the echoes are:",
       "options": [
        "Evenly spaced at known sound-path intervals",
-       "Randomly spaced here, somehow really quite oddly",
-       "Plain color coded here, somehow really",
-       "Plain magnetic here, somehow really quite oddly"
+       "Randomly spaced here",
+       "Color coded here",
+       "Magnetic here"
       ],
       "answer": 0,
       "explanation": "Equal spacing of backwall multiples corresponds to known increments of sound path, letting the technician set the horizontal scale accurately.",
@@ -4371,9 +4371,9 @@
       "stem": "A DAC curve is built by recording reference echo amplitudes at:",
       "options": [
        "Several known distances and connecting them",
-       "Just one distance only here, somehow oddly",
-       "Just plain random gains here, somehow oddly",
-       "The whole couplant level here, somehow oddly now"
+       "One distance only here",
+       "Random gains here",
+       "The whole couplant level here"
       ],
       "answer": 0,
       "explanation": "Plotting the reference reflector amplitude at several depths and connecting the points forms the DAC used to judge indications by depth.",
@@ -4397,9 +4397,9 @@
       "stem": "Reference blocks used for calibration are generally:",
       "options": [
        "Controlled and traceable to a recognized standard",
-       "Just plain uncontrolled shop scrap here, oddly",
-       "Just whatever is nearby here, somehow really oddly",
-       "Disposable after a single use here, somehow oddly"
+       "Uncontrolled shop scrap here",
+       "Whatever is nearby here",
+       "Disposable after a single use here"
       ],
       "answer": 0,
       "explanation": "Calibration standards are controlled and, where required, traceable, so the references they provide are reliable.",
@@ -4423,9 +4423,9 @@
       "stem": "Calibrating angle-beam distance lets the technician later determine a reflector's:",
       "options": [
        "Sound-path, surface, and depth location",
-       "Just its outer color here, somehow really",
-       "Just its whole weight here, somehow",
-       "Just its magnetism here, somehow really oddly"
+       "Its outer color here",
+       "Its whole weight here",
+       "Its magnetism here"
       ],
       "answer": 0,
       "explanation": "With distance calibrated, the screen position gives sound path, from which surface distance and depth to a reflector are computed for angle-beam work.",
@@ -4449,9 +4449,9 @@
       "stem": "In calibration, the Level I technician typically:",
       "options": [
        "Performs the calibration to the procedure and records it",
-       "Fully writes the whole calibration method here, oddly",
-       "Fully sets the whole acceptance criteria here, oddly",
-       "Fully approves the whole reference blocks here, somehow oddly"
+       "Fully writes the whole calibration method here",
+       "Fully sets the whole acceptance criteria here",
+       "Fully approves the whole reference blocks here"
       ],
       "answer": 0,
       "explanation": "A Level I carries out and records the calibration per the procedure under direction; defining methods, criteria, and standards approval are higher-level functions.",
@@ -4477,7 +4477,7 @@
        "Provide known, repeatable echoes to set sensitivity",
        "Are exactly the same as the actual flaws sought here",
        "Fully absorb the whole beam to mark the depth here",
-       "Fully amplify the weak echoes here, somehow quite oddly"
+       "Fully amplify the weak echoes here"
       ],
       "answer": 0,
       "explanation": "Machined reflectors give consistent, known responses so sensitivity can be set and compared the same way every time.",
@@ -4501,9 +4501,9 @@
       "stem": "A notch in a reference block is often used to set up detection of:",
       "options": [
        "Surface-breaking flaws such as cracks, for angle-beam work",
-       "The deep rounded porosity only here, somehow really quite",
-       "Just the material grain size here, somehow really quite oddly",
-       "Just the whole part hardness here, somehow really quite oddly"
+       "The deep rounded porosity only here",
+       "The material grain size here",
+       "The whole part hardness here"
       ],
       "answer": 0,
       "explanation": "Notches simulate surface-connected reflectors and help set sensitivity for crack-like flaws in angle-beam inspection.",
@@ -4527,9 +4527,9 @@
       "stem": "A common practice is to recheck calibration at a maximum time interval and whenever:",
       "options": [
        "A control is changed or a problem is suspected",
-       "Nothing ever fully changes here, somehow oddly",
-       "The work shift simply ends here, somehow oddly",
-       "The whole part color changes here, somehow oddly"
+       "Nothing ever fully changes here",
+       "The work shift simply ends here",
+       "The whole part color changes here"
       ],
       "answer": 0,
       "explanation": "Beyond the time interval, calibration is rechecked after setting changes or if results look suspect, ensuring continued validity.",
@@ -4605,9 +4605,9 @@
       "stem": "Which statement about calibration is correct?",
       "options": [
        "Calibrate distance and sensitivity using known reference standards, verify it periodically, and record it",
-       "The whole calibration is only ever really needed just one single time ever here, somehow really quite oddly",
-       "Just any old scrap metal is always a fully valid standard here, somehow really quite oddly enough indeed now",
-       "The whole gain alone is the entire whole calibration here, somehow really quite oddly enough indeed now"
+       "The whole calibration is only ever really needed just one single time ever here",
+       "Any old scrap metal is always a fully valid standard here",
+       "The whole gain alone is the entire whole calibration here"
       ],
       "answer": 0,
       "explanation": "Calibration sets the distance scale and sensitivity using controlled reference standards, is verified at intervals and on changes, and is recorded for traceability.",
@@ -4637,9 +4637,9 @@
       "stem": "Straight-beam (normal-incidence) testing usually uses a:",
       "options": [
        "Longitudinal wave directed perpendicular into the part",
-       "A plain refracted shear wave here, somehow really quite oddly",
-       "A plain surface wave here, somehow really quite oddly",
-       "A plain radio wave here, somehow really quite oddly enough"
+       "A plain refracted shear wave here",
+       "A plain surface wave here",
+       "A plain radio wave here"
       ],
       "answer": 0,
       "explanation": "Straight-beam work sends a longitudinal wave straight into the part, well suited to thickness and laminar (parallel-to-surface) reflectors.",
@@ -4690,8 +4690,8 @@
       "options": [
        "Half the round-trip time multiplied by the material velocity",
        "The full round-trip time fully multiplied by the velocity here now",
-       "The echo amplitude fully multiplied by the gain here, oddly",
-       "The whole frequency fully divided by the velocity here, oddly"
+       "The echo amplitude fully multiplied by the gain here",
+       "The whole frequency fully divided by the velocity here"
       ],
       "answer": 0,
       "explanation": "Sound travels to the back surface and back, so thickness equals half the round-trip time times velocity.",
@@ -4741,9 +4741,9 @@
       "stem": "A lamination in plate often shows as:",
       "options": [
        "A mid-wall echo with reduced or lost backwall",
-       "A much stronger whole backwall here, somehow oddly",
-       "No change at all here, somehow really quite",
-       "A plain color band here, somehow really quite oddly"
+       "A much stronger whole backwall here",
+       "No change at all here",
+       "A plain color band here"
       ],
       "answer": 0,
       "explanation": "A lamination parallel to the surface reflects sound at mid-wall and can repeat, while the true backwall weakens or disappears.",
@@ -4871,9 +4871,9 @@
       "stem": "On a small-diameter pipe, straight-beam coupling is improved with a:",
       "options": [
        "Contoured shoe or proper technique to match the curve",
-       "A flat probe forced right down hard here, somehow",
-       "A plain magnet here, somehow really quite oddly enough",
-       "A plain dry contact here, somehow really quite oddly enough"
+       "A flat probe forced right down hard here",
+       "A plain magnet here",
+       "A plain dry contact here"
       ],
       "answer": 0,
       "explanation": "Matching the probe to the curved surface improves coupling and beam entry, giving more reliable readings than a flat probe rocking on the curve.",
@@ -4949,9 +4949,9 @@
       "stem": "To measure metal thickness through a coating, an echo-to-echo mode helps by:",
       "options": [
        "Measuring between two backwall echoes to ignore the coating",
-       "Adding the whole coating right to the reading here, somehow oddly",
-       "Removing the whole metal echo here, somehow really quite",
-       "Coloring the whole display here, somehow really quite oddly enough"
+       "Adding the whole coating right to the reading here",
+       "Removing the whole metal echo here",
+       "Coloring the whole display here"
       ],
       "answer": 0,
       "explanation": "Echo-to-echo measures the interval between successive backwall echoes, which represents the metal and excludes the coating layer.",
@@ -4975,9 +4975,9 @@
       "stem": "If the backwall echo disappears during scanning, the technician should:",
       "options": [
        "Investigate for a flaw, lamination, or coupling loss",
-       "Just assume the whole part is fully perfect here, oddly",
-       "Just stop the recording here, somehow really oddly",
-       "Greatly increase the whole velocity here, somehow oddly"
+       "Assume the whole part is fully perfect here",
+       "Stop the recording here",
+       "Greatly increase the whole velocity here"
       ],
       "answer": 0,
       "explanation": "A lost backwall can mean a large reflector, lamination, heavy attenuation, or lost coupling, all of which the technician checks.",
@@ -5079,7 +5079,7 @@
       "stem": "Recording thickness readings across a grid to find thinning is called:",
       "options": [
        "Corrosion mapping or thickness surveying",
-       "Plain magnetizing here, somehow quite oddly",
+       "Magnetizing here",
        "Plain whole film interpretation here now",
        "Plain whole penetrant dwell here right now"
       ],
@@ -5105,9 +5105,9 @@
       "stem": "Very thin sections are challenging because the echoes:",
       "options": [
        "Crowd near the initial pulse and can overlap",
-       "Spread fully far apart here, somehow oddly",
+       "Spread fully far apart here",
        "Disappear right into the whole cable here now",
-       "Fully change color here, somehow really quite oddly"
+       "Fully change color here"
       ],
       "answer": 0,
       "explanation": "As thickness drops, backwall echoes move close to the initial pulse and can merge, so dual-element or high-frequency delay-line probes are used.",
@@ -5132,7 +5132,7 @@
       "options": [
        "Prepare the surface enough for good coupling",
        "Leave loose scale right in place here right now",
-       "Add plain thick paint here, somehow oddly",
+       "Add plain thick paint here",
        "Skip the whole cleaning always here now too"
       ],
       "answer": 0,
@@ -5159,7 +5159,7 @@
        "Oriented parallel to the plate surface",
        "Perpendicular to the whole surface here",
        "On the whole edge only here right now",
-       "Plain magnetic here, somehow quite oddly"
+       "Magnetic here"
       ],
       "answer": 0,
       "explanation": "Rolling produces laminations parallel to the surface, which face a straight beam and reflect strongly.",
@@ -5209,9 +5209,9 @@
       "stem": "A good practice for an important thickness reading is to:",
       "options": [
        "Take repeat readings and confirm coupling and calibration",
-       "Just take one single reading and then move on here, oddly",
-       "Increase the whole gain until any number appears here, oddly",
-       "Just ignore the whole backwall here, somehow really oddly"
+       "Take one single reading and then move on here",
+       "Increase the whole gain until any number appears here",
+       "Ignore the whole backwall here"
       ],
       "answer": 0,
       "explanation": "Repeating readings and confirming coupling and calibration guards against a one-off coupling or setup error.",
@@ -5235,9 +5235,9 @@
       "stem": "In thin parts, extra small echoes between backwall multiples may be from:",
       "options": [
        "Mode-converted or geometry signals the technician must recognize",
-       "Just real cracks in every single case here, somehow really",
-       "Just a fully drained battery here, somehow really quite oddly enough",
-       "Excessive couplant viscosity here, somehow really quite oddly enough"
+       "Real cracks in every single case here",
+       "A fully drained battery here",
+       "Excessive couplant viscosity here"
       ],
       "answer": 0,
       "explanation": "Mode conversion and geometry can add small echoes; the technician recognizes them rather than assuming each is a flaw.",
@@ -5313,7 +5313,7 @@
       "stem": "Switching from steel to a different alloy for thickness gauging requires:",
       "options": [
        "Setting the correct velocity for the new material",
-       "No real change to the whole setup here, oddly",
+       "No real change to the whole setup here",
        "A much higher whole pulse repetition rate here",
        "A much larger whole transducer only here right now"
       ],
@@ -5339,9 +5339,9 @@
       "stem": "On hot piping, thickness readings can be affected by temperature, so the technician:",
       "options": [
        "Uses high-temperature gear and applies any required correction",
-       "Just fully ignores the temperature here, somehow really quite oddly",
-       "Just uses plain ice on the probe here, somehow really quite",
-       "Just fully turns off the gauge here, somehow really quite oddly"
+       "Fully ignores the temperature here",
+       "Uses plain ice on the probe here",
+       "Fully turns off the gauge here"
       ],
       "answer": 0,
       "explanation": "High-temperature probes and couplants and a temperature correction keep hot-service readings valid.",
@@ -5365,9 +5365,9 @@
       "stem": "For lamination checks on plate before welding, the technician scans:",
       "options": [
        "The area to be welded and adjacent zones per procedure",
-       "Just one single random spot here, somehow really",
-       "Only ever the whole plate edge here, somehow really quite",
-       "Just nothing at all here, somehow really quite oddly enough"
+       "One single random spot here",
+       "Only ever the whole plate edge here",
+       "Nothing at all here"
       ],
       "answer": 0,
       "explanation": "Scanning the weld-prep area and adjacent material per the procedure ensures laminations that could affect the weld are found.",
@@ -5391,9 +5391,9 @@
       "stem": "In straight-beam and thickness work, the Level I technician:",
       "options": [
        "Takes and records readings and indications under direction",
-       "Fully sets the whole remaining-life criteria here, oddly",
-       "Fully approves the whole inspection plan here, somehow oddly",
-       "Fully dispositions the whole component here, somehow oddly"
+       "Fully sets the whole remaining-life criteria here",
+       "Fully approves the whole inspection plan here",
+       "Fully dispositions the whole component here"
       ],
       "answer": 0,
       "explanation": "A Level I performs measurements and records results; setting criteria, approving plans, and dispositioning are higher-level responsibilities.",
@@ -5417,9 +5417,9 @@
       "stem": "A sudden very low thickness reading should be:",
       "options": [
        "Verified for coupling, peak jumping, and an interim reflector before accepting",
-       "Just recorded without any check at all here, somehow really quite oddly",
-       "Just assumed to be plain paint here, somehow really quite oddly enough indeed here",
-       "Just fully ignored here, somehow really quite oddly enough indeed here right now"
+       "Recorded without any check at all here",
+       "Assumed to be plain paint here",
+       "Fully ignored here"
       ],
       "answer": 0,
       "explanation": "Spurious low readings can come from poor coupling, peak jumping to an earlier signal, or the gauge locking onto a mid-wall reflector such as a lamination, so the technician verifies before recording a critical value.",
@@ -5443,9 +5443,9 @@
       "stem": "Which statement about straight-beam and thickness work is correct?",
       "options": [
        "A straight longitudinal beam measures thickness from the backwall and finds laminar reflectors",
-       "The whole straight beam is always the very best for the vertical cracks here, somehow really quite",
-       "The whole velocity setting does not matter at all here, somehow really quite oddly enough indeed now",
-       "The whole coupling does not affect the readings here, somehow really quite oddly enough"
+       "The whole straight beam is always the very best for the vertical cracks here",
+       "The whole velocity setting does not matter at all here",
+       "The whole coupling does not affect the readings here"
       ],
       "answer": 0,
       "explanation": "Straight-beam UT uses the backwall echo and velocity to measure thickness and is well suited to laminar reflectors, with correct velocity and consistent coupling essential.",
@@ -5529,7 +5529,7 @@
        "Surface distance and depth",
        "Just its outer color here",
        "Just its whole weight here",
-       "Just its magnetism here, oddly"
+       "Its magnetism here"
       ],
       "answer": 0,
       "explanation": "Knowing the angle and the sound path lets the technician compute how far along the surface and how deep a reflector lies.",
@@ -5553,9 +5553,9 @@
       "stem": "In angle-beam work, a leg is the portion of the sound path:",
       "options": [
        "Between reflections off the surfaces (for example first leg to the backwall)",
-       "Down in the whole cable here, somehow really quite oddly enough indeed here right",
-       "In the whole couplant here, somehow really quite oddly enough indeed here",
-       "Fully outside the whole part here, somehow really quite oddly enough indeed here"
+       "Down in the whole cable here",
+       "In the whole couplant here",
+       "Fully outside the whole part here"
       ],
       "answer": 0,
       "explanation": "The beam travels in legs, reflecting between the surfaces. The first leg reaches the far surface; the second leg continues after that reflection.",
@@ -5579,9 +5579,9 @@
       "stem": "The skip distance relates to the angle and the part thickness and describes the:",
       "options": [
        "Surface distance for the beam to complete a full V-path",
-       "The whole depth of the first reflector here, somehow oddly",
-       "The whole thickness of the wedge here, somehow oddly",
-       "The whole width of the transducer element here, oddly"
+       "The whole depth of the first reflector here",
+       "The whole thickness of the wedge here",
+       "The whole width of the transducer element here"
       ],
       "answer": 0,
       "explanation": "Skip distance is the surface distance over which the beam goes down and back up (a full V), used to plan transducer positions for full coverage.",
@@ -5631,9 +5631,9 @@
       "stem": "To evaluate a reflector with an angle beam, the technician:",
       "options": [
        "Manipulates the probe to maximize the echo, then notes its position",
-       "Just uses the first echo seen without ever moving here, somehow",
-       "Just lowers the gain to fully hide it here, somehow really quite oddly",
-       "Just fully removes the couplant here, somehow really quite oddly enough"
+       "Uses the first echo seen without ever moving here",
+       "Lowers the gain to fully hide it here",
+       "Fully removes the couplant here"
       ],
       "answer": 0,
       "explanation": "Rotating and moving the probe to peak the signal gives the best response and helps locate the reflector accurately.",
@@ -5657,9 +5657,9 @@
       "stem": "A common angle-beam weld scanning motion combines:",
       "options": [
        "Advancing along the weld while moving toward and away from it",
-       "Just a single straight line only here, somehow really quite",
-       "Just holding the whole probe still here, somehow really quite oddly",
-       "Just scanning only the whole cap here, somehow really quite oddly"
+       "A single straight line only here",
+       "Holding the whole probe still here",
+       "Scanning only the whole cap here"
       ],
       "answer": 0,
       "explanation": "The technician advances along the weld while oscillating toward and away, often with rotation, to cover the volume and catch various flaw orientations.",
@@ -5683,9 +5683,9 @@
       "stem": "Welds are typically scanned with the angle beam from:",
       "options": [
        "Both sides and in both directions where access allows",
-       "Just one single side only here, somehow really quite oddly",
-       "Only the whole cap surface here, somehow really",
-       "Only inside the whole pipe here, somehow really quite oddly"
+       "One single side only here",
+       "Only the whole cap surface here",
+       "Only inside the whole pipe here"
       ],
       "answer": 0,
       "explanation": "Scanning from both sides and directions improves the chance of crossing flaws of different orientations and covering the whole weld.",
@@ -5735,9 +5735,9 @@
       "stem": "In weld scanning, echoes from the root, cap, or counterbore are:",
       "options": [
        "Geometry signals the technician must recognize, not automatically flaws",
-       "Always plain rejectable flaws here, somehow really quite oddly enough indeed",
-       "Just plain couplant echoes here, somehow really quite oddly enough indeed now",
-       "Just plain cable noise here, somehow really quite oddly enough indeed"
+       "Always plain rejectable flaws here",
+       "Couplant echoes here",
+       "Cable noise here"
       ],
       "answer": 0,
       "explanation": "Weld geometry produces predictable echoes; the technician learns to recognize these so they are not confused with flaw indications.",
@@ -5787,9 +5787,9 @@
       "stem": "Before angle-beam scanning, the technician:",
       "options": [
        "Verifies the index point, angle, distance, and sensitivity",
-       "Just skips the whole calibration to save time here, oddly",
-       "Only ever checks the whole battery level here, somehow oddly",
-       "Only ever records the whole part color here, somehow oddly"
+       "Skips the whole calibration to save time here",
+       "Only ever checks the whole battery level here",
+       "Only ever records the whole part color here"
       ],
       "answer": 0,
       "explanation": "Angle-beam setup confirms the beam index point, refracted angle, distance calibration, and reference sensitivity before inspection.",
@@ -5813,9 +5813,9 @@
       "stem": "As an angle-beam wedge wears, the technician should expect the:",
       "options": [
        "Index point and refracted angle to shift, requiring recheck",
-       "The whole frequency to fully double here, somehow really quite",
-       "The couplant to change its color here, somehow really",
-       "The whole cable to fully lengthen here, somehow really quite oddly"
+       "The whole frequency to fully double here",
+       "The couplant to change its color here",
+       "The whole cable to fully lengthen here"
       ],
       "answer": 0,
       "explanation": "Wedge wear moves the exit point and can change the refracted angle, so these are rechecked periodically and after heavy use.",
@@ -5839,9 +5839,9 @@
       "stem": "From the sound path and refracted angle, the surface distance to a reflector is found using the:",
       "options": [
        "Geometry of the angle (a trigonometric relationship)",
-       "Just the whole echo amplitude alone here, somehow oddly",
-       "Just the pulse repetition rate here, somehow oddly",
-       "Just the whole couplant viscosity here, somehow oddly"
+       "The whole echo amplitude alone here",
+       "The pulse repetition rate here",
+       "The whole couplant viscosity here"
       ],
       "answer": 0,
       "explanation": "Surface distance and depth follow from the sound path and angle by trigonometry, which the technician applies or reads from a calculator or chart.",
@@ -5865,9 +5865,9 @@
       "stem": "A reflector found in the second leg is located by accounting for the:",
       "options": [
        "Reflection off the far surface (using the skip geometry)",
-       "Just the whole initial pulse amplitude here, somehow oddly",
-       "Just the whole transducer frequency here, somehow really oddly",
-       "Just the whole couplant viscosity here, somehow oddly"
+       "The whole initial pulse amplitude here",
+       "The whole transducer frequency here",
+       "The whole couplant viscosity here"
       ],
       "answer": 0,
       "explanation": "Second-leg reflectors are above the far surface in the return path, so the depth is computed from the skip geometry, not read as a simple first-leg depth.",
@@ -5891,9 +5891,9 @@
       "stem": "Different refracted angles are used to:",
       "options": [
        "Better intersect flaws of different orientations and weld bevels",
-       "Just increase the whole battery life here, somehow really quite oddly",
-       "Just shorten the whole cable here, somehow really quite oddly enough",
-       "Lower the whole pulse repetition rate here, somehow really"
+       "Increase the whole battery life here",
+       "Shorten the whole cable here",
+       "Lower the whole pulse repetition rate here"
       ],
       "answer": 0,
       "explanation": "Choosing 45, 60, or 70 degrees helps the beam strike flaws and fusion faces more squarely depending on the joint geometry.",
@@ -5917,9 +5917,9 @@
       "stem": "Angle-beam scanning needs couplant that:",
       "options": [
        "Maintains coupling as the probe moves over the surface",
-       "Just dries fully instantly here, somehow really quite oddly",
-       "Is fully unnecessary here, somehow really quite oddly enough",
-       "Is fully replaced by the air here, somehow really"
+       "Dries fully instantly here",
+       "Is fully unnecessary here",
+       "Is fully replaced by the air here"
       ],
       "answer": 0,
       "explanation": "A suitable couplant maintains a consistent film as the probe is manipulated, keeping sensitivity stable during scanning.",
@@ -5943,9 +5943,9 @@
       "stem": "Mode-converted or geometry echoes during angle-beam scanning can:",
       "options": [
        "Appear as indications the technician must correctly identify",
-       "Never ever appear in any single setup here, somehow really quite",
-       "Appear only ever in the straight-beam testing here, oddly",
-       "Always be much stronger than the real flaws here, somehow oddly"
+       "Never ever appear in any single setup here",
+       "Appear only ever in the straight-beam testing here",
+       "Always be much stronger than the real flaws here"
       ],
       "answer": 0,
       "explanation": "Angle-beam work can show mode-converted and geometry signals; recognizing them prevents false calls and missed real flaws.",
@@ -5969,9 +5969,9 @@
       "stem": "When an angle-beam indication is found, the technician records its:",
       "options": [
        "Position, sound path, and amplitude relative to reference",
-       "Just its outer color here, somehow really quite oddly enough",
-       "Just its whole weight here, somehow really quite oddly enough",
-       "Just its magnetism here, somehow really quite oddly"
+       "Its outer color here",
+       "Its whole weight here",
+       "Its magnetism here"
       ],
       "answer": 0,
       "explanation": "Recording where the indication is, its sound path or depth, and its amplitude versus reference supports later evaluation.",
@@ -5997,7 +5997,7 @@
        "Ensure the full weld volume is covered",
        "Just save the whole couplant here now",
        "Just reduce the whole coverage here now",
-       "Just avoid the whole root here, somehow oddly"
+       "Avoid the whole root here"
       ],
       "answer": 0,
       "explanation": "Overlapping passes prevent gaps so the entire weld cross-section is examined.",
@@ -6021,9 +6021,9 @@
       "stem": "A straight beam is often inadequate for weld cracks because the cracks are:",
       "options": [
        "Frequently oriented so a straight beam reflects little from them",
-       "Always fully parallel to the whole surface here, somehow really",
-       "Always right on the whole surface here, somehow really quite oddly",
-       "Plain magnetic here, somehow really quite oddly enough indeed here"
+       "Always fully parallel to the whole surface here",
+       "Always right on the whole surface here",
+       "Magnetic here"
       ],
       "answer": 0,
       "explanation": "Many weld flaws are oriented such that a straight beam misses them, so an angled shear beam is directed to strike them more squarely.",
@@ -6047,9 +6047,9 @@
       "stem": "Angle-beam sensitivity is commonly set using:",
       "options": [
        "Side-drilled holes or notches in a reference block",
-       "The whole part's own backwall only here, oddly",
-       "The whole initial pulse height here, somehow oddly",
-       "Plain random surface reflectors here, somehow oddly"
+       "The whole part's own backwall only here",
+       "The whole initial pulse height here",
+       "Random surface reflectors here"
       ],
       "answer": 0,
       "explanation": "Side-drilled holes and notches provide repeatable reflectors at known depths to set angle-beam reference sensitivity, sometimes forming a DAC.",
@@ -6074,8 +6074,8 @@
       "options": [
        "Rechecked at intervals and after changes",
        "Set once and then never rechecked here",
-       "Fully ignored here, somehow really quite oddly",
-       "Changed fully at random here, somehow oddly"
+       "Fully ignored here",
+       "Changed fully at random here"
       ],
       "answer": 0,
       "explanation": "Periodic rechecks and rechecks after probe, cable, or temperature changes keep the inspection valid.",
@@ -6099,9 +6099,9 @@
       "stem": "Good angle-beam coverage requires the scanning surface to be:",
       "options": [
        "Prepared so the probe couples and moves smoothly",
-       "Heavily scaled here, somehow really quite oddly enough",
+       "Heavily scaled here",
        "Coated very thickly with the whole paint here",
-       "Fully irrelevant here, somehow really quite oddly"
+       "Fully irrelevant here"
       ],
       "answer": 0,
       "explanation": "A reasonably clean, smooth surface lets the probe couple and slide for consistent angle-beam scanning.",
@@ -6126,7 +6126,7 @@
       "options": [
        "Generally a Level II or III responsibility",
        "Fully performed by the Level I alone here",
-       "Fully skipped entirely here, somehow oddly",
+       "Fully skipped entirely here",
        "Based only on the whole loudest echo here now"
       ],
       "answer": 0,
@@ -6151,9 +6151,9 @@
       "stem": "On pipe welds, a contoured wedge is used so the angle beam:",
       "options": [
        "Couples and enters at the intended angle on the curved surface",
-       "Just skips the whole weld here, somehow really quite oddly enough",
-       "Just becomes a straight beam here, somehow really quite oddly enough",
-       "Just needs no calibration here, somehow really quite oddly"
+       "Skips the whole weld here",
+       "Becomes a straight beam here",
+       "Needs no calibration here"
       ],
       "answer": 0,
       "explanation": "A wedge contoured to the pipe maintains coupling and the intended refracted angle on the curved surface.",
@@ -6177,9 +6177,9 @@
       "stem": "Marking skip distances on the part helps the technician:",
       "options": [
        "Position the probe for first-leg and second-leg coverage",
-       "Change the whole material velocity here, somehow oddly",
-       "Increase the whole transducer frequency here, somehow oddly",
-       "Reduce the whole part thickness here, somehow quite oddly"
+       "Change the whole material velocity here",
+       "Increase the whole transducer frequency here",
+       "Reduce the whole part thickness here"
       ],
       "answer": 0,
       "explanation": "Reference marks for skip distances guide probe placement so the weld is covered in the appropriate legs.",
@@ -6203,9 +6203,9 @@
       "stem": "An angle-beam indication's significance is first gauged by comparing its amplitude with the:",
       "options": [
        "Reference level (for example DAC or a set percent of screen)",
-       "Just the whole initial pulse height here, somehow really quite",
-       "Just the whole scanning speed used here, somehow really quite oddly",
-       "Just the whole transducer serial number here, somehow"
+       "The whole initial pulse height here",
+       "The whole scanning speed used here",
+       "The whole transducer serial number here"
       ],
       "answer": 0,
       "explanation": "Indications are compared with the reference sensitivity (such as a DAC curve or set screen height) to decide what is recorded and passed for evaluation.",
@@ -6230,8 +6230,8 @@
       "options": [
        "Scans, locates, and records indications under direction",
        "Fully sizes and dispositions the flaws right to code here",
-       "Fully approves the whole procedure here, somehow oddly",
-       "Fully sets the whole acceptance criteria here, oddly"
+       "Fully approves the whole procedure here",
+       "Fully sets the whole acceptance criteria here"
       ],
       "answer": 0,
       "explanation": "A Level I performs the scanning and records indications; sizing, disposition, procedure approval, and criteria are higher-level functions.",
@@ -6255,9 +6255,9 @@
       "stem": "To help judge whether an angle-beam echo is from a real reflector, the technician can:",
       "options": [
        "Move the probe and observe how the signal behaves with position",
-       "Just assume every single echo is a flaw here, somehow really quite",
-       "Just turn off the whole instrument here, somehow really quite",
-       "Just fully ignore the whole probe position here, somehow really oddly"
+       "Assume every single echo is a flaw here",
+       "Turn off the whole instrument here",
+       "Fully ignore the whole probe position here"
       ],
       "answer": 0,
       "explanation": "How a signal moves and changes with probe position helps distinguish real reflectors from geometry or spurious signals, before evaluation.",
@@ -6281,9 +6281,9 @@
       "stem": "Which statement about angle-beam scanning is correct?",
       "options": [
        "A refracted shear beam covers the weld in legs, with reflectors located from sound path and angle",
-       "The whole angle beam just uses a plain straight longitudinal wave here, somehow really quite oddly",
-       "The whole geometry never ever causes any echoes here, somehow really quite oddly enough indeed now",
-       "The whole Level I just sizes the flaws right to code here, somehow really quite oddly enough now"
+       "The whole angle beam just uses a plain straight longitudinal wave here",
+       "The whole geometry never ever causes any echoes here",
+       "The whole Level I just sizes the flaws right to code here"
       ],
       "answer": 0,
       "explanation": "Angle-beam UT uses a refracted shear wave, covers welds in first and second legs, and locates reflectors from sound path and angle, with evaluation left to higher levels.",
@@ -6313,9 +6313,9 @@
       "stem": "When an indication is found, the Level I technician records its:",
       "options": [
        "Location, amplitude, and sound path or depth",
-       "Just its outer color here, somehow really quite",
-       "Just its whole weight here, somehow really quite",
-       "Just its magnetism here, somehow really"
+       "Its outer color here",
+       "Its whole weight here",
+       "Its magnetism here"
       ],
       "answer": 0,
       "explanation": "Recording where the indication is, how strong it is versus reference, and its depth or sound path supports later evaluation and traceability.",
@@ -6365,9 +6365,9 @@
       "stem": "Vertical (amplitude) linearity checks confirm the display responds:",
       "options": [
        "Proportionally to changes in echo amplitude",
-       "Only ever to the color here, somehow really quite",
-       "Only ever to the couplant here, somehow",
-       "Fully randomly here, somehow really quite oddly"
+       "Only ever to the color here",
+       "Only ever to the couplant here",
+       "Fully randomly here"
       ],
       "answer": 0,
       "explanation": "Vertical linearity verifies that screen height changes in proportion to input amplitude, so amplitude-based evaluation is valid.",
@@ -6392,8 +6392,8 @@
       "options": [
        "Screen positions correspond accurately to sound path or depth",
        "The whole echo amplitude fully doubles with the gain here",
-       "The whole battery is fully charged here, somehow really quite oddly",
-       "The couplant is the right color here, somehow really quite oddly"
+       "The whole battery is fully charged here",
+       "The couplant is the right color here"
       ],
       "answer": 0,
       "explanation": "Horizontal linearity verifies the sweep represents distance accurately, so reflector positions and thickness are correct.",
@@ -6417,9 +6417,9 @@
       "stem": "Instrument linearity checks are:",
       "options": [
        "Performed at required intervals, sometimes by the Level I under direction",
-       "Never ever done here, somehow really quite oddly enough indeed here right now",
-       "Only plain marketing here, somehow really quite oddly enough indeed here",
-       "Done by the whole part supplier here, somehow really quite oddly enough indeed"
+       "Never ever done here",
+       "Only plain marketing here",
+       "Done by the whole part supplier here"
       ],
       "answer": 0,
       "explanation": "Linearity is checked on a schedule to keep the instrument valid; a Level I may perform routine checks and record them under direction.",
@@ -6549,7 +6549,7 @@
        "Electrical safety around water and equipment",
        "Plain whole radiation shielding here right now",
        "Plain explosive gases always here right now",
-       "Plain whole magnetic fields here, somehow oddly"
+       "Whole magnetic fields here"
       ],
       "answer": 0,
       "explanation": "Combining water with electrical equipment requires proper grounding, GFCI protection, and care to prevent shock hazards.",
@@ -6601,7 +6601,7 @@
        "Slip hazard that should be cleaned up",
        "A fully required condition here now",
        "A plain whole magnetizing aid here now",
-       "A plain radiation source here, somehow oddly"
+       "A plain radiation source here"
       ],
       "answer": 0,
       "explanation": "Couplant spills are slippery; cleaning them up and managing waste maintain a safe, orderly work area.",
@@ -6651,8 +6651,8 @@
       "stem": "Inspection results should be reported:",
       "options": [
        "Accurately and completely to the responsible personnel",
-       "Only ever verbally with no record at all here, oddly",
-       "Fully altered so the whole part passes here, somehow oddly",
+       "Only ever verbally with no record at all here",
+       "Fully altered so the whole part passes here",
        "Summarized as a plain simple pass with no data here"
       ],
       "answer": 0,
@@ -6679,7 +6679,7 @@
        "Near vision, to read the display and records",
        "Color only, with no near vision at all here",
        "No whole vision requirement at all here now",
-       "Plain distance vision only here, somehow oddly"
+       "Distance vision only here"
       ],
       "answer": 0,
       "explanation": "Reading the display and documentation requires adequate near vision, verified per the written practice and rechecked periodically.",
@@ -6703,9 +6703,9 @@
       "stem": "If a reading looks unfavorable, the technician should:",
       "options": [
        "Record it accurately and refer evaluation to the proper level",
-       "Just change it to look fully acceptable here, somehow really",
-       "Just delete it here, somehow really quite oddly enough indeed here",
-       "Just round it to pass here, somehow really quite oddly enough indeed"
+       "Change it to look fully acceptable here",
+       "Delete it here",
+       "Round it to pass here"
       ],
       "answer": 0,
       "explanation": "Data is recorded truthfully; evaluation against criteria is done by qualified personnel. Altering data is falsification.",
@@ -6781,9 +6781,9 @@
       "stem": "Routine equipment and calibration checks should be:",
       "options": [
        "Recorded so the instrument's validity is documented",
-       "Done fully without any record at all here, oddly",
-       "Fully skipped just to save the time here, oddly",
-       "Fully estimated from plain memory here, somehow oddly"
+       "Done fully without any record at all here",
+       "Fully skipped just to save the time here",
+       "Fully estimated from plain memory here"
       ],
       "answer": 0,
       "explanation": "Recording checks documents that the instrument was valid during the work, supporting traceability.",
@@ -6807,8 +6807,8 @@
       "stem": "Appropriate UT safety practice includes:",
       "options": [
        "Following site PPE and electrical and mechanical safety rules",
-       "Just fully ignoring all the site rules here, somehow really quite",
-       "Just removing all the machine guards here, somehow really quite",
+       "Fully ignoring all the site rules here",
+       "Removing all the machine guards here",
        "Working in the restricted areas without any clearance here"
       ],
       "answer": 0,
@@ -6835,7 +6835,7 @@
        "Retained per the applicable requirements",
        "Thrown right away immediately here now",
        "Kept only ever if it is convenient here",
-       "Never ever created here, somehow quite oddly"
+       "Never ever created here"
       ],
       "answer": 0,
       "explanation": "Records are kept for the required retention period so results can be reviewed and verified later.",
@@ -6859,9 +6859,9 @@
       "stem": "Documenting settings and calibration supports repeatability, which means:",
       "options": [
        "Another technician can reproduce the inspection and results",
-       "The whole results can never ever be checked here, somehow",
+       "The whole results can never ever be checked here",
        "Each single inspection is fully unique and unverifiable here",
-       "The whole data is fully hidden here, somehow really quite oddly"
+       "The whole data is fully hidden here"
       ],
       "answer": 0,
       "explanation": "Repeatability lets the inspection be reproduced and verified, a core reason for thorough records.",
@@ -6885,9 +6885,9 @@
       "stem": "If the instrument fails a linearity or calibration check, the technician should:",
       "options": [
        "Stop, address the fault, and re-examine affected work",
-       "Just continue on and hope here, somehow really quite oddly",
-       "Just record nothing at all here, somehow really quite oddly",
-       "Just increase the gain and proceed here, somehow"
+       "Continue on and hope here",
+       "Record nothing at all here",
+       "Increase the gain and proceed here"
       ],
       "answer": 0,
       "explanation": "A failed check means results may be invalid, so the cause is corrected and affected items are re-examined per procedure.",
@@ -6912,8 +6912,8 @@
       "options": [
        "Compatible with the part and safe to handle",
        "Fully corrosive right to the whole part here",
-       "Always fully flammable here, somehow oddly",
-       "Fully toxic by design here, somehow quite oddly"
+       "Always fully flammable here",
+       "Fully toxic by design here"
       ],
       "answer": 0,
       "explanation": "Couplant is selected to avoid harming the part (for example chloride limits on stainless) and to be safe to handle per its safety data sheet.",
@@ -6937,9 +6937,9 @@
       "stem": "On austenitic stainless steel, couplant is often controlled for:",
       "options": [
        "Low halogen/chloride content to avoid harming the material",
-       "High chloride content on purpose here, somehow really",
-       "Plain bright color here, somehow really quite oddly enough indeed",
-       "Plain magnetism here, somehow really quite oddly enough indeed"
+       "High chloride content on purpose here",
+       "Bright color here",
+       "Magnetism here"
       ],
       "answer": 0,
       "explanation": "Chlorides can harm stainless, so low-chloride couplants are specified for such materials per the procedure.",
@@ -6963,9 +6963,9 @@
       "stem": "The scanning coverage and directions are:",
       "options": [
        "Defined by the procedure and followed by the technician",
-       "Just chosen fully at random each time here, somehow oddly",
-       "Just skipped to save the time here, somehow really quite",
-       "Decided by the part's color here, somehow really oddly"
+       "Chosen fully at random each time here",
+       "Skipped to save the time here",
+       "Decided by the part's color here"
       ],
       "answer": 0,
       "explanation": "The procedure defines coverage and scanning directions to ensure the required volume is examined, which the Level I follows.",
@@ -7016,8 +7016,8 @@
       "options": [
        "Set up, calibrate, scan, and record under direction",
        "Independently interpret and accept right to code here",
-       "Fully approve the whole procedures here, somehow",
-       "Fully certify the personnel here, somehow really quite"
+       "Fully approve the whole procedures here",
+       "Fully certify the personnel here"
       ],
       "answer": 0,
       "explanation": "A Level I performs the inspection and records results under direction; interpretation to code, procedure approval, and certification are higher-level functions.",
@@ -7041,9 +7041,9 @@
       "stem": "If the technician is unsure whether a signal is relevant, the best action is to:",
       "options": [
        "Record it and consult higher-level personnel",
-       "Just erase it here, somehow really quite oddly",
-       "Just assume it is fully nothing here, oddly",
-       "Just pass the whole part here, somehow oddly"
+       "Erase it here",
+       "Assume it is fully nothing here",
+       "Pass the whole part here"
       ],
       "answer": 0,
       "explanation": "Uncertain signals are recorded and referred for evaluation rather than dismissed, keeping the inspection sound.",
@@ -7067,9 +7067,9 @@
       "stem": "Which statement about recording, control, and safety is correct?",
       "options": [
        "Record results accurately, keep equipment verified, and follow electrical and mechanical safety",
-       "Just fully alter all the data so the whole part passes here, somehow really quite oddly enough now",
-       "Just fully skip all the equipment checks here, somehow really quite oddly enough indeed here",
-       "The whole UT just always requires the radiation shielding here, somehow really quite oddly enough"
+       "Fully alter all the data so the whole part passes here",
+       "Fully skip all the equipment checks here",
+       "The whole UT just always requires the radiation shielding here"
       ],
       "answer": 0,
       "explanation": "Sound UT practice records results honestly, keeps the instrument verified through linearity and calibration checks, and follows safety, including electrical care in immersion and guarding around scanners.",

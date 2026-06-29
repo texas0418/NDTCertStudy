@@ -31,9 +31,9 @@
       "stem": "A higher echo amplitude from an indication means the reflector is:",
       "options": [
        "Not necessarily larger, since amplitude also depends on orientation and type",
-       "Always larger than a lower-amplitude one here, somehow really quite oddly",
-       "Just plain always a whole crack here, somehow really quite oddly enough indeed",
-       "Just plain always rejectable here, somehow really quite oddly enough indeed"
+       "Always larger than a lower-amplitude one here",
+       "Always a whole crack here",
+       "Always rejectable here"
       ],
       "answer": 0,
       "explanation": "Amplitude depends on reflector size, orientation, shape, and type together, so a stronger echo does not by itself mean a larger or more severe flaw. Sizing and evaluation use defined techniques, not amplitude alone.",
@@ -57,9 +57,9 @@
       "stem": "A planar flaw such as lack of sidewall fusion gives the strongest response when the beam strikes it:",
       "options": [
        "Close to perpendicular to the flaw face",
-       "At a whole grazing angle here, oddly",
+       "At a whole grazing angle here",
        "Just plain parallel to the whole flaw here",
-       "From directly above only here, oddly"
+       "From directly above only here"
       ],
       "answer": 0,
       "explanation": "Planar reflectors are specular, so the echo back to the probe is strongest when the beam hits the face near normal incidence. Poor angle choice can under-respond a real planar flaw.",
@@ -109,9 +109,9 @@
       "stem": "Focusing the beam at the depth of interest improves sizing mainly by:",
       "options": [
        "Narrowing the beam, improving lateral resolution there",
-       "Just raising the whole material velocity here, somehow oddly",
-       "Removing all the artifacts here, somehow really oddly",
-       "Eliminating the whole need for a reference here, oddly"
+       "Raising the whole material velocity here",
+       "Removing all the artifacts here",
+       "Eliminating the whole need for a reference here"
       ],
       "answer": 0,
       "explanation": "A narrower focused beam separates and locates reflectors better at the focal depth, improving lateral resolution and sizing accuracy there.",
@@ -136,8 +136,8 @@
       "options": [
        "A shorter pulse (higher bandwidth)",
        "Just a plain longer pulse here,",
-       "Just a plain wider beam here, oddly",
-       "Lower frequency only here, oddly"
+       "A plain wider beam here",
+       "Lower frequency only here"
       ],
       "answer": 0,
       "explanation": "Shorter, broadband pulses separate closely spaced depths better. Lateral resolution is governed mainly by beam width, which focusing improves.",
@@ -187,9 +187,9 @@
       "stem": "A consistent indication at the weld root or counterbore that matches the part geometry is most likely:",
       "options": [
        "A geometric (non-relevant) reflector to be recognized as such",
-       "Just plain always a rejectable crack here, somehow really oddly",
-       "Just a plain grating lobe here, somehow really quite oddly",
-       "A plain dead element here, somehow really quite oddly enough"
+       "Always a rejectable crack here",
+       "A plain grating lobe here",
+       "A plain dead element here"
       ],
       "answer": 0,
       "explanation": "Geometric features such as the root, counterbore, or mismatch reflect sound predictably. The evaluator distinguishes these from flaws using position, shape, and the scan plan.",
@@ -265,9 +265,9 @@
       "stem": "Reading a reflector's true depth and horizontal position from an S-scan requires the display to be:",
       "options": [
        "Volume (true-depth) corrected with correct velocity and wedge data",
-       "Just plain run at the whole maximum gain here, somehow really oddly",
-       "Just set to a single fixed angle here, somehow really quite oddly",
-       "Just plain free of any whole encoder here, somehow really quite"
+       "Run at the whole maximum gain here",
+       "Set to a single fixed angle here",
+       "Free of any whole encoder here"
       ],
       "answer": 0,
       "explanation": "True position comes from a corrected display built on the right velocity, wedge delay, and angles. Errors in these inputs mislocate reflectors.",
@@ -291,9 +291,9 @@
       "stem": "In coarse-grained or austenitic material, scattering tends to:",
       "options": [
        "Raise background noise and lower the signal-to-noise ratio",
-       "Increase the whole signal-to-noise ratio here, somehow oddly",
-       "Just plain remove the whole attenuation here, somehow oddly",
-       "Sharpen the whole beam here, somehow really quite oddly"
+       "Increase the whole signal-to-noise ratio here",
+       "Remove the whole attenuation here",
+       "Sharpen the whole beam here"
       ],
       "answer": 0,
       "explanation": "Grain scattering produces noise and attenuation that can mask real signals, so probe choice (for example lower frequency or dual TRL) and interpretation account for it.",
@@ -317,9 +317,9 @@
       "stem": "Reflectors very close to the scanning surface can be hard to size because of:",
       "options": [
        "The near-surface dead zone and limited resolution there",
-       "Just plain excessive material velocity here, somehow oddly",
-       "Just too low a whole couplant level here, somehow oddly",
-       "An oversized encoder step here, somehow really oddly"
+       "Excessive material velocity here",
+       "Too low a whole couplant level here",
+       "An oversized encoder step here"
       ],
       "answer": 0,
       "explanation": "Near-surface resolution is limited by the initial pulse and wedge, creating a region where sizing is unreliable, which the scan plan and technique address.",
@@ -343,9 +343,9 @@
       "stem": "A rough or branched crack can scatter sound, so its response may be:",
       "options": [
        "Lower and more variable than a smooth planar reflector of the same size",
-       "Always higher than any other reflector here, somehow really quite oddly",
-       "Exactly equal to a flat-bottom hole here, somehow really quite oddly enough",
-       "Independent of the orientation here, somehow really quite oddly enough"
+       "Always higher than any other reflector here",
+       "Exactly equal to a flat-bottom hole here",
+       "Independent of the orientation here"
       ],
       "answer": 0,
       "explanation": "Rough or multifaceted flaws scatter energy, so amplitude can be lower and erratic compared with a smooth specular reflector, which is why amplitude alone is unreliable for sizing.",
@@ -396,8 +396,8 @@
       "options": [
        "Reflectors there are resolved and sized most reliably",
        "The whole thickness is always in perfect focus here",
-       "Just plain the couplant lasts longer here, somehow oddly",
-       "The encoder reads faster here, somehow really oddly"
+       "The couplant lasts longer here",
+       "The encoder reads faster here"
       ],
       "answer": 0,
       "explanation": "A beam focused near the region of interest gives the best resolution there. A single focus cannot keep the whole thickness equally sharp, so focus is placed where sizing matters.",
@@ -421,9 +421,9 @@
       "stem": "Loss of the expected backwall signal under a region can indicate:",
       "options": [
        "A reflector or attenuator intercepting the beam, worth investigating",
-       "Just a perfectly clean part, always here, somehow really quite oddly",
-       "Just a plain higher frequency here, somehow really quite oddly enough",
-       "A plain new whole wedge here, somehow really quite oddly enough now"
+       "A perfectly clean part, always here",
+       "A plain higher frequency here",
+       "A plain new whole wedge here"
       ],
       "answer": 0,
       "explanation": "A backwall drop can mean a flaw or strong attenuator is blocking the path, so the evaluator investigates rather than assuming the area is sound.",
@@ -447,9 +447,9 @@
       "stem": "Sweeping a range of angles in an S-scan helps the evaluator because flaws on a weld bevel:",
       "options": [
        "Are favorably oriented to different angles at different depths",
-       "All respond best to one fixed angle here, somehow really oddly",
-       "Just plain never reflect the sound here, somehow really quite",
-       "Just only appear on the surface here, somehow really quite oddly"
+       "All respond best to one fixed angle here",
+       "Never reflect the sound here",
+       "Only appear on the surface here"
       ],
       "answer": 0,
       "explanation": "The bevel and fusion faces present at varying orientations through the thickness, so different angles favor different flaws and depths, improving detection and characterization.",
@@ -473,9 +473,9 @@
       "stem": "Selecting a higher frequency for an evaluation generally improves resolution but:",
       "options": [
        "Reduces penetration and can raise grain noise",
-       "Just plain increases the penetration here, oddly",
-       "Eliminates the whole beam spread here, oddly",
-       "Removes the need to calibrate here, oddly"
+       "Increases the penetration here",
+       "Eliminates the whole beam spread here",
+       "Removes the need to calibrate here"
       ],
       "answer": 0,
       "explanation": "Higher frequency sharpens resolution yet attenuates faster and can raise noise in coarse material, a trade-off the evaluator weighs for the application.",
@@ -499,9 +499,9 @@
       "stem": "Weak signals returning from the tips of a planar flaw are significant because they:",
       "options": [
        "Support through-wall height sizing by diffraction",
-       "Indicate the whole couplant has failed here, oddly",
+       "Indicate the whole couplant has failed here",
        "Are always larger than the whole corner echo here",
-       "Mean the whole flaw is non-relevant here, oddly"
+       "Mean the whole flaw is non-relevant here"
       ],
       "answer": 0,
       "explanation": "Diffracted tip signals let the evaluator measure through-wall height more accurately than amplitude methods, especially for tall planar flaws. They are usually weaker than specular corner echoes.",
@@ -525,9 +525,9 @@
       "stem": "When an unexpected indication appears, the evaluator first:",
       "options": [
        "Determines whether it is a real reflector or an artifact or geometry",
-       "Just records it as a rejectable defect here, somehow really quite",
-       "Just plain deletes it from the data here, somehow really quite oddly",
-       "Just plain totally ignores it here, somehow really quite oddly enough"
+       "Records it as a rejectable defect here",
+       "Deletes it from the data here",
+       "Totally ignores it here"
       ],
       "answer": 0,
       "explanation": "Characterization starts by separating real flaws from artifacts and geometry using position, behavior, and the scan plan, before any sizing or acceptance decision.",
@@ -577,7 +577,7 @@
       "stem": "A steered angle near the array's steering limit should be interpreted carefully because:",
       "options": [
        "Sensitivity and beam quality fall there",
-       "Sensitivity is highest there here, oddly",
+       "Sensitivity is highest there here",
        "Just plain it needs no calibration here",
        "It removes the whole grating lobes now"
       ],
@@ -603,9 +603,9 @@
       "stem": "A strong response where a planar flaw meets a surface (a corner) is produced by:",
       "options": [
        "A corner-reflector (right-angle) return to the probe",
-       "Diffraction from the whole flaw tip here, somehow",
-       "Just plain grain scattering here, somehow really oddly",
-       "Couplant on the whole surface here, somehow oddly"
+       "Diffraction from the whole flaw tip here",
+       "Grain scattering here",
+       "Couplant on the whole surface here"
       ],
       "answer": 0,
       "explanation": "A flaw breaking a surface forms a corner trap that returns a strong specular echo, useful for detection but separate from the weaker tip-diffraction signal used for height.",
@@ -655,9 +655,9 @@
       "stem": "Deeper reflectors of equal size tend to give lower amplitudes before correction because of:",
       "options": [
        "Attenuation and beam spread with distance",
-       "Higher frequency at the depth here, oddly",
-       "Lower material density at depth here, oddly",
-       "A plain shorter sound path here, oddly"
+       "Higher frequency at the depth here",
+       "Lower material density at depth here",
+       "A plain shorter sound path here"
       ],
       "answer": 0,
       "explanation": "Sound weakens with distance from attenuation and divergence, so depth-gain correction (TCG) is applied so equal reflectors read consistently for fair comparison.",
@@ -707,9 +707,9 @@
       "stem": "Compared with a planar flaw, a volumetric flaw such as a cluster of porosity tends to:",
       "options": [
        "Scatter sound in many directions, often giving rounded, lower or multiple signals",
-       "Give one strong specular echo only at normal incidence here, somehow really oddly",
-       "Just plain produce no response at all here, somehow really quite oddly enough indeed",
-       "Always exceed a crack's amplitude here, somehow really quite oddly enough indeed"
+       "Give one strong specular echo only at normal incidence here",
+       "Produce no response at all here",
+       "Always exceed a crack's amplitude here"
       ],
       "answer": 0,
       "explanation": "Volumetric flaws scatter from many small surfaces, giving rounded or multiple responses that differ from a planar flaw's specular behavior, which aids characterization.",
@@ -759,9 +759,9 @@
       "stem": "On an uncorrected angle-beam display, the horizontal scale is usually:",
       "options": [
        "Sound path, which must be projected to get true depth",
-       "Just plain already the whole true depth here, somehow",
-       "Just the couplant thickness here, somehow really oddly",
-       "Just plain the whole scan length here, somehow oddly"
+       "Already the whole true depth here",
+       "The couplant thickness here",
+       "The whole scan length here"
       ],
       "answer": 0,
       "explanation": "An uncorrected angle display reads sound path, so depth and surface distance are derived by projection using the refracted angle. A corrected view does this automatically.",
@@ -785,9 +785,9 @@
       "stem": "Classifying an indication as relevant or non-relevant is based on:",
       "options": [
        "Its source and behavior judged against the geometry and procedure",
-       "Just plain its whole amplitude alone here, somehow really quite oddly",
-       "Just plain the whole scan speed used here, somehow really quite",
-       "Just plain the whole cable used here, somehow really quite oddly"
+       "Its whole amplitude alone here",
+       "The whole scan speed used here",
+       "The whole cable used here"
       ],
       "answer": 0,
       "explanation": "Relevance is decided by whether the indication comes from a flaw versus geometry or an artifact, using position, response, and the procedure, not display color.",
@@ -811,9 +811,9 @@
       "stem": "Before trusting reflector positions in the imaging, the evaluator confirms the focal-law setup was:",
       "options": [
        "Verified on a reference block for angles and depth",
-       "Run at the whole fastest scan speed here, oddly",
-       "Built with the most focal laws possible here, oddly",
-       "Built with the largest possible aperture here, oddly"
+       "Run at the whole fastest scan speed here",
+       "Built with the most focal laws possible here",
+       "Built with the largest possible aperture here"
       ],
       "answer": 0,
       "explanation": "Position accuracy depends on a verified setup, so the evaluator checks that angles, depth, and sensitivity were confirmed on a reference before interpreting positions.",
@@ -837,9 +837,9 @@
       "stem": "An indication saturating at full screen height is a problem for sizing because:",
       "options": [
        "Its true amplitude and extent cannot be measured while clipped",
-       "It proves the whole flaw is rejectable here, somehow really",
-       "Just plain it improves the resolution here, somehow really quite",
-       "It corrects the whole calibration here, somehow really oddly"
+       "It proves the whole flaw is rejectable here",
+       "It improves the resolution here",
+       "It corrects the whole calibration here"
       ],
       "answer": 0,
       "explanation": "A clipped signal hides amplitude information, so gain is reduced to bring it on scale before amplitude-based sizing or comparison.",
@@ -863,9 +863,9 @@
       "stem": "Confirming a suspected planar flaw with more than one angle is useful because:",
       "options": [
        "A favorable angle raises the response and helps confirm orientation",
-       "Just plain angles never change the response here, somehow really",
-       "Just it removes the whole need for sizing here, somehow really oddly",
-       "Just plain it totally guarantees the acceptance here, somehow really"
+       "Angles never change the response here",
+       "It removes the whole need for sizing here",
+       "It totally guarantees the acceptance here"
       ],
       "answer": 0,
       "explanation": "Different angles intercept a planar flaw differently, so the angle that maximizes the response helps confirm the flaw and its orientation before sizing.",
@@ -889,9 +889,9 @@
       "stem": "Which statement reflects sound interpretation practice?",
       "options": [
        "Amplitude is not a direct measure of flaw size; orientation, type, geometry, and artifacts must all be weighed",
-       "The strongest echo is always the largest flaw here, somehow really quite oddly enough indeed here right now",
-       "Every indication is a rejectable defect here, somehow really quite oddly enough indeed here right now today",
-       "Display color shows the flaw severity here, somehow really quite oddly enough indeed here right now today and then"
+       "The strongest echo is always the largest flaw here",
+       "Every indication is a rejectable defect here",
+       "Display color shows the flaw severity here"
       ],
       "answer": 0,
       "explanation": "The evaluator treats amplitude as one clue among several, separating real flaws from geometry and artifacts and using defined techniques to size and evaluate.",
@@ -921,9 +921,9 @@
       "stem": "The primary purpose of a scan plan is to define how the inspection will:",
       "options": [
        "Cover the required examination volume with adequate sensitivity",
-       "Just plain use the whole least couplant here, somehow really",
-       "Just produce the smallest files here, somehow really quite oddly",
-       "Finish in the shortest time here, somehow really quite oddly"
+       "Use the whole least couplant here",
+       "Produce the smallest files here",
+       "Finish in the shortest time here"
       ],
       "answer": 0,
       "explanation": "A scan plan specifies angles, focal laws, offsets, and probe positions so the required volume is covered at the required sensitivity, per the code and procedure.",
@@ -947,9 +947,9 @@
       "stem": "Angles for a bevel weld are chosen so the beam strikes the fusion faces:",
       "options": [
        "Near perpendicular to detect sidewall lack of fusion",
-       "At a grazing angle to skim past them here, oddly",
-       "Just only parallel to the whole surface here, oddly",
-       "Only straight down at the whole zero degrees here, oddly"
+       "At a grazing angle to skim past them here",
+       "Only parallel to the whole surface here",
+       "Only straight down at the whole zero degrees here"
       ],
       "answer": 0,
       "explanation": "Sidewall lack of fusion lies along the bevel, so angles are selected to hit those faces near normal incidence where the planar response is strongest.",
@@ -973,9 +973,9 @@
       "stem": "Beam simulation or ray tracing during scan-plan design is used to:",
       "options": [
        "Confirm the chosen angles and offsets actually cover the weld volume",
-       "Just plain totally replace the calibration here, somehow really quite",
-       "Just set the whole acceptance criteria here, somehow really quite",
-       "Generate the whole inspection report here, somehow really quite oddly"
+       "Totally replace the calibration here",
+       "Set the whole acceptance criteria here",
+       "Generate the whole inspection report here"
       ],
       "answer": 0,
       "explanation": "Ray tracing shows where the beams go for given angles, focal laws, and offsets, so the designer verifies coverage of the root, fusion faces, and cap before scanning.",
@@ -999,9 +999,9 @@
       "stem": "Covering the upper and lower parts of a weld from one side typically requires:",
       "options": [
        "Both the first leg and the skip (second) leg",
-       "Just plain only the whole first leg here, oddly",
-       "Just plain no probe movement here, oddly",
-       "A whole zero-degree beam only here, oddly"
+       "Only the whole first leg here",
+       "No probe movement here",
+       "A whole zero-degree beam only here"
       ],
       "answer": 0,
       "explanation": "The direct (first) leg and the reflected skip leg reach different depths, so coverage of root to cap from one offset uses both legs, with the probe moved through the offset range.",
@@ -1025,9 +1025,9 @@
       "stem": "Scanning a weld from both sides is planned because:",
       "options": [
        "Some flaw orientations are only well detected from one side",
-       "Just one side is always sufficient here, somehow really oddly",
-       "It halves the couplant use here, somehow really quite oddly",
-       "It shortens the data files here, somehow really oddly now"
+       "One side is always sufficient here",
+       "It halves the couplant use here",
+       "It shortens the data files here"
       ],
       "answer": 0,
       "explanation": "Flaws angled toward one side respond poorly from the other, so two-sided coverage is planned where access allows to catch various orientations.",
@@ -1051,9 +1051,9 @@
       "stem": "The range of index offsets in the plan is set so that:",
       "options": [
        "The beams sweep through the weld volume as the probe moves",
-       "The probe always sits on the whole weld cap here, oddly",
-       "Just plain the cable stays straight here, somehow really",
-       "Just the couplant stays cool here, somehow really quite oddly"
+       "The probe always sits on the whole weld cap here",
+       "The cable stays straight here",
+       "The couplant stays cool here"
       ],
       "answer": 0,
       "explanation": "Moving the probe through a planned offset range walks the beams across the weld cross-section, which combined with the angles covers the volume.",
@@ -1077,9 +1077,9 @@
       "stem": "The skip distance for a given angle depends on the:",
       "options": [
        "Material thickness and the refracted angle",
-       "The pulse repetition frequency here, oddly",
-       "The number of array elements here, oddly",
-       "The operator certification level here, oddly"
+       "The pulse repetition frequency here",
+       "The number of array elements here",
+       "The operator certification level here"
       ],
       "answer": 0,
       "explanation": "Skip distance is a function of thickness and refracted angle, so the designer uses it to place offsets and predict where each leg covers.",
@@ -1129,9 +1129,9 @@
       "stem": "An S-scan is often chosen over an E-scan for weld bevels because it:",
       "options": [
        "Insonifies the bevel with a range of angles from each position",
-       "Just plain uses only one whole fixed angle here, somehow oddly",
-       "Needs no whole focal laws here, somehow really quite oddly enough",
-       "Just removes the whole need for offsets here, somehow oddly"
+       "Uses only one whole fixed angle here",
+       "Needs no whole focal laws here",
+       "Removes the whole need for offsets here"
       ],
       "answer": 0,
       "explanation": "The angular sweep of an S-scan addresses the varying bevel and flaw orientations from each position, while an E-scan holds one angle and steps the aperture.",
@@ -1155,9 +1155,9 @@
       "stem": "After designing the plan, coverage is verified by checking that:",
       "options": [
        "The root, fusion faces, and cap are all insonified",
-       "Just plain the scan finishes quickly here, oddly",
-       "Only the whole easiest zone is covered here, oddly",
-       "Just plain the fewest angles are used here, somehow"
+       "The scan finishes quickly here",
+       "Only the whole easiest zone is covered here",
+       "The fewest angles are used here"
       ],
       "answer": 0,
       "explanation": "The designer confirms the beams reach every required zone, including the root and fusion faces, before the plan is used.",
@@ -1181,9 +1181,9 @@
       "stem": "For small-diameter pipe, the scan plan specifies a wedge that is:",
       "options": [
        "Contoured to the pipe so coupling and angles stay correct",
-       "Just plain the whole flattest available here, somehow oddly",
-       "Just oversized for the bore here, somehow really oddly",
-       "Run without the whole couplant here, somehow really oddly"
+       "The whole flattest available here",
+       "Oversized for the bore here",
+       "Run without the whole couplant here"
       ],
       "answer": 0,
       "explanation": "A contoured wedge maintains contact and the intended refracted angles around the curvature, which a flat wedge would not on small diameters.",
@@ -1207,9 +1207,9 @@
       "stem": "When access prevents scanning from one side, the plan should:",
       "options": [
        "Use alternative angles or additional positions and record the limitation",
-       "Claim the full coverage anyway here, somehow really quite oddly enough",
-       "Just plain skip that whole volume silently here, somehow really quite",
-       "Lower the acceptance criteria here, somehow really quite oddly enough now"
+       "Claim the full coverage anyway here",
+       "Skip that whole volume silently here",
+       "Lower the acceptance criteria here"
       ],
       "answer": 0,
       "explanation": "Where access limits coverage, the designer adapts angles and positions to cover as much as possible and documents what could not be examined, rather than overstating coverage.",
@@ -1233,9 +1233,9 @@
       "stem": "Reliable root coverage in a single-sided weld often depends on:",
       "options": [
        "The correct leg and angle reaching the root region",
-       "Just plain the whole maximum gain alone here, oddly",
-       "A higher pulse repetition frequency here, oddly",
-       "A whole longer scan here, somehow really quite oddly"
+       "The whole maximum gain alone here",
+       "A higher pulse repetition frequency here",
+       "A whole longer scan here"
       ],
       "answer": 0,
       "explanation": "The root sits at a specific depth and position, so the plan selects the leg and angle that place a favorable beam there, verified by simulation.",
@@ -1259,9 +1259,9 @@
       "stem": "If the weld cap blocks the needed probe offset, the plan may call to:",
       "options": [
        "Dress the cap so the probe can reach the offset",
-       "Just scan only the whole cap surface here, oddly",
-       "Just plain abandon the inspection here, oddly",
-       "Use a whole zero-degree beam only here, oddly"
+       "Scan only the whole cap surface here",
+       "Abandon the inspection here",
+       "Use a whole zero-degree beam only here"
       ],
       "answer": 0,
       "explanation": "Where coverage requires it, the cap is dressed flush so the probe can sit at the planned offset, per the procedure.",
@@ -1285,8 +1285,8 @@
       "stem": "Using multiple focal-law groups in a plan can:",
       "options": [
        "Cover several angle ranges or zones in one pass",
-       "Remove the need for calibration here, oddly",
-       "Just plain eliminate the whole encoder here, oddly",
+       "Remove the need for calibration here",
+       "Eliminate the whole encoder here",
        "Just plain totally avoid the procedure here"
       ],
       "answer": 0,
@@ -1311,9 +1311,9 @@
       "stem": "For thickness or corrosion mapping rather than weld flaw detection, the plan typically uses:",
       "options": [
        "Zero-degree (straight-beam) coverage over the area",
-       "Just plain only the high steered angles here, oddly",
-       "Just plain totally no whole encoding here, oddly",
-       "Just plain a single whole A-scan point here, oddly"
+       "Only the high steered angles here",
+       "Totally no whole encoding here",
+       "A single whole A-scan point here"
       ],
       "answer": 0,
       "explanation": "Wall-thickness and corrosion mapping use straight-beam coverage to measure remaining wall across the area, a different goal from angled weld inspection.",
@@ -1337,9 +1337,9 @@
       "stem": "A good plan also ensures that across the examined volume the:",
       "options": [
        "Sensitivity stays adequate (via TCG/ACG) at all required depths and angles",
-       "Gain is fixed with no correction here, somehow really quite oddly enough",
-       "Beam is left unfocused at all depths here, somehow really quite oddly",
-       "Just plain the whole cable is the shortest here, somehow really quite oddly"
+       "Gain is fixed with no correction here",
+       "Beam is left unfocused at all depths here",
+       "The whole cable is the shortest here"
       ],
       "answer": 0,
       "explanation": "Coverage is only meaningful if sensitivity is adequate throughout, so depth and angle gain corrections are part of designing a usable plan.",
@@ -1363,9 +1363,9 @@
       "stem": "Complex geometry such as a nozzle or branch connection complicates the plan because:",
       "options": [
        "Curvature and varying thickness change the beam paths and coverage",
-       "Just it removes the whole need for angles here, somehow really oddly",
-       "It makes the whole calibration unnecessary here, somehow really",
-       "Just it eliminates the whole artifacts here, somehow really oddly"
+       "It removes the whole need for angles here",
+       "It makes the whole calibration unnecessary here",
+       "It eliminates the whole artifacts here"
       ],
       "answer": 0,
       "explanation": "Changing curvature and thickness alter where beams go, so coverage must be worked out for the specific geometry, often with simulation and extra positions.",
@@ -1389,9 +1389,9 @@
       "stem": "Where possible, inspecting a zone on the first leg is often preferred because:",
       "options": [
        "The beam has spread and attenuated less, giving cleaner response",
-       "The skip leg is always blocked here, somehow really quite oddly",
-       "Just plain it needs no whole calibration here, somehow really oddly",
-       "Just it totally avoids the encoder here, somehow really oddly"
+       "The skip leg is always blocked here",
+       "It needs no whole calibration here",
+       "It totally avoids the encoder here"
       ],
       "answer": 0,
       "explanation": "First-leg paths are shorter with less spread and attenuation, so response is generally cleaner, though skip legs are used where geometry requires.",
@@ -1415,9 +1415,9 @@
       "stem": "The scan plan should be:",
       "options": [
        "Documented so the inspection is repeatable and reviewable",
-       "Kept only in the whole technician's memory here, oddly",
-       "Changed silently during the whole job here, somehow oddly",
-       "Left undated and unsigned here, somehow really quite oddly"
+       "Kept only in the whole technician's memory here",
+       "Changed silently during the whole job here",
+       "Left undated and unsigned here"
       ],
       "answer": 0,
       "explanation": "A documented plan with angles, offsets, focal laws, and coverage lets the work be repeated and reviewed and supports traceability.",
@@ -1469,7 +1469,7 @@
        "Governing code or specification",
        "The whole probe manufacturer here",
        "Plain couplant supplier here",
-       "The probe cable here, oddly"
+       "The probe cable here"
       ],
       "answer": 0,
       "explanation": "The code or specification defines the volume that must be examined, and the plan is designed to cover it; the designer confirms the plan meets that requirement.",
@@ -1493,9 +1493,9 @@
       "stem": "Selecting an S-scan range of, for example, 40 to 70 degrees is driven by the:",
       "options": [
        "Bevel angles and flaw orientations expected through the thickness",
-       "Just plain the whole couplant viscosity here, somehow really quite",
-       "The instrument firing rate here, somehow really quite oddly enough",
-       "The number of saved setups here, somehow really quite oddly enough"
+       "The whole couplant viscosity here",
+       "The instrument firing rate here",
+       "The number of saved setups here"
       ],
       "answer": 0,
       "explanation": "The sweep range is chosen to insonify the expected fusion-face and flaw orientations favorably; the exact range depends on the joint and is set per the procedure.",
@@ -1519,9 +1519,9 @@
       "stem": "Confirming a plan on a representative mock-up or block is valuable because it:",
       "options": [
        "Demonstrates that planned flaws would actually be detected and located",
-       "Just plain sets the whole acceptance criteria here, somehow really quite",
-       "Just plain replaces the whole encoder here, somehow really quite oddly",
-       "Just totally eliminates the calibration here, somehow really quite oddly"
+       "Sets the whole acceptance criteria here",
+       "Replaces the whole encoder here",
+       "Totally eliminates the calibration here"
       ],
       "answer": 0,
       "explanation": "Running the plan on a sample with known reflectors shows whether the coverage and sensitivity actually find and place flaws as intended before production scanning.",
@@ -1545,9 +1545,9 @@
       "stem": "The plan must keep scan speed within a limit set by the:",
       "options": [
        "Acquisition rate (PRF and number of focal laws)",
-       "Just plain the whole display color map here, oddly",
-       "The number of the stored A-scans here, oddly",
-       "Just plain the whole report length here, oddly"
+       "The whole display color map here",
+       "The number of the stored A-scans here",
+       "The whole report length here"
       ],
       "answer": 0,
       "explanation": "Too fast a scan misses data, so the plan specifies a maximum speed consistent with the focal-law count and acquisition rate.",
@@ -1571,9 +1571,9 @@
       "stem": "Time-of-flight diffraction (TOFD) is sometimes planned alongside phased array because it:",
       "options": [
        "Adds sensitive through-wall sizing of planar flaws by diffraction",
-       "Replaces all the phased array coverage here, somehow really oddly",
-       "Removes the whole need for couplant here, somehow really quite oddly",
-       "Just plain totally eliminates the calibration here, somehow oddly"
+       "Replaces all the phased array coverage here",
+       "Removes the whole need for couplant here",
+       "Totally eliminates the calibration here"
       ],
       "answer": 0,
       "explanation": "TOFD is a complementary technique that sizes through-wall height well by detecting diffracted tip signals, often paired with phased array coverage. It is a separate method with its own setup.",
@@ -1597,9 +1597,9 @@
       "stem": "In scan-plan design, the Level II typically:",
       "options": [
        "Designs or reviews the plan and verifies its coverage",
-       "Only follows a plan with no review here, somehow oddly",
-       "Just approves the governing code here, somehow oddly",
-       "Just plain manufactures the whole probe here, somehow"
+       "Only follows a plan with no review here",
+       "Approves the governing code here",
+       "Manufactures the whole probe here"
       ],
       "answer": 0,
       "explanation": "A Level II develops or reviews the plan, confirms coverage and sensitivity, and provides it for Level I execution; code approval and hardware design are other roles.",
@@ -1623,9 +1623,9 @@
       "stem": "Relative to a Level I, the Level II commonly:",
       "options": [
        "Provides the plan and direction and checks the acquired data",
-       "Just takes the direction from the Level I here, somehow oddly",
-       "Just plain has no whole role in coverage here, somehow oddly",
-       "Only handles the whole cables here, somehow really quite oddly"
+       "Takes the direction from the Level I here",
+       "Has no whole role in coverage here",
+       "Only handles the whole cables here"
       ],
       "answer": 0,
       "explanation": "The Level II directs the work, supplies the plan, and reviews the data for coverage and quality, while the Level I executes the scanning.",
@@ -1649,9 +1649,9 @@
       "stem": "Weld high-low (mismatch) at the root matters to the plan because it:",
       "options": [
        "Creates geometric signals and can shadow part of the root",
-       "Just plain has no whole effect on coverage here, somehow oddly",
-       "Just totally improves the sensitivity here, somehow oddly",
-       "Removes the whole need for both sides here, somehow oddly"
+       "Has no whole effect on coverage here",
+       "Totally improves the sensitivity here",
+       "Removes the whole need for both sides here"
       ],
       "answer": 0,
       "explanation": "Root mismatch produces geometric reflectors and can block the beam to part of the root, so the plan and interpretation account for it to avoid missed or misread root signals.",
@@ -1675,9 +1675,9 @@
       "stem": "Gates in the setup are planned to:",
       "options": [
        "Capture the volume and signals of interest for imaging and measurement",
-       "Just plain totally magnetize the whole weld here, somehow really quite",
-       "Just plain develop the whole data here, somehow really quite oddly enough",
-       "Just plain power the whole array here, somehow really quite oddly enough"
+       "Totally magnetize the whole weld here",
+       "Develop the whole data here",
+       "Power the whole array here"
       ],
       "answer": 0,
       "explanation": "Gates are positioned to record the time or depth ranges that contain the examination volume, feeding the imaging and measurements.",
@@ -1701,9 +1701,9 @@
       "stem": "Including more than one angle or direction in the plan provides:",
       "options": [
        "Redundancy so differently oriented flaws are still detected",
-       "A guarantee that all the flaws are acceptable here, oddly",
-       "Just plain a way to skip the calibration here, somehow oddly",
-       "A reason to scan only the whole once side here, somehow oddly"
+       "A guarantee that all the flaws are acceptable here",
+       "A way to skip the calibration here",
+       "A reason to scan only the whole once side here"
       ],
       "answer": 0,
       "explanation": "Multiple angles and directions improve the chance of intercepting flaws of various orientations, which a single angle could miss.",
@@ -1727,9 +1727,9 @@
       "stem": "The plan sets an encoder resolution fine enough to:",
       "options": [
        "Sample the smallest flaw of interest along the scan",
-       "Fill the whole disk as fast as possible here, oddly",
-       "Just plain use the most whole colors here, somehow oddly",
-       "Just shorten the whole cable here, somehow oddly"
+       "Fill the whole disk as fast as possible here",
+       "Use the most whole colors here",
+       "Shorten the whole cable here"
       ],
       "answer": 0,
       "explanation": "Scan-axis sampling must be fine enough to capture the smallest relevant flaw; too coarse a step can skip small indications.",
@@ -1753,9 +1753,9 @@
       "stem": "If the acquired data shows a zone was not actually insonified as planned, the Level II should:",
       "options": [
        "Have the area re-scanned or the plan corrected",
-       "Just plain accept the gap as designed here, oddly",
+       "Accept the gap as designed here",
        "Edit the plan after the fact to match here",
-       "Just report it as fully covered here, oddly"
+       "Report it as fully covered here"
       ],
       "answer": 0,
       "explanation": "A coverage shortfall is resolved by re-scanning or correcting the plan and setup, not by accepting the gap or revising records to hide it.",
@@ -1779,9 +1779,9 @@
       "stem": "Which statement about scan-plan design is correct?",
       "options": [
        "Angles, offsets, and focal laws are chosen and verified to cover the required volume at adequate sensitivity, with limitations documented",
-       "One angle from one side always covers a weld here, somehow really quite oddly enough indeed here right now today and then too as well also",
-       "Coverage gaps are acceptable to save time here, somehow really quite oddly enough indeed here right now today and then too as well also",
-       "Maximum gain alone guarantees full coverage here, somehow really quite oddly enough indeed here right now today and then too as well also"
+       "One angle from one side always covers a weld here",
+       "Coverage gaps are acceptable to save time here",
+       "Maximum gain alone guarantees full coverage here"
       ],
       "answer": 0,
       "explanation": "A sound plan selects and verifies angles, offsets, and focal laws to cover the required volume with adequate sensitivity, addressing access limits and documenting anything not covered.",
@@ -1811,9 +1811,9 @@
       "stem": "A correctly built TCG makes an equal reference reflector read the same amplitude:",
       "options": [
        "At every depth across the calibrated range",
-       "Just plain only at the whole surface here, oddly",
-       "Just only at the maximum depth here, oddly",
-       "Just plain only at one angle here, oddly"
+       "Only at the whole surface here",
+       "Only at the maximum depth here",
+       "Only at one angle here"
       ],
       "answer": 0,
       "explanation": "Time-corrected gain adds depth-dependent gain so an equal reflector gives a constant amplitude with depth, letting the evaluator compare responses fairly across the thickness.",
@@ -1837,9 +1837,9 @@
       "stem": "Angle-corrected gain is needed in addition to TCG because:",
       "options": [
        "Sensitivity also varies with steering angle across an S-scan",
-       "Depth has no effect on amplitude here, somehow really oddly",
-       "The wedge delay changes with angle here, somehow really oddly",
-       "The encoder drifts with the angle here, somehow really quite"
+       "Depth has no effect on amplitude here",
+       "The wedge delay changes with angle here",
+       "The encoder drifts with the angle here"
       ],
       "answer": 0,
       "explanation": "An S-scan's response changes with angle as well as depth, so ACG equalizes amplitude across the sweep, complementing the depth correction of TCG.",
@@ -1863,9 +1863,9 @@
       "stem": "Setting the reference sensitivity means adjusting gain so the reference reflector reaches a:",
       "options": [
        "Defined reference amplitude (for example a set screen height)",
-       "Just plain totally zero amplitude here, somehow really quite",
-       "Just plain random height here, somehow really quite oddly enough",
-       "The clipping point always here, somehow really quite oddly now"
+       "Totally zero amplitude here",
+       "Random height here",
+       "The clipping point always here"
       ],
       "answer": 0,
       "explanation": "The reference reflector is brought to a defined level that establishes the sensitivity, against which recording and evaluation levels are referenced.",
@@ -1890,8 +1890,8 @@
       "options": [
        "Relative to the calibrated reference level",
        "By the whole instrument manufacturer here",
-       "Just plain by the whole scan speed here, oddly",
-       "By the whole probe frequency here, oddly"
+       "By the whole scan speed here",
+       "By the whole probe frequency here"
       ],
       "answer": 0,
       "explanation": "These thresholds are set as decibel relationships to the reference (for example reference, or a stated fraction or multiple), so indications are recorded and evaluated consistently per the procedure.",
@@ -1917,7 +1917,7 @@
        "The TCG (depth-amplitude) reference",
        "Just the acceptance criteria here",
        "The whole encoder calibration here",
-       "The whole report template here, oddly"
+       "The whole report template here"
       ],
       "answer": 0,
       "explanation": "Equal side-drilled holes at known depths give equal reflectors along the path, from which the depth-amplitude correction is built. Acceptance criteria are separate.",
@@ -1941,9 +1941,9 @@
       "stem": "A machined notch is often used as a reference for:",
       "options": [
        "Surface-breaking flaw response (for example root or sidewall)",
-       "Just volumetric porosity sizing only here, somehow really oddly",
-       "Just plain totally couplant selection here, somehow really",
-       "Just plain totally cable testing here, somehow really oddly"
+       "Volumetric porosity sizing only here",
+       "Totally couplant selection here",
+       "Totally cable testing here"
       ],
       "answer": 0,
       "explanation": "Notches simulate surface-connected planar reflectors, so they are used to set or confirm sensitivity for root and surface flaws, per the procedure.",
@@ -1967,9 +1967,9 @@
       "stem": "Transfer correction is applied to account for:",
       "options": [
        "Surface and attenuation differences between the calibration block and the part",
-       "Just a change in the whole acceptance criteria here, somehow really quite oddly",
-       "A change in the probe frequency here, somehow really quite oddly enough indeed",
-       "The whole operator's certification here, somehow really quite oddly enough now"
+       "A change in the whole acceptance criteria here",
+       "A change in the probe frequency here",
+       "The whole operator's certification here"
       ],
       "answer": 0,
       "explanation": "If the part's surface or attenuation differs from the block, a transfer correction adjusts gain so the calibration is valid on the actual part.",
@@ -1993,9 +1993,9 @@
       "stem": "A calibration block should be acoustically similar to the part so that:",
       "options": [
        "Velocity and attenuation represent the actual material",
-       "Just plain it looks the whole same color here, somehow oddly",
-       "It totally weighs the same here, somehow really oddly",
-       "It has the whole same physical dimensions here, oddly"
+       "It looks the whole same color here",
+       "It totally weighs the same here",
+       "It has the whole same physical dimensions here"
       ],
       "answer": 0,
       "explanation": "A representative block makes the calibration valid for the part; mismatched velocity or attenuation would bias positions and amplitudes.",
@@ -2019,9 +2019,9 @@
       "stem": "After building TCG, the evaluator verifies it by checking that the reference reflector reads:",
       "options": [
        "Within tolerance at each depth across the range",
-       "Higher at depth than at the surface here, oddly",
-       "Just plain only at one whole depth here, oddly",
-       "Just plain off-screen at all the depths here, oddly"
+       "Higher at depth than at the surface here",
+       "Only at one whole depth here",
+       "Off-screen at all the depths here"
       ],
       "answer": 0,
       "explanation": "Verification confirms the correction holds, with the equal reflector reading the reference level within tolerance at each depth before sizing or evaluation.",
@@ -2045,9 +2045,9 @@
       "stem": "A DAC curve is an alternative to TCG that:",
       "options": [
        "Plots reference amplitude versus sound path for comparison",
-       "Just sets the whole steering angle range here, somehow oddly",
-       "Just totally powers the whole array here, somehow oddly",
-       "Just defines the whole encoder counts here, somehow oddly"
+       "Sets the whole steering angle range here",
+       "Totally powers the whole array here",
+       "Defines the whole encoder counts here"
       ],
       "answer": 0,
       "explanation": "A distance-amplitude correction curve records how the reference amplitude falls with distance, and signals are compared to it, instead of flattening the response with TCG. Follow the procedure for which is required.",
@@ -2071,9 +2071,9 @@
       "stem": "Reference and scan gain are set so that relevant signals:",
       "options": [
        "Stay on screen and measurable without saturating",
-       "Always clip at the full screen here, somehow oddly",
-       "Sit at zero amplitude here, somehow really oddly",
-       "Just plain are off-screen here, somehow oddly"
+       "Always clip at the full screen here",
+       "Sit at zero amplitude here",
+       "Are off-screen here"
       ],
       "answer": 0,
       "explanation": "Adequate headroom keeps reference and flaw signals measurable rather than clipped or buried, which is essential for amplitude-based comparison and sizing.",
@@ -2097,9 +2097,9 @@
       "stem": "Calibration for sizing can differ from calibration for detection because sizing may require:",
       "options": [
        "Verified resolution, focusing, and a defined sizing reference or technique",
-       "Just only the whole loudest possible gain here, somehow really quite oddly enough",
-       "Just plain no whole reference reflectors here, somehow really quite oddly",
-       "Just a whole coarser encoder step here, somehow really quite oddly enough"
+       "Only the whole loudest possible gain here",
+       "No whole reference reflectors here",
+       "A whole coarser encoder step here"
       ],
       "answer": 0,
       "explanation": "Sizing depends on resolution and a defined technique (amplitude drop, tip diffraction, or cursors on a corrected view), so the setup is verified for that, beyond simply detecting a signal.",
@@ -2123,9 +2123,9 @@
       "stem": "The evaluator verifies encoder calibration so that:",
       "options": [
        "Indication lengths and positions along the scan are accurate",
-       "Just plain the whole probe never wears here, somehow really",
-       "The couplant stays fresh here, somehow really quite oddly enough",
-       "Just plain the whole probe runs cooler here, somehow oddly"
+       "The whole probe never wears here",
+       "The couplant stays fresh here",
+       "The whole probe runs cooler here"
       ],
       "answer": 0,
       "explanation": "Length sizing and positions depend on accurate scan-axis distance, so encoder calibration is checked over a known distance before relying on along-scan measurements.",
@@ -2149,9 +2149,9 @@
       "stem": "Verifying velocity and wedge delay before sizing ensures that:",
       "options": [
        "Depths and positions of reflectors are correct",
-       "Just plain the whole scan runs faster here, oddly",
-       "Just the whole files are smaller here, oddly",
-       "Just plain the couplant is cooler here, oddly"
+       "The whole scan runs faster here",
+       "The whole files are smaller here",
+       "The couplant is cooler here"
       ],
       "answer": 0,
       "explanation": "Sizing through-wall position and depth relies on correct velocity and wedge delay, so these are confirmed so reflectors plot at their true locations.",
@@ -2175,9 +2175,9 @@
       "stem": "Confirming the produced refracted angles on a machined radius before sizing is done because:",
       "options": [
        "Angle errors mislocate reflectors and bias through-wall position",
-       "Just plain angles never affect the position here, somehow really",
-       "The radius sets the acceptance criteria here, somehow really oddly",
-       "It compensates for the couplant temperature here, somehow oddly"
+       "Angles never affect the position here",
+       "The radius sets the acceptance criteria here",
+       "It compensates for the couplant temperature here"
       ],
       "answer": 0,
       "explanation": "Through-wall and surface positions are computed from the angle, so a verified angle keeps sizing positions correct; an error would shift the reflector's apparent location.",
@@ -2201,9 +2201,9 @@
       "stem": "A significant temperature change during the job calls for:",
       "options": [
        "Re-verifying or recalibrating, since velocity and coupling shift",
-       "Just plain totally no whole action ever here, somehow really quite",
-       "Lowering the acceptance criteria here, somehow really quite oddly",
-       "Just totally deleting the earlier data here, somehow really oddly"
+       "Totally no whole action ever here",
+       "Lowering the acceptance criteria here",
+       "Totally deleting the earlier data here"
       ],
       "answer": 0,
       "explanation": "Temperature alters velocity and coupling, shifting positions and amplitudes, so the setup is rechecked and affected data re-evaluated or re-scanned as needed.",
@@ -2227,9 +2227,9 @@
       "stem": "Instrument amplitude and horizontal linearity checks confirm that the equipment:",
       "options": [
        "Reads amplitude and position proportionally and accurately",
-       "Just plain has the whole most focal laws here, somehow oddly",
-       "Uses the whole right couplant here, somehow really oddly",
-       "Just plain totally stores the whole more setups here, somehow"
+       "Has the whole most focal laws here",
+       "Uses the whole right couplant here",
+       "Totally stores the whole more setups here"
       ],
       "answer": 0,
       "explanation": "Linearity verification ensures displayed amplitude and position track the true values, which underpins reliable amplitude-based sizing and positioning.",
@@ -2253,9 +2253,9 @@
       "stem": "The reference reflector size is chosen to relate to the:",
       "options": [
        "Acceptance criteria and required sensitivity for the application",
-       "Just plain the whole color of the display here, somehow really oddly",
-       "Just plain the whole length of the cable here, somehow oddly",
-       "Just plain the whole brand of the instrument here, somehow oddly"
+       "The whole color of the display here",
+       "The whole length of the cable here",
+       "The whole brand of the instrument here"
       ],
       "answer": 0,
       "explanation": "The reference reflector and level are tied to the sensitivity and acceptance the application requires, so the calibration represents the flaws of interest. Confirm the specifics against the governing code.",
@@ -2279,9 +2279,9 @@
       "stem": "A scan gain is sometimes added above the reference level to:",
       "options": [
        "Improve the chance of detecting weak indications during scanning",
-       "Just plain totally saturate the whole every signal here, somehow",
-       "Just plain totally replace the whole reference here, somehow oddly",
-       "Lower the whole sensitivity here, somehow really quite oddly enough"
+       "Totally saturate the whole every signal here",
+       "Totally replace the whole reference here",
+       "Lower the whole sensitivity here"
       ],
       "answer": 0,
       "explanation": "An added scan gain raises sensitivity during acquisition so weak indications are caught, with amplitudes referred back to the reference for evaluation. The amount is per the procedure.",
@@ -2305,8 +2305,8 @@
       "stem": "Calibration coupling and surface condition should match scanning because otherwise:",
       "options": [
        "The reference level will not represent the part",
-       "Just plain the whole encoder will reverse here, oddly",
-       "The whole encoder step will change here, oddly",
+       "The whole encoder will reverse here",
+       "The whole encoder step will change here",
        "Just plain the whole cable will lengthen here"
       ],
       "answer": 0,
@@ -2331,9 +2331,9 @@
       "stem": "Calibration is rechecked at the start and end of a scan set (and at intervals) so that:",
       "options": [
        "Data between valid checks can be trusted",
-       "It only needs doing yearly here, oddly",
-       "Just it can be skipped if busy here, oddly",
-       "It removes the whole encoder here, oddly"
+       "It only needs doing yearly here",
+       "It can be skipped if busy here",
+       "It removes the whole encoder here"
       ],
       "answer": 0,
       "explanation": "Bracketing the work with valid checks confirms the setup held throughout; a failed end check makes the interval's data suspect. Intervals follow the procedure.",
@@ -2357,9 +2357,9 @@
       "stem": "If the end-of-scan calibration check is out of tolerance, the evaluator:",
       "options": [
        "Treats data since the last good check as suspect and re-scans",
-       "Just plain accepts the whole data as valid here, somehow oddly",
-       "Just plain adjusts the whole records to pass here, somehow",
-       "Just plain ignores the whole failed check here, somehow oddly"
+       "Accepts the whole data as valid here",
+       "Adjusts the whole records to pass here",
+       "Ignores the whole failed check here"
       ],
       "answer": 0,
       "explanation": "An out-of-tolerance check invalidates the data taken since the last valid check, so the setup is corrected and the affected area re-scanned, not accepted or altered.",
@@ -2383,9 +2383,9 @@
       "stem": "Finding dead elements before sizing matters because they:",
       "options": [
        "Distort the beam and bias amplitude and position",
-       "Just plain totally improve the resolution here, oddly",
-       "Just plain speed up the acquisition here, oddly",
-       "Change the whole acceptance criteria here, oddly"
+       "Totally improve the resolution here",
+       "Speed up the acquisition here",
+       "Change the whole acceptance criteria here"
       ],
       "answer": 0,
       "explanation": "Dead elements alter the aperture and beam, so amplitudes and positions become unreliable; the probe is corrected before any sizing is trusted.",
@@ -2409,9 +2409,9 @@
       "stem": "The calibration record should capture the block, reflectors, gains, and:",
       "options": [
        "Velocity, wedge delay, and the corrections applied",
-       "Just plain the whole ambient light level here, oddly",
-       "The whole operator's seating position here, oddly",
-       "The instrument's remaining storage here, oddly"
+       "The whole ambient light level here",
+       "The whole operator's seating position here",
+       "The instrument's remaining storage here"
       ],
       "answer": 0,
       "explanation": "A complete calibration record documents the setup and corrections so the data's validity can be shown and the work repeated.",
@@ -2435,9 +2435,9 @@
       "stem": "Reliable through-wall sizing needs adequate axial resolution so that:",
       "options": [
        "Tip or extent signals can be separated and measured",
-       "Every whole signal saturates here, somehow really oddly",
-       "The beam is as whole wide as possible here, oddly",
-       "No whole reference is needed here, somehow really"
+       "Every whole signal saturates here",
+       "The beam is as whole wide as possible here",
+       "No whole reference is needed here"
       ],
       "answer": 0,
       "explanation": "Separating closely spaced signals (such as flaw tips) requires good axial resolution, which short pulses and proper setup provide; a wide unfocused beam or saturation hinders sizing.",
@@ -2461,9 +2461,9 @@
       "stem": "Sizing across an S-scan is only trustworthy if sensitivity was verified:",
       "options": [
        "Across the angular range, not at a single angle",
-       "At one angle and assumed elsewhere here, oddly",
-       "Just plain only at the steepest angle here, oddly",
-       "Just without any whole reference here, oddly"
+       "At one angle and assumed elsewhere here",
+       "Only at the steepest angle here",
+       "Without any whole reference here"
       ],
       "answer": 0,
       "explanation": "Because response varies with angle, the correction is checked across the sweep so amplitudes compare fairly at every angle used for sizing.",
@@ -2487,9 +2487,9 @@
       "stem": "Position calibration (velocity, wedge delay, angles) and amplitude calibration (reference, TCG, ACG) are both needed because they govern:",
       "options": [
        "Where reflectors plot and how their amplitudes compare",
-       "Just plain only the whole scan duration here, somehow",
-       "Only the whole scan speed here, somehow really oddly",
-       "Just only the couplant choice here, somehow really oddly"
+       "Only the whole scan duration here",
+       "Only the whole scan speed here",
+       "Only the couplant choice here"
       ],
       "answer": 0,
       "explanation": "Position calibration places reflectors correctly and amplitude calibration makes their responses comparable, both required for sound interpretation and sizing.",
@@ -2513,9 +2513,9 @@
       "stem": "Reference reflectors are used for calibration because they are:",
       "options": [
        "Known and repeatable, unlike the actual flaws sought",
-       "Just plain the same as real cracks here, somehow oddly",
-       "Just plain invisible to the beam here, somehow oddly",
-       "Just plain totally randomly shaped here, somehow"
+       "The same as real cracks here",
+       "Invisible to the beam here",
+       "Totally randomly shaped here"
       ],
       "answer": 0,
       "explanation": "Known machined reflectors give consistent responses to set and verify the setup, which unknown real flaws cannot provide.",
@@ -2539,9 +2539,9 @@
       "stem": "Before sizing planar flaws on an S-scan by cursors, the evaluator confirms the display is:",
       "options": [
        "Volume-corrected so depths and positions are true",
-       "Set to the highest available gain here, oddly",
-       "Just plain run at the whole maximum speed here, oddly",
-       "Free of any whole reference here, somehow oddly"
+       "Set to the highest available gain here",
+       "Run at the whole maximum speed here",
+       "Free of any whole reference here"
       ],
       "answer": 0,
       "explanation": "Cursor-based through-wall sizing reads true geometry, so the display must be volume-corrected with verified velocity, wedge, and angles before measurements are taken.",
@@ -2565,9 +2565,9 @@
       "stem": "If the probe, wedge, or setup is changed mid-job, the evaluator should:",
       "options": [
        "Recalibrate and re-verify before continuing",
-       "Continue without checking here, somehow oddly",
+       "Continue without checking here",
        "Assume the old calibration applies here",
-       "Just lower the reference level here, oddly"
+       "Lower the reference level here"
       ],
       "answer": 0,
       "explanation": "Any hardware or setup change can shift angles, delay, and sensitivity, so the calibration is redone and verified before more data is acquired.",
@@ -2591,9 +2591,9 @@
       "stem": "Qualifying a sizing technique on a block with known flaw sizes lets the evaluator:",
       "options": [
        "Compare measured sizes against the true values",
-       "Skip the whole linearity checks here, somehow oddly",
-       "Skip the calibration on the job here, oddly",
-       "Just avoid documenting results here, oddly"
+       "Skip the whole linearity checks here",
+       "Skip the calibration on the job here",
+       "Avoid documenting results here"
       ],
       "answer": 0,
       "explanation": "Measuring known reflectors shows the technique's accuracy and bias, building confidence before sizing real flaws. Job calibration and documentation still apply.",
@@ -2617,8 +2617,8 @@
       "stem": "If a reference or flaw signal is saturating, the evaluator should:",
       "options": [
        "Reduce gain to bring it on screen, then measure",
-       "Just leave it clipped and estimate here, oddly",
-       "Just plain add the more gain here, somehow oddly",
+       "Leave it clipped and estimate here",
+       "Add the more gain here",
        "Just plain record it as the maximum size here,"
       ],
       "answer": 0,
@@ -2643,9 +2643,9 @@
       "stem": "In calibration for evaluation, the Level II typically:",
       "options": [
        "Sets up, verifies, and confirms the calibration supports detection and sizing",
-       "Just plain only watches the Level I here, somehow really quite oddly enough",
-       "Approves the governing code here, somehow really quite oddly enough indeed now",
-       "Designs the array hardware here, somehow really quite oddly enough indeed now"
+       "Only watches the Level I here",
+       "Approves the governing code here",
+       "Designs the array hardware here"
       ],
       "answer": 0,
       "explanation": "The Level II ensures the calibration is correct and adequate for the required detection and sizing, verifying corrections and linearity; code approval and hardware design are other roles.",
@@ -2669,9 +2669,9 @@
       "stem": "Which statement about calibration for sizing is correct?",
       "options": [
        "Verify position and amplitude calibration (velocity, wedge, angles, TCG, ACG, reference) and confirm it supports the required detection and sizing",
-       "Maximum gain replaces the calibration here, somehow really quite oddly enough indeed here right now today and then too as well also though really now and again",
-       "One-angle verification covers the whole S-scan here, somehow really quite oddly enough indeed here right now today and then too as well also",
-       "Encoder speed sets the reference level here, somehow really quite oddly enough indeed here right now today and then too as well also though really now and again"
+       "Maximum gain replaces the calibration here",
+       "One-angle verification covers the whole S-scan here",
+       "Encoder speed sets the reference level here"
       ],
       "answer": 0,
       "explanation": "Sound sizing rests on verified position and amplitude calibration across the depths and angles used, confirmed adequate for the detection and sizing the job requires.",
@@ -2963,7 +2963,7 @@
        "A surface contour at the root that can give a geometric signal",
        "A planar crack located up in the weld cap here and now today",
        "Porosity sitting in the base metal away here and now today really",
-       "An encoder fault in the scanner here and now today really indeed"
+       "An encoder fault in the scanner"
       ],
       "answer": 0,
       "explanation": "Root concavity is a surface profile at the root; it produces a geometric response that the evaluator distinguishes from a root flaw.",
@@ -3013,9 +3013,9 @@
       "stem": "A lamination in the base plate is best found with:",
       "options": [
        "A zero-degree (straight) beam, since it lies parallel to the surface",
-       "A high steered angle only here and now today really indeed now truly",
-       "Couplant alone applied here and now today really indeed now truly so now",
-       "A transverse skew only here and now today really indeed now truly so"
+       "A high steered angle only",
+       "Couplant alone applied",
+       "A transverse skew only"
       ],
       "answer": 0,
       "explanation": "Laminations are planar and parallel to the plate surface, so a straight beam reflects strongly off them and interrupts the backwall, unlike angled weld beams.",
@@ -3092,8 +3092,8 @@
       "options": [
        "Between weld passes inside the weld, as a planar reflector",
        "Only on the outside cap surface here and now today really",
-       "Only down in the base metal here and now today really indeed",
-       "As round pores at the root here and now today really indeed"
+       "Only down in the base metal",
+       "As round pores at the root"
       ],
       "answer": 0,
       "explanation": "Inter-run lack of fusion is an internal planar flaw between deposited passes, detected when the beam strikes its orientation favorably.",
@@ -3169,9 +3169,9 @@
       "stem": "A branched or rough crack may give an amplitude that is:",
       "options": [
        "Variable and sometimes lower than a smooth reflector of similar size",
-       "Always the very highest in the weld here and now today really indeed",
-       "Exactly that of a side-drilled hole here and now today really indeed",
-       "Entirely independent of the angle here and now today really indeed now"
+       "Always the very highest in the weld",
+       "Exactly that of a side-drilled hole",
+       "Entirely independent of the angle"
       ],
       "answer": 0,
       "explanation": "Roughness and branching scatter energy, so crack amplitude can be erratic and even modest, which is why characterization does not rely on amplitude alone.",
@@ -3221,9 +3221,9 @@
       "stem": "Weld high-low (mismatch) at the root produces:",
       "options": [
        "A geometric signal that can be mistaken for a root flaw",
-       "No signal at all here and now today really indeed now",
+       "No signal at all",
        "A volumetric porosity cluster here and now today really",
-       "A plain grating lobe here and now today really indeed now"
+       "A plain grating lobe"
       ],
       "answer": 0,
       "explanation": "Mismatch offsets the root surfaces, giving a geometric reflection the evaluator must distinguish from lack of penetration or root cracking using position and behavior.",
@@ -3248,7 +3248,7 @@
       "options": [
        "Surface-breaking planar flaw forming a corner trap",
        "A plain volumetric pore here and now today really",
-       "A mode-converted echo here and now today really indeed",
+       "A mode-converted echo",
        "A purely geometric counterbore here and now today"
       ],
       "answer": 0,
@@ -3273,9 +3273,9 @@
       "stem": "Overlap (cold lap) at the weld toe is:",
       "options": [
        "A surface-connected flaw where weld metal did not fuse to the base at the toe",
-       "Deep central porosity sitting in the middle here and now today really indeed now truly so",
-       "A plain lamination in the base plate here and now today really indeed now truly so",
-       "An encoder artifact in the scan here and now today really indeed now truly so"
+       "Deep central porosity sitting in the middle",
+       "A plain lamination in the base plate",
+       "An encoder artifact in the scan"
       ],
       "answer": 0,
       "explanation": "Overlap is unfused weld metal folded over the base at the toe, a surface-connected condition evaluated against the criteria.",
@@ -3300,8 +3300,8 @@
       "options": [
        "Location informs the likely flaw type and the applicable criteria",
        "It sets the scan speed for the whole job here and now today really",
-       "It changes the couplant choice here and now today really indeed",
-       "It powers up the array here and now today really indeed now truly so"
+       "It changes the couplant choice",
+       "It powers up the array"
       ],
       "answer": 0,
       "explanation": "Where a flaw sits guides what it likely is and which acceptance rules apply, supporting correct evaluation and reporting.",
@@ -3325,9 +3325,9 @@
       "stem": "A key way to separate a geometric signal from a flaw is to check whether it:",
       "options": [
        "Tracks a known geometric feature consistently in position and behavior",
-       "Is the brightest color on the display here and now today really indeed",
-       "Saturates the whole display here and now today really indeed now truly so",
-       "Was the one recorded last here and now today really indeed now truly so"
+       "Is the brightest color on the display",
+       "Saturates the whole display",
+       "Was the one recorded last"
       ],
       "answer": 0,
       "explanation": "Geometry signals appear where the part shape predicts and behave consistently across the scan, helping distinguish them from flaws using position, movement, and the scan plan.",
@@ -3352,8 +3352,8 @@
       "options": [
        "Less severe than sharp planar flaws of similar size, per the criteria",
        "Always rejectable regardless of the size here and now today really",
-       "Never detectable at all here and now today really indeed now truly so",
-       "More severe than any crack here and now today really indeed now truly so"
+       "Never detectable at all",
+       "More severe than any crack"
       ],
       "answer": 0,
       "explanation": "Many criteria treat rounded flaws more leniently than sharp planar flaws because they concentrate stress less, though the governing code sets the actual limits.",
@@ -3377,8 +3377,8 @@
       "stem": "Distinguishing a crack from slag may use the fact that a crack tends to be:",
       "options": [
        "Planar with tip-diffraction behavior, while slag is volumetric and irregular",
-       "Rounded, while slag is planar here and now today really indeed now truly so",
-       "Silent, while slag is loud here and now today really indeed now truly so really",
+       "Rounded",
+       "Silent",
        "At the cap only, while slag sits at the root only here and now today really"
       ],
       "answer": 0,
@@ -3403,9 +3403,9 @@
       "stem": "Burn-through (a hole melted through the root) presents as:",
       "options": [
        "A localized root condition with a geometric and possibly through-thickness signal",
-       "Uniform porosity spread across the whole cap here and now today really indeed now truly so",
-       "A plain lamination down in the base plate here and now today really indeed now truly so",
-       "A grating lobe artifact in the scan here and now today really indeed now truly so"
+       "Uniform porosity spread across the whole cap",
+       "A plain lamination down in the base plate",
+       "A grating lobe artifact in the scan"
       ],
       "answer": 0,
       "explanation": "Burn-through is a localized root defect with an associated geometric response; the evaluator characterizes it by position and behavior at the root.",
@@ -3429,9 +3429,9 @@
       "stem": "Examining a suspected flaw at several angles helps characterization because:",
       "options": [
        "A planar flaw peaks at a favorable angle, while a rounded flaw responds more evenly",
-       "The angle never changes the response in any way here and now today really indeed now truly so",
-       "It always guarantees full acceptance here and now today really indeed now truly so",
-       "It removes all geometry signals here and now today really indeed now truly so really"
+       "The angle never changes the response in any way",
+       "It always guarantees full acceptance",
+       "It removes all geometry signals"
       ],
       "answer": 0,
       "explanation": "How the response changes with angle distinguishes a directional planar flaw from a more uniform volumetric one, aiding the flaw-type decision.",
@@ -3455,9 +3455,9 @@
       "stem": "A root crack is distinguished from simple lack of penetration partly by:",
       "options": [
        "Its planar tip behavior and possible extension into the weld, versus the unfused root face",
-       "Its plainly rounded volumetric shape here and now today really indeed now truly so really now so",
-       "Its fixed counterbore position here and now today really indeed now truly so really now today so",
-       "Its appearance only up on the cap here and now today really indeed now truly so really now"
+       "Its plainly rounded volumetric shape",
+       "Its fixed counterbore position",
+       "Its appearance only up on the cap"
       ],
       "answer": 0,
       "explanation": "A root crack is a propagating planar flaw that may extend from the root, while lack of penetration is an unfused face; tip behavior and extent help separate them. The procedure governs final calls.",
@@ -3481,7 +3481,7 @@
       "stem": "When a planar flaw is found, the evaluator typically records the response at the:",
       "options": [
        "Angle that maximizes it, for characterization and sizing",
-       "Angle that minimizes it here and now today really indeed now",
+       "Angle that minimizes it",
        "The steepest available angle always here and now today",
        "The angle with the most noise here and now today really"
       ],
@@ -3508,8 +3508,8 @@
       "options": [
        "Volumetric reflectors with varied, often modest response",
        "Strong planar corner reflectors here and now today really",
-       "Plain surface laminations here and now today really indeed",
-       "Plain encoder artifacts here and now today really indeed now truly so"
+       "Surface laminations",
+       "Encoder artifacts"
       ],
       "answer": 0,
       "explanation": "Inclusions are volumetric and irregular, giving varied responses, distinct from the strong directional return of a favorably oriented planar flaw.",
@@ -3533,9 +3533,9 @@
       "stem": "If the flaw type cannot be determined with confidence, the evaluator should:",
       "options": [
        "Record the evidence and characterize conservatively or refer to a higher level",
-       "Guess a type and just move right on here and now today really indeed now truly so",
-       "Delete the indication entirely here and now today really indeed now truly so",
-       "Call it geometry to avoid the work here and now today really indeed now truly so"
+       "Guess a type and just move right on",
+       "Delete the indication entirely",
+       "Call it geometry to avoid the work"
       ],
       "answer": 0,
       "explanation": "Where characterization is uncertain, the evaluator documents the behavior and either characterizes conservatively or escalates, rather than guessing or dismissing it.",
@@ -3587,7 +3587,7 @@
        "Select the angle whose beam is most normal to the bevel face",
        "Lower the gain to hide the noise here and now today really",
        "Use only the cap-surface signal here and now today really",
-       "Stop scanning from that side here and now today really indeed"
+       "Stop scanning from that side"
       ],
       "answer": 0,
       "explanation": "Matching the beam angle to the bevel orientation maximizes the planar return, improving detection and characterization of fusion-face flaws.",
@@ -3611,9 +3611,9 @@
       "stem": "Which statement about discontinuity response is correct?",
       "options": [
        "Planar flaws give directional, orientation-sensitive responses; volumetric flaws scatter and respond more evenly; geometry tracks the part shape",
-       "All flaws respond in exactly the same way regardless of their orientation or type here and now today really indeed now truly so really now today so",
-       "Amplitude alone fully identifies the flaw type in every single case here and now today really indeed now truly so really now today so really now today so",
-       "Color on the display alone identifies the flaw type in every case here and now today really indeed now truly so really now today so really now today so"
+       "All flaws respond in exactly the same way regardless of their orientation or type",
+       "Amplitude alone fully identifies the flaw type in every single case",
+       "Color on the display alone identifies the flaw type in every case"
       ],
       "answer": 0,
       "explanation": "Characterization uses how a response behaves with angle and position: planar flaws are directional, volumetric flaws scatter, and geometry follows the part shape.",
@@ -3643,9 +3643,9 @@
       "stem": "Flaw sizing techniques fall broadly into:",
       "options": [
        "Amplitude-based and diffraction (tip) based methods",
-       "Loud and soft methods here and now today really indeed",
+       "Loud and soft methods",
        "Color and shape methods here and now today really",
-       "Fast and slow methods here and now today really indeed"
+       "Fast and slow methods"
       ],
       "answer": 0,
       "explanation": "Sizing uses either amplitude behavior (such as the drop methods) or diffracted tip signals, each with its own strengths and limits. The evaluator chooses per the flaw and procedure.",
@@ -3747,9 +3747,9 @@
       "stem": "Tip-diffraction sizing measures through-wall height from:",
       "options": [
        "The depth difference between signals from the flaw extremities",
-       "The peak amplitude only here and now today really indeed now",
-       "The couplant temperature here and now today really indeed now",
-       "The plain scan speed here and now today really indeed now truly"
+       "The peak amplitude only",
+       "The couplant temperature",
+       "The plain scan speed"
       ],
       "answer": 0,
       "explanation": "Diffracted signals from a flaw's tips (or tip and corner) are located in depth, and their separation gives through-wall height largely independent of amplitude.",
@@ -3774,8 +3774,8 @@
       "options": [
        "More accurate and less amplitude-dependent than amplitude methods",
        "Less accurate than amplitude methods here and now today really",
-       "Identical to the 6 dB drop result here and now today really indeed",
-       "Only valid for porosity here and now today really indeed now truly so"
+       "Identical to the 6 dB drop result",
+       "Only valid for porosity"
       ],
       "answer": 0,
       "explanation": "Because it uses geometry of diffracted tips rather than amplitude, tip diffraction generally sizes planar through-wall height more reliably than amplitude-drop methods.",
@@ -3799,9 +3799,9 @@
       "stem": "Length sizing along the weld is read from:",
       "options": [
        "The encoded scan-axis positions of the indication's ends",
-       "A single plain A-scan here and now today really indeed",
-       "The peak amplitude here and now today really indeed now truly so",
-       "The focal depth setting here and now today really indeed now truly so"
+       "A single plain A-scan",
+       "The peak amplitude",
+       "The focal depth setting"
       ],
       "answer": 0,
       "explanation": "With encoded scanning, the indication's start and end positions along the scan give its length, using the verified encoder calibration.",
@@ -3825,9 +3825,9 @@
       "stem": "On a volume-corrected S-scan, through-wall height of a planar flaw can be read by:",
       "options": [
        "Placing cursors on the upper and lower flaw signals and taking the depth difference",
-       "Reading the peak amplitude here and now today really indeed now truly so really now today so",
-       "Counting the focal laws here and now today really indeed now truly so really now today so",
-       "Measuring the cable here and now today really indeed now truly so really now today so"
+       "Reading the peak amplitude",
+       "Counting the focal laws",
+       "Measuring the cable"
       ],
       "answer": 0,
       "explanation": "A corrected display plots reflectors at true depth, so cursors on the top and bottom signals give the through-wall extent directly, when those signals are resolved.",
@@ -3851,9 +3851,9 @@
       "stem": "The maximum-amplitude technique sizes a flaw by:",
       "options": [
        "Mapping the peak responses from its facets as the beam moves",
-       "Reading the backwall echo here and now today really indeed",
-       "Using the couplant level here and now today really indeed now",
-       "Counting the focal laws here and now today really indeed now"
+       "Reading the backwall echo",
+       "Using the couplant level",
+       "Counting the focal laws"
       ],
       "answer": 0,
       "explanation": "By tracking peak responses from a multifaceted flaw across probe positions, the technique estimates extent; it suits rough flaws but depends on resolving the facets.",
@@ -3879,7 +3879,7 @@
        "It guides which sizing technique and criteria apply",
        "It sets the pulse repetition frequency here and now",
        "It changes the scan speed here and now today really",
-       "It powers the array here and now today really indeed"
+       "It powers the array"
       ],
       "answer": 0,
       "explanation": "Planar flaws are often height-sized by tip methods and judged more strictly, while volumetric flaws are handled differently, so the flaw class drives the approach.",
@@ -3903,9 +3903,9 @@
       "stem": "The height of a surface-breaking planar flaw can be estimated from:",
       "options": [
        "The depth difference between the corner signal and the flaw tip signal",
-       "The corner signal amplitude alone here and now today really indeed now",
-       "The couplant viscosity here and now today really indeed now truly so",
-       "The number of files here and now today really indeed now truly so really"
+       "The corner signal amplitude alone",
+       "The couplant viscosity",
+       "The number of files"
       ],
       "answer": 0,
       "explanation": "For a surface-connected flaw, the strong corner echo marks the surface end and the weaker tip signal marks the buried end, so their depth separation gives height.",
@@ -4035,7 +4035,7 @@
        "Response relative to a reference, not a drop-method extent",
        "Exact length read from the 6 dB drop here and now today",
        "Through-wall height read from amplitude here and now today",
-       "Volume in plain cubic units here and now today really indeed"
+       "Volume in plain cubic units"
       ],
       "answer": 0,
       "explanation": "Drop methods size the beam, not a sub-beam flaw, so for small flaws the evaluator reports amplitude relative to the reference rather than a misleading extent, per the procedure.",
@@ -4059,9 +4059,9 @@
       "stem": "A tandem (transmit-receive on the same side) arrangement can help size:",
       "options": [
        "Vertically oriented planar flaws that reflect poorly to a single probe",
-       "Plain surface laminations only here and now today really indeed now",
-       "Plain couplant thickness here and now today really indeed now truly so",
-       "Plain encoder drift here and now today really indeed now truly so really"
+       "Surface laminations only",
+       "Couplant thickness",
+       "Encoder drift"
       ],
       "answer": 0,
       "explanation": "Tandem setups direct sound to a vertical flaw and catch the reflection at a separate receiver, improving response to flaws that a single pulse-echo angle would miss. It is an advanced technique used per procedure.",
@@ -4189,7 +4189,7 @@
       "stem": "Conservative sizing practice generally aims to avoid:",
       "options": [
        "Undersizing a flaw so that a rejectable flaw is passed",
-       "Recording the technique here and now today really indeed",
+       "Recording the technique",
        "Verifying the calibration here and now today really",
        "Using a reference reflector here and now today really"
       ],
@@ -4215,9 +4215,9 @@
       "stem": "Tip-diffraction signals are often:",
       "options": [
        "Weaker than specular echoes and need adequate gain and resolution to see",
-       "Stronger than any corner echo here and now today really indeed now truly so",
-       "Entirely independent of resolution here and now today really indeed now",
-       "Only visible at zero degrees here and now today really indeed now truly so"
+       "Stronger than any corner echo",
+       "Entirely independent of resolution",
+       "Only visible at zero degrees"
       ],
       "answer": 0,
       "explanation": "Diffracted tip signals are low amplitude, so sufficient gain, low noise, and resolution are needed to detect and separate them for height sizing.",
@@ -4241,9 +4241,9 @@
       "stem": "An S-scan image helps sizing by showing a planar flaw's:",
       "options": [
        "Through-wall extent across the swept angles at true depth",
-       "Plain chemical composition here and now today really indeed",
+       "Chemical composition",
        "Plain surface roughness value here and now today really",
-       "Plain cable resistance here and now today really indeed"
+       "Cable resistance"
       ],
       "answer": 0,
       "explanation": "On a corrected S-scan, the flaw's signals across angles reveal its through-wall extent, which the evaluator measures with cursors when resolved.",
@@ -4268,7 +4268,7 @@
       "options": [
        "Validating the technique against known reflector sizes",
        "Scanning at the very highest gain here and now today",
-       "Scanning much faster here and now today really indeed now",
+       "Scanning much faster",
        "Using the very longest cable here and now today really"
       ],
       "answer": 0,
@@ -4319,9 +4319,9 @@
       "stem": "Through-wall height and length are different measures because they are:",
       "options": [
        "The flaw's extent in depth versus its extent along the weld",
-       "Exactly the same measurement here and now today really indeed",
-       "Both read from one A-scan here and now today really indeed",
-       "Both read from peak amplitude here and now today really indeed"
+       "Exactly the same measurement",
+       "Both read from one A-scan",
+       "Both read from peak amplitude"
       ],
       "answer": 0,
       "explanation": "Height is the vertical (through-thickness) extent and length is the along-weld extent; they use different techniques and both are reported as required.",
@@ -4397,9 +4397,9 @@
       "stem": "If a flaw cannot be sized reliably (for example tips not resolved), the evaluator should:",
       "options": [
        "Report the limitation and size conservatively or refer it",
-       "Report a precise size anyway here and now today really indeed",
+       "Report a precise size anyway",
        "Delete the indication entirely here and now today really",
-       "Ignore it completely here and now today really indeed now"
+       "Ignore it completely"
       ],
       "answer": 0,
       "explanation": "When the data does not support an accurate size, the evaluator documents the limitation and either bounds the size conservatively or escalates, rather than reporting false precision.",
@@ -4476,8 +4476,8 @@
       "options": [
        "Whether a corner echo or only tip signals are expected",
        "The plain probe frequency here and now today really",
-       "The plain scan speed here and now today really indeed now",
-       "The display color map here and now today really indeed"
+       "The plain scan speed",
+       "The display color map"
       ],
       "answer": 0,
       "explanation": "A surface-connected flaw gives a corner echo plus a tip signal, while a buried flaw gives tip signals at both ends, guiding the sizing approach.",
@@ -4527,9 +4527,9 @@
       "stem": "Flaw position is reported relative to a:",
       "options": [
        "Datum on the part (for example a weld reference and surface)",
-       "A plain random screen point here and now today really indeed",
-       "The plain couplant level here and now today really indeed now truly so",
-       "The instrument clock time here and now today really indeed now truly so"
+       "A plain random screen point",
+       "The plain couplant level",
+       "The instrument clock time"
       ],
       "answer": 0,
       "explanation": "Positions are referenced to a defined datum so the flaw can be located again, supporting repair and traceability.",
@@ -4605,9 +4605,9 @@
       "stem": "Which statement about flaw sizing is correct?",
       "options": [
        "Use amplitude methods for detection and length and tip methods for planar height, mind beam-width and resolution limits, and record the technique used",
-       "Amplitude always gives the exact flaw size in every single case here and now today really indeed now truly so really now today so really now today so",
-       "Tip diffraction sizes the porosity volume in every single case here and now today really indeed now truly so really now today so really now today so really",
-       "Color on the display shows the through-wall height in every case here and now today really indeed now truly so really now today so really now today so"
+       "Amplitude always gives the exact flaw size in every single case",
+       "Tip diffraction sizes the porosity volume in every single case",
+       "Color on the display shows the through-wall height in every case"
       ],
       "answer": 0,
       "explanation": "Sound sizing matches the technique to the flaw, accounts for beam width and resolution, validates against known reflectors, and reports the method and any limitations.",
@@ -4637,9 +4637,9 @@
       "stem": "Recording, evaluation, and acceptance levels are best understood as:",
       "options": [
        "Thresholds set by the procedure that govern what is logged, assessed, and rejected",
-       "Plain colors on the display here and now today really indeed now truly so really now today so",
-       "Plain scan speeds here and now today really indeed now truly so really now today so",
-       "Plain cable ratings here and now today really indeed now truly so really now today so"
+       "Colors on the display",
+       "Scan speeds",
+       "Cable ratings"
       ],
       "answer": 0,
       "explanation": "These levels, defined by the procedure or code, decide which indications are recorded, which are evaluated, and which are rejectable, giving a consistent basis for decisions.",
@@ -4663,9 +4663,9 @@
       "stem": "Amplitude-based acceptance differs from flaw-based (fitness-for-service) acceptance in that amplitude criteria judge by:",
       "options": [
        "Signal response and length against reference, not measured flaw dimensions alone",
-       "The exact through-wall height only here and now today really indeed now truly so",
-       "The total scan time here and now today really indeed now truly so really now today so",
-       "The number of focal laws here and now today really indeed now truly so really now today so"
+       "The exact through-wall height only",
+       "The total scan time",
+       "The number of focal laws"
       ],
       "answer": 0,
       "explanation": "Amplitude criteria evaluate indications by their response relative to a reference and their length, while flaw-based criteria use measured flaw dimensions against an allowable. The governing code dictates which applies.",
@@ -4689,9 +4689,9 @@
       "stem": "Flaw-based acceptance (for example by engineering critical assessment) compares:",
       "options": [
        "Measured flaw size to an allowable derived from the assessment",
-       "Amplitude to the loudest signal here and now today really indeed",
-       "Amplitude to the backwall echo here and now today really indeed",
-       "Scan speed to a stated limit here and now today really indeed"
+       "Amplitude to the loudest signal",
+       "Amplitude to the backwall echo",
+       "Scan speed to a stated limit"
       ],
       "answer": 0,
       "explanation": "Flaw-based acceptance compares measured dimensions (height and length) against an allowable flaw size. Engineering critical assessment is the fracture-mechanics route used to derive that allowable, one part of a broader fitness-for-service evaluation, and rests on an engineering basis and the governing code.",
@@ -4715,9 +4715,9 @@
       "stem": "Workmanship acceptance criteria are generally based on:",
       "options": [
        "Indication response and length limits reflecting good fabrication practice",
-       "The measured fracture toughness here and now today really indeed now truly so",
-       "The plain couplant viscosity here and now today really indeed now truly so",
-       "The number of focal laws here and now today really indeed now truly so really"
+       "The measured fracture toughness",
+       "The plain couplant viscosity",
+       "The number of focal laws"
       ],
       "answer": 0,
       "explanation": "Workmanship criteria reject indications exceeding response and length limits associated with sound fabrication, without a fracture-mechanics assessment, per the governing code.",
@@ -4741,9 +4741,9 @@
       "stem": "Before applying criteria, the evaluator separates:",
       "options": [
        "Relevant flaw indications from non-relevant geometry and artifacts",
-       "Bright colors from the dark colors here and now today really indeed",
-       "Long files from the short files here and now today really indeed",
-       "Fast scans from the slow scans here and now today really indeed now"
+       "Bright colors from the dark colors",
+       "Long files from the short files",
+       "Fast scans from the slow scans"
       ],
       "answer": 0,
       "explanation": "Only relevant indications from actual flaws are evaluated against the criteria; geometry and artifacts are identified and excluded.",
@@ -4767,9 +4767,9 @@
       "stem": "When evaluating, the Level II must:",
       "options": [
        "Apply the acceptance criteria specified by the governing code or procedure",
-       "Invent criteria that seem reasonable here and now today really indeed now truly so",
-       "Use the customer's verbal preference only here and now today really indeed",
-       "Pick the easiest limits here and now today really indeed now truly so really"
+       "Invent criteria that seem reasonable",
+       "Use the customer's verbal preference only",
+       "Pick the easiest limits"
       ],
       "answer": 0,
       "explanation": "Acceptance criteria come from the governing code, specification, or qualified procedure, and the evaluator applies them as written rather than substituting personal or convenient limits.",
@@ -4793,9 +4793,9 @@
       "stem": "An indication above the recording level is:",
       "options": [
        "Logged for further evaluation against the acceptance criteria",
-       "Automatically rejected here and now today really indeed now truly so",
-       "Automatically accepted here and now today really indeed now truly so",
-       "Just deleted here and now today really indeed now truly so"
+       "Automatically rejected",
+       "Automatically accepted",
+       "Deleted"
       ],
       "answer": 0,
       "explanation": "Crossing the recording level means the indication is recorded and then evaluated; whether it is accepted or rejected depends on the acceptance criteria.",
@@ -4845,8 +4845,8 @@
       "stem": "Length-based acceptance rules often depend on the:",
       "options": [
        "Indication length relative to thickness or a stated limit",
-       "The plain scan speed here and now today really indeed now",
-       "The plain probe frequency here and now today really indeed",
+       "The plain scan speed",
+       "The plain probe frequency",
        "The plain display brightness here and now today really"
       ],
       "answer": 0,
@@ -4897,9 +4897,9 @@
       "stem": "Acceptance limits can differ for surface-connected versus buried flaws because:",
       "options": [
        "Surface flaws are often more critical and limited more tightly",
-       "Buried flaws are always rejected here and now today really indeed",
-       "Surface flaws reflect no sound here and now today really indeed",
-       "Location never matters here and now today really indeed now truly so"
+       "Buried flaws are always rejected",
+       "Surface flaws reflect no sound",
+       "Location never matters"
       ],
       "answer": 0,
       "explanation": "Surface-breaking flaws frequently carry tighter limits due to their criticality, so the evaluator notes whether a flaw is surface-connected when applying the criteria. The code sets the specifics.",
@@ -4924,7 +4924,7 @@
       "options": [
        "Recorded as non-relevant and not evaluated as a flaw",
        "Rejected outright as a crack here and now today really",
-       "Sized just like a flaw here and now today really indeed",
+       "Sized just like a flaw",
        "Deleted from the whole record here and now today really"
       ],
       "answer": 0,
@@ -5001,9 +5001,9 @@
       "stem": "Acceptance criteria for welds come from documents such as construction codes and standards, which means the evaluator must:",
       "options": [
        "Use the specific governing code for the job and confirm the current edition",
-       "Use just any code that is handy here and now today really indeed now truly so",
-       "Average several codes together here and now today really indeed now truly so",
-       "Rely on memory of an old edition here and now today really indeed now truly"
+       "Use just any code that is handy",
+       "Average several codes together",
+       "Rely on memory of an old edition"
       ],
       "answer": 0,
       "explanation": "Different codes (for example pressure-vessel, structural, or pipeline standards) set different criteria, so the evaluator applies the one that governs the job in its current edition. Confirm the specific document and revision.",
@@ -5027,9 +5027,9 @@
       "stem": "Fitness-for-service acceptance of a flaw by engineering assessment is typically:",
       "options": [
        "Done on an engineering (fitness-for-service) basis, with the Level II providing accurate flaw sizes",
-       "Decided entirely by the Level I alone here and now today really indeed now truly so really now today so",
-       "Set by the couplant supplier here and now today really indeed now truly so really now today so really now today so",
-       "Based on the plain scan speed here and now today really indeed now truly so really now today so really"
+       "Decided entirely by the Level I alone",
+       "Set by the couplant supplier",
+       "Based on the plain scan speed"
       ],
       "answer": 0,
       "explanation": "Fitness-for-service acceptance is an engineering function carried out by the responsible engineer; the Level II supplies accurate, documented flaw sizes that feed the assessment, within the governing procedure. A Level III may support procedures and qualification but does not by default own the fitness-for-service decision.",
@@ -5133,7 +5133,7 @@
        "Re-examine and apply the criteria conservatively or refer it",
        "Accept it just to avoid the rework here and now today really",
        "Reject everything that is nearby here and now today really",
-       "Change the criteria here and now today really indeed now truly"
+       "Change the criteria"
       ],
       "answer": 0,
       "explanation": "Borderline cases are re-examined and evaluated conservatively against the specified criteria, or escalated, rather than passed for convenience or judged by altered limits.",
@@ -5210,8 +5210,8 @@
       "options": [
        "Noted in the record so reviewers can interpret the data",
        "Hidden away from the report here and now today really",
-       "Evaluated just like flaws here and now today really indeed",
-       "Deleted just to simplify here and now today really indeed"
+       "Evaluated just like flaws",
+       "Deleted just to simplify"
       ],
       "answer": 0,
       "explanation": "Documenting geometry and non-relevant signals helps reviewers understand why they were not evaluated as flaws and supports a complete record.",
@@ -5261,9 +5261,9 @@
       "stem": "Before evaluating, the Level II confirms the:",
       "options": [
        "Applicable criteria and their current edition for the job",
-       "The probe data sheet only here and now today really indeed",
-       "The plain cable inventory here and now today really indeed",
-       "The display color map here and now today really indeed now"
+       "The probe data sheet only",
+       "The plain cable inventory",
+       "The display color map"
       ],
       "answer": 0,
       "explanation": "Knowing exactly which criteria and edition govern the job ensures the evaluation is correct and defensible.",
@@ -5315,7 +5315,7 @@
        "Qualified and applicable to the job and material",
        "Borrowed from any unrelated job here and now today",
        "Just made up on site here and now today really",
-       "Verbal only here and now today really indeed now"
+       "Verbal only"
       ],
       "answer": 0,
       "explanation": "A qualified, applicable written procedure ensures the technique and criteria suit the job, supporting valid results.",
@@ -5365,9 +5365,9 @@
       "stem": "A defensible evaluation report makes clear:",
       "options": [
        "The criteria applied and how each indication was dispositioned",
-       "Only the total scan time here and now today really indeed now",
-       "Only the couplant used here and now today really indeed now truly",
-       "Only the plain file count here and now today really indeed now"
+       "Only the total scan time",
+       "Only the couplant used",
+       "Only the plain file count"
       ],
       "answer": 0,
       "explanation": "Stating the criteria and the disposition of each indication lets a reviewer follow and trust the conclusions.",
@@ -5391,9 +5391,9 @@
       "stem": "In evaluation, the Level II:",
       "options": [
        "Interprets, sizes, and dispositions indications per the criteria and reports",
-       "Only acquires the data here and now today really indeed now truly so really",
-       "Sets the construction code here and now today really indeed now truly so really",
-       "Designs the array probe here and now today really indeed now truly so really"
+       "Only acquires the data",
+       "Sets the construction code",
+       "Designs the array probe"
       ],
       "answer": 0,
       "explanation": "The Level II evaluates the data against the governing criteria, sizes flaws, decides acceptance within scope, and reports; data acquisition is the Level I role and code-setting is elsewhere.",
@@ -5417,9 +5417,9 @@
       "stem": "If acceptance requires a fitness-for-service assessment beyond the procedure, the Level II should:",
       "options": [
        "Provide documented sizes and refer the decision to the responsible engineer or Level III",
-       "Make the call entirely alone here and now today really indeed now truly so really now today so",
-       "Accept it all by default here and now today really indeed now truly so really now today so really now today so",
-       "Reject it all by default here and now today really indeed now truly so really now today so really now today so"
+       "Make the call entirely alone",
+       "Accept it all by default",
+       "Reject it all by default"
       ],
       "answer": 0,
       "explanation": "Where the decision needs engineering assessment beyond the qualified procedure, the Level II supplies the data and escalates, rather than deciding unilaterally.",
@@ -5495,9 +5495,9 @@
       "stem": "Which statement about evaluation is correct?",
       "options": [
        "Separate relevant indications from geometry and artifacts, size them, and apply the governing criteria as written, documenting each disposition",
-       "Reject every single indication regardless of the criteria here and now today really indeed now truly so really now today so really now today so",
-       "Invent the criteria as needed for the job here and now today really indeed now truly so really now today so really now today so really now today so",
-       "Decide everything by amplitude alone here and now today really indeed now truly so really now today so really now today so really now today so"
+       "Reject every single indication regardless of the criteria",
+       "Invent the criteria as needed for the job",
+       "Decide everything by amplitude alone"
       ],
       "answer": 0,
       "explanation": "Sound evaluation identifies relevant flaws, sizes them, applies the specified criteria, and records each accept or reject decision with its basis.",
@@ -5528,7 +5528,7 @@
       "options": [
        "Re-analyzed later from the stored file without re-scanning",
        "Only viewed live during the scanning here and now today",
-       "Read without any calibration here and now today really indeed",
+       "Read without any calibration",
        "Sized without a corrected view here and now today really"
       ],
       "answer": 0,
@@ -5554,7 +5554,7 @@
       "options": [
        "Refers it to the calibrated reference, not an arbitrary gain",
        "Sets whatever gain makes it pass here and now today really",
-       "Ignores the calibration here and now today really indeed now truly so",
+       "Ignores the calibration",
        "Uses the loudest signal as the reference here and now today"
       ],
       "answer": 0,
@@ -5581,7 +5581,7 @@
        "Preserved unaltered, with analysis recorded separately",
        "Edited to remove unwanted signals here and now today",
        "Overwritten after the review here and now today really",
-       "Trimmed to fit the report here and now today really indeed"
+       "Trimmed to fit the report"
       ],
       "answer": 0,
       "explanation": "The original data is kept intact for traceability and audit, while measurements and interpretations are recorded as analysis, not by changing the raw file.",
@@ -5606,8 +5606,8 @@
       "options": [
        "The encoded scan spans the required volume with no dropout",
        "The file is the smallest size here and now today really",
-       "The highest gain was used here and now today really indeed",
-       "The scan was fast here and now today really indeed now truly so"
+       "The highest gain was used",
+       "The scan was fast"
       ],
       "answer": 0,
       "explanation": "The analyst confirms the data actually covers the required volume, watching for missed lines, coupling loss, or gaps against the scan plan before evaluating.",
@@ -5631,9 +5631,9 @@
       "stem": "Loss of the backwall or a coupling-monitor signal over part of the scan indicates:",
       "options": [
        "Possible coupling loss or an attenuator, so that data may be invalid there",
-       "Perfect data in every case, always here and now today really indeed now truly so",
-       "A faster scan here and now today really indeed now truly so really now today so",
-       "A fresh calibration here and now today really indeed now truly so really now today so"
+       "Perfect data in every case",
+       "A faster scan",
+       "A fresh calibration"
       ],
       "answer": 0,
       "explanation": "A coupling or backwall dropout flags areas where data may be unreliable, prompting re-scanning rather than evaluating questionable data.",
@@ -5683,9 +5683,9 @@
       "stem": "During analysis, distinguishing a real reflector from an artifact uses:",
       "options": [
        "Position, behavior across views and angles, and the scan plan",
-       "The plain file creation time here and now today really indeed",
-       "The plain file creation order here and now today really indeed",
-       "The plain disk free space here and now today really indeed now"
+       "The plain file creation time",
+       "The plain file creation order",
+       "The plain disk free space"
       ],
       "answer": 0,
       "explanation": "The analyst separates real flaws from grating lobes, mode conversion, and geometry by how the signal behaves across the linked views and where it sits relative to the geometry.",
@@ -5709,9 +5709,9 @@
       "stem": "When interpreting a merged display that combines groups or angles, the analyst should:",
       "options": [
        "Confirm which data contributes, since merging can mask or overlay signals",
-       "Assume the merge is always clearer here and now today really indeed now truly so",
-       "Ignore the source groups here and now today really indeed now truly so",
-       "Use it without any calibration here and now today really indeed now truly so"
+       "Assume the merge is always clearer",
+       "Ignore the source groups",
+       "Use it without any calibration"
       ],
       "answer": 0,
       "explanation": "Merged views are convenient but can overlay or hide signals, so the analyst checks the contributing data and cross-references single views before concluding.",
@@ -5735,9 +5735,9 @@
       "stem": "A phased array report should include the technique, equipment, calibration, coverage, and:",
       "options": [
        "Indications with size, location, and disposition against the criteria",
-       "Only the total scan time here and now today really indeed now truly so",
-       "Only the probe model here and now today really indeed now truly so",
-       "Only the operator name here and now today really indeed now truly so"
+       "Only the total scan time",
+       "Only the probe model",
+       "Only the operator name"
       ],
       "answer": 0,
       "explanation": "A complete report ties the setup and coverage to the indications and their dispositions against the stated criteria, so the result is interpretable and traceable.",
@@ -5761,9 +5761,9 @@
       "stem": "Traceability in the report is supported by recording the:",
       "options": [
        "Part and weld identification, datum, and scan direction",
-       "The plain scan speed only here and now today really indeed",
+       "The plain scan speed only",
        "The plain gain setting only here and now today really",
-       "The plain file size only here and now today really indeed"
+       "The plain file size only"
       ],
       "answer": 0,
       "explanation": "Identifying the part, weld, datum, and direction lets anyone relate the data and indications back to the exact location on the actual component.",
@@ -5814,8 +5814,8 @@
       "options": [
        "Reach the same conclusions by reviewing the file",
        "Just guess the result here and now today really",
-       "Skip the criteria here and now today really indeed",
-       "Avoid the data here and now today really indeed"
+       "Skip the criteria",
+       "Avoid the data"
       ],
       "answer": 0,
       "explanation": "Good documentation makes the evaluation reproducible, so an independent reviewer can follow the data and criteria to the same dispositions.",
@@ -5840,8 +5840,8 @@
       "options": [
        "The intended angles and coverage were actually achieved",
        "The fastest speed was used here and now today really",
-       "The cable was brand new here and now today really indeed",
-       "The room was very quiet here and now today really indeed"
+       "The cable was brand new",
+       "The room was very quiet"
       ],
       "answer": 0,
       "explanation": "Checking the data against the plan verifies that the planned angles, offsets, and coverage were realized, or flags gaps to address.",
@@ -5944,8 +5944,8 @@
       "options": [
        "Notes the change and evaluates amplitude relative to the reference",
        "Treats the boosted amplitude as the true response here and now today",
-       "Hides the change here and now today really indeed now truly so really",
-       "Recalibrates the part here and now today really indeed now truly so"
+       "Hides the change",
+       "Recalibrates the part"
       ],
       "answer": 0,
       "explanation": "Any analysis-gain change is recorded and amplitudes are still judged against the calibrated reference, so the evaluation stays consistent and honest.",
@@ -6099,7 +6099,7 @@
       "stem": "The report states the acceptance criteria used so that:",
       "options": [
        "Dispositions can be understood and verified",
-       "The file is much smaller here now now indeed",
+       "The file is much smaller",
        "The scan is much faster here now now",
        "The gain is much higher here now now"
       ],
@@ -6151,7 +6151,7 @@
       "stem": "A disciplined analysis workflow reviews the full data set rather than only flagged gates because:",
       "options": [
        "Relevant signals can lie outside preset gates",
-       "Gates always capture everything now now indeed",
+       "Gates always capture everything",
        "Full review wastes the effort now now",
        "Gates entirely set the criteria now"
       ],
@@ -6255,9 +6255,9 @@
       "stem": "If a question about an indication arises later, encoded data allows the analyst to:",
       "options": [
        "Re-examine the stored file rather than necessarily re-scanning",
-       "Only re-scan from scratch here and now today really indeed now",
-       "Ignore the whole question here and now today really indeed now",
-       "Change the raw data here and now today really indeed now truly so"
+       "Only re-scan from scratch",
+       "Ignore the whole question",
+       "Change the raw data"
       ],
       "answer": 0,
       "explanation": "Because the data is stored with position, many questions can be resolved by re-reviewing the file, though re-scanning is done if the data is inadequate.",
@@ -6281,9 +6281,9 @@
       "stem": "Which statement about data analysis and reporting is correct?",
       "options": [
        "Preserve raw data, evaluate amplitudes against the calibrated reference, confirm coverage, and report indications with size, location, disposition, criteria, and traceability",
-       "Edit the data freely to simplify the report in every case here and now today really indeed now truly so really now today so really now today so really now today so really now today so",
-       "Use just any gain that makes the flaws pass here and now today really indeed now truly so really now today so really now today so really now today so really now today so really now today so",
-       "Report only the total scan time here and now today really indeed now truly so really now today so really now today so really now today so really now today so really now today so"
+       "Edit the data freely to simplify the report in every case",
+       "Use just any gain that makes the flaws pass",
+       "Report only the total scan time"
       ],
       "answer": 0,
       "explanation": "Sound practice keeps the data intact, references amplitudes to the calibration, verifies coverage, and produces a traceable report of indications and dispositions.",
@@ -6339,9 +6339,9 @@
       "stem": "A technique sheet for a specific weld typically specifies the:",
       "options": [
        "Probe, wedge, angles, focal laws, scan plan, and calibration",
-       "The plain crew roster here and now today really indeed now",
-       "The instrument purchase date here and now today really indeed",
-       "The display color map only here and now today really indeed"
+       "The plain crew roster",
+       "The instrument purchase date",
+       "The display color map only"
       ],
       "answer": 0,
       "explanation": "The technique sheet captures the setup and coverage details for the application so the inspection is executed and reproduced correctly.",
@@ -6391,9 +6391,9 @@
       "stem": "Compared with a Level I, a Level II is generally responsible for:",
       "options": [
        "Setup, calibration, interpretation, evaluation, reporting, and directing Level I",
-       "Only cleaning the probes here and now today really indeed now truly so really now today so",
-       "Approving the construction code here and now today really indeed now truly so",
-       "Manufacturing the transducers here and now today really indeed now truly so really"
+       "Only cleaning the probes",
+       "Approving the construction code",
+       "Manufacturing the transducers"
       ],
       "answer": 0,
       "explanation": "The Level II owns the technical execution and judgment of the examination and directs Level I work; code approval and hardware manufacture are other roles.",
@@ -6418,8 +6418,8 @@
       "options": [
        "Provides the procedure and plan and verifies the work and data",
        "Takes technical direction from the Level I here and now today",
-       "Has no oversight role at all here and now today really indeed now truly so",
-       "Only signs the timesheet here and now today really indeed now truly so"
+       "Has no oversight role at all",
+       "Only signs the timesheet"
       ],
       "answer": 0,
       "explanation": "The Level II gives the Level I the procedure and plan, oversees execution, and reviews the data for adequacy.",
@@ -6469,9 +6469,9 @@
       "stem": "Different construction codes and standards govern phased array welds, so the evaluator must:",
       "options": [
        "Apply the one that governs the job and confirm its current edition",
-       "Apply just any standard at hand here and now today really indeed now truly so",
-       "Blend several standards together here and now today really indeed",
-       "Use an expired edition from memory here and now today really indeed"
+       "Apply just any standard at hand",
+       "Blend several standards together",
+       "Use an expired edition from memory"
       ],
       "answer": 0,
       "explanation": "The governing code or standard for the job (for example pressure-vessel, structural, or pipeline) sets the technique and acceptance, applied in its current edition. Confirm the specific document and revision for the work.",
@@ -6497,7 +6497,7 @@
        "Can come from different documents that must be used together",
        "Are always in just one paragraph here and now today really",
        "Are set by the technician alone here and now today really",
-       "Are entirely optional here and now today really indeed now truly so"
+       "Are entirely optional"
       ],
       "answer": 0,
       "explanation": "A code may point to one document for how to examine and another for acceptance, so the evaluator uses the correct pairing for the job. Confirm the references for the governing code.",
@@ -6521,9 +6521,9 @@
       "stem": "Personnel qualification and certification scope is governed by the:",
       "options": [
        "Employer's written practice or the applicable certification scheme",
-       "The plain couplant manufacturer here and now today really indeed now truly so",
-       "The plain equipment warranty here and now today really indeed now truly so",
-       "The plain scan speed here and now today really indeed now truly so"
+       "The plain couplant manufacturer",
+       "The plain equipment warranty",
+       "The plain scan speed"
       ],
       "answer": 0,
       "explanation": "Whether under an employer written practice or a third-party scheme, the governing document defines what each level is qualified to do. Confirm which scheme applies for the work.",
@@ -6651,9 +6651,9 @@
       "stem": "General safety considerations for field phased array work include:",
       "options": [
        "Electrical safety, working at height, and confined-space hazards",
-       "Only the radiation shielding here and now today really indeed now truly so",
-       "No hazards at all here and now today really indeed now truly so",
-       "Only the chemical fume control here and now today really indeed now truly so"
+       "Only the radiation shielding",
+       "No hazards at all",
+       "Only the chemical fume control"
       ],
       "answer": 0,
       "explanation": "Field ultrasonic work carries ordinary industrial hazards such as electrical, height, and confined-space risks, which are managed per site requirements.",
@@ -6729,9 +6729,9 @@
       "stem": "Maintaining competence as techniques evolve involves:",
       "options": [
        "Ongoing training and staying current with the procedures and standards",
-       "Never updating the skills here and now today really indeed now truly so",
-       "Ignoring all new equipment here and now today really indeed now truly so",
-       "Relying only on past experience here and now today really indeed now truly so"
+       "Never updating the skills",
+       "Ignoring all new equipment",
+       "Relying only on past experience"
       ],
       "answer": 0,
       "explanation": "Phased array technology and standards advance, so continuing training keeps the evaluator effective and current.",
@@ -6755,9 +6755,9 @@
       "stem": "If pressured to accept work that fails the criteria, the evaluator should:",
       "options": [
        "Hold to the criteria and escalate the disagreement appropriately",
-       "Quietly just accept it here and now today really indeed now truly so",
-       "Change the criteria here and now today really indeed now truly so",
-       "Delete the failing data here and now today really indeed now truly so"
+       "Quietly just accept it",
+       "Change the criteria",
+       "Delete the failing data"
       ],
       "answer": 0,
       "explanation": "The evaluator applies the criteria honestly and raises any conflict through proper channels, rather than compromising the result.",
@@ -6781,9 +6781,9 @@
       "stem": "Before starting, the Level II confirms the procedure is:",
       "options": [
        "Applicable to the material, geometry, and required coverage",
-       "The shortest one available here and now today really indeed",
-       "From just any past job here and now today really indeed now truly so",
-       "Entirely unsigned here and now today really indeed now truly so"
+       "The shortest one available",
+       "From just any past job",
+       "Entirely unsigned"
       ],
       "answer": 0,
       "explanation": "Confirming the procedure fits the material, geometry, and coverage ensures the technique and criteria are appropriate for the job.",
@@ -6807,9 +6807,9 @@
       "stem": "Deciding final acceptance that requires engineering assessment beyond the procedure is:",
       "options": [
        "Referred to the responsible engineer or Level III, with data provided",
-       "Made by the Level II entirely alone here and now today really indeed now truly so",
-       "Made entirely by the Level I here and now today really indeed now truly so",
-       "Skipped entirely altogether here and now today really indeed now truly so"
+       "Made by the Level II entirely alone",
+       "Made entirely by the Level I",
+       "Skipped entirely altogether"
       ],
       "answer": 0,
       "explanation": "Where acceptance needs engineering judgment beyond the qualified procedure, the Level II provides the data and refers the decision, staying within scope.",
@@ -6835,7 +6835,7 @@
        "Clear, accurate, and based on the data and criteria",
        "Vague just to avoid commitment here and now today",
        "Whatever the client wants to hear here and now today",
-       "Entirely withheld here and now today really indeed"
+       "Entirely withheld"
       ],
       "answer": 0,
       "explanation": "Findings are conveyed clearly and truthfully against the criteria so the responsible party can act correctly.",
@@ -6886,8 +6886,8 @@
       "options": [
        "Confirm the edition required by the job before applying criteria",
        "Assume the latest memory is correct here and now today really",
-       "Use whichever edition is easiest here and now today really indeed",
-       "Avoid checking the editions here and now today really indeed now truly so"
+       "Use whichever edition is easiest",
+       "Avoid checking the editions"
       ],
       "answer": 0,
       "explanation": "Editions change requirements, so confirming the governing edition keeps the evaluation correct and defensible.",
@@ -6911,9 +6911,9 @@
       "stem": "When a Level I acquires the data, the Level II remains responsible for:",
       "options": [
        "The adequacy of the setup, coverage, and resulting evaluation",
-       "Nothing at all once delegated here and now today really indeed",
-       "Only the plain cabling here and now today really indeed now truly so",
-       "Only the plain couplant here and now today really indeed now truly so"
+       "Nothing at all once delegated",
+       "Only the plain cabling",
+       "Only the plain couplant"
       ],
       "answer": 0,
       "explanation": "Delegating acquisition does not remove the Level II responsibility for a valid setup, adequate coverage, and the evaluation of the data.",
@@ -6937,9 +6937,9 @@
       "stem": "If the procedure and the governing code appear to conflict, the evaluator should:",
       "options": [
        "Resolve it with the responsible Level III or engineer before proceeding",
-       "Pick the easier requirement here and now today really indeed now truly so",
-       "Ignore them both entirely here and now today really indeed now truly so",
-       "Proceed and just decide later here and now today really indeed now truly so"
+       "Pick the easier requirement",
+       "Ignore them both entirely",
+       "Proceed and just decide later"
       ],
       "answer": 0,
       "explanation": "An apparent conflict is resolved through the responsible authority so the correct requirements are applied, rather than choosing arbitrarily or proceeding unresolved.",
@@ -7015,9 +7015,9 @@
       "stem": "Technique qualification is most meaningful when the demonstration block is:",
       "options": [
        "Representative of the job material, geometry, and flaw types",
-       "The cheapest one available here and now today really indeed",
-       "Just any unrelated block here and now today really indeed now",
-       "Free of any reflectors here and now today really indeed now"
+       "The cheapest one available",
+       "Any unrelated block",
+       "Free of any reflectors"
       ],
       "answer": 0,
       "explanation": "A representative block shows the technique works for the actual application, so qualification reflects real performance.",
@@ -7041,9 +7041,9 @@
       "stem": "Signing or authorizing the report signifies that the evaluator:",
       "options": [
        "Takes responsibility for the examination and its conclusions",
-       "Merely watched the scan here and now today really indeed now truly so",
+       "Merely watched the scan",
        "Transfers all responsibility to the client here and now today",
-       "Did no evaluation at all here and now today really indeed now truly so"
+       "Did no evaluation at all"
       ],
       "answer": 0,
       "explanation": "Authorizing the report is an accountable act affirming the work and conclusions are the evaluator's responsibility within their scope.",
@@ -7067,9 +7067,9 @@
       "stem": "Which statement about procedures and responsibilities is correct?",
       "options": [
        "Work to a qualified procedure within your scope, apply the governing code and edition, report findings honestly, and refer decisions beyond your qualification",
-       "Use just any procedure and invent the criteria as needed here and now today really indeed now truly so really now today so really now today so really now today so really now today so",
-       "Pass the work under pressure whenever asked here and now today really indeed now truly so really now today so really now today so really now today so really now today so really now today so",
-       "Falsify the records just to keep the schedule here and now today really indeed now truly so really now today so really now today so really now today so really now today so really now today so"
+       "Use just any procedure and invent the criteria as needed",
+       "Pass the work under pressure whenever asked",
+       "Falsify the records just to keep the schedule"
       ],
       "answer": 0,
       "explanation": "Sound practice follows a qualified procedure within scope, applies the correct governing criteria, reports truthfully, and escalates decisions that exceed the evaluator's qualification.",

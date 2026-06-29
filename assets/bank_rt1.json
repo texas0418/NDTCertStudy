@@ -785,7 +785,7 @@
       "stem": "As a gamma source ages over months, its output:",
       "options": [
        "Decreases, so exposure times must increase",
-       "Increases steadily over time, somehow here",
+       "Increases steadily over time",
        "Stays exactly constant over time here",
        "Becomes fully nonionizing radiation here now"
       ],
@@ -1045,9 +1045,9 @@
       "stem": "Which statement about RT fundamentals is correct?",
       "options": [
        "Penetrating radiation forms an image from absorption differences, and it is an ionizing hazard",
-       "RT simply uses plain audible sound waves to image only the outer part surface here, somehow oddly",
-       "RT will only ever work at all on fully magnetic steel parts here, somehow quite oddly enough",
-       "RT poses no health or radiation hazard whatsoever to anyone at all here, somehow quite oddly"
+       "RT simply uses plain audible sound waves to image only the outer part surface here",
+       "RT will only ever work at all on fully magnetic steel parts here",
+       "RT poses no health or radiation hazard whatsoever to anyone at all here"
       ],
       "answer": 0,
       "explanation": "RT uses ionizing X-rays or gamma rays that are absorbed differently by the part to form a volumetric image, and the radiation is a hazard that must be controlled.",
@@ -1233,9 +1233,9 @@
       "stem": "An industrial gamma source is a:",
       "options": [
        "Sealed capsule of radioactive material on a drive cable (pigtail)",
-       "A simple electrically heated filament wire only here, somehow oddly",
-       "A loose liquid sitting in an open dish here, somehow quite oddly",
-       "A dry loose powder spread across the part surface here, somehow oddly"
+       "A simple electrically heated filament wire only here",
+       "A loose liquid sitting in an open dish here",
+       "A dry loose powder spread across the part surface here"
       ],
       "answer": 0,
       "explanation": "The sealed source sits in a capsule attached to a drive cable (pigtail) and is moved out of its shield for exposure. It is never open or loose.",
@@ -1311,9 +1311,9 @@
       "stem": "A drive cable and crank assembly are used to:",
       "options": [
        "Move the source out remotely so the operator stays at a distance",
-       "Heat up the radioactive source itself here, somehow quite oddly",
-       "Collimate and shape the output beam here, somehow quite oddly enough",
-       "Cool the X-ray tube housing right down here, somehow quite oddly"
+       "Heat up the radioactive source itself here",
+       "Collimate and shape the output beam here",
+       "Cool the X-ray tube housing right down here"
       ],
       "answer": 0,
       "explanation": "Remote crank-out lets the operator expose the source from a safe distance through the drive cable and guide tube, reducing dose.",
@@ -1363,9 +1363,9 @@
       "stem": "A collimator on the source is used to:",
       "options": [
        "Restrict the beam to the area of interest, reducing scatter and dose",
-       "Greatly increase the scattered radiation here, somehow quite oddly enough",
-       "Sharpen up the tube's focal spot point here, somehow quite oddly now",
-       "Fully magnetize the whole part here, somehow quite oddly enough now"
+       "Greatly increase the scattered radiation here",
+       "Sharpen up the tube's focal spot point here",
+       "Fully magnetize the whole part here"
       ],
       "answer": 0,
       "explanation": "Collimating confines the beam to the needed area, improving image quality by cutting scatter and reducing radiation in surrounding areas.",
@@ -1441,9 +1441,9 @@
       "stem": "A radiation survey meter is essential equipment used to:",
       "options": [
        "Measure radiation levels and confirm the source is shielded",
-       "Charge up the radioactive source itself here, somehow quite oddly",
-       "Set the X-ray tube's kV level here, somehow quite oddly now",
-       "Hold the IQI in place here, somehow quite oddly enough now"
+       "Charge up the radioactive source itself here",
+       "Set the X-ray tube's kV level here",
+       "Hold the IQI in place here"
       ],
       "answer": 0,
       "explanation": "A calibrated survey meter verifies radiation levels, confirms the source has returned to its shielded position, and helps define safe boundaries.",
@@ -1467,9 +1467,9 @@
       "stem": "After each gamma exposure, the operator must:",
       "options": [
        "Survey to confirm the source returned to its shielded position",
-       "Simply assume that it returned safely here, somehow quite oddly",
-       "Open up the whole device right away by hand here, somehow oddly now",
-       "Completely skip the radiation survey here, somehow quite oddly now"
+       "Simply assume that it returned safely here",
+       "Open up the whole device right away by hand here",
+       "Completely skip the radiation survey here"
       ],
       "answer": 0,
       "explanation": "A survey after every exposure confirms the source is fully shielded before anyone approaches. Never assume the source returned without confirming.",
@@ -1493,9 +1493,9 @@
       "stem": "Portable X-ray units are used because they:",
       "options": [
        "Can be taken to the part in the field or shop",
-       "Cannot ever be moved at all here, somehow",
-       "Need no electrical power at all here, oddly",
-       "Emit no radiation whatsoever here, somehow oddly"
+       "Cannot ever be moved at all here",
+       "Need no electrical power at all here",
+       "Emit no radiation whatsoever here"
       ],
       "answer": 0,
       "explanation": "Portable units bring the X-ray source to the work. They still require power and emit radiation that must be controlled.",
@@ -1519,9 +1519,9 @@
       "stem": "A panoramic exposure places the source so the beam radiates:",
       "options": [
        "Outward in all directions, exposing a full circumference at once",
-       "In just one single narrow line direction only here, somehow oddly",
-       "Straight back toward the source itself here, somehow quite oddly",
-       "Only straight downward toward the floor here, somehow quite oddly now"
+       "In just one single narrow line direction only here",
+       "Straight back toward the source itself here",
+       "Only straight downward toward the floor here"
       ],
       "answer": 0,
       "explanation": "A panoramic setup centers the source in a cylinder (such as a pipe) to expose the whole circumference in one shot, improving efficiency.",
@@ -1545,9 +1545,9 @@
       "stem": "X-ray tubes require cooling because:",
       "options": [
        "Most of the electron energy becomes heat at the target",
-       "The film sheet badly overheats here, somehow quite oddly",
-       "The beam collimator fully melts here, somehow oddly",
-       "The cathode completely freezes here, somehow oddly"
+       "The film sheet badly overheats here",
+       "The beam collimator fully melts here",
+       "The cathode completely freezes here"
       ],
       "answer": 0,
       "explanation": "Only a small fraction of the electron energy becomes X-rays; the rest is heat, so duty cycles and cooling protect the tube.",
@@ -1597,9 +1597,9 @@
       "stem": "The lock on a gamma exposure device exists to:",
       "options": [
        "Secure the source in the shielded position against unauthorized or accidental movement",
-       "Greatly increase the device's radiation output here, somehow really quite oddly enough now",
-       "Measure the surrounding radiation dose rate here, somehow really quite oddly enough",
-       "Shape and fully collimate the entire output beam here, somehow really quite oddly now"
+       "Greatly increase the device's radiation output here",
+       "Measure the surrounding radiation dose rate here",
+       "Shape and fully collimate the entire output beam here"
       ],
       "answer": 0,
       "explanation": "Locking the source in its shield prevents accidental or unauthorized exposure and is part of source security.",
@@ -1675,9 +1675,9 @@
       "stem": "A very small focal spot improves sharpness but can limit:",
       "options": [
        "The tube output (heat loading), affecting exposure time",
-       "The overall film sheet size here, somehow quite oddly",
-       "The darkroom safelight brightness here, somehow oddly",
-       "The IQI penetrameter metal here, somehow quite oddly now"
+       "The overall film sheet size here",
+       "The darkroom safelight brightness here",
+       "The IQI penetrameter metal here"
       ],
       "answer": 0,
       "explanation": "Concentrating electrons on a tiny spot raises heat there, limiting the current and lengthening exposures, a trade-off against sharpness.",
@@ -1727,9 +1727,9 @@
       "stem": "A metal filter placed at the X-ray tube port is sometimes used to:",
       "options": [
        "Absorb low-energy radiation and harden the beam",
-       "Add far more scatter radiation here, somehow oddly",
-       "Cool the X-ray tube cathode down here, somehow",
-       "Magnify the final film image here, somehow oddly"
+       "Add far more scatter radiation here",
+       "Cool the X-ray tube cathode down here",
+       "Magnify the final film image here"
       ],
       "answer": 0,
       "explanation": "Filtration removes softer (low-energy) photons, hardening the beam and reducing some scatter, which can improve image quality on certain work.",
@@ -1753,9 +1753,9 @@
       "stem": "A source changer is used to:",
       "options": [
        "Safely transfer a source between devices behind shielding",
-       "Greatly speed up the film development here, somehow oddly",
-       "Set the X-ray tube's kV level here, somehow quite oddly",
-       "Mark and label the film sheet here, somehow quite oddly now"
+       "Greatly speed up the film development here",
+       "Set the X-ray tube's kV level here",
+       "Mark and label the film sheet here"
       ],
       "answer": 0,
       "explanation": "Source changers allow shielded transfer and replacement of sources, performed by qualified personnel following strict procedures.",
@@ -1909,9 +1909,9 @@
       "stem": "With sources and equipment, the Level I technician is generally expected to:",
       "options": [
        "Operate and inspect equipment and follow procedures under direction",
-       "Fully design new exposure devices from scratch here, somehow oddly",
-       "Approve and grant the full site licensing here, somehow quite oddly",
-       "Set the regulatory radiation dose limits here, somehow quite oddly now"
+       "Fully design new exposure devices from scratch here",
+       "Approve and grant the full site licensing here",
+       "Set the regulatory radiation dose limits here"
       ],
       "answer": 0,
       "explanation": "A Level I operates and checks the equipment and follows procedures under direction; design, licensing, and limit-setting are higher-level or regulatory functions.",
@@ -1935,9 +1935,9 @@
       "stem": "Which statement about RT sources and equipment is correct?",
       "options": [
        "X-ray tubes produce radiation electrically and switch off; gamma devices use a sealed source that is only shielded",
-       "Gamma radioactive sources can simply be switched right off electrically here, somehow really quite oddly enough now",
-       "X-ray tubes actually run on a small radioactive pellet inside of them, somehow really quite oddly enough here now",
-       "Neither type of device emits any radiation hazard whatsoever to anyone here, somehow really quite oddly enough now"
+       "Gamma radioactive sources can simply be switched right off electrically here",
+       "X-ray tubes actually run on a small radioactive pellet inside of them",
+       "Neither type of device emits any radiation hazard whatsoever to anyone here"
       ],
       "answer": 0,
       "explanation": "X-ray tubes make radiation when powered and stop when off; gamma exposure devices shield a continuously emitting sealed source and move it out remotely for exposure.",
@@ -2071,9 +2071,9 @@
       "stem": "Lead intensifying screens placed against the film:",
       "options": [
        "Intensify the image and absorb scatter, improving quality",
-       "Block out all the radiation completely here, somehow oddly",
-       "Cool down the whole film cassette here, somehow quite oddly",
-       "Completely replace the film cassette here, somehow quite oddly"
+       "Block out all the radiation completely here",
+       "Cool down the whole film cassette here",
+       "Completely replace the film cassette here"
       ],
       "answer": 0,
       "explanation": "Under radiation, lead screens emit electrons that add to the film exposure (intensifying) and absorb scattered radiation, improving image quality, when in tight contact.",
@@ -2123,9 +2123,9 @@
       "stem": "Fluorescent screens differ from lead screens in that they:",
       "options": [
        "Emit light to expose the film, giving speed but less definition",
-       "Emit no light at all and add fine image detail here, somehow oddly",
-       "Harden the radiation beam right up here, somehow quite oddly now",
-       "Fully shield the operator here, somehow really quite oddly enough"
+       "Emit no light at all and add fine image detail here",
+       "Harden the radiation beam right up here",
+       "Fully shield the operator here"
       ],
       "answer": 0,
       "explanation": "Fluorescent screens glow under radiation to expose film quickly, but their light spread lowers definition, so they are used where speed outweighs fine detail.",
@@ -2149,9 +2149,9 @@
       "stem": "A film cassette or holder is used to:",
       "options": [
        "Hold the film and screens in light-tight, close contact",
-       "Measure the surrounding radiation here, somehow oddly",
-       "Set the X-ray tube's kV level here, somehow quite oddly",
-       "Crank the gamma source right out here, somehow quite oddly"
+       "Measure the surrounding radiation here",
+       "Set the X-ray tube's kV level here",
+       "Crank the gamma source right out here"
       ],
       "answer": 0,
       "explanation": "The cassette keeps film and screens together, flat, and shielded from light until processing. It does not measure radiation or operate the source.",
@@ -2279,9 +2279,9 @@
       "stem": "Digital radiography (DR) uses a:",
       "options": [
        "Direct flat-panel detector that produces a digital image",
-       "A wet chemical film developer bath here, somehow oddly",
-       "A glowing fluorescent dye penetrant here, somehow oddly",
-       "A wet magnetic particle inspection bath here, somehow oddly"
+       "A wet chemical film developer bath here",
+       "A glowing fluorescent dye penetrant here",
+       "A wet magnetic particle inspection bath here"
       ],
       "answer": 0,
       "explanation": "DR flat-panel detectors convert radiation directly to a digital image viewable almost immediately, without film processing.",
@@ -2383,9 +2383,9 @@
       "stem": "Unexposed film should be stored:",
       "options": [
        "Cool and dry, away from radiation and chemicals, within shelf life",
-       "Right next to the live gamma source here, somehow quite oddly enough",
-       "In a hot, damp, humid storage room here, somehow quite oddly now",
-       "Out in direct full bright sunlight here, somehow quite oddly now"
+       "Right next to the live gamma source here",
+       "In a hot, damp, humid storage room here",
+       "Out in direct full bright sunlight here"
       ],
       "answer": 0,
       "explanation": "Heat, humidity, stray radiation, chemical fumes, and age all fog or degrade film, so it is stored properly and used within its shelf life.",
@@ -2461,9 +2461,9 @@
       "stem": "Unwanted overall darkening (fog) on film can come from:",
       "options": [
        "Heat, age, stray radiation, or light leaks",
-       "Fully correct exposure here, somehow oddly",
-       "Proper cool storage here, somehow oddly",
-       "A clean dry darkroom here, somehow quite oddly"
+       "Fully correct exposure here",
+       "Proper cool storage here",
+       "A clean dry darkroom here"
       ],
       "answer": 0,
       "explanation": "Fog reduces contrast and can mask indications; its sources include heat, outdated film, stray radiation, chemical contamination, and light leaks.",
@@ -2487,9 +2487,9 @@
       "stem": "A vacuum cassette is used to:",
       "options": [
        "Ensure tight film-to-screen contact for sharpness",
-       "Add far more scatter radiation here, somehow oddly",
-       "Collimate and shape the beam here, somehow oddly",
-       "Power up the whole X-ray tube here, somehow oddly"
+       "Add far more scatter radiation here",
+       "Collimate and shape the beam here",
+       "Power up the whole X-ray tube here"
       ],
       "answer": 0,
       "explanation": "Drawing a vacuum presses film and screens into uniform contact, reducing blur from gaps, useful on larger or curved work.",
@@ -2513,7 +2513,7 @@
       "stem": "Film and digital systems are grouped into classes mainly by their:",
       "options": [
        "Image quality characteristics such as grain and contrast",
-       "The cassette's outer physical dimensions here, somehow oddly",
+       "The cassette's outer physical dimensions here",
        "The exact exposure time that was actually used here now",
        "The exact source-to-film distance that was used here now"
       ],
@@ -2565,9 +2565,9 @@
       "stem": "Screens and cassettes should be kept clean because dirt or scratches can:",
       "options": [
        "Appear as artifacts on every radiograph taken with them",
-       "Greatly improve the image contrast here, somehow oddly",
-       "Greatly speed up the development here, somehow oddly",
-       "Lower the radiation source's energy here, somehow oddly now"
+       "Greatly improve the image contrast here",
+       "Greatly speed up the development here",
+       "Lower the radiation source's energy here"
       ],
       "answer": 0,
       "explanation": "A scratch or speck on a screen prints onto each radiograph, so screens are inspected and kept clean to avoid recurring false indications.",
@@ -2669,8 +2669,8 @@
       "stem": "A key difference between CR and DR is that CR uses a separate plate that is:",
       "options": [
        "Scanned after exposure, while DR reads out directly",
-       "Never ever reusable in any way at all here, oddly",
-       "Made entirely out of red penetrant dye here, oddly",
+       "Never ever reusable in any way at all here",
+       "Made entirely out of red penetrant dye here",
        "Powered directly by the radiation source itself here"
       ],
       "answer": 0,
@@ -2695,9 +2695,9 @@
       "stem": "With film and image media, the Level I technician:",
       "options": [
        "Handles, loads, and processes media and records results under direction",
-       "Sets the final part acceptance criteria here, somehow quite oddly enough",
-       "Writes the whole inspection procedure here, somehow quite oddly enough",
-       "Certifies the entire imaging system here, somehow really quite oddly enough"
+       "Sets the final part acceptance criteria here",
+       "Writes the whole inspection procedure here",
+       "Certifies the entire imaging system here"
       ],
       "answer": 0,
       "explanation": "A Level I handles and processes the media and records results; criteria, procedures, and system qualification are higher-level functions.",
@@ -2721,9 +2721,9 @@
       "stem": "Which statement about RT image media is correct?",
       "options": [
        "Film records a latent image developed later; lead screens intensify and reduce scatter; digital media store images electronically",
-       "Faster, higher-speed film will always give the very best fine image detail in every single case here, somehow really quite oddly",
-       "Lead intensifying screens are what actually develop the exposed film themselves, somehow really quite oddly enough here right now",
-       "Digital radiography needs no penetrating radiation at all whatsoever to form any image, somehow really quite oddly enough here now"
+       "Faster, higher-speed film will always give the very best fine image detail in every single case here",
+       "Lead intensifying screens are what actually develop the exposed film themselves",
+       "Digital radiography needs no penetrating radiation at all whatsoever to form any image"
       ],
       "answer": 0,
       "explanation": "Film captures a latent image processed later, lead screens improve quality, and digital systems (CR and DR) capture and store images electronically while still using radiation.",
@@ -3065,9 +3065,9 @@
       "stem": "Increasing the source-to-film distance generally:",
       "options": [
        "Improves sharpness and reduces magnification, needing more exposure",
-       "Greatly reduces the overall image sharpness here, somehow quite oddly",
-       "Always shortens the exposure time here, somehow really quite oddly enough",
-       "Has no real effect on the final image here, somehow quite oddly enough"
+       "Greatly reduces the overall image sharpness here",
+       "Always shortens the exposure time here",
+       "Has no real effect on the final image here"
       ],
       "answer": 0,
       "explanation": "A longer distance reduces geometric unsharpness and magnification but lowers intensity, so exposure must increase per the inverse square law.",
@@ -3091,9 +3091,9 @@
       "stem": "Image magnification increases when the:",
       "options": [
        "Object is farther from the film (larger object-to-film distance)",
-       "The object directly touches the film here, somehow quite oddly",
-       "The radiation source is switched off here, somehow quite oddly",
-       "The loaded film is a much faster one here, somehow quite oddly enough"
+       "The object directly touches the film here",
+       "The radiation source is switched off here",
+       "The loaded film is a much faster one here"
       ],
       "answer": 0,
       "explanation": "A gap between the object and film magnifies and blurs the image, so the part is placed as close to the film as practical.",
@@ -3273,9 +3273,9 @@
       "stem": "When the correct exposure is uncertain, a technician may:",
       "options": [
        "Bracket exposures to find the one giving proper density",
-       "Guess just once and then ship it out here, somehow oddly",
-       "Completely skip the whole exposure here, somehow oddly",
-       "Use no film at all here, somehow really quite oddly"
+       "Guess just once and then ship it out here",
+       "Completely skip the whole exposure here",
+       "Use no film at all here"
       ],
       "answer": 0,
       "explanation": "Taking exposures above and below an estimate (bracketing) helps find the setting that yields acceptable density, refining the technique chart.",
@@ -3299,9 +3299,9 @@
       "stem": "For direct-exposure (lead-screen) film, intensity and time can be traded because the:",
       "options": [
        "Product of intensity and time controls the exposure",
-       "The exposure time has no real effect here, oddly",
-       "The beam intensity has no real effect here, oddly",
-       "The loaded film simply cannot be exposed here, oddly"
+       "The exposure time has no real effect here",
+       "The beam intensity has no real effect here",
+       "The loaded film simply cannot be exposed here"
       ],
       "answer": 0,
       "explanation": "With lead-screen film, the same density results from the same intensity-time product, so a lower intensity can be balanced by a longer time within limits.",
@@ -3377,9 +3377,9 @@
       "stem": "To reduce scatter reaching the film during exposure, the technician may use:",
       "options": [
        "Lead screens, collimation, masking, and backscatter lead",
-       "Far more scatter radiation on purpose here, somehow oddly",
-       "Only a much faster loaded film here, somehow quite oddly",
-       "A much brighter darkroom safelight here, somehow oddly"
+       "Far more scatter radiation on purpose here",
+       "Only a much faster loaded film here",
+       "A much brighter darkroom safelight here"
       ],
       "answer": 0,
       "explanation": "Collimation, lead screens, masking around the part, and a lead backing reduce scatter that would otherwise lower contrast.",
@@ -3455,9 +3455,9 @@
       "stem": "A longer exposure time at a gamma source means the source is exposed for longer, which:",
       "options": [
        "Increases the radiation area duration and must be planned for safety",
-       "Has no real safety effect at all here, somehow really quite oddly enough",
-       "Cools the radioactive source down here, somehow quite oddly enough now",
-       "Sharpens the final film image here, somehow really quite oddly enough"
+       "Has no real safety effect at all here",
+       "Cools the radioactive source down here",
+       "Sharpens the final film image here"
       ],
       "answer": 0,
       "explanation": "While the source is out, the surrounding area is a radiation hazard, so longer exposures mean longer controlled-area times, planned within safety procedures.",
@@ -3481,9 +3481,9 @@
       "stem": "Exposure parameters used (energy, time, distance) should be:",
       "options": [
        "Recorded so the radiograph can be reproduced and verified",
-       "Kept only ever in the operator's memory here, somehow oddly",
-       "Completely discarded right away here, somehow quite oddly",
-       "Set fully at random each single time here, somehow oddly"
+       "Kept only ever in the operator's memory here",
+       "Completely discarded right away here",
+       "Set fully at random each single time here"
       ],
       "answer": 0,
       "explanation": "Documenting the technique supports repeatability, troubleshooting density problems, and traceability.",
@@ -3611,9 +3611,9 @@
       "stem": "Which statement about exposure is correct?",
       "options": [
        "Energy, intensity, time, and distance set the exposure; distance follows the inverse square law and controls density and sharpness",
-       "The X-ray tube's kV setting has no real effect whatsoever on the film density at all, somehow really quite oddly enough here now",
-       "The source-to-film distance does not matter at all in any way whatsoever, somehow really quite oddly enough here right now indeed",
-       "The final processed film density is never actually measured at all in any way whatsoever, somehow really quite oddly enough here now"
+       "The X-ray tube's kV setting has no real effect whatsoever on the film density at all",
+       "The source-to-film distance does not matter at all in any way whatsoever",
+       "The final processed film density is never actually measured at all in any way whatsoever"
       ],
       "answer": 0,
       "explanation": "Exposure depends on energy, intensity, time, and distance, with distance following the inverse square law, all set to achieve a density within the required range.",
@@ -3643,9 +3643,9 @@
       "stem": "Geometric unsharpness (Ug) is the blurring caused by the:",
       "options": [
        "Finite size of the source and the object-to-film geometry",
-       "The film's overall grain size alone here, somehow quite oddly",
-       "The film developer's temperature here, somehow quite oddly",
-       "The handheld radiation survey meter here, somehow quite oddly"
+       "The film's overall grain size alone here",
+       "The film developer's temperature here",
+       "The handheld radiation survey meter here"
       ],
       "answer": 0,
       "explanation": "Because the source has a finite size, edges cast a penumbra. Ug grows with source size and object-to-film distance and shrinks with source-to-object distance.",
@@ -3669,9 +3669,9 @@
       "stem": "Geometric unsharpness is reduced by using a:",
       "options": [
        "Smaller source, larger source-to-object distance, and smaller object-to-film distance",
-       "A much larger radiation source size here, somehow really quite oddly enough here now",
-       "A much shorter source-to-object distance here, somehow really quite oddly enough now",
-       "A much larger object-to-film gap here, somehow really quite oddly enough here right now"
+       "A much larger radiation source size here",
+       "A much shorter source-to-object distance here",
+       "A much larger object-to-film gap here"
       ],
       "answer": 0,
       "explanation": "A small focal spot or source, more distance to the object, and the part close to the film all reduce penumbra and sharpen the image.",
@@ -3747,9 +3747,9 @@
       "stem": "An image quality indicator (IQI) is placed in the radiograph to:",
       "options": [
        "Demonstrate the radiographic sensitivity (image quality) achieved",
-       "Measure the surrounding radiation dose here, somehow really quite oddly",
-       "Collimate and shape the output beam here, somehow really quite oddly",
-       "Fully shield the standing operator here, somehow really quite oddly"
+       "Measure the surrounding radiation dose here",
+       "Collimate and shape the output beam here",
+       "Fully shield the standing operator here"
       ],
       "answer": 0,
       "explanation": "The IQI shows whether the technique resolves a required small detail, indicating the sensitivity of the radiograph. It does not measure dose or process film.",
@@ -3773,9 +3773,9 @@
       "stem": "A hole-type (plaque) IQI is a thin plaque containing:",
       "options": [
        "Holes of defined sizes (such as 1T, 2T, 4T)",
-       "A single thin straight wire only here, oddly",
+       "A single thin straight wire only here",
        "Several film developer pockets here now",
-       "An embedded radiation source unit here, oddly"
+       "An embedded radiation source unit here"
       ],
       "answer": 0,
       "explanation": "The hole-type IQI has a known thickness and drilled holes sized relative to its thickness; seeing a required hole demonstrates sensitivity.",
@@ -3825,9 +3825,9 @@
       "stem": "The IQI material should be:",
       "options": [
        "The same or radiographically similar to the part material",
-       "Always made of solid pure lead here, somehow quite oddly",
-       "Any random scrap metal at all here, somehow quite oddly",
-       "Always made of plain plastic here, somehow quite oddly enough"
+       "Always made of solid pure lead here",
+       "Any random scrap metal at all here",
+       "Always made of plain plastic here"
       ],
       "answer": 0,
       "explanation": "The IQI is selected from the same material group (or a radiographically similar one) so its response represents the part. Lead and random materials would not.",
@@ -3903,9 +3903,9 @@
       "stem": "Radiographic sensitivity expressed as a percentage describes the:",
       "options": [
        "Smallest thickness change that can be detected, as a percent of thickness",
-       "The radioactive source's total activity here, somehow really quite oddly",
-       "The loaded film's overall speed rating here, somehow really quite oddly now",
-       "The darkroom safelight's brightness here, somehow really quite oddly enough"
+       "The radioactive source's total activity here",
+       "The loaded film's overall speed rating here",
+       "The darkroom safelight's brightness here"
       ],
       "answer": 0,
       "explanation": "Better sensitivity means a smaller detectable thickness change, so a lower percentage is better. It is demonstrated by the IQI.",
@@ -3929,8 +3929,8 @@
       "stem": "A 2 percent radiographic sensitivity is:",
       "options": [
        "Better than 4 percent (detects a smaller change)",
-       "Far worse than 4 percent here, somehow quite oddly",
-       "Exactly the same as 4 percent here, somehow oddly",
+       "Far worse than 4 percent here",
+       "Exactly the same as 4 percent here",
        "Fully unrelated to any detectability here now"
       ],
       "answer": 0,
@@ -3955,9 +3955,9 @@
       "stem": "The essential hole or essential wire is the:",
       "options": [
        "Specific IQI feature that must be visible to meet the required quality level",
-       "Always the single largest hole in every case here, somehow really quite oddly",
-       "Always the source-side placement marker here, somehow really quite oddly now",
-       "The film's own identification number here, somehow really quite oddly enough now"
+       "Always the single largest hole in every case here",
+       "Always the source-side placement marker here",
+       "The film's own identification number here"
       ],
       "answer": 0,
       "explanation": "The procedure specifies an IQI level (for example 2-2T), and the named essential hole or wire must be visible on the radiograph to pass the quality check.",
@@ -4007,9 +4007,9 @@
       "stem": "When a hole-type IQI sits on a thinner area or the film side, a shim may be used to:",
       "options": [
        "Represent the correct material thickness under the IQI",
-       "Add far more scatter radiation here, somehow quite oddly",
-       "Completely replace the whole IQI here, somehow oddly",
-       "Mark the film's exact location here, somehow quite oddly"
+       "Add far more scatter radiation here",
+       "Completely replace the whole IQI here",
+       "Mark the film's exact location here"
       ],
       "answer": 0,
       "explanation": "A shim of similar material makes the IQI represent the intended thickness so the demonstrated sensitivity is valid for the part.",
@@ -4111,9 +4111,9 @@
       "stem": "A double-wall single-image (DWSI) technique is used when:",
       "options": [
        "Only the wall nearest the film is interpreted, beam through both walls",
-       "The whole part is fully solid through and through here, somehow quite oddly",
-       "No film at all is ever used here, somehow really quite oddly enough now",
-       "The radiation source sits inside a casting here, somehow quite oddly now"
+       "The whole part is fully solid through and through here",
+       "No film at all is ever used here",
+       "The radiation source sits inside a casting here"
       ],
       "answer": 0,
       "explanation": "DWSI shoots through both walls of a pipe but interprets the wall near the film, common where the bore is not accessible.",
@@ -4189,9 +4189,9 @@
       "stem": "The IQI on each radiograph confirms that the:",
       "options": [
        "Required image quality was achieved for that exposure",
-       "The radioactive source is fully decayed here, oddly now",
-       "The whole darkroom is fully dark here, somehow oddly",
-       "The loaded film is the exact right color here, oddly"
+       "The radioactive source is fully decayed here",
+       "The whole darkroom is fully dark here",
+       "The loaded film is the exact right color here"
       ],
       "answer": 0,
       "explanation": "Seeing the required IQI feature confirms the technique met the specified quality level for that radiograph.",
@@ -4241,7 +4241,7 @@
       "stem": "For the sharpest image, the ideal source approaches a:",
       "options": [
        "Point source (very small focal spot or source size)",
-       "A very large area radiation source here, somehow oddly",
+       "A very large area radiation source here",
        "A whole long line of darkroom safelights here now",
        "A plain audible sound wave emitter unit here now"
       ],
@@ -4319,9 +4319,9 @@
       "stem": "Source-side IQI placement is preferred because it represents the:",
       "options": [
        "More demanding (worst-case) image quality through the thickness",
-       "The very best-case image quality here, somehow really quite oddly",
-       "Only the final film density here, somehow really quite oddly enough",
-       "Only the radiation source energy here, somehow really quite oddly"
+       "The very best-case image quality here",
+       "Only the final film density here",
+       "Only the radiation source energy here"
       ],
       "answer": 0,
       "explanation": "Image quality is harder to achieve on the source side, so demonstrating it there assures the rest of the thickness meets the level.",
@@ -4397,9 +4397,9 @@
       "stem": "If the required IQI hole or wire is not visible, the radiograph:",
       "options": [
        "Does not meet the quality level and is generally reshot",
-       "Is automatically fully acceptable here, somehow oddly",
-       "Fully proves the part is sound here, somehow quite oddly",
-       "Needs no further action at all here, somehow quite oddly"
+       "Is automatically fully acceptable here",
+       "Fully proves the part is sound here",
+       "Needs no further action at all here"
       ],
       "answer": 0,
       "explanation": "Failing to show the essential IQI feature means the technique did not achieve the required sensitivity, so the cause is corrected and the radiograph retaken.",
@@ -4423,9 +4423,9 @@
       "stem": "IQI type, location, and any shim used should be:",
       "options": [
        "Recorded as part of the radiographic technique",
-       "Left fully undocumented here, somehow quite oddly",
-       "Chosen fully at random here, somehow oddly",
-       "Hidden from the interpreter here, somehow oddly"
+       "Left fully undocumented here",
+       "Chosen fully at random here",
+       "Hidden from the interpreter here"
       ],
       "answer": 0,
       "explanation": "Documenting the IQI and placement lets the interpreter confirm the demonstrated quality and supports traceability.",
@@ -4449,9 +4449,9 @@
       "stem": "In setting up geometry and IQIs, the Level I technician:",
       "options": [
        "Places IQIs and markers and sets geometry per the procedure under direction",
-       "Sets the final part acceptance criteria here, somehow really quite oddly enough",
-       "Approves the whole technique sheet here, somehow really quite oddly enough",
-       "Interprets the radiograph fully to code here, somehow really quite oddly"
+       "Sets the final part acceptance criteria here",
+       "Approves the whole technique sheet here",
+       "Interprets the radiograph fully to code here"
       ],
       "answer": 0,
       "explanation": "A Level I follows the procedure to set geometry, place IQIs and markers, and shoot; defining criteria, approving techniques, and interpreting are higher-level tasks.",
@@ -4501,9 +4501,9 @@
       "stem": "Which statement about geometry, technique, and IQIs is correct?",
       "options": [
        "Geometry controls sharpness, the technique suits the part, and the IQI demonstrates the achieved sensitivity",
-       "The image quality indicator is actually what directly measures the radiation dose itself, somehow really quite oddly enough here now",
-       "A much larger radiation source size will always give much sharper final images, somehow really quite oddly enough here now",
-       "A higher sensitivity percentage value is always strictly better in every case, somehow really quite oddly enough here right now"
+       "The image quality indicator is actually what directly measures the radiation dose itself",
+       "A much larger radiation source size will always give much sharper final images",
+       "A higher sensitivity percentage value is always strictly better in every case"
       ],
       "answer": 0,
       "explanation": "Source size and distances govern sharpness, the shooting technique fits the geometry, and the IQI confirms the required image quality, with lower sensitivity percentages being better.",
@@ -4559,9 +4559,9 @@
       "stem": "The developer:",
       "options": [
        "Converts exposed silver halide to black metallic silver",
-       "Removes the unexposed silver halide here, somehow oddly",
-       "Stops all of the chemical action here, somehow oddly",
-       "Dries out the whole film sheet here, somehow oddly"
+       "Removes the unexposed silver halide here",
+       "Stops all of the chemical action here",
+       "Dries out the whole film sheet here"
       ],
       "answer": 0,
       "explanation": "Development reduces the exposed grains to metallic silver, forming the visible dark image. Removing unexposed halide is the fixer's job.",
@@ -4585,9 +4585,9 @@
       "stem": "The fixer:",
       "options": [
        "Removes undeveloped silver halide and makes the image permanent",
-       "Darkens all of the exposed areas here, somehow really quite oddly",
-       "Greatly speeds up the development here, somehow really quite oddly",
-       "Adds extra density here, somehow really quite oddly enough now"
+       "Darkens all of the exposed areas here",
+       "Greatly speeds up the development here",
+       "Adds extra density here"
       ],
       "answer": 0,
       "explanation": "Fixing clears the unexposed, undeveloped halide so the film is no longer light-sensitive and the image is stable.",
@@ -4637,9 +4637,9 @@
       "stem": "The final wash removes:",
       "options": [
        "Residual chemicals that would stain or fade the image",
-       "The whole black silver image here, somehow quite oddly",
-       "The clear film base layer here, somehow quite oddly",
-       "The whole emulsion layer entirely here, somehow oddly"
+       "The whole black silver image here",
+       "The clear film base layer here",
+       "The whole emulsion layer entirely here"
       ],
       "answer": 0,
       "explanation": "Washing clears leftover fixer and chemicals; inadequate washing causes staining and long-term fading of the radiograph.",
@@ -4689,9 +4689,9 @@
       "stem": "An automatic film processor:",
       "options": [
        "Transports film through the chemicals at controlled time and temperature",
-       "Develops the film out in full daylight with no chemicals at all here, oddly",
-       "Completely replaces the X-ray source here, somehow really quite oddly",
-       "Measures the radiation dose here, somehow really quite oddly enough now"
+       "Develops the film out in full daylight with no chemicals at all here",
+       "Completely replaces the X-ray source here",
+       "Measures the radiation dose here"
       ],
       "answer": 0,
       "explanation": "Automatic processors move film through developer, fixer, wash, and dryer at set times and temperatures for consistent results.",
@@ -4793,9 +4793,9 @@
       "stem": "Processor performance is monitored using:",
       "options": [
        "Density strips or a step wedge read on a densitometer",
-       "A handheld radiation survey meter here, somehow oddly",
-       "A beam-shaping collimator here, somehow quite oddly",
-       "A source-drive crank handle here, somehow quite oddly"
+       "A handheld radiation survey meter here",
+       "A beam-shaping collimator here",
+       "A source-drive crank handle here"
       ],
       "answer": 0,
       "explanation": "Control strips or a step wedge processed and read for density track processor consistency, flagging drift before it affects radiographs.",
@@ -4871,9 +4871,9 @@
       "stem": "Water spots and drying marks on film are:",
       "options": [
        "Artifacts that can be avoided with proper washing and drying",
-       "Helpful reference points on the film here, somehow oddly",
-       "A clear sign of fully correct exposure here, somehow oddly",
-       "Fully required by the code here, somehow really quite oddly enough"
+       "Helpful reference points on the film here",
+       "A clear sign of fully correct exposure here",
+       "Fully required by the code here"
       ],
       "answer": 0,
       "explanation": "Drying artifacts can obscure or mimic indications, so films are washed with a wetting agent and dried evenly to avoid them.",
@@ -4923,9 +4923,9 @@
       "stem": "Radiographs are interpreted on a:",
       "options": [
        "High-intensity illuminator (viewer) in subdued ambient light",
-       "A brightly lit white work table here, somehow quite oddly",
-       "A handheld survey meter here, somehow really quite oddly enough",
-       "A film densitometer only here, somehow really quite oddly enough"
+       "A brightly lit white work table here",
+       "A handheld survey meter here",
+       "A film densitometer only here"
       ],
       "answer": 0,
       "explanation": "A radiograph viewer provides enough light to see through the film, with low surrounding light and masking to reduce glare. The densitometer measures density but is not the viewer.",
@@ -5001,9 +5001,9 @@
       "stem": "Digital RT images are adjusted by:",
       "options": [
        "Software brightness and contrast tools, without chemicals",
-       "Wet chemical developer and fixer baths here, somehow oddly",
-       "A darkroom safelight here, somehow really quite oddly enough now",
-       "A step wedge sitting in the chemicals here, somehow oddly"
+       "Wet chemical developer and fixer baths here",
+       "A darkroom safelight here",
+       "A step wedge sitting in the chemicals here"
       ],
       "answer": 0,
       "explanation": "Digital images are optimized in software for viewing, avoiding wet chemistry, though calibration and image-quality requirements still apply.",
@@ -5079,9 +5079,9 @@
       "stem": "During processing, film should be handled to avoid:",
       "options": [
        "Scratches, pressure marks, and chemical splashes",
-       "Forming any image at all here, somehow quite oddly",
-       "Any density value at all here, somehow oddly",
-       "Any identification here, somehow really quite oddly"
+       "Forming any image at all here",
+       "Any density value at all here",
+       "Any identification here"
       ],
       "answer": 0,
       "explanation": "Careful handling prevents mechanical and chemical artifacts that could mask or mimic indications.",
@@ -5235,9 +5235,9 @@
       "stem": "In processing and image preparation, the Level I technician:",
       "options": [
        "Processes media and verifies density and quality under direction",
-       "Sets the final part acceptance criteria here, somehow quite oddly",
-       "Writes the whole inspection procedure here, somehow quite oddly",
-       "Certifies the whole processor design here, somehow quite oddly now"
+       "Sets the final part acceptance criteria here",
+       "Writes the whole inspection procedure here",
+       "Certifies the whole processor design here"
       ],
       "answer": 0,
       "explanation": "A Level I processes the film or prepares digital images and checks density and image quality; criteria, procedures, and design approval are higher-level functions.",
@@ -5287,9 +5287,9 @@
       "stem": "Which statement about processing and image quality is correct?",
       "options": [
        "Develop, fix, wash, and dry under controlled time and temperature, then verify density and watch for artifacts",
-       "The chemical fixing step is what actually darkens the whole image, somehow really quite oddly enough here right now",
-       "Hot, warm developer has no real effect at all on the result, somehow really quite oddly enough here right now",
-       "Processing artifacts always reliably indicate genuine real flaws every time, somehow really quite oddly enough here now"
+       "The chemical fixing step is what actually darkens the whole image",
+       "Hot, warm developer has no real effect at all on the result",
+       "Processing artifacts always reliably indicate genuine real flaws every time"
       ],
       "answer": 0,
       "explanation": "Controlled development and fixing, thorough washing and drying, and density and artifact checks produce a valid, interpretable radiograph.",
@@ -5397,9 +5397,9 @@
       "stem": "Effective shielding against gamma rays uses:",
       "options": [
        "Dense, high-atomic-number materials like lead or depleted uranium",
-       "Soft foam padding material here, somehow really quite oddly enough now",
-       "Thin plain plastic sheeting here, somehow really quite oddly enough",
-       "Plain woven cloth here, somehow really quite oddly enough indeed"
+       "Soft foam padding material here",
+       "Thin plain plastic sheeting here",
+       "Woven cloth here"
       ],
       "answer": 0,
       "explanation": "Dense materials attenuate gamma radiation, so lead, depleted uranium, tungsten, and thick concrete are used for shielding. Light materials give little protection.",
@@ -5475,9 +5475,9 @@
       "stem": "A radiation survey meter is used to:",
       "options": [
        "Measure radiation levels and define safe boundaries",
-       "Charge up the radioactive source here, somehow oddly",
-       "Set the X-ray tube's kV level here, somehow oddly",
-       "Mark the whole part surface here, somehow oddly"
+       "Charge up the radioactive source here",
+       "Set the X-ray tube's kV level here",
+       "Mark the whole part surface here"
       ],
       "answer": 0,
       "explanation": "A calibrated survey meter reads dose rate to confirm the source is shielded, locate boundaries, and verify safe areas before approaching.",
@@ -5579,9 +5579,9 @@
       "stem": "For gamma field radiography, workers are generally required to carry, in addition to a badge and pocket dosimeter, an:",
       "options": [
        "Alarming rate meter (audible alarm dosimeter)",
-       "Extra empty film cassette here, somehow oddly",
-       "Spare beam collimator here, somehow quite oddly",
-       "Extra film badge only here, somehow oddly"
+       "Extra empty film cassette here",
+       "Spare beam collimator here",
+       "Extra film badge only here"
       ],
       "answer": 0,
       "explanation": "An audible alarming rate meter warns immediately if the worker enters a high field or the source is exposed unexpectedly, a key defense in field gamma work. Confirm requirements against regulations.",
@@ -5605,9 +5605,9 @@
       "stem": "Areas with elevated radiation must be:",
       "options": [
        "Posted and controlled with radiation warning signs and boundaries",
-       "Left fully unmarked in every way here, somehow really quite oddly",
-       "Marked only ever with a single color here, somehow quite oddly now",
-       "Opened right up to the general public here, somehow quite oddly now"
+       "Left fully unmarked in every way here",
+       "Marked only ever with a single color here",
+       "Opened right up to the general public here"
       ],
       "answer": 0,
       "explanation": "Radiation and high-radiation areas are posted with the radiation symbol and controlled with barriers so people are not exposed above limits.",
@@ -5631,9 +5631,9 @@
       "stem": "The radiographer sets the controlled-area boundary by:",
       "options": [
        "Surveying to find where the dose rate meets the required limit",
-       "Just guessing at a rough distance here, somehow really quite oddly",
-       "Just using the loaded film size here, somehow really quite oddly",
-       "Just asking nearby bystanders here, somehow really quite oddly"
+       "Guessing at a rough distance here",
+       "Using the loaded film size here",
+       "Asking nearby bystanders here"
       ],
       "answer": 0,
       "explanation": "A survey establishes the distance at which the dose rate drops to the allowed boundary level, where barriers and signs are placed.",
@@ -5709,9 +5709,9 @@
       "stem": "Surveys are performed:",
       "options": [
        "Before, during as needed, and after each exposure",
-       "Only ever once a single year here, somehow oddly",
-       "Never ever at all here, somehow really quite oddly",
-       "Only if an audible alarm sounds off here, somehow oddly"
+       "Only ever once a single year here",
+       "Never ever at all here",
+       "Only if an audible alarm sounds off here"
       ],
       "answer": 0,
       "explanation": "Surveys confirm safe conditions before exposure, monitor boundaries, and verify the source is shielded afterward. They are routine, not occasional.",
@@ -5735,9 +5735,9 @@
       "stem": "If a gamma source fails to retract (stuck source), the radiographer should:",
       "options": [
        "Increase distance, survey, and follow the emergency procedure, not approach the source",
-       "Just quickly grab the stuck source by hand here, somehow really quite oddly enough now",
-       "Just ignore it fully and then leave here, somehow really quite oddly enough indeed now",
-       "Just keep right on exposing here, somehow really quite oddly enough indeed here right now"
+       "Quickly grab the stuck source by hand here",
+       "Ignore it fully and then leave here",
+       "Keep right on exposing here"
       ],
       "answer": 0,
       "explanation": "A stuck source is an emergency: maximize distance, keep others away, survey, and follow the written emergency plan, notifying the radiation safety officer. Never approach or handle the source directly.",
@@ -5761,9 +5761,9 @@
       "stem": "A lost or unaccounted-for source is:",
       "options": [
        "A serious emergency requiring immediate reporting and recovery actions",
-       "Just a small minor paperwork issue here, somehow really quite oddly enough",
-       "Fully ignored until the next work shift here, somehow really quite oddly",
-       "Just handled by the general public here, somehow really quite oddly enough now"
+       "A small minor paperwork issue here",
+       "Fully ignored until the next work shift here",
+       "Handled by the general public here"
       ],
       "answer": 0,
       "explanation": "A missing source is a major hazard and regulatory event, reported at once with recovery and notification per the emergency plan and license.",
@@ -5787,9 +5787,9 @@
       "stem": "The Radiation Safety Officer (RSO) is responsible for:",
       "options": [
        "Overseeing the radiation safety program and compliance",
-       "Developing out all of the loaded film here, somehow oddly",
-       "Selling off all of the radiographs here, somehow oddly",
-       "Setting the kV on every single job here, somehow oddly"
+       "Developing out all of the loaded film here",
+       "Selling off all of the radiographs here",
+       "Setting the kV on every single job here"
       ],
       "answer": 0,
       "explanation": "The RSO administers the radiation protection program, ensures compliance, and is a key contact for problems and emergencies.",
@@ -5813,9 +5813,9 @@
       "stem": "Possession and use of radioactive sources require:",
       "options": [
        "A license or authorization from the regulatory authority",
-       "No authorization at all whatsoever here, somehow oddly",
-       "Only a simple purchase receipt here, somehow quite oddly",
-       "Just a single film badge alone here, somehow quite oddly now"
+       "No authorization at all whatsoever here",
+       "Only a simple purchase receipt here",
+       "A single film badge alone here"
       ],
       "answer": 0,
       "explanation": "Sources are used under a regulatory license with defined conditions; the program, personnel, and equipment must meet those requirements.",
@@ -5970,7 +5970,7 @@
       "options": [
        "Before and after work, and monitor it during",
        "Only ever once a single year here right now",
-       "Never ever at all here, somehow quite oddly",
+       "Never ever at all here",
        "Only ever after some injury occurs here right now"
       ],
       "answer": 0,
@@ -5996,8 +5996,8 @@
       "options": [
        "Area dose rate, while dosimeters track a person's accumulated dose",
        "A single person's dose, while dosimeters measure the whole area here",
-       "Only the loaded film's density here, somehow really quite oddly",
-       "Only the source's total half-life here, somehow really quite oddly"
+       "Only the loaded film's density here",
+       "Only the source's total half-life here"
       ],
       "answer": 0,
       "explanation": "The survey meter reads how strong the field is at a location; personal dosimeters record how much dose an individual has received over time. Both are used together.",
@@ -6047,9 +6047,9 @@
       "stem": "A high radiation area requires:",
       "options": [
        "Additional controls and specific posting beyond a normal radiation area",
-       "No special controls of any kind at all here, somehow really quite oddly",
-       "Only a single color marking here, somehow really quite oddly enough now",
-       "Full open public access here, somehow really quite oddly enough indeed now"
+       "No special controls of any kind at all here",
+       "Only a single color marking here",
+       "Full open public access here"
       ],
       "answer": 0,
       "explanation": "Higher dose rates trigger stricter posting and access controls under the regulations, since the hazard is greater. Confirm definitions against the regulations.",
@@ -6073,9 +6073,9 @@
       "stem": "Relying on a single safety device or check is discouraged because:",
       "options": [
        "Redundant monitoring catches failures (meter, dosimeters, alarms)",
-       "One single device is always fully enough here, somehow quite oddly",
-       "It just saves a bit of money here, somehow really quite oddly enough",
-       "Safety devices simply never fail here, somehow really quite oddly now"
+       "One single device is always fully",
+       "It just saves a bit of money here",
+       "Safety devices simply never fail here"
       ],
       "answer": 0,
       "explanation": "Multiple independent checks (survey meter, dosimeters, alarming rate meter, source-position indicators) protect against any single failure or misreading.",
@@ -6099,9 +6099,9 @@
       "stem": "Before approaching the exposure device after a shot, the radiographer confirms the source is shielded by:",
       "options": [
        "Watching the survey meter while approaching and checking the source indicator",
-       "Just assuming that it fully retracted here, somehow really quite oddly enough now",
-       "Just listening out for the source here, somehow really quite oddly enough indeed now",
-       "Just checking the exposure timer only here, somehow really quite oddly enough now"
+       "Assuming that it fully retracted here",
+       "Listening out for the source here",
+       "Checking the exposure timer only here"
       ],
       "answer": 0,
       "explanation": "The radiographer approaches while monitoring the survey meter and verifies the source-position indicator, never assuming the source retracted.",
@@ -6125,9 +6125,9 @@
       "stem": "Transporting radioactive sources is governed by:",
       "options": [
        "Regulations for packaging, labeling, and securing the source",
-       "No rules of any kind at all here, somehow really quite oddly enough",
-       "Only the film supplier here, somehow really quite oddly enough now",
-       "Just personal preference here, somehow really quite oddly"
+       "No rules of any kind at all here",
+       "Only the film supplier here",
+       "Personal preference here"
       ],
       "answer": 0,
       "explanation": "Source transport follows regulatory requirements for approved containers, labeling, placarding, and securing, to protect the public and workers.",
@@ -6229,9 +6229,9 @@
       "stem": "The most effective dose control usually combines:",
       "options": [
        "Minimal time, maximal practical distance, and adequate shielding",
-       "Just minimal time only here, somehow really quite oddly enough now",
-       "Just practical distance only here, somehow really quite oddly enough now",
-       "Just adequate shielding only here, somehow really quite oddly now"
+       "Minimal time only here",
+       "Practical distance only here",
+       "Adequate shielding only here"
       ],
       "answer": 0,
       "explanation": "Using time, distance, and shielding together gives far better protection than any one alone, planned before the work begins.",
@@ -6255,9 +6255,9 @@
       "stem": "Regarding radiation safety, the Level I technician:",
       "options": [
        "Follows the safety procedures, surveys, and monitoring under direction",
-       "Sets the whole regulatory dose limits here, somehow really quite oddly",
-       "Writes the whole source license here, somehow really quite oddly enough now",
-       "Approves the whole emergency plan here, somehow really quite oddly"
+       "Sets the whole regulatory dose limits here",
+       "Writes the whole source license here",
+       "Approves the whole emergency plan here"
       ],
       "answer": 0,
       "explanation": "A Level I follows the established safety practices, performs surveys and monitoring, and reports problems; limits, licensing, and plan approval are regulatory or higher-level functions.",
@@ -6281,9 +6281,9 @@
       "stem": "Which statement about radiation safety is correct?",
       "options": [
        "Use time, distance, and shielding; survey before and after; monitor with dosimeters; never approach an unshielded source",
-       "Penetrating radiation is fully completely safe at any dose level for anyone, somehow really quite oddly enough here right now",
-       "Routine radiation surveys are fully optional and can be skipped, somehow really quite oddly enough here right now indeed today",
-       "Safety interlocks on the units may be freely bypassed any time, somehow really quite oddly enough here right now indeed today"
+       "Penetrating radiation is fully completely safe at any dose level for anyone",
+       "Routine radiation surveys are fully optional and can be skipped",
+       "Safety interlocks on the units may be freely bypassed any time"
       ],
       "answer": 0,
       "explanation": "Radiation protection rests on time, distance, and shielding, with surveys, dosimetry, postings, and strict source control, and an unshielded source is never approached.",
@@ -6443,9 +6443,9 @@
       "stem": "Radiographs and records must be retained:",
       "options": [
        "For the period required by the code, contract, or regulation",
-       "Only until the very next coffee break here, somehow quite oddly",
-       "Only ever if some film is left over here, somehow quite oddly",
-       "Never at all here, somehow really quite oddly enough indeed"
+       "Only until the very next coffee break here",
+       "Only ever if some film is left over here",
+       "Never at all here"
       ],
       "answer": 0,
       "explanation": "Records are kept for the specified retention period so they are available for later review, audit, or investigation.",
@@ -6625,8 +6625,8 @@
       "stem": "Inspection results and records are communicated to:",
       "options": [
        "The responsible personnel per the procedure",
-       "The whole general public here, somehow oddly",
-       "No one at all here, somehow really quite oddly now",
+       "The whole general public here",
+       "No one at all here",
        "Whoever happens to ask first informally"
       ],
       "answer": 0,
@@ -6651,9 +6651,9 @@
       "stem": "Documentation should show that the required area was:",
       "options": [
        "Fully covered, with overlapping films and markers as needed",
-       "Only partly covered just to save some film here, somehow oddly",
-       "Covered only ever at one single end here, somehow quite oddly",
-       "Left fully unrecorded here, somehow really quite oddly now"
+       "Only partly covered just to save some film here",
+       "Covered only ever at one single end here",
+       "Left fully unrecorded here"
       ],
       "answer": 0,
       "explanation": "Records and location markers demonstrate complete coverage of the required length, with overlaps so no area is missed.",
@@ -6677,9 +6677,9 @@
       "stem": "If a mark on the film is a processing or handling artifact, the technician should:",
       "options": [
        "Recognize it and reshoot or note it rather than mistake it for a flaw",
-       "Always just call it a real flaw here, somehow really quite oddly enough now",
-       "Just erase the whole film here, somehow really quite oddly enough now",
-       "Fully ignore the image quality here, somehow really quite oddly enough"
+       "Always just call it a real flaw here",
+       "Erase the whole film here",
+       "Fully ignore the image quality here"
       ],
       "answer": 0,
       "explanation": "Distinguishing artifacts from real indications prevents false calls; a poor radiograph is reshot. Final evaluation is a higher-level task.",
@@ -6703,9 +6703,9 @@
       "stem": "A current record of source activity is kept so that:",
       "options": [
        "Exposure times can be calculated correctly as the source decays",
-       "The source simply lasts forever here, somehow really quite oddly",
-       "The loaded film develops faster here, somehow really quite oddly",
-       "The tube's kV is set here, somehow really quite oddly enough indeed now"
+       "The source simply lasts forever here",
+       "The loaded film develops faster here",
+       "The tube's kV is set here"
       ],
       "answer": 0,
       "explanation": "Because activity decreases with time, an up-to-date activity value is needed to compute correct gamma exposures.",
@@ -6755,9 +6755,9 @@
       "stem": "Calibration records for survey meters and densitometers are kept to:",
       "options": [
        "Show the equipment was within calibration when used",
-       "Just decorate the whole office here, somehow oddly",
-       "Fully replace the whole procedure here, somehow oddly",
-       "Set the part acceptance criteria here, somehow oddly"
+       "Decorate the whole office here",
+       "Fully replace the whole procedure here",
+       "Set the part acceptance criteria here"
       ],
       "answer": 0,
       "explanation": "Calibration records demonstrate that measurements were made with valid equipment, supporting the integrity of safety and image-quality data.",
@@ -6885,9 +6885,9 @@
       "stem": "When recording, a Level I generally reports:",
       "options": [
        "The technique performed and observations, under direction",
-       "A full formal final acceptance decision here, somehow oddly",
-       "A full engineering disposition here, somehow quite oddly",
-       "A full code interpretation ruling here, somehow oddly"
+       "A full formal final acceptance decision here",
+       "A full engineering disposition here",
+       "A full code interpretation ruling here"
       ],
       "answer": 0,
       "explanation": "A Level I documents what was done and what was observed; formal acceptance, disposition, and interpretation are higher-level responsibilities.",
@@ -6937,9 +6937,9 @@
       "stem": "Before submitting radiographs, the technician should:",
       "options": [
        "Check identification, density, and IQI are present and adequate",
-       "Just submit it all without any checking here, somehow quite oddly",
-       "Just remove all of the identification here, somehow quite oddly",
-       "Just crop the whole IQI right out here, somehow really quite oddly"
+       "Submit it all without any checking here",
+       "Remove all of the identification here",
+       "Crop the whole IQI right out here"
       ],
       "answer": 0,
       "explanation": "A final check that each radiograph is identified, in density range, and shows the required IQI prevents submitting invalid work.",
@@ -6989,9 +6989,9 @@
       "stem": "Complete process-control records help an organization:",
       "options": [
        "Demonstrate the work met requirements and trace any problem",
-       "Fully avoid all of the inspection here, somehow really quite oddly",
-       "Just sell off much more film here, somehow really quite oddly now",
-       "Just fully skip the calibration here, somehow really quite oddly"
+       "Fully avoid all of the inspection here",
+       "Sell off much more film here",
+       "Fully skip the calibration here"
       ],
       "answer": 0,
       "explanation": "Records show the technique, equipment, and image quality were adequate and let problems be traced to a cause, supporting audits and investigations.",
@@ -7015,9 +7015,9 @@
       "stem": "If the technician notices a possible serious indication, the appropriate action is to:",
       "options": [
        "Record it and refer it to the responsible higher-level personnel",
-       "Just decide the whole acceptance fully alone here, somehow oddly",
-       "Just erase it all fully here, somehow really quite oddly enough now",
-       "Just tell no one at all here, somehow really quite oddly enough now"
+       "Decide the whole acceptance fully alone here",
+       "Erase it all fully here",
+       "Tell no one at all here"
       ],
       "answer": 0,
       "explanation": "A Level I documents the observation and refers evaluation and disposition to qualified higher-level personnel rather than judging acceptance.",
@@ -7041,9 +7041,9 @@
       "stem": "Following a written procedure and keeping records helps ensure results are:",
       "options": [
        "Consistent and repeatable across technicians and jobs",
-       "Fully different every single time here, somehow oddly",
-       "Based only on personal work style here, somehow oddly",
-       "Fully impossible to ever verify here, somehow quite oddly"
+       "Fully different every single time here",
+       "Based only on personal work style here",
+       "Fully impossible to ever verify here"
       ],
       "answer": 0,
       "explanation": "Standardized procedures and records make radiographs consistent and verifiable regardless of who performed them.",
@@ -7067,9 +7067,9 @@
       "stem": "Which statement about recording and responsibilities is correct?",
       "options": [
        "Identify and document each radiograph, verify density and IQI, follow the procedure, report honestly, and refer evaluation to a higher level",
-       "A working Level I technician is the one who always makes the final part acceptance decision, somehow really quite oddly enough here right now indeed",
-       "Recorded inspection results may be freely altered later to make the part pass, somehow really quite oddly enough here right now indeed",
-       "Inspection records can simply be discarded right after a single viewing, somehow really quite oddly enough here right now indeed today now"
+       "A working Level I technician is the one who always makes the final part acceptance decision",
+       "Recorded inspection results may be freely altered later to make the part pass",
+       "Inspection records can simply be discarded right after a single viewing"
       ],
       "answer": 0,
       "explanation": "A Level I identifies and documents the work, confirms density and IQI, follows the procedure, reports truthfully, and leaves interpretation and acceptance to a Level II or higher.",

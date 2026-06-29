@@ -6313,7 +6313,7 @@
       "stem": "Demagnetization is performed when residual magnetism could:",
       "options": [
        "Interfere with later machining, welding, or measurement",
-       "Actually improve the later inspection process itself somehow",
+       "Actually improve the later inspection process itself",
        "Make the whole part weigh less",
        "Change the painted surface color of the part"
       ],
