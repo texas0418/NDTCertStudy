@@ -8440,9 +8440,9 @@
       "stem": "API 1104 covers the welding of:",
       "options": [
        "Pipelines and related facilities",
-       "Pressure vessels and boilers here",
-       "Structural building steel here",
-       "Plain aircraft components here"
+       "Boilers and pressure vessels",
+       "Structural building steelwork",
+       "Aircraft and spacecraft frames"
       ],
       "answer": 0,
       "explanation": "API 1104 is the standard for welding pipelines and related facilities carrying oil, gas, and related products.",
@@ -8466,9 +8466,9 @@
       "stem": "Under API 1104, a defect is:",
       "options": [
        "An imperfection of sufficient magnitude to warrant rejection",
-       "Any imperfection of any size here",
-       "A non-relevant geometric indication here",
-       "A correctly made weld feature here"
+       "Any imperfection at all, no matter how small its size or type",
+       "A geometric profile feature left behind by the weld root pass",
+       "A normal sound feature of any fully acceptable weld"
       ],
       "answer": 0,
       "explanation": "The code distinguishes an imperfection (any discontinuity) from a defect, which is an imperfection large enough to be rejectable.",
@@ -8492,9 +8492,9 @@
       "stem": "Under API 1104, the acceptance criteria for a discontinuity are established by:",
       "options": [
        "The governing code, applied per the method and criteria it specifies",
-       "The individual operator's judgment here",
-       "The whole pipe manufacturer here",
-       "The whole welding crew on site here"
+       "The inspector's personal preference, set fresh for each weld examined",
+       "The pipe manufacturer's own in-house standard for that pipe grade",
+       "The welding crew's agreed view on the day the job is run"
       ],
       "answer": 0,
       "explanation": "Acceptance criteria are defined by the governing code and applied using the method and limits it specifies, not chosen by the operator, manufacturer, or crew.",
@@ -8518,9 +8518,9 @@
       "stem": "API 1104 provides two routes to acceptance: the standard workmanship criteria and:",
       "options": [
        "Alternative acceptance criteria based on fracture mechanics and fitness for service",
-       "A route that ignores all the imperfections here",
-       "Acceptance by the welder's judgment here",
-       "A purely visual route with no NDE here"
+       "A route that simply ignores any imperfection found below the weld cap surface",
+       "Acceptance left entirely to the personal judgment of the welder making the joint",
+       "A route that drops all NDE entirely once the procedure has been qualified"
       ],
       "answer": 0,
       "explanation": "Besides workmanship-based limits, the code allows an alternative (engineering critical assessment) route using fracture mechanics and known flaw sizes.",
@@ -8544,9 +8544,9 @@
       "stem": "A distinguishing feature of API 1104 acceptance criteria compared with amplitude-based codes is that they rely heavily on:",
       "options": [
        "Imperfection type and dimension such as length",
-       "Echo amplitude versus a reference reflector alone",
-       "The scanning gain applied",
-       "The couplant selected"
+       "Echo amplitude read directly off the screen",
+       "The scanning gain chosen for the inspection",
+       "The couplant chosen during the scan pass"
       ],
       "answer": 0,
       "explanation": "API 1104 judges many imperfections by their type and length rather than primarily by amplitude relative to a reference reflector. Amplitude still plays a role in evaluation, but disposition is largely length and type driven.",
@@ -8570,9 +8570,9 @@
       "stem": "The alternative acceptance criteria in API 1104 generally require:",
       "options": [
        "Stress analysis and reliable flaw sizing to assess fitness for service",
-       "Only a visual check of the cap here",
-       "Lowering the inspection sensitivity here",
-       "Ignoring the whole pipe wall thickness here"
+       "A simple visual check of the cap alone to judge fitness for service",
+       "A drop in scanning sensitivity so more of the borderline flaws pass",
+       "No need to know the pipe wall thickness at all during the assessment"
       ],
       "answer": 0,
       "explanation": "Fitness-for-service acceptance depends on stress levels, material toughness, and accurate flaw dimensions, so reliable sizing is essential.",
@@ -8596,9 +8596,9 @@
       "stem": "In API 1104 work, ultrasonic testing is commonly used as:",
       "options": [
        "An alternative or supplement to radiography for girth weld inspection",
-       "A replacement for the whole welder qualification here",
-       "A method only for the base metal here",
-       "A substitute for the code itself here"
+       "A way to qualify the welders so that they need no separate test",
+       "A check of the base metal only, leaving the weld itself unexamined",
+       "A replacement for the code itself once all the welds are made"
       ],
       "answer": 0,
       "explanation": "UT, including mechanized systems, is widely accepted under API 1104 for inspecting pipeline girth welds.",
@@ -8622,9 +8622,9 @@
       "stem": "Automated ultrasonic testing (AUT) of mechanized girth welds typically uses:",
       "options": [
        "Zonal discrimination, dividing the weld bevel into zones each monitored by a focused probe",
-       "A single straight beam for the whole weld here",
-       "Radiographic film strips here",
-       "Only the manual scanning here"
+       "A single broad channel watching the whole weld bevel at once from one fixed probe",
+       "A radiographic film exposure taken right around the full girth of the weld",
+       "A manual operator sweeping a hand probe along every girth weld in turn"
       ],
       "answer": 0,
       "explanation": "Zonal discrimination assigns a focused transducer to each vertical zone of the bevel, matching the weld passes for fast, repeatable coverage.",
@@ -8648,9 +8648,9 @@
       "stem": "A practical advantage of AUT with zonal discrimination on pipeline girth welds is:",
       "options": [
        "Fast, consistent, real-time coverage suited to mechanized production welding",
-       "It removes the need for any calibration here",
-       "It works without any transducers here",
-       "It eliminates the need for qualified operators here"
+       "Complete coverage with no calibration needed at all before the run begins",
+       "Inspection carried out without any transducers along the scanning ring",
+       "Coverage that needs no qualified operators at all once it is set up"
       ],
       "answer": 0,
       "explanation": "AUT keeps pace with mechanized welding, giving immediate, repeatable results across the weld zones.",
@@ -8674,9 +8674,9 @@
       "stem": "In AUT zonal discrimination, each zone's focused probe is set to:",
       "options": [
        "Interrogate a specific depth and region of the weld bevel",
-       "Cover the whole entire weld at once here",
-       "Scan the base metal for the laminations here",
-       "Replace the whole back-wall echo here"
+       "Cover the entire weld bevel from root to cap all at once",
+       "Screen the surrounding base metal for laminations only first",
+       "Replace the back-wall echo used during the thickness check"
       ],
       "answer": 0,
       "explanation": "Each channel is focused on its assigned zone so that an indication can be tied to a particular part of the weld cross-section.",
@@ -8700,9 +8700,9 @@
       "stem": "Manual ultrasonic testing under API 1104 is:",
       "options": [
        "Permitted when performed to a qualified procedure by qualified personnel",
-       "Prohibited in all the cases here",
-       "Allowed without any procedure here",
-       "Only allowed on the base metal here"
+       "Never allowed under any circumstance at all once AUT is available",
+       "Allowed freely with no written procedure needed at all beforehand",
+       "Limited to checking the base metal and never the weld itself"
       ],
       "answer": 0,
       "explanation": "Manual UT is acceptable provided it follows a qualified procedure and is done by qualified technicians.",
@@ -8726,9 +8726,9 @@
       "stem": "Under API 1104, NDT personnel performing UT must be:",
       "options": [
        "Qualified in accordance with a recognized written practice or program",
-       "Certified only by the whole pipe manufacturer here",
-       "Unqualified if supervised here",
-       "Exempt from any qualification here"
+       "Approved directly by the pipe manufacturer for that one grade of pipe",
+       "Allowed to work unqualified so long as a qualified hand supervises them",
+       "Free to work with no formal qualification of any kind whatsoever"
       ],
       "answer": 0,
       "explanation": "The code requires UT personnel to be qualified under a recognized program such as a written practice referencing ASNT guidelines.",
@@ -8752,9 +8752,9 @@
       "stem": "Before production welding under API 1104, the welding procedure must be:",
       "options": [
        "Qualified to demonstrate it can produce sound welds",
-       "Used first and qualified later here",
-       "Assumed acceptable if the welder is experienced",
-       "Qualified only after a failure here"
+       "Qualified only once the first joints have been welded",
+       "Accepted on the welder's experience with no test at all",
+       "Qualified only after a weld has failed in service first"
       ],
       "answer": 0,
       "explanation": "A qualified welding procedure specification must be established before production to show the process yields acceptable welds.",
@@ -8778,9 +8778,9 @@
       "stem": "Welder qualification under API 1104 establishes that:",
       "options": [
        "The welder can produce welds meeting the code using the qualified procedure",
-       "The welder may ignore the procedure here",
-       "Inspection is no longer needed here",
-       "Any filler metal may be used here"
+       "The welder may work to any personal method outside the qualified procedure",
+       "The welder's joints need no further inspection at all once qualified",
+       "The welder may pick any filler metal at all regardless of the procedure"
       ],
       "answer": 0,
       "explanation": "Welder qualification demonstrates the individual can make acceptable welds under the qualified procedure.",
@@ -8804,9 +8804,9 @@
       "stem": "A change in an essential variable of a qualified welding procedure generally requires:",
       "options": [
        "Requalification of the procedure",
-       "Just plain no action at all here",
-       "Just only a plain verbal note here",
-       "Replacing the inspector here"
+       "Just a quick note in the file",
+       "A brief note added in the log",
+       "A sign-off by the site inspector"
       ],
       "answer": 0,
       "explanation": "Essential variables are those whose change affects weld properties, so altering one requires the procedure to be requalified.",
@@ -8830,9 +8830,9 @@
       "stem": "Inadequate penetration in a pipeline girth weld refers to:",
       "options": [
        "Weld metal failing to extend through and fill the root",
-       "Excess weld reinforcement on the whole cap here",
-       "A surface groove at the weld toe here",
-       "Scattered gas pores here"
+       "Weld metal piled up well above the cap surface of the joint",
+       "A groove melted into the base metal at the weld toe",
+       "Rounded gas voids trapped through the weld body metal"
       ],
       "answer": 0,
       "explanation": "Inadequate penetration is a root condition where the weld metal does not extend through and fill the joint root. It is distinct from incomplete fusion, which is a lack of bond rather than a lack of fill.",
@@ -8856,9 +8856,9 @@
       "stem": "Incomplete fusion is:",
       "options": [
        "A lack of bonding between weld metal and base metal or between passes",
-       "A plain rounded gas void here",
-       "A region of excess penetration here",
-       "A surface oxide film only here"
+       "A scatter of rounded gas voids trapped within the weld bead body",
+       "Molten metal blown clean through the root and into the pipe bore",
+       "A thin oxide film left across the finished surface of the cap"
       ],
       "answer": 0,
       "explanation": "Incomplete fusion is a planar lack of bond at the fusion face or between passes, well suited to angle-beam detection.",
@@ -8882,9 +8882,9 @@
       "stem": "Internal concavity in a girth weld is:",
       "options": [
        "A root condition where the fused weld surface lies below the pipe inner surface",
-       "A crack at the weld cap here",
-       "A cluster of slag here",
-       "Overlap at the toe here"
+       "A sharp crack opening at the cap on the outer surface of the finished weld",
+       "A pocket of trapped slag sitting low within the main body of the weld",
+       "A patch of undercut melted into the toe right along the weld"
       ],
       "answer": 0,
       "explanation": "Internal concavity describes a fused but recessed root surface; the code treats it as its own imperfection category.",
@@ -8908,9 +8908,9 @@
       "stem": "Burn-through is best described as:",
       "options": [
        "Excessive penetration where molten metal is blown into the pipe bore",
-       "Insufficient root penetration here",
-       "A plain surface arc strike here",
-       "A lamination in the base metal here"
+       "Too little penetration, leaving the root short of being fully filled",
+       "A small scar struck onto the surface by a stray welding arc tip",
+       "A flat separation lying within the pipe base-metal wall itself"
       ],
       "answer": 0,
       "explanation": "Burn-through results from excessive heat collapsing the molten root into the bore, a distinct rejectable condition.",
@@ -8934,9 +8934,9 @@
       "stem": "Elongated slag inclusions are:",
       "options": [
        "Linear nonmetallic material trapped in the weld",
-       "Rounded gas voids here",
-       "Planar unbonded faces here",
-       "Surface undercut here"
+       "Rounded gas voids scattered through the bead",
+       "Unbonded faces lying between adjacent weld passes",
+       "A groove melted along the toe of the weld"
       ],
       "answer": 0,
       "explanation": "Slag inclusions are trapped nonmetallic residue; elongated ones run lengthwise and are a defined imperfection type.",
@@ -8960,9 +8960,9 @@
       "stem": "Porosity in a weld is:",
       "options": [
        "Gas entrapment forming rounded voids",
-       "A plain planar crack here",
-       "A lack of the whole fusion plane here",
-       "A plain slag streak here"
+       "A sharp planar crack through the weld",
+       "An unbonded face between the passes",
+       "Trapped solid nonmetallic matter"
       ],
       "answer": 0,
       "explanation": "Porosity is gas trapped during solidification, appearing as rounded voids the code addresses separately from cluster porosity.",
@@ -8986,9 +8986,9 @@
       "stem": "Under API 1104, cracks are generally:",
       "options": [
        "Cause for rejection, with only very limited defined exceptions",
-       "Always acceptable if short here",
-       "Treated the same as the whole porosity here",
-       "Ignored if buried here"
+       "Freely accepted so long as they stay below the cap surface line",
+       "Treated as less serious than a patch of scattered weld porosity",
+       "Acceptable whenever they sit fully buried inside the weld body"
       ],
       "answer": 0,
       "explanation": "Cracks are planar and propagate, so the code rejects them (9.3.10); the only exception is a crater or star crack no longer than 5/32 in. (4 mm).",
@@ -9012,9 +9012,9 @@
       "stem": "Undercut in a girth weld is:",
       "options": [
        "A groove melted into the base metal at the weld toe",
-       "A plain subsurface gas void here",
-       "A root penetration excess here",
-       "A plain nonmetallic inclusion here"
+       "Rounded gas voids trapped right through the weld bead",
+       "Molten metal blown through the root and into the bore",
+       "Linear nonmetallic matter trapped within the weld"
       ],
       "answer": 0,
       "explanation": "Undercut is a surface groove at the toe that reduces the adjacent base metal thickness, a defined surface imperfection.",
@@ -9038,9 +9038,9 @@
       "stem": "API 1104 addresses an accumulation of imperfections because:",
       "options": [
        "Several small imperfections within a length of weld can together be rejectable",
-       "Only single imperfections ever matter here",
-       "Accumulated imperfections are always acceptable here",
-       "Accumulation applies only to the base metal here"
+       "Only one single imperfection at a time is ever judged against the code limit",
+       "An accumulation of small flaws can never on its own be a cause for rejection",
+       "It applies to the base metal alone and never to the weld body itself"
       ],
       "answer": 0,
       "explanation": "The code caps the combined length of imperfections within any continuous 12 in. (300 mm) of weld and against an 8 % of weld-length limit, so many small ones can together exceed acceptance.",
@@ -9064,9 +9064,9 @@
       "stem": "When evaluating a UT indication under API 1104, a primary measured characteristic is the indication's:",
       "options": [
        "Length",
-       "Color on the screen",
-       "Beam angle used",
-       "Scanning speed"
+       "Color",
+       "Angle",
+       "Speed"
       ],
       "answer": 0,
       "explanation": "Indication length is a central measured parameter when applying the code's dimension-based acceptance limits.",
@@ -9090,9 +9090,9 @@
       "stem": "Whether an imperfection is surface-connected or buried matters under API 1104 because:",
       "options": [
        "Acceptance limits can differ for surface and buried imperfections",
-       "It changes the required scanning speed here",
-       "It sets the whole couplant type here",
-       "It has no effect on the acceptance here"
+       "Scan speed must be raised for every surface-connected imperfection",
+       "A different couplant is required for surface versus buried flaws",
+       "It makes no difference at all to the acceptance limit applied"
       ],
       "answer": 0,
       "explanation": "The code may treat surface-breaking imperfections more conservatively than buried ones, so the distinction affects disposition.",
@@ -9116,9 +9116,9 @@
       "stem": "Determining the orientation of a weld flaw (transverse versus longitudinal) matters because it:",
       "options": [
        "Affects how the flaw is detected and which scanning is needed",
-       "Changes the whole pipe diameter here",
-       "Sets the welding current here",
-       "Has no inspection consequence here"
+       "Sets the diameter of pipe that the procedure may be used on",
+       "Fixes the welding current that is used to make the girth weld",
+       "Has no real effect at all on detection or the scanning chosen"
       ],
       "answer": 0,
       "explanation": "A transverse flaw requires scanning along the weld, while a longitudinal one is found scanning across it, so orientation drives the approach.",
@@ -9142,9 +9142,9 @@
       "stem": "A non-relevant indication from weld root geometry under API 1104 should be:",
       "options": [
        "Recognized as geometric and not recorded as a defect",
-       "Automatically rejected here",
-       "Treated as a whole crack here",
-       "Repaired immediately here"
+       "Recorded straight away as a rejectable weld defect itself",
+       "Treated as a root crack and removed by grinding it out",
+       "Repaired under a qualified weld repair procedure first"
       ],
       "answer": 0,
       "explanation": "Geometric reflectors from root or counterbore are non-relevant and must be distinguished from actual imperfections.",
@@ -9168,9 +9168,9 @@
       "stem": "Under API 1104, a weld containing a defect must generally be:",
       "options": [
        "Repaired or removed in accordance with qualified procedures",
-       "Left in the whole service as found here",
-       "Painted over to seal it here",
-       "Accepted if the welder approves here"
+       "Left in service so long as it is noted on the report sheet",
+       "Painted over to seal the defect against the weather outside",
+       "Accepted on the signature of the welder who first made it"
       ],
       "answer": 0,
       "explanation": "Defects must be repaired by qualified repair procedures or the weld removed, not left in place.",
@@ -9194,9 +9194,9 @@
       "stem": "Repairing a crack under API 1104 requires:",
       "options": [
        "Complete removal of the crack before rewelding, per a qualified repair procedure",
-       "Welding directly over the crack here",
-       "Leaving the crack if it is short here",
-       "No further inspection after repair here"
+       "Welding straight over the crack to seal it shut without removing any of it first",
+       "Leaving the crack in place whenever it sits down below the cap of the weld",
+       "Rewelding the area with no further inspection at all once the repair is done"
       ],
       "answer": 0,
       "explanation": "A crack must be fully excavated before any rewelding, following a qualified repair procedure, then reinspected.",
@@ -9220,9 +9220,9 @@
       "stem": "After a weld repair is completed, the repaired area must be:",
       "options": [
        "Reinspected by the applicable NDE method",
-       "Accepted without further checks here",
-       "Inspected only visually here",
-       "Documented but not reinspected here too"
+       "Documented only, with no further checks",
+       "Given a quick visual look, then passed",
+       "Logged on the report sheet and left there"
       ],
       "answer": 0,
       "explanation": "Repaired welds are reinspected to confirm the defect was removed and the repair is acceptable.",
@@ -9246,9 +9246,9 @@
       "stem": "Inspection records under API 1104 should document:",
       "options": [
        "The welds examined, the results, and the disposition of indications",
-       "Only the whole names of the welders here",
-       "Only the weather conditions here",
-       "Nothing, if the welds pass here"
+       "Only the names of the welders who ran each joint along the line",
+       "The weather conditions that were present on the day the welds were made",
+       "Only the welds that passed, leaving the rejects right off the record"
       ],
       "answer": 0,
       "explanation": "Documentation records what was inspected, the findings, and how indications were dispositioned, supporting traceability.",
@@ -9272,9 +9272,9 @@
       "stem": "Under API 1104, a UT procedure used for production must be:",
       "options": [
        "Established and qualified before it is applied to production welds",
-       "Written after the inspection is complete here",
-       "Optional if an operator is experienced here",
-       "The same as the whole radiographic procedure here"
+       "Written up only after the production welds have all been examined",
+       "Accepted on the crew's experience with no formal qualification at all",
+       "Identical to the radiographic procedure used on those very joints"
       ],
       "answer": 0,
       "explanation": "A qualified UT procedure must exist before production inspection, defining technique, calibration, and acceptance.",
@@ -9298,9 +9298,9 @@
       "stem": "An AUT system operator under API 1104 must be able to:",
       "options": [
        "Demonstrate competence with the qualified system and interpret its results",
-       "Operate without any training here",
-       "Override the acceptance criteria here",
-       "Skip calibration if the results look good here"
+       "Run the system with no qualification or training of any kind at all first",
+       "Override the acceptance criteria at will whenever a result looks marginal",
+       "Skip the calibration step entirely as long as the line keeps moving"
       ],
       "answer": 0,
       "explanation": "AUT operators must be qualified on the system and able to set it up, calibrate it, and interpret its output correctly.",
@@ -9324,9 +9324,9 @@
       "stem": "The fundamental purpose of the API 1104 acceptance standards is to:",
       "options": [
        "Define which imperfections are acceptable so the weld performs reliably in service",
-       "Guarantee a perfectly flaw-free weld here",
-       "Maximize the rejection rate here",
-       "Eliminate the need for inspection here"
+       "Demand a weld that is completely free of every imperfection before it can pass",
+       "Reject as many welds as possible so as to keep the failure rate at zero",
+       "Set limits that hold up even when no inspection of the weld is ever done"
       ],
       "answer": 0,
       "explanation": "The criteria distinguish acceptable imperfections from rejectable defects so the finished pipeline weld performs safely in service.",
@@ -9356,9 +9356,9 @@
       "stem": "A UT technician working under API 1104 is responsible for:",
       "options": [
        "Performing the examination to the qualified procedure and reporting results accurately",
-       "Changing the acceptance criteria to pass the welds here",
-       "Approving the whole welding procedure here",
-       "Setting the pipeline operating pressure here"
+       "Setting the accept and reject criteria himself for each weld he examines along the line",
+       "Approving the welding procedure himself before any production welding gets underway",
+       "Setting the operating pressure that the finished pipeline will carry in service"
       ],
       "answer": 0,
       "explanation": "The technician's duty is faithful execution of the qualified procedure and honest, accurate reporting.",
@@ -9382,9 +9382,9 @@
       "stem": "If field conditions make the qualified UT procedure impractical, the technician should:",
       "options": [
        "Stop and have the procedure revised or requalified before proceeding",
-       "Improvise a new technique on the spot here",
-       "Lower the gain to finish faster here",
-       "Skip the affected welds quietly here"
+       "Carry on while quietly deviating from the qualified procedure used",
+       "Adjust the instrument settings off-procedure to suit the field conditions",
+       "Skip the affected welds and move on down the line without saying a word"
       ],
       "answer": 0,
       "explanation": "Work must follow the qualified procedure; if it cannot, the procedure is revised and requalified rather than improvised.",
@@ -9408,9 +9408,9 @@
       "stem": "Reporting a marginal indication that is just above the recording level is:",
       "options": [
        "Required, since results must be recorded honestly regardless of inconvenience",
-       "Optional if the schedule is tight here",
-       "Discouraged to avoid the extra repairs here",
-       "Left to the welding crew to decide here"
+       "Optional, and left to the technician to record or pass over as he sees fit",
+       "Best left off the report so that the weld is not held up over a small flaw",
+       "Left to the welding crew to record once the joint has been finished off"
       ],
       "answer": 0,
       "explanation": "Integrity requires recording indications that meet the threshold, even when it creates additional work.",
@@ -9434,9 +9434,9 @@
       "stem": "When a UT result conflicts with the welding crew's expectation, the technician should:",
       "options": [
        "Report the actual finding and follow the procedure for disposition",
-       "Adjust the result to match the expectations here",
-       "Defer to whoever is more senior here",
-       "Delete the whole indication here"
+       "Adjust the result to match what the welding crew had expected to see",
+       "Defer to the most senior welder present and record his own view",
+       "Delete the indication so that the disagreement does not arise at all"
       ],
       "answer": 0,
       "explanation": "The technician documents what the examination shows and lets the code's disposition process handle it.",
@@ -9460,9 +9460,9 @@
       "stem": "Using settings or a technique not covered by the qualified procedure is:",
       "options": [
        "Not permitted, because results would be outside the qualified method",
-       "Fine if the whole operator is experienced here",
-       "Allowed to save the time here",
-       "Encouraged for flexibility here"
+       "Allowed for any experienced hand who knows the equipment well",
+       "Acceptable whenever the schedule is tight and welds are stacking up",
+       "Encouraged as a quick way to get a clearer signal off the weld"
       ],
       "answer": 0,
       "explanation": "Valid results require staying within the qualified procedure's technique and parameters.",
@@ -9486,9 +9486,9 @@
       "stem": "If a calibration check at the end of a scanning period shows the setup has drifted, the technician must:",
       "options": [
        "Recalibrate and re-examine the welds covered since the last valid calibration",
-       "Accept the prior results anyway here",
-       "Only note it for next time here",
-       "Increase the gain to compensate here"
+       "Accept all the earlier results, since the drift only showed up at the very end",
+       "Note the drift and re-examine the affected welds at some much later date",
+       "Add a little extra gain to make up the difference and carry on scanning"
       ],
       "answer": 0,
       "explanation": "When a calibration check fails, work done since the last good check is suspect and must be repeated after recalibration.",
@@ -9512,9 +9512,9 @@
       "stem": "Calibration of the UT setup in the field should be verified:",
       "options": [
        "At the start, at intervals, and at the end of the inspection period",
-       "Only once at the start of the job here",
-       "Only if an indication is found here",
-       "Never, once set in the whole shop here"
+       "At the very start only, before any of the welds have been scanned",
+       "Only when an indication turns up that then needs to be sized",
+       "Back in the shop only, and never out in the field itself"
       ],
       "answer": 0,
       "explanation": "Periodic and end-of-period checks confirm the calibration held throughout the field work.",
@@ -9538,9 +9538,9 @@
       "stem": "A significant change in pipe or ambient temperature during field UT matters because it can:",
       "options": [
        "Shift material velocity and invalidate the calibration",
-       "Change the whole pipe diameter permanently here",
-       "Improve the whole signal automatically here",
-       "Eliminate the whole need to recalibrate here"
+       "Permanently alter the pipe diameter being inspected",
+       "Sharpen the readings, so it can be left to manage casually",
+       "Remove any need to recheck the calibration setup at all"
       ],
       "answer": 0,
       "explanation": "Velocity varies with temperature, so a large field temperature change calls for rechecking and possibly recalibrating.",
@@ -9564,9 +9564,9 @@
       "stem": "A technician's UT qualification must be:",
       "options": [
        "Current and appropriate for the work being performed",
-       "Permanent and never renewed here",
-       "Optional for the field work here",
-       "Held by the whole welding foreman instead here"
+       "Valid once, even if it has since lapsed for a few years",
+       "Optional for any field work out on the pipeline spread",
+       "Held by a co-worker standing right alongside on the job"
       ],
       "answer": 0,
       "explanation": "The technician must hold current, applicable qualification for the method and level of work performed.",
@@ -9590,9 +9590,9 @@
       "stem": "Vision requirements for NDT personnel exist because:",
       "options": [
        "Interpreting displays and indications depends on adequate visual acuity",
-       "They are a formality with no purpose here",
-       "They only apply to the radiography here",
-       "They replace the whole technical training here"
+       "They are a formality with no real bearing on the actual inspection work",
+       "They apply to radiography alone and never to any ultrasonic work",
+       "They stand in for proper training and so need no course at all"
       ],
       "answer": 0,
       "explanation": "Reading an A-scan, its scales, and small indications depends primarily on verified near visual acuity. Color vision is also part of the standard requirement set, though it is more directly load-bearing for methods like penetrant testing than for reading a UT display.",
@@ -9616,9 +9616,9 @@
       "stem": "Field UT records should be:",
       "options": [
        "Complete, legible, and retained per the project and code requirements",
-       "Discarded once the whole weld passes here",
-       "Kept only in the technician's memory here",
-       "Limited to a verbal report here"
+       "Thrown out once the welds on that joint have all passed inspection",
+       "Kept in the technician's own memory rather than written down at all",
+       "Left undocumented so long as the results were all acceptable"
       ],
       "answer": 0,
       "explanation": "Accurate, retained documentation supports traceability and code compliance for each weld examined.",
@@ -9642,9 +9642,9 @@
       "stem": "If a weld is re-examined after repair, the records should:",
       "options": [
        "Show both the original finding and the post-repair result",
-       "Replace the original with the new result only here",
-       "Omit the repair entirely here",
-       "Record only that it eventually passed here"
+       "Show only the clean post-repair result and drop the original finding",
+       "Skip any note of the repair and the reinspection that followed",
+       "List the final outcome alone, without the steps that came in between"
       ],
       "answer": 0,
       "explanation": "Keeping the original finding, the repair, and the reinspection result preserves a complete, auditable history.",
@@ -9668,9 +9668,9 @@
       "stem": "Before entering a bell hole or excavation to inspect a girth weld, the technician should:",
       "options": [
        "Confirm the excavation is safe and follow confined-space and shoring requirements",
-       "Enter immediately to save the time here",
-       "Assume it is safe if others are nearby here",
-       "Skip any permit process here"
+       "Climb straight in and begin the inspection without doing any safety check first",
+       "Take it that the hole is safe because other crew are already working down in it",
+       "Get on with the weld scan and leave the permits and the checks for later"
       ],
       "answer": 0,
       "explanation": "Excavations and bell holes carry collapse and atmosphere hazards, so shoring, permits, and confined-space rules apply before entry.",
@@ -9694,9 +9694,9 @@
       "stem": "Working near mechanized welding and AUT scanner bands, the technician must watch for:",
       "options": [
        "Pinch points, moving bands, and hot surfaces",
-       "Just plain only the electrical hazards here",
-       "No hazards at all here",
-       "The radiation from the scanner here"
+       "Glare coming off the bright weld arc",
+       "Nothing at all, since the area is safe",
+       "Ionizing radiation from the scanner head"
       ],
       "answer": 0,
       "explanation": "Mechanized welding and scanner bands create pinch points, moving parts, and hot surfaces to guard against.",
@@ -9720,9 +9720,9 @@
       "stem": "UT instrument electrical safety in the field requires:",
       "options": [
        "Inspecting cables and using equipment rated for the environment",
-       "Ignoring frayed cables if the whole unit still runs here",
-       "Running the equipment in the standing water freely here",
-       "Removing all the grounding here"
+       "Running cables that are nicked or frayed so long as they still work",
+       "Setting the instrument down in any standing water beside the ditch",
+       "Defeating the ground pin to fit it into an old two-prong outlet"
       ],
       "answer": 0,
       "explanation": "Damaged cables and wet conditions are electrical hazards, so equipment is inspected and used within its ratings.",
@@ -9746,9 +9746,9 @@
       "stem": "Couplant and cleaning chemicals used in the field should be:",
       "options": [
        "Handled according to their safety data sheets and disposed of properly",
-       "Used without any regard to the SDS here",
-       "Poured onto the ground after the use here",
-       "Assumed harmless in all the cases here"
+       "Used straight from the drum with no look at the safety data sheet at all",
+       "Tipped out onto the ground beside the ditch once the scan is done",
+       "Treated as harmless, so no data sheet is ever needed on the site"
       ],
       "answer": 0,
       "explanation": "Couplants and solvents have handling, exposure, and disposal requirements set out in their safety data sheets.",
@@ -9772,9 +9772,9 @@
       "stem": "On an active pipeline right-of-way, the technician must be aware of:",
       "options": [
        "Moving heavy equipment, traffic, and other crews working nearby",
-       "Only the whole weld being inspected here",
-       "Nothing beyond the instrument here",
-       "Only the weather here"
+       "Only the weld right in front of him and nothing else around",
+       "Just the patch of ground directly beneath his own feet",
+       "Equipment alone, since no other crews are ever working nearby"
       ],
       "answer": 0,
       "explanation": "A construction right-of-way has spreads of moving equipment and multiple crews, demanding constant situational awareness.",
@@ -9798,9 +9798,9 @@
       "stem": "Weather conditions matter to field UT safety and quality because:",
       "options": [
        "Cold, heat, rain, and wind affect both personnel safety and coupling",
-       "They never affect the whole work here",
-       "They only matter for the radiography here",
-       "They improve the readings when extreme here"
+       "Only the look of the weld cap and nothing about the inspection itself",
+       "Other trades only, and never the ultrasonic field work being done",
+       "Heavy rain and hard cold actually sharpen up the screen readings"
       ],
       "answer": 0,
       "explanation": "Environmental extremes threaten worker safety and can disrupt coupling and instrument behavior.",
@@ -9824,9 +9824,9 @@
       "stem": "Required personal protective equipment on a pipeline spread typically includes:",
       "options": [
        "Hard hat, eye protection, high-visibility wear, and appropriate footwear",
-       "No PPE for the inspection tasks here",
-       "Only the gloves here",
-       "Hearing protection only here"
+       "No protective gear at all, since inspection is light, hands-off work",
+       "A pair of work gloves on their own and nothing else required at all",
+       "Just a hard hat by itself, with the rest left to personal choice"
       ],
       "answer": 0,
       "explanation": "Pipeline construction sites require standard PPE to protect against the site's mechanical, visibility, and impact hazards.",
@@ -9850,9 +9850,9 @@
       "stem": "If a technician identifies an unsafe condition during inspection, the correct action is to:",
       "options": [
        "Stop work and report the condition through the proper channel",
-       "Continue and mention it later here",
-       "Fix high-voltage or structural hazards personally here",
-       "Ignore it if it is not in the whole weld here"
+       "Carry on with the scan and sort it out once the weld is done",
+       "Fix the hazard yourself, even if it lies outside your own trade",
+       "Leave it be so long as it does not touch the weld itself"
       ],
       "answer": 0,
       "explanation": "Stop-work authority and prompt reporting are central to field safety culture.",
@@ -9876,9 +9876,9 @@
       "stem": "Transducer wear faces and wedges should be:",
       "options": [
        "Inspected for wear and replaced when worn to keep the setup valid",
-       "Used until they fail completely here",
-       "Never replaced once calibrated here",
-       "Cleaned only at the end of the job here"
+       "Run until they fail outright, since wear has no effect before then",
+       "Swapped out without bothering to recalibrate the whole setup again",
+       "Left unchecked all through the job, since wedges do not wear in use"
       ],
       "answer": 0,
       "explanation": "A worn wedge changes the beam index and angle, so wear is monitored and the wedge replaced and recalibrated as needed.",
@@ -9902,9 +9902,9 @@
       "stem": "Cables and connectors should be:",
       "options": [
        "Kept clean and undamaged to ensure reliable signal transmission",
-       "Coiled tightly around the sharp edges here",
-       "Left in the standing water here",
-       "Ignored unless the whole unit fails here"
+       "Coiled tightly around sharp tool edges in between each scan pass",
+       "Left lying down in the standing water at the bottom of the ditch",
+       "Looked at only once a connector has already failed out on the job"
       ],
       "answer": 0,
       "explanation": "Damaged or dirty cables and connectors degrade signals, so they are kept in good condition.",
@@ -9928,9 +9928,9 @@
       "stem": "Reference and calibration blocks should be:",
       "options": [
        "Protected from damage and corrosion so they remain valid references",
-       "Used as the whole hammers or pry tools here",
-       "Left to rust in the field here",
-       "Discarded after one use here"
+       "Used as handy hammers and pry bars whenever a tool runs short",
+       "Left out to rust in the weather between the inspection jobs themselves",
+       "Thrown away after each job and then replaced with a fresh block"
       ],
       "answer": 0,
       "explanation": "A damaged or corroded block is no longer a valid reference, so blocks are stored and handled carefully.",
@@ -9954,9 +9954,9 @@
       "stem": "Good general practice before starting field UT includes:",
       "options": [
        "Verifying equipment function, calibration, and the correct procedure",
-       "Skipping the checks to start quickly here",
-       "Using whatever probe is nearest here",
-       "Relying on the last crew's setup here"
+       "Starting straight in on the welds with no pre-job checks done at all",
+       "Grabbing whatever probe is closest to hand, procedure or not",
+       "Trusting that the last crew left the whole setup ready to go"
       ],
       "answer": 0,
       "explanation": "Confirming equipment, calibration, and the applicable procedure before scanning prevents invalid results.",
@@ -9980,9 +9980,9 @@
       "stem": "Surface preparation before scanning a girth weld should:",
       "options": [
        "Remove scale, spatter, and debris to ensure consistent coupling",
-       "Be skipped on the new pipe here",
-       "Add the paint for protection here",
-       "Leave heavy mill scale in place here"
+       "Be skipped on new pipe, since it never needs any cleaning at all",
+       "Leave the paint coat in place, since it helps the probe slide",
+       "Leave the mill scale in place, as it makes no odds to coupling"
       ],
       "answer": 0,
       "explanation": "Clean, sound surfaces give consistent coupling, which is essential for valid field readings.",
@@ -10006,9 +10006,9 @@
       "stem": "When a rejectable defect is confirmed, the technician should:",
       "options": [
        "Document it and communicate the result through the proper reporting channel",
-       "Tell the welder to grind it without a record here",
-       "Keep it informal to avoid the paperwork here",
-       "Decide the repair method personally here"
+       "Fix it quietly and leave the finding off the report sheet altogether",
+       "Mention it to the crew lead in passing and then leave it at that",
+       "Decide on the repair himself and direct the crew on how to do it"
       ],
       "answer": 0,
       "explanation": "Confirmed defects are recorded and reported so the proper repair and reinspection process is followed.",
@@ -10032,9 +10032,9 @@
       "stem": "Clear marking of an indication's location on the pipe helps:",
       "options": [
        "The repair crew locate and address the exact area",
-       "Hide the whole indication from review here",
-       "Calibrate the whole instrument here",
-       "Replace the whole written record here"
+       "Hide the indication from the follow-up team",
+       "Calibrate the instrument ahead of the next scan",
+       "Stand in for the written records of the find"
       ],
       "answer": 0,
       "explanation": "Accurate marking lets the repair crew find the precise location for excavation and rework.",
@@ -10058,9 +10058,9 @@
       "stem": "If a technician is unsure whether an indication is relevant geometry or a real flaw, the best practice is to:",
       "options": [
        "Investigate further with probe movement and comparison to the weld geometry before deciding",
-       "Record it as a whole defect immediately here",
-       "Dismiss it without any checking here",
-       "Ask the whole welder to decide here"
+       "Reject the joint straight away without looking into the indication any further at all",
+       "Write the indication off as harmless geometry and move straight on without checking it",
+       "Leave the call to someone else, since evaluation is not really his own job to make"
       ],
       "answer": 0,
       "explanation": "Sound practice is to characterize the indication thoroughly before classifying it, rather than guessing.",
@@ -10084,9 +10084,9 @@
       "stem": "The ultimate purpose of the technician's diligence under API 1104 is to:",
       "options": [
        "Ensure pipeline welds are sound and safe for service",
-       "Maximize the whole number of repairs here",
-       "Finish the spread as fast as possible here",
-       "Satisfy the welding crew here"
+       "Run up the total number of repairs called on the job",
+       "Get the line welded out as fast as it can be managed",
+       "Keep the welding crew happy with all the results"
       ],
       "answer": 0,
       "explanation": "Careful, honest inspection protects the integrity and safety of the finished pipeline.",
@@ -10110,9 +10110,9 @@
       "stem": "Maintaining steady probe contact and couplant during field scanning is important because:",
       "options": [
        "Inconsistent coupling changes amplitude and can hide indications",
-       "It changes the whole refracted angle here",
-       "It selects the weld acceptance level here",
-       "It is only a cosmetic concern here"
+       "A change in probe pressure swings the refracted angle right across",
+       "Steady coupling is what fixes the accept and reject level on the job",
+       "Coupling has no real bearing at all on whether a flaw is detected"
       ],
       "answer": 0,
       "explanation": "Variable coupling makes amplitudes unreliable and risks missing indications, so steady contact is maintained.",

@@ -31,9 +31,9 @@
       "stem": "Ultrasonic testing uses:",
       "options": [
        "High-frequency sound waves to detect flaws and measure thickness",
-       "Plain X-rays here",
-       "Magnetic fields here",
-       "Liquid penetrant here"
+       "Penetrating X-rays to expose film and reveal the internal flaws",
+       "Magnetic fields to draw fine particles to surface-breaking flaws",
+       "Liquid dye drawn into the surface cracks that are open to it"
       ],
       "answer": 0,
       "explanation": "UT introduces high-frequency sound into a material and uses the returning echoes to find discontinuities and measure thickness.",
@@ -57,9 +57,9 @@
       "stem": "Sound waves require:",
       "options": [
        "A medium (solid, liquid, or gas) to travel through",
-       "A plain vacuum here",
-       "Light here",
-       "Radiation here"
+       "Nothing at all, since it passes through a vacuum freely",
+       "A source of light present to carry it along its path",
+       "An electromagnetic field in order to radiate outward"
       ],
       "answer": 0,
       "explanation": "Sound is a mechanical vibration that needs a medium to propagate; it cannot travel through a vacuum.",
@@ -83,9 +83,9 @@
       "stem": "Ultrasonic frequencies are those:",
       "options": [
        "Above the range of human hearing (above about 20 kHz)",
-       "Only ever below 20 Hz here",
-       "Within the normal speech range here",
-       "Fully equal to the radio waves here"
+       "Below the range of human hearing (under about 20 Hz only)",
+       "Right within the normal range of everyday human speech",
+       "Up in the electromagnetic radio band of the spectrum"
       ],
       "answer": 0,
       "explanation": "Ultrasound is sound above human hearing (above roughly 20 kHz). Industrial UT commonly uses frequencies from about 1 to 10 MHz.",
@@ -135,9 +135,9 @@
       "stem": "Velocity, frequency, and wavelength are related by:",
       "options": [
        "Velocity equals frequency times wavelength",
-       "Velocity equals frequency divided by wavelength",
-       "Velocity equals wavelength divided by frequency",
-       "Velocity is unrelated to them"
+       "Velocity equals frequency over the wavelength",
+       "Wavelength equals velocity times frequency",
+       "Velocity is fixed and ignores both of them"
       ],
       "answer": 0,
       "explanation": "Velocity equals frequency times wavelength. For a fixed material velocity, raising the frequency shortens the wavelength.",
@@ -161,9 +161,9 @@
       "stem": "The velocity of sound in a given material is mainly a property of:",
       "options": [
        "The material and wave mode",
-       "The instrument frequency",
+       "The chosen test frequency",
        "The pulse repetition rate",
-       "The amplitude of the pulse"
+       "The set pulse amplitude"
       ],
       "answer": 0,
       "explanation": "Sound velocity is set by the material and the wave mode (longitudinal, shear, surface), not by the chosen test frequency.",
@@ -187,9 +187,9 @@
       "stem": "In a longitudinal (compression) wave, particle motion is:",
       "options": [
        "Parallel to the direction of wave travel",
-       "Perpendicular to the whole wave travel here",
-       "Along the whole part surface only here",
-       "Fully absent here"
+       "Perpendicular to the direction of wave travel",
+       "Confined to a thin layer at the free surface",
+       "Absent, with no real particle movement at all"
       ],
       "answer": 0,
       "explanation": "Longitudinal waves vibrate particles back and forth along the propagation direction. They travel in solids, liquids, and gases and are the fastest mode.",
@@ -213,9 +213,9 @@
       "stem": "In a shear (transverse) wave, particle motion is:",
       "options": [
        "Perpendicular to the direction of wave travel",
-       "Fully parallel to the whole wave travel here",
-       "In a tight circle at the whole surface here",
-       "Fully nonexistent here"
+       "Running parallel to the direction of wave travel",
+       "Elliptical, confined to the free surface layer",
+       "Absent, since no particle movement occurs at all"
       ],
       "answer": 0,
       "explanation": "Shear waves vibrate particles across the propagation direction. They travel only in solids and move at roughly half the longitudinal velocity in the same material.",
@@ -239,9 +239,9 @@
       "stem": "Shear waves can travel through:",
       "options": [
        "Solids, but generally not liquids or gases",
-       "All states of matter fully equally here",
-       "Only ever the gases here",
-       "Only ever a vacuum here"
+       "Liquids and gases just as well as it does solids",
+       "Gases more readily than through any solid metal",
+       "A vacuum as easily as it crosses a solid"
       ],
       "answer": 0,
       "explanation": "Shear waves require a medium that supports shear stress, so they travel in solids but not in liquids or gases.",
@@ -265,9 +265,9 @@
       "stem": "Compared with the longitudinal velocity in the same steel, the shear velocity is about:",
       "options": [
        "Roughly half",
-       "Roughly the same",
-       "Roughly double",
-       "Roughly ten times"
+       "About equal",
+       "About double",
+       "Roughly tenfold"
       ],
       "answer": 0,
       "explanation": "In steel the shear velocity is roughly half the longitudinal velocity, closer to about 0.55 times it. The half value is an approximation used at Level I, and it matters when setting up shear (angle-beam) inspections.",
@@ -291,9 +291,9 @@
       "stem": "A surface (Rayleigh) wave travels:",
       "options": [
        "Along the surface to a depth of roughly one wavelength",
-       "Straight through the whole center here",
-       "Only ever in the liquids here",
-       "Faster than longitudinal waves here"
+       "Right through the center of the part along its axis",
+       "Through the body of a liquid bath surrounding the part",
+       "Faster than any longitudinal wave through the same metal"
       ],
       "answer": 0,
       "explanation": "Surface waves follow the surface, penetrating on the order of one wavelength deep as an approximation, and are useful for surface and near-surface flaws on a part.",
@@ -318,8 +318,8 @@
       "options": [
        "Shortens the wavelength",
        "Lengthens the wavelength",
-       "Does not change the wavelength",
-       "Changes the material velocity"
+       "Leaves it fully unchanged",
+       "Raises the sound velocity"
       ],
       "answer": 0,
       "explanation": "Since velocity equals frequency times wavelength, raising frequency at a fixed velocity shortens the wavelength, which improves resolution of small flaws.",
@@ -343,9 +343,9 @@
       "stem": "In the pulse-echo technique, one transducer:",
       "options": [
        "Sends a pulse and receives the returning echoes",
-       "Only ever sends here",
-       "Only ever receives here",
-       "Emits X-rays here"
+       "Only receives, while a second one sends the pulse",
+       "Only sends, while a second one takes the echoes",
+       "Emits a short burst of X-rays toward the back wall"
       ],
       "answer": 0,
       "explanation": "In pulse-echo, a single transducer transmits a sound pulse and then receives the echoes from reflectors and the back surface; the time of flight gives distance.",
@@ -369,9 +369,9 @@
       "stem": "Pulse-echo measures distance to a reflector using:",
       "options": [
        "The travel time of the echo and the material velocity",
-       "Only ever the whole amplitude of the echo here",
-       "Only the whole frequency of the transducer here now",
-       "Only the whole pulse repetition rate here"
+       "The amplitude of the echo and the set receiver gain",
+       "The test frequency and the width of the probe crystal",
+       "The pulse repetition rate set on the instrument dial"
       ],
       "answer": 0,
       "explanation": "Distance is found from the echo travel time and the known sound velocity in the material. Half the round-trip time corresponds to the one-way depth.",
@@ -395,9 +395,9 @@
       "stem": "Through-transmission testing uses:",
       "options": [
        "A separate transmitter and receiver on opposite sides",
-       "One transducer for both here",
-       "No transducer at all here",
-       "A plain magnet here"
+       "One single transducer that both sends and receives",
+       "No transducer at all, just a coil and a bar magnet",
+       "A strong magnet to pull the sound through the part"
       ],
       "answer": 0,
       "explanation": "Through-transmission places a transmitting transducer on one side and a receiver on the other; a flaw reduces the received signal. It does not locate depth as pulse-echo does.",
@@ -421,9 +421,9 @@
       "stem": "Sound reflects at an interface when there is a difference in:",
       "options": [
        "Acoustic impedance between the two materials",
-       "Outer color here",
-       "The magnetic permeability here",
-       "The electrical resistance here"
+       "The surface color between the two materials",
+       "Magnetic permeability between the two materials",
+       "Electrical resistance between the two materials"
       ],
       "answer": 0,
       "explanation": "Reflection occurs at boundaries where acoustic impedance changes. The larger the impedance mismatch, the more sound is reflected.",
@@ -447,9 +447,9 @@
       "stem": "Acoustic impedance is the product of a material's:",
       "options": [
        "Density and sound velocity",
-       "Hardness and the color here",
-       "Weight and temperature",
-       "Frequency and gain here"
+       "Hardness and surface color",
+       "Weight and the temperature",
+       "Frequency and set gain"
       ],
       "answer": 0,
       "explanation": "Acoustic impedance equals density times sound velocity. Impedance differences at interfaces determine how much sound reflects.",
@@ -473,9 +473,9 @@
       "stem": "An air gap between the transducer and the part reflects nearly all the sound because:",
       "options": [
        "Air has a very large impedance mismatch with solids",
-       "Air conducts the sound fully perfectly here",
-       "Air is fully magnetic here",
-       "Air is fully transparent here"
+       "Air carries the sound perfectly straight into the solid",
+       "Air is nonmagnetic, which blocks the sound at the gap",
+       "Air is optically clear, so the sound cannot cross it"
       ],
       "answer": 0,
       "explanation": "The huge impedance difference between air and a solid reflects almost all the sound at the interface, which is why a couplant is needed to exclude air.",
@@ -499,9 +499,9 @@
       "stem": "A couplant is used in contact UT to:",
       "options": [
        "Exclude air and transmit sound into the part",
-       "Fully magnetize the whole part here right now",
-       "Cool the whole transducer down only here now",
-       "Fully color the whole indication here right now"
+       "Magnetize the part before the scanning begins",
+       "Cool the crystal down during a long scanning run",
+       "Color the indications so that they stand out"
       ],
       "answer": 0,
       "explanation": "Couplant fills the gap between transducer and part, excluding air so sound can pass into the material efficiently.",
@@ -525,9 +525,9 @@
       "stem": "Attenuation is the:",
       "options": [
        "Loss of sound energy as it travels through material",
-       "The gain added on by the whole instrument here",
-       "The reflection of the sound at the backwall here",
-       "The whole speed of the sound in the material here"
+       "Amplification of the signal added in by the receiver",
+       "The echo returned from the back surface of the part",
+       "The speed at which the sound travels through the part"
       ],
       "answer": 0,
       "explanation": "Attenuation is the weakening of the sound beam with distance, from absorption and scattering. It limits how deep flaws can be detected.",
@@ -551,9 +551,9 @@
       "stem": "Attenuation is mainly caused by:",
       "options": [
        "Absorption and scattering",
-       "Refraction at the entry surface",
-       "High instrument gain",
-       "A long delay setting"
+       "Refraction at interfaces",
+       "The receiver gain setting",
+       "The delay zero setting"
       ],
       "answer": 0,
       "explanation": "Sound energy is lost to absorption (conversion to heat) and scattering (deflection by grains and structure). Coarse grain increases scattering.",
@@ -577,9 +577,9 @@
       "stem": "Coarse-grained material tends to:",
       "options": [
        "Scatter sound and increase attenuation",
-       "Fully eliminate the attenuation here",
-       "Speed up the whole instrument here now",
-       "Remove the whole need for couplant here now"
+       "Remove all attenuation and clear the noise",
+       "Speed up the instrument's whole sweep rate",
+       "Do away with the need for any couplant"
       ],
       "answer": 0,
       "explanation": "Large grains scatter the beam, raising attenuation and noise, which often calls for lower frequencies to penetrate such material.",
@@ -603,9 +603,9 @@
       "stem": "Compared with lower frequencies, higher frequencies generally provide:",
       "options": [
        "Better resolution and sensitivity to small flaws",
-       "Much greater overall beam penetration here right now",
-       "Much less overall sound attenuation here now",
-       "A much longer overall sound wavelength here now"
+       "More penetration through thick attenuative material",
+       "Lower attenuation right across the whole sound path",
+       "A longer wavelength at the same sound velocity"
       ],
       "answer": 0,
       "explanation": "Higher frequency means shorter wavelength, improving resolution and small-flaw sensitivity, but with more attenuation and less penetration.",
@@ -629,9 +629,9 @@
       "stem": "Lower frequencies are often chosen for:",
       "options": [
        "Greater penetration in thick or attenuative material",
-       "Much better small-flaw resolution here",
-       "A much shorter sound wavelength here",
-       "Much higher overall attenuation here"
+       "Sharper resolution of the very small near-surface flaws",
+       "A shorter wavelength at the same sound velocity",
+       "A clear drop in attenuation across a coarse-grained part"
       ],
       "answer": 0,
       "explanation": "Lower frequency penetrates deeper and is less affected by scattering, useful for thick or coarse-grained parts, at the cost of resolution.",
@@ -655,9 +655,9 @@
       "stem": "Echo amplitude from a reflector depends partly on its:",
       "options": [
        "Size, orientation, and the sound reaching it",
-       "Outer color here",
-       "The magnetic property here",
-       "The electrical charge here"
+       "The surface color of the reflector face itself",
+       "The magnetic property of the reflector metal",
+       "The electrical charge held on the reflector"
       ],
       "answer": 0,
       "explanation": "A larger reflector well-oriented to the beam and reached by adequate sound returns a stronger echo. Orientation strongly affects amplitude.",
@@ -681,9 +681,9 @@
       "stem": "A planar flaw returns the strongest echo when it is:",
       "options": [
        "Oriented roughly perpendicular to the sound beam",
-       "Fully parallel to the whole beam here",
-       "Fully painted here",
-       "Fully magnetized here"
+       "Lying roughly parallel to the path of the sound beam",
+       "Coated in a fresh layer of paint across its face",
+       "Strongly magnetized just before the scan begins"
       ],
       "answer": 0,
       "explanation": "A flaw facing the beam reflects sound back to the transducer most strongly. A flaw nearly parallel to the beam may reflect little and be missed.",
@@ -707,9 +707,9 @@
       "stem": "The back surface of a part produces a:",
       "options": [
        "Backwall echo on the display",
-       "A plain color change here",
-       "A plain magnetic field here",
-       "A plain penetrant bleedout here"
+       "A color shift on the display",
+       "Magnetic pulse on the display",
+       "A dye bleedout indication"
       ],
       "answer": 0,
       "explanation": "Sound reflecting off the far surface returns a backwall echo, used to confirm sound passed through and to set up thickness and calibration.",
@@ -733,9 +733,9 @@
       "stem": "A sudden loss of the backwall echo can indicate:",
       "options": [
        "A reflector or condition redirecting or absorbing the sound",
-       "Perfect sound material always here",
-       "A fully dead instrument only here",
-       "A plain color change here"
+       "A perfectly sound part, proving no flaw is present at all",
+       "A dead instrument that has simply stopped working entirely",
+       "A color change appearing right across the display screen"
       ],
       "answer": 0,
       "explanation": "Losing the backwall may mean a large flaw, a lamination, heavy attenuation, or poor coupling is interrupting the sound path, which the technician investigates.",
@@ -759,9 +759,9 @@
       "stem": "The common ultrasonic wave modes used in UT are:",
       "options": [
        "Longitudinal, shear, and surface",
-       "Only ever the longitudinal here",
-       "The radio and the microwave here",
-       "The alpha and beta waves here now"
+       "Longitudinal waves and nothing else",
+       "Radio, microwave, and the infrared",
+       "Alpha, beta, and gamma radiation"
       ],
       "answer": 0,
       "explanation": "Conventional UT uses longitudinal, shear, and surface waves. Straight-beam work is usually longitudinal; angle-beam work is usually shear.",
@@ -785,9 +785,9 @@
       "stem": "Of the common modes in a given solid, the fastest is the:",
       "options": [
        "Longitudinal wave",
-       "The shear wave here",
+       "The shear wave",
        "The surface wave",
-       "They are equal here"
+       "They are all equal"
       ],
       "answer": 0,
       "explanation": "Longitudinal waves travel fastest, shear waves at roughly half that speed, and surface waves slightly slower than shear.",
@@ -811,9 +811,9 @@
       "stem": "Two common uses of UT are:",
       "options": [
        "Detecting internal flaws and measuring thickness",
-       "Measuring the whole weight and the color here",
-       "Magnetizing and then fully demagnetizing here",
-       "Developing out the whole loaded film sheet here now"
+       "Measuring the weight and the color of the part",
+       "Magnetizing the part and drawing iron particles",
+       "Developing the exposed film after each shot"
       ],
       "answer": 0,
       "explanation": "UT is widely used to find internal and surface-connected flaws and to measure remaining wall thickness, among other applications.",
@@ -837,9 +837,9 @@
       "stem": "Unlike MT and PT, UT can detect:",
       "options": [
        "Flaws deep within the volume of a part",
-       "Only the whole surface flaws here now",
-       "Only the whole magnetic flaws here now",
-       "Only the whole color changes here right now"
+       "Only the flaws right at the outer surface",
+       "Flaws in magnetic materials only",
+       "Color changes across the part's surface"
       ],
       "answer": 0,
       "explanation": "UT is a volumetric method that can find internal flaws at depth, not just surface or near-surface conditions.",
@@ -863,9 +863,9 @@
       "stem": "Detectable flaw size is generally related to wavelength such that smaller flaws need:",
       "options": [
        "Shorter wavelengths (higher frequency)",
-       "Much longer sound wavelengths here now",
-       "No sound at all here",
-       "A much lower overall frequency here now"
+       "Longer wavelengths (a lower frequency)",
+       "No sound at all, only a steady field",
+       "A much lower test frequency than usual"
       ],
       "answer": 0,
       "explanation": "As a rule of thumb, flaws much smaller than the wavelength are hard to detect, so smaller flaws call for shorter wavelengths (higher frequency).",
@@ -889,9 +889,9 @@
       "stem": "Sound velocity in aluminum versus steel is:",
       "options": [
        "Different, because velocity depends on the material",
-       "Always fully identical here",
-       "Fully zero in both here",
-       "Set by the instrument here"
+       "Exactly the same in both of those two metals",
+       "Zero, since sound cannot move through solids",
+       "Set by the instrument and not by the metal itself"
       ],
       "answer": 0,
       "explanation": "Each material has its own sound velocity, so calibration and thickness readings must use the correct velocity for the material being tested.",
@@ -915,9 +915,9 @@
       "stem": "A couplant works partly by providing an acoustic path with impedance:",
       "options": [
        "Higher than air, so it excludes the air gap and lets sound enter the part",
-       "Fully identical to the air here",
-       "Fully equal to a vacuum here",
-       "That fully blocks all of the sound here"
+       "Equal to that of air, which is exactly the gap the couplant must bridge",
+       "Equal to a vacuum, so it carries no sound at all across into the part",
+       "Lower than the part, so it blocks the sound from getting in at all"
       ],
       "answer": 0,
       "explanation": "A couplant works mainly by excluding the air gap. Air has a very large impedance mismatch with the transducer and the part, so an air gap reflects almost all the sound; replacing it with a liquid or gel, even one whose impedance is below that of the metal, lets far more sound enter the part.",
@@ -941,9 +941,9 @@
       "stem": "The region of the beam just in front of the transducer with strong interference is the:",
       "options": [
        "Near field (Fresnel zone)",
-       "Far field only here now",
-       "The whole backwall here",
-       "The whole couplant layer here"
+       "Far field (Fraunhofer zone)",
+       "The backwall echo region",
+       "The couplant layer zone"
       ],
       "answer": 0,
       "explanation": "The near field has pressure variations that make amplitude evaluation unreliable; beyond it, in the far field, the beam behaves more predictably.",
@@ -967,9 +967,9 @@
       "stem": "In the far field, the sound beam:",
       "options": [
        "Spreads and weakens more predictably with distance",
-       "Has fully chaotic interference here",
-       "Does not exist at all here",
-       "Fully travels faster here"
+       "Fluctuates chaotically in both pressure and amplitude",
+       "Does not really exist at all as a true beam region",
+       "Speeds the sound up as it travels further away"
       ],
       "answer": 0,
       "explanation": "Beyond the near field the beam diverges and its amplitude falls in a predictable way, which is why evaluation is generally done in the far field.",
@@ -993,9 +993,9 @@
       "stem": "Beam spread in the far field is reduced by:",
       "options": [
        "Larger transducer diameter or higher frequency",
-       "A smaller diameter and a lower frequency here",
-       "Much more couplant here",
-       "A much higher gain here"
+       "Smaller transducer diameter or lower frequency",
+       "A thicker layer of couplant under the transducer",
+       "More receiver gain added in across the sweep"
       ],
       "answer": 0,
       "explanation": "A larger element or higher frequency produces a more collimated beam with less divergence. Gain and couplant amount do not change beam spread.",
@@ -1019,9 +1019,9 @@
       "stem": "A safety advantage of UT over radiography is that UT:",
       "options": [
        "Uses sound and produces no ionizing radiation",
-       "Uses much stronger radiation here right now",
-       "Fully requires the film badges here right now",
-       "Needs a whole posted radiation area here right now"
+       "Uses only a low, safe dose of ionizing radiation",
+       "Still needs film badges to be worn by the crew",
+       "Sets up a radiation area right around the work"
       ],
       "answer": 0,
       "explanation": "UT uses mechanical sound waves and emits no ionizing radiation, so it avoids the radiation hazards and controls associated with radiography.",
@@ -1045,9 +1045,9 @@
       "stem": "Which statement about UT fundamentals is correct?",
       "options": [
        "UT sends sound into a part and uses echoes to find flaws and measure thickness",
-       "UT works only ever on the magnetic parts here",
-       "UT just uses plain X-rays here",
-       "UT simply cannot measure the thickness here"
+       "UT works only on magnetic parts and cannot examine any other metals at all",
+       "UT sends X-rays through the part and reads the resulting pattern on a film sheet",
+       "UT finds surface cracks only and can never measure the wall thickness"
       ],
       "answer": 0,
       "explanation": "UT introduces sound, receives echoes from reflectors and the backwall, and uses timing and amplitude to find flaws and measure thickness in many materials.",
