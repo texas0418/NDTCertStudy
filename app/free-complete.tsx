@@ -36,7 +36,7 @@ export default function FreeComplete() {
             END OF FREE SAMPLE
           </Text>
           <Text style={{ fontSize: 21, fontWeight: "700", color: theme.ink, marginTop: 6, textAlign: "center" }}>
-            That's the free 10 for {title}
+            That&apos;s the free 10 for {title}
           </Text>
           <Text style={{ fontSize: 13, color: theme.inkSoft, lineHeight: 19, marginTop: 6, textAlign: "center" }}>
             Nothing here was scored or saved. Unlocking the full version turns this into a real study plan.
