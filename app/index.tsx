@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import {
-  FREE_PREVIEW_COUNT,
   PAID_FEATURES,
   SCHEMES,
   getAllQuestions,
