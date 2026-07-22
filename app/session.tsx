@@ -31,6 +31,7 @@ function fmtClock(secs: number): string {
   return `${m}:${s.toString().padStart(2, "0")}`;
 }
 
+// eslint-disable-next-line complexity -- tracked in #2
 export default function Session() {
   const theme = useTheme();
   const router = useRouter();

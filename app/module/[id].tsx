@@ -11,6 +11,7 @@ import { buildExamPlan, formatDate } from "../../lib/plan";
 import { blockReadiness, useStore } from "../../lib/store";
 import { mono, useReadinessColor, useTheme } from "../../lib/theme";
 
+// eslint-disable-next-line complexity -- tracked in #1
 export default function ModuleScreen() {
   const theme = useTheme();
   const readinessColor = useReadinessColor();
