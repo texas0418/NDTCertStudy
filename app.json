@@ -19,7 +19,8 @@
     },
     "plugins": [
       "expo-router",
-      "expo-mail-composer"
+      "expo-mail-composer",
+      "./plugins/withReleaseSigning.js"
     ],
     "experiments": {
       "typedRoutes": false
