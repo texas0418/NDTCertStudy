@@ -15,7 +15,8 @@
       }
     },
     "android": {
-      "package": "com.ndtcertstudy.app"
+      "package": "com.ndtcertstudy.app",
+      "versionCode": 2
     },
     "plugins": [
       "expo-router",
