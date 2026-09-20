@@ -13,12 +13,18 @@
 //      using the ids from productIdForModule (see MODULE_PRODUCT_IDS).
 //   4. Build with EAS (StoreKit does not run in Expo Go).
 
+import { Platform } from "react-native";
+
 import { useStore } from "./store";
 
 declare const require: any;
 
 // From your RevenueCat project: Apple App Store public API key (starts "appl_").
 export const REVENUECAT_IOS_API_KEY = "appl_HLSuRTMQPpkapznteeUQhVrHWUZ";
+// Google Play public API key (starts "goog_"), RC project dfe906c6.
+export const REVENUECAT_ANDROID_API_KEY = "goog_EQjEaFEtmcjoMLKgjCHGNfUHsOv";
+const REVENUECAT_API_KEY =
+  Platform.OS === "android" ? REVENUECAT_ANDROID_API_KEY : REVENUECAT_IOS_API_KEY;
 
 // Shown only in mock mode. Real builds display the App Store localized price.
 export const MOCK_PRICE = "$4.99";
@@ -64,7 +70,7 @@ function syncFromCustomerInfo(info: any): void {
 export async function configure(): Promise<void> {
   if (configured || !Purchases) return;
   try {
-    Purchases.configure({ apiKey: REVENUECAT_IOS_API_KEY });
+    Purchases.configure({ apiKey: REVENUECAT_API_KEY });
     configured = true;
     Purchases.addCustomerInfoUpdateListener((info: any) => syncFromCustomerInfo(info));
     const info = await Purchases.getCustomerInfo();
