@@ -1,0 +1,5242 @@
+{
+ "UT": [
+  {
+   "block": "iso_acceptance_ut",
+   "count": 40,
+   "questions": [
+    {
+     "content": {
+      "stem": "The standard that gives techniques, testing levels and assessment for manual ultrasonic testing of full penetration welds in ferritic steel is:",
+      "options": [
+       "ISO 17640",
+       "ISO 11666",
+       "ISO 5817",
+       "ISO 16810"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 11666 gives acceptance levels, not the technique.",
+       "ISO 5817 gives weld quality levels for imperfections, assessed from the technique standard.",
+       "ISO 16810 covers general principles of ultrasonic testing, not weld technique."
+      ],
+      "explanation": "ISO 17640 is the UT technique standard for welds. It defines testing levels A to D and how the examination is carried out."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-ut-001",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Acceptance levels for the ultrasonic testing of welds are specified in:",
+      "options": [
+       "ISO 11666",
+       "ISO 17640",
+       "ISO 23279",
+       "ISO 22232"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 17640 is the technique standard that produces the indications ISO 11666 then judges.",
+       "ISO 23279 covers characterisation of indications, deciding whether they are planar or not.",
+       "ISO 22232 covers characterisation and verification of ultrasonic equipment."
+      ],
+      "explanation": "ISO 11666 gives acceptance levels 2 and 3 for UT of welds, and links them to the quality levels of ISO 5817."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-ut-002",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 17640 defines four testing levels. Which level gives the highest probability of detection?",
+      "options": [
+       "Level D",
+       "Level C",
+       "Level B",
+       "Level A"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Level C is an increased level requiring additional scans and surface preparation, but it is not the highest.",
+       "Level B is the normal level for most applications.",
+       "Level A is the lowest, used for thin section and less demanding work."
+      ],
+      "explanation": "Testing levels run A, B, C, D with increasing extent of testing. Level D is for special applications and is specified in full in a written procedure."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-003",
+     "requiresUnits": false,
+     "subtopic": "testing-levels",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17640, which testing level is normally applied to a butt weld of 8 mm to 15 mm wall thickness carrying a quality level C requirement?",
+      "options": [
+       "Testing level B",
+       "Testing level A",
+       "Testing level C",
+       "Testing level D"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Testing level A is associated with quality level D, the most permissive.",
+       "Testing level C is associated with quality level B, the most demanding of the three.",
+       "Testing level D is a special level defined only by written procedure."
+      ],
+      "explanation": "ISO 17640 Table 1 links quality level to testing level. Quality level C normally calls for testing level B."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-004",
+     "requiresUnits": false,
+     "subtopic": "testing-levels",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The calibration block used to set range and sensitivity, and carrying a 100 mm radius quadrant and a 1.5 mm side drilled hole, is designated:",
+      "options": [
+       "V1 block to ISO 2400",
+       "V2 block to ISO 7963",
+       "IIW block to ASTM E164",
+       "Step wedge to ISO 19232"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "The V2 block of ISO 7963 is the small block with 25 mm and 50 mm radii used for site work.",
+       "The IIW designation is used in North American practice; in the ISO family the block is specified by ISO 2400.",
+       "A step wedge is a thickness reference, and ISO 19232 is a radiographic image quality standard."
+      ],
+      "explanation": "The V1 block of ISO 2400 has the 100 mm quadrant, a 91 mm perspex insert and a 50 mm side drilled hole, and is the standard European calibration block."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-005",
+     "requiresUnits": false,
+     "subtopic": "calibration",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The small calibration block with 25 mm and 50 mm radii, commonly carried for site work, is specified in:",
+      "options": [
+       "ISO 7963",
+       "ISO 2400",
+       "ISO 16811",
+       "ISO 18563"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 2400 specifies the larger V1 block.",
+       "ISO 16811 covers sensitivity and range setting, which the block is used for, but does not specify the block itself.",
+       "ISO 18563 covers phased array equipment characterisation."
+      ],
+      "explanation": "ISO 7963 specifies the V2 or Kidney block, with 25 mm and 50 mm radii and a 5 mm through hole."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-006",
+     "requiresUnits": false,
+     "subtopic": "calibration",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Setting of sensitivity and range for ultrasonic testing is covered by:",
+      "options": [
+       "ISO 16811",
+       "ISO 17640",
+       "ISO 11666",
+       "ISO 5817"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 17640 calls up ISO 16811 for setting, but the setting methods themselves are in ISO 16811.",
+       "ISO 11666 states acceptance levels applied after sensitivity has been set.",
+       "ISO 5817 states weld quality levels and does not address instrument setting."
+      ],
+      "explanation": "ISO 16811 gives the methods for setting range and sensitivity, including DAC, DGS and reference block techniques."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-007",
+     "requiresUnits": false,
+     "subtopic": "calibration",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In the ISO weld inspection family, the standard that gives quality levels B, C and D for imperfections in fusion welded joints is:",
+      "options": [
+       "ISO 5817",
+       "ISO 10675",
+       "ISO 11666",
+       "ISO 6520"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 10675 gives acceptance levels for radiographic testing, derived from ISO 5817.",
+       "ISO 11666 gives acceptance levels for ultrasonic testing, also derived from ISO 5817.",
+       "ISO 6520 classifies and designates imperfections, it does not set quality levels."
+      ],
+      "explanation": "ISO 5817 defines quality levels B stringent, C intermediate and D moderate for steel, nickel, titanium and their alloys."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-ut-008",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 5817, which quality level is the most stringent?",
+      "options": [
+       "B",
+       "C",
+       "D",
+       "A"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "C is the intermediate level.",
+       "D is the most permissive of the three.",
+       "ISO 5817 does not define a quality level A."
+      ],
+      "explanation": "ISO 5817 uses three levels: B stringent, C intermediate, D moderate. There is no level A."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-ut-009",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 11666 acceptance level 2 corresponds to which ISO 5817 quality level?",
+      "options": [
+       "Quality level B",
+       "Quality level C",
+       "Quality level D",
+       "Quality level A"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Quality level C is served by acceptance level 3.",
+       "Quality level D is normally covered by acceptance level 3 or by a specified alternative.",
+       "ISO 5817 has no quality level A."
+      ],
+      "explanation": "ISO 11666 acceptance level 2 is applied where ISO 5817 quality level B is required; acceptance level 3 corresponds to quality level C."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-010",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Characterisation of an indication in a weld as planar or non planar, for the purposes of ultrasonic assessment, is covered by:",
+      "options": [
+       "ISO 23279",
+       "ISO 11666",
+       "ISO 16826",
+       "ISO 17635"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 11666 gives the amplitude and length acceptance limits but not the characterisation technique.",
+       "ISO 16826 deals with testing for discontinuities perpendicular to the surface.",
+       "ISO 17635 is the general rules standard for selecting NDT methods for welds."
+      ],
+      "explanation": "ISO 23279 gives the techniques for deciding whether an indication is planar, since planar imperfections are normally rejected regardless of size."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-011",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The general rules for the non destructive testing of welds in metallic materials, including which methods to select for a given joint, are given in:",
+      "options": [
+       "ISO 17635",
+       "ISO 17640",
+       "ISO 5817",
+       "ISO 9712"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 17640 is the UT technique standard that ISO 17635 points to.",
+       "ISO 5817 gives quality levels, which ISO 17635 links to acceptance levels.",
+       "ISO 9712 qualifies personnel, not welds."
+      ],
+      "explanation": "ISO 17635 is the umbrella standard. It routes the inspector to the correct technique and acceptance standards for each method."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-012",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17640, the transfer correction is determined to account for:",
+      "options": [
+       "Difference in surface condition and attenuation between the calibration block and the test object",
+       "Drift in the flaw detector time base",
+       "The angle of the probe wedge at elevated temperature",
+       "The difference between DAC and DGS setting methods"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Time base drift is handled by range calibration, not transfer correction.",
+       "Wedge angle change is checked by angle verification on the calibration block.",
+       "The choice between DAC and DGS is a setting method, and both require transfer correction."
+      ],
+      "explanation": "Transfer correction compensates for the coupling and attenuation losses of the actual component relative to the reference block."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-013",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 17640 requires that a transfer correction be measured, and if the difference exceeds a stated value the technique must be reviewed. That value is:",
+      "options": [
+       "12 dB",
+       "2 dB",
+       "6 dB",
+       "20 dB"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "2 dB is within normal measurement scatter and needs no action.",
+       "Corrections up to 6 dB are common and simply applied to the gain.",
+       "20 dB is well past the point where the standard already required review."
+      ],
+      "explanation": "If the transfer correction exceeds 12 dB the cause is investigated and the technique or surface condition addressed, because the loss is then too large to be simply added to the gain."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-014",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "For manual ultrasonic testing of welds to ISO 17640, the scanning speed shall not exceed:",
+      "options": [
+       "150 mm/s",
+       "50 mm/s",
+       "300 mm/s",
+       "75 mm/s"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "50 mm/s is slower than required and would be unnecessarily restrictive.",
+       "300 mm/s risks missing indications between pulses.",
+       "75 mm/s is a good working speed but is not the limit stated."
+      ],
+      "explanation": "ISO 17640 caps manual scanning speed at 150 mm/s unless otherwise agreed, so that the pulse repetition rate gives adequate coverage."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-015",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17640, adjacent scanning paths shall overlap by at least:",
+      "options": [
+       "10 % of the transducer dimension",
+       "50 % of the transducer dimension",
+       "25 % of the transducer dimension",
+       "One full transducer width"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "50 % overlap is typical of automated corrosion mapping, not the manual weld scan minimum.",
+       "25 % is a common shop practice but exceeds the stated minimum.",
+       "A full width overlap would halve productivity for no coded benefit."
+      ],
+      "explanation": "A 10 % overlap of the transducer dimension perpendicular to the scan direction is the stated minimum for full coverage."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-016",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The characterisation and verification of ultrasonic test equipment, including instrument and probe checks, is specified in:",
+      "options": [
+       "ISO 22232",
+       "ISO 16811",
+       "ISO 2400",
+       "ISO 12718"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 16811 is about setting range and sensitivity for a test, not verifying the equipment itself.",
+       "ISO 2400 specifies the V1 calibration block.",
+       "ISO 12718 is the ultrasonic and eddy current vocabulary standard."
+      ],
+      "explanation": "ISO 22232 covers instruments in part 1, probes in part 2 and combined equipment in part 3."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-017",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Testing for discontinuities oriented perpendicular to the scanning surface, using the tandem technique, is covered by:",
+      "options": [
+       "ISO 16826",
+       "ISO 17640",
+       "ISO 23279",
+       "ISO 11666"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 17640 is the general weld technique standard and calls up ISO 16826 for this case.",
+       "ISO 23279 covers indication characterisation.",
+       "ISO 11666 gives acceptance levels."
+      ],
+      "explanation": "ISO 16826 covers examination for discontinuities perpendicular to the surface, where a single angle probe would give poor response."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-018",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 11666, an indication whose length exceeds the stated maximum for the acceptance level is:",
+      "options": [
+       "Rejected regardless of its amplitude",
+       "Accepted if the amplitude is below the evaluation level",
+       "Referred to ISO 5817 for a length allowance",
+       "Accepted if it is non planar"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A low amplitude does not excuse an over length indication; the two criteria are applied together.",
+       "ISO 5817 sets the quality level from which the ISO 11666 limits were derived; it does not add an allowance.",
+       "Non planar character does not waive the length limit, though planar character does force rejection."
+      ],
+      "explanation": "Both amplitude and length criteria must be satisfied. Exceeding the length limit is a rejection even where the echo height is modest."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-019",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In the ISO scheme, the evaluation level is the level:",
+      "options": [
+       "Above which indications are recorded and evaluated",
+       "At which an indication is automatically rejected",
+       "Used only to set the time base range",
+       "At which the probe index point is verified"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Automatic rejection belongs to the acceptance level, which sits above the evaluation level.",
+       "Time base range is a calibration matter, unrelated to the evaluation level.",
+       "Index point verification is an equipment check on the calibration block."
+      ],
+      "explanation": "Indications at or above the evaluation level are recorded and assessed against the acceptance level. Below it they need not be evaluated."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-020",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A planar imperfection detected during ultrasonic testing to the ISO weld standards is normally:",
+      "options": [
+       "Rejected irrespective of size",
+       "Accepted if shorter than the acceptance length",
+       "Accepted if its amplitude is below reference",
+       "Assessed only against ISO 5817 level D"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Length allowances apply to volumetric indications, not planar ones.",
+       "A modest amplitude does not make a crack acceptable.",
+       "ISO 5817 level D still does not permit cracks."
+      ],
+      "explanation": "Planar imperfections such as cracks and lack of fusion are not tolerated by the ISO acceptance standards, so characterisation to ISO 23279 matters."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-021",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The DGS method of sensitivity setting expresses the size of a reflector as:",
+      "options": [
+       "An equivalent flat bottomed hole diameter",
+       "A percentage of the screen height",
+       "A length in millimetres along the weld",
+       "The number of decibels above the noise floor"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Screen height is how the echo is read, not what DGS expresses.",
+       "Length along the weld is measured separately by the 6 dB or fixed level drop method.",
+       "Decibels above noise describes signal to noise ratio, not reflector size."
+      ],
+      "explanation": "DGS, or distance gain size, relates the echo from a reflector to an equivalent disc shaped reflector, quoted as a flat bottomed hole diameter."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-022",
+     "requiresUnits": false,
+     "subtopic": "calibration",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 16811, a distance amplitude curve is constructed from:",
+      "options": [
+       "Reflectors of equal size at a range of distances",
+       "Reflectors of different sizes at one distance",
+       "Two reflectors at the extremes of the range only",
+       "The backwall echo alone"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Varying the size at one distance measures resolution, not attenuation with range.",
+       "Two points are insufficient to describe a curve across the whole range.",
+       "The backwall echo alone gives a single point and no depth relationship."
+      ],
+      "explanation": "DAC plots the fall in echo height from identical reference reflectors as sound path increases, so amplitude can be compared at any depth."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-023",
+     "requiresUnits": false,
+     "subtopic": "calibration",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Before ultrasonic testing to ISO 17640, the parent material adjacent to the weld should be checked for laminations because:",
+      "options": [
+       "A lamination can block the beam path to the weld",
+       "Laminations are themselves rejectable under ISO 11666",
+       "The standard requires a hardness survey",
+       "Laminations change the probe index point"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 11666 addresses weld indications; parent plate laminations are judged against the plate standard.",
+       "Hardness survey is a separate requirement and not the reason for lamination checking.",
+       "The index point is a property of the probe and wedge, not of the material."
+      ],
+      "explanation": "A lamination in the scanning zone intercepts the angle beam and leaves part of the weld untested, so the scan zone is checked with a compression probe first."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-024",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The written ultrasonic test procedure required by ISO 17640 shall be approved by:",
+      "options": [
+       "A Level 3 qualified in the method",
+       "Any Level 2 who will perform the test",
+       "The welding inspector",
+       "The client representative only"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A Level 2 may perform and report the test and may draft instructions, but does not approve the procedure.",
+       "The welding inspector does not hold NDT method authority.",
+       "Client acceptance does not substitute for technical approval by a Level 3."
+      ],
+      "explanation": "Procedure approval rests with a Level 3 in the method, consistent with ISO 9712 responsibilities."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-025",
+     "requiresUnits": false,
+     "subtopic": "procedure",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under the ISO family, the ultrasonic report shall state the testing level applied because:",
+      "options": [
+       "It defines the extent of scanning and therefore what coverage was achieved",
+       "It sets the radiation dose rate",
+       "It determines the film class",
+       "It fixes the penetrant dwell time"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Dose rate belongs to radiographic testing.",
+       "Film class is a radiographic parameter.",
+       "Dwell time is a penetrant parameter."
+      ],
+      "explanation": "The testing level determines the scans, surface preparation and probe angles, so a reader cannot interpret the result without it."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-ut-026",
+     "requiresUnits": false,
+     "subtopic": "reporting",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "For a 25 mm thick ferritic butt weld, ISO 17640 would normally require angle probe scanning from:",
+      "options": [
+       "Both sides of the weld on one surface as a minimum",
+       "One side of the weld only",
+       "One surface with a single angle",
+       "Compression probes only"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Single sided scanning leaves the far fusion face poorly interrogated.",
+       "A single angle cannot address both fusion faces and the root.",
+       "Compression probes alone will not detect fusion face defects in a bevelled joint."
+      ],
+      "explanation": "Coverage of the full weld volume and both fusion faces normally needs scanning from both sides, and at this thickness more than one angle."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-027",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17640 the probe index point and beam angle shall be verified:",
+      "options": [
+       "At the start of each testing period and at stated intervals during it",
+       "Only once at initial procedure qualification",
+       "Only if the operator suspects a fault",
+       "Annually by the equipment supplier"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A single qualification check does not cover wedge wear during production.",
+       "Waiting for suspicion is not a controlled check regime.",
+       "Annual supplier checks cover instrument characterisation, not daily wedge wear."
+      ],
+      "explanation": "Daily and in service checks are required so that a shifted index point or worn wedge does not invalidate a shift of results."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-028",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Coupling loss during a shift is most reliably detected by:",
+      "options": [
+       "A repeat check on the reference reflector at stated intervals",
+       "Increasing the gain until noise appears",
+       "Reducing the scanning speed",
+       "Changing to a higher frequency probe"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Raising gain to noise is not a calibrated check and masks the loss.",
+       "Slower scanning improves coverage but does not reveal a sensitivity drop.",
+       "Higher frequency increases attenuation and does not diagnose coupling."
+      ],
+      "explanation": "Repeating the reference reflector check during the shift shows whether sensitivity has fallen, which is the controlled way to catch coupling loss."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-029",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "If an in service check shows sensitivity has fallen by more than 4 dB, ISO 17640 requires that:",
+      "options": [
+       "The equipment is recalibrated and the work since the last valid check is retested",
+       "The gain is simply increased by the shortfall",
+       "The result is reported with a note",
+       "Testing continues to the end of the shift"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Adding gain does not recover indications already scanned at low sensitivity.",
+       "A note does not make untested volume tested.",
+       "Continuing compounds the amount of work to be repeated."
+      ],
+      "explanation": "A fall of more than 4 dB invalidates the work back to the last correct check, so that work is repeated after recalibration."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-030",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Where the range setting is found to be in error by more than 2 % of the range, ISO 17640 requires:",
+      "options": [
+       "Correction and re examination of the work since the last valid check",
+       "No action if defects were found anyway",
+       "A note in the report only",
+       "Correction at the next calibration interval"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Finding defects does not confirm that others were correctly located.",
+       "A report note does not correct mislocated indications.",
+       "Deferring correction leaves further work in error."
+      ],
+      "explanation": "A range error misplaces indications, so the setting is corrected and affected work repeated."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-031",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17635, the choice of ultrasonic or radiographic testing for a given weld depends principally on:",
+      "options": [
+       "Material, thickness, joint type and the imperfections expected",
+       "The preference of the inspector on site",
+       "The cost of the two methods",
+       "The availability of a darkroom"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Method selection is a technical decision made in the procedure, not on preference.",
+       "Cost may influence commercial choices but does not drive the coded selection.",
+       "Facilities are a practical constraint, not the selection basis."
+      ],
+      "explanation": "ISO 17635 tabulates method selection against joint configuration, thickness and material, because each method favours different imperfection types."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-032",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "For austenitic stainless steel welds, ultrasonic testing to the ISO family is more difficult mainly because:",
+      "options": [
+       "Coarse anisotropic grain structure scatters and steers the beam",
+       "The material is too thin for angle probes",
+       "Couplant will not wet the surface",
+       "The velocity is identical to that of ferritic steel"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Thickness is not the governing problem; the grain structure is.",
+       "Couplant wets stainless steel satisfactorily.",
+       "Velocity differs from ferritic steel, which is part of the problem, not a reason it is easy."
+      ],
+      "explanation": "The columnar grain structure of austenitic weld metal attenuates, scatters and refracts the beam, so special techniques and often ISO 22825 are required."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-033",
+     "requiresUnits": false,
+     "subtopic": "materials",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The ISO standard specifically addressing ultrasonic testing of welds in austenitic steels and nickel based alloys is:",
+      "options": [
+       "ISO 22825",
+       "ISO 17640",
+       "ISO 11666",
+       "ISO 16826"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 17640 is written around ferritic steel.",
+       "ISO 11666 gives acceptance levels for the ferritic case.",
+       "ISO 16826 is about discontinuities perpendicular to the surface."
+      ],
+      "explanation": "ISO 22825 covers UT of austenitic and nickel alloy welds, where ISO 17640 assumptions about the material do not hold."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-034",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A PCN Level 2 ultrasonic candidate in the weld sector would expect the specific examination to test:",
+      "options": [
+       "Application of ISO 17640 and ISO 11666 to weld configurations",
+       "Radiation safety legislation",
+       "Penetrant family compatibility",
+       "Magnetising current calculation"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Radiation safety belongs to the radiographic sector.",
+       "Penetrant families belong to the PT specific examination.",
+       "Magnetising current belongs to the MT specific examination."
+      ],
+      "explanation": "The specific examination covers the codes, standards and procedures of the sector applied for, which for weld UT are the ISO technique and acceptance standards."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-035",
+     "requiresUnits": false,
+     "subtopic": "pcn-exam",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In the PCN weld sector practical examination for UT Level 2, the candidate is normally required to:",
+      "options": [
+       "Set up the equipment, scan specimens, size and report indications, and write the instruction where required",
+       "Answer multiple choice questions only",
+       "Observe a Level 3 performing the test",
+       "Submit previous employer test reports"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Multiple choice belongs to the general and specific theory papers.",
+       "Observation is training, not examination.",
+       "Employer reports evidence experience, not practical competence."
+      ],
+      "explanation": "The practical examination tests setting up, scanning, detecting, sizing, evaluating and reporting on real specimens."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-036",
+     "requiresUnits": false,
+     "subtopic": "pcn-exam",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum industrial experience for ultrasonic testing Level 2, where the candidate is already certified Level 1, is:",
+      "options": [
+       "9 months",
+       "3 months",
+       "18 months",
+       "1 month"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "3 months is the UT Level 1 requirement.",
+       "18 months is the UT Level 3 requirement.",
+       "1 month is a surface method Level 1 figure."
+      ],
+      "explanation": "ISO 9712 Table 3 sets UT Level 2 experience at 9 months. UT Level 1 is 3 months and Level 3 is 18 months."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-037",
+     "requiresUnits": false,
+     "subtopic": "iso9712",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A candidate who has not held Level 1 and goes directly to ultrasonic Level 2 certification must have experience of:",
+      "options": [
+       "The sum of the Level 1 and Level 2 requirements",
+       "The Level 2 requirement only",
+       "Half the Level 2 requirement",
+       "No experience, since the examination covers it"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Taking only the Level 2 figure would credit Level 1 experience never served.",
+       "Halving the requirement has no basis in the standard.",
+       "Experience is a separate prerequisite from examination."
+      ],
+      "explanation": "ISO 9712 requires the total of both levels when a candidate is examined directly at Level 2, so 3 plus 9 months for UT."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-ut-038",
+     "requiresUnits": false,
+     "subtopic": "iso9712",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17640, when the weld cap is not dressed flush:",
+      "options": [
+       "The scan plan must account for the untested volume near the cap",
+       "Testing cannot be performed at all",
+       "The acceptance level is relaxed by one level",
+       "Only compression probes may be used"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Testing proceeds; the limitation is recorded.",
+       "Acceptance levels are not relaxed for access reasons.",
+       "Angle probes remain the primary tool; the cap limits their approach."
+      ],
+      "explanation": "An undressed cap limits how close the probe can approach, so the resulting untested volume is identified and reported or covered by other angles."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-ut-039",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The report of an ultrasonic examination performed to the ISO family shall, as a minimum, identify:",
+      "options": [
+       "The standards applied, equipment, settings, coverage achieved and the indications found",
+       "The operator's home address",
+       "The welder's pay grade",
+       "The purchase order value"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Personal address details are not a report requirement.",
+       "Welder pay is irrelevant to the examination record.",
+       "Commercial values do not belong in a technical report."
+      ],
+      "explanation": "Traceability of standards, equipment, settings and coverage is what allows the result to be reproduced or challenged later."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-ut-040",
+     "requiresUnits": false,
+     "subtopic": "reporting",
+     "tier": "iso-acceptance-ut",
+     "topic": "codes"
+    }
+   ]
+  }
+ ],
+ "RT": [
+  {
+   "block": "iso_acceptance_rt",
+   "count": 40,
+   "questions": [
+    {
+     "content": {
+      "stem": "Radiographic examination of fusion welded joints using film techniques is specified in:",
+      "options": [
+       "ISO 17636-1",
+       "ISO 17636-2",
+       "ISO 10675-1",
+       "ISO 19232-1"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 2 covers computed radiography and digital detector arrays.",
+       "ISO 10675-1 gives acceptance levels, not technique.",
+       "ISO 19232-1 specifies wire type image quality indicators."
+      ],
+      "explanation": "ISO 17636-1 covers X and gamma ray techniques with film. Part 2 covers digital detectors."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-rt-001",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Radiographic testing of welds using computed radiography and digital detector arrays is covered by:",
+      "options": [
+       "ISO 17636-2",
+       "ISO 17636-1",
+       "ISO 11699-1",
+       "ISO 5579"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 1 is the film standard.",
+       "ISO 11699-1 classifies industrial film systems.",
+       "ISO 5579 gives general principles for radiography of metallic materials."
+      ],
+      "explanation": "ISO 17636-2 is the digital counterpart of the film standard, adding requirements for basic spatial resolution and normalised signal to noise ratio."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-rt-002",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Acceptance levels for radiographic testing of steel, nickel, titanium and their alloy welds are given in:",
+      "options": [
+       "ISO 10675-1",
+       "ISO 10675-2",
+       "ISO 17636-1",
+       "ISO 5817"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 2 applies to aluminium and its alloys.",
+       "ISO 17636-1 is the technique standard that produces the radiograph.",
+       "ISO 5817 gives quality levels, from which the RT acceptance levels are derived."
+      ],
+      "explanation": "ISO 10675-1 gives acceptance levels 1, 2 and 3 for RT of welds in these materials. Part 2 covers aluminium."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-003",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 10675-1 acceptance level 1 corresponds to which ISO 5817 quality level?",
+      "options": [
+       "B",
+       "C",
+       "D",
+       "There is no correspondence"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Quality level C aligns with acceptance level 2.",
+       "Quality level D aligns with acceptance level 3.",
+       "ISO 17635 sets out the correspondence explicitly."
+      ],
+      "explanation": "Acceptance level 1 aligns with quality level B, level 2 with C and level 3 with D."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-004",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Wire type image quality indicators for radiography are specified in:",
+      "options": [
+       "ISO 19232-1",
+       "ISO 19232-2",
+       "ISO 19232-3",
+       "ISO 19232-5"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 2 is the step and hole type.",
+       "Part 3 tabulates the required image quality values.",
+       "Part 5 covers the determination of image unsharpness."
+      ],
+      "explanation": "Part 1 specifies wire type IQIs. Part 2 specifies step and hole type. Part 3 gives the image quality values. Part 5 covers unsharpness."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-005",
+     "requiresUnits": false,
+     "subtopic": "iqi",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The required image quality values, that is which wire must be visible for a given thickness and technique, are tabulated in:",
+      "options": [
+       "ISO 19232-3",
+       "ISO 19232-1",
+       "ISO 17636-1",
+       "ISO 11699-2"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 1 specifies the physical construction of wire IQIs.",
+       "ISO 17636-1 calls up the values but does not tabulate them.",
+       "ISO 11699-2 covers film processing control."
+      ],
+      "explanation": "ISO 19232-3 gives the image quality values, while ISO 17636-1 states which class of technique applies."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-006",
+     "requiresUnits": false,
+     "subtopic": "iqi",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 17636-1 defines two classes of technique. Class B is:",
+      "options": [
+       "The improved technique, giving higher sensitivity",
+       "The basic technique",
+       "A film classification",
+       "An acceptance level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Class A is the basic technique.",
+       "Film classes are designated C1 to C6 in ISO 11699-1.",
+       "Acceptance levels are given in ISO 10675-1."
+      ],
+      "explanation": "Class A is the basic technique and class B is the improved technique, which demands better image quality and tighter geometry."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-rt-007",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Compared with class A, a class B radiographic technique to ISO 17636-1 generally requires:",
+      "options": [
+       "A finer film class and a larger source to object distance",
+       "A coarser film and shorter exposure",
+       "A larger focal spot",
+       "A higher tube voltage for the same thickness"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Coarser film reduces sensitivity, which is the opposite of the class B intent.",
+       "A larger focal spot increases geometric unsharpness.",
+       "Class B usually favours lower energy for better contrast, not higher."
+      ],
+      "explanation": "Class B tightens geometric unsharpness and film system class, which typically means a slower finer grained film and greater source to object distance."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-008",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Industrial radiographic film systems are classified in:",
+      "options": [
+       "ISO 11699-1",
+       "ISO 11699-2",
+       "ISO 19232-4",
+       "ISO 5579"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 2 covers control of film processing by reference values.",
+       "ISO 19232-4 covers experimental assessment of image quality.",
+       "ISO 5579 gives general radiographic principles."
+      ],
+      "explanation": "ISO 11699-1 classifies film systems as C1 through C6, with C1 the finest grain and highest contrast."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-009",
+     "requiresUnits": false,
+     "subtopic": "film",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In the ISO film classification, which class has the finest grain and highest contrast?",
+      "options": [
+       "C1",
+       "C6",
+       "C3",
+       "C5"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "C6 is the fastest and coarsest class.",
+       "C3 is a common general purpose class.",
+       "C5 is faster and coarser than C3."
+      ],
+      "explanation": "Classes run C1 to C6 with C1 the finest and slowest. Higher numbers are faster and grainier."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-010",
+     "requiresUnits": false,
+     "subtopic": "film",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Control of film processing by reference values and control strips is covered by:",
+      "options": [
+       "ISO 11699-2",
+       "ISO 11699-1",
+       "ISO 17636-1",
+       "ISO 19232-2"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 1 classifies the film system itself.",
+       "ISO 17636-1 states technique requirements including density, not processing control.",
+       "ISO 19232-2 specifies step and hole IQIs."
+      ],
+      "explanation": "ISO 11699-2 sets out the processing control regime that keeps density and contrast reproducible."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-011",
+     "requiresUnits": false,
+     "subtopic": "film",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17636-1, the minimum optical density of a radiograph in the area of interest for class A is normally:",
+      "options": [
+       "2.0",
+       "1.5",
+       "2.3",
+       "3.0"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "1.5 is below the ISO requirement, although some older codes permitted it.",
+       "2.3 is the class B minimum.",
+       "3.0 is a typical upper working limit, not a minimum."
+      ],
+      "explanation": "ISO 17636-1 requires a minimum density of 2.0 for class A and 2.3 for class B in the area of interest."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-012",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17636-1, the minimum optical density for a class B radiograph in the area of interest is:",
+      "options": [
+       "2.3",
+       "2.0",
+       "1.8",
+       "2.5"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "2.0 is the class A minimum.",
+       "1.8 is below both class minimums.",
+       "2.5 exceeds the stated minimum and is not the requirement."
+      ],
+      "explanation": "Class B demands 2.3 minimum density, reflecting its higher sensitivity requirement."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-013",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17636-1, the image quality indicator is normally placed:",
+      "options": [
+       "On the source side of the object",
+       "On the film side of the object",
+       "Outside the area of interest entirely",
+       "Between two films in the cassette"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Film side placement is permitted only where source side is impracticable, and must be marked F.",
+       "The IQI must lie in or adjacent to the area of interest to be representative.",
+       "Placing it inside the cassette would not represent the object thickness."
+      ],
+      "explanation": "Source side placement is the normal requirement because it represents the worst case for unsharpness. Film side placement must be marked with the letter F."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-014",
+     "requiresUnits": false,
+     "subtopic": "iqi",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "If an image quality indicator has to be placed on the film side, the radiograph must be marked with:",
+      "options": [
+       "The letter F",
+       "The letter B",
+       "The letter S",
+       "A lead arrow"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "The letter B indicates a lead screen behind the cassette to check backscatter.",
+       "There is no S marking for IQI placement in ISO 17636-1.",
+       "A lead arrow is an orientation aid, not an IQI placement marker."
+      ],
+      "explanation": "The letter F denotes film side IQI placement. The letter B denotes a lead backing screen check."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-015",
+     "requiresUnits": false,
+     "subtopic": "iqi",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A light image of the letter B on a darker background of the radiograph indicates:",
+      "options": [
+       "Inadequate protection from backscattered radiation",
+       "Correct film side IQI placement",
+       "A processing fault",
+       "Correct exposure"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Film side IQI placement is marked with F.",
+       "Processing faults show as streaks, fog or uneven density, not a B image.",
+       "The B check has nothing to do with exposure adequacy."
+      ],
+      "explanation": "The lead letter B is placed behind the cassette. If it appears as a light image the backscatter shielding is inadequate and the radiograph is rejected."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-016",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Determination of image unsharpness in radiography is addressed in:",
+      "options": [
+       "ISO 19232-5",
+       "ISO 19232-3",
+       "ISO 11699-1",
+       "ISO 10675-1"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 3 gives image quality values for wire and step hole IQIs.",
+       "ISO 11699-1 classifies film.",
+       "ISO 10675-1 gives acceptance levels."
+      ],
+      "explanation": "ISO 19232-5 gives the duplex wire method for measuring unsharpness, which is central to digital radiography."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-017",
+     "requiresUnits": false,
+     "subtopic": "iqi",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In digital radiography to ISO 17636-2, basic spatial resolution is normally measured using:",
+      "options": [
+       "A duplex wire IQI",
+       "A step wedge",
+       "An optical densitometer",
+       "A hole type IQI only"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A step wedge gives thickness reference, not resolution.",
+       "A densitometer measures film density and does not apply to digital images in this way.",
+       "Hole type IQIs measure contrast sensitivity, not spatial resolution."
+      ],
+      "explanation": "The duplex wire IQI of ISO 19232-5 is used to establish the basic spatial resolution of the detector and technique."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-018",
+     "requiresUnits": false,
+     "subtopic": "digital",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 17636-2 adds a requirement, absent from the film standard, for:",
+      "options": [
+       "A minimum normalised signal to noise ratio",
+       "A minimum optical density",
+       "A maximum film grain size",
+       "A minimum developer temperature"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Optical density is a film parameter and does not apply to a digital image.",
+       "Grain size belongs to the film classification.",
+       "Developer temperature is a wet processing parameter."
+      ],
+      "explanation": "Digital images have no optical density, so the standard controls image quality through normalised signal to noise ratio and basic spatial resolution."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-019",
+     "requiresUnits": false,
+     "subtopic": "digital",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17636-1, the number of exposures required for a circumferential butt weld depends chiefly on:",
+      "options": [
+       "The ratio of diameter to wall thickness and the permitted density variation",
+       "The welder qualification",
+       "The film brand",
+       "The ambient temperature"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Welder qualification is unrelated to exposure geometry.",
+       "Film brand affects speed, not the number of exposures.",
+       "Ambient temperature affects processing, not exposure count."
+      ],
+      "explanation": "The standard tabulates the minimum number of exposures against the diameter to thickness ratio so that density and geometric coverage stay within limits."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-020",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A single wall single image technique for a circumferential weld is possible when:",
+      "options": [
+       "The source can be placed inside the pipe",
+       "The pipe diameter is under 50 mm",
+       "Only gamma sources are available",
+       "The wall thickness exceeds 50 mm"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Small diameters usually force double wall techniques because internal access is impossible.",
+       "Source type does not determine wall geometry.",
+       "Great wall thickness makes penetration harder but does not define the geometry."
+      ],
+      "explanation": "Internal source placement with the film outside gives single wall single image, which is the preferred geometry when access allows."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-021",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The double wall single image technique is used when:",
+      "options": [
+       "The source is outside and only the film side wall is to be interpreted",
+       "Both walls must be interpreted on one film",
+       "The pipe is under 20 mm diameter",
+       "No IQI is available"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Interpreting both walls together is double wall double image, typically used for small diameters.",
+       "Very small diameters favour the elliptical double wall double image technique.",
+       "An IQI is required in every case."
+      ],
+      "explanation": "In double wall single image the beam passes through both walls but only the film side weld is assessed, which suits larger diameters."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-022",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In the UK, the legislation governing work with ionising radiation is:",
+      "options": [
+       "The Ionising Radiations Regulations 2017",
+       "10 CFR Part 34",
+       "ISO 17636-1",
+       "The Health and Safety at Work Act alone"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "10 CFR Part 34 is United States federal regulation for industrial radiography.",
+       "ISO 17636-1 is a technique standard, not legislation.",
+       "The 1974 Act is the enabling framework; IRR17 contains the detailed radiation duties."
+      ],
+      "explanation": "IRR17 sets the duties for employers using ionising radiation in Great Britain, including dose limits, classified persons and controlled areas."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-023",
+     "requiresUnits": false,
+     "subtopic": "safety",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under IRR17, an area must normally be designated as a controlled area where:",
+      "options": [
+       "Special procedures are needed to restrict significant exposure, taken as an instantaneous dose rate above 7.5 microsieverts per hour",
+       "The dose rate exceeds 1 millisievert per hour",
+       "Any radiation is present at all",
+       "More than two radiographers are working"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "1 millisievert per hour is far above any designation threshold and would be a serious hazard.",
+       "Trace radiation is present everywhere; designation depends on dose rate.",
+       "The number of workers does not define the area."
+      ],
+      "explanation": "The 7.5 microsievert per hour instantaneous dose rate is the conventional boundary used to designate a controlled area for site radiography."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-024",
+     "requiresUnits": false,
+     "subtopic": "safety",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under IRR17 the annual effective dose limit for a classified employee is:",
+      "options": [
+       "20 millisieverts",
+       "1 millisievert",
+       "50 millisieverts",
+       "6 millisieverts"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "1 mSv per year is the public dose limit.",
+       "50 mSv was an older limit and is no longer the annual figure.",
+       "6 mSv per year is the level above which classification is normally required, not the limit."
+      ],
+      "explanation": "The limit for employees aged 18 and over is 20 mSv per year. The 1 mSv figure applies to members of the public."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-025",
+     "requiresUnits": false,
+     "subtopic": "safety",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A radiation employee must normally be designated as a classified person where they are likely to receive an annual effective dose exceeding:",
+      "options": [
+       "6 millisieverts",
+       "20 millisieverts",
+       "1 millisievert",
+       "15 millisieverts"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "20 mSv is the dose limit itself, not the classification threshold.",
+       "1 mSv is the public limit.",
+       "15 mSv is not a threshold in the regulations."
+      ],
+      "explanation": "Classification is required where the dose is likely to exceed 6 mSv per year, or three tenths of any other relevant limit."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-026",
+     "requiresUnits": false,
+     "subtopic": "safety",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The principle that radiation doses should be kept as low as reasonably practicable is known as:",
+      "options": [
+       "ALARP",
+       "ALARA in UK legislation",
+       "The inverse square rule",
+       "The half value layer principle"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ALARA is the international term; UK legislation uses reasonably practicable.",
+       "The inverse square rule describes dose fall off with distance, a means of achieving ALARP.",
+       "Half value layer describes shielding thickness, another means to the same end."
+      ],
+      "explanation": "UK regulation uses the phrase as low as reasonably practicable, ALARP. ALARA is the equivalent wording used internationally."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-rt-027",
+     "requiresUnits": false,
+     "subtopic": "safety",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The three primary means of dose control in industrial radiography are:",
+      "options": [
+       "Time, distance and shielding",
+       "Film class, density and contrast",
+       "Voltage, current and exposure",
+       "Training, supervision and reporting"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "These are image quality parameters, not dose controls.",
+       "These are exposure parameters that affect the image and the source output, not the control hierarchy.",
+       "These are management measures, important but not the physical controls."
+      ],
+      "explanation": "Reducing exposure time, increasing distance and interposing shielding are the physical controls available to the radiographer."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-rt-028",
+     "requiresUnits": false,
+     "subtopic": "safety",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "If the dose rate at 2 m from a source is 400 microsieverts per hour, the dose rate at 8 m, ignoring air attenuation, is approximately:",
+      "options": [
+       "25 microsieverts per hour",
+       "100 microsieverts per hour",
+       "50 microsieverts per hour",
+       "200 microsieverts per hour"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "100 would be a factor of 4 reduction, which is the distance ratio, not its square.",
+       "50 corresponds to a factor of 8.",
+       "200 corresponds to a factor of 2."
+      ],
+      "explanation": "Distance increases by a factor of 4, so by the inverse square law the dose rate falls by a factor of 16. 400 divided by 16 is 25."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-029",
+     "requiresUnits": false,
+     "subtopic": "safety",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A half value layer of lead for a given source is the thickness that:",
+      "options": [
+       "Reduces the radiation intensity to one half",
+       "Absorbs all scattered radiation",
+       "Doubles the exposure time required",
+       "Reduces the dose to the public limit"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Scatter is reduced but not eliminated by shielding.",
+       "It affects intensity, and exposure time is a separate calculation.",
+       "The public limit is a dose limit, not a property of the shield."
+      ],
+      "explanation": "Each half value layer halves the transmitted intensity, so shielding is designed by counting HVLs."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-030",
+     "requiresUnits": false,
+     "subtopic": "safety",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Iridium 192 has a half life of approximately:",
+      "options": [
+       "74 days",
+       "5.27 years",
+       "30 years",
+       "120 days"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "5.27 years is the half life of cobalt 60.",
+       "30 years is caesium 137.",
+       "120 days is close to selenium 75, which is about 120 days."
+      ],
+      "explanation": "Ir 192 has a half life of about 74 days, which is why source output and exposure times change noticeably over a few weeks."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-031",
+     "requiresUnits": false,
+     "subtopic": "sources",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Selenium 75 is often preferred to iridium 192 for thin wall steel because it:",
+      "options": [
+       "Emits lower average energy, giving better contrast on thin sections",
+       "Has a longer half life",
+       "Requires no shielding",
+       "Emits only beta particles"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Se 75 has a shorter half life of about 120 days compared with 74 days for Ir 192, so this is not the reason and the figures are close.",
+       "All gamma sources require shielding.",
+       "Se 75 is a gamma emitter used for radiography."
+      ],
+      "explanation": "The lower mean energy of Se 75 improves contrast on thinner steel and allows a smaller exclusion zone."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-032",
+     "requiresUnits": false,
+     "subtopic": "sources",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Cobalt 60 is selected in preference to iridium 192 when:",
+      "options": [
+       "The section is too thick for iridium to penetrate adequately",
+       "The highest possible contrast is needed on thin sections",
+       "A smaller exclusion zone is required",
+       "Only film class C1 is available"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Higher energy reduces contrast, so Co 60 is poor for thin sections.",
+       "Higher energy means a larger, not smaller, exclusion zone.",
+       "Film class is chosen to suit the technique, not the source."
+      ],
+      "explanation": "Co 60 emits higher energy gamma and penetrates thick sections, at the cost of contrast and a larger exclusion zone."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-033",
+     "requiresUnits": false,
+     "subtopic": "sources",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Geometric unsharpness in a radiograph is reduced by:",
+      "options": [
+       "Increasing the source to object distance",
+       "Increasing the focal spot size",
+       "Increasing the object to film distance",
+       "Increasing the film speed"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A larger focal spot increases unsharpness.",
+       "A greater object to film distance increases unsharpness.",
+       "Film speed affects graininess and exposure, not geometric unsharpness."
+      ],
+      "explanation": "Unsharpness is proportional to focal spot size and object to film distance and inversely proportional to source to object distance."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-034",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Lead intensifying screens in a film cassette serve to:",
+      "options": [
+       "Intensify the image and filter scattered radiation",
+       "Prevent backscatter only",
+       "Replace the image quality indicator",
+       "Reduce the optical density"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Backscatter is addressed by a lead sheet behind the cassette and checked with the letter B.",
+       "Screens do not perform the IQI function.",
+       "They increase effective density for a given exposure, not reduce it."
+      ],
+      "explanation": "Lead screens emit electrons that intensify the image and also absorb low energy scatter, improving contrast."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-035",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum industrial experience for radiographic testing Level 2, for a candidate already certified Level 1, is:",
+      "options": [
+       "9 months",
+       "3 months",
+       "18 months",
+       "1 month"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "3 months is the RT Level 1 figure.",
+       "18 months is the Level 3 figure.",
+       "1 month is a surface method Level 1 figure."
+      ],
+      "explanation": "ISO 9712 Table 3 sets RT Level 2 at 9 months and RT Level 1 at 3 months."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-036",
+     "requiresUnits": false,
+     "subtopic": "iso9712",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A PCN radiographic interpretation certificate differs from a full RT certificate in that it:",
+      "options": [
+       "Covers interpretation of radiographs without the production of them",
+       "Is issued at Level 3 only",
+       "Requires no examination",
+       "Expires after one year"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Interpretation certification is available at the normal levels, not Level 3 only.",
+       "Examination is still required.",
+       "The normal five year validity applies."
+      ],
+      "explanation": "PCN offers a radiographic interpretation scope for candidates who assess radiographs but do not carry out exposures."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-rt-037",
+     "requiresUnits": false,
+     "subtopic": "pcn-exam",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The radiographic report required by the ISO family must state the technique class applied because:",
+      "options": [
+       "Class A and class B give different sensitivities and therefore different confidence",
+       "It determines the acceptance level",
+       "It sets the personnel certification level",
+       "It fixes the source half life"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Acceptance level is specified separately in ISO 10675-1.",
+       "Certification level is a personnel matter.",
+       "Half life is a property of the isotope."
+      ],
+      "explanation": "Without the class the reader cannot judge the sensitivity achieved or whether the technique met the specification."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-038",
+     "requiresUnits": false,
+     "subtopic": "reporting",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Where a radiograph fails to show the required IQI wire, the correct action is to:",
+      "options": [
+       "Reject the radiograph and repeat the exposure with an improved technique",
+       "Accept it if no defects are visible",
+       "Record the shortfall and pass the weld",
+       "Increase the density by extended development"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Absence of visible defects proves nothing if sensitivity was not demonstrated.",
+       "Passing the weld on an invalid radiograph is a false record.",
+       "Extended development degrades the image and does not restore sensitivity."
+      ],
+      "explanation": "Failure to achieve the required image quality means the radiograph cannot demonstrate the required sensitivity, so it is repeated."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-rt-039",
+     "requiresUnits": false,
+     "subtopic": "iqi",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17636-1, the area of interest of a butt weld radiograph includes:",
+      "options": [
+       "The weld and the adjacent heat affected parent material",
+       "The weld cap only",
+       "The parent plate only",
+       "The film identification markers"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Restricting to the cap would miss root and fusion face imperfections.",
+       "The parent plate alone excludes the weld itself.",
+       "Markers are for identification and lie outside the area of interest."
+      ],
+      "explanation": "The area of interest covers the weld plus the adjacent parent material, because imperfections such as lack of fusion and toe cracks occur at the fusion boundary."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-rt-040",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-rt",
+     "topic": "codes"
+    }
+   ]
+  }
+ ],
+ "MT": [
+  {
+   "block": "iso_acceptance_mt",
+   "count": 40,
+   "questions": [
+    {
+     "content": {
+      "stem": "Magnetic particle testing of fusion welds is specified in:",
+      "options": [
+       "ISO 17638",
+       "ISO 9934-1",
+       "ISO 23278",
+       "ISO 3059"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 9934-1 gives general principles of the method, not the weld technique.",
+       "ISO 23278 gives acceptance levels for welds.",
+       "ISO 3059 specifies viewing conditions."
+      ],
+      "explanation": "ISO 17638 is the weld technique standard for magnetic particle testing. ISO 9934 covers general principles and materials."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-mt-001",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Acceptance levels for magnetic particle testing of welds are given in:",
+      "options": [
+       "ISO 23278",
+       "ISO 17638",
+       "ISO 9934-2",
+       "ISO 23277"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 17638 is the technique standard.",
+       "ISO 9934-2 specifies detection media.",
+       "ISO 23277 gives penetrant acceptance levels."
+      ],
+      "explanation": "ISO 23278 gives acceptance levels 1, 2 and 3 for MT of welds. ISO 23277 is the penetrant equivalent."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-mt-002",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "General principles of magnetic particle testing are given in:",
+      "options": [
+       "ISO 9934-1",
+       "ISO 9934-2",
+       "ISO 9934-3",
+       "ISO 17638"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 2 covers detection media.",
+       "Part 3 covers equipment.",
+       "ISO 17638 applies the method to welds."
+      ],
+      "explanation": "ISO 9934 is in three parts: part 1 general principles, part 2 detection media, part 3 equipment."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-mt-003",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Detection media for magnetic particle testing are specified in:",
+      "options": [
+       "ISO 9934-2",
+       "ISO 9934-1",
+       "ISO 9934-3",
+       "ISO 12707"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 1 is general principles.",
+       "Part 3 is equipment.",
+       "ISO 12707 is the magnetic particle testing vocabulary."
+      ],
+      "explanation": "ISO 9934-2 specifies the ink and powder media and the tests they must satisfy."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-004",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Viewing conditions for magnetic particle and penetrant testing are specified in:",
+      "options": [
+       "ISO 3059",
+       "ISO 9934-3",
+       "ISO 17638",
+       "ISO 23278"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 9934-3 covers equipment such as yokes and benches.",
+       "ISO 17638 is the weld technique standard.",
+       "ISO 23278 gives acceptance levels."
+      ],
+      "explanation": "ISO 3059 sets out illumination and UV A requirements, and the eye adaptation time before inspection."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-005",
+     "requiresUnits": false,
+     "subtopic": "viewing",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 3059, the minimum UV A irradiance at the surface for fluorescent magnetic particle inspection is:",
+      "options": [
+       "10 W/m2",
+       "1 W/m2",
+       "50 W/m2",
+       "100 W/m2"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "1 W/m2 is an order of magnitude too low to excite the pigment adequately.",
+       "50 W/m2 far exceeds the stated minimum.",
+       "100 W/m2 is not a standard requirement and risks operator discomfort."
+      ],
+      "explanation": "ISO 3059 requires at least 10 W/m2, that is 1000 microwatts per square centimetre, at the inspection surface."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-006",
+     "requiresUnits": false,
+     "subtopic": "viewing",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 3059, the maximum ambient visible light permitted in the inspection area during fluorescent inspection is:",
+      "options": [
+       "20 lux",
+       "500 lux",
+       "100 lux",
+       "5 lux"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "500 lux is the minimum for colour contrast inspection under white light, a different case.",
+       "100 lux is too bright for fluorescent work.",
+       "5 lux is darker than required and impractical."
+      ],
+      "explanation": "Ambient white light must not exceed 20 lux so that the fluorescent indication is not washed out."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-007",
+     "requiresUnits": false,
+     "subtopic": "viewing",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "For colour contrast magnetic particle inspection under white light, ISO 3059 requires a minimum illuminance of:",
+      "options": [
+       "500 lux",
+       "20 lux",
+       "1000 lux",
+       "150 lux"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "20 lux is the maximum ambient white light permitted for fluorescent work.",
+       "1000 lux is a recommended figure for critical work but not the stated minimum.",
+       "150 lux is insufficient."
+      ],
+      "explanation": "500 lux at the surface is the minimum for non fluorescent inspection."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-008",
+     "requiresUnits": false,
+     "subtopic": "viewing",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Before fluorescent magnetic particle inspection, the operator shall allow eye adaptation of at least:",
+      "options": [
+       "1 minute",
+       "10 minutes",
+       "30 seconds",
+       "20 minutes"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "10 minutes is generous but is not the stated minimum.",
+       "30 seconds is below the requirement.",
+       "20 minutes is associated with full scotopic adaptation, not the standard requirement."
+      ],
+      "explanation": "ISO 3059 requires a minimum of 1 minute dark adaptation before inspection begins."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-009",
+     "requiresUnits": false,
+     "subtopic": "viewing",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17638, the tangential field strength at the surface of the test area should normally be at least:",
+      "options": [
+       "2 kA/m",
+       "0.5 kA/m",
+       "10 kA/m",
+       "20 kA/m"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "0.5 kA/m is too weak to produce reliable leakage fields.",
+       "10 kA/m risks excessive background and furring.",
+       "20 kA/m would give very heavy background particle build up."
+      ],
+      "explanation": "ISO 17638 requires a tangential field strength of at least 2 kA/m, which corresponds to about 25 gauss."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-010",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Excessive magnetising field strength during magnetic particle testing causes:",
+      "options": [
+       "Heavy background that masks genuine indications",
+       "Complete loss of all indications",
+       "Overheating of the detection medium",
+       "A permanent change in acceptance level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Indications are masked rather than lost entirely, but they cannot be interpreted.",
+       "The medium does not overheat from field strength.",
+       "Acceptance levels are set by standard, not by field strength."
+      ],
+      "explanation": "Too strong a field furs the surface with particles and buries real indications in background."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-011",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17638, the overlap between adjacent magnetising positions with an electromagnetic yoke shall be at least:",
+      "options": [
+       "10 %",
+       "50 %",
+       "25 %",
+       "No overlap is required"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "50 % overlap is more than the standard requires.",
+       "25 % is common practice but exceeds the minimum.",
+       "Without overlap, the low field region between poles would be untested."
+      ],
+      "explanation": "A minimum 10 % overlap of the effective area is required so that no part of the surface is left in a weak field direction."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-012",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Magnetic particle testing detects a discontinuity most readily when the discontinuity lies:",
+      "options": [
+       "Perpendicular to the magnetic field",
+       "Parallel to the magnetic field",
+       "At 45 degrees to the field",
+       "Deep within the section"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A discontinuity parallel to the field produces little or no leakage.",
+       "At 45 degrees detection is possible but the response is reduced.",
+       "MT is a surface and near surface method; depth reduces detectability."
+      ],
+      "explanation": "The leakage field is greatest when the discontinuity cuts across the lines of flux, so two field directions at right angles are used."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-mt-013",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 17638 requires that each area is tested in two field directions because:",
+      "options": [
+       "Discontinuities may lie in any orientation",
+       "The standard requires two operators",
+       "One direction demagnetises the other",
+       "AC and DC give different indications"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Two operators are not required.",
+       "The second direction does not demagnetise the first; a separate demagnetising step is used where needed.",
+       "Current type affects depth of penetration rather than orientation coverage."
+      ],
+      "explanation": "Two directions approximately at right angles ensure that discontinuities of any orientation cut the flux in at least one of them."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-mt-014",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The effective area of an electromagnetic yoke is verified using:",
+      "options": [
+       "A flux indicator or reference block with known artificial flaws",
+       "An optical densitometer",
+       "A Jaeger near vision card",
+       "A step wedge"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A densitometer is a radiographic instrument.",
+       "A Jaeger card tests the operator's near vision.",
+       "A step wedge is a radiographic thickness reference."
+      ],
+      "explanation": "Flux indicators such as the ASTM pie gauge or a reference block with known flaws confirm that the field is adequate and correctly oriented."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-015",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9934-3, the lifting force of an AC electromagnetic yoke at its maximum pole spacing shall be at least:",
+      "options": [
+       "4.5 kg",
+       "18 kg",
+       "1 kg",
+       "10 kg"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "18 kg is the DC and permanent magnet requirement.",
+       "1 kg is far below any requirement.",
+       "10 kg is not a figure used in the standard."
+      ],
+      "explanation": "An AC yoke must lift 4.5 kg at the maximum pole spacing used. A DC or permanent magnet yoke must lift 18 kg."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-016",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The lifting force requirement for a DC or permanent magnet yoke is:",
+      "options": [
+       "18 kg",
+       "4.5 kg",
+       "9 kg",
+       "25 kg"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "4.5 kg applies to AC yokes.",
+       "9 kg is not a figure in the standard.",
+       "25 kg is not a figure in the standard."
+      ],
+      "explanation": "Direct current and permanent magnet yokes must lift 18 kg at the maximum pole spacing, reflecting the deeper but less mobile field."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-017",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 23278, a linear indication is one whose length is:",
+      "options": [
+       "Greater than three times its width",
+       "Equal to its width",
+       "Greater than twice its width",
+       "Greater than five times its width"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "An indication as long as it is wide is rounded.",
+       "Two to one is not the ratio used in the ISO weld acceptance standards.",
+       "Five to one is not the ratio used."
+      ],
+      "explanation": "The three to one ratio distinguishes linear from rounded indications, and the acceptance limits differ for each."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-018",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 23278 acceptance level 1 for a weld, a linear indication is:",
+      "options": [
+       "Limited to a stated short length related to thickness",
+       "Always acceptable",
+       "Always rejectable regardless of length",
+       "Assessed only against ISO 5817 level D"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Linear indications are never unconditionally acceptable.",
+       "Length limits exist, so not every linear indication is rejected.",
+       "ISO 23278 states the limits directly; ISO 5817 is the source quality level."
+      ],
+      "explanation": "Each acceptance level states a maximum permitted length for linear indications, generally related to material thickness, with the tightest limit at level 1."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-019",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 23278 acceptance level 1 corresponds to which ISO 5817 quality level?",
+      "options": [
+       "B",
+       "C",
+       "D",
+       "None, the standards are unrelated"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Quality level C maps to acceptance level 2.",
+       "Quality level D maps to acceptance level 3.",
+       "ISO 17635 explicitly links them."
+      ],
+      "explanation": "The surface method acceptance levels map to ISO 5817 quality levels in the same way as UT and RT: level 1 to B, level 2 to C, level 3 to D."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-020",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Before magnetic particle testing to ISO 17638, the surface shall be:",
+      "options": [
+       "Free of scale, rust, weld spatter, oil and loose paint",
+       "Freshly painted",
+       "Coated with developer",
+       "Etched with acid"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Fresh paint would mask indications.",
+       "Developer is a penetrant testing material.",
+       "Etching is a metallographic operation and is not required."
+      ],
+      "explanation": "Contaminants hold particles and mask leakage fields, so the surface is cleaned. Thin adherent coatings may be permitted if proved not to impair sensitivity."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-mt-021",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A non conducting coating may be left in place for magnetic particle testing if:",
+      "options": [
+       "Its thickness is demonstrated not to impair the detection of indications",
+       "It is less than 1 mm thick",
+       "It is white in colour",
+       "The customer requests it"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A fixed thickness alone is not the criterion; demonstration is required.",
+       "Colour is irrelevant to magnetic flux leakage.",
+       "Customer preference does not override the demonstration requirement."
+      ],
+      "explanation": "The standard allows a thin adherent coating where its effect on sensitivity is demonstrated, typically by a reference block check through the coating."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-022",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Continuous magnetisation means that the detection medium is applied:",
+      "options": [
+       "While the magnetising current is flowing",
+       "After the current is switched off",
+       "Before the surface is cleaned",
+       "Only to residually magnetic materials"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Applying after the current is the residual technique, which relies on remanence.",
+       "Cleaning always precedes application.",
+       "The continuous technique is used regardless of remanence."
+      ],
+      "explanation": "In the continuous technique the ink is applied and allowed to drain while current flows, which is the required technique for most ferritic steel weld work."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-023",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The residual magnetisation technique is suitable only for materials with:",
+      "options": [
+       "High retentivity",
+       "Low permeability",
+       "No ferromagnetic content",
+       "Austenitic structure"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Low permeability makes magnetising harder and does not favour residual testing.",
+       "Non ferromagnetic material cannot be tested by MT at all.",
+       "Austenitic steel is normally non magnetic and unsuitable for MT."
+      ],
+      "explanation": "Residual testing relies on the remanent field left after the current stops, so it needs a material that retains magnetism."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-024",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Demagnetisation after magnetic particle testing is required principally when:",
+      "options": [
+       "Residual magnetism would interfere with later machining, welding or service",
+       "The acceptance level is 1",
+       "The inspection was fluorescent",
+       "The material is austenitic"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Acceptance level does not determine demagnetisation.",
+       "The medium used does not affect remanence.",
+       "Austenitic material is not magnetised in the first place."
+      ],
+      "explanation": "Remanent fields deflect arcs during welding, attract swarf during machining and disturb instruments, so demagnetisation is specified where those matter."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-025",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The written magnetic particle procedure required by ISO 17638 shall be approved by:",
+      "options": [
+       "A Level 3 qualified in the method",
+       "Any Level 1 operator",
+       "The welding supervisor",
+       "The paint inspector"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A Level 1 works to written instructions and does not approve procedures.",
+       "Welding supervision does not confer NDT method authority.",
+       "Coating inspection is unrelated."
+      ],
+      "explanation": "Procedure approval is a Level 3 responsibility under ISO 9712."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-mt-026",
+     "requiresUnits": false,
+     "subtopic": "procedure",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum industrial experience for magnetic particle testing Level 2, for a candidate already certified Level 1, is:",
+      "options": [
+       "3 months",
+       "9 months",
+       "1 month",
+       "18 months"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "9 months is the UT and RT Level 2 figure.",
+       "1 month is the MT Level 1 figure.",
+       "18 months is a Level 3 figure."
+      ],
+      "explanation": "ISO 9712 Table 3 sets MT Level 1 at 1 month and Level 2 at 3 months, the surface methods requiring less than UT and RT."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-027",
+     "requiresUnits": false,
+     "subtopic": "iso9712",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum training duration for a magnetic particle testing Level 1 candidate is:",
+      "options": [
+       "2 days",
+       "8 days",
+       "5 days",
+       "16 days"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "8 days is the UT Level 1 figure.",
+       "5 days is the RT Level 1 figure.",
+       "16 days is not a Level 1 figure."
+      ],
+      "explanation": "ISO 9712 Table 2 sets MT Level 1 training at 2 days, the surface methods being the shortest."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-028",
+     "requiresUnits": false,
+     "subtopic": "iso9712",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A magnetic particle indication that reappears after the surface is cleaned and retested is:",
+      "options": [
+       "A genuine indication warranting evaluation",
+       "Always a false indication",
+       "Evidence of excessive field strength",
+       "Proof of a subsurface lamination"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A false indication does not reproduce after proper cleaning.",
+       "Excessive field produces general background rather than a repeating discrete indication.",
+       "Reproducibility alone does not identify the discontinuity type."
+      ],
+      "explanation": "Reproducibility after cleaning distinguishes genuine leakage field indications from loose particle or contamination artefacts."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-029",
+     "requiresUnits": false,
+     "subtopic": "evaluation",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A broad fuzzy magnetic particle indication in the parent plate remote from the weld is most likely:",
+      "options": [
+       "A magnetic writing or permeability change artefact",
+       "A crack",
+       "Lack of fusion",
+       "Porosity"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A crack gives a sharp, tightly held indication.",
+       "Lack of fusion lies at the fusion face, not remote in the parent plate.",
+       "Porosity would give small rounded indications."
+      ],
+      "explanation": "Magnetic writing and local permeability changes give diffuse indications that are not sharply defined, and normally disappear on demagnetisation and retest."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-030",
+     "requiresUnits": false,
+     "subtopic": "evaluation",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Prods are generally avoided on finished surfaces during magnetic particle testing because:",
+      "options": [
+       "They can cause arc strikes and local burning",
+       "They cannot produce a circular field",
+       "They require DC only",
+       "They are prohibited by ISO 17638 in all cases"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Prods do produce a circular field, which is why they are used.",
+       "Prods can be used with AC or DC.",
+       "ISO 17638 permits prods, but their use is controlled."
+      ],
+      "explanation": "Arc strikes from prods create hard spots and crack initiation sites, so their use is restricted on finished or critical surfaces."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-031",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Alternating current magnetisation compared with direct current gives:",
+      "options": [
+       "Better surface sensitivity but less penetration",
+       "Greater depth of penetration",
+       "No difference in detectability",
+       "Deeper penetration and better surface sensitivity"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "DC gives the greater depth.",
+       "The current type materially changes the field distribution.",
+       "No single current type gives both advantages."
+      ],
+      "explanation": "Skin effect concentrates AC at the surface, which suits surface breaking cracks, while DC penetrates deeper for near surface discontinuities."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-032",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The magnetic particle test report required under the ISO family shall record:",
+      "options": [
+       "The technique, field direction, medium, viewing conditions and indications found",
+       "The welder's name only",
+       "The paint specification",
+       "The cost of consumables"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "The welder may be recorded but is not the substance of the report.",
+       "Coating specification is unrelated.",
+       "Costs do not belong in a technical record."
+      ],
+      "explanation": "The record must allow the examination to be understood and repeated, which means technique, magnetisation, medium and viewing conditions."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-mt-033",
+     "requiresUnits": false,
+     "subtopic": "reporting",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A PCN Level 2 magnetic particle candidate in the weld sector would expect the specific examination to cover:",
+      "options": [
+       "ISO 17638 and ISO 23278 applied to weld configurations",
+       "Radiation dose limits",
+       "Ultrasonic range setting",
+       "Film processing control"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Dose limits belong to the radiographic sector.",
+       "Range setting belongs to ultrasonics.",
+       "Film processing belongs to radiography."
+      ],
+      "explanation": "The specific examination is sector based and tests the codes, standards and procedures for weld magnetic particle testing."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-034",
+     "requiresUnits": false,
+     "subtopic": "pcn-exam",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In a PCN practical examination, the candidate producing a written instruction is demonstrating a task normally associated with:",
+      "options": [
+       "Level 2",
+       "Level 1",
+       "Level 3 only",
+       "No level; it is not examined"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Level 1 works to instructions rather than writing them.",
+       "Level 3 writes and approves procedures, a further step.",
+       "Instruction writing is examined in the PCN practical."
+      ],
+      "explanation": "Writing NDT instructions from a procedure is a Level 2 task under ISO 9712, and PCN examines it at that level."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-035",
+     "requiresUnits": false,
+     "subtopic": "pcn-exam",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 17638, testing is normally carried out:",
+      "options": [
+       "After any post weld heat treatment where that is specified",
+       "Before welding only",
+       "Only after painting",
+       "Before any surface preparation"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Testing before welding cannot examine the weld.",
+       "Paint would mask indications.",
+       "Surface preparation precedes testing."
+      ],
+      "explanation": "Where PWHT is specified, testing after it detects cracking that heat treatment may have introduced or revealed."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-036",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The detection medium concentration for a magnetic ink is checked using:",
+      "options": [
+       "A settlement test in a graduated flask",
+       "An optical densitometer",
+       "A Jaeger card",
+       "A hardness tester"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Densitometers measure radiographic film density.",
+       "Jaeger cards test near vision.",
+       "Hardness is unrelated to ink concentration."
+      ],
+      "explanation": "The settling volume of particles in a graduated flask after a stated time gives the concentration, which is controlled within limits."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-037",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 23278, a rounded indication is assessed against:",
+      "options": [
+       "A maximum permitted dimension and, where applicable, a limit on grouped indications",
+       "The same limits as linear indications",
+       "No limit at any level",
+       "Only the operator's judgement"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Linear and rounded indications have different limits.",
+       "Every level states limits for rounded indications.",
+       "Judgement is applied within stated limits, not instead of them."
+      ],
+      "explanation": "Rounded indications have their own size limits, with additional rules where several occur in a group."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-mt-038",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "An indication found at the weld toe during magnetic particle testing is of particular concern because:",
+      "options": [
+       "The toe is a stress concentration where fatigue cracks initiate",
+       "The toe is always outside the area of interest",
+       "Indications there are always false",
+       "The toe is not covered by ISO 17638"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "The toe is squarely within the area of interest.",
+       "Toe indications are frequently genuine.",
+       "ISO 17638 covers the weld and adjacent parent material."
+      ],
+      "explanation": "Toe cracks are service critical, which is why the surface methods concentrate on the weld and the immediately adjacent parent material."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-039",
+     "requiresUnits": false,
+     "subtopic": "evaluation",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Where both magnetic particle and penetrant testing could be applied to a ferritic weld, ISO 17635 generally favours magnetic particle because:",
+      "options": [
+       "It detects near surface as well as surface discontinuities and is faster",
+       "It requires no personnel certification",
+       "It works on austenitic steel",
+       "It needs no surface preparation"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Certification to ISO 9712 is required for both methods.",
+       "MT does not work on non magnetic austenitic material; PT does.",
+       "Both methods require surface preparation."
+      ],
+      "explanation": "MT gives some near surface capability and is quicker on ferritic material, which is why ISO 17635 routes ferritic surface inspection to it."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-mt-040",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-mt",
+     "topic": "codes"
+    }
+   ]
+  }
+ ],
+ "PT": [
+  {
+   "block": "iso_acceptance_pt",
+   "count": 40,
+   "questions": [
+    {
+     "content": {
+      "stem": "General principles of penetrant testing are given in:",
+      "options": [
+       "ISO 3452-1",
+       "ISO 3452-2",
+       "ISO 3452-3",
+       "ISO 23277"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 2 covers the testing of penetrant materials themselves.",
+       "Part 3 specifies reference test blocks.",
+       "ISO 23277 gives acceptance levels for welds."
+      ],
+      "explanation": "ISO 3452 part 1 gives general principles. Part 2 covers testing of materials, part 3 reference blocks, part 4 equipment."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-pt-001",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Acceptance levels for penetrant testing of welds are given in:",
+      "options": [
+       "ISO 23277",
+       "ISO 23278",
+       "ISO 3452-1",
+       "ISO 12706"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 23278 is the magnetic particle acceptance standard.",
+       "ISO 3452-1 is the method standard, not the acceptance standard.",
+       "ISO 12706 is the penetrant testing vocabulary."
+      ],
+      "explanation": "ISO 23277 gives acceptance levels 1, 2 and 3 for PT of welds. ISO 23278 is the magnetic particle equivalent."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-pt-002",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Reference test blocks for penetrant testing are specified in:",
+      "options": [
+       "ISO 3452-3",
+       "ISO 3452-4",
+       "ISO 3452-2",
+       "ISO 3059"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 4 specifies equipment.",
+       "Part 2 covers testing of the penetrant materials.",
+       "ISO 3059 covers viewing conditions."
+      ],
+      "explanation": "ISO 3452-3 specifies reference block 1, the nickel chrome cracked panels, and block 2, the aluminium block."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-003",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Reference block 1 of ISO 3452-3 is used to:",
+      "options": [
+       "Determine the sensitivity of a penetrant system",
+       "Measure the viscosity of the penetrant",
+       "Check the water content of the emulsifier",
+       "Calibrate a UV A meter"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Viscosity is measured by a flow cup, not a reference block.",
+       "Water content is determined by a separate chemical test.",
+       "UV A meters are calibrated against a traceable standard."
+      ],
+      "explanation": "Block 1 carries panels with controlled crack sizes and is used to classify or compare penetrant system sensitivity."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-004",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Reference block 2 of ISO 3452-3, the aluminium block, is normally used to:",
+      "options": [
+       "Compare two penetrant systems or check that a system still performs",
+       "Set the developer thickness",
+       "Measure ambient light",
+       "Verify weld acceptance level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Developer thickness is judged visually and by procedure.",
+       "Ambient light is measured with a lux meter.",
+       "Acceptance level is a specification decision."
+      ],
+      "explanation": "The cracked aluminium block, with its two halves, allows a side by side comparison between a reference and a system in use."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-005",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In the ISO designation of a penetrant system, the first character identifies:",
+      "options": [
+       "The penetrant type",
+       "The developer form",
+       "The removal method",
+       "The sensitivity level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Developer form is the third character.",
+       "Removal method is the second character.",
+       "Sensitivity level is a property of the penetrant type, given separately."
+      ],
+      "explanation": "The designation runs type of penetrant, then removal method, then developer form, for example II C d."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-006",
+     "requiresUnits": false,
+     "subtopic": "classification",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In the ISO penetrant classification, type I denotes:",
+      "options": [
+       "Fluorescent penetrant",
+       "Colour contrast penetrant",
+       "Dual purpose penetrant",
+       "Water washable penetrant"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Colour contrast is type II.",
+       "Dual purpose is type III.",
+       "Water washable is a removal method, designated A."
+      ],
+      "explanation": "Type I is fluorescent, type II is colour contrast and type III is dual purpose. Removal method is a separate character."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-007",
+     "requiresUnits": false,
+     "subtopic": "classification",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In the ISO penetrant classification, removal method A is:",
+      "options": [
+       "Water washable",
+       "Lipophilic post emulsifiable",
+       "Solvent removable",
+       "Hydrophilic post emulsifiable"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Lipophilic post emulsifiable is B.",
+       "Solvent removable is C.",
+       "Hydrophilic post emulsifiable is D."
+      ],
+      "explanation": "A is water washable, B lipophilic post emulsifiable, C solvent removable and D hydrophilic post emulsifiable."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-008",
+     "requiresUnits": false,
+     "subtopic": "classification",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In the ISO penetrant classification, developer form d is:",
+      "options": [
+       "Water based, water suspendable",
+       "Dry powder",
+       "Solvent based, non aqueous",
+       "No developer"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Dry powder is form a.",
+       "Water suspendable is form c.",
+       "No developer is form e or is stated as none."
+      ],
+      "explanation": "Developer forms run a dry powder, b water soluble, c water suspendable, d solvent based non aqueous and e special applications."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-009",
+     "requiresUnits": false,
+     "subtopic": "classification",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A post emulsifiable penetrant is used in preference to a water washable penetrant when:",
+      "options": [
+       "Higher sensitivity is needed and over washing must be avoided",
+       "Only a quick inspection is required",
+       "The surface is heavily corroded",
+       "No water supply is available"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Speed favours water washable or solvent removable systems.",
+       "Heavy corrosion traps penetrant and causes background regardless of system.",
+       "Absence of water suggests solvent removable, not post emulsifiable."
+      ],
+      "explanation": "Post emulsifiable systems resist over washing, because the penetrant only becomes removable once the emulsifier has acted for a controlled time."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-010",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The emulsification time in a post emulsifiable system is critical because:",
+      "options": [
+       "Too long a time removes penetrant from the discontinuity itself",
+       "It determines the developer thickness",
+       "It sets the UV A irradiance required",
+       "It fixes the acceptance level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Developer application is a separate step.",
+       "Irradiance is a viewing condition set by ISO 3059.",
+       "Acceptance level is specified by standard."
+      ],
+      "explanation": "Excessive emulsification allows the emulsifier to reach penetrant held in the flaw, destroying the indication."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-011",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 3452-1, the normal minimum penetrant dwell time for most applications is:",
+      "options": [
+       "5 minutes",
+       "30 seconds",
+       "60 minutes",
+       "2 hours"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "30 seconds is far too short for capillary action into fine discontinuities.",
+       "60 minutes is used only for special cases such as very tight cracks.",
+       "2 hours would risk drying of the penetrant."
+      ],
+      "explanation": "ISO 3452-1 gives 5 minutes as the usual minimum dwell, extended for tight or fatigue cracks and for low temperatures."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-012",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The standard temperature range for penetrant testing under ISO 3452-1 is:",
+      "options": [
+       "10 to 50 degrees Celsius",
+       "0 to 100 degrees Celsius",
+       "minus 10 to 10 degrees Celsius",
+       "50 to 120 degrees Celsius"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "This far exceeds the range over which the materials behave predictably.",
+       "Low temperature work is covered by ISO 3452-6 and requires qualification.",
+       "High temperature work is covered by ISO 3452-5 and requires qualification."
+      ],
+      "explanation": "The normal range is 10 to 50 degrees Celsius. Outside it, ISO 3452-5 for high temperature or ISO 3452-6 for low temperature applies, with qualification."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-013",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Penetrant testing at temperatures above the standard range is covered by:",
+      "options": [
+       "ISO 3452-5",
+       "ISO 3452-6",
+       "ISO 3452-4",
+       "ISO 23277"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 6 covers low temperature testing.",
+       "Part 4 covers equipment.",
+       "ISO 23277 covers acceptance levels."
+      ],
+      "explanation": "Part 5 addresses testing above 50 degrees Celsius and part 6 below 10 degrees Celsius."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-014",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "During excess penetrant removal with water, the water pressure and temperature are controlled to avoid:",
+      "options": [
+       "Washing penetrant out of the discontinuities",
+       "Corroding the developer",
+       "Raising the UV A output",
+       "Shortening the developing time"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Developer is applied after removal, so it is not affected at this stage.",
+       "UV A output is a property of the lamp.",
+       "Developing time is governed by procedure, not wash conditions."
+      ],
+      "explanation": "Over washing with high pressure or hot water removes the penetrant that forms the indication."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-015",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 3452-1, the water spray pressure used for removal of water washable penetrant should normally not exceed:",
+      "options": [
+       "275 kPa",
+       "1000 kPa",
+       "50 kPa",
+       "2000 kPa"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "1000 kPa is far too high and would strip indications.",
+       "50 kPa is too low for effective removal of surface penetrant.",
+       "2000 kPa approaches water jetting pressures."
+      ],
+      "explanation": "A maximum of about 275 kPa, that is roughly 40 psi, limits the risk of washing penetrant from the flaw."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-016",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Solvent removal of excess penetrant is performed by:",
+      "options": [
+       "Wiping with a clean lint free cloth lightly dampened with solvent",
+       "Flooding the surface with solvent",
+       "Immersing the part in solvent",
+       "Spraying solvent directly onto the test surface"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Flooding washes penetrant out of the flaw.",
+       "Immersion removes the penetrant entirely.",
+       "Direct spraying has the same leaching effect as flooding."
+      ],
+      "explanation": "Direct application of solvent to the surface leaches penetrant from the discontinuity, so a lightly dampened cloth is used."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-017",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Developer serves to:",
+      "options": [
+       "Draw penetrant from the discontinuity and provide a contrasting background",
+       "Remove excess penetrant",
+       "Clean the surface before testing",
+       "Fluoresce under UV A"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Excess penetrant is removed before developing.",
+       "Precleaning is a separate step.",
+       "The penetrant fluoresces, not the developer."
+      ],
+      "explanation": "The developer blots penetrant out of the flaw by reverse capillary action and spreads it, and gives contrast for colour contrast systems."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-pt-018",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Excessive developer thickness causes:",
+      "options": [
+       "Masking of fine indications",
+       "Faster indication development",
+       "Higher UV A irradiance",
+       "Longer penetrant dwell"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Thick developer slows and obscures, it does not speed up development.",
+       "Irradiance is a lamp property.",
+       "Dwell time is completed before developing."
+      ],
+      "explanation": "A heavy developer layer buries small indications and prevents them from reaching the surface of the coating."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-019",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 3452-1, the developing time is normally at least:",
+      "options": [
+       "10 minutes",
+       "1 minute",
+       "60 minutes",
+       "30 seconds"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "1 minute is too short for fine indications to bleed out.",
+       "60 minutes would allow indications to spread and lose definition.",
+       "30 seconds is far too short."
+      ],
+      "explanation": "A minimum development time of about 10 minutes allows the penetrant to bleed out, with a maximum beyond which indications spread and blur."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-020",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 3452-1, the final inspection should be completed within a stated maximum time after developing because:",
+      "options": [
+       "Indications spread and lose definition with time",
+       "The developer becomes conductive",
+       "The penetrant changes colour",
+       "The acceptance level changes"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Conductivity is irrelevant to penetrant testing.",
+       "Colour is stable; it is the spread that matters.",
+       "Acceptance levels are fixed by standard."
+      ],
+      "explanation": "Bleed out continues, so a small sharp indication becomes a broad diffuse one and size assessment is lost."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-021",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 3059, the minimum UV A irradiance for fluorescent penetrant inspection is:",
+      "options": [
+       "10 W/m2",
+       "1 W/m2",
+       "100 W/m2",
+       "0.5 W/m2"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "1 W/m2 is an order of magnitude too low.",
+       "100 W/m2 is far above the requirement.",
+       "0.5 W/m2 would not excite the pigment."
+      ],
+      "explanation": "ISO 3059 requires at least 10 W/m2, that is 1000 microwatts per square centimetre, at the surface under examination."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-022",
+     "requiresUnits": false,
+     "subtopic": "viewing",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 23277, a linear indication is one whose length is:",
+      "options": [
+       "Greater than three times its width",
+       "Twice its width",
+       "Equal to its width",
+       "Greater than five times its width"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Two to one is not the ratio used.",
+       "An indication equal in length and width is rounded.",
+       "Five to one is not the ratio used."
+      ],
+      "explanation": "As in the magnetic particle acceptance standard, the three to one ratio separates linear from rounded indications."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-023",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 23277 acceptance level 2 corresponds to which ISO 5817 quality level?",
+      "options": [
+       "C",
+       "B",
+       "D",
+       "None"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Quality level B corresponds to acceptance level 1.",
+       "Quality level D corresponds to acceptance level 3.",
+       "ISO 17635 sets out the correspondence."
+      ],
+      "explanation": "The surface acceptance levels map to ISO 5817 as level 1 to B, level 2 to C and level 3 to D."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-024",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Penetrant testing cannot detect a discontinuity that is:",
+      "options": [
+       "Not open to the surface",
+       "Linear in shape",
+       "Narrower than 1 mm",
+       "In an austenitic material"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Linear discontinuities are readily detected and are the principal concern.",
+       "Very narrow cracks are detectable, indeed they are the target of high sensitivity systems.",
+       "Austenitic material is a normal application for penetrant testing."
+      ],
+      "explanation": "The method relies on capillary entry, so a subsurface discontinuity with no surface opening cannot be found."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-pt-025",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Penetrant testing is preferred to magnetic particle testing on austenitic stainless steel because:",
+      "options": [
+       "Austenitic steel is generally non magnetic",
+       "Penetrant is cheaper",
+       "Penetrant detects subsurface flaws",
+       "Magnetic particle requires no cleaning"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Cost is not the technical reason.",
+       "Penetrant detects only surface breaking discontinuities.",
+       "Both methods require cleaning."
+      ],
+      "explanation": "Non magnetic material cannot be adequately magnetised, so the surface method available is penetrant testing."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-pt-026",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Halogen and sulphur content of penetrant materials is controlled when testing austenitic stainless steel and nickel alloys because:",
+      "options": [
+       "Residues can cause stress corrosion cracking in service",
+       "They reduce fluorescence",
+       "They shorten the dwell time",
+       "They attack the developer"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Fluorescence is not the concern being controlled.",
+       "Dwell time is unaffected by contaminant content.",
+       "Developer attack is not the reason for the limit."
+      ],
+      "explanation": "Chloride and sulphur residues promote stress corrosion cracking, so low halogen materials are specified and certificates of contaminant content are required."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-027",
+     "requiresUnits": false,
+     "subtopic": "materials",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Precleaning before penetrant testing must remove:",
+      "options": [
+       "Contaminants from within the discontinuity as well as from the surface",
+       "Only visible surface dirt",
+       "The oxide layer to bare metal in all cases",
+       "All protective coatings permanently"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Surface cleaning alone leaves blocked discontinuities undetected.",
+       "Complete removal to bare metal is not always required or desirable.",
+       "Coatings are removed for the test but may be reinstated afterwards."
+      ],
+      "explanation": "Penetrant cannot enter a flaw that is blocked, so the cleaning process must reach into the discontinuity, and drying must follow."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-028",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Shot blasting or grit blasting before penetrant testing is generally discouraged because:",
+      "options": [
+       "It can smear metal over and close surface breaking discontinuities",
+       "It removes the developer",
+       "It causes fluorescence",
+       "It reduces the acceptance level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Developer is applied later in the sequence.",
+       "Blasting does not cause fluorescence.",
+       "Acceptance levels are fixed by standard."
+      ],
+      "explanation": "Mechanical working smears the surface and seals the flaw opening, so etching may be required to reopen it."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-029",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "After drying following water removal, the drying temperature is controlled because:",
+      "options": [
+       "Excessive heat can drive penetrant out of discontinuities or degrade it",
+       "It changes the acceptance level",
+       "It affects the UV A lamp",
+       "It alters the classification designation"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Acceptance levels do not vary with process temperature.",
+       "The lamp is unaffected by part temperature.",
+       "The designation describes the materials chosen, not the process conditions."
+      ],
+      "explanation": "Overheating evaporates or degrades the penetrant held in the flaw, so drier temperatures are limited, typically to about 50 degrees Celsius."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-030",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The written penetrant procedure required by the ISO family shall be approved by:",
+      "options": [
+       "A Level 3 qualified in the method",
+       "A Level 1 operator",
+       "The welding engineer",
+       "The stores supervisor"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Level 1 works to written instructions.",
+       "Welding engineering does not confer NDT method authority.",
+       "Stores control is unrelated."
+      ],
+      "explanation": "Procedure approval is a Level 3 responsibility under ISO 9712."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-pt-031",
+     "requiresUnits": false,
+     "subtopic": "procedure",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum industrial experience for penetrant testing Level 2, for a candidate already certified Level 1, is:",
+      "options": [
+       "3 months",
+       "9 months",
+       "1 month",
+       "18 months"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "9 months applies to UT and RT Level 2.",
+       "1 month is the PT Level 1 figure.",
+       "18 months is a Level 3 figure."
+      ],
+      "explanation": "ISO 9712 Table 3 sets PT Level 1 at 1 month and Level 2 at 3 months."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-032",
+     "requiresUnits": false,
+     "subtopic": "iso9712",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, the minimum training duration for a penetrant testing Level 2 candidate holding Level 1 is:",
+      "options": [
+       "2 days",
+       "8 days",
+       "16 days",
+       "1 day"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "8 days relates to UT Level 1.",
+       "16 days is not a surface method figure.",
+       "1 day is below the stated requirement."
+      ],
+      "explanation": "ISO 9712 Table 2 sets PT Level 1 and Level 2 training at 2 days each, the shortest of the methods."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-033",
+     "requiresUnits": false,
+     "subtopic": "iso9712",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A penetrant indication that does not reappear after cleaning and retesting is:",
+      "options": [
+       "A false or non relevant indication",
+       "Always a crack",
+       "Evidence of over washing",
+       "Proof of excessive developer"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A crack reproduces on retest.",
+       "Over washing suppresses genuine indications rather than creating ones that vanish.",
+       "Excessive developer masks indications rather than creating transient ones."
+      ],
+      "explanation": "Genuine indications reproduce. An indication that does not reappear after proper reprocessing was caused by contamination or handling."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-034",
+     "requiresUnits": false,
+     "subtopic": "evaluation",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A line of small penetrant indications following the weld toe is most likely:",
+      "options": [
+       "Toe cracking or lack of fusion breaking the surface",
+       "Developer residue",
+       "A scratch from handling",
+       "An artefact of the UV lamp"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Developer residue would be diffuse and would not follow the toe precisely.",
+       "A handling scratch would not follow the weld toe line.",
+       "Lamp artefacts do not reproduce as a geometric line."
+      ],
+      "explanation": "An indication that follows the weld geometry and reproduces is a genuine feature of the joint, and the toe is the classic fatigue initiation site."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-035",
+     "requiresUnits": false,
+     "subtopic": "evaluation",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A broad diffuse fluorescent background across the whole test surface usually indicates:",
+      "options": [
+       "Inadequate removal of excess penetrant",
+       "A large crack",
+       "Correct developer application",
+       "Insufficient dwell time"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A crack gives a discrete linear indication, not general background.",
+       "Correct developer gives an even light coating without fluorescent background.",
+       "Short dwell reduces indications rather than creating background."
+      ],
+      "explanation": "General background is the classic symptom of under washing or inadequate solvent wiping, and it masks genuine indications."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-036",
+     "requiresUnits": false,
+     "subtopic": "evaluation",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A PCN Level 2 penetrant candidate in the weld sector would expect the specific examination to cover:",
+      "options": [
+       "ISO 3452-1 and ISO 23277 applied to weld configurations",
+       "Radiation dose limits",
+       "Magnetising current calculation",
+       "Ultrasonic DAC construction"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Dose limits belong to the radiographic sector.",
+       "Magnetising current belongs to magnetic particle testing.",
+       "DAC construction belongs to ultrasonics."
+      ],
+      "explanation": "The specific examination is sector based and tests the standards and procedures for weld penetrant testing."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-037",
+     "requiresUnits": false,
+     "subtopic": "pcn-exam",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 3452-4, equipment used for penetrant testing is required to:",
+      "options": [
+       "Meet stated requirements for tanks, drying, lighting and process control",
+       "Be of a single manufacturer",
+       "Be recalibrated weekly by an external body",
+       "Be dedicated to one component type"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Mixing manufacturers within a family is discouraged for the consumables, but the equipment standard does not require a single supplier.",
+       "External weekly recalibration is not a requirement of the standard.",
+       "Dedicated lines are a production choice, not a standard requirement."
+      ],
+      "explanation": "Part 4 sets requirements for the physical plant so that the process steps can be controlled and reproduced."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-pt-038",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Mixing penetrant, remover and developer from different manufacturers is discouraged because:",
+      "options": [
+       "Compatibility and system sensitivity are only proved for a matched family",
+       "It increases material cost",
+       "It is prohibited by ISO 9712",
+       "It changes the acceptance level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Cost is not the technical objection.",
+       "ISO 9712 certifies personnel, not materials.",
+       "Acceptance levels are fixed by standard."
+      ],
+      "explanation": "The system is qualified as a family, so substituting one component invalidates the demonstrated sensitivity."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-pt-039",
+     "requiresUnits": false,
+     "subtopic": "materials",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The penetrant test report required under the ISO family shall record:",
+      "options": [
+       "The system designation, process parameters, viewing conditions and indications found",
+       "The welder's certification only",
+       "The paint specification",
+       "The material purchase order"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Welder details may be noted but are not the substance of the record.",
+       "Coating specification is unrelated.",
+       "Purchase details do not belong in the technical record."
+      ],
+      "explanation": "Recording the designation and the process parameters is what allows the result to be reproduced or challenged."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-pt-040",
+     "requiresUnits": false,
+     "subtopic": "reporting",
+     "tier": "iso-acceptance-pt",
+     "topic": "codes"
+    }
+   ]
+  }
+ ],
+ "PAUT": [
+  {
+   "block": "iso_acceptance_paut",
+   "count": 40,
+   "questions": [
+    {
+     "content": {
+      "stem": "Automated phased array ultrasonic testing of welds is specified in:",
+      "options": [
+       "ISO 13588",
+       "ISO 19285",
+       "ISO 18563-1",
+       "ISO 17640"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 19285 is the acceptance standard.",
+       "ISO 18563-1 covers characterisation of phased array instruments.",
+       "ISO 17640 covers conventional manual ultrasonic testing of welds."
+      ],
+      "explanation": "ISO 13588 gives the technique and testing levels for phased array testing of welds. ISO 19285 gives the acceptance levels."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-paut-001",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Acceptance levels for phased array ultrasonic testing of welds are given in:",
+      "options": [
+       "ISO 19285",
+       "ISO 13588",
+       "ISO 11666",
+       "ISO 18563-3"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 13588 is the technique standard.",
+       "ISO 11666 gives acceptance levels for conventional ultrasonic testing.",
+       "ISO 18563-3 covers combined phased array systems."
+      ],
+      "explanation": "ISO 19285 gives PAUT acceptance levels for full penetration welds in ferritic steel."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-paut-002",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Characterisation and verification of phased array instruments is covered by:",
+      "options": [
+       "ISO 18563-1",
+       "ISO 18563-2",
+       "ISO 18563-3",
+       "ISO 22232-1"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 2 covers probes.",
+       "Part 3 covers combined systems.",
+       "ISO 22232-1 covers conventional ultrasonic instruments."
+      ],
+      "explanation": "ISO 18563 is in three parts: part 1 instruments, part 2 probes, part 3 combined systems."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-003",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Characterisation and verification of phased array probes is covered by:",
+      "options": [
+       "ISO 18563-2",
+       "ISO 18563-1",
+       "ISO 18563-3",
+       "ISO 7963"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Part 1 addresses the instrument.",
+       "Part 3 addresses the combined system in use.",
+       "ISO 7963 specifies the V2 calibration block."
+      ],
+      "explanation": "Part 2 of ISO 18563 addresses the probe, including element activity and beam characteristics."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-004",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "ISO 13588 defines testing levels A to D. Testing level D is:",
+      "options": [
+       "A special level defined entirely by a written procedure",
+       "The lowest level of testing",
+       "The default for all welds",
+       "Applicable only to austenitic material"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Level A is the lowest.",
+       "Level B is the usual default for general work.",
+       "Level D is not restricted to a material type."
+      ],
+      "explanation": "Level D covers special applications where the requirements of levels A to C do not fit, and is set out in full in a written procedure."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-005",
+     "requiresUnits": false,
+     "subtopic": "testing-levels",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 13588, testing level B differs from level A principally in:",
+      "options": [
+       "The extent of coverage and the number of angles or scan positions",
+       "The acceptance level applied",
+       "The personnel certification required",
+       "The probe manufacturer"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Acceptance level is specified separately in ISO 19285.",
+       "Certification requirements are set by ISO 9712 and do not vary with testing level.",
+       "Equipment supplier is irrelevant to the testing level."
+      ],
+      "explanation": "Higher testing levels demand more complete interrogation of the weld volume, achieved through additional angles, scans or surface preparation."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-006",
+     "requiresUnits": false,
+     "subtopic": "testing-levels",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In phased array, a sectorial scan is produced by:",
+      "options": [
+       "Sweeping the beam through a range of angles from a fixed aperture",
+       "Moving the probe mechanically along the weld",
+       "Firing all elements simultaneously",
+       "Changing the instrument gain progressively"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Mechanical movement produces the encoded scan axis, not the sectorial sweep.",
+       "Firing all elements together gives a single unfocused unsteered beam.",
+       "Gain changes amplitude, not beam angle."
+      ],
+      "explanation": "Electronic focal laws vary the delay across the aperture to steer the beam through an angular range without moving the probe."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-paut-007",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In phased array, a linear scan is produced by:",
+      "options": [
+       "Stepping an active aperture along the array at a fixed angle",
+       "Sweeping through a range of angles",
+       "Rotating the probe",
+       "Varying the pulse repetition frequency"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Sweeping through angles is the sectorial scan.",
+       "Rotation is a mechanical action, not an electronic scan.",
+       "PRF affects data rate, not scan type."
+      ],
+      "explanation": "The active aperture is stepped element by element along the array, giving coverage along the probe without mechanical movement, at one angle."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-008",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Electronic focusing in a phased array probe is achieved by:",
+      "options": [
+       "Applying a delay law across the elements so the wavefronts arrive in phase at the focal point",
+       "Using a curved wedge only",
+       "Increasing the frequency",
+       "Reducing the number of active elements"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A curved wedge gives fixed mechanical focusing, which is not electronic.",
+       "Frequency affects resolution and attenuation, not focal position.",
+       "Fewer elements reduce the aperture and worsen focusing."
+      ],
+      "explanation": "Delay laws are the defining feature of phased array, allowing both steering and focusing without changing hardware."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-009",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Grating lobes in a phased array beam are caused mainly by:",
+      "options": [
+       "Element pitch that is too large relative to the wavelength",
+       "Excessive couplant",
+       "A worn wedge",
+       "Low pulse repetition frequency"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Couplant excess affects coupling, not lobe structure.",
+       "Wedge wear changes the refracted angle and index point rather than creating grating lobes.",
+       "PRF affects data rate and can cause ghost echoes, which are a different artefact."
+      ],
+      "explanation": "When the pitch approaches or exceeds a wavelength, constructive interference occurs at unwanted angles, producing grating lobes and spurious indications."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-010",
+     "requiresUnits": false,
+     "subtopic": "physics",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Increasing the number of active elements in the aperture generally:",
+      "options": [
+       "Narrows the beam and improves focusing",
+       "Widens the beam",
+       "Has no effect on the beam",
+       "Reduces the frequency"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A smaller aperture gives a wider, more divergent beam.",
+       "Aperture size is one of the principal controls of beam shape.",
+       "Frequency is a property of the elements, not the aperture count."
+      ],
+      "explanation": "A larger aperture produces a narrower beam and a tighter focal spot, improving lateral resolution."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-011",
+     "requiresUnits": false,
+     "subtopic": "physics",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The steering range of a phased array probe is limited principally by:",
+      "options": [
+       "The directivity of the individual elements",
+       "The instrument screen size",
+       "The length of the encoder cable",
+       "The thickness of the couplant film"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Screen size is a display matter.",
+       "Cable length is a practical constraint, not a beam physics limit.",
+       "Couplant thickness affects transmission, not steering range."
+      ],
+      "explanation": "Each element radiates over a limited angular range, so steering far from normal loses sensitivity even though the focal law is valid."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-012",
+     "requiresUnits": false,
+     "subtopic": "physics",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "An encoder is used in phased array weld inspection to:",
+      "options": [
+       "Relate collected data to position along the weld",
+       "Increase the beam angle range",
+       "Reduce attenuation",
+       "Replace the calibration block"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Angle range is set by the focal laws and probe.",
+       "Attenuation is a material property.",
+       "Calibration blocks are still required."
+      ],
+      "explanation": "Positional encoding is what makes the data reviewable and re examinable, and it is normally required for coded PAUT."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-paut-013",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 13588, encoded data is generally required because:",
+      "options": [
+       "It permits later review and demonstrates coverage",
+       "It is faster than manual scanning",
+       "It removes the need for personnel certification",
+       "It eliminates the need for a procedure"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Speed is a benefit but not the reason the standard requires encoding.",
+       "Certification to ISO 9712 is still required.",
+       "A written procedure is still required."
+      ],
+      "explanation": "The auditable record of position and amplitude is the main advantage of automated phased array over manual ultrasonics."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-014",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Verification that all elements of a phased array probe are active is normally performed by:",
+      "options": [
+       "An element activity check against a reference reflector or backwall",
+       "A lux meter reading",
+       "A settlement test",
+       "A densitometer reading"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Lux meters belong to surface method viewing conditions.",
+       "Settlement tests belong to magnetic particle ink control.",
+       "Densitometers belong to radiography."
+      ],
+      "explanation": "Element activity checks fire each element in turn and compare its response, revealing dead or weak elements before they cause missed coverage."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-015",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 18563-3, the maximum number of inactive elements normally tolerated in an array is stated because:",
+      "options": [
+       "Dead elements distort the beam and reduce sensitivity",
+       "They increase the frequency",
+       "They shorten the cable life",
+       "They change the acceptance level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Element condition does not change frequency.",
+       "Cable life is unrelated.",
+       "Acceptance levels are fixed by standard."
+      ],
+      "explanation": "A dead element changes the aperture and distorts the focal law, so a limit is set and exceeding it takes the probe out of service."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-016",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A time corrected gain calibration in phased array serves to:",
+      "options": [
+       "Equalise the response from equal reflectors at different depths",
+       "Set the refracted angle",
+       "Measure the wedge delay",
+       "Determine the element pitch"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Angle is set by the focal law.",
+       "Wedge delay is a separate calibration.",
+       "Pitch is a fixed probe property."
+      ],
+      "explanation": "TCG applies depth dependent gain so a given reflector gives the same amplitude regardless of sound path, which is essential for amplitude based acceptance."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-017",
+     "requiresUnits": false,
+     "subtopic": "calibration",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Angle corrected gain in phased array is required because:",
+      "options": [
+       "Sensitivity varies with steering angle across a sectorial scan",
+       "The weld thickness varies",
+       "The couplant changes with angle",
+       "The encoder resolution changes with angle"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Thickness variation is handled by the scan plan and TCG.",
+       "Couplant does not vary with beam angle.",
+       "Encoder resolution is independent of beam angle."
+      ],
+      "explanation": "Element directivity and wedge attenuation vary across the sweep, so ACG equalises the response at each angle."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-018",
+     "requiresUnits": false,
+     "subtopic": "calibration",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A scan plan for phased array weld inspection must demonstrate:",
+      "options": [
+       "That the beams cover the weld volume and both fusion faces",
+       "The cost of the inspection",
+       "The welder's qualification",
+       "The paint system to be applied"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Cost is a commercial matter.",
+       "Welder qualification is a welding record.",
+       "Coating is unrelated."
+      ],
+      "explanation": "Coverage is the central claim of a phased array examination, and the scan plan is the evidence that the focal laws reach every part of the weld."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-paut-019",
+     "requiresUnits": false,
+     "subtopic": "procedure",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 13588, where full coverage cannot be achieved the correct action is to:",
+      "options": [
+       "Record the untested volume and report it",
+       "Report the weld as fully tested",
+       "Increase the gain to compensate",
+       "Change the acceptance level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Claiming full coverage where it was not achieved is a false record.",
+       "Gain does not create coverage where no beam reaches.",
+       "Acceptance levels are not adjusted for access limitations."
+      ],
+      "explanation": "Honest recording of the untested volume is required so that the limitation is visible to the reader and can be addressed by other means."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-020",
+     "requiresUnits": false,
+     "subtopic": "procedure",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In phased array data, an S scan display shows:",
+      "options": [
+       "Amplitude against angle and sound path from one probe position",
+       "Amplitude against time only",
+       "Position along the weld against depth for one angle",
+       "The raw radio frequency waveform only"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Amplitude against time alone is the A scan.",
+       "Position against depth for one angle is closer to a B scan.",
+       "The raw waveform is the A scan signal."
+      ],
+      "explanation": "The sectorial or S scan plots the swept angular range as a fan, showing where in the cross section each indication lies."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-021",
+     "requiresUnits": false,
+     "subtopic": "display",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A C scan display in phased array presents:",
+      "options": [
+       "A plan view of the component with amplitude or depth mapped over the surface",
+       "A single waveform",
+       "A cross sectional fan of angles",
+       "The focal law table"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A single waveform is the A scan.",
+       "The angular fan is the S scan.",
+       "Focal laws are set up data, not a display."
+      ],
+      "explanation": "The C scan is the top view, showing extent of indications over the scanned area, which is why it is used for sizing length."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-022",
+     "requiresUnits": false,
+     "subtopic": "display",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Sizing the through wall extent of a planar flaw by phased array is most reliably done by:",
+      "options": [
+       "A tip diffraction or similar geometric technique rather than amplitude alone",
+       "Reading the peak amplitude",
+       "Counting the number of active elements",
+       "Measuring the encoder distance only"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Peak amplitude sizing underestimates unfavourably oriented planar flaws.",
+       "Element count is an equipment parameter.",
+       "Encoder distance gives length along the weld, not through wall extent."
+      ],
+      "explanation": "Amplitude responses depend strongly on orientation, so diffraction based sizing is preferred for through wall extent of planar flaws."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-023",
+     "requiresUnits": false,
+     "subtopic": "sizing",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Time of flight diffraction is often combined with phased array because:",
+      "options": [
+       "It sizes through wall extent well and is relatively orientation insensitive",
+       "It is quicker to calibrate",
+       "It requires no couplant",
+       "It removes the need for an encoder"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "TOFD calibration is not inherently quicker.",
+       "Couplant is required for TOFD as for any contact ultrasonic method.",
+       "TOFD is normally encoded as well."
+      ],
+      "explanation": "TOFD relies on diffracted signals from flaw tips, which are less dependent on orientation than the specular reflections phased array relies on."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-024",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Time of flight diffraction is specified for welds in:",
+      "options": [
+       "ISO 10863",
+       "ISO 13588",
+       "ISO 19285",
+       "ISO 22825"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 13588 covers phased array technique.",
+       "ISO 19285 gives phased array acceptance levels.",
+       "ISO 22825 covers ultrasonic testing of austenitic welds."
+      ],
+      "explanation": "ISO 10863 covers the use of TOFD for welds, with ISO 15626 giving the acceptance levels."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-025",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Acceptance levels for time of flight diffraction of welds are given in:",
+      "options": [
+       "ISO 15626",
+       "ISO 10863",
+       "ISO 19285",
+       "ISO 11666"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "ISO 10863 is the TOFD technique standard.",
+       "ISO 19285 covers phased array.",
+       "ISO 11666 covers conventional ultrasonic testing."
+      ],
+      "explanation": "ISO 15626 gives the TOFD acceptance levels, matching the pattern of a technique standard plus an acceptance standard for each method."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-026",
+     "requiresUnits": false,
+     "subtopic": "standards",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The lateral wave in a TOFD setup travels:",
+      "options": [
+       "Along the surface between transmitter and receiver",
+       "Through the full thickness and back",
+       "Around the circumference of the pipe",
+       "Only in the wedge"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "The full thickness path gives the backwall signal.",
+       "Circumferential travel is not the lateral wave.",
+       "Wedge travel is the wedge delay, removed by calibration."
+      ],
+      "explanation": "The lateral wave is the first arrival, travelling just under the surface, and its loss or disturbance signals a near surface flaw."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-027",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A dead zone exists near the scanning surface in TOFD because:",
+      "options": [
+       "The lateral wave masks signals arriving at nearly the same time",
+       "The encoder cannot resolve that region",
+       "The couplant is too thick there",
+       "Phased array focal laws do not reach it"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "The encoder measures position along the weld, not depth.",
+       "Couplant thickness is not the cause.",
+       "The dead zone is a TOFD limitation, not a phased array one."
+      ],
+      "explanation": "The finite duration of the lateral wave obscures the arrival of tip signals from very shallow flaws, which is why TOFD is normally combined with a surface or phased array technique."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-028",
+     "requiresUnits": false,
+     "subtopic": "technique",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 19285, acceptance of an indication is based on:",
+      "options": [
+       "Amplitude relative to the reference level together with length limits",
+       "Amplitude alone",
+       "Length alone",
+       "The operator's certification level"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Amplitude alone would permit long low level indications.",
+       "Length alone would permit short high amplitude planar flaws.",
+       "Certification governs who may evaluate, not the criteria."
+      ],
+      "explanation": "As with conventional ultrasonics, both the echo height relative to the reference and the extent of the indication are assessed."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-029",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under the ISO phased array acceptance standards, a flaw characterised as planar is:",
+      "options": [
+       "Normally rejected regardless of size",
+       "Accepted below a length limit",
+       "Accepted below an amplitude limit",
+       "Assessed only at testing level D"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Length allowances apply to volumetric indications.",
+       "A low amplitude does not make a crack acceptable.",
+       "Testing level governs coverage, not acceptance criteria."
+      ],
+      "explanation": "As in ISO 11666, planar imperfections such as cracks and lack of fusion are not tolerated, which makes characterisation important."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-030",
+     "requiresUnits": false,
+     "subtopic": "acceptance",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The reference block used to set sensitivity for phased array weld inspection normally contains:",
+      "options": [
+       "Side drilled holes at a range of depths",
+       "A single backwall only",
+       "A 100 mm radius quadrant only",
+       "Wire type image quality indicators"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A single backwall gives one depth point and cannot define a curve.",
+       "The quadrant of the V1 block is used for angle and index point work, not TCG.",
+       "Wire IQIs are radiographic devices."
+      ],
+      "explanation": "Side drilled holes at several depths allow a TCG curve to be built across the sound path range of interest."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-031",
+     "requiresUnits": false,
+     "subtopic": "calibration",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Wedge delay calibration in phased array corrects for:",
+      "options": [
+       "The time the sound spends in the wedge before entering the part",
+       "Attenuation in the test material",
+       "The encoder step size",
+       "Variation in couplant temperature only"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Material attenuation is addressed by TCG and transfer correction.",
+       "Encoder step is a scan parameter.",
+       "Temperature affects wedge velocity, which is why the check is repeated, but the calibration itself removes the transit time."
+      ],
+      "explanation": "Wedge delay removes the fixed transit time in the wedge so that depths read correctly, and it must be repeated for each focal law group."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-032",
+     "requiresUnits": false,
+     "subtopic": "calibration",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 13588, in service checks of the phased array system during a shift typically include:",
+      "options": [
+       "Sensitivity and element activity verification against the reference block",
+       "A hardness test on the weld",
+       "A dye penetrant check of the wedge",
+       "A radiographic exposure"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Hardness testing is a separate mechanical test.",
+       "Penetrant testing of a plastic wedge is not meaningful.",
+       "Radiography is a different method entirely."
+      ],
+      "explanation": "Checks that the system still responds as calibrated, and that no element has failed, protect the validity of the shift's data."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-033",
+     "requiresUnits": false,
+     "subtopic": "equipment",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The written phased array procedure required by ISO 13588 shall be approved by:",
+      "options": [
+       "A Level 3 qualified in the method",
+       "Any Level 2 operator",
+       "The site manager",
+       "The encoder supplier"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "A Level 2 may write instructions from an approved procedure but does not approve it.",
+       "Site management does not hold method authority.",
+       "Equipment suppliers do not approve procedures."
+      ],
+      "explanation": "Procedure approval is a Level 3 responsibility under ISO 9712, including the scan plan that demonstrates coverage."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-paut-034",
+     "requiresUnits": false,
+     "subtopic": "procedure",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 9712, phased array ultrasonic testing is:",
+      "options": [
+       "A technique within the ultrasonic method, certified with a stated scope",
+       "A separate method with its own experience table",
+       "Not covered by personnel certification",
+       "Certified only at Level 3"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "It sits under the ultrasonic method rather than having a separate table.",
+       "Personnel certification applies to it as to any technique.",
+       "It is certified at Levels 1, 2 and 3 as applicable."
+      ],
+      "explanation": "ISO 9712 treats PAUT as a UT technique, and certification schemes such as PCN issue it as a defined scope within ultrasonics."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-035",
+     "requiresUnits": false,
+     "subtopic": "iso9712",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "A PCN candidate seeking phased array certification would normally be required to hold or demonstrate:",
+      "options": [
+       "Competence in conventional ultrasonic testing as a foundation",
+       "A radiographic certificate",
+       "A welding qualification",
+       "A coating inspection certificate"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Radiography is an unrelated method.",
+       "Welding qualification is not a prerequisite for NDT certification.",
+       "Coating inspection is unrelated."
+      ],
+      "explanation": "Phased array builds on conventional ultrasonic principles, so schemes require an ultrasonic foundation before the phased array scope."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-036",
+     "requiresUnits": false,
+     "subtopic": "pcn-exam",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "In a PCN phased array practical examination, the candidate would be expected to:",
+      "options": [
+       "Build and justify a scan plan, calibrate, scan, and evaluate encoded data",
+       "Answer theory questions only",
+       "Watch an examiner perform the scan",
+       "Submit a portfolio of past reports"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Theory is examined in the general and specific papers.",
+       "Observation is training, not examination.",
+       "Past reports evidence experience, not competence under examination."
+      ],
+      "explanation": "The practical examination tests the full chain from scan plan through calibration and scanning to evaluation and reporting."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-037",
+     "requiresUnits": false,
+     "subtopic": "pcn-exam",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Phased array inspection of austenitic welds is difficult principally because:",
+      "options": [
+       "Anisotropic coarse grain structure refracts and attenuates the beam",
+       "The material is non magnetic",
+       "Couplant will not adhere",
+       "Encoders do not work on stainless steel"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Magnetic properties matter to magnetic particle testing, not ultrasonics.",
+       "Couplant works normally on stainless steel.",
+       "Encoders function normally; magnetic wheel encoders need an alternative fixing."
+      ],
+      "explanation": "The columnar grain structure bends and scatters the beam so the actual beam path differs from the focal law prediction."
+     },
+     "diagram": null,
+     "difficulty": "hard",
+     "id": "isoacc-paut-038",
+     "requiresUnits": false,
+     "subtopic": "materials",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "Under ISO 13588, the data recorded for later review shall include:",
+      "options": [
+       "Position, amplitude and time or depth information for the scanned volume",
+       "Only the indications the operator chose to save",
+       "A photograph of the weld",
+       "The operator's certification certificate"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Saving only selected indications defeats the purpose of encoded data.",
+       "A photograph is not ultrasonic data.",
+       "Certification is recorded in the report but is not scan data."
+      ],
+      "explanation": "The complete data set is what allows independent review, which is the reason coded phased array is specified."
+     },
+     "diagram": null,
+     "difficulty": "medium",
+     "id": "isoacc-paut-039",
+     "requiresUnits": false,
+     "subtopic": "reporting",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    },
+    {
+     "content": {
+      "stem": "The phased array report required under the ISO family shall state the testing level and scan plan reference because:",
+      "options": [
+       "They define the coverage achieved and allow the result to be judged",
+       "They set the radiation dose",
+       "They determine the penetrant dwell",
+       "They fix the magnetising current"
+      ],
+      "answer": 0,
+      "distractors": [
+       "",
+       "Dose belongs to radiography.",
+       "Dwell belongs to penetrant testing.",
+       "Magnetising current belongs to magnetic particle testing."
+      ],
+      "explanation": "Without the testing level and scan plan the reader cannot know what volume was interrogated."
+     },
+     "diagram": null,
+     "difficulty": "easy",
+     "id": "isoacc-paut-040",
+     "requiresUnits": false,
+     "subtopic": "reporting",
+     "tier": "iso-acceptance-paut",
+     "topic": "codes"
+    }
+   ]
+  }
+ ]
+}

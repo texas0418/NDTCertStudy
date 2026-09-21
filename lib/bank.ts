@@ -14,6 +14,9 @@ import isoCore from "../assets/overlay_iso9712_core.json";
 import asntCore from "../assets/overlay_snttc1a_core.json";
 import pcnScheme from "../assets/overlay_pcn.json";
 import cswipScheme from "../assets/overlay_cswip.json";
+import isoAcceptance from "../assets/overlay_iso_acceptance.json";
+import isoQuality from "../assets/overlay_iso_quality.json";
+import pcnGeneral from "../assets/overlay_pcn_general.json";
 import { Bank, Block, Question, Unit, Variant } from "./types";
 
 // ---- certification schemes ------------------------------------------------
@@ -132,9 +135,19 @@ export const OVERLAYS: SchemeOverlay[] = [
   },
   // Body-specific deltas: PCN (BINDT) and CSWIP (TWI) layer their own scheme
   // rules on top of the shared ISO 9712 family content, into every module.
+  // The ISO family replacement for the API/ASME code, records and
+  // responsibility blocks that filterBankForScheme strips out. Without these
+  // the ISO schemes lost their code content entirely and kept only the
+  // personnel-certification overlay, which left the PCN, CSWIP and CGSB
+  // modules thinner on standards than the API ones they were derived from.
+  {
+    schemes: ["pcn", "cswip", "cgsb"],
+    shared: isoQuality as unknown as Block[],
+    byMethod: isoAcceptance as unknown as Record<string, Block[]>,
+  },
   {
     schemes: ["pcn"],
-    shared: pcnScheme as unknown as Block[],
+    shared: [...(pcnScheme as unknown as Block[]), ...(pcnGeneral as unknown as Block[])],
   },
   {
     schemes: ["cswip"],
