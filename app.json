@@ -2,7 +2,7 @@
   "expo": {
     "name": "NDT Cert Study",
     "slug": "ndt-cert-study",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "scheme": "ndtcertstudy",
     "userInterfaceStyle": "light",
@@ -12,7 +12,8 @@
       "bundleIdentifier": "com.ndtcertstudy.app",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      }
+      },
+      "buildNumber": "2"
     },
     "android": {
       "package": "com.ndtcertstudy.app",
