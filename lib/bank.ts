@@ -17,6 +17,8 @@ import cswipScheme from "../assets/overlay_cswip.json";
 import isoAcceptance from "../assets/overlay_iso_acceptance.json";
 import isoQuality from "../assets/overlay_iso_quality.json";
 import pcnGeneral from "../assets/overlay_pcn_general.json";
+import cgsbScheme from "../assets/overlay_cgsb.json";
+import cswipExtra from "../assets/overlay_cswip_extra.json";
 import { Bank, Block, Question, Unit, Variant } from "./types";
 
 // ---- certification schemes ------------------------------------------------
@@ -151,7 +153,13 @@ export const OVERLAYS: SchemeOverlay[] = [
   },
   {
     schemes: ["cswip"],
-    shared: cswipScheme as unknown as Block[],
+    shared: [...(cswipScheme as unknown as Block[]), ...(cswipExtra as unknown as Block[])],
+  },
+  // CGSB had no body-specific block at all, so its modules were identical to
+  // the bare ISO 9712 family content.
+  {
+    schemes: ["cgsb"],
+    shared: cgsbScheme as unknown as Block[],
   },
 ];
 

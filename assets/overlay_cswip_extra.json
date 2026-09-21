@@ -1,0 +1,216 @@
+[
+ {
+  "block": "cert_cswip_extra",
+  "count": 8,
+  "questions": [
+   {
+    "content": {
+     "stem": "The CSWIP scheme is administered by:",
+     "options": [
+      "TWI Certification Ltd",
+      "BINDT",
+      "Natural Resources Canada",
+      "ASNT"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "BINDT administers PCN.",
+      "NRCan administers the Canadian scheme.",
+      "ASNT operates the American schemes."
+     ],
+     "explanation": "CSWIP, Certification Scheme for Weldment Inspection Personnel, is administered by TWI Certification Ltd."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "cswip-extra-001",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "CSWIP NDT certification is based on the same technical standard as PCN, namely:",
+     "options": [
+      "ISO 9712",
+      "SNT-TC-1A",
+      "CAN/CGSB-48.9712",
+      "EN 4179"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "SNT-TC-1A is the ASNT employer based practice.",
+      "CAN/CGSB-48.9712 is the Canadian adoption of ISO 9712.",
+      "EN 4179 is the aerospace personnel standard."
+     ],
+     "explanation": "Both are UK based central certification schemes operating to ISO 9712, which is why their level structures and validity periods match."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "cswip-extra-002",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "CSWIP is best known outside NDT for its certification of:",
+     "options": [
+      "Welding inspectors, under the 3.0, 3.1 and 3.2 designations",
+      "Radiation protection supervisors",
+      "Coating inspectors only",
+      "Welding procedures"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Radiation protection supervision is a separate regulatory role.",
+      "CSWIP does certify painting inspectors, but that is not the best known scope.",
+      "Procedures are qualified under the ISO 15614 series, not certified by CSWIP."
+     ],
+     "explanation": "CSWIP 3.1 Welding Inspector and CSWIP 3.2 Senior Welding Inspector are the scheme's most widely held qualifications."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-extra-003",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A CSWIP Welding Inspector qualification differs from a CSWIP NDT method certificate in that it:",
+     "options": [
+      "Covers visual inspection and the supervision of weld quality rather than a specific NDT method",
+      "Is issued at Level 3 only",
+      "Requires no examination",
+      "Never expires"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "It is issued at several grades, 3.0, 3.1 and 3.2.",
+      "Examination is required.",
+      "It is subject to renewal like other CSWIP certification."
+     ],
+     "explanation": "The welding inspector qualification covers visual examination, codes and weld quality control; NDT method certificates cover the individual methods."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-extra-004",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under both CSWIP and PCN, a certificate issued to ISO 9712 is valid for:",
+     "options": [
+      "5 years",
+      "3 years",
+      "1 year",
+      "10 years"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Three years is not the ISO 9712 period.",
+      "One year is the vision test interval.",
+      "Ten years is the recertification interval, which is two periods."
+     ],
+     "explanation": "The five year validity is set by ISO 9712 and applies to both schemes, with recertification at ten years."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "cswip-extra-005",
+    "requiresUnits": false,
+    "subtopic": "renewal",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A candidate holding PCN Level 2 in ultrasonics who wishes to hold CSWIP Level 2 in the same method:",
+     "options": [
+      "Must apply to CSWIP and satisfy its requirements; the certificates are not interchangeable",
+      "Receives it automatically",
+      "Needs no experience evidence",
+      "Is barred from holding both"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Automatic transfer between certification bodies does not exist.",
+      "Prerequisites apply to each application.",
+      "Holding certificates from more than one body is permitted."
+     ],
+     "explanation": "The schemes are separate certification bodies. Common technical roots aid recognition but do not create automatic transfer."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cswip-extra-006",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under both ISO 9712 based schemes, the employer's written authorisation is:",
+     "options": [
+      "Still required before the certified person operates on the employer's products",
+      "Replaced by the certificate",
+      "Optional",
+      "Issued by the certification body"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "The certificate does not discharge the employer's authorisation duty.",
+      "Authorisation is a requirement, not an option.",
+      "The certification body does not issue employer authorisations."
+     ],
+     "explanation": "Certification evidences generic competence; the employer authorises work on its own equipment, procedures and products."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "cswip-extra-007",
+    "requiresUnits": false,
+    "subtopic": "responsibilities",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The principal advantage of an ISO 9712 based scheme such as PCN, CSWIP or CGSB over an employer based scheme is:",
+     "options": [
+      "Independence of the certifying body and portability of the certificate",
+      "Lower cost",
+      "Shorter training",
+      "No examination"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Central schemes are generally more expensive to obtain.",
+      "Minimum training durations are set by the standard.",
+      "Examination is central to the model."
+     ],
+     "explanation": "Independence and portability are the defining features, and they are why these certificates are specified on international projects."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "cswip-extra-008",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cswip-scheme",
+    "topic": "certification"
+   }
+  ]
+ }
+]
