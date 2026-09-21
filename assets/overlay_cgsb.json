@@ -1,0 +1,320 @@
+[
+ {
+  "block": "cert_cgsb_scheme",
+  "count": 12,
+  "questions": [
+   {
+    "content": {
+     "stem": "NDT personnel certification in Canada is administered by:",
+     "options": [
+      "Natural Resources Canada through the NDTCB",
+      "BINDT",
+      "TWI",
+      "ASNT"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "BINDT administers the PCN scheme in the United Kingdom.",
+      "TWI administers CSWIP.",
+      "ASNT operates the American schemes."
+     ],
+     "explanation": "The Non-Destructive Testing Certification Body within Natural Resources Canada administers certification to the CAN/CGSB-48.9712 standard."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cgsb-scheme-001",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The Canadian personnel certification standard is:",
+     "options": [
+      "CAN/CGSB-48.9712",
+      "CAN/CSA-W178.2",
+      "ISO 9712 as published, with no national adoption",
+      "SNT-TC-1A"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "CSA W178.2 certifies welding inspectors, a different scope.",
+      "Canada adopts ISO 9712 through the CGSB standard rather than applying it unmodified.",
+      "SNT-TC-1A is the ASNT employer-based recommended practice."
+     ],
+     "explanation": "CAN/CGSB-48.9712 is the Canadian adoption of ISO 9712, which is why CGSB certification aligns closely with PCN and CSWIP."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cgsb-scheme-002",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Because CAN/CGSB-48.9712 is an adoption of ISO 9712, a CGSB certificate shares with PCN:",
+     "options": [
+      "The three level structure, the three part examination and the five year validity",
+      "The employer based certification model",
+      "A three year validity",
+      "A single national sector only"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "The employer based model is SNT-TC-1A, not ISO 9712.",
+      "ISO 9712 sets five year validity.",
+      "Both schemes certify against defined sectors."
+     ],
+     "explanation": "Both are central certification schemes built on ISO 9712, so the level definitions, examination structure and validity match."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cgsb-scheme-003",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Certification under CAN/CGSB-48.9712 is granted in respect of:",
+     "options": [
+      "A method, a level and a sector",
+      "A method and an employer",
+      "A province of employment",
+      "A calendar year"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Employer independence is a feature of the central scheme.",
+      "Certification is national, not provincial.",
+      "Validity is five years."
+     ],
+     "explanation": "As under ISO 9712, the certificate names method, level and sector, and is independent of the employer."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "cgsb-scheme-004",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under the Canadian scheme, weld inspection acceptance is commonly assessed against:",
+     "options": [
+      "CSA W59 for welded steel construction",
+      "ISO 5817 only",
+      "API 1104 only",
+      "ASME Section IX"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "ISO 5817 is used in the European framework.",
+      "API 1104 governs pipeline welding, a narrower scope.",
+      "ASME Section IX qualifies welding procedures and welders, not weld acceptance."
+     ],
+     "explanation": "CSA W59 is the Canadian welded steel construction standard and carries the acceptance criteria for structural weld inspection."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "cgsb-scheme-005",
+    "requiresUnits": false,
+    "subtopic": "codes",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "CSA W178.2 differs from CAN/CGSB-48.9712 in that it certifies:",
+     "options": [
+      "Welding inspectors rather than NDT method personnel",
+      "Only Level 3 personnel",
+      "Only radiographers",
+      "Welding procedures"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "W178.2 has its own level structure covering more than Level 3.",
+      "It is not restricted to radiography.",
+      "Procedures are qualified under CSA W47.1 and related standards."
+     ],
+     "explanation": "W178.2 certifies welding inspectors. NDT method certification runs under the CGSB standard."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "cgsb-scheme-006",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A holder of CGSB certification working in the United Kingdom would find that:",
+     "options": [
+      "Recognition depends on the client or employer, since certificates are not automatically interchangeable",
+      "The certificate is automatically valid as a PCN certificate",
+      "No certification is required",
+      "The certificate converts on payment of a fee"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "There is no automatic conversion between certification bodies.",
+      "Certification is required in both jurisdictions.",
+      "Conversion is not a simple fee transaction."
+     ],
+     "explanation": "Both schemes derive from ISO 9712, which aids recognition, but acceptance is a matter for the specifying authority rather than automatic."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cgsb-scheme-007",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Ionising radiation for industrial radiography in Canada is regulated by:",
+     "options": [
+      "The Canadian Nuclear Safety Commission",
+      "The Health and Safety Executive",
+      "The Nuclear Regulatory Commission",
+      "Natural Resources Canada"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "The HSE regulates in Great Britain.",
+      "The NRC regulates in the United States.",
+      "NRCan administers NDT personnel certification, not radiation licensing."
+     ],
+     "explanation": "The CNSC licenses and regulates the possession and use of nuclear substances, including industrial radiography sources."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cgsb-scheme-008",
+    "requiresUnits": false,
+    "subtopic": "safety",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under the Canadian Nuclear Safety and Control Act, an industrial radiographer must hold:",
+     "options": [
+      "Certification as an exposure device operator in addition to NDT certification",
+      "NDT certification alone",
+      "A provincial permit only",
+      "No specific authorisation"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "NDT certification does not by itself authorise operation of a radiation exposure device.",
+      "Licensing is federal rather than provincial.",
+      "Authorisation is required."
+     ],
+     "explanation": "Operating an exposure device requires separate CNSC certification, which sits alongside the CGSB NDT certificate."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "cgsb-scheme-009",
+    "requiresUnits": false,
+    "subtopic": "safety",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under CAN/CGSB-48.9712, renewal of certification at five years requires:",
+     "options": [
+      "Evidence of continued work in the method and a current vision record",
+      "Full re examination in every case",
+      "Nothing",
+      "A new training course"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Full re examination belongs to recertification.",
+      "Evidence of continued activity is required.",
+      "Training is required only where activity cannot be shown."
+     ],
+     "explanation": "As under ISO 9712, renewal is documentary and recertification at ten years carries the competence demonstration."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cgsb-scheme-010",
+    "requiresUnits": false,
+    "subtopic": "renewal",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The vision requirement under the Canadian scheme is:",
+     "options": [
+      "The same annual near vision and colour differentiation test as ISO 9712",
+      "A distance vision test only",
+      "A test every five years",
+      "No requirement"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Near vision, not distance vision, is the requirement.",
+      "The interval is annual.",
+      "The requirement applies in full."
+     ],
+     "explanation": "The adoption of ISO 9712 carries its vision requirements across unchanged."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "cgsb-scheme-011",
+    "requiresUnits": false,
+    "subtopic": "vision",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Where a Canadian project specifies both CSA W59 and an ISO acceptance standard, the inspector should:",
+     "options": [
+      "Establish which governs by contract before testing and record the basis used",
+      "Apply whichever is more permissive",
+      "Apply both and report two results",
+      "Choose at the time of evaluation"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Selecting the more permissive standard is not a decision the inspector may make.",
+      "Two results without a governing basis leave the acceptance undecided.",
+      "Deciding at evaluation time is too late and is not auditable."
+     ],
+     "explanation": "The governing acceptance basis must be fixed before work starts, otherwise the result cannot be interpreted."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "cgsb-scheme-012",
+    "requiresUnits": false,
+    "subtopic": "codes",
+    "tier": "cgsb-scheme",
+    "topic": "certification"
+   }
+  ]
+ }
+]
