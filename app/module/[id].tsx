@@ -6,8 +6,10 @@ import { CalendarPicker } from "../../components/CalendarPicker";
 import { TopicTile } from "../../components/TopicTile";
 import { UnitToggle } from "../../components/UnitToggle";
 import { Paywall } from "../../components/Paywall";
+import { PrintedPackCard } from "../../components/PrintedPackCard";
 import { getBlocks, getModule, getScheme } from "../../lib/bank";
 import { buildExamPlan, formatDate } from "../../lib/plan";
+import { printedPackFor } from "../../lib/printed";
 import { blockReadiness, useStore } from "../../lib/store";
 import { mono, useReadinessColor, useTheme } from "../../lib/theme";
 
@@ -27,6 +29,7 @@ export default function ModuleScreen() {
   const unlocked = useStore((s) => s.unlocked).includes(mod.id);
   const [picking, setPicking] = useState(false);
   const blocks = getBlocks(mod.id);
+  const pack = printedPackFor(mod.baseKey);
 
   const allIds = blocks.flatMap((b) => b.questions.map((q) => q.id));
   const overall = blockReadiness(progress, allIds);
@@ -280,6 +283,8 @@ export default function ModuleScreen() {
             );
           })}
         </View>
+
+        {pack && <PrintedPackCard pack={pack} moduleTitle={mod.title} />}
 
         <Pressable
           onPress={() => router.push("/settings")}
