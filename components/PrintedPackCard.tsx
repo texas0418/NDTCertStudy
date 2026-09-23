@@ -20,10 +20,13 @@ export function PrintedPackCard({ pack, moduleTitle }: { pack: PrintedPack; modu
         paddingHorizontal: 14,
       }}
     >
-      <Text style={{ fontFamily: mono, fontSize: 10, letterSpacing: 1, color: theme.muted }}>PRINTED PACK</Text>
+      <Text style={{ fontFamily: mono, fontSize: 10, letterSpacing: 1, color: theme.muted }}>
+        {pack.kind === "scheme" ? "SCHEME PACK" : "PRINTED PACK"}
+      </Text>
       <Text style={{ fontSize: 13, color: theme.inkSoft, marginTop: 6 }}>
-        {moduleTitle} on paper: {pack.questions} questions, every one with a worked solution, plus two mock exams.
-        Opens Amazon in your browser.
+        {pack.kind === "scheme"
+          ? `The scheme rules and the EN ISO acceptance standards on paper: ${pack.questions} questions on ISO 9712, PCN, CSWIP and CGSB. It does not repeat method fundamentals. Opens Amazon in your browser.`
+          : `${moduleTitle} on paper: ${pack.questions} questions, every one with a worked solution, plus two mock exams. Opens Amazon in your browser.`}
       </Text>
     </Pressable>
   );
