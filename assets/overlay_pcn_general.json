@@ -1,0 +1,788 @@
+[
+ {
+  "block": "pcn_general_requirements",
+  "count": 30,
+  "questions": [
+   {
+    "content": {
+     "stem": "PCN certification is issued by:",
+     "options": [
+      "BINDT, the British Institute of Non-Destructive Testing",
+      "TWI",
+      "ASNT",
+      "The Health and Safety Executive"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "TWI operates the CSWIP scheme, a separate ISO 9712 based scheme.",
+      "ASNT operates the American scheme based on SNT-TC-1A and ASNT Central Certification.",
+      "The HSE is the regulator for health and safety, not a certification body."
+     ],
+     "explanation": "PCN, Personnel Certification in Non-Destructive Testing, is the scheme of BINDT, which acts as the certification body."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "pcngen-001",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The PCN scheme is accredited as a certification body against:",
+     "options": [
+      "ISO/IEC 17024",
+      "ISO/IEC 17025",
+      "ISO 9001 only",
+      "ISO 9712 only"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "ISO/IEC 17025 applies to testing and calibration laboratories.",
+      "ISO 9001 is a general quality management standard and is not sufficient for personnel certification.",
+      "ISO 9712 states the technical requirements for NDT personnel; 17024 governs the body that applies them."
+     ],
+     "explanation": "ISO/IEC 17024 sets requirements for bodies certifying persons, and accreditation to it is what gives PCN its independence."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "pcngen-002",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The technical standard on which PCN certification is based is:",
+     "options": [
+      "ISO 9712",
+      "SNT-TC-1A",
+      "EN 4179",
+      "ASME Section V"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "SNT-TC-1A is the ASNT employer based written practice, a different model.",
+      "EN 4179 is the aerospace personnel standard, applied under NANDTB oversight.",
+      "ASME Section V is an NDT method standard, not a personnel standard."
+     ],
+     "explanation": "PCN is a central certification scheme operating to ISO 9712, which is why PCN certificates are recognised internationally."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "pcngen-003",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The essential difference between PCN and an SNT-TC-1A employer based scheme is that:",
+     "options": [
+      "PCN certification is issued by an independent body and is portable between employers",
+      "PCN requires no examination",
+      "SNT-TC-1A certificates never expire",
+      "PCN covers only ultrasonics"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "PCN requires general, specific and practical examinations.",
+      "SNT-TC-1A certificates are recertified on a stated cycle and lapse on change of employer.",
+      "PCN covers the full range of methods and sectors."
+     ],
+     "explanation": "Under SNT-TC-1A the employer certifies and the certificate normally lapses on leaving. A PCN certificate belongs to the holder."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-004",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A PCN certificate is issued in respect of a defined:",
+     "options": [
+      "Method, level and sector or product scope",
+      "Method only",
+      "Employer only",
+      "Calendar year only"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "A method alone would not say what the holder may inspect.",
+      "The certificate belongs to the individual, not an employer.",
+      "Validity runs five years, not a calendar year."
+     ],
+     "explanation": "Every PCN certificate names the method, the level and the industrial sector or product, because competence is sector specific."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "pcngen-005",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Typical PCN industrial sectors include:",
+     "options": [
+      "Weld, castings, wrought products and in service inspection",
+      "Level 1, Level 2 and Level 3",
+      "General, specific and practical",
+      "Training, experience and vision"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "These are certification levels, not sectors.",
+      "These are the examination parts, not sectors.",
+      "These are certification prerequisites, not sectors."
+     ],
+     "explanation": "Sectors describe the product or application, such as welds or castings, and the specific examination is set against the chosen sector."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-006",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under the PCN scheme, the three parts of the qualification examination are:",
+     "options": [
+      "General theory, specific theory and practical",
+      "Written, oral and observed",
+      "Theory, medical and interview",
+      "Level 1, Level 2 and Level 3 papers"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "An oral component is not a standard part of the PCN examination.",
+      "No interview is held, and the vision test is a prerequisite rather than an examination part.",
+      "Levels are separate certifications, not parts of one examination."
+     ],
+     "explanation": "Each method and level is examined by a general theory paper on the method, a specific theory paper on the sector codes, and a practical."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "pcngen-007",
+    "requiresUnits": false,
+    "subtopic": "exams",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712 and the PCN scheme, the minimum pass mark for each part of the examination is:",
+     "options": [
+      "70 %",
+      "50 %",
+      "80 %",
+      "60 %"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "50 % is well below the required standard.",
+      "80 % is above the requirement, although some sector schemes set higher marks for particular sections.",
+      "60 % is below the requirement."
+     ],
+     "explanation": "A grade of at least 70 % is required in each part separately, so a strong paper cannot carry a weak one."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-008",
+    "requiresUnits": false,
+    "subtopic": "exams",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A candidate who passes the general and specific papers but fails the practical:",
+     "options": [
+      "Must retake the failed part within the permitted period and number of attempts",
+      "Is awarded the certificate anyway",
+      "Must retake all three parts immediately",
+      "Is barred from reapplying"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "All parts must be passed for the certificate to be issued.",
+      "Passed parts are retained for the stated period.",
+      "Re examination is permitted under the scheme rules."
+     ],
+     "explanation": "Parts are passed separately, and a failed part may be retaken within the period and attempt limits set by the scheme."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-009",
+    "requiresUnits": false,
+    "subtopic": "exams",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, a candidate who fails a re examination is normally required to:",
+     "options": [
+      "Wait a stated period and undertake further training before applying again",
+      "Be permanently excluded",
+      "Retake only the questions failed",
+      "Apply at a lower level automatically"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Exclusion is not permanent.",
+      "Re examination is of the whole part, not selected questions.",
+      "No automatic downgrade occurs."
+     ],
+     "explanation": "The standard sets a waiting period and further training so that repeated attempts are not simply a test of persistence."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "pcngen-010",
+    "requiresUnits": false,
+    "subtopic": "exams",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, the period of validity of a certificate is:",
+     "options": [
+      "5 years",
+      "1 year",
+      "3 years",
+      "10 years"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Annual renewal applies to the vision test, not the certificate.",
+      "Three years is the validity used by some other schemes but not ISO 9712.",
+      "Ten years is the recertification interval, which is two full periods."
+     ],
+     "explanation": "Certificates run for five years, with renewal at five years and recertification at ten."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "pcngen-011",
+    "requiresUnits": false,
+    "subtopic": "renewal",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, a vision examination must be carried out:",
+     "options": [
+      "Annually",
+      "Once at initial certification",
+      "Every five years",
+      "Only at recertification"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "A single test at certification would not detect deterioration.",
+      "Five years is the certificate validity, not the vision interval.",
+      "Waiting until recertification would leave gaps of up to ten years."
+     ],
+     "explanation": "Near vision and colour differentiation are verified annually and the record is held by the employer."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-012",
+    "requiresUnits": false,
+    "subtopic": "vision",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The near vision requirement under ISO 9712 is the ability to read:",
+     "options": [
+      "Jaeger number 1 or Times Roman N4.5 at not less than 30 cm in at least one eye",
+      "Jaeger number 5 at any distance",
+      "A 6/6 Snellen chart at 6 m",
+      "Colour plates only"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Jaeger 5 is a much larger type size and would not demonstrate the required acuity.",
+      "Snellen charts measure distance vision, which is not the near vision requirement.",
+      "Colour differentiation is a separate additional requirement."
+     ],
+     "explanation": "Near vision is tested with Jaeger 1 or equivalent at 30 cm or more, with or without correction, in at least one eye."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "pcngen-013",
+    "requiresUnits": false,
+    "subtopic": "vision",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The colour vision requirement under ISO 9712 is that the candidate:",
+     "options": [
+      "Can distinguish and differentiate the contrast between the colours used in the method",
+      "Has perfect colour vision",
+      "Is free of any colour deficiency",
+      "Can name all colours in the spectrum"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Perfect colour vision is not required.",
+      "A deficiency that does not affect the colours used in the method is not disqualifying.",
+      "Naming colours is not the test."
+     ],
+     "explanation": "The requirement is functional: the candidate must be able to distinguish the colours relevant to the method being used."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-014",
+    "requiresUnits": false,
+    "subtopic": "vision",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, renewal of certification at the end of the five year period normally requires:",
+     "options": [
+      "Evidence of continued satisfactory work activity and a current vision test",
+      "A full re examination in every case",
+      "Nothing beyond payment",
+      "A new period of training"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Full re examination belongs to recertification at ten years, and even then there are defined routes.",
+      "Payment alone does not evidence continued competence.",
+      "Fresh training is required only where the activity condition is not met."
+     ],
+     "explanation": "Renewal is a documentary process based on continued activity without significant interruption, plus the annual vision record."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-015",
+    "requiresUnits": false,
+    "subtopic": "renewal",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, recertification after ten years normally requires:",
+     "options": [
+      "A practical examination or, where permitted, a structured credit assessment",
+      "Nothing, if renewal was granted at five years",
+      "A general theory paper only",
+      "Retaking the training course"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Renewal at five years does not discharge the ten year obligation.",
+      "A theory paper alone does not demonstrate practical competence.",
+      "Training attendance is not by itself evidence of competence."
+     ],
+     "explanation": "At ten years the holder demonstrates continued competence, most commonly by practical examination, with a structured credit route available in some schemes."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "pcngen-016",
+    "requiresUnits": false,
+    "subtopic": "renewal",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Significant interruption under ISO 9712 means:",
+     "options": [
+      "An absence from the method that prevents the holder from claiming continued activity",
+      "Any holiday of more than two weeks",
+      "A change of employer",
+      "A change of sector"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Normal leave is not a significant interruption.",
+      "Changing employer does not by itself interrupt the activity, since PCN certificates are portable.",
+      "A sector change may require a further specific examination but is not itself an interruption."
+     ],
+     "explanation": "A significant interruption is a period away from the method long enough to call continued competence into question, and it affects renewal."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "pcngen-017",
+    "requiresUnits": false,
+    "subtopic": "renewal",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, a certificate may be suspended or withdrawn where the holder:",
+     "options": [
+      "Fails to meet the conditions of certification, including ethical conduct",
+      "Changes employer",
+      "Takes annual leave",
+      "Works in more than one sector"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Portability is a feature of the scheme, not a breach.",
+      "Leave does not affect certification.",
+      "Multiple sector scopes are normal where each has been examined."
+     ],
+     "explanation": "The certification body may suspend or withdraw for breach of conditions, including falsification of records or unethical conduct."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-018",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, the body that conducts the examination on behalf of the certification body is:",
+     "options": [
+      "An authorised qualification body",
+      "The candidate's employer in all cases",
+      "The national regulator",
+      "Any training provider"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Employer conducted examination is the SNT-TC-1A model, not ISO 9712.",
+      "Regulators do not conduct NDT examinations.",
+      "A training provider must be separately authorised as an examination centre."
+     ],
+     "explanation": "Examinations are conducted at authorised qualification bodies, examination centres operating under the certification body's control."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "pcngen-019",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712 the training body and the examination must be separated so that:",
+     "options": [
+      "The examination remains independent of the training provided",
+      "Candidates pay two fees",
+      "Training can be shortened",
+      "The employer can set the questions"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Fees are a consequence, not the purpose.",
+      "Minimum training durations are set by the standard and are not shortened.",
+      "Employers do not set examination questions under a central scheme."
+     ],
+     "explanation": "Independence between instruction and examination is what makes a central certification scheme credible."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-020",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A PCN Level 1 holder is authorised to:",
+     "options": [
+      "Carry out testing to written instructions under Level 2 or Level 3 supervision",
+      "Approve NDT procedures",
+      "Interpret and evaluate results against codes independently",
+      "Select the test method for a job"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Procedure approval belongs to Level 3.",
+      "Independent evaluation against codes belongs to Level 2.",
+      "Method selection belongs to Level 3."
+     ],
+     "explanation": "Level 1 performs the test to instructions and reports the raw result. Interpretation against acceptance criteria is a Level 2 function."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "pcngen-021",
+    "requiresUnits": false,
+    "subtopic": "levels",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A PCN Level 2 holder is authorised to:",
+     "options": [
+      "Set up and calibrate equipment, interpret and evaluate results against codes, and write NDT instructions",
+      "Approve NDT procedures and qualify personnel",
+      "Perform testing only under supervision",
+      "Act as the certification body"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Procedure approval and personnel qualification are Level 3 functions.",
+      "Working under supervision describes Level 1.",
+      "Certification is the function of BINDT, not an individual."
+     ],
+     "explanation": "Level 2 carries the working responsibility: setting up, evaluating against acceptance criteria, writing instructions and reporting."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "pcngen-022",
+    "requiresUnits": false,
+    "subtopic": "levels",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A PCN Level 3 holder is authorised to:",
+     "options": [
+      "Establish and approve procedures, select methods and techniques, and assist in qualifying personnel",
+      "Only supervise Level 1 operators",
+      "Only perform practical testing",
+      "Issue PCN certificates"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Supervision is one part of a much wider responsibility.",
+      "Level 3 may perform testing but that is not the distinguishing authority.",
+      "Certificates are issued by BINDT as the certification body."
+     ],
+     "explanation": "Level 3 carries full technical responsibility for the NDT programme, including procedure approval and method selection."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-023",
+    "requiresUnits": false,
+    "subtopic": "levels",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, responsibility for verifying that a candidate's stated industrial experience is genuine rests with:",
+     "options": [
+      "The employer, who attests it, subject to verification by the certification body",
+      "The candidate alone",
+      "The training provider",
+      "The examiner on the day"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "A self declaration without employer attestation is not accepted.",
+      "Training providers evidence training, not industrial experience.",
+      "The examiner assesses the examination, not the experience record."
+     ],
+     "explanation": "Experience is attested by the employer in a documented form and is subject to verification by the certification body."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-024",
+    "requiresUnits": false,
+    "subtopic": "prerequisites",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712, experience gained in more than one method may be credited:",
+     "options": [
+      "Pro rata, with the total not less than the sum required and each method meeting its own minimum share",
+      "In full for every method simultaneously",
+      "Only for the primary method",
+      "Only if gained with one employer"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Counting the same time in full for several methods would overstate experience.",
+      "Experience in secondary methods can be credited when properly documented.",
+      "Experience with several employers is acceptable if attested."
+     ],
+     "explanation": "Where a candidate works across methods, experience is apportioned, and the standard sets how the total and the per method minimum are calculated."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "pcngen-025",
+    "requiresUnits": false,
+    "subtopic": "prerequisites",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under the PCN scheme, an appeal against an examination result is made:",
+     "options": [
+      "To BINDT under the published appeals procedure, within the stated time limit",
+      "To the examiner informally",
+      "To the employer",
+      "To the Health and Safety Executive"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "An informal approach to the examiner is not the defined route.",
+      "The employer has no authority over the certification body's decisions.",
+      "The HSE regulates health and safety, not certification."
+     ],
+     "explanation": "The scheme publishes an appeals and complaints procedure with defined routes and time limits, which is a requirement of ISO/IEC 17024."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-026",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under the PCN scheme, candidates are required to sign a code of ethics because:",
+     "options": [
+      "Certification depends on honest reporting and conduct as well as technical skill",
+      "It replaces the practical examination",
+      "It shortens the experience requirement",
+      "It is required by ISO 5817"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Ethics undertakings do not replace any examination.",
+      "Experience requirements are unaffected.",
+      "ISO 5817 is a weld quality standard, unrelated to personnel conduct."
+     ],
+     "explanation": "The scheme conditions include a code of ethics, and breach of it is grounds for suspension or withdrawal."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-027",
+    "requiresUnits": false,
+    "subtopic": "scheme",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Falsifying an NDT report is treated under the PCN scheme as:",
+     "options": [
+      "Grounds for withdrawal of certification, independent of any legal consequence",
+      "A matter for the employer only",
+      "A minor administrative error",
+      "Acceptable if no defect was missed"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "The certification body acts on its own account in addition to any employer action.",
+      "Falsification is not administrative.",
+      "The absence of consequence does not make a false record acceptable."
+     ],
+     "explanation": "The certification body may withdraw certification for such conduct, and the fact that no harm resulted is not a defence."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "pcngen-028",
+    "requiresUnits": false,
+    "subtopic": "ethics",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An NDT instruction, as distinct from an NDT procedure, is:",
+     "options": [
+      "A written description of the steps for a specific application, derived from an approved procedure",
+      "A more authoritative document than a procedure",
+      "A record of the results obtained",
+      "A national standard"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "The procedure is the senior document.",
+      "Results are recorded in the report.",
+      "National standards sit above both."
+     ],
+     "explanation": "The procedure states how the method is applied generally and is approved by Level 3. The instruction applies it to a particular job and may be written by Level 2."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "pcngen-029",
+    "requiresUnits": false,
+    "subtopic": "documentation",
+    "tier": "pcn-general",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712 the employer, as distinct from the certification body, remains responsible for:",
+     "options": [
+      "Authorising the certified individual to operate on the employer's equipment and products",
+      "Setting the examination questions",
+      "Issuing the certificate",
+      "Setting the pass mark"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Examination content is controlled by the certification body.",
+      "Certificates are issued by BINDT.",
+      "Pass marks are set by the standard and the scheme."
+     ],
+     "explanation": "Certification proves generic competence. The employer still issues a written authorisation covering its own equipment, procedures and products."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "pcngen-030",
+    "requiresUnits": false,
+    "subtopic": "responsibilities",
+    "tier": "pcn-general",
+    "topic": "certification"
+   }
+  ]
+ }
+]

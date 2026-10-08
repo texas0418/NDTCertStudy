@@ -1,0 +1,736 @@
+[
+ {
+  "block": "iso_quality_records",
+  "count": 28,
+  "questions": [
+   {
+    "content": {
+     "stem": "The standard giving general requirements for the competence of testing and calibration laboratories is:",
+     "options": [
+      "ISO/IEC 17025",
+      "ISO/IEC 17024",
+      "ISO 9001",
+      "ISO 9712"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "ISO/IEC 17024 governs personnel certification bodies such as BINDT.",
+      "ISO 9001 is a general quality management system standard.",
+      "ISO 9712 sets requirements for NDT personnel qualification."
+     ],
+     "explanation": "ISO/IEC 17025 applies to the laboratory or inspection organisation. ISO/IEC 17024 applies to bodies certifying persons."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-001",
+    "requiresUnits": false,
+    "subtopic": "quality",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The standard giving requirements for bodies operating certification of persons is:",
+     "options": [
+      "ISO/IEC 17024",
+      "ISO/IEC 17025",
+      "ISO 17635",
+      "ISO 5817"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "ISO/IEC 17025 applies to testing laboratories.",
+      "ISO 17635 gives general rules for NDT of welds.",
+      "ISO 5817 gives weld quality levels."
+     ],
+     "explanation": "ISO/IEC 17024 is the accreditation standard behind central certification schemes such as PCN and CSWIP."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-002",
+    "requiresUnits": false,
+    "subtopic": "quality",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The standard giving general requirements for the operation of bodies performing inspection is:",
+     "options": [
+      "ISO/IEC 17020",
+      "ISO/IEC 17024",
+      "ISO 9712",
+      "ISO 17636-1"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "ISO/IEC 17024 covers personnel certification bodies.",
+      "ISO 9712 covers the individuals rather than the organisation.",
+      "ISO 17636-1 is a radiographic technique standard."
+     ],
+     "explanation": "ISO/IEC 17020 covers inspection bodies, and many NDT service companies hold accreditation to it or to ISO/IEC 17025."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "isoqr-003",
+    "requiresUnits": false,
+    "subtopic": "quality",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An NDT report is a controlled record principally because:",
+     "options": [
+      "It is evidence of the condition of the item and may be relied on for years",
+      "It is required for invoicing",
+      "It proves the operator attended work",
+      "It satisfies the training provider"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Commercial documents are separate from the technical record.",
+      "Attendance records are a personnel matter.",
+      "Training providers hold training records, not inspection reports."
+     ],
+     "explanation": "Reports support fitness for service decisions long after the inspection, so their retention, traceability and integrity are controlled."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "isoqr-004",
+    "requiresUnits": false,
+    "subtopic": "records",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Traceability of an NDT report requires, as a minimum, identification of:",
+     "options": [
+      "The item tested, the procedure, the equipment, the personnel and the date",
+      "The report number alone",
+      "The client name alone",
+      "The weather conditions"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "A number without content cannot be traced to an examination.",
+      "The client identifies the commercial relationship, not the examination.",
+      "Environmental conditions are recorded where they affect the method, but they are not the basis of traceability."
+     ],
+     "explanation": "Each of these is needed to reconstruct what was done and to connect the result to a specific item and a specific competent person."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "isoqr-005",
+    "requiresUnits": false,
+    "subtopic": "records",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A correction to an issued NDT report should be made by:",
+     "options": [
+      "Issuing a revised report that identifies the change and supersedes the original",
+      "Overwriting the original entry",
+      "Destroying the original and reissuing",
+      "Making a verbal correction to the client"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Overwriting destroys the audit trail.",
+      "Destroying the original removes evidence of what was originally reported.",
+      "Verbal corrections leave no record."
+     ],
+     "explanation": "Record integrity requires that the change is visible and the superseded version accounted for."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-006",
+    "requiresUnits": false,
+    "subtopic": "records",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Where an NDT result is reported as acceptable, the record should nevertheless include indications below the acceptance level when:",
+     "options": [
+      "The procedure or specification requires recording at the evaluation level",
+      "Never, since they are acceptable",
+      "Only if the client asks verbally",
+      "Only at Level 3"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Acceptable indications are frequently recorded by requirement.",
+      "Verbal requests do not change the procedural requirement.",
+      "Recording is a procedural matter, not a level matter."
+     ],
+     "explanation": "The evaluation level defines what must be recorded, and recorded but acceptable indications support later fitness for service and trend work."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "isoqr-007",
+    "requiresUnits": false,
+    "subtopic": "records",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Calibration records for NDT equipment are retained in order to:",
+     "options": [
+      "Demonstrate that the equipment was within specification when the test was performed",
+      "Support the purchase decision",
+      "Prove the equipment was insured",
+      "Satisfy the manufacturer's warranty"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Purchasing is a commercial matter.",
+      "Insurance is unrelated to technical validity.",
+      "Warranty conditions are a supplier matter."
+     ],
+     "explanation": "A result is only as good as the equipment that produced it, so the calibration status at the time of test must be demonstrable afterwards."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-008",
+    "requiresUnits": false,
+    "subtopic": "records",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "If equipment is found out of calibration, the correct action regarding work already performed is to:",
+     "options": [
+      "Assess the impact and re examine the affected work where validity cannot be demonstrated",
+      "Assume the work was satisfactory",
+      "Report the work with a disclaimer",
+      "Do nothing if no defects were found"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "An assumption of validity is not an assessment.",
+      "A disclaimer does not make an invalid result valid.",
+      "Absence of findings may itself be the consequence of the fault."
+     ],
+     "explanation": "The organisation must evaluate the effect on previous results and act, which normally means recall and re examination."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-009",
+    "requiresUnits": false,
+    "subtopic": "quality",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 17635, the selection of an NDT method for a weld is made on the basis of:",
+     "options": [
+      "Material, thickness, welding process, joint geometry and the imperfections expected",
+      "The cost of each method",
+      "The availability of certified operators",
+      "The preference of the client's purchasing department"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Cost may influence commercial choice but not technical selection.",
+      "Operator availability is a resourcing problem, not a selection basis.",
+      "Purchasing has no technical authority over method selection."
+     ],
+     "explanation": "ISO 17635 tabulates method selection so the method matches the imperfection types the process is likely to produce."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-010",
+    "requiresUnits": false,
+    "subtopic": "selection",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 17635, surface methods and volumetric methods are both specified for a critical weld because:",
+     "options": [
+      "They detect different imperfection types and locations",
+      "Two methods double the report length",
+      "One method is a backup for the other",
+      "The standard requires redundancy for its own sake"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Report length is not a consideration.",
+      "They are complementary, not duplicative.",
+      "The requirement is technical, not formal."
+     ],
+     "explanation": "Surface methods find surface breaking imperfections that volumetric methods size poorly, and vice versa, so they are complementary rather than redundant."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-011",
+    "requiresUnits": false,
+    "subtopic": "selection",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "ISO 6520-1 is used in weld inspection to:",
+     "options": [
+      "Classify and designate imperfections in metallic fusion welds",
+      "Set acceptance levels",
+      "Specify radiographic film",
+      "Qualify welders"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Acceptance levels are in ISO 5817 and the method acceptance standards.",
+      "Film is classified in ISO 11699-1.",
+      "Welder qualification is in the ISO 9606 series."
+     ],
+     "explanation": "ISO 6520-1 gives the numbering and naming system for weld imperfections, which the acceptance standards then reference."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-012",
+    "requiresUnits": false,
+    "subtopic": "standards",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 5817, the quality level required for a given joint is determined by:",
+     "options": [
+      "The application standard or contract, taking account of service conditions",
+      "The inspector on the day",
+      "The NDT method chosen",
+      "The welder's certification level"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Quality level is not an inspection time decision.",
+      "The method is chosen after the quality level is known, not the other way round.",
+      "Welder qualification does not set the acceptance requirement."
+     ],
+     "explanation": "Quality level is a design and specification decision reflecting loading, service and consequence of failure, and it then drives the NDT acceptance level."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-013",
+    "requiresUnits": false,
+    "subtopic": "standards",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A crack detected in a weld assessed to ISO 5817 quality level D is:",
+     "options": [
+      "Not permitted, since cracks are not permitted at any quality level",
+      "Permitted if short",
+      "Permitted if it does not break the surface",
+      "Assessed against a length limit"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Length allowances do not apply to cracks.",
+      "Subsurface cracks are equally not permitted.",
+      "No length limit makes a crack acceptable."
+     ],
+     "explanation": "ISO 5817 does not permit cracks at any of its quality levels, which is why planar characterisation matters in the volumetric methods."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-014",
+    "requiresUnits": false,
+    "subtopic": "standards",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under the ISO family, the person who evaluates indications against the acceptance criteria must hold as a minimum:",
+     "options": [
+      "Level 2 in the method and sector",
+      "Level 1 in the method",
+      "Level 3 in the method",
+      "No certification, if supervised"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Level 1 performs and records but does not evaluate against acceptance criteria.",
+      "Level 3 may evaluate but is not the minimum requirement.",
+      "Uncertified evaluation is not permitted."
+     ],
+     "explanation": "Interpretation and evaluation against codes is a Level 2 function under ISO 9712."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "isoqr-015",
+    "requiresUnits": false,
+    "subtopic": "responsibilities",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The scope of work for an NDT examination should be agreed before work starts principally because:",
+     "options": [
+      "Coverage, acceptance criteria and reporting requirements must be defined to make the result meaningful",
+      "It speeds up invoicing",
+      "It reduces the amount of testing",
+      "It avoids the need for a procedure"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Commercial convenience is secondary.",
+      "Scope definition does not imply reduction.",
+      "A written procedure is still required."
+     ],
+     "explanation": "Without an agreed scope the result cannot be interpreted, because what was and was not examined is undefined."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "isoqr-016",
+    "requiresUnits": false,
+    "subtopic": "documentation",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A written NDT procedure prepared to the ISO family should state, among other things:",
+     "options": [
+      "The standards applied, equipment, settings, coverage, acceptance criteria and personnel requirements",
+      "The company turnover",
+      "The client's payment terms",
+      "The operator's home address"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Financial information does not belong in a technical procedure.",
+      "Commercial terms are separate.",
+      "Personal details are not procedural content."
+     ],
+     "explanation": "The procedure must contain everything needed to carry out and reproduce the examination and judge the result."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "isoqr-017",
+    "requiresUnits": false,
+    "subtopic": "documentation",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Where a procedure and the governing application standard conflict, the correct action is to:",
+     "options": [
+      "Stop and resolve the conflict formally before proceeding",
+      "Follow the procedure",
+      "Follow the standard",
+      "Follow whichever is less onerous"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "A procedure cannot override the standard it is written to satisfy.",
+      "Proceeding to the standard while working to a non compliant procedure leaves the record inconsistent.",
+      "Choosing the lesser requirement is not a technical decision the operator may make."
+     ],
+     "explanation": "An unresolved conflict means the basis for accepting the work is undefined, so it is referred to Level 3 and the specifying authority."
+    },
+    "diagram": null,
+    "difficulty": "hard",
+    "id": "isoqr-018",
+    "requiresUnits": false,
+    "subtopic": "documentation",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The purpose of a technique or procedure qualification on a representative specimen is to:",
+     "options": [
+      "Demonstrate that the procedure detects the imperfections it is intended to find",
+      "Train the operator",
+      "Satisfy the client commercially",
+      "Calibrate the equipment"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Training is separate from qualification of the technique.",
+      "Qualification is technical, not commercial.",
+      "Calibration is one step within the qualified technique."
+     ],
+     "explanation": "Qualification shows the whole technique works on a representative geometry and material, which calibration alone does not prove."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-019",
+    "requiresUnits": false,
+    "subtopic": "quality",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under the ISO family, an examination performed outside the parameters of the approved procedure is:",
+     "options": [
+      "Invalid until the deviation is assessed and formally accepted",
+      "Valid if the operator is Level 3",
+      "Valid if no defects were found",
+      "Valid if it was quicker"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Certification level does not authorise silent deviation.",
+      "Absence of findings does not validate an unqualified technique.",
+      "Efficiency is not a technical justification."
+     ],
+     "explanation": "Deviations must be assessed and accepted through the concession route, otherwise the result is not covered by the approved basis."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-020",
+    "requiresUnits": false,
+    "subtopic": "quality",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "A non conformance raised during NDT should be:",
+     "options": [
+      "Recorded, reported to the responsible party and tracked to closure",
+      "Corrected quietly by the operator",
+      "Noted verbally only",
+      "Ignored if the item passed on retest"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Silent correction removes the record needed for corrective action.",
+      "Verbal notes are not auditable.",
+      "A pass on retest does not remove the original non conformance."
+     ],
+     "explanation": "Non conformances feed corrective action and trend analysis, so they are recorded and closed formally."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "isoqr-021",
+    "requiresUnits": false,
+    "subtopic": "quality",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The principal reason for controlling the issue and revision status of NDT procedures is to:",
+     "options": [
+      "Ensure that work is performed to the current approved version",
+      "Reduce printing costs",
+      "Satisfy the training provider",
+      "Allow more procedures to be written"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Cost is incidental.",
+      "Training providers do not control operational procedures.",
+      "Document control restricts uncontrolled proliferation rather than encouraging it."
+     ],
+     "explanation": "Superseded procedures in circulation are a common cause of invalid work, so issue control is a core quality requirement."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-022",
+    "requiresUnits": false,
+    "subtopic": "documentation",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Under ISO 9712 the certified individual may perform work:",
+     "options": [
+      "Within the method, level and sector of the certificate, once authorised by the employer",
+      "In any method at the same level",
+      "In any sector within the method",
+      "Only in the presence of a Level 3"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Each method is certified separately.",
+      "Sector scope is examined separately through the specific examination.",
+      "Supervision applies to Level 1, not to every certified person."
+     ],
+     "explanation": "The certificate scope is bounded by method, level and sector, and the employer's written authorisation activates it."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-023",
+    "requiresUnits": false,
+    "subtopic": "responsibilities",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "An NDT technician asked to approve a result outside their certified sector should:",
+     "options": [
+      "Decline and refer it to a person certified in that sector",
+      "Approve it if the method is the same",
+      "Approve it under supervision",
+      "Approve it and note the limitation"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "The method being common does not extend the sector scope.",
+      "Supervision does not substitute for certification scope.",
+      "A noted limitation does not validate an out of scope approval."
+     ],
+     "explanation": "Sector scope is part of the certificate because acceptance criteria and product knowledge differ, so approval outside it is not valid."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-024",
+    "requiresUnits": false,
+    "subtopic": "ethics",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Where commercial pressure is applied to accept a rejectable indication, the certified person should:",
+     "options": [
+      "Report the result as found and escalate through the defined route",
+      "Accept it to keep the schedule",
+      "Leave the indication unrecorded",
+      "Ask the welder to decide"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Schedule pressure is not a technical basis for acceptance.",
+      "Omitting the record is falsification.",
+      "The welder is not the acceptance authority."
+     ],
+     "explanation": "The code of ethics and the certification conditions require the result to be reported as found, whatever the commercial consequence."
+    },
+    "diagram": null,
+    "difficulty": "easy",
+    "id": "isoqr-025",
+    "requiresUnits": false,
+    "subtopic": "ethics",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "The purpose of an internal audit of an NDT function is to:",
+     "options": [
+      "Verify that work is being done to the procedures and that the system is effective",
+      "Assess individual operator pay",
+      "Replace the calibration programme",
+      "Provide training credit"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Remuneration is a personnel matter.",
+      "Audit checks the calibration programme rather than replacing it.",
+      "Audit is not a training activity."
+     ],
+     "explanation": "Audit checks conformity and effectiveness, feeding corrective action, and is a requirement of the quality standards the organisation holds."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-026",
+    "requiresUnits": false,
+    "subtopic": "quality",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Retention periods for NDT records are normally set by:",
+     "options": [
+      "The contract, the application standard and any statutory requirement",
+      "The operator's preference",
+      "The available filing space",
+      "The equipment manufacturer"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Individual preference does not set retention.",
+      "Storage capacity is a practical constraint, not a requirement.",
+      "Manufacturers set equipment maintenance records, not inspection retention."
+     ],
+     "explanation": "Records for pressure equipment and structures often must be held for the life of the item, and the requirement comes from the contract, code or law."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-027",
+    "requiresUnits": false,
+    "subtopic": "records",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   },
+   {
+    "content": {
+     "stem": "Where an NDT report is produced electronically, the organisation must ensure that:",
+     "options": [
+      "The record is protected against unauthorised alteration and remains retrievable",
+      "It is printed and the file deleted",
+      "It is stored on one computer only",
+      "It is emailed to every employee"
+     ],
+     "answer": 0,
+     "distractors": [
+      "",
+      "Deleting the file removes the original record.",
+      "A single copy without backup risks total loss.",
+      "Wide distribution is not a control and may breach confidentiality."
+     ],
+     "explanation": "Electronic records need integrity and retrievability controls equivalent to those applied to paper."
+    },
+    "diagram": null,
+    "difficulty": "medium",
+    "id": "isoqr-028",
+    "requiresUnits": false,
+    "subtopic": "records",
+    "tier": "iso-quality-records",
+    "topic": "certification"
+   }
+  ]
+ }
+]
