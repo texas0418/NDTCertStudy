@@ -5,6 +5,7 @@ import { getEveryQuestion } from "../lib/bank";
 import { blockReadiness, useStore } from "../lib/store";
 import { restorePurchases } from "../lib/purchases";
 import { mono, useTheme } from "../lib/theme";
+import MoreApps from "../lib/MoreAppsSection";
 import { ThemeMode } from "../lib/types";
 
 declare const __DEV__: boolean;
@@ -212,6 +213,7 @@ export default function Settings() {
           An independent study aid. Not affiliated with, endorsed by, or sponsored by API, ASNT, ISO, CGSB, BINDT/PCN,
           or TWI/CSWIP. All certification names and marks are the property of their respective owners.
         </Text>
+        <MoreApps />
       </ScrollView>
     </SafeAreaView>
   );
