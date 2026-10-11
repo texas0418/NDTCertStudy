@@ -4,6 +4,7 @@ import { Pressable, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { ProgressBar } from "../components/ProgressBar";
 import { useStore } from "../lib/store";
+import { recordSessionCompleted } from "../lib/storeReview";
 import { blockLabels, mono, useReadinessColor, useTheme } from "../lib/theme";
 
 export default function Results() {
@@ -13,6 +14,14 @@ export default function Results() {
   const { exam } = useLocalSearchParams<{ exam?: string }>();
   const exams = useStore((s) => s.exams);
   const rec = (exam ? exams.find((e) => e.id === exam) : undefined) ?? exams[0];
+  const isFreshResult = !exam && !!rec;
+
+  React.useEffect(() => {
+    // Count only a session that just finished (session.tsx navigates here
+    // with no exam param); revisits from history carry one and don't count.
+    if (isFreshResult) recordSessionCompleted();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   if (!rec) {
     return (
